@@ -1,41 +1,58 @@
 #!/usr/bin/env python3
 """
-OCR PDF and process results into a structured table
+Run surya_ocr on a PDF and display the results
+Optimized for RTX 4080 Super (16GB VRAM)
 """
 import argparse
 import json
+import os
 import subprocess
 from pathlib import Path
 
 
-def run_surya_ocr(pdf_path: str, output_dir: str = "ocr_output") -> Path:
+def run_surya_ocr(pdf_path: str, output_dir: str = "ocr_output", use_gpu: bool = True) -> Path:
     """
-    Run surya OCR on a PDF file
+    Run surya OCR on a PDF file using CLI
 
     Args:
         pdf_path: Path to the PDF file
-        output_dir: Directory to save OCR results
+        output_dir: Directory to save results
+        use_gpu: Whether to use GPU (default: True)
 
     Returns:
         Path to the results.json file
     """
     print(f"Running OCR on {pdf_path}...")
 
-    # Create output directory if it doesn't exist
+    # Create output directory
     output_path = Path(output_dir)
     output_path.mkdir(exist_ok=True)
 
-    # Run surya OCR
-    cmd = [
-        "surya_ocr",
-        pdf_path,
-        "--results_dir", output_dir
-    ]
+    # Set environment variables for GPU
+    env = os.environ.copy()
+    if use_gpu:
+        env['TORCH_DEVICE'] = 'cuda'
+        env['DETECTOR_BATCH_SIZE'] = '48'
+        env['RECOGNITION_BATCH_SIZE'] = '96'  # OCR batch size
+        print("GPU mode enabled (RTX 4080 Super optimized)")
+        print(f"  DETECTOR_BATCH_SIZE: 48 (~13.4GB VRAM)")
+        print(f"  RECOGNITION_BATCH_SIZE: 96 (~14.4GB VRAM)")
+    else:
+        env['TORCH_DEVICE'] = 'cpu'
+        env['DETECTOR_BATCH_SIZE'] = '2'
+        env['RECOGNITION_BATCH_SIZE'] = '4'
+        print("CPU mode")
 
-    subprocess.run(cmd, check=True)
+    # Build surya_ocr command - no --langs option
+    cmd = ["surya_ocr", pdf_path, "--output_dir", output_dir]
 
-    # Find the results.json file
-    results_file = output_path / "results.json"
+    print("Running surya_ocr...")
+    subprocess.run(cmd, check=True, env=env)
+
+    # Find results file - surya_ocr creates subdirectory named after input file
+    pdf_name = Path(pdf_path).stem
+    results_file = output_path / pdf_name / "results.json"
+
     if not results_file.exists():
         raise FileNotFoundError(f"Results file not found: {results_file}")
 
@@ -43,76 +60,60 @@ def run_surya_ocr(pdf_path: str, output_dir: str = "ocr_output") -> Path:
     return results_file
 
 
-def load_ocr_results(results_file: Path) -> dict:
-    """Load OCR results from JSON file"""
+def display_results(results_file: Path):
+    """Load and display the raw JSON results"""
     with open(results_file, 'r') as f:
-        return json.load(f)
+        results = json.load(f)
 
+    print("\n" + "="*80)
+    print("RAW RESULTS:")
+    print("="*80 + "\n")
 
-def process_results(results: dict):
-    """
-    Process OCR results and convert to structured table
-
-    Args:
-        results: Dictionary from results.json
-    """
-    print("\n=== Processing OCR Results ===\n")
-
-    for filename, detections in results.items():
-        print(f"Processing file: {filename}")
-        print(f"Total detections: {len(detections)}\n")
-
-        # TODO: Add your processing logic here
-        # For now, let's just show the first few detections
-        for i, detection in enumerate(detections[:5]):
-            print(f"Detection {i + 1}:")
-            print(f"  Text: {detection['text'][:50]}...")  # First 50 chars
-            print(f"  BBox: {detection['bbox']}")
-            print(f"  Confidence: {detection['confidence']:.2f}")
-            print()
+    print(json.dumps(results, indent=2))
 
 
 def main():
     parser = argparse.ArgumentParser(
-        description="OCR a PDF and process results into a structured table"
+        description="Run surya_ocr on a PDF and display results"
     )
-    parser.add_argument(
-        "pdf_file",
-        type=str,
-        help="Path to the PDF file to process"
-    )
-    parser.add_argument(
-        "--output-dir",
-        type=str,
-        default="ocr_output",
-        help="Directory to save OCR results (default: ocr_output)"
-    )
-    parser.add_argument(
-        "--skip-ocr",
-        action="store_true",
-        help="Skip OCR step and use existing results.json"
-    )
+    parser.add_argument("pdf_file", type=str, help="Path to the PDF file")
+    parser.add_argument("--output-dir", type=str, default="ocr_output", 
+                       help="Directory to save OCR results (default: ocr_output)")
+    parser.add_argument("--skip-ocr", action="store_true",
+                       help="Skip OCR step and use existing results.json")
+    parser.add_argument("--cpu", action="store_true",
+                       help="Force CPU usage instead of GPU")
 
     args = parser.parse_args()
 
-    # Validate PDF file exists
     pdf_path = Path(args.pdf_file)
     if not pdf_path.exists():
         print(f"Error: PDF file not found: {pdf_path}")
         return 1
 
-    # Run OCR or load existing results
     if args.skip_ocr:
-        results_file = Path(args.output_dir) / "results.json"
+        pdf_name = pdf_path.stem
+        results_file = Path(args.output_dir) / pdf_name / "results.json"
         print(f"Skipping OCR, loading existing results from {results_file}")
     else:
-        results_file = run_surya_ocr(str(pdf_path), args.output_dir)
+        try:
+            results_file = run_surya_ocr(
+                str(pdf_path), 
+                args.output_dir, 
+                use_gpu=not args.cpu
+            )
+        except Exception as e:
+            print(f"\nError during OCR: {e}")
+            import traceback
+            traceback.print_exc()
+            return 1
 
-    # Load and process results
-    results = load_ocr_results(results_file)
-    process_results(results)
+    try:
+        display_results(results_file)
+    except FileNotFoundError as e:
+        print(f"Error: {e}")
+        return 1
 
-    print("\nProcessing complete!")
     return 0
 
 

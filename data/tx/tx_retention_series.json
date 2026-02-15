@@ -1,10 +1,18 @@
 [
     {
-        "retention_code": "US",
-        "series_id": "1.1.010",
-        "series_title": "Directives",
-        "series_description": "Any document that officially initiates, rescinds, or amends general office procedures.",
-        "retention_years": "1",
+        "retention_code": "LA",
+        "series_id": "5.2.010",
+        "series_title": "Equipment Manuals",
+        "state": "tx",
+        "schedule_type": "general",
+        "last_checked": "2026-02-11"
+    },
+    {
+        "retention_code": "FE",
+        "series_id": "5.3.008",
+        "series_title": "Purchasing Logs",
+        "series_description": "Log, register, etc., providing a record of purchase orders issued, orders received, and similar data on procurement status.",
+        "retention_years": "3",
         "state": "tx",
         "schedule_type": "general",
         "last_checked": "2026-02-11"
@@ -22,16 +30,6 @@
         "last_checked": "2026-02-11"
     },
     {
-        "retention_code": "AV",
-        "series_id": "1.1.065",
-        "series_title": "Reports and Studies (Non-Fiscal) - Raw Data",
-        "series_description": "Information or data collected and compiled for the purpose of producing non-fiscal reports.",
-        "comments": "See RSIN 1.1.067 for reports produced from raw data. CAUTION: Does not include source documentation used for information or data included in or directly related to another records series in this schedule. See RSIN 1.1.064.",
-        "state": "tx",
-        "schedule_type": "general",
-        "last_checked": "2026-02-11"
-    },
-    {
         "retention_code": "AC",
         "ac_definition": "AC = September 1 of odd-numbered calendar years.",
         "series_id": "1.1.004",
@@ -44,12 +42,11 @@
         "last_checked": "2026-02-11"
     },
     {
-        "retention_code": "AC",
-        "ac_definition": "AC = Transfer of information into annual listing.",
-        "series_id": "5.2.016",
-        "series_title": "Inventory System Update Listings",
-        "series_description": "Listing shows all additions, changes, deletions, and transfer times for the monthly processing period.",
-        "comments": "See RSIN 5.2.006 for annual inventory listing.",
+        "retention_code": "LA",
+        "series_id": "4.7.004",
+        "series_title": "Capital Asset Records",
+        "series_description": "Documentation relating to the capital and fixed assets of a state agency, including equipment or property history cards containing data on initial cost, depreciation schedules or summaries used for capital outlay budgeting, and property sale, auction, or disposal records of agency owned equipment and property.",
+        "retention_years": "3",
         "state": "tx",
         "schedule_type": "general",
         "last_checked": "2026-02-11"
@@ -83,6 +80,16 @@
         "series_description": "Non-administrative incoming/outgoing and internal correspondence, in any media, including electronic communication, pertaining to or arising from the routine operations of the policies, programs, services, or projects of an agency.",
         "retention_years": "2",
         "comments": "See comment to RSIN 1.1.007. See also RSIN 1.1.010.",
+        "state": "tx",
+        "schedule_type": "general",
+        "last_checked": "2026-02-11"
+    },
+    {
+        "retention_code": "US",
+        "series_id": "1.1.010",
+        "series_title": "Directives",
+        "series_description": "Any document that officially initiates, rescinds, or amends general office procedures.",
+        "retention_years": "1",
         "state": "tx",
         "schedule_type": "general",
         "last_checked": "2026-02-11"
@@ -222,10 +229,11 @@
         "last_checked": "2026-02-11"
     },
     {
-        "retention_code": "LA",
-        "series_id": "5.6.007",
-        "series_title": "Vehicle Titles and Registrations",
-        "series_description": "Vehicle titles, registration information, and owner manuals for state vehicles.",
+        "retention_code": "AV",
+        "series_id": "1.1.065",
+        "series_title": "Reports and Studies (Non-Fiscal) - Raw Data",
+        "series_description": "Information or data collected and compiled for the purpose of producing non-fiscal reports.",
+        "comments": "See RSIN 1.1.067 for reports produced from raw data. CAUTION: Does not include source documentation used for information or data included in or directly related to another records series in this schedule. See RSIN 1.1.064.",
         "state": "tx",
         "schedule_type": "general",
         "last_checked": "2026-02-11"
@@ -881,6 +889,17 @@
     },
     {
         "retention_code": "AC",
+        "ac_definition": "AC = Resolution of claim.",
+        "series_id": "4.7.005",
+        "series_title": "Claim Files",
+        "series_description": "Records documenting requests for payment of a sum of money according to the terms of a policy or contract.",
+        "retention_years": "3",
+        "state": "tx",
+        "schedule_type": "general",
+        "last_checked": "2026-02-11"
+    },
+    {
+        "retention_code": "AC",
         "ac_definition": "AC = Date of the making of the record or the personnel action involved, whichever occurs later.",
         "legal_citation": "29 CFR 1602.31 [State Agencies]. 29 CFR 1602.49(a) [State Universities].",
         "series_id": "3.1.014",
@@ -1339,13 +1358,10 @@
         "last_checked": "2026-02-11"
     },
     {
-        "retention_code": "AC",
-        "ac_definition": "AC = Date returned.",
-        "series_id": "5.2.029",
-        "series_title": "Returned Mail",
-        "series_description": "Documentation of mail returned by the postal or other mail delivery services as undeliverable.",
+        "series_id": "5.1.015",
+        "series_title": "Correspondence Tracking Records",
+        "series_description": "Any record created by an agency to track any type of incoming and outgoing correspondence or packages by the U.S. Postal Service (USPS) or by private couriers.",
         "retention_years": "1",
-        "comments": "CAUTION: If corrected address provided and mail rerouted, maintain address update documentation for prescribed retention period.",
         "state": "tx",
         "schedule_type": "general",
         "last_checked": "2026-02-11"
@@ -1584,27 +1600,6 @@
         "last_checked": "2026-02-11"
     },
     {
-        "retention_code": "LA",
-        "series_id": "4.7.004",
-        "series_title": "Capital Asset Records",
-        "series_description": "Documentation relating to the capital and fixed assets of a state agency, including equipment or property history cards containing data on initial cost, depreciation schedules or summaries used for capital outlay budgeting, and property sale, auction, or disposal records of agency owned equipment and property.",
-        "retention_years": "3",
-        "state": "tx",
-        "schedule_type": "general",
-        "last_checked": "2026-02-11"
-    },
-    {
-        "retention_code": "AC",
-        "ac_definition": "AC = Resolution of claim.",
-        "series_id": "4.7.005",
-        "series_title": "Claim Files",
-        "series_description": "Records documenting requests for payment of a sum of money according to the terms of a policy or contract.",
-        "retention_years": "3",
-        "state": "tx",
-        "schedule_type": "general",
-        "last_checked": "2026-02-11"
-    },
-    {
         "retention_code": "AC",
         "ac_definition": "AC = Satisfaction of all Uniform Administrative Requirements for Grants and Cooperative Agreements to State and Local Governments (the Common Rule).",
         "series_id": "4.7.008a",
@@ -1799,18 +1794,6 @@
     },
     {
         "retention_code": "AC",
-        "ac_definition": "AC = Resolution of claim.",
-        "legal_citation": "43 TAC 218.61(d); 49 USC 14706(e).",
-        "series_id": "5.3.003",
-        "series_title": "Freight Claims",
-        "series_description": "Freight or cargo claims against carrier for damage or loss to a shipment.",
-        "retention_years": "2",
-        "state": "tx",
-        "schedule_type": "general",
-        "last_checked": "2026-02-11"
-    },
-    {
-        "retention_code": "AC",
         "ac_definition": "AC = Expiration or termination of the policy according to its terms.",
         "legal_citation": "Government Code, 441.1855.",
         "series_id": "5.1.013b",
@@ -1827,15 +1810,6 @@
         "series_id": "5.1.014",
         "series_title": "Office Procedures",
         "series_description": "Any internally distributed manual, guidelines, or similar records that establish standard office procedures for an agency, e.g. agency style manuals, telephone protocols, mail room procedures, print shop and photocopy ordering instructions.",
-        "retention_years": "1",
-        "state": "tx",
-        "schedule_type": "general",
-        "last_checked": "2026-02-11"
-    },
-    {
-        "series_id": "5.1.015",
-        "series_title": "Correspondence Tracking Records",
-        "series_description": "Any record created by an agency to track any type of incoming and outgoing correspondence or packages by the U.S. Postal Service (USPS) or by private couriers.",
         "retention_years": "1",
         "state": "tx",
         "schedule_type": "general",
@@ -1949,14 +1923,6 @@
         "last_checked": "2026-02-11"
     },
     {
-        "retention_code": "LA",
-        "series_id": "5.2.010",
-        "series_title": "Equipment Manuals",
-        "state": "tx",
-        "schedule_type": "general",
-        "last_checked": "2026-02-11"
-    },
-    {
         "retention_code": "AC",
         "ac_definition": "AC = Expiration of Warranty.",
         "series_id": "5.2.011",
@@ -1971,6 +1937,17 @@
         "series_title": "Estimate Files (Supply and Repair Cost Estimates)",
         "series_description": "Quotes for minor construction and repair projects and supplies. Includes supporting documentation, as applicable.",
         "retention_years": "1",
+        "state": "tx",
+        "schedule_type": "general",
+        "last_checked": "2026-02-11"
+    },
+    {
+        "retention_code": "AC",
+        "ac_definition": "AC = Transfer of information into annual listing.",
+        "series_id": "5.2.016",
+        "series_title": "Inventory System Update Listings",
+        "series_description": "Listing shows all additions, changes, deletions, and transfer times for the monthly processing period.",
+        "comments": "See RSIN 5.2.006 for annual inventory listing.",
         "state": "tx",
         "schedule_type": "general",
         "last_checked": "2026-02-11"
@@ -2046,6 +2023,30 @@
         "last_checked": "2026-02-11"
     },
     {
+        "retention_code": "AC",
+        "ac_definition": "AC = Date returned.",
+        "series_id": "5.2.029",
+        "series_title": "Returned Mail",
+        "series_description": "Documentation of mail returned by the postal or other mail delivery services as undeliverable.",
+        "retention_years": "1",
+        "comments": "CAUTION: If corrected address provided and mail rerouted, maintain address update documentation for prescribed retention period.",
+        "state": "tx",
+        "schedule_type": "general",
+        "last_checked": "2026-02-11"
+    },
+    {
+        "retention_code": "AC",
+        "ac_definition": "AC = Resolution of claim.",
+        "legal_citation": "43 TAC 218.61(d); 49 USC 14706(e).",
+        "series_id": "5.3.003",
+        "series_title": "Freight Claims",
+        "series_description": "Freight or cargo claims against carrier for damage or loss to a shipment.",
+        "retention_years": "2",
+        "state": "tx",
+        "schedule_type": "general",
+        "last_checked": "2026-02-11"
+    },
+    {
         "retention_code": "AV",
         "series_id": "5.3.004",
         "series_title": "Shipping Information",
@@ -2086,16 +2087,6 @@
         "series_title": "Bid Documentation - Invalid Bids",
         "series_description": "Invalid bids that do not meet agency submission requirements and are not included in bid evaluation process (e.g. withdrawn, missed submission deadline, incomplete submission, etc.)",
         "retention_years": "2",
-        "state": "tx",
-        "schedule_type": "general",
-        "last_checked": "2026-02-11"
-    },
-    {
-        "retention_code": "FE",
-        "series_id": "5.3.008",
-        "series_title": "Purchasing Logs",
-        "series_description": "Log, register, etc., providing a record of purchase orders issued, orders received, and similar data on procurement status.",
-        "retention_years": "3",
         "state": "tx",
         "schedule_type": "general",
         "last_checked": "2026-02-11"
@@ -2402,6 +2393,15 @@
         "series_title": "Vehicle Use Reports",
         "series_description": "Includes mileage, fuel/oil consumption, passengers carried and other related operational information.",
         "retention_years": "3",
+        "state": "tx",
+        "schedule_type": "general",
+        "last_checked": "2026-02-11"
+    },
+    {
+        "retention_code": "LA",
+        "series_id": "5.6.007",
+        "series_title": "Vehicle Titles and Registrations",
+        "series_description": "Vehicle titles, registration information, and owner manuals for state vehicles.",
         "state": "tx",
         "schedule_type": "general",
         "last_checked": "2026-02-11"
