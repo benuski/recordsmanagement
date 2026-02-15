@@ -21,3 +21,4 @@ surya-ocr = ">=0.6.0"               # Need this for table support
 transformers = ">=4.41.0,<4.56.0"   # Avoid the KeyError in 4.56.0+
 
 [tasks]
+
