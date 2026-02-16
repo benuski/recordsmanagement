@@ -4,21 +4,12 @@ channels = ["pytorch", "nvidia", "conda-forge"]
 platforms = ["linux-64"]
 
 [dependencies]
-python = "3.11.*"
-# Force GPU packages from specific channels
-pytorch = { version = "*", channel = "pytorch" }
-torchvision = { version = "*", channel = "pytorch" }
-pytorch-cuda = { version = "12.1.*", channel = "pytorch" }
-
-# Force compatible versions of core libraries from conda-forge
-libjpeg-turbo = { version = "*", channel = "conda-forge" }
-pillow = { version = ">=10.1", channel = "conda-forge" }
-numpy = { version = "<2", channel = "conda-forge" }
-# FIX: Pin transformers to 4.x so marker-pdf works
-transformers = { version = "4.*", channel = "conda-forge" }
+python = "*"
+transformers = "4.48.*"
+regex = ">=2024.4.28,<2025"
+# Force GPU packages
+pytorch = { version = "2.5.*", channel = "pytorch" }
+pytorch-cuda = { version = "12.*", channel = "pytorch" }
 
 [pypi-dependencies]
 marker-pdf = "*"
-
-[system-requirements]
-cuda = "12.1"
