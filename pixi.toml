@@ -1,15 +1,30 @@
 [workspace]
-name = "marker-pdf"
-channels = ["pytorch", "nvidia", "conda-forge"]
+name = "marker-pdf-bleeding"
+channels = ["conda-forge"]
 platforms = ["linux-64"]
 
 [dependencies]
-python = "*"
-transformers = "4.48.*"
-regex = ">=2024.4.28,<2025"
-# Force GPU packages
-pytorch = { version = "2.5.*", channel = "pytorch" }
-pytorch-cuda = { version = "12.*", channel = "pytorch" }
+python = "3.11.*"
+# Fix 1: Pin Pillow to <11 to satisfy Marker 1.10
+pillow = { version = ">=10.1,<11", channel = "conda-forge" }
+
+# Fix 2: Keep Transformers pinned to 4.48 to avoid 'QuantizedCacheConfig' crash
+transformers = { version = ">=4.45.2,<5.0.0", channel = "conda-forge" }
+
+# Standard compatibility pins
+libjpeg-turbo = { version = "*", channel = "conda-forge" }
+numpy = { version = "<2", channel = "conda-forge" }
+regex = { version = "<2025", channel = "conda-forge" }
 
 [pypi-dependencies]
-marker-pdf = "*"
+# Pull bleeding-edge PyTorch 
+torch = { version = ">=2.5" } 
+torchvision = { version = "*" }
+marker-pdf = ">=1.10"
+
+[pypi-options]
+# We use the cu124 nightly stream which is more likely to have the newer versions
+extra-index-urls = ["https://download.pytorch.org/whl/nightly/cu128-full"]
+
+[system-requirements]
+cuda = "12.8"
