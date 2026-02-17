@@ -6,13 +6,9 @@ platforms = ["win-64"]
 version = "0.1.0"
 
 [dependencies]
-python = "*"
+python = "3.14.*"
 pandas = ">=3.0.0,<4"
-pillow = { version = ">=10.1,<11", channel = "conda-forge" }
-pytorch = ">=2.7.0"
-intel-openmp = "*"
-cpuonly = "*"
+pip = ">=26.0.1,<27"
 
 [pypi-dependencies]
-marker-pdf = ">=1.10"
 pdfplumber = "*"
