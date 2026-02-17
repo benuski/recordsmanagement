@@ -33,7 +33,7 @@ def process_schedule_data(input_json_path, output_json_path=None):
                 series_description = ''
 
             # Extract retention years (first number from retention statement)
-            retention_statement = row.get('SCHEDULED RETENTION PERIOD', '')
+            retention_statement = row.get('SCHEDULED RETENTION\nPERIOD', '')
             retention_years_match = re.search(r'\d+', retention_statement)
             retention_years = int(retention_years_match.group()) if retention_years_match else None
 
@@ -41,15 +41,19 @@ def process_schedule_data(input_json_path, output_json_path=None):
             record = {
                 "state": "va",
                 "schedule_type": "general",
+                "schedule_id": "GS-101",
                 "series_id": row.get('SERIES NUMBER', ''),
                 "series_title": series_title.strip(),
                 "series_description": series_description.strip(),
                 "retention_statement": retention_statement,
                 "retention_years": retention_years,
+                "retention_code": "",
+                "comments": "",
                 "disposition": "",
                 "confidential": "",
                 "legal_citation": "",
-                "last_updated": str(date.today())
+                "last_updated": "2025-09",
+                "last_checked": str(date.today())
             }
 
             processed_records.append(record)

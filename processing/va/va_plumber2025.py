@@ -3,15 +3,9 @@ import json
 from pathlib import Path
 
 def extract_tables_to_json(pdf_path, output_path=None):
+
     """
-    Extract all tables from a PDF and convert them to JSON format.
-
-    Args:
-        pdf_path: Path to the PDF file
-        output_path: Path for the output JSON file (optional)
-
-    Returns:
-        Dictionary containing all extracted tables
+    Works on pdf's from 2025+
     """
     all_tables = []
 
@@ -60,7 +54,7 @@ def extract_tables_to_json(pdf_path, output_path=None):
 # Example usage
 if __name__ == "__main__":
     # PDF file path
-    pdf_file = "GS-101_0.pdf"
+    pdf_file = "GS-102.pdf"
 
     # Create output filename based on input PDF name
     pdf_path = Path(pdf_file)
