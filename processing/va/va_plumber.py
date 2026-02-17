@@ -59,11 +59,12 @@ def extract_tables_to_json(pdf_path, output_path=None):
 
 # Example usage
 if __name__ == "__main__":
-    # PDF file path (adjust if your PDF is located elsewhere)
-    pdf_file = "GS-101_0.pdf"  # Assumes PDF is in rm/processing/
+    # PDF file path
+    pdf_file = "GS-101_0.pdf"
 
-    # Output to rm/data/va/
-    output_file = "../../data/va/GS-101.json"
+    # Create output filename based on input PDF name
+    pdf_path = Path(pdf_file)
+    output_file = Path("../../data/va") / f"{pdf_path.stem}.json"
 
     # Extract and convert
     json_data = extract_tables_to_json(pdf_file, output_file)

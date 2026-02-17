@@ -6,8 +6,8 @@ platforms = ["win-64"]
 version = "0.1.0"
 
 [dependencies]
-python = "*"
-pandas = "*"
+python = "3.14.*"
+pandas = ">=3.0.0,<4"
 
 [pypi-dependencies]
 pdfplumber = "*"
