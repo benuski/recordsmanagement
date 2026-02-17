@@ -1,4 +1,6 @@
 # pixi environments
 .pixi/*
 !.pixi/config.toml
-pixi.lock
+pixi.lock# pixi environments
+.pixi/*
+!.pixi/config.toml
