@@ -61,7 +61,7 @@ def extract_tables_to_json(pdf_path, output_path=None):
 # Example usage
 if __name__ == "__main__":
     # Specify your PDF file path
-    pdf_file = "your_document.pdf"
+    pdf_file = "../GS-101_0.pdf"
     output_file = "output_tables.json"
 
     # Extract and convert

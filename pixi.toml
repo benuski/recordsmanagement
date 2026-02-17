@@ -23,6 +23,7 @@ torchvision = { version = "*" }
 marker-pdf = ">=1.10"
 img2table = ">=1.4.2, <2"
 surya-ocr = ">=0.17.1, <0.18"
+pdfplumber = ">=0.11.9, <0.12"
 
 [pypi-options]
 # We use the cu124 nightly stream which is more likely to have the newer versions
