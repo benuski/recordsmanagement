@@ -54,19 +54,16 @@ def extract_tables_to_json(pdf_path, output_path=None):
     if output_path:
         with open(output_path, 'w', encoding='utf-8') as f:
             json.dump(result, f, indent=2, ensure_ascii=False)
-        print(f"JSON saved to: {output_path}")
 
     return result
 
 # Example usage
 if __name__ == "__main__":
-    # Specify your PDF file path
-    pdf_file = "../GS-101_0.pdf"
-    output_file = "output_tables.json"
+    # PDF file path (adjust if your PDF is located elsewhere)
+    pdf_file = "GS-101_0.pdf"  # Assumes PDF is in rm/processing/
+
+    # Output to rm/data/va/
+    output_file = "../../data/va/GS-101.json"
 
     # Extract and convert
     json_data = extract_tables_to_json(pdf_file, output_file)
-
-    # Print summary
-    print(f"Extracted {json_data['total_tables']} tables")
-    print(json.dumps(json_data, indent=2))
