@@ -1,14 +1,30 @@
 [workspace]
-authors = ["benuski <ben@amongotheritems.org>"]
-channels = ["conda-forge", "pytorch"]
-name = "rm"
-platforms = ["win-64"]
-version = "0.1.0"
+name = "marker-pdf-bleeding"
+channels = ["conda-forge"]
+platforms = ["linux-64"]
 
 [dependencies]
-python = "3.14.*"
-pandas = ">=3.0.0,<4"
-pip = ">=26.0.1,<27"
+python = "3.11.*"
+# Fix 1: Pin Pillow to <11 to satisfy Marker 1.10
+pillow = { version = ">=10.1,<11", channel = "conda-forge" }
+
+transformers = { version = ">=4.45.2,<5.0.0", channel = "conda-forge" }
+
+# Standard compatibility pins
+libjpeg-turbo = { version = "*", channel = "conda-forge" }
+numpy = { version = "<2", channel = "conda-forge" }
+regex = { version = "<2025", channel = "conda-forge" }
 
 [pypi-dependencies]
-pdfplumber = "*"
+torch = { version = ">=2.5" } 
+torchvision = { version = "*" }
+marker-pdf = ">=1.10"
+img2table = ">=1.4.2, <2"
+surya-ocr = ">=0.17.1, <0.18"
+pdfplumber = ">=0.11.9, <0.12"
+
+[pypi-options]
+extra-index-urls = ["https://download.pytorch.org/whl/nightly/cu128-full"]
+
+[system-requirements]
+cuda = "12.8"
