@@ -6,13 +6,13 @@
     "series_id": "101041",
     "series_title": "Certificates of Mileage",
     "series_description": "This series documents the exact mileage (odometer reading) on a vehicle at the time of sale or transfer. Refer to",
-    "retention_statement": "Retain 3",
-    "retention_years": null,
-    "disposition": "years after sale or transfer, then destroy.",
-    "confidential": false,
-    "legal_citation": "Code of Virginia, § 46.2-629. Note: Code requires mileage to be written on title or title application at time of sale. This series applies to any separate documentation held by the agency selling or disposing of vehicles.",
+    "retention_statement": "Retain 3 years after",
+    "disposition": "sale or transfer, then destroy.",
     "last_updated": null,
-    "last_checked": "2026-02-19"
+    "last_checked": "2026-02-19",
+    "retention_years": 3,
+    "confidential": false,
+    "legal_citation": "Code of Virginia, § 46.2-629. Note: Code requires mileage to be written on title or title application at time of sale. This series applies to any separate documentation held by the agency selling or disposing of vehicles."
   },
   {
     "state": "va",
@@ -21,13 +21,13 @@
     "series_id": "101042",
     "series_title": "Fuel/Lubricant Issue Records",
     "series_description": "This series documents the issue of fuels or lubricants and requests for reimbursements.",
-    "retention_statement": "Retain 3",
-    "retention_years": null,
-    "disposition": "years after last entry, then destroy.",
-    "confidential": false,
-    "legal_citation": "",
+    "retention_statement": "Retain 3 years after",
+    "disposition": "last entry, then destroy.",
     "last_updated": null,
-    "last_checked": "2026-02-19"
+    "last_checked": "2026-02-19",
+    "retention_years": 3,
+    "confidential": false,
+    "legal_citation": ""
   },
   {
     "state": "va",
@@ -36,13 +36,13 @@
     "series_id": "101043",
     "series_title": "Fuel Receipts/Tickets Commercial Service Stations",
     "series_description": "This series documents the receipt of gasoline or other services at commercial gas stations. Usually credit card receipts.",
-    "retention_statement": "Retain 3",
-    "retention_years": null,
-    "disposition": "years after receipt date, then destroy.",
-    "confidential": false,
-    "legal_citation": "",
+    "retention_statement": "Retain 3 years after",
+    "disposition": "receipt date, then destroy.",
     "last_updated": null,
-    "last_checked": "2026-02-19"
+    "last_checked": "2026-02-19",
+    "retention_years": 3,
+    "confidential": false,
+    "legal_citation": ""
   },
   {
     "state": "va",
@@ -51,13 +51,13 @@
     "series_id": "101044",
     "series_title": "Fuel Receipts/Tickets State Owned Facilities",
     "series_description": "This series documents the receipt of gasoline or other services from state owned facilities. Retained to verify reimbursement requests.",
-    "retention_statement": "Retain 3",
-    "retention_years": null,
-    "disposition": "years after receipt date, then destroy.",
-    "confidential": false,
-    "legal_citation": "",
+    "retention_statement": "Retain 3 years after",
+    "disposition": "receipt date, then destroy.",
     "last_updated": null,
-    "last_checked": "2026-02-19"
+    "last_checked": "2026-02-19",
+    "retention_years": 3,
+    "confidential": false,
+    "legal_citation": ""
   },
   {
     "state": "va",
@@ -66,13 +66,13 @@
     "series_id": "101045",
     "series_title": "Mileage/Usage Reports",
     "series_description": "This series documents the completion and submission of any mileage or usage reports.",
-    "retention_statement": "Retain 1",
-    "retention_years": null,
-    "disposition": "year after report submission, then destroy.",
-    "confidential": false,
-    "legal_citation": "",
+    "retention_statement": "Retain 1 year after report",
+    "disposition": "submission, then destroy.",
     "last_updated": null,
-    "last_checked": "2026-02-19"
+    "last_checked": "2026-02-19",
+    "retention_years": 1,
+    "confidential": false,
+    "legal_citation": ""
   },
   {
     "state": "va",
@@ -81,13 +81,13 @@
     "series_id": "101046",
     "series_title": "Motor Vehicle Accident Files",
     "series_description": "This series documents the reporting of and/or investigation of motor vehicle accidents.",
-    "retention_statement": "Retain 5 whichever",
-    "retention_years": null,
-    "disposition": "years after case closure or last action, is greater; then destroy.",
-    "confidential": false,
-    "legal_citation": "",
+    "retention_statement": "Retain 5 years after whichever is greater;",
+    "disposition": "case closure or last action, then destroy.",
     "last_updated": null,
-    "last_checked": "2026-02-19"
+    "last_checked": "2026-02-19",
+    "retention_years": 5,
+    "confidential": false,
+    "legal_citation": ""
   },
   {
     "state": "va",
@@ -96,13 +96,13 @@
     "series_id": "101047",
     "series_title": "Motor Vehicle Maintenance Administrative Reports and Records",
     "series_description": "This series documents the administrative actions necessary to operate a maintenance facility, including maintenance related reports and other supporting records not otherwise listed on this schedule.",
-    "retention_statement": "Retain as destroy.",
-    "retention_years": null,
-    "disposition": "long as administratively necessary, then",
-    "confidential": false,
-    "legal_citation": "",
+    "retention_statement": "Retain as long as administratively destroy.",
+    "disposition": "necessary, then",
     "last_updated": null,
-    "last_checked": "2026-02-19"
+    "last_checked": "2026-02-19",
+    "retention_years": null,
+    "confidential": false,
+    "legal_citation": ""
   },
   {
     "state": "va",
@@ -111,13 +111,13 @@
     "series_id": "101048",
     "series_title": "Motor Vehicle Maintenance Consumption and Use Records",
     "series_description": "This series documents the daily mileage, fuel use and oil consumption of individual vehicles.",
-    "retention_statement": "Retain 3",
-    "retention_years": null,
-    "disposition": "years, then destroy.",
-    "confidential": false,
-    "legal_citation": "",
+    "retention_statement": "Retain 3 years, then",
+    "disposition": "destroy.",
     "last_updated": null,
-    "last_checked": "2026-02-19"
+    "last_checked": "2026-02-19",
+    "retention_years": 3,
+    "confidential": false,
+    "legal_citation": ""
   },
   {
     "state": "va",
@@ -126,13 +126,13 @@
     "series_id": "101049",
     "series_title": "Motor Vehicle Maintenance Parts and Supply Records",
     "series_description": "This series documents the ordering, inventory and use of stocks of parts, bulk lubricants and other maintenance or operating supplies.",
-    "retention_statement": "Retain 3",
-    "retention_years": null,
-    "disposition": "years after last entry or action, then destroy.",
-    "confidential": false,
-    "legal_citation": "",
+    "retention_statement": "Retain 3 years after",
+    "disposition": "last entry or action, then destroy.",
     "last_updated": null,
-    "last_checked": "2026-02-19"
+    "last_checked": "2026-02-19",
+    "retention_years": 3,
+    "confidential": false,
+    "legal_citation": ""
   },
   {
     "state": "va",
@@ -141,13 +141,13 @@
     "series_id": "101050",
     "series_title": "Motor Vehicle Maintenance Repair and Service Records",
     "series_description": "This series documents the repair, maintenance and servicing of specific vehicles.",
-    "retention_statement": "Retain until",
-    "retention_years": null,
-    "disposition": "disposal of vehicle, then destroy.",
-    "confidential": false,
-    "legal_citation": "",
+    "retention_statement": "Retain until disposal",
+    "disposition": "of vehicle, then destroy.",
     "last_updated": null,
-    "last_checked": "2026-02-19"
+    "last_checked": "2026-02-19",
+    "retention_years": null,
+    "confidential": false,
+    "legal_citation": ""
   },
   {
     "state": "va",
@@ -156,13 +156,13 @@
     "series_id": "101051",
     "series_title": "Motor Vehicle Release/Transfer Records",
     "series_description": "This series documents the sale, transfer or disposal of surplus, excess or nonrepairable vehicles.",
-    "retention_statement": "Retain 3",
-    "retention_years": null,
-    "disposition": "years after disposal of vehicle, then destroy.",
-    "confidential": false,
-    "legal_citation": "",
+    "retention_statement": "Retain 3 years after",
+    "disposition": "disposal of vehicle, then destroy.",
     "last_updated": null,
-    "last_checked": "2026-02-19"
+    "last_checked": "2026-02-19",
+    "retention_years": 3,
+    "confidential": false,
+    "legal_citation": ""
   },
   {
     "state": "va",
@@ -171,13 +171,13 @@
     "series_id": "101052",
     "series_title": "Motor Vehicle Reports",
     "series_description": "This series documents the routine reporting of administrative information on motor vehicles, reports not already listed on this schedule.",
-    "retention_statement": "Retain 3",
-    "retention_years": null,
-    "disposition": "years after report date, then destroy.",
-    "confidential": false,
-    "legal_citation": "",
+    "retention_statement": "Retain 3 years after",
+    "disposition": "report date, then destroy.",
     "last_updated": null,
-    "last_checked": "2026-02-19"
+    "last_checked": "2026-02-19",
+    "retention_years": 3,
+    "confidential": false,
+    "legal_citation": ""
   },
   {
     "state": "va",
@@ -186,13 +186,13 @@
     "series_id": "101053",
     "series_title": "Motor Vehicle Use/Control Dispatch Records",
     "series_description": "This series documents the daily assignment and use of motor vehicles and other large equipment.",
-    "retention_statement": "Retain 2",
-    "retention_years": null,
-    "disposition": "years after last entry, then destroy.",
-    "confidential": false,
-    "legal_citation": "",
+    "retention_statement": "Retain 2 years after",
+    "disposition": "last entry, then destroy.",
     "last_updated": null,
-    "last_checked": "2026-02-19"
+    "last_checked": "2026-02-19",
+    "retention_years": 2,
+    "confidential": false,
+    "legal_citation": ""
   },
   {
     "state": "va",
@@ -201,13 +201,13 @@
     "series_id": "101054",
     "series_title": "Motor Vehicle Use/Control Sign Out Logs/Books",
     "series_description": "This series documents the acceptance/receipt of vehicles for daily use.",
-    "retention_statement": "Retain 2",
-    "retention_years": null,
-    "disposition": "years after last entry, then destroy.",
-    "confidential": false,
-    "legal_citation": "",
+    "retention_statement": "Retain 2 years after",
+    "disposition": "last entry, then destroy.",
     "last_updated": null,
-    "last_checked": "2026-02-19"
+    "last_checked": "2026-02-19",
+    "retention_years": 2,
+    "confidential": false,
+    "legal_citation": ""
   },
   {
     "state": "va",
@@ -216,13 +216,13 @@
     "series_id": "101055",
     "series_title": "Motor Vehicle Use/Control Use Requests",
     "series_description": "This series documents the receipt and response to requests for vehicles for use on specific days.",
-    "retention_statement": "Retain 3",
-    "retention_years": null,
-    "disposition": "months after last action, then destroy.",
-    "confidential": false,
-    "legal_citation": "",
+    "retention_statement": "Retain 3 months after",
+    "disposition": "last action, then destroy.",
     "last_updated": null,
-    "last_checked": "2026-02-19"
+    "last_checked": "2026-02-19",
+    "retention_years": null,
+    "confidential": false,
+    "legal_citation": ""
   },
   {
     "state": "va",
@@ -231,13 +231,13 @@
     "series_id": "101056",
     "series_title": "Motor Vehicle Use/Control Vehicle Assignment Records",
     "series_description": "This series documents the long term or permanent assignment of vehicle to specific individuals, offices or uses. Procurement Records This series documents the procurement of vehicles for agency use.",
-    "retention_statement": "Retain 2 Refer to Schedule guidelines.",
-    "retention_years": null,
-    "disposition": "years after reassignment or return, then destroy. General Records Retention and Disposition No. GS-102, Fiscal Records for retention",
-    "confidential": false,
-    "legal_citation": "",
+    "retention_statement": "Retain 2 years after Refer to General Records Schedule No. GS-102, guidelines.",
+    "disposition": "reassignment or return, then destroy. Retention and Disposition Fiscal Records for retention",
     "last_updated": null,
-    "last_checked": "2026-02-19"
+    "last_checked": "2026-02-19",
+    "retention_years": 2,
+    "confidential": false,
+    "legal_citation": ""
   },
   {
     "state": "va",
@@ -246,13 +246,13 @@
     "series_id": "101057",
     "series_title": "",
     "series_description": "This series documents the inspection of vehicles by approved inspection stations station copies. Refer to",
-    "retention_statement": "Retain until then destroy.",
-    "retention_years": null,
-    "disposition": "registration renewed or disposal of vehicle,",
-    "confidential": false,
-    "legal_citation": "Code of Virginia, § 46.2-1163. Registrations Vehicle This series documents registration and licensing of agency owned vehicles. Refer to Code of Virginia, § 46.2-600.",
+    "retention_statement": "Retain until registration then destroy.",
+    "disposition": "renewed or disposal of vehicle,",
     "last_updated": null,
-    "last_checked": "2026-02-19"
+    "last_checked": "2026-02-19",
+    "retention_years": null,
+    "confidential": false,
+    "legal_citation": "Code of Virginia, § 46.2-1163. Registrations Vehicle This series documents registration and licensing of agency owned vehicles. Refer to Code of Virginia, § 46.2-600."
   },
   {
     "state": "va",
@@ -261,13 +261,13 @@
     "series_id": "101059",
     "series_title": "State Inspections Vehicle Copies",
     "series_description": "This series documents that vehicle has been inspected at an approved inspection station. Refer to",
-    "retention_statement": "Retain until transfer",
-    "retention_years": null,
-    "disposition": "next reinspection completed, then destroy or with vehicle.",
-    "confidential": false,
-    "legal_citation": "Code of Virginia, § 46.21157.",
+    "retention_statement": "Retain until next reinspection transfer with vehicle.",
+    "disposition": "completed, then destroy or",
     "last_updated": null,
-    "last_checked": "2026-02-19"
+    "last_checked": "2026-02-19",
+    "retention_years": null,
+    "confidential": false,
+    "legal_citation": "Code of Virginia, § 46.21157."
   },
   {
     "state": "va",
@@ -276,13 +276,13 @@
     "series_id": "101060",
     "series_title": "Vehicle Repair Work Orders Requestor’s Copy",
     "series_description": "This series documents the request for repair or service work from a vehicle maintenance facility.",
-    "retention_statement": "Retain 3",
-    "retention_years": null,
-    "disposition": "years after submission, then destroy.",
-    "confidential": false,
-    "legal_citation": "",
+    "retention_statement": "Retain 3 years after",
+    "disposition": "submission, then destroy.",
     "last_updated": null,
-    "last_checked": "2026-02-19"
+    "last_checked": "2026-02-19",
+    "retention_years": 3,
+    "confidential": false,
+    "legal_citation": ""
   },
   {
     "state": "va",
@@ -291,13 +291,13 @@
     "series_id": "101061",
     "series_title": "Vehicle Repair Work Orders Shop Copies",
     "series_description": "This series documents the receipt of a work order and actions taken in response.",
-    "retention_statement": "Retain 3 of, whichever",
-    "retention_years": null,
-    "disposition": "years after last action or until vehicle disposed is greater; then destroy.",
-    "confidential": false,
-    "legal_citation": "",
+    "retention_statement": "Retain 3 years after of, whichever is greater;",
+    "disposition": "last action or until vehicle disposed then destroy.",
     "last_updated": null,
-    "last_checked": "2026-02-19"
+    "last_checked": "2026-02-19",
+    "retention_years": 3,
+    "confidential": false,
+    "legal_citation": ""
   },
   {
     "state": "va",
@@ -306,12 +306,12 @@
     "series_id": "101062",
     "series_title": "Vehicle Titles",
     "series_description": "This series documents the legal ownership and titling of vehicles. Refer to",
-    "retention_statement": "Transfer",
-    "retention_years": null,
-    "disposition": "with vehicle upon disposal of vehicle.",
-    "confidential": false,
-    "legal_citation": "Code of Virginia, § 46.2-600.",
+    "retention_statement": "Transfer with vehicle",
+    "disposition": "upon disposal of vehicle.",
     "last_updated": null,
-    "last_checked": "2026-02-19"
+    "last_checked": "2026-02-19",
+    "retention_years": null,
+    "confidential": false,
+    "legal_citation": "Code of Virginia, § 46.2-600."
   }
 ]

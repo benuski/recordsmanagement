@@ -100,7 +100,7 @@ def process_pdf_tables(pdf_path, output_path):
 # Example usage
 if __name__ == "__main__":
     # PDF file path
-    pdf_file = "GS-101.pdf"
+    pdf_file = "../pdfs/GS-101.pdf"
 
     # Create output filename based on input PDF name
     pdf_path = Path(pdf_file)
