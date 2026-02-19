@@ -4,7 +4,7 @@ channels = ["conda-forge"]
 platforms = ["linux-64"]
 
 [dependencies]
-python = "3.11.*"
+python = "*"
 # Fix 1: Pin Pillow to <11 to satisfy Marker 1.10
 pillow = { version = ">=10.1,<11", channel = "conda-forge" }
 
