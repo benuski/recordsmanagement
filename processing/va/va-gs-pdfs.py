@@ -1,6 +1,7 @@
 import pdfplumber
 import json
 import re
+import csv
 import logging
 from pathlib import Path
 from datetime import datetime, date
@@ -12,7 +13,6 @@ from functools import partial
 # ---------------------------------------------------------------------------
 CONFIG = {
     "state": "va",
-    "schedule_type": "general",
     "default_walls": (150, 400, 550),
     "footer_strings": [
         "800 e. broad", "23219", "692-3600",
@@ -33,6 +33,28 @@ logger = logging.getLogger(__name__)
 # Helper Functions
 # ---------------------------------------------------------------------------
 
+def load_agency_mapping(csv_path: Path) -> dict[str, str]:
+    """Loads the agency code to agency name mapping from a CSV."""
+    mapping = {}
+    if not csv_path.exists():
+        logger.warning(f"Agency CSV not found at {csv_path}. Agency names will be None.")
+        return mapping
+        
+    try:
+        # Changed to utf-8-sig to automatically strip the invisible Byte Order Mark (BOM)
+        with open(csv_path, mode='r', encoding='utf-8-sig') as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                code = row.get("Agency Code", "").strip()
+                name = row.get("Agency Name", "").strip()
+                if code and name:
+                    mapping[code] = name
+    except Exception as e:
+        logger.error(f"Failed to load agency mapping: {e}")
+        
+    return mapping
+
+
 def extract_effective_date(pdf_path: Path) -> str | None:
     """Pulls the effective date from the first page of the PDF."""
     try:
@@ -41,7 +63,6 @@ def extract_effective_date(pdf_path: Path) -> str | None:
                 return None
             first_page = pdf.pages[0].extract_text()
             if first_page:
-                # Fixed: no longer matches bare colons anywhere on the page
                 match = re.search(
                     r'(?i)EFFECTIVE\s+(?:SCHEDULE\s+)?DATE[:\s]+(\d{1,2}/\d{1,2}/\d{4})',
                     first_page
@@ -152,10 +173,12 @@ def clean_record_fields(record: dict) -> dict:
 def parse_using_table_engine(
     pdf_path: Path,
     schedule_id: str,
-    effective_date: str | None
+    effective_date: str | None,
+    agency_name: str | None
 ) -> list[dict]:
     """Method A: Uses pdfplumber's extract_tables()."""
     processed_records = []
+    schedule_type = "general" if schedule_id.startswith("GS") else "specific"
 
     with pdfplumber.open(pdf_path) as pdf:
         for page in pdf.pages:
@@ -198,7 +221,6 @@ def parse_using_table_engine(
 
                     series_and_desc = clean_row[col_idx['desc']]
 
-                    # Newline split takes priority; fall back to shared helper
                     if '\n' in series_and_desc:
                         parts = series_and_desc.split('\n', 1)
                         series_title = parts[0].strip()
@@ -208,7 +230,8 @@ def parse_using_table_engine(
 
                     raw_record = {
                         "state": CONFIG["state"],
-                        "schedule_type": CONFIG["schedule_type"],
+                        "agency_name": agency_name,
+                        "schedule_type": schedule_type,
                         "schedule_id": schedule_id,
                         "series_id": series_number,
                         "series_title": series_title,
@@ -226,13 +249,16 @@ def parse_using_table_engine(
 def parse_using_vertical_silo(
     pdf_path: Path,
     schedule_id: str,
-    effective_date: str | None
+    effective_date: str | None,
+    agency_name: str | None
 ) -> list[dict]:
     """Method B: Uses exact X/Y pixel coordinate vertical walls."""
     all_records = []
     current_record = None
     g1, g2, g3 = CONFIG["default_walls"]
     footer_strings = CONFIG["footer_strings"]
+    
+    schedule_type = "general" if schedule_id.startswith("GS") else "specific"
 
     with pdfplumber.open(pdf_path) as pdf:
         for page in pdf.pages:
@@ -270,7 +296,6 @@ def parse_using_vertical_silo(
                     continue
                 if re.match(r'^(page\s*)?\d+\s+of\s+\d+$', text_lower):
                     continue
-                # Use CONFIG footer strings instead of hardcoded values
                 if any(fs in text_lower for fs in footer_strings):
                     continue
                 valid_words.append(w)
@@ -341,12 +366,12 @@ def parse_using_vertical_silo(
         retention = stringify_words(rec['ret_words'])
         disposition = stringify_words(rec['disp_words'])
 
-        # Use shared helper instead of duplicating logic
         series_title, series_description = split_title_and_description(raw_desc)
 
         raw_record = {
             "state": CONFIG["state"],
-            "schedule_type": CONFIG["schedule_type"],
+            "agency_name": agency_name,
+            "schedule_type": schedule_type,
             "schedule_id": schedule_id,
             "series_id": rec['series_id'],
             "series_title": series_title,
@@ -379,7 +404,6 @@ def score_records(records: list[dict]) -> int:
         ret = r.get('retention_statement', '').strip()
         sid = r.get('series_id', '')
 
-        # Penalize duplicate series IDs
         if sid in seen_ids:
             score -= 20
         seen_ids.add(sid)
@@ -404,7 +428,6 @@ def score_records(records: list[dict]) -> int:
         if re.search(r'\d{6}', title):
             score -= 10
 
-        # Reward records with structured retention data
         if r.get('retention_years') is not None:
             score += 3
 
@@ -415,16 +438,22 @@ def score_records(records: list[dict]) -> int:
 # Orchestration
 # ---------------------------------------------------------------------------
 
-def process_and_evaluate(pdf_path: Path, output_dir: Path) -> None:
+def process_and_evaluate(pdf_path: Path, output_dir: Path, agency_mapping: dict) -> None:
     """Runs both parsers, compares scores, and saves the winner's output."""
     pdf_path = Path(pdf_path)
     schedule_id = pdf_path.stem
+    
+    # Extract the agency code by grabbing all leading digits safely via Regex
+    # Falls back to schedule_id[:3] just in case it doesn't find digits
+    match = re.match(r'^(\d+)', schedule_id)
+    agency_code = match.group(1) if match else schedule_id[:3]
+    agency_name = agency_mapping.get(agency_code, None)
 
     try:
         effective_date = extract_effective_date(pdf_path)
 
-        records_via_table = parse_using_table_engine(pdf_path, schedule_id, effective_date)
-        records_via_silo = parse_using_vertical_silo(pdf_path, schedule_id, effective_date)
+        records_via_table = parse_using_table_engine(pdf_path, schedule_id, effective_date, agency_name)
+        records_via_silo = parse_using_vertical_silo(pdf_path, schedule_id, effective_date, agency_name)
 
         score_table = score_records(records_via_table)
         score_silo = score_records(records_via_silo)
@@ -460,15 +489,17 @@ def process_and_evaluate(pdf_path: Path, output_dir: Path) -> None:
 if __name__ == "__main__":
     input_dir = Path("../pdfs")
     output_dir = Path("../../data/va")
+    csv_path = Path("agencies.csv") 
+    
     output_dir.mkdir(parents=True, exist_ok=True)
+    
+    agency_mapping = load_agency_mapping(csv_path)
 
     pdf_files = list(input_dir.glob("*.pdf"))
 
     if not pdf_files:
         logger.warning(f"No PDF files found in {input_dir}")
     else:
-        # functools.partial is used instead of a lambda because lambdas
-        # cannot be pickled for use with ProcessPoolExecutor
-        worker = partial(process_and_evaluate, output_dir=output_dir)
+        worker = partial(process_and_evaluate, output_dir=output_dir, agency_mapping=agency_mapping)
         with ProcessPoolExecutor() as executor:
             executor.map(worker, pdf_files)
