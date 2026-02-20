@@ -12,7 +12,6 @@ from functools import partial
 # ---------------------------------------------------------------------------
 CONFIG = {
     "state": "va",
-    "schedule_type": "general",
     "default_walls": (150, 400, 550),
     "footer_strings": [
         "800 e. broad", "23219", "692-3600",
@@ -41,7 +40,6 @@ def extract_effective_date(pdf_path: Path) -> str | None:
                 return None
             first_page = pdf.pages[0].extract_text()
             if first_page:
-                # Fixed: no longer matches bare colons anywhere on the page
                 match = re.search(
                     r'(?i)EFFECTIVE\s+(?:SCHEDULE\s+)?DATE[:\s]+(\d{1,2}/\d{1,2}/\d{4})',
                     first_page
@@ -156,6 +154,9 @@ def parse_using_table_engine(
 ) -> list[dict]:
     """Method A: Uses pdfplumber's extract_tables()."""
     processed_records = []
+    
+    # Determine schedule_type dynamically based on filename/schedule_id
+    schedule_type = "general" if schedule_id.startswith("GS") else "specific"
 
     with pdfplumber.open(pdf_path) as pdf:
         for page in pdf.pages:
@@ -198,7 +199,6 @@ def parse_using_table_engine(
 
                     series_and_desc = clean_row[col_idx['desc']]
 
-                    # Newline split takes priority; fall back to shared helper
                     if '\n' in series_and_desc:
                         parts = series_and_desc.split('\n', 1)
                         series_title = parts[0].strip()
@@ -208,7 +208,7 @@ def parse_using_table_engine(
 
                     raw_record = {
                         "state": CONFIG["state"],
-                        "schedule_type": CONFIG["schedule_type"],
+                        "schedule_type": schedule_type,
                         "schedule_id": schedule_id,
                         "series_id": series_number,
                         "series_title": series_title,
@@ -233,6 +233,9 @@ def parse_using_vertical_silo(
     current_record = None
     g1, g2, g3 = CONFIG["default_walls"]
     footer_strings = CONFIG["footer_strings"]
+    
+    # Determine schedule_type dynamically based on filename/schedule_id
+    schedule_type = "general" if schedule_id.startswith("GS") else "specific"
 
     with pdfplumber.open(pdf_path) as pdf:
         for page in pdf.pages:
@@ -270,7 +273,6 @@ def parse_using_vertical_silo(
                     continue
                 if re.match(r'^(page\s*)?\d+\s+of\s+\d+$', text_lower):
                     continue
-                # Use CONFIG footer strings instead of hardcoded values
                 if any(fs in text_lower for fs in footer_strings):
                     continue
                 valid_words.append(w)
@@ -341,12 +343,11 @@ def parse_using_vertical_silo(
         retention = stringify_words(rec['ret_words'])
         disposition = stringify_words(rec['disp_words'])
 
-        # Use shared helper instead of duplicating logic
         series_title, series_description = split_title_and_description(raw_desc)
 
         raw_record = {
             "state": CONFIG["state"],
-            "schedule_type": CONFIG["schedule_type"],
+            "schedule_type": schedule_type,
             "schedule_id": schedule_id,
             "series_id": rec['series_id'],
             "series_title": series_title,
@@ -379,7 +380,6 @@ def score_records(records: list[dict]) -> int:
         ret = r.get('retention_statement', '').strip()
         sid = r.get('series_id', '')
 
-        # Penalize duplicate series IDs
         if sid in seen_ids:
             score -= 20
         seen_ids.add(sid)
@@ -404,7 +404,6 @@ def score_records(records: list[dict]) -> int:
         if re.search(r'\d{6}', title):
             score -= 10
 
-        # Reward records with structured retention data
         if r.get('retention_years') is not None:
             score += 3
 
@@ -467,8 +466,6 @@ if __name__ == "__main__":
     if not pdf_files:
         logger.warning(f"No PDF files found in {input_dir}")
     else:
-        # functools.partial is used instead of a lambda because lambdas
-        # cannot be pickled for use with ProcessPoolExecutor
         worker = partial(process_and_evaluate, output_dir=output_dir)
         with ProcessPoolExecutor() as executor:
             executor.map(worker, pdf_files)
