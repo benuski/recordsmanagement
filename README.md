@@ -2,4 +2,4 @@ It is really freaking hard to evaluate or compare records retention series acros
 
 Except as noted below, files are licensed under the GNU GPL v. 3.0 or (at your option) any later version. Scripts have been developed with the assistance of llm chat bots, including Claude Sonnet and Google Gemini.
 
-Files in the data folder have been created only through the use of the scripts found in the processing folder, available for full inspection. None of the content in the data folder has ever been created, extracted, or processed by llm chatbots or artificial intelligence of any kind. Files in the data folder are licensed under the Open Database License v. 1.0 or (at your option) any later version.
+Files in the data folder have been created only through the use of the scripts found in the processing folder, available for full inspection. None of the content in the data folder has ever been created, extracted, or processed by llm chatbots. Files in the data folder are licensed under the Open Database License v. 1.0 or (at your option) any later version.
