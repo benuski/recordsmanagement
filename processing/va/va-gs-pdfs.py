@@ -1,6 +1,7 @@
 import pdfplumber
 import json
 import re
+import csv
 import logging
 from pathlib import Path
 from datetime import datetime, date
@@ -31,6 +32,28 @@ logger = logging.getLogger(__name__)
 # ---------------------------------------------------------------------------
 # Helper Functions
 # ---------------------------------------------------------------------------
+
+def load_agency_mapping(csv_path: Path) -> dict[str, str]:
+    """Loads the agency code to agency name mapping from a CSV."""
+    mapping = {}
+    if not csv_path.exists():
+        logger.warning(f"Agency CSV not found at {csv_path}. Agency names will be None.")
+        return mapping
+        
+    try:
+        # Changed to utf-8-sig to automatically strip the invisible Byte Order Mark (BOM)
+        with open(csv_path, mode='r', encoding='utf-8-sig') as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                code = row.get("Agency Code", "").strip()
+                name = row.get("Agency Name", "").strip()
+                if code and name:
+                    mapping[code] = name
+    except Exception as e:
+        logger.error(f"Failed to load agency mapping: {e}")
+        
+    return mapping
+
 
 def extract_effective_date(pdf_path: Path) -> str | None:
     """Pulls the effective date from the first page of the PDF."""
@@ -150,12 +173,11 @@ def clean_record_fields(record: dict) -> dict:
 def parse_using_table_engine(
     pdf_path: Path,
     schedule_id: str,
-    effective_date: str | None
+    effective_date: str | None,
+    agency_name: str | None
 ) -> list[dict]:
     """Method A: Uses pdfplumber's extract_tables()."""
     processed_records = []
-    
-    # Determine schedule_type dynamically based on filename/schedule_id
     schedule_type = "general" if schedule_id.startswith("GS") else "specific"
 
     with pdfplumber.open(pdf_path) as pdf:
@@ -208,6 +230,7 @@ def parse_using_table_engine(
 
                     raw_record = {
                         "state": CONFIG["state"],
+                        "agency_name": agency_name,
                         "schedule_type": schedule_type,
                         "schedule_id": schedule_id,
                         "series_id": series_number,
@@ -226,7 +249,8 @@ def parse_using_table_engine(
 def parse_using_vertical_silo(
     pdf_path: Path,
     schedule_id: str,
-    effective_date: str | None
+    effective_date: str | None,
+    agency_name: str | None
 ) -> list[dict]:
     """Method B: Uses exact X/Y pixel coordinate vertical walls."""
     all_records = []
@@ -234,7 +258,6 @@ def parse_using_vertical_silo(
     g1, g2, g3 = CONFIG["default_walls"]
     footer_strings = CONFIG["footer_strings"]
     
-    # Determine schedule_type dynamically based on filename/schedule_id
     schedule_type = "general" if schedule_id.startswith("GS") else "specific"
 
     with pdfplumber.open(pdf_path) as pdf:
@@ -347,6 +370,7 @@ def parse_using_vertical_silo(
 
         raw_record = {
             "state": CONFIG["state"],
+            "agency_name": agency_name,
             "schedule_type": schedule_type,
             "schedule_id": schedule_id,
             "series_id": rec['series_id'],
@@ -414,16 +438,22 @@ def score_records(records: list[dict]) -> int:
 # Orchestration
 # ---------------------------------------------------------------------------
 
-def process_and_evaluate(pdf_path: Path, output_dir: Path) -> None:
+def process_and_evaluate(pdf_path: Path, output_dir: Path, agency_mapping: dict) -> None:
     """Runs both parsers, compares scores, and saves the winner's output."""
     pdf_path = Path(pdf_path)
     schedule_id = pdf_path.stem
+    
+    # Extract the agency code by grabbing all leading digits safely via Regex
+    # Falls back to schedule_id[:3] just in case it doesn't find digits
+    match = re.match(r'^(\d+)', schedule_id)
+    agency_code = match.group(1) if match else schedule_id[:3]
+    agency_name = agency_mapping.get(agency_code, None)
 
     try:
         effective_date = extract_effective_date(pdf_path)
 
-        records_via_table = parse_using_table_engine(pdf_path, schedule_id, effective_date)
-        records_via_silo = parse_using_vertical_silo(pdf_path, schedule_id, effective_date)
+        records_via_table = parse_using_table_engine(pdf_path, schedule_id, effective_date, agency_name)
+        records_via_silo = parse_using_vertical_silo(pdf_path, schedule_id, effective_date, agency_name)
 
         score_table = score_records(records_via_table)
         score_silo = score_records(records_via_silo)
@@ -459,13 +489,17 @@ def process_and_evaluate(pdf_path: Path, output_dir: Path) -> None:
 if __name__ == "__main__":
     input_dir = Path("../pdfs")
     output_dir = Path("../../data/va")
+    csv_path = Path("agencies.csv") 
+    
     output_dir.mkdir(parents=True, exist_ok=True)
+    
+    agency_mapping = load_agency_mapping(csv_path)
 
     pdf_files = list(input_dir.glob("*.pdf"))
 
     if not pdf_files:
         logger.warning(f"No PDF files found in {input_dir}")
     else:
-        worker = partial(process_and_evaluate, output_dir=output_dir)
+        worker = partial(process_and_evaluate, output_dir=output_dir, agency_mapping=agency_mapping)
         with ProcessPoolExecutor() as executor:
             executor.map(worker, pdf_files)
