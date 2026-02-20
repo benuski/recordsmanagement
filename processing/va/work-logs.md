@@ -1,4 +1,4 @@
-2026-02-20 14:18:40,997 - WARNING - No records found for 100-001                                                                                                                                                           
+2026-02-20 14:18:40,997 - WARNING - No records found for 100-001  
 2026-02-20 14:18:40,998 - WARNING - No records found for 101-004
 2026-02-20 14:18:41,010 - WARNING - No records found for 101-003
 2026-02-20 14:18:41,012 - WARNING - No records found for 101-016
