@@ -1,12 +1,16 @@
+import os
+import gc
 import pdfplumber
 import json
 import re
 import csv
 import logging
+import subprocess
+import multiprocessing
 from pathlib import Path
 from datetime import datetime, date
-from concurrent.futures import ProcessPoolExecutor
 from functools import partial
+from bs4 import BeautifulSoup
 
 # ---------------------------------------------------------------------------
 # Configuration
@@ -41,7 +45,6 @@ def load_agency_mapping(csv_path: Path) -> dict[str, str]:
         return mapping
         
     try:
-        # Changed to utf-8-sig to automatically strip the invisible Byte Order Mark (BOM)
         with open(csv_path, mode='r', encoding='utf-8-sig') as f:
             reader = csv.DictReader(f)
             for row in reader:
@@ -55,23 +58,42 @@ def load_agency_mapping(csv_path: Path) -> dict[str, str]:
     return mapping
 
 
-def extract_effective_date(pdf_path: Path) -> str | None:
-    """Pulls the effective date from the first page of the PDF."""
+def analyze_pdf_preflight(pdf_path: Path) -> tuple[bool, str | None]:
+    """
+    Single-pass check to minimize pdfplumber I/O and memory overhead.
+    Returns: (is_image_pdf, effective_date)
+    """
+    is_image = True
+    eff_date = None
+
     try:
         with pdfplumber.open(pdf_path) as pdf:
             if not pdf.pages:
-                return None
-            first_page = pdf.pages[0].extract_text()
-            if first_page:
-                match = re.search(
-                    r'(?i)EFFECTIVE\s+(?:SCHEDULE\s+)?DATE[:\s]+(\d{1,2}/\d{1,2}/\d{4})',
-                    first_page
-                )
-                if match:
-                    return datetime.strptime(match.group(1), '%m/%d/%Y').strftime('%Y-%m-%d')
+                return is_image, eff_date
+
+            # Check up to 2 pages to account for image-based cover sheets
+            pages_to_check = min(2, len(pdf.pages))
+
+            for i in range(pages_to_check):
+                text = pdf.pages[i].extract_text(x_tolerance=2, y_tolerance=2)
+
+                if text and text.strip():
+                    is_image = False  # We found selectable text!
+
+                    # Only search for the date if we haven't found it yet
+                    if eff_date is None:
+                        match = re.search(r'(?i)EFFECTIVE\s+(?:SCHEDULE\s+)?DATE[:\s]+(\d{1,2}/\d{1,2}/\d{4})', text)
+                        if match:
+                            eff_date = datetime.strptime(match.group(1), '%m/%d/%Y').strftime('%Y-%m-%d')
+                    
+                    # If we know it's a text PDF AND we found the date, stop reading pages
+                    if eff_date:
+                        break
+
     except Exception as e:
-        logger.warning(f"Could not extract effective date from {pdf_path}: {e}")
-    return None
+        logger.warning(f"Could not complete pre-flight check for {pdf_path}: {e}")
+
+    return is_image, eff_date
 
 
 def stringify_words(word_list: list[dict]) -> str:
@@ -84,10 +106,7 @@ def stringify_words(word_list: list[dict]) -> str:
 
 
 def split_title_and_description(raw_text: str) -> tuple[str, str]:
-    """
-    Shared helper to split a combined title+description string.
-    Eliminates duplicated logic previously found in both parsers.
-    """
+    """Shared helper to split a combined title+description string."""
     match = re.search(
         r'((?:This series\s+)?(?:documents|Collects|Verifies|Consists|consists)\b.*)',
         raw_text, re.IGNORECASE
@@ -107,7 +126,6 @@ def clean_record_fields(record: dict) -> dict:
     retention = re.sub(r'\s+', ' ', record['retention_statement']).strip()
     disposition = re.sub(r'\s+', ' ', record['disposition']).strip()
 
-    # Base Retention/Disposition Split
     disp_match = re.search(
         r'(?i)(Non-confidential Destruction|Confidential Destruction|Permanent, Archives|Permanent, In Agency|Archives|Destruction)$',
         disposition if disposition else retention
@@ -116,7 +134,6 @@ def clean_record_fields(record: dict) -> dict:
         disposition = disp_match.group(1).title()
         retention = retention[:disp_match.start()].strip()
 
-    # Pluck drifted Confidentiality modifiers out of the retention text
     conf_match = re.search(r'(?i)\b(Non-confidential|Confidential)\b', retention)
     if conf_match:
         retention = retention[:conf_match.start()] + retention[conf_match.end():]
@@ -124,7 +141,6 @@ def clean_record_fields(record: dict) -> dict:
         if not disposition.lower().startswith(conf_match.group(1).lower()):
             disposition = f"{conf_match.group(1).title()} {disposition}".strip()
 
-    # Pluck drifted "Destruction" or "Archives" from the MIDDLE of the retention string
     for kw in ["Destruction", "Archives"]:
         kw_match = re.search(fr'(?i)\b{kw}\b', retention)
         if kw_match and kw.lower() not in disposition.lower():
@@ -132,7 +148,6 @@ def clean_record_fields(record: dict) -> dict:
             retention = re.sub(r'\s+', ' ', retention).strip()
             disposition = f"{disposition} {kw}".strip()
 
-    # Extract Legal Citations
     legal_citation = ""
     citation_pattern = r'(\b\d+\s*CFR.*|\b\d+\s*VAC.*|\bCode of Virginia\b.*|\bCOV\b.*|\b\d+\s*USC.*)$'
     citation_match = re.search(citation_pattern, desc, re.IGNORECASE)
@@ -386,8 +401,120 @@ def parse_using_vertical_silo(
     return processed_records
 
 
+def parse_using_marker_html(
+    html_content: str,
+    schedule_id: str,
+    effective_date: str | None,
+    agency_name: str | None
+) -> list[dict]:
+    """Helper method: Parses raw HTML string output generated by marker-pdf."""
+    processed_records = []
+    schedule_type = "general" if schedule_id.startswith("GS") else "specific"
+    
+    soup = BeautifulSoup(html_content, 'html.parser')
+    tables = soup.find_all('table')
+    current_record = None
+
+    for table in tables:
+        rows = table.find_all('tr')
+        for row in rows:
+            cells = row.find_all(['td', 'th'])
+            
+            if len(cells) == 3:
+                col1 = cells[0].get_text(strip=True, separator='\n')
+                col2 = cells[1].get_text(strip=True)
+                col3 = cells[2].get_text(strip=True)
+                
+                if "RECORDS SERIES" in col1.upper() or "EFFECTIVE SCHEDULE" in col1.upper():
+                    continue
+                    
+                if re.match(r'^\d{6}$', col2):
+                    if current_record:
+                        processed_records.append(clean_record_fields(current_record))
+                        
+                    series_title, series_desc = split_title_and_description(col1)
+                    
+                    current_record = {
+                        "state": CONFIG["state"],
+                        "agency_name": agency_name,
+                        "schedule_type": schedule_type,
+                        "schedule_id": schedule_id,
+                        "series_id": col2,
+                        "series_title": series_title,
+                        "series_description": series_desc,
+                        "retention_statement": col3, 
+                        "disposition": "", 
+                        "last_updated": effective_date,
+                        "last_checked": str(date.today())
+                    }
+                
+                elif current_record and not col2 and not col3:
+                    if current_record["series_description"]:
+                        current_record["series_description"] += " " + col1.replace('\n', ' ')
+                    else:
+                        current_record["series_description"] = col1.replace('\n', ' ')
+
+    if current_record:
+        processed_records.append(clean_record_fields(current_record))
+        
+    return processed_records
+
+
+def parse_using_marker_html_optimized(
+    pdf_path: Path, 
+    schedule_id: str, 
+    effective_date: str | None, 
+    agency_name: str | None,
+    is_image: bool
+) -> list[dict]:
+    """Method C: Memory-optimized marker_single wrapper with GPU management."""
+    expected_marker_dir = pdf_path.parent / schedule_id
+    html_path = expected_marker_dir / f"{schedule_id}.html"
+    
+    if not html_path.exists() and pdf_path.with_suffix('.html').exists():
+        html_path = pdf_path.with_suffix('.html')
+
+    env = os.environ.copy()
+    env['INFERENCE_RAM'] = '14'  
+    env['CUDA_VISIBLE_DEVICES'] = '0' 
+
+    if html_path.exists() and html_path.stat().st_mtime > pdf_path.stat().st_mtime:
+        logger.info(f"[{schedule_id}] Using existing, up-to-date HTML file")
+        
+    elif is_image:
+        logger.info(f"[{schedule_id}] Running marker_single with memory optimization...")
+        try:
+            subprocess.run(
+                [
+                    "marker_single", 
+                    str(pdf_path), 
+                    "--output_dir", str(pdf_path.parent),
+                    "--output_format", "html"
+                ],
+                check=True,
+                capture_output=True,
+                text=True,
+                timeout=600, 
+                env=env
+            )
+            if expected_marker_dir.exists():
+                html_path = expected_marker_dir / f"{schedule_id}.html"
+                
+        except (subprocess.CalledProcessError, subprocess.TimeoutExpired) as e:
+            error_msg = e.stderr if isinstance(e, subprocess.CalledProcessError) else "Timeout Expired"
+            logger.error(f"[{schedule_id}] marker_single failed: {error_msg}")
+            return []
+
+    if html_path.exists():
+        with open(html_path, 'r', encoding='utf-8') as f:
+            html_content = f.read()
+        return parse_using_marker_html(html_content, schedule_id, effective_date, agency_name)
+    
+    return []
+
+
 # ---------------------------------------------------------------------------
-# Scoring
+# Scoring & Routing
 # ---------------------------------------------------------------------------
 
 def score_records(records: list[dict]) -> int:
@@ -434,39 +561,71 @@ def score_records(records: list[dict]) -> int:
     return score
 
 
+def select_optimal_strategy_memory_aware(pdf_path: Path, is_image: bool) -> list[str]:
+    """Select parsing strategy based on PDF characteristics and memory constraints."""
+    file_size_mb = pdf_path.stat().st_size / (1024 * 1024)
+    
+    if is_image:
+        return ['html']
+        
+    if file_size_mb > 50:
+        logger.warning(f"[{pdf_path.stem}] Large file detected ({file_size_mb:.1f}MB). Routing to Silo exclusively.")
+        return ['silo']
+        
+    return ['table', 'silo']
+
+
 # ---------------------------------------------------------------------------
 # Orchestration
 # ---------------------------------------------------------------------------
 
 def process_and_evaluate(pdf_path: Path, output_dir: Path, agency_mapping: dict) -> None:
-    """Runs both parsers, compares scores, and saves the winner's output."""
+    """Sequential memory-optimized processing with penalty-free early termination."""
     pdf_path = Path(pdf_path)
     schedule_id = pdf_path.stem
     
-    # Extract the agency code by grabbing all leading digits safely via Regex
-    # Falls back to schedule_id[:3] just in case it doesn't find digits
     match = re.match(r'^(\d+)', schedule_id)
     agency_code = match.group(1) if match else schedule_id[:3]
     agency_name = agency_mapping.get(agency_code, None)
 
     try:
-        effective_date = extract_effective_date(pdf_path)
+        is_image, effective_date = analyze_pdf_preflight(pdf_path)
+        strategies = select_optimal_strategy_memory_aware(pdf_path, is_image)
+        
+        best_score = -9999
+        best_records = []
+        winning_method = "None"
 
-        records_via_table = parse_using_table_engine(pdf_path, schedule_id, effective_date, agency_name)
-        records_via_silo = parse_using_vertical_silo(pdf_path, schedule_id, effective_date, agency_name)
+        for strategy in strategies:
+            logger.info(f"[{schedule_id}] Attempting strategy: {strategy.upper()}")
+            records = []
+            
+            if strategy == 'html':
+                records = parse_using_marker_html_optimized(
+                    pdf_path, schedule_id, effective_date, agency_name, is_image
+                )
+            elif strategy == 'table':
+                records = parse_using_table_engine(pdf_path, schedule_id, effective_date, agency_name)
+            elif strategy == 'silo':
+                records = parse_using_vertical_silo(pdf_path, schedule_id, effective_date, agency_name)
 
-        score_table = score_records(records_via_table)
-        score_silo = score_records(records_via_silo)
+            score = score_records(records)
+            
+            if score > best_score:
+                best_score = score
+                best_records = records
+                winning_method = strategy.upper()
 
-        if score_silo >= score_table and score_silo > 0:
-            best_records = records_via_silo
-            winning_method = "Vertical Silo"
-        else:
-            best_records = records_via_table
-            winning_method = "Table Engine"
+            # Early Termination: Stop trying parsers if we got a totally penalty-free extraction
+            if len(records) > 0 and score >= (len(records) * 10):
+                logger.info(f"[{schedule_id}] Early termination triggered: {strategy.upper()} achieved a penalty-free extraction.")
+                break
 
-        if not best_records:
-            logger.warning(f"No records found for {schedule_id}")
+            del records
+            gc.collect()
+
+        if not best_records or best_score <= 0:
+            logger.warning(f"[{schedule_id}] No valid records found across attempted strategies.")
             return
 
         output_path = output_dir / f"{schedule_id}.json"
@@ -475,7 +634,7 @@ def process_and_evaluate(pdf_path: Path, output_dir: Path, agency_mapping: dict)
 
         logger.info(
             f"Processed: {schedule_id}.pdf -> {len(best_records)} records. "
-            f"(Winner: {winning_method} | Scores: Silo={score_silo}, Table={score_table})"
+            f"(Winner: {winning_method} | Score: {best_score})"
         )
 
     except Exception as e:
@@ -501,5 +660,11 @@ if __name__ == "__main__":
         logger.warning(f"No PDF files found in {input_dir}")
     else:
         worker = partial(process_and_evaluate, output_dir=output_dir, agency_mapping=agency_mapping)
-        with ProcessPoolExecutor() as executor:
-            executor.map(worker, pdf_files)
+        
+        # 'spawn' guarantees a clean OS slate for the new process
+        ctx = multiprocessing.get_context('spawn')
+        
+        # processes=1 prevents PyTorch/CUDA Out-of-Memory crashes
+        # maxtasksperchild=25 reduces process-creation overhead while preventing infinite RAM leaks
+        with ctx.Pool(processes=1, maxtasksperchild=25) as pool:
+            pool.map(worker, pdf_files)

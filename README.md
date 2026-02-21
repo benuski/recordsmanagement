@@ -4,4 +4,4 @@ Where possible, I will document under what permission I am obtaining the retenti
 
 Except as noted below, files are licensed under the GNU GPL v. 3.0 or (at your option) any later version. Scripts have been developed with the assistance of llm chatbots, including Claude Sonnet and Google Gemini.
 
-Files in the data folder have been created only through the use of the scripts found in the processing folder, available for full inspection. None of the content in the data folder has ever been created, extracted, or processed by llm chatbots.
+Files in the data folder have been created only through the use of the scripts found in the processing folder, available for full inspection. None of the content in the data folder has ever been created, extracted, or processed by llm chatbots. I assume that this data is in the public dom

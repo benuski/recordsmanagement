@@ -13,6 +13,7 @@ transformers = { version = ">=4.45.2,<5.0.0", channel = "conda-forge" }
 libjpeg-turbo = { version = "*", channel = "conda-forge" }
 numpy = { version = "<2", channel = "conda-forge" }
 regex = { version = "<2025", channel = "conda-forge" }
+beautifulsoup4 = ">=4.14.3,<5"
 
 [pypi-dependencies]
 torch = { version = ">=2.5" } 
