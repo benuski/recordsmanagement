@@ -1,13 +1,26 @@
 [workspace]
 authors = ["benuski <ben@amongotheritems.org>"]
+name = "marker-pdf-bleeding"
 channels = ["conda-forge", "pytorch"]
-name = "rm"
 platforms = ["win-64"]
-version = "0.1.0"
 
 [dependencies]
-python = "3.14.*"
-pandas = ">=3.0.0,<4"
+python = "*"
+pandas = "*"
+pillow = { version = ">=10.1,<11", channel = "conda-forge" }
+transformers = { version = ">=4.45.2,<5.0.0", channel = "conda-forge" }
+pytorch = ">=2.10"
+torchvision = "*"
+
+# Standard compatibility pins
+libjpeg-turbo = { version = "*", channel = "conda-forge" }
+numpy = { version = "<2", channel = "conda-forge" }
+regex = { version = "<2025", channel = "conda-forge" }
+virtualenv = ">=20.38.0,<21"
+pyarrow = ">=23.0.1,<24"
 
 [pypi-dependencies]
-pdfplumber = "*"
+marker-pdf = ">=1.10"
+img2table = ">=1.4.2, <2"
+surya-ocr = ">=0.17.1, <0.18"
+pdfplumber = ">=0.11.9, <0.12"
