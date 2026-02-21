@@ -1,0 +1,330 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agency Schedule Detail - RIMS</title>
+    <link rel="stylesheet" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="/Scripts/bootstrap.min.js"></script>    
+    <link href="/Content/bootstrap.css" rel="stylesheet"/>
+<link href="/Content/bootstrap-datepicker3.css" rel="stylesheet"/>
+<link href="/Content/bootstrap-datetimepicker.css" rel="stylesheet"/>
+<link href="/Content/style.css" rel="stylesheet"/>
+<link href="/Content/font-awesome.min.css" rel="stylesheet"/>
+
+    
+    <script src="/Scripts/modernizr-2.6.2.js"></script>
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic,600,600italic' rel='stylesheet' type='text/css'>
+
+    
+    <script src="/Scripts/jquery-1.10.2.js"></script>
+<script src="/Scripts/jquery-3.7.1.js"></script>
+
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" aria-label="button">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand text-uppercase visible-xs " href="/GeneralSchedule/Index/smallHomeLinkText">RIMS Home</a>
+                <a class="navbar-brand text-uppercase hidden-xs " href="/GeneralSchedule/Index/largeHomeLinkText">RIMS Home</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <!-- add public links here -->
+                    <li><a href="/GeneralSchedule">General Schedule List</a></li>
+                        <li><a href="/Schedule">Agency Schedule Search</a></li>
+                        <li><a href="/GeneralSchedule/Search">Agency-Adopted General Schedule Search</a></li>
+                        <li><a href="/AgencyDivision">Agency/Division/Section</a></li>
+                                        
+                </ul>
+
+                
+    <ul class="nav navbar-nav navbar-right">
+        <li><a href="/Account/Login" id="loginLink">State User Login</a></li>
+    </ul>
+
+            </div>
+        </div>
+    </div>
+    <div class="container body-content" role="contentinfo">
+        
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+
+    <style type="text/css">
+        /* -- adding this additional td style will allow the td column to wrap when necessary--*/
+        td {
+            white-space: normal !important;
+        }
+    </style>
+
+
+<h1 class="text-center h2">Agency Schedule Detail</h1>
+
+<div class="form-group">
+    <div class="validation-summary-valid text-danger" data-valmsg-summary="true"><ul><li style="display:none"></li>
+</ul></div>
+
+    <input data-val="true" data-val-number="The field Id must be a number." data-val-required="The Id field is required." id="ScheduleId" name="ScheduleId" type="hidden" value="20802" />
+    <div class="panel-body">
+        <div>
+            <div class="row">
+                <div class="col-4 col-md-3"><b>Authorization Number :&nbsp;</b> 10530314</div>
+                <div class="col-4 col-md-8"><b>Agency Series No. :&nbsp;</b> OCC-SD-02</div>
+            </div>
+            <div class="row">
+                <div class="col-4 col-md-3"><b>Status :&nbsp;</b> Active</div>
+                <div class="col-4 col-md-8"><b>Agency Web Link :&nbsp;</b> </div>
+            </div>
+            <div class="row">
+                <div class="col-4 col-md-3"><b>Agency :&nbsp;</b> OCC</div>
+                <div class="col-4 col-md-8"><b>Confidential Description :&nbsp;</b> </div>
+            </div>
+            <div class="row">
+                <div class="col-4 col-md-3"><b>Division :&nbsp;</b> </div>
+                <div class="col-4 col-md-8"><b>Vital Description :&nbsp;</b> </div>
+            </div>
+            <div class="row">
+                <div class="col-4 col-md-3"><b>Section :&nbsp;</b> </div>
+                <div class="col-4 col-md-8"><b>Record Title :&nbsp;</b> Data Documentation/Data Dictionary Records</div>
+            </div>
+            <div class="row">
+                <div class="col-4 col-md-3"><b>Revision :&nbsp;</b> 0</div>
+                <div class="col-4 col-sm-8"><b>Record Description :&nbsp;</b> Records generally created during development or modification and necessary to access, retrieve, manipulate and interpret data in an automated system includiing data element dictionary, file layout, code book or table, and other records that explain the meaning, purpose, structure, logical relationships, and origin of the data elements</div>
+            </div>
+        </div>
+    </div>
+
+    <div style="margin-top:10px">
+        <table class="table table-hover table-bordered">
+            <thead>
+                <tr>
+                    <th>Retention Period</th>
+                    <th>Retention Justification</th>
+                    <th>Media Code</th>
+                    <th>Method of Disposal</th>
+                </tr>
+            </thead>
+            <tbody>
+                    <tr>
+                        <td style="width:40%">Retain 3 years after discontinuance of system or application and until system&#39;&#39;s or application&#39;&#39;s data is destroyed or transferred to a new structure or format, then destroy.  If all data is not destroyed or transferred, then review by State Archives prior to disposal.</td>
+                        <td style="width:40%"></td>
+                        <td style="width:10%">Electronic</td>
+                        <td style="width:10%">Erase</td>
+                    </tr>
+                    <tr>
+                        <td style="width:40%">Retain 3 years after discontinuance of system or application and until system&#39;&#39;s or application&#39;&#39;s data is destroyed or transferred to a new structure or format, then destroy.  If all data is not destroyed or transferred, then review by State Archives prior to disposal.</td>
+                        <td style="width:40%"></td>
+                        <td style="width:10%">Paper</td>
+                        <td style="width:10%">Trash</td>
+                    </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div style="margin-top:10px">
+        <p><h2><b>Approvals</b></h2></p>
+        <table class="table table-hover table-condensed table-bordered">           
+            <thead>
+                <tr>
+                    <th>
+                        Status
+                    </th>
+                    <th>
+                        Name
+                    </th>
+                    <th>
+                        Title
+                    </th>
+                    <th>
+                        Date
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                    <tr>
+                        <td>
+                            Approved
+                        </td>
+                        <td>
+                            Lois Ereira
+                        </td>
+                        <td>
+                            Records Officer
+                        </td>
+                        <td>
+                            8/18/2004 9:20:00 AM
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Approved
+                        </td>
+                        <td>
+                            Michael Hardenbrook
+                        </td>
+                        <td>
+                            Record Administrator
+                        </td>
+                        <td>
+                            9/14/2004 3:46:00 PM
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Approved
+                        </td>
+                        <td>
+                            Laurie Gemmill
+                        </td>
+                        <td>
+                            State Archivist
+                        </td>
+                        <td>
+                            9/23/2004 4:51:00 PM
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Approved
+                        </td>
+                        <td>
+                            Martin Meeks
+                        </td>
+                        <td>
+                            State Auditor
+                        </td>
+                        <td>
+                            9/23/2004 4:51:00 PM
+                        </td>
+                    </tr>
+            </tbody>
+        </table>
+    </div>
+    <div style="margin-top:10px">
+        <p><h3><b>Notes</b></h3></p>
+        <table class="table table-hover table-condensed table-bordered">
+            <thead>
+                <tr>
+                    <th>
+                        Date
+                    </th>
+                    <th>
+                        Reason
+                    </th>
+                    <th>
+                        User
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+        <div style="margin-top:20px" class="hidden-print">
+        <p>
+            
+            <a class="btn btn-default btn-medium form-control" href="/Schedule" title="Back to the List"><span>Back to List &nbsp;</span><i aria-hidden="true" class="glyphicon glyphicon-arrow-left"></i></a>
+                                    
+
+                    </p>
+
+    </div>
+</div>
+<script type="text/javascript">
+    $("#RejectReasonErr").hide();
+    function rejectSchedule(e) {
+        if ($('#RejectReason').val() == "") {
+            $("#RejectReasonErr").show();
+            return false;
+        }
+        e.href = e.href + "?rejectReason=" + $('#RejectReason').val();
+        return true;
+    }
+    $("#ObsoleteJustificationErr").hide();
+    function obsoleteSchedule(e) {
+        if ($('#ObsoleteJustification').val() == "") {
+            $("#ObsoleteJustificationErr").show();
+            return false;
+        }
+        e.href = e.href + "?obsoleteJustification=" + $('#ObsoleteJustification').val();
+        return true;
+    }
+</script>
+    </div>
+
+    <footer class="footer hidden-print">
+        <div class="container">
+            <div class="col-sm-8 hidden-xs">
+                <div id="logo">
+                    
+                    <a href="https://das.ohio.gov/buying-and-selling/state-printing-and-mail-services/records-management/records-management"><img src="/img/occclogolarge_nobg.png" alt="Records Management" class="img-responsive" style="margin: 0 auto;"></a>
+                </div>
+            </div>
+
+            <div class="visible-xs">
+                <div id="logo center-block">
+                    
+                    <a href="https://das.ohio.gov/buying-and-selling/state-printing-and-mail-services/records-management/records-management"><img src="/img/occclogolarge_nobg.png" alt="Records Management" class="img-responsive" style="margin: 0 auto;"></a>
+                </div>
+            </div>
+
+            <div class="pull-right hidden-xs">
+                <ul>
+                    <li class="text-right">
+                        <a href="/GeneralSchedule">Home</a>
+                    </li>
+                    <li class="text-right"><a href="mailto:CSC@Ohio.gov">Contact/Help</a></li>
+                </ul>
+            </div>
+
+            <div class="col-xs-12 visible-xs text-center">
+                <ul>
+                    <li>
+                        <a href="/GeneralSchedule">Home</a>
+                    </li>
+                    <li><a href="mailto:CSC@Ohio.gov">Contact/Help</a></li>
+                </ul>
+            </div>
+
+            <div class="col-sm-12 hidden-xs text-right"><p style="font-size:11px;">&copy; 2026 - RIMS, State of Ohio</p></div>
+            <div class="col-xs-12 visible-xs text-center"><p style="font-size:11px;">&copy; 2026 - RIMS, State of Ohio</p></div>
+        </div>
+    </footer>
+
+    <script src="/Scripts/moment.js"></script>
+<script src="/Scripts/moment-with-locales.js"></script>
+
+    <script src="/Scripts/bootstrap.js"></script>
+<script src="/Scripts/bootstrap-datepicker.js"></script>
+<script src="/Scripts/bootstrap-datetimepicker.js"></script>
+<script src="/Scripts/site.js"></script>
+<script src="/Scripts/respond.js"></script>
+
+    <script src="/Scripts/dropzone/dropzone.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/dompurify@3.0.5/dist/purify.min.js"></script>
+
+    
+    <script src="/Scripts/jquery.validate.js"></script>
+<script src="/Scripts/jquery.validate.unobtrusive.js"></script>
+
+    <script src="/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+
+
+    <script src="/Scripts/ie10-viewport-bug-workaround.js"></script>
+    <script src="/Scripts/controllers/main-layout.js"></script>
+
+
+    
+</body>
+</html>

@@ -1,7 +1,7 @@
 [workspace]
 authors = ["benuski <ben@amongotheritems.org>"]
-name = "marker-pdf-bleeding"
-channels = ["conda-forge" "pytorch"]
+name = "retention-harvest"
+channels = ["conda-forge", "pytorch"]
 platforms = ["linux-64"]
 
 [dependencies]
@@ -9,14 +9,17 @@ python = "*"
 pandas = "*"
 pillow = { version = ">=10.1,<11", channel = "conda-forge" }
 transformers = { version = ">=4.45.2,<5.0.0", channel = "conda-forge" }
+pytorch = ">=2.10"
+torchvision = "*"
 
 # Standard compatibility pins
 libjpeg-turbo = { version = "*", channel = "conda-forge" }
 numpy = { version = "<2", channel = "conda-forge" }
 regex = { version = "<2025", channel = "conda-forge" }
-torch = { version = ">=2.5" }
-torchvision = { version = "*" }
-cpuonly = "*"
+virtualenv = ">=20.38.0,<21"
+pyarrow = ">=23.0.1,<24"
+beautifulsoup4 = ">=4.14.3,<5"
+requests = ">=2.32.5,<3"
 
 [pypi-dependencies]
 marker-pdf = ">=1.10"
