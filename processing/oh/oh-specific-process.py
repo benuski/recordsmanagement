@@ -5,42 +5,12 @@ from pathlib import Path
 from bs4 import BeautifulSoup
 
 def clean_record_fields(record: dict) -> dict:
-    # Use the EXACT SAME clean_record_fields function we perfected for the General Schedules here.
-    # (Pasted below for completeness)
     title = re.sub(r'\s+', ' ', record['series_title']).strip()
     desc = re.sub(r'\s+', ' ', record['series_description']).strip()
     retention = re.sub(r'\s+', ' ', record['retention_statement']).strip()
     disposition = re.sub(r'\s+', ' ', record['disposition']).strip()
 
-    if not disposition and re.search(r'(?i)permanently?', retention):
-        disposition = "Permanent"
-        retention = re.sub(r'(?i)\bpermanently?\b', '', retention).strip()
-        retention = re.sub(r'(?i)^Retain[\s\.]*$', '', retention).strip()
-
-    if not disposition:
-        disp_match = re.search(r'(?i)(?:,\s*)?then\s+(.*)', retention)
-        if disp_match:
-            extracted_disp = disp_match.group(1).strip()
-            
-            oaks_match = re.search(r'(?i)(\.?\s*OAKS:.*)', extracted_disp)
-            if oaks_match:
-                oaks_text = oaks_match.group(1)
-                extracted_disp = extracted_disp.replace(oaks_text, '').strip()
-                retention = retention.replace(disp_match.group(0), oaks_text).strip()
-            else:
-                retention = retention.replace(disp_match.group(0), "").strip()
-
-            extracted_disp = re.sub(r'[\.,;:]$', '', extracted_disp).strip()
-            retention = re.sub(r'[\.,;:]$', '', retention).strip()
-            
-            if "archives" in extracted_disp.lower():
-                if "possible" in extracted_disp.lower() or "review" in extracted_disp.lower():
-                    disposition = extracted_disp[0].upper() + extracted_disp[1:] if extracted_disp else ""
-                else:
-                    disposition = "Permanent"
-            else:
-                disposition = extracted_disp[0].upper() + extracted_disp[1:] if extracted_disp else ""
-
+    # Look for Ohio Revised Code (ORC) or Federal citations
     legal_citation = ""
     citation_pattern = r'(\bORC\s*\d+\.\d+|\b\d+\s*CFR\s*\d+|\b\d+\s*USC\s*\d+)'
     
@@ -52,6 +22,7 @@ def clean_record_fields(record: dict) -> dict:
         if citation_match:
             legal_citation = citation_match.group(1).strip()
 
+    # Extract numeric years
     if 'permanent' in retention.lower() or 'permanent' in disposition.lower():
         retention_years = None
     else:
@@ -70,9 +41,10 @@ def clean_record_fields(record: dict) -> dict:
             else:
                 retention_years = None
 
+    # Update: Set to True if it mentions "confidential" OR if the disposition involves shredding
     is_confidential = (
-        "confidential" in disposition.lower()
-        and "non-confidential" not in disposition.lower()
+        ("confidential" in disposition.lower() and "non-confidential" not in disposition.lower()) or
+        "shred" in disposition.lower()
     )
 
     record.update({
@@ -86,25 +58,37 @@ def clean_record_fields(record: dict) -> dict:
     })
     return record
 
-
-def extract_field_text(soup, label_text):
-    """Helper to find a label (like 'Agency :') and return the text immediately following it."""
-    label_tag = soup.find('b', string=re.compile(label_text))
-    if label_tag:
-        parent = label_tag.parent
-        # Get all text in the parent div, then remove the label part
-        full_text = parent.get_text(strip=True)
-        return full_text.replace(label_tag.get_text(strip=True), '').strip()
+def extract_field_text(soup, label_pattern):
+    """Safely extracts the text next to a bold label."""
+    for b_tag in soup.find_all('b'):
+        if re.search(label_pattern, b_tag.get_text(strip=True), re.IGNORECASE):
+            parent = b_tag.parent
+            if parent:
+                full_text = parent.get_text(strip=True)
+                return full_text.replace(b_tag.get_text(strip=True), '').strip()
     return ""
 
 
 def parse_ohio_specific_html(html_dir: Path, output_json: Path):
-    schedules = []
+    if not html_dir.exists():
+        print(f"CRITICAL ERROR: The directory {html_dir.resolve()} does not exist.")
+        return
+
     html_files = list(html_dir.glob('*.html'))
+    if len(html_files) == 0:
+        print(f"CRITICAL ERROR: No HTML files found in {html_dir.resolve()}.")
+        return
+        
+    print(f"Found {len(html_files)} HTML files. Starting parser...")
     
-    print(f"Found {len(html_files)} HTML files to parse.")
+    schedules = []
+    error_count = 0
 
     for i, file_path in enumerate(html_files):
+        # Extract the unique database ID from the filename (e.g., "18613" from "18613.html")
+        record_id = file_path.stem
+        source_url = f"https://rims.das.ohio.gov/Schedule/Details/{record_id}"
+
         with open(file_path, 'r', encoding='utf-8') as f:
             soup = BeautifulSoup(f, 'html.parser')
             
@@ -112,16 +96,13 @@ def parse_ohio_specific_html(html_dir: Path, output_json: Path):
             # 1. Extract Header Fields
             auth_number = extract_field_text(soup, r"Authorization Number\s*:")
             agency_code = extract_field_text(soup, r"Agency\s*:")
-            series_no = extract_field_text(soup, r"Agency Series No\.\s*:")
+            series_no = extract_field_text(soup, r"Agency Series No\.?\s*:")
             title = extract_field_text(soup, r"Record Title\s*:")
             desc = extract_field_text(soup, r"Record Description\s*:")
             
-            # Combine auth_number and series_no as our unique identifier if needed, 
-            # though series_no is usually the primary key in agency records.
             series_id = series_no if series_no else auth_number
             
-            # 2. Extract Retention Tables
-            # We look for the specific table headers to ensure we get the right table
+            # 2. Extract Retention Tables Safely
             retention_statements = []
             dispositions = []
             tables = soup.find_all('table')
@@ -129,18 +110,49 @@ def parse_ohio_specific_html(html_dir: Path, output_json: Path):
             for table in tables:
                 headers = [th.get_text(strip=True).lower() for th in table.find_all('th')]
                 if 'retention period' in headers:
-                    for row in table.find('tbody').find_all('tr'):
+                    tbody = table.find('tbody')
+                    rows = tbody.find_all('tr') if tbody else table.find_all('tr')
+                    
+                    for row in rows:
                         cols = row.find_all('td')
                         if len(cols) >= 4:
-                            retention_text = cols[0].get_text(strip=True)
-                            disposition_text = cols[3].get_text(strip=True)
+                            ret_text = cols[0].get_text(strip=True)
+                            media = cols[2].get_text(strip=True)
+                            disp_text = cols[3].get_text(strip=True)
                             
-                            if retention_text:
-                                retention_statements.append(retention_text)
-                            if disposition_text and disposition_text.lower() != 'none':
-                                dispositions.append(disposition_text)
+                            # Catch explicit "permanently"
+                            if re.search(r'(?i)permanently?', ret_text):
+                                disp_text = "Permanent"
+                                ret_text = re.sub(r'(?i)\bpermanently?\b', '', ret_text).strip()
+                                ret_text = re.sub(r'(?i)^Retain[\s\.]*$', '', ret_text).strip()
+
+                            # Remove redundant ", then [disposition]" from the retention text
+                            disp_match = re.search(r'(?i)(?:,\s*)?then\s+(.*)', ret_text)
+                            if disp_match:
+                                extracted_disp = disp_match.group(1).strip()
+                                
+                                oaks_match = re.search(r'(?i)(\.?\s*OAKS:.*)', extracted_disp)
+                                if oaks_match:
+                                    oaks_text = oaks_match.group(1)
+                                    extracted_disp = extracted_disp.replace(oaks_text, '').strip()
+                                    ret_text = ret_text.replace(disp_match.group(0), oaks_text).strip()
+                                else:
+                                    ret_text = ret_text.replace(disp_match.group(0), "").strip()
+
+                                extracted_disp = re.sub(r'[\.,;:]$', '', extracted_disp).strip()
+                                
+                                # Use the extracted disposition if the column was blank
+                                if not disp_text or disp_text.lower() == 'none':
+                                    disp_text = extracted_disp.title()
+                            
+                            # Apply the Media Prefix
+                            prefix = f"{media}: " if media and media.lower() not in ['none', 'n/a', '-', ''] else ""
+                            
+                            if ret_text:
+                                retention_statements.append(f"{prefix}{ret_text}")
+                            if disp_text and disp_text.lower() != 'none':
+                                dispositions.append(f"{prefix}{disp_text.title()}")
             
-            # Join multiple rows with a semicolon or newline
             combined_retention = " ; ".join(retention_statements)
             combined_disposition = " ; ".join(dispositions)
             
@@ -150,12 +162,14 @@ def parse_ohio_specific_html(html_dir: Path, output_json: Path):
                 headers = [th.get_text(strip=True).lower() for th in table.find_all('th')]
                 if 'date' in headers and 'status' in headers:
                     dates = []
-                    for row in table.find('tbody').find_all('tr'):
+                    tbody = table.find('tbody')
+                    rows = tbody.find_all('tr') if tbody else table.find_all('tr')
+                    
+                    for row in rows:
                         cols = row.find_all('td')
                         if len(cols) >= 4:
                             date_str = cols[3].get_text(strip=True)
                             try:
-                                # Convert "1/16/2003 5:31:00 PM" into a date object
                                 parsed_date = datetime.strptime(date_str, "%m/%d/%Y %I:%M:%S %p")
                                 dates.append(parsed_date)
                             except ValueError:
@@ -175,14 +189,17 @@ def parse_ohio_specific_html(html_dir: Path, output_json: Path):
                 "retention_statement": combined_retention,
                 "disposition": combined_disposition, 
                 "last_updated": latest_date_str, 
-                "last_checked": str(date.today())
+                "last_checked": str(date.today()),
+                "url": source_url  # <-- Added your URL field here
             }
             
             cleaned_record = clean_record_fields(raw_record)
             schedules.append(cleaned_record)
             
         except Exception as e:
-            print(f"Error parsing {file_path.name}: {e}")
+            error_count += 1
+            if error_count <= 5:
+                print(f"Error parsing {file_path.name}: {e}")
 
         # Log progress
         if (i + 1) % 500 == 0:
@@ -192,14 +209,11 @@ def parse_ohio_specific_html(html_dir: Path, output_json: Path):
     with open(output_json, 'w', encoding='utf-8') as f:
         json.dump(schedules, f, indent=4)
         
-    print(f"Successfully extracted {len(schedules)} specific schedules into {output_json}")
+    print(f"Done! Successfully extracted {len(schedules)} records.")
 
 
 if __name__ == '__main__':
-    # Input: The directory where your downloader is currently saving the files
-    input_dir = Path("../ohio_specific")
-    
-    # Output: The final combined JSON for all specific schedules
+    input_dir = Path("ohio_specific")
     output_file = Path("../../data/oh/specific.json")
     output_file.parent.mkdir(parents=True, exist_ok=True)
     
