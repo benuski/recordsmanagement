@@ -1,4 +1,8 @@
-import os
+marker_single failed: {error_msg}")
+            return []
+
+    if html_path.exists():
+        with open(html_path, 'r', encoding='utf-8') as f:import os
 import gc
 import pdfplumber
 import json
@@ -502,11 +506,7 @@ def parse_using_marker_html_optimized(
                 
         except (subprocess.CalledProcessError, subprocess.TimeoutExpired) as e:
             error_msg = e.stderr if isinstance(e, subprocess.CalledProcessError) else "Timeout Expired"
-            logger.error(f"[{schedule_id}] marker_single failed: {error_msg}")
-            return []
-
-    if html_path.exists():
-        with open(html_path, 'r', encoding='utf-8') as f:
+            logger.error(f"[{schedule_id}] 
             html_content = f.read()
         return parse_using_marker_html(html_content, schedule_id, effective_date, agency_name)
     
@@ -646,7 +646,7 @@ def process_and_evaluate(pdf_path: Path, output_dir: Path, agency_mapping: dict)
 # ---------------------------------------------------------------------------
 
 if __name__ == "__main__":
-    input_dir = Path("../pdfs")
+    input_dir = Path("pdfs")
     output_dir = Path("../../data/va")
     csv_path = Path("agencies.csv") 
     
