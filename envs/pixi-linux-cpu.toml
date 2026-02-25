@@ -20,6 +20,7 @@ virtualenv = ">=20.38.0,<21"
 pyarrow = ">=23.0.1,<24"
 beautifulsoup4 = ">=4.14.3,<5"
 requests = ">=2.32.5,<3"
+sodapy = ">=2.2.0,<3"
 
 [pypi-dependencies]
 marker-pdf = ">=1.10"
