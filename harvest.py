@@ -9,7 +9,6 @@ import json
 from processing.extractor_engine import process_and_evaluate 
 from processing.va.virginia import virginia_config
 
-# Import Ohio modules
 from processing.oh.ohio import ohio_config
 from processing.oh.harvester import harvest_links, download_detail_pages
 from processing.oh.parser import process_ohio_html
@@ -68,17 +67,17 @@ if __name__ == "__main__":
     
     args = parser.parse_args()
 
-    # Ensure directories exist
     args.output_directory.mkdir(parents=True, exist_ok=True)
     args.input_directory.mkdir(parents=True, exist_ok=True) 
     
-    agency_mapping = load_agency_mapping(args.agency_csv)
     output_schema = load_output_schema(args.schema_path)
 
     # -----------------------------------------------------------------------
     # Virginia Pipeline (PDFs)
     # -----------------------------------------------------------------------
     if args.state_code == "va":
+        # Only load the CSV if we are running the Virginia pipeline
+        agency_mapping = load_agency_mapping(args.agency_csv)
         active_config = virginia_config
         pdf_files = list(args.input_directory.glob("*.pdf"))
 
@@ -113,7 +112,6 @@ if __name__ == "__main__":
         logger.info("Initiating Ohio harvest and download phase...")
         urls = harvest_links(base_ohio_url)
         if urls:
-            # We use input_directory as the staging ground for raw HTML files
             download_detail_pages(urls, args.input_directory)
             
         # 2. Parse
