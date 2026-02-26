@@ -119,19 +119,20 @@ def clean_record_fields(record: dict, config: StateScheduleConfig) -> dict:
         desc = desc[:citation_match.start()].strip()
         desc = re.sub(r'[\.,;:]$', '', desc).strip()
 
-    if 'permanent' in retention.lower() or 'permanent' in disposition.lower():
+    # Universal Retention Years Calculation 
+    # Defined cleanly at the top of the block so it can never be unbound
+    retention_years_match = re.search(r'(\d+)\s*year', retention, re.IGNORECASE)
+    word_pattern = r'\b(' + '|'.join(WORD_TO_NUM.keys()) + r')\b\s*year'
+    word_match = re.search(word_pattern, retention, re.IGNORECASE)
+
+    if retention_years_match:
+        retention_years = int(retention_years_match.group(1))
+    elif word_match:
+        retention_years = WORD_TO_NUM[word_match.group(1).lower()]
+    elif 'permanent' in retention.lower() or 'permanent' in disposition.lower():
         retention_years = None
     else:
-        retention_years_match = re.search(r'(\d+)\s*[Yy]ear', retention)
-        if retention_years_match:
-            retention_years = int(retention_years_match.group(1))
-        else:
-            word_pattern = r'\b(' + '|'.join(WORD_TO_NUM.keys()) + r')\b\s*[Yy]ear'
-            word_match = re.search(word_pattern, retention, re.IGNORECASE)
-            if word_match:
-                retention_years = WORD_TO_NUM[word_match.group(1).lower()]
-            else:
-                retention_years = None
+        retention_years = None
 
     is_confidential = (
         "confidential" in disposition.lower()
@@ -148,9 +149,7 @@ def clean_record_fields(record: dict, config: StateScheduleConfig) -> dict:
         'legal_citation': legal_citation,
         'last_checked': str(date.today())
     })
-    return record
-
-
+    return record 
 # ---------------------------------------------------------------------------
 # Parsing Strategies
 # ---------------------------------------------------------------------------
@@ -173,7 +172,6 @@ def parse_using_table_engine(
                 if not table or len(table) < 2:
                     continue
 
-                # RESTORED: Check if the first row is actually a header to handle continuations
                 first_row = " ".join([str(c) for c in table[0] if c]).upper()
                 is_header_row = False
                 for kw_list in config.header_keywords.values():
@@ -185,7 +183,6 @@ def parse_using_table_engine(
                     headers = [str(c).replace('\n', ' ').strip() if c else "" for c in table[0]]
                     rows = table[1:]
                 else:
-                    # Inject defaults if missing
                     headers = [
                         config.header_keywords.get('desc', [''])[0],
                         config.header_keywords.get('id', [''])[0],
@@ -203,7 +200,9 @@ def parse_using_table_engine(
 
                 for row in rows:
                     clean_row = [str(cell) if cell else "" for cell in row]
-                    if len(clean_row) <= max(col_idx.values()):
+                    
+                    # Ensure the row has at least enough columns to reach the ID
+                    if len(clean_row) <= col_idx['id']:
                         continue
 
                     series_number = clean_row[col_idx['id']].replace('\n', '').strip()
@@ -219,6 +218,22 @@ def parse_using_table_engine(
                     else:
                         series_title, series_description = split_title_and_description(series_and_desc)
 
+                    ret_start_col = col_idx['id'] + 1
+                    ret_end_col = col_idx['disp']
+                    if ret_end_col <= ret_start_col:
+                        ret_end_col = ret_start_col + 1
+                        
+                    retention_pieces = []
+                    for c in range(ret_start_col, ret_end_col):
+                        if c < len(clean_row) and clean_row[c]:
+                            retention_pieces.append(clean_row[c].replace('\n', ' ').strip())
+                    
+                    retention_statement = " ".join(retention_pieces)
+
+                    # SAFE FETCH: Only try to grab the disposition if the column index actually exists in this row
+                    disp_idx = col_idx['disp']
+                    raw_disposition = clean_row[disp_idx].replace('\n', ' ').strip() if disp_idx < len(clean_row) else ""
+
                     raw_record = make_record(
                         schema,
                         state=config.state_code,
@@ -227,16 +242,15 @@ def parse_using_table_engine(
                         series_id=series_number,
                         series_title=series_title,
                         series_description=series_description,
-                        retention_statement=clean_row[col_idx['ret']],
-                        disposition=clean_row[col_idx['disp']],
+                        retention_statement=retention_statement,
+                        disposition=raw_disposition,
                         last_updated=effective_date,
                         last_checked=str(date.today())
                     )
                     processed_records.append(clean_record_fields(raw_record, config))
 
     return processed_records
-
-
+    
 def parse_using_vertical_silo(
     pdf_path: Path, schedule_id: str, effective_date: str | None,
     schema: dict, config: StateScheduleConfig
@@ -257,7 +271,6 @@ def parse_using_vertical_silo(
             header_bottom = 0
             page_g1, page_g2, page_g3 = None, None, None
 
-            # RESTORED AND FIXED: Sliding window to catch multi-word phrases, locked to first match
             for i, w in enumerate(words):
                 text_1 = w['text'].upper()
                 text_2 = f"{text_1} {words[i+1]['text'].upper()}" if i + 1 < len(words) else text_1
@@ -297,9 +310,9 @@ def parse_using_vertical_silo(
             if not anchors:
                 if current_record:
                     for w in valid_words:
-                        if w['x1'] < g1: current_record['desc_words'].append(w)
-                        elif g2 <= w['x0'] < g3: current_record['ret_words'].append(w)
+                        if w['x0'] < g1: current_record['desc_words'].append(w)
                         elif w['x0'] >= g3: current_record['disp_words'].append(w)
+                        else: current_record['ret_words'].append(w)
                 continue
 
             bands = []
@@ -320,15 +333,22 @@ def parse_using_vertical_silo(
                 assigned = False
                 for band in bands:
                     if band['y_start'] <= w['top'] < band['y_end']:
-                        if w['x1'] < g1: band['desc_words'].append(w)
-                        elif g2 <= w['x0'] < g3: band['ret_words'].append(w)
-                        elif w['x0'] >= g3: band['disp_words'].append(w)
+                        # NEW: No "dead zones". Everything between Description and Disposition goes to Retention.
+                        if w['x0'] < g1: 
+                            band['desc_words'].append(w)
+                        elif w['x0'] >= g3: 
+                            band['disp_words'].append(w)
+                        else:
+                            band['ret_words'].append(w)
                         assigned = True
                         break
                 if not assigned and current_record and w['top'] < bands[0]['y_start']:
-                    if w['x1'] < g1: current_record['desc_words'].append(w)
-                    elif g2 <= w['x0'] < g3: current_record['ret_words'].append(w)
-                    elif w['x0'] >= g3: current_record['disp_words'].append(w)
+                    if w['x0'] < g1: 
+                        current_record['desc_words'].append(w)
+                    elif w['x0'] >= g3: 
+                        current_record['disp_words'].append(w)
+                    else:
+                        current_record['ret_words'].append(w)
 
             for band in bands:
                 if current_record: all_records.append(current_record)
@@ -361,7 +381,6 @@ def parse_using_vertical_silo(
         processed_records.append(clean_record_fields(raw_record, config))
 
     return processed_records
-
 
 def parse_using_marker_html(
     html_content: str, schedule_id: str, effective_date: str | None,
