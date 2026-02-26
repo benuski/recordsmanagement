@@ -27,11 +27,10 @@ WORD_TO_NUM = {
 # ---------------------------------------------------------------------------
 
 def make_record(schema: dict, **overrides) -> dict:
-    """
-    Creates a new record dict pre-populated with schema defaults,
-    then applies only the fields that exist in the schema.
-    Fields not in the schema are silently dropped.
-    """
+    """Creates a new record dict, safely falling back to overrides if schema is empty."""
+    if not schema:
+        return overrides
+        
     record = dict(schema)
     for key, value in overrides.items():
         if key in record:
@@ -40,34 +39,24 @@ def make_record(schema: dict, **overrides) -> dict:
 
 
 def analyze_pdf_preflight(pdf_path: Path) -> tuple[bool, str | None]:
-    """
-    Single-pass check to minimize pdfplumber I/O and memory overhead.
-    Returns: (is_image_pdf, effective_date)
-    """
     is_image = True
     eff_date = None
-
     try:
         with pdfplumber.open(pdf_path) as pdf:
             if not pdf.pages:
                 return is_image, eff_date
 
             pages_to_check = min(2, len(pdf.pages))
-
             for i in range(pages_to_check):
                 text = pdf.pages[i].extract_text(x_tolerance=2, y_tolerance=2)
-
                 if text and text.strip():
                     is_image = False 
-
                     if eff_date is None:
                         match = re.search(r'(?i)EFFECTIVE\s+(?:SCHEDULE\s+)?DATE[:\s]+(\d{1,2}/\d{1,2}/\d{4})', text)
                         if match:
                             eff_date = datetime.strptime(match.group(1), '%m/%d/%Y').strftime('%Y-%m-%d')
-
                     if eff_date:
                         break
-
     except Exception as e:
         logger.warning(f"Could not complete pre-flight check for {pdf_path}: {e}")
 
@@ -75,7 +64,6 @@ def analyze_pdf_preflight(pdf_path: Path) -> tuple[bool, str | None]:
 
 
 def stringify_words(word_list: list[dict]) -> str:
-    """Sorts words top-to-bottom, left-to-right, and cleans up line-break hyphenation."""
     if not word_list:
         return ""
     word_list.sort(key=lambda w: (round(w['top'] / 5) * 5, w['x0']))
@@ -84,7 +72,6 @@ def stringify_words(word_list: list[dict]) -> str:
 
 
 def split_title_and_description(raw_text: str) -> tuple[str, str]:
-    """Shared helper to split a combined title+description string."""
     match = re.search(
         r'((?:This series\s+)?(?:documents|Collects|Verifies|Consists|consists)\b.*)',
         raw_text, re.IGNORECASE
@@ -98,11 +85,10 @@ def split_title_and_description(raw_text: str) -> tuple[str, str]:
 
 
 def clean_record_fields(record: dict, config: StateScheduleConfig) -> dict:
-    """Universal clean-up for raw extracted data, driven by state config."""
-    title = re.sub(r'\s+', ' ', record['series_title']).strip()
-    desc = re.sub(r'\s+', ' ', record['series_description']).strip()
-    retention = re.sub(r'\s+', ' ', record['retention_statement']).strip()
-    disposition = re.sub(r'\s+', ' ', record['disposition']).strip()
+    title = re.sub(r'\s+', ' ', record.get('series_title', '')).strip()
+    desc = re.sub(r'\s+', ' ', record.get('series_description', '')).strip()
+    retention = re.sub(r'\s+', ' ', record.get('retention_statement', '')).strip()
+    disposition = re.sub(r'\s+', ' ', record.get('disposition', '')).strip()
 
     disp_match = re.search(
         r'(?i)(Non-confidential Destruction|Confidential Destruction|Permanent, Archives|Permanent, In Agency|Archives|Destruction)$',
@@ -133,19 +119,15 @@ def clean_record_fields(record: dict, config: StateScheduleConfig) -> dict:
         desc = desc[:citation_match.start()].strip()
         desc = re.sub(r'[\.,;:]$', '', desc).strip()
 
-# Universal Retention Years Calculation (Now handles both digits and words)
     if 'permanent' in retention.lower() or 'permanent' in disposition.lower():
         retention_years = None
     else:
-        # First, look for strict digits (e.g., "5 Years")
         retention_years_match = re.search(r'(\d+)\s*[Yy]ear', retention)
         if retention_years_match:
             retention_years = int(retention_years_match.group(1))
         else:
-            # Fall back to spelled-out words (e.g., "Five Years")
             word_pattern = r'\b(' + '|'.join(WORD_TO_NUM.keys()) + r')\b\s*[Yy]ear'
             word_match = re.search(word_pattern, retention, re.IGNORECASE)
-            
             if word_match:
                 retention_years = WORD_TO_NUM[word_match.group(1).lower()]
             else:
@@ -163,7 +145,8 @@ def clean_record_fields(record: dict, config: StateScheduleConfig) -> dict:
         'retention_years': retention_years,
         'disposition': disposition,
         'confidential': is_confidential,
-        'legal_citation': legal_citation
+        'legal_citation': legal_citation,
+        'last_checked': str(date.today())
     })
     return record
 
@@ -176,7 +159,6 @@ def parse_using_table_engine(
     pdf_path: Path, schedule_id: str, effective_date: str | None,
     schema: dict, config: StateScheduleConfig
 ) -> list[dict]:
-    """Method A: Uses pdfplumber's extract_tables(), mapped via config."""
     processed_records = []
     schedule_type = "general" if schedule_id.startswith("GS") else "specific"
 
@@ -191,8 +173,26 @@ def parse_using_table_engine(
                 if not table or len(table) < 2:
                     continue
 
-                headers = [str(c).replace('\n', ' ').strip() if c else "" for c in table[0]]
-                rows = table[1:]
+                # RESTORED: Check if the first row is actually a header to handle continuations
+                first_row = " ".join([str(c) for c in table[0] if c]).upper()
+                is_header_row = False
+                for kw_list in config.header_keywords.values():
+                    if any(kw in first_row for kw in kw_list):
+                        is_header_row = True
+                        break
+
+                if is_header_row:
+                    headers = [str(c).replace('\n', ' ').strip() if c else "" for c in table[0]]
+                    rows = table[1:]
+                else:
+                    # Inject defaults if missing
+                    headers = [
+                        config.header_keywords.get('desc', [''])[0],
+                        config.header_keywords.get('id', [''])[0],
+                        config.header_keywords.get('ret', [''])[0],
+                        config.header_keywords.get('disp', [''])[0]
+                    ]
+                    rows = table
 
                 col_idx = {'desc': 0, 'id': 1, 'ret': 2, 'disp': 3}
                 for i, h in enumerate(headers):
@@ -241,7 +241,6 @@ def parse_using_vertical_silo(
     pdf_path: Path, schedule_id: str, effective_date: str | None,
     schema: dict, config: StateScheduleConfig
 ) -> list[dict]:
-    """Method B: Uses exact X/Y pixel coordinate vertical walls from config."""
     all_records = []
     current_record = None
     g1, g2, g3 = config.default_walls
@@ -258,17 +257,19 @@ def parse_using_vertical_silo(
             header_bottom = 0
             page_g1, page_g2, page_g3 = None, None, None
 
-            # Dynamically look for column headers based on config keywords
+            # RESTORED AND FIXED: Sliding window to catch multi-word phrases, locked to first match
             for i, w in enumerate(words):
-                text_upper = w['text'].upper()
-                if any(kw in text_upper for kw in config.header_keywords.get('id', [])):
+                text_1 = w['text'].upper()
+                text_2 = f"{text_1} {words[i+1]['text'].upper()}" if i + 1 < len(words) else text_1
+
+                if not page_g1 and any(kw in text_1 or kw in text_2 for kw in config.header_keywords.get('id', [])):
                     if w['x0'] > 100:
                         page_g1 = w['x0'] - 10
                         header_bottom = max(header_bottom, w['bottom'])
-                elif any(kw in text_upper for kw in config.header_keywords.get('ret', [])):
+                elif not page_g2 and any(kw in text_1 or kw in text_2 for kw in config.header_keywords.get('ret', [])):
                     page_g2 = w['x0'] - 10
                     header_bottom = max(header_bottom, w['bottom'])
-                elif any(kw in text_upper for kw in config.header_keywords.get('disp', [])):
+                elif not page_g3 and any(kw in text_1 or kw in text_2 for kw in config.header_keywords.get('disp', [])):
                     page_g3 = w['x0'] - 10
                     header_bottom = max(header_bottom, w['bottom'])
 
@@ -366,7 +367,6 @@ def parse_using_marker_html(
     html_content: str, schedule_id: str, effective_date: str | None,
     schema: dict, config: StateScheduleConfig
 ) -> list[dict]:
-    """Helper method: Parses HTML string output generated by marker-pdf."""
     processed_records = []
     schedule_type = "general" if schedule_id.startswith("GS") else "specific"
 
@@ -423,7 +423,6 @@ def parse_using_marker_html_optimized(
     pdf_path: Path, schedule_id: str, effective_date: str | None,
     is_image: bool, schema: dict, config: StateScheduleConfig
 ) -> list[dict]:
-    """Method C: Memory-optimized marker_single wrapper with GPU management."""
     expected_marker_dir = pdf_path.parent / schedule_id
     html_path = expected_marker_dir / f"{schedule_id}.html"
 
@@ -495,8 +494,12 @@ def score_records(records: list[dict], config: StateScheduleConfig) -> int:
         if not desc: score -= 5
         if not ret: score -= 10
 
-        if title.lower().startswith('this series'): score -= 15
-        if title.lower().startswith('documents '): score -= 15
+        # NEW PENALTIES: Catch horizontally merged "snowballs"
+        if title.lower().startswith('this series') or title.lower().startswith('documents '):
+            score -= 15
+        if len(title) > 200:
+            score -= 50
+
         if desc and not title: score -= 10
 
         if any(penalty in title for penalty in config.citation_penalty_strings):
@@ -511,7 +514,6 @@ def score_records(records: list[dict], config: StateScheduleConfig) -> int:
 
 
 def select_optimal_strategy_memory_aware(pdf_path: Path, is_image: bool) -> list[str]:
-    """Select parsing strategy based on PDF characteristics and memory constraints."""
     file_size_mb = pdf_path.stat().st_size / (1024 * 1024)
 
     if is_image:
@@ -529,7 +531,6 @@ def select_optimal_strategy_memory_aware(pdf_path: Path, is_image: bool) -> list
 # ---------------------------------------------------------------------------
 
 def process_and_evaluate(pdf_path: Path, output_dir: Path, agency_mapping: dict, schema: dict, config: StateScheduleConfig, skip_ocr: bool = False) -> None:
-    """Sequential memory-optimized processing utilizing state configuration."""
     pdf_path = Path(pdf_path)
     schedule_id = pdf_path.stem
 
@@ -540,14 +541,12 @@ def process_and_evaluate(pdf_path: Path, output_dir: Path, agency_mapping: dict,
     try:
         is_image, effective_date = analyze_pdf_preflight(pdf_path)
         
-        # Intercept and skip if the flag is on and the PDF is just an image
         if is_image and skip_ocr:
             logger.warning(f"[{schedule_id}] File is an image scan and --skip-ocr is enabled. Skipping entirely.")
             return
 
         strategies = select_optimal_strategy_memory_aware(pdf_path, is_image)
         
-        # Failsafe: Remove html strategy if skip_ocr is on, just in case a mixed file routes to it
         if skip_ocr and 'html' in strategies:
             strategies.remove('html')
             
@@ -596,9 +595,12 @@ def process_and_evaluate(pdf_path: Path, output_dir: Path, agency_mapping: dict,
             del records
             gc.collect()
 
-        if not best_records or best_score <= 0:
-            logger.warning(f"[{schedule_id}] No valid records found across attempted strategies.")
-            return
+        # Save anyway so you can see exactly what the grader is rejecting
+        if not best_records:
+            logger.warning(f"[{schedule_id}] No text could be extracted at all. Saving empty array.")
+            best_records = []
+        elif best_score <= 0:
+            logger.warning(f"[{schedule_id}] Extraction scored poorly ({best_score}). Overwriting file anyway for review.")
 
         output_path = output_dir / f"{schedule_id}.json"
         with open(output_path, 'w', encoding='utf-8') as f:
