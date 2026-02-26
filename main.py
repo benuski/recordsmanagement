@@ -6,9 +6,8 @@ from functools import partial
 import csv
 import json
 
-# Import your engine and configs
 from extractor_engine import process_and_evaluate 
-from configs.virginia import virginia_config
+from processing.va.virginia import virginia_config
 
 # ---------------------------------------------------------------------------
 # Logging Setup
@@ -20,15 +19,13 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # ---------------------------------------------------------------------------
-# Helper Functions (moved from main script)
+# Helper Functions
 # ---------------------------------------------------------------------------
 def load_agency_mapping(csv_path: Path) -> dict[str, str]:
-    """Loads the agency code to agency name mapping from a CSV."""
     mapping = {}
     if not csv_path.exists():
         logger.warning(f"Agency CSV not found at {csv_path}. Agency names will be None.")
         return mapping
-
     try:
         with open(csv_path, mode='r', encoding='utf-8-sig') as f:
             reader = csv.DictReader(f)
@@ -39,12 +36,9 @@ def load_agency_mapping(csv_path: Path) -> dict[str, str]:
                     mapping[code] = name
     except Exception as e:
         logger.error(f"Failed to load agency mapping: {e}")
-
     return mapping
 
-
 def load_output_schema(schema_path: Path) -> dict:
-    """Loads the output record field schema from a JSON file."""
     if not schema_path.exists():
         logger.warning(f"Output schema not found at {schema_path}. Records may have missing fields.")
         return {}
@@ -66,9 +60,11 @@ if __name__ == "__main__":
     parser.add_argument("--schema-path", type=Path, default=Path("output_template_clean.json"), help="Path to the output JSON schema")
     parser.add_argument("--agency-csv", type=Path, default=Path("agencies.csv"), help="Path to the agency mapping CSV")
     
+    # New long-form flag to bypass OCR
+    parser.add_argument("--skip-ocr", action="store_true", help="Bypass the marker-pdf OCR engine and skip image-only PDFs")
+    
     args = parser.parse_args()
 
-    # Route to the correct configuration
     if args.state_code == "va":
         active_config = virginia_config
     else:
@@ -86,13 +82,16 @@ if __name__ == "__main__":
         logger.warning(f"No PDF files found in {args.input_directory}")
     else:
         logger.info(f"Starting pipeline for {len(pdf_files)} files using {args.state_code.upper()} configuration.")
+        if args.skip_ocr:
+            logger.info("OCR skipping is ENABLED. Image-only PDFs will be ignored.")
         
         worker = partial(
             process_and_evaluate,
             output_dir=args.output_directory,
             agency_mapping=agency_mapping,
             schema=output_schema,
-            config=active_config  # Passing the configuration object to the engine
+            config=active_config,
+            skip_ocr=args.skip_ocr  # Pass the flag to the engine
         )
 
         ctx = multiprocessing.get_context('spawn')

@@ -1,5 +1,5 @@
 import re
-from configs.base_config import StateScheduleConfig
+from processing.base_config import StateScheduleConfig
 
 virginia_config = StateScheduleConfig(
     state_code="va",

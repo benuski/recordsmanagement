@@ -9,9 +9,18 @@ from datetime import datetime, date
 import pdfplumber
 from bs4 import BeautifulSoup
 
-from configs.base_config import StateScheduleConfig
+from processing.base_config import StateScheduleConfig
 
 logger = logging.getLogger(__name__)
+
+# ---------------------------------------------------------------------------
+# Global Constants
+# ---------------------------------------------------------------------------
+WORD_TO_NUM = {
+    'one': 1, 'two': 2, 'three': 3, 'four': 4, 'five': 5,
+    'six': 6, 'seven': 7, 'eight': 8, 'nine': 9, 'ten': 10,
+    'eleven': 11, 'twelve': 12, 'fifteen': 15, 'sixteen': 16
+}
 
 # ---------------------------------------------------------------------------
 # Helper Functions
@@ -124,13 +133,23 @@ def clean_record_fields(record: dict, config: StateScheduleConfig) -> dict:
         desc = desc[:citation_match.start()].strip()
         desc = re.sub(r'[\.,;:]$', '', desc).strip()
 
-    retention_years_match = re.search(r'(\d+)\s*[Yy]ear', retention)
-    if retention_years_match:
-        retention_years = int(retention_years_match.group(1))
-    elif 'permanent' in retention.lower() or 'permanent' in disposition.lower():
+# Universal Retention Years Calculation (Now handles both digits and words)
+    if 'permanent' in retention.lower() or 'permanent' in disposition.lower():
         retention_years = None
     else:
-        retention_years = None
+        # First, look for strict digits (e.g., "5 Years")
+        retention_years_match = re.search(r'(\d+)\s*[Yy]ear', retention)
+        if retention_years_match:
+            retention_years = int(retention_years_match.group(1))
+        else:
+            # Fall back to spelled-out words (e.g., "Five Years")
+            word_pattern = r'\b(' + '|'.join(WORD_TO_NUM.keys()) + r')\b\s*[Yy]ear'
+            word_match = re.search(word_pattern, retention, re.IGNORECASE)
+            
+            if word_match:
+                retention_years = WORD_TO_NUM[word_match.group(1).lower()]
+            else:
+                retention_years = None
 
     is_confidential = (
         "confidential" in disposition.lower()
@@ -509,19 +528,32 @@ def select_optimal_strategy_memory_aware(pdf_path: Path, is_image: bool) -> list
 # Orchestration
 # ---------------------------------------------------------------------------
 
-def process_and_evaluate(pdf_path: Path, output_dir: Path, agency_mapping: dict, schema: dict, config: StateScheduleConfig) -> None:
+def process_and_evaluate(pdf_path: Path, output_dir: Path, agency_mapping: dict, schema: dict, config: StateScheduleConfig, skip_ocr: bool = False) -> None:
     """Sequential memory-optimized processing utilizing state configuration."""
     pdf_path = Path(pdf_path)
     schedule_id = pdf_path.stem
 
-    # Map the agency name (left as general parsing logic)
     match = re.match(r'^(\d+)', schedule_id)
     agency_code = match.group(1) if match else schedule_id[:3]
     agency_name = agency_mapping.get(agency_code, None)
 
     try:
         is_image, effective_date = analyze_pdf_preflight(pdf_path)
+        
+        # Intercept and skip if the flag is on and the PDF is just an image
+        if is_image and skip_ocr:
+            logger.warning(f"[{schedule_id}] File is an image scan and --skip-ocr is enabled. Skipping entirely.")
+            return
+
         strategies = select_optimal_strategy_memory_aware(pdf_path, is_image)
+        
+        # Failsafe: Remove html strategy if skip_ocr is on, just in case a mixed file routes to it
+        if skip_ocr and 'html' in strategies:
+            strategies.remove('html')
+            
+        if not strategies:
+            logger.warning(f"[{schedule_id}] No valid parsers available after skipping OCR.")
+            return
 
         best_score = -9999
         best_records = []
@@ -544,7 +576,6 @@ def process_and_evaluate(pdf_path: Path, output_dir: Path, agency_mapping: dict,
                     pdf_path, schedule_id, effective_date, schema, config
                 )
 
-            # Apply agency name uniformly to whatever records were returned
             for record in records:
                 record['agency_name'] = agency_name
 
