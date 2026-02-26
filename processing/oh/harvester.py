@@ -1,13 +1,9 @@
-import json
 import time
 import requests
 import logging
-import argparse
 from pathlib import Path
 from bs4 import BeautifulSoup
 
-# Configure standard logging
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
 def harvest_links(base_url: str) -> list[str]:
@@ -64,17 +60,3 @@ def download_detail_pages(urls: list[str], output_dir: Path) -> None:
         except Exception as e:
             logger.error(f"Error downloading {url}: {e}")
             time.sleep(5)
-
-if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description="Harvest Ohio HTML retention schedules.")
-    parser.add_argument("--output-directory", required=True, type=Path, help="Directory to save the raw HTML files")
-    args = parser.parse_args()
-
-    base_ohio_url = "https://rims.das.ohio.gov"
-    
-    # 1. Harvest the links directly into memory
-    urls = harvest_links(base_ohio_url)
-    
-    # 2. Download the HTML pages
-    if urls:
-        download_detail_pages(urls, args.output_directory)

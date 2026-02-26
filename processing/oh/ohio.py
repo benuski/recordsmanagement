@@ -1,5 +1,7 @@
 import re
 from processing.base_config import StateScheduleConfig
+ 
+ohio_config = StateScheduleConfig(
     state_code="oh",
     # PDF parsing walls/footers are not applicable for Ohio's HTML pipeline
     default_walls=(0, 0, 0),

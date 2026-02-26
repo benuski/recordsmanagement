@@ -1,15 +1,13 @@
 import json
 import re
 import logging
-import argparse
 from datetime import date, datetime
 from pathlib import Path
 from bs4 import BeautifulSoup
 
 from processing.oh.ohio import ohio_config
-from extractor_engine import clean_record_fields, make_record
+from processing.extractor_engine import clean_record_fields, make_record
 
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
 def extract_field_text(soup: BeautifulSoup, label_pattern: str) -> str:
@@ -118,32 +116,3 @@ def process_ohio_html(html_file: Path, schema: dict) -> dict | None:
     except Exception as e:
         logger.error(f"Error parsing {html_file.name}: {e}")
         return None
-
-if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description="Parse Ohio HTML retention schedules into JSON.")
-    parser.add_argument("--input-directory", required=True, type=Path, help="Directory containing the raw HTML files")
-    parser.add_argument("--output-file", required=True, type=Path, help="Path to save the resulting JSON file")
-    parser.add_argument("--schema-path", type=Path, default=Path("output_template_clean.json"), help="Path to the output JSON schema")
-    args = parser.parse_args()
-
-    args.output_file.parent.mkdir(parents=True, exist_ok=True)
-    
-    with open(args.schema_path, 'r', encoding='utf-8') as f:
-        schema = json.load(f)
-
-    html_files = list(args.input_directory.glob('*.html'))
-    logger.info(f"Found {len(html_files)} HTML files. Starting parser...")
-    
-    schedules = []
-    for i, file_path in enumerate(html_files):
-        record = process_ohio_html(file_path, schema)
-        if record:
-            schedules.append(record)
-            
-        if (i + 1) % 500 == 0:
-            logger.info(f"Parsed {i+1}/{len(html_files)} files...")
-
-    with open(args.output_file, 'w', encoding='utf-8') as f:
-        json.dump(schedules, f, indent=4)
-        
-    logger.info(f"Done! Successfully extracted {len(schedules)} records to {args.output_file}")
