@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import csv
 import json
 from pathlib import Path
 from datetime import datetime
@@ -22,6 +23,17 @@ def get_all_records(dataset_id):
 
     return all_results
 
+def load_retention_codes(filepath: str) -> dict:
+    """Load retentioncodes.csv into a dict keyed by code."""
+    codes = {}
+    with open(filepath, newline="", encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            codes[row["code"]] = row
+    return codes
+
+RETENTION_CODES = load_retention_codes("retentioncodes.csv")
+
 # All required output fields — any not populated from source will default to ""
 RECORD_TEMPLATE = {
     "state": "",
@@ -33,6 +45,7 @@ RECORD_TEMPLATE = {
     "retention_statement": "",
     "retention_years": "",
     "retention_code": "",
+    "retention_code_definition": "",
     "comments": "",
     "disposition": "",
     "confidential": "",
@@ -44,15 +57,12 @@ RECORD_TEMPLATE = {
 
 # Crosswalk: source field name → standardized field name
 FIELD_MAPPING = {
-    "rsin":                     "series_id",
-    "record_series_title":      "series_title",
-    "record_series_description":"series_description",
-    "years":                    "retention_years",
-    "remarks":                  "comments",
-    # Add additional Texas source fields below as you identify them
-    # "next_recertification":   "next_update",
-    # "legal_authority":        "legal_citation",
-    # "disposition_authority":  "disposition",
+    "rsin":                      "series_id",
+    "record_series_title":       "series_title",
+    "record_series_description": "series_description",
+    "years":                     "retention_years",
+    "remarks":                   "comments",
+    "ac_definition":             "retention_code_definition",
 }
 
 # Static metadata applied to every record
@@ -69,6 +79,22 @@ def extract_schedule_id(series_id: str) -> str:
         return f"{parts[0]}.{parts[1]}"
     return ""
 
+def resolve_retention_code_definition(record: dict) -> str:
+    """
+    AC codes: title from CSV + ac_definition from source (stripping 'AC = ').
+    All other codes: title and definition both from CSV.
+    """
+    code = record.get("retention_code", "")
+    if code not in RETENTION_CODES:
+        return ""
+    title = RETENTION_CODES[code]["title"]
+    if code == "AC":
+        definition = record.get("retention_code_definition", "").removeprefix("AC = ")
+    else:
+        definition = RETENTION_CODES[code]["definition"]
+    return f"{title}: {definition}"
+
+
 def standardize_record(raw: dict) -> dict:
     record = dict(raw)
 
@@ -79,6 +105,9 @@ def standardize_record(raw: dict) -> dict:
 
     # Derive schedule_id from series_id (x.y from x.y.zzz)
     record["schedule_id"] = extract_schedule_id(record.get("series_id", ""))
+
+    # Resolve retention_code_definition from code + source field
+    record["retention_code_definition"] = resolve_retention_code_definition(record)
 
     # Apply static metadata (overwrites any conflicting source values)
     record.update(METADATA)
@@ -106,5 +135,5 @@ with open(output_file, "w", encoding="utf-8") as f:
 
 print(f"Successfully saved {len(standardized_records)} records to {output_file}")
 print(f"Renamed fields:  {', '.join(f'{s} → {t}' for s, t in FIELD_MAPPING.items())}")
-print(f"Derived fields:  schedule_id")
+print(f"Derived fields:  schedule_id, retention_code_definition")
 print(f"Metadata fields: {', '.join(METADATA.keys())}")
