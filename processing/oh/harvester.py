@@ -3,6 +3,7 @@ import requests
 import logging
 from pathlib import Path
 from bs4 import BeautifulSoup
+from email.utils import formatdate
 
 logger = logging.getLogger(__name__)
 
@@ -35,26 +36,38 @@ def harvest_links(base_url: str) -> list[str]:
     return schedule_links
 
 def download_detail_pages(urls: list[str], output_dir: Path) -> None:
-    """Downloads HTML files for the gathered URLs, skipping existing ones."""
+    """Downloads HTML files, utilizing If-Modified-Since to only fetch updated schedules."""
     output_dir.mkdir(parents=True, exist_ok=True)
-    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
+    base_headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
     
     for i, url in enumerate(urls):
         record_id = url.split('/')[-1]
         file_path = output_dir / f"{record_id}.html"
         
+        request_headers = base_headers.copy()
+        
+        # If we already have the file, ask the server if it has been modified since we last downloaded it
         if file_path.exists():
-            continue
+            mtime = file_path.stat().st_mtime
+            # Format the local file's modification time into the standard HTTP date format
+            http_date = formatdate(timeval=mtime, localtime=False, usegmt=True)
+            request_headers["If-Modified-Since"] = http_date
             
         try:
-            response = requests.get(url, headers=headers)
+            response = requests.get(url, headers=request_headers)
+            
+            # 304 Not Modified means our local copy is still perfectly up-to-date
+            if response.status_code == 304:
+                continue
+                
             response.raise_for_status()
             
+            # If we get a 200 OK, the file is new or updated, so we write/overwrite it
             with open(file_path, 'w', encoding='utf-8') as f:
                 f.write(response.text)
                 
             if (i + 1) % 50 == 0 or i == 0:
-                logger.info(f"[{i+1}/{len(urls)}] Downloaded record {record_id}...")
+                logger.info(f"[{i+1}/{len(urls)}] Downloaded new or updated record {record_id}...")
             
             time.sleep(1) 
         except Exception as e:

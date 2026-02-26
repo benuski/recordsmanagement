@@ -76,7 +76,6 @@ if __name__ == "__main__":
     # Virginia Pipeline (PDFs)
     # -----------------------------------------------------------------------
     if args.state_code == "va":
-        # Only load the CSV if we are running the Virginia pipeline
         agency_mapping = load_agency_mapping(args.agency_csv)
         active_config = virginia_config
         pdf_files = list(args.input_directory.glob("*.pdf"))
@@ -108,14 +107,34 @@ if __name__ == "__main__":
         logger.info(f"Starting pipeline using {args.state_code.upper()} configuration.")
         base_ohio_url = "https://rims.das.ohio.gov"
         
-        # 1. Harvest & Download
-        logger.info("Initiating Ohio harvest and download phase...")
+        # 1. Harvest & Prune
+        logger.info("Initiating Ohio harvest phase...")
         urls = harvest_links(base_ohio_url)
+        
         if urls:
+            # Create a set of active IDs from the harvested URLs
+            active_ids = {url.split('/')[-1] for url in urls}
+            
+            # Check existing HTML files in the input directory
+            existing_html_files = list(args.input_directory.glob("*.html"))
+            pruned_count = 0
+            
+            for file_path in existing_html_files:
+                # If the HTML file's name isn't in the active URLs, it's obsolete
+                if file_path.stem not in active_ids:
+                    logger.info(f"[{file_path.stem}] Record no longer active. Deleting obsolete HTML.")
+                    file_path.unlink()
+                    pruned_count += 1
+                    
+            if pruned_count > 0:
+                logger.info(f"Pruned {pruned_count} obsolete records from the staging directory.")
+                
+            # 2. Download missing active records
             download_detail_pages(urls, args.input_directory)
             
-        # 2. Parse
+        # 3. Parse
         logger.info("Initiating Ohio parsing phase...")
+        # Re-glob the directory now that obsolete files are gone and new ones are downloaded
         html_files = list(args.input_directory.glob("*.html"))
         schedules = []
         
@@ -134,4 +153,4 @@ if __name__ == "__main__":
             with open(output_file, 'w', encoding='utf-8') as f:
                 json.dump(schedules, f, indent=4)
                 
-            logger.info(f"Done! Successfully extracted {len(schedules)} records to {output_file}")
+            logger.info(f"Done! Successfully extracted {len(schedules)} active records to {output_file}")
