@@ -63,6 +63,9 @@ FIELD_MAPPING = {
     "years":                     "retention_years",
     "remarks":                   "comments",
     "ac_definition":             "retention_code_definition",
+    # Add additional Texas source fields below as you identify them
+    # "next_recertification":    "next_update",
+    # "legal_authority":         "legal_citation",
 }
 
 # Static metadata applied to every record
@@ -94,6 +97,26 @@ def resolve_retention_code_definition(record: dict) -> str:
         definition = RETENTION_CODES[code]["definition"]
     return f"{title}: {definition}"
 
+def resolve_retention_statement(record: dict) -> str:
+    """Construct retention_statement as 'title plus retention_years year(s)'."""
+    code = record.get("retention_code", "")
+    years = record.get("retention_years", "")
+    if code not in RETENTION_CODES:
+        return ""
+    title = RETENTION_CODES[code]["title"]
+    if years:
+        year_label = "year" if years == "1" else "years"
+        return f"{title} plus {years} {year_label}"
+    return title
+
+def resolve_disposition(record: dict) -> str:
+    """Map source 'archival' field to a disposition value."""
+    archival = record.get("archival", "")
+    if archival == "A":
+        return "Permanent, Archives"
+    elif archival == "R":
+        return "Must offer to Archives prior to destruction"
+    return ""
 
 def standardize_record(raw: dict) -> dict:
     record = dict(raw)
@@ -108,6 +131,12 @@ def standardize_record(raw: dict) -> dict:
 
     # Resolve retention_code_definition from code + source field
     record["retention_code_definition"] = resolve_retention_code_definition(record)
+
+    # Construct retention_statement from code title + retention_years
+    record["retention_statement"] = resolve_retention_statement(record)
+
+    # Resolve disposition from archival field
+    record["disposition"] = resolve_disposition(record)
 
     # Apply static metadata (overwrites any conflicting source values)
     record.update(METADATA)
@@ -135,5 +164,5 @@ with open(output_file, "w", encoding="utf-8") as f:
 
 print(f"Successfully saved {len(standardized_records)} records to {output_file}")
 print(f"Renamed fields:  {', '.join(f'{s} → {t}' for s, t in FIELD_MAPPING.items())}")
-print(f"Derived fields:  schedule_id, retention_code_definition")
+print(f"Derived fields:  schedule_id, retention_code_definition, retention_statement, disposition")
 print(f"Metadata fields: {', '.join(METADATA.keys())}")
