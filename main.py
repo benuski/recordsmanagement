@@ -6,7 +6,7 @@ from functools import partial
 import csv
 import json
 
-from extractor_engine import process_and_evaluate 
+from processing.extractor_engine import process_and_evaluate 
 from processing.va.virginia import virginia_config
 
 # ---------------------------------------------------------------------------
