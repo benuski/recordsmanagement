@@ -61,7 +61,7 @@ if __name__ == "__main__":
     parser.add_argument("--input-directory", required=True, type=Path, help="Path to the directory containing source PDFs or to save/read HTML files")
     parser.add_argument("--output-directory", required=True, type=Path, help="Path to save the resulting JSON files")
     parser.add_argument("--state-code", required=True, type=str, choices=["va", "oh"], help="The two-letter state code (e.g., va, oh)")
-    parser.add_argument("--schema-path", type=Path, default=Path("processing/output_template_clean.json"), help="Path to the output JSON schema")
+    parser.add_argument("--schema-path", type=Path, default=Path("output_template_clean.json"), help="Path to the output JSON schema")
     parser.add_argument("--agency-csv", type=Path, default=Path("agencies.csv"), help="Path to the agency mapping CSV")
     parser.add_argument("--skip-ocr", action="store_true", help="Bypass the marker-pdf OCR engine and skip image-only PDFs")
     
@@ -112,31 +112,34 @@ if __name__ == "__main__":
         urls = harvest_links(base_ohio_url)
         
         if urls:
-            # Create a set of active IDs from the harvested URLs
             active_ids = {url.split('/')[-1] for url in urls}
-            
-            # Check existing HTML files in the input directory
             existing_html_files = list(args.input_directory.glob("*.html"))
             pruned_count = 0
             
             for file_path in existing_html_files:
-                # If the HTML file's name isn't in the active URLs, it's obsolete
                 if file_path.stem not in active_ids:
-                    logger.info(f"[{file_path.stem}] Record no longer active. Deleting obsolete HTML.")
+                    logger.info(f"[{file_path.stem}] Record no longer active. Deleting obsolete HTML and JSON.")
+                    
+                    # Delete the obsolete raw HTML
                     file_path.unlink()
+                    
+                    # Delete the obsolete parsed JSON
+                    obsolete_json = args.output_directory / f"{file_path.stem}.json"
+                    if obsolete_json.exists():
+                        obsolete_json.unlink()
+                        
                     pruned_count += 1
                     
             if pruned_count > 0:
-                logger.info(f"Pruned {pruned_count} obsolete records from the staging directory.")
+                logger.info(f"Pruned {pruned_count} obsolete records from the local directories.")
                 
             # 2. Download missing active records
             download_detail_pages(urls, args.input_directory)
             
         # 3. Parse
         logger.info("Initiating Ohio parsing phase...")
-        # Re-glob the directory now that obsolete files are gone and new ones are downloaded
         html_files = list(args.input_directory.glob("*.html"))
-        schedules = []
+        parsed_count = 0
         
         if not html_files:
             logger.warning(f"No HTML files found in {args.input_directory} to parse.")
@@ -144,13 +147,13 @@ if __name__ == "__main__":
             for i, file_path in enumerate(html_files):
                 record = process_ohio_html(file_path, output_schema)
                 if record:
-                    schedules.append(record)
+                    # Write immediately to an individual file
+                    output_file = args.output_directory / f"{file_path.stem}.json"
+                    with open(output_file, 'w', encoding='utf-8') as f:
+                        json.dump([record], f, indent=2, ensure_ascii=False)
+                    parsed_count += 1
                     
                 if (i + 1) % 500 == 0:
                     logger.info(f"Parsed {i+1}/{len(html_files)} files...")
 
-            output_file = args.output_directory / "ohio_records.json"
-            with open(output_file, 'w', encoding='utf-8') as f:
-                json.dump(schedules, f, indent=4)
-                
-            logger.info(f"Done! Successfully extracted {len(schedules)} active records to {output_file}")
+            logger.info(f"Done! Successfully extracted {parsed_count} active records to {args.output_directory}")
