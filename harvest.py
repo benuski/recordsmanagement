@@ -64,7 +64,8 @@ if __name__ == "__main__":
     parser.add_argument("--schema-path", type=Path, default=Path("processing/output_template_clean.json"), help="Path to the output JSON schema")
     parser.add_argument("--agency-csv", type=Path, default=Path("agencies.csv"), help="Path to the agency mapping CSV")
     parser.add_argument("--skip-ocr", action="store_true", help="Bypass the marker-pdf OCR engine and skip image-only PDFs")
-    
+    parser.add_argument("--update-dl", action="store_true", help="Download/update HTML files from remote servers (default: parse existing files only)")
+
     args = parser.parse_args()
 
     args.output_directory.mkdir(parents=True, exist_ok=True)
@@ -106,37 +107,42 @@ if __name__ == "__main__":
     elif args.state_code == "oh":
         logger.info(f"Starting pipeline using {args.state_code.upper()} configuration.")
         base_ohio_url = "https://rims.das.ohio.gov"
-        
-        # 1. Harvest & Prune
-        logger.info("Initiating Ohio harvest phase...")
-        urls = harvest_links(base_ohio_url)
-        
-        if urls:
-            active_ids = {url.split('/')[-1] for url in urls}
-            existing_html_files = list(args.input_directory.glob("*.html"))
-            pruned_count = 0
-            
-            for file_path in existing_html_files:
-                if file_path.stem not in active_ids:
-                    logger.info(f"[{file_path.stem}] Record no longer active. Deleting obsolete HTML and JSON.")
-                    
-                    # Delete the obsolete raw HTML
-                    file_path.unlink()
-                    
-                    # Delete the obsolete parsed JSON
-                    obsolete_json = args.output_directory / f"{file_path.stem}.json"
-                    if obsolete_json.exists():
-                        obsolete_json.unlink()
-                        
-                    pruned_count += 1
-                    
-            if pruned_count > 0:
-                logger.info(f"Pruned {pruned_count} obsolete records from the local directories.")
-                
-            # 2. Download missing active records
-            download_detail_pages(urls, args.input_directory)
-            
-        # 3. Parse
+
+        # 1. Harvest, Prune & Download (only if --update-dl is set)
+        if args.update_dl:
+            logger.info("Initiating Ohio harvest phase...")
+            urls = harvest_links(base_ohio_url)
+
+            if urls:
+                active_ids = {url.split('/')[-1] for url in urls}
+                existing_html_files = list(args.input_directory.glob("spec_*.html"))
+                pruned_count = 0
+
+                for file_path in existing_html_files:
+                    # Extract ID from spec_12345.html -> 12345
+                    record_id = file_path.stem.replace("spec_", "")
+                    if record_id not in active_ids:
+                        logger.info(f"[{record_id}] Record no longer active. Deleting obsolete HTML.")
+
+                        # Delete the obsolete raw HTML
+                        file_path.unlink()
+
+                        pruned_count += 1
+
+                if pruned_count > 0:
+                    logger.info(f"Pruned {pruned_count} obsolete records from the local directories.")
+
+                # 2. Download general schedules
+                from processing.oh.harvester import download_general_schedule
+                logger.info("Downloading Ohio general schedules...")
+                download_general_schedule(base_ohio_url, args.input_directory)
+
+                # 3. Download missing active specific records
+                download_detail_pages(urls, args.input_directory)
+        else:
+            logger.info("Skipping download phase (--update-dl not set)")
+
+        # 4. Parse
         logger.info("Initiating Ohio parsing phase...")
         html_files = list(args.input_directory.glob("*.html"))
 
@@ -146,7 +152,7 @@ if __name__ == "__main__":
             from processing.oh.parser import process_ohio_html, process_ohio_general_html
             from collections import defaultdict
 
-            # Group records by schedule_id prefix (digits before the dash)
+            # Group records by agency_name
             grouped_records = defaultdict(list)
 
             for i, file_path in enumerate(html_files):
@@ -158,21 +164,20 @@ if __name__ == "__main__":
                 else:
                     record = process_ohio_html(file_path, output_schema)
                     if record:
-                        # Extract schedule_id prefix (digits before dash)
-                        schedule_id = record.get('schedule_id', '')
-                        if schedule_id and '-' in schedule_id:
-                            prefix = schedule_id.split('-')[0]
-                            grouped_records[prefix].append(record)
+                        # Group by agency_name (e.g., "OEB", "LCC", "DAS")
+                        agency_name = record.get('agency_name', '').strip()
+                        if agency_name:
+                            grouped_records[agency_name].append(record)
                         else:
-                            logger.warning(f"No valid schedule_id found in {file_path.name}: {schedule_id}")
+                            logger.warning(f"No agency_name found in {file_path.name}")
 
                 if (i + 1) % 500 == 0:
                     logger.info(f"Parsed {i+1}/{len(html_files)} files...")
 
             # Write grouped records to files
-            for schedule_prefix, records in grouped_records.items():
+            for agency_name, records in grouped_records.items():
                 if records:
-                    output_file = args.output_directory / f"{schedule_prefix}.json"
+                    output_file = args.output_directory / f"{agency_name}.json"
                     with open(output_file, 'w', encoding='utf-8') as f:
                         json.dump(records, f, indent=2, ensure_ascii=False)
 
