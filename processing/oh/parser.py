@@ -4,6 +4,7 @@ import logging
 from datetime import date, datetime
 from pathlib import Path
 from bs4 import BeautifulSoup
+from word2number import w2n
 
 from processing.oh.ohio import ohio_config
 from processing.extractor_engine import clean_record_fields as universal_clean_record_fields
@@ -14,11 +15,6 @@ logger = logging.getLogger(__name__)
 # ---------------------------------------------------------------------------
 # Ohio General Schedule Constants & Regexes
 # ---------------------------------------------------------------------------
-WORD_TO_NUM = {
-    'one': 1, 'two': 2, 'three': 3, 'four': 4, 'five': 5,
-    'six': 6, 'seven': 7, 'eight': 8, 'nine': 9, 'ten': 10,
-    'eleven': 11, 'twelve': 12, 'fifteen': 15, 'sixteen': 16
-}
 
 _WHITESPACE_RE      = re.compile(r'\s+')
 _PERMANENT_RE       = re.compile(r'permanently?', re.IGNORECASE)
@@ -27,7 +23,7 @@ _THEN_DISP_RE       = re.compile(r'(?:,\s*)?then\s+(.*)', re.IGNORECASE)
 _OAKS_RE            = re.compile(r'\.?\s*OAKS:.*', re.IGNORECASE)
 _TRAILING_PUNCT_RE  = re.compile(r'[\.,;:]$')
 _DIGIT_YEAR_RE      = re.compile(r'(\d+)\s*year', re.IGNORECASE)
-_WORD_NUM_RE        = re.compile(r'\b(' + '|'.join(WORD_TO_NUM.keys()) + r')\b\s*year', re.IGNORECASE)
+_WORD_NUM_RE        = re.compile(r'\b([a-zA-Z]+(?:-[a-zA-Z]+)?)\b\s*year', re.IGNORECASE)
 _LEGAL_CITATION_RE  = re.compile(r'(\bORC\s*\d+\.\d+|\b\d+\s*CFR\s*\d+|\b\d+\s*USC\s*\d+)', re.IGNORECASE)
 
 # ---------------------------------------------------------------------------
@@ -86,7 +82,13 @@ def clean_ohio_general_record(record: dict) -> dict:
             retention_years = int(digit_m.group(1))
         else:
             word_m = _WORD_NUM_RE.search(retention)
-            retention_years = WORD_TO_NUM[word_m.group(1).lower()] if word_m else None
+            if word_m:
+                try:
+                    retention_years = w2n.word_to_num(word_m.group(1).lower())
+                except ValueError:
+                    retention_years = None
+            else:
+                retention_years = None
 
     disp_lower = disposition.lower()
     is_confidential = 'confidential' in disp_lower and 'non-confidential' not in disp_lower

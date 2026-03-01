@@ -8,19 +8,11 @@ from pathlib import Path
 from datetime import datetime, date
 import pdfplumber
 from bs4 import BeautifulSoup
+from word2number import w2n
 
 from processing.base_config import StateScheduleConfig
 
 logger = logging.getLogger(__name__)
-
-# ---------------------------------------------------------------------------
-# Global Constants
-# ---------------------------------------------------------------------------
-WORD_TO_NUM = {
-    'one': 1, 'two': 2, 'three': 3, 'four': 4, 'five': 5,
-    'six': 6, 'seven': 7, 'eight': 8, 'nine': 9, 'ten': 10,
-    'eleven': 11, 'twelve': 12, 'fifteen': 15, 'sixteen': 16
-}
 
 # ---------------------------------------------------------------------------
 # Helper Functions
@@ -119,16 +111,18 @@ def clean_record_fields(record: dict, config: StateScheduleConfig) -> dict:
         desc = desc[:citation_match.start()].strip()
         desc = re.sub(r'[\.,;:]$', '', desc).strip()
 
-    # Universal Retention Years Calculation 
+    # Universal Retention Years Calculation
     # Defined cleanly at the top of the block so it can never be unbound
     retention_years_match = re.search(r'(\d+)\s*year', retention, re.IGNORECASE)
-    word_pattern = r'\b(' + '|'.join(WORD_TO_NUM.keys()) + r')\b\s*year'
-    word_match = re.search(word_pattern, retention, re.IGNORECASE)
+    word_match = re.search(r'\b([a-zA-Z]+(?:-[a-zA-Z]+)?)\b\s*year', retention, re.IGNORECASE)
 
     if retention_years_match:
         retention_years = int(retention_years_match.group(1))
     elif word_match:
-        retention_years = WORD_TO_NUM[word_match.group(1).lower()]
+        try:
+            retention_years = w2n.word_to_num(word_match.group(1).lower())
+        except ValueError:
+            retention_years = None
     elif 'permanent' in retention.lower() or 'permanent' in disposition.lower():
         retention_years = None
     else:

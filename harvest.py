@@ -139,29 +139,41 @@ if __name__ == "__main__":
         # 3. Parse
         logger.info("Initiating Ohio parsing phase...")
         html_files = list(args.input_directory.glob("*.html"))
-        parsed_count = 0
-        
+
         if not html_files:
             logger.warning(f"No HTML files found in {args.input_directory} to parse.")
         else:
             from processing.oh.parser import process_ohio_html, process_ohio_general_html
-            
+            from collections import defaultdict
+
+            # Group records by schedule_id prefix (digits before the dash)
+            grouped_records = defaultdict(list)
+
             for i, file_path in enumerate(html_files):
                 # Route to the appropriate parser
                 if file_path.name.startswith("gen_"):
                     records = process_ohio_general_html(file_path, output_schema)
+                    # General schedules go to a special file
+                    grouped_records['general'].extend(records)
                 else:
                     record = process_ohio_html(file_path, output_schema)
-                    records = [record] if record else []
-                
-                # Write to disk
-                if records:
-                    output_file = args.output_directory / f"{file_path.stem}.json"
-                    with open(output_file, 'w', encoding='utf-8') as f:
-                        json.dump(records, f, indent=2, ensure_ascii=False)
-                    parsed_count += 1
-                    
+                    if record:
+                        # Extract schedule_id prefix (digits before dash)
+                        schedule_id = record.get('schedule_id', '')
+                        if schedule_id and '-' in schedule_id:
+                            prefix = schedule_id.split('-')[0]
+                            grouped_records[prefix].append(record)
+                        else:
+                            logger.warning(f"No valid schedule_id found in {file_path.name}: {schedule_id}")
+
                 if (i + 1) % 500 == 0:
                     logger.info(f"Parsed {i+1}/{len(html_files)} files...")
 
-            logger.info(f"Done! Successfully extracted {parsed_count} active files to {args.output_directory}")
+            # Write grouped records to files
+            for schedule_prefix, records in grouped_records.items():
+                if records:
+                    output_file = args.output_directory / f"{schedule_prefix}.json"
+                    with open(output_file, 'w', encoding='utf-8') as f:
+                        json.dump(records, f, indent=2, ensure_ascii=False)
+
+            logger.info(f"Done! Successfully extracted {len(grouped_records)} schedule groups from {len(html_files)} files to {args.output_directory}")
