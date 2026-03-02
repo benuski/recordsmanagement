@@ -9,6 +9,7 @@ import json
 from processing.extractor_engine import process_and_evaluate
 from processing.va.virginia import virginia_config
 from processing.tx.texas import texas_config
+from processing.tx.tx_pdf_processor import process_texas_pdf
 
 from processing.oh.ohio import ohio_config
 from processing.oh.harvester import harvest_links, download_detail_pages
@@ -106,29 +107,55 @@ if __name__ == "__main__":
     # Texas Pipeline (PDFs)
     # -----------------------------------------------------------------------
     elif args.state_code == "tx":
-        agency_mapping = load_agency_mapping(args.agency_csv)
-        active_config = texas_config
         pdf_files = list(args.input_directory.glob("*.pdf"))
+        retention_codes_path = Path("processing/tx/retentioncodes.csv")
+        agencies_html_path = Path("processing/tx/pdfs/agencies.html")
+
+        # Load agency mapping from agencies.html
+        from processing.tx.parse_agencies import parse_agencies_html
+        agency_mapping = {}
+        if agencies_html_path.exists():
+            agency_mapping = parse_agencies_html(agencies_html_path)
+            logger.info(f"Loaded {len(agency_mapping)} agencies from {agencies_html_path}")
+        else:
+            logger.warning(f"agencies.html not found at {agencies_html_path}")
 
         if not pdf_files:
             logger.warning(f"No PDF files found in {args.input_directory}")
         else:
             logger.info(f"Starting pipeline for {len(pdf_files)} files using {args.state_code.upper()} configuration.")
-            if args.skip_ocr:
-                logger.info("OCR skipping is ENABLED. Image-only PDFs will be ignored.")
 
-            worker = partial(
-                process_and_evaluate,
-                output_dir=args.output_directory,
-                agency_mapping=agency_mapping,
-                schema=output_schema,
-                config=active_config,
-                skip_ocr=args.skip_ocr
-            )
+            all_records = []
 
-            ctx = multiprocessing.get_context('spawn')
-            with ctx.Pool(processes=1, maxtasksperchild=25) as pool:
-                pool.map(worker, pdf_files)
+            for pdf_file in pdf_files:
+                logger.info(f"Processing {pdf_file.name}...")
+                try:
+                    records = process_texas_pdf(pdf_file, output_schema, retention_codes_path, agency_mapping)
+                    all_records.extend(records)
+                    logger.info(f"Extracted {len(records)} records from {pdf_file.name}")
+                except Exception as e:
+                    logger.error(f"Failed to process {pdf_file.name}: {e}")
+
+            # Group records by schedule_id (or use 'general' if no schedule_id)
+            from collections import defaultdict
+            grouped_records = defaultdict(list)
+
+            for record in all_records:
+                schedule_id = record.get('schedule_id', '').strip()
+                if schedule_id:
+                    grouped_records[schedule_id].extend([record])
+                else:
+                    grouped_records['general'].append(record)
+
+            # Write grouped records to files
+            for schedule_id, records in grouped_records.items():
+                if records:
+                    output_file = args.output_directory / f"{schedule_id}.json"
+                    with open(output_file, 'w', encoding='utf-8') as f:
+                        json.dump(records, f, indent=2, ensure_ascii=False)
+                    logger.info(f"Wrote {len(records)} records to {output_file}")
+
+            logger.info(f"Done! Successfully extracted {len(all_records)} records from {len(pdf_files)} files to {args.output_directory}")
 
     # -----------------------------------------------------------------------
     # Ohio Pipeline (HTML Web Scraping)
