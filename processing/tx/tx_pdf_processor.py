@@ -259,7 +259,7 @@ def process_texas_pdf(pdf_path: Path, output_schema: dict, retention_codes_path:
                             'retention_years': '',
                             'retention_statement': '',
                             'disposition': '',
-                            'confidential': false,
+                            'confidential': '',
                             'legal_citation': '',
                             'comments': ''
                         })
@@ -291,6 +291,15 @@ def process_texas_pdf(pdf_path: Path, output_schema: dict, retention_codes_path:
                                 record['disposition'] = 'Permanent, Archives'
                             else:
                                 record['disposition'] = 'Non-confidential Destruction'
+
+                        # Check for confidentiality markers
+                        row_text = ' '.join(str(cell or '') for cell in row).lower()
+                        if 'confidential' in row_text and 'non-confidential' not in row_text:
+                            record['confidential'] = True
+                            if 'destruction' in record['disposition'].lower() and 'confidential' not in record['disposition'].lower():
+                                record['disposition'] = 'Confidential Destruction'
+                        else:
+                            record['confidential'] = False
 
                         # Apply metadata
                         record.update({

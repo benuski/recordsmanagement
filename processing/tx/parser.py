@@ -267,11 +267,11 @@ def parse_table_row(row_node, retention_codes: dict) -> dict | None:
     # Check for confidentiality markers
     all_text = ' '.join(cell_texts).lower()
     if 'confidential' in all_text and 'non-confidential' not in all_text:
-        record['confidential'] = 'Yes'
+        record['confidential'] = True
         if 'destruction' in record['disposition'].lower() and 'confidential' not in record['disposition'].lower():
             record['disposition'] = 'Confidential Destruction'
     else:
-        record['confidential'] = 'No'
+        record['confidential'] = False
 
     # Skip records without essential fields
     if not record['series_id'] or not record['series_title']:
