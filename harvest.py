@@ -6,8 +6,9 @@ from functools import partial
 import csv
 import json
 
-from processing.extractor_engine import process_and_evaluate 
+from processing.extractor_engine import process_and_evaluate
 from processing.va.virginia import virginia_config
+from processing.tx.texas import texas_config
 
 from processing.oh.ohio import ohio_config
 from processing.oh.harvester import harvest_links, download_detail_pages
@@ -60,7 +61,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Extract data from state records retention schedules.")
     parser.add_argument("--input-directory", required=True, type=Path, help="Path to the directory containing source PDFs or to save/read HTML files")
     parser.add_argument("--output-directory", required=True, type=Path, help="Path to save the resulting JSON files")
-    parser.add_argument("--state-code", required=True, type=str, choices=["va", "oh"], help="The two-letter state code (e.g., va, oh)")
+    parser.add_argument("--state-code", required=True, type=str, choices=["va", "oh", "tx"], help="The two-letter state code (e.g., va, oh, tx)")
     parser.add_argument("--schema-path", type=Path, default=Path("processing/output_template_clean.json"), help="Path to the output JSON schema")
     parser.add_argument("--agency-csv", type=Path, default=Path("agencies.csv"), help="Path to the agency mapping CSV")
     parser.add_argument("--skip-ocr", action="store_true", help="Bypass the marker-pdf OCR engine and skip image-only PDFs")
@@ -95,6 +96,34 @@ if __name__ == "__main__":
                 schema=output_schema,
                 config=active_config,
                 skip_ocr=args.skip_ocr  
+            )
+
+            ctx = multiprocessing.get_context('spawn')
+            with ctx.Pool(processes=1, maxtasksperchild=25) as pool:
+                pool.map(worker, pdf_files)
+
+    # -----------------------------------------------------------------------
+    # Texas Pipeline (PDFs)
+    # -----------------------------------------------------------------------
+    elif args.state_code == "tx":
+        agency_mapping = load_agency_mapping(args.agency_csv)
+        active_config = texas_config
+        pdf_files = list(args.input_directory.glob("*.pdf"))
+
+        if not pdf_files:
+            logger.warning(f"No PDF files found in {args.input_directory}")
+        else:
+            logger.info(f"Starting pipeline for {len(pdf_files)} files using {args.state_code.upper()} configuration.")
+            if args.skip_ocr:
+                logger.info("OCR skipping is ENABLED. Image-only PDFs will be ignored.")
+
+            worker = partial(
+                process_and_evaluate,
+                output_dir=args.output_directory,
+                agency_mapping=agency_mapping,
+                schema=output_schema,
+                config=active_config,
+                skip_ocr=args.skip_ocr
             )
 
             ctx = multiprocessing.get_context('spawn')
