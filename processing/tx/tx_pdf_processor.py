@@ -10,6 +10,7 @@ import logging
 import pdfplumber
 from pathlib import Path
 from datetime import datetime
+from processing.tx.parse_agencies import parse_agencies_html
 
 logger = logging.getLogger(__name__)
 
@@ -140,7 +141,7 @@ def parse_retention_field(retention_text: str, retention_codes: dict) -> dict:
     return result
 
 
-def process_texas_pdf(pdf_path: Path, output_schema: dict, retention_codes_path: Path) -> list[dict]:
+def process_texas_pdf(pdf_path: Path, output_schema: dict, retention_codes_path: Path, agency_mapping: dict = None) -> list[dict]:
     """
     Process a Texas retention schedule PDF and extract records.
 
@@ -148,6 +149,7 @@ def process_texas_pdf(pdf_path: Path, output_schema: dict, retention_codes_path:
         pdf_path: Path to the PDF file
         output_schema: Output record schema template
         retention_codes_path: Path to retentioncodes.csv
+        agency_mapping: Optional dict mapping schedule_id to agency info (from agencies.html)
 
     Returns:
         List of standardized record dictionaries
@@ -160,6 +162,19 @@ def process_texas_pdf(pdf_path: Path, output_schema: dict, retention_codes_path:
 
     # Extract metadata
     metadata = extract_metadata_from_pdf(pdf_path)
+
+    # Enhance metadata with agency mapping if available
+    # Prefer agency mapping over PDF extraction (more reliable)
+    if agency_mapping and metadata['schedule_id'] in agency_mapping:
+        agency_info = agency_mapping[metadata['schedule_id']]
+        # Always use agency mapping for name (more authoritative than PDF extraction)
+        metadata['agency_name'] = agency_info['name']
+        # Use dates from mapping if not found in PDF
+        if not metadata['last_updated']:
+            metadata['last_updated'] = agency_info['last_updated']
+        if not metadata['next_update']:
+            metadata['next_update'] = agency_info['next_update']
+
     logger.info(f"Extracted metadata: schedule_id={metadata['schedule_id']}, agency={metadata['agency_name']}")
 
     records = []
@@ -244,7 +259,7 @@ def process_texas_pdf(pdf_path: Path, output_schema: dict, retention_codes_path:
                             'retention_years': '',
                             'retention_statement': '',
                             'disposition': '',
-                            'confidential': 'No',
+                            'confidential': false,
                             'legal_citation': '',
                             'comments': ''
                         })

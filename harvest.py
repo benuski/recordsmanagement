@@ -109,6 +109,16 @@ if __name__ == "__main__":
     elif args.state_code == "tx":
         pdf_files = list(args.input_directory.glob("*.pdf"))
         retention_codes_path = Path("processing/tx/retentioncodes.csv")
+        agencies_html_path = Path("processing/tx/pdfs/agencies.html")
+
+        # Load agency mapping from agencies.html
+        from processing.tx.parse_agencies import parse_agencies_html
+        agency_mapping = {}
+        if agencies_html_path.exists():
+            agency_mapping = parse_agencies_html(agencies_html_path)
+            logger.info(f"Loaded {len(agency_mapping)} agencies from {agencies_html_path}")
+        else:
+            logger.warning(f"agencies.html not found at {agencies_html_path}")
 
         if not pdf_files:
             logger.warning(f"No PDF files found in {args.input_directory}")
@@ -120,7 +130,7 @@ if __name__ == "__main__":
             for pdf_file in pdf_files:
                 logger.info(f"Processing {pdf_file.name}...")
                 try:
-                    records = process_texas_pdf(pdf_file, output_schema, retention_codes_path)
+                    records = process_texas_pdf(pdf_file, output_schema, retention_codes_path, agency_mapping)
                     all_records.extend(records)
                     logger.info(f"Extracted {len(records)} records from {pdf_file.name}")
                 except Exception as e:
