@@ -48,6 +48,11 @@ def extract_metadata_from_pdf(pdf_path: Path) -> dict:
         'url': ''
     }
 
+    # Fallback: extract schedule_id from filename (e.g., "601.pdf" -> "601")
+    filename_match = re.match(r'^(\d{3,4})\.pdf$', pdf_path.name)
+    if filename_match:
+        metadata['schedule_id'] = filename_match.group(1)
+
     try:
         with pdfplumber.open(pdf_path) as pdf:
             # Check first 3 pages for metadata
