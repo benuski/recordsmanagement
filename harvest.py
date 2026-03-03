@@ -6,8 +6,10 @@ from functools import partial
 import csv
 import json
 
-from processing.extractor_engine import process_and_evaluate 
+from processing.extractor_engine import process_and_evaluate
 from processing.va.virginia import virginia_config
+from processing.tx.texas import texas_config
+from processing.tx.tx_pdf_processor import process_texas_pdf
 
 from processing.oh.ohio import ohio_config
 from processing.oh.harvester import harvest_links, download_detail_pages
@@ -60,7 +62,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Extract data from state records retention schedules.")
     parser.add_argument("--input-directory", required=True, type=Path, help="Path to the directory containing source PDFs or to save/read HTML files")
     parser.add_argument("--output-directory", required=True, type=Path, help="Path to save the resulting JSON files")
-    parser.add_argument("--state-code", required=True, type=str, choices=["va", "oh"], help="The two-letter state code (e.g., va, oh)")
+    parser.add_argument("--state-code", required=True, type=str, choices=["va", "oh", "tx"], help="The two-letter state code (e.g., va, oh, tx)")
     parser.add_argument("--schema-path", type=Path, default=Path("processing/output_template_clean.json"), help="Path to the output JSON schema")
     parser.add_argument("--agency-csv", type=Path, default=Path("agencies.csv"), help="Path to the agency mapping CSV")
     parser.add_argument("--skip-ocr", action="store_true", help="Bypass the marker-pdf OCR engine and skip image-only PDFs")
@@ -100,6 +102,60 @@ if __name__ == "__main__":
             ctx = multiprocessing.get_context('spawn')
             with ctx.Pool(processes=1, maxtasksperchild=25) as pool:
                 pool.map(worker, pdf_files)
+
+    # -----------------------------------------------------------------------
+    # Texas Pipeline (PDFs)
+    # -----------------------------------------------------------------------
+    elif args.state_code == "tx":
+        pdf_files = list(args.input_directory.glob("*.pdf"))
+        retention_codes_path = Path("processing/tx/retentioncodes.csv")
+        agencies_html_path = Path("processing/tx/pdfs/agencies.html")
+
+        # Load agency mapping from agencies.html
+        from processing.tx.parse_agencies import parse_agencies_html
+        agency_mapping = {}
+        if agencies_html_path.exists():
+            agency_mapping = parse_agencies_html(agencies_html_path)
+            logger.info(f"Loaded {len(agency_mapping)} agencies from {agencies_html_path}")
+        else:
+            logger.warning(f"agencies.html not found at {agencies_html_path}")
+
+        if not pdf_files:
+            logger.warning(f"No PDF files found in {args.input_directory}")
+        else:
+            logger.info(f"Starting pipeline for {len(pdf_files)} files using {args.state_code.upper()} configuration.")
+
+            all_records = []
+
+            for pdf_file in pdf_files:
+                logger.info(f"Processing {pdf_file.name}...")
+                try:
+                    records = process_texas_pdf(pdf_file, output_schema, retention_codes_path, agency_mapping)
+                    all_records.extend(records)
+                    logger.info(f"Extracted {len(records)} records from {pdf_file.name}")
+                except Exception as e:
+                    logger.error(f"Failed to process {pdf_file.name}: {e}")
+
+            # Group records by schedule_id (or use 'general' if no schedule_id)
+            from collections import defaultdict
+            grouped_records = defaultdict(list)
+
+            for record in all_records:
+                schedule_id = record.get('schedule_id', '').strip()
+                if schedule_id:
+                    grouped_records[schedule_id].extend([record])
+                else:
+                    grouped_records['general'].append(record)
+
+            # Write grouped records to files
+            for schedule_id, records in grouped_records.items():
+                if records:
+                    output_file = args.output_directory / f"{schedule_id}.json"
+                    with open(output_file, 'w', encoding='utf-8') as f:
+                        json.dump(records, f, indent=2, ensure_ascii=False)
+                    logger.info(f"Wrote {len(records)} records to {output_file}")
+
+            logger.info(f"Done! Successfully extracted {len(all_records)} records from {len(pdf_files)} files to {args.output_directory}")
 
     # -----------------------------------------------------------------------
     # Ohio Pipeline (HTML Web Scraping)
