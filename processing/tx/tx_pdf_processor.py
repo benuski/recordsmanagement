@@ -98,7 +98,7 @@ def extract_metadata_from_pdf(pdf_path: Path) -> dict:
 
     # Determine schedule type
     if metadata['schedule_id']:
-        metadata['schedule_type'] = 'agency-specific'
+        metadata['schedule_type'] = 'specific'
         metadata['url'] = f"https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/{metadata['schedule_id']}.pdf"
     else:
         metadata['schedule_type'] = 'general'
@@ -211,8 +211,12 @@ def process_texas_pdf(pdf_path: Path, output_schema: dict, retention_codes_path:
                         if not header:
                             continue
                         header_lower = str(header).lower()
-                        if 'item no' in header_lower or 'rsin' in header_lower:
+                        # Field 3: Agency Item Number (AIN) - unique, permanent identifier
+                        if 'agency' in header_lower and 'item' in header_lower:
                             col_map['series_id'] = idx
+                        # Field 4: Record Series Item Number (RSIN) - reference to state schedule
+                        elif 'rsin' in header_lower or ('record' in header_lower and 'series' in header_lower and 'item' in header_lower):
+                            col_map['rsin'] = idx
                         elif 'series title' in header_lower or 'record series title' in header_lower:
                             col_map['series_title'] = idx
                         elif 'description' in header_lower:
@@ -259,14 +263,19 @@ def process_texas_pdf(pdf_path: Path, output_schema: dict, retention_codes_path:
                             'retention_years': '',
                             'retention_statement': '',
                             'disposition': '',
-                            'confidential': false,
+                            'confidential': '',
                             'legal_citation': '',
-                            'comments': ''
+                            'comments': '',
+                            'rsin': ''
                         })
 
                         # Extract other fields
                         if 'description' in col_map and len(row) > col_map['description']:
                             record['series_description'] = str(row[col_map['description']] or '').strip()
+
+                        # Extract RSIN (Field 4: Record Series Item Number from state general schedule)
+                        if 'rsin' in col_map and len(row) > col_map['rsin']:
+                            record['rsin'] = str(row[col_map['rsin']] or '').strip()
 
                         if 'retention' in col_map and len(row) > col_map['retention']:
                             retention_data = parse_retention_field(str(row[col_map['retention']] or ''), retention_codes)
