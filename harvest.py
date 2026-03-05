@@ -60,8 +60,8 @@ def load_output_schema(schema_path: Path) -> dict:
 # ---------------------------------------------------------------------------
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Extract data from state records retention schedules.")
-    parser.add_argument("--input-directory", required=True, type=Path, help="Path to the directory containing source PDFs or to save/read HTML files")
-    parser.add_argument("--output-directory", required=True, type=Path, help="Path to save the resulting JSON files")
+    parser.add_argument("--input-directory", type=Path, default=None, help="Path to the directory containing source PDFs or to save/read HTML files (default: processing/<state-code>/src/)")
+    parser.add_argument("--output-directory", type=Path, default=None, help="Path to save the resulting JSON files (default: data/<state-code>/)")
     parser.add_argument("--state-code", required=True, type=str, choices=["va", "oh", "tx"], help="The two-letter state code (e.g., va, oh, tx)")
     parser.add_argument("--schema-path", type=Path, default=Path("processing/output_template_clean.json"), help="Path to the output JSON schema")
     parser.add_argument("--agency-csv", type=Path, default=Path("agencies.csv"), help="Path to the agency mapping CSV")
@@ -69,6 +69,12 @@ if __name__ == "__main__":
     parser.add_argument("--update-dl", action="store_true", help="Download/update HTML files from remote servers (default: parse existing files only)")
 
     args = parser.parse_args()
+
+    if args.input_directory is None:
+        args.input_directory = Path("processing") / args.state_code / "src"
+
+    if args.output_directory is None:
+        args.output_directory = Path("data") / args.state_code
 
     args.output_directory.mkdir(parents=True, exist_ok=True)
     args.input_directory.mkdir(parents=True, exist_ok=True) 
