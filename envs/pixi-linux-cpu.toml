@@ -16,8 +16,8 @@ virtualenv = ">=20.38.0,<21"
 requests = ">=2.32.5,<3"
 sodapy = ">=2.2.0,<3"
 word2number = ">=1.1"
-pymupdf = ">=1.26.1,<2"
 regex = { version = "<2025", channel = "conda-forge" }
+pymupdf = ">=1.26.1,<2"
 
 [pypi-dependencies]
 marker-pdf = ">=1.10.0"

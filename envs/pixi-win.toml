@@ -8,7 +8,6 @@ platforms = ["win-64"]
 pytorch = ">=2.10"
 torchvision = "*"
 beautifulsoup4 = ">=4.14.3,<5"
-uutils-coreutils = "*"
 pandas = "*"
 
 # Standard compatibility pins
@@ -18,6 +17,10 @@ requests = ">=2.32.5,<3"
 sodapy = ">=2.2.0,<3"
 word2number = ">=1.1"
 regex = { version = "<2025", channel = "conda-forge" }
+
+# Windows utils 
+shell = ">=0.2.0,<0.3"
+uutils-coreutils = "*"
 
 [pypi-dependencies]
 marker-pdf = ">=1.10"
