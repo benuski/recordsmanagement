@@ -5,26 +5,21 @@ channels = ["conda-forge", "pytorch"]
 platforms = ["linux-64"]
 
 [dependencies]
-python = "*"
-pandas = "*"
-pillow = { version = ">=10.1,<11", channel = "conda-forge" }
-transformers = { version = ">=4.45.2,<5.0.0", channel = "conda-forge" }
 pytorch = ">=2.10"
 torchvision = "*"
 
 # Standard compatibility pins
 libjpeg-turbo = { version = "*", channel = "conda-forge" }
-numpy = { version = "<2", channel = "conda-forge" }
-regex = { version = "<2025", channel = "conda-forge" }
 virtualenv = ">=20.38.0,<21"
-pyarrow = ">=23.0.1,<24"
 beautifulsoup4 = ">=4.14.3,<5"
 requests = ">=2.32.5,<3"
 sodapy = ">=2.2.0,<3"
 word2number = ">=1.1"
+pymupdf = ">=1.26.1,<2"
+regex = { version = "<2025", channel = "conda-forge" }
 
 [pypi-dependencies]
-marker-pdf = ">=1.10"
-img2table = ">=1.4.2, <2"
-surya-ocr = ">=0.17.1, <0.18"
+marker-pdf = ">=1.10.0"
 pdfplumber = ">=0.11.9, <0.12"
+pypdfium2 = "*"
+unstructured = { version = ">=0.18.32, <0.19", extras = ["pdf"] }

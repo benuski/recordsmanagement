@@ -24,6 +24,7 @@ marker-pdf = ">=1.10"
 img2table = ">=1.4.2, <2"
 surya-ocr = ">=0.17.1, <0.18"
 pdfplumber = ">=0.11.9, <0.12"
+unstructured = ">=0.21.5, <0.22"
 
 [pypi-options]
 extra-index-urls = ["https://download.pytorch.org/whl/nightly/cu128-full"]
