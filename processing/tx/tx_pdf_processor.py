@@ -98,7 +98,7 @@ def extract_metadata_from_pdf(pdf_path: Path) -> dict:
 
     # Determine schedule type
     if metadata['schedule_id']:
-        metadata['schedule_type'] = 'agency-specific'
+        metadata['schedule_type'] = 'specific'
         metadata['url'] = f"https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/{metadata['schedule_id']}.pdf"
     else:
         metadata['schedule_type'] = 'general'
