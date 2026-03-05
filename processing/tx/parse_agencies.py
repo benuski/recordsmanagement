@@ -74,7 +74,7 @@ def parse_agencies_html(html_path: Path) -> dict:
 
 if __name__ == '__main__':
     # Test
-    agencies = parse_agencies_html(Path('processing/tx/pdfs/agencies.html'))
+    agencies = parse_agencies_html(Path('processing/tx/src/agencies.html'))
     print(f"Parsed {len(agencies)} agencies")
 
     # Show a few examples

@@ -115,7 +115,7 @@ if __name__ == "__main__":
     elif args.state_code == "tx":
         pdf_files = list(args.input_directory.glob("*.pdf"))
         retention_codes_path = Path("processing/tx/retentioncodes.csv")
-        agencies_html_path = Path("processing/tx/pdfs/agencies.html")
+        agencies_html_path = Path("processing/tx/src/agencies.html")
 
         # Load agency mapping from agencies.html
         from processing.tx.parse_agencies import parse_agencies_html
