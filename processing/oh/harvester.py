@@ -1,4 +1,6 @@
 import time
+import random
+import sys
 import requests
 import logging
 from pathlib import Path
@@ -19,6 +21,11 @@ def harvest_links(base_url: str) -> list[str]:
         
         try:
             response = requests.get(url, headers=headers)
+            
+            if response.status_code == 429:
+                logger.critical(f"Received 429 Too Many Requests. Exiting to prevent IP block.")
+                sys.exit(1)
+                
             response.raise_for_status()
             soup = BeautifulSoup(response.text, 'html.parser')
             
@@ -28,7 +35,9 @@ def harvest_links(base_url: str) -> list[str]:
                     full_url = base_url + href
                     if full_url not in schedule_links:
                         schedule_links.append(full_url)
-            time.sleep(5)
+            time.sleep(random.uniform(4.0, 6.0))
+        except SystemExit:
+            raise
         except Exception as e:
             logger.error(f"Failed to fetch page {page}: {e}")
 
@@ -60,6 +69,10 @@ def download_general_schedule(base_url: str, output_dir: Path) -> None:
         try:
             response = requests.get(url, headers=request_headers)
 
+            if response.status_code == 429:
+                logger.critical(f"Received 429 Too Many Requests on {url}. Exiting to prevent IP block.")
+                sys.exit(1)
+
             if response.status_code == 304:
                 logger.info(f"General schedule {filename} is up-to-date")
                 continue
@@ -70,10 +83,12 @@ def download_general_schedule(base_url: str, output_dir: Path) -> None:
                 f.write(response.text)
 
             logger.info(f"Downloaded general schedule: {filename}")
-            time.sleep(5)
+            time.sleep(random.uniform(4.0, 6.0))
+        except SystemExit:
+            raise
         except Exception as e:
             logger.error(f"Error downloading general schedule {url}: {e}")
-            time.sleep(10)
+            time.sleep(random.uniform(8.0, 12.0))
 
 def download_detail_pages(urls: list[str], output_dir: Path) -> None:
     """Downloads HTML files, utilizing If-Modified-Since to only fetch updated schedules."""
@@ -96,6 +111,10 @@ def download_detail_pages(urls: list[str], output_dir: Path) -> None:
         try:
             response = requests.get(url, headers=request_headers)
 
+            if response.status_code == 429:
+                logger.critical(f"Received 429 Too Many Requests on {url}. Exiting to prevent IP block.")
+                sys.exit(1)
+
             # 304 Not Modified means our local copy is still perfectly up-to-date
             if response.status_code == 304:
                 continue
@@ -109,7 +128,9 @@ def download_detail_pages(urls: list[str], output_dir: Path) -> None:
             if (i + 1) % 50 == 0 or i == 0:
                 logger.info(f"[{i+1}/{len(urls)}] Downloaded new or updated record {record_id}...")
 
-            time.sleep(5)
+            time.sleep(random.uniform(4.0, 6.0))
+        except SystemExit:
+            raise
         except Exception as e:
             logger.error(f"Error downloading {url}: {e}")
-            time.sleep(10)
+            time.sleep(random.uniform(8.0, 12.0))
