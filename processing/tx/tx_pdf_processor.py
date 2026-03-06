@@ -210,7 +210,7 @@ def process_texas_pdf(pdf_path: Path, output_schema: dict, retention_codes_path:
                     for idx, header in enumerate(header_row):
                         if not header:
                             continue
-                        header_lower = str(header).lower()
+                        header_lower = str(header).lower().replace('\n', ' ')
                         # Field 3: Agency Item Number (AIN) - unique, permanent identifier
                         if 'agency' in header_lower and 'item' in header_lower:
                             col_map['series_id'] = idx
@@ -221,13 +221,18 @@ def process_texas_pdf(pdf_path: Path, output_schema: dict, retention_codes_path:
                             col_map['series_title'] = idx
                         elif 'description' in header_lower:
                             col_map['description'] = idx
-                        elif 'retention period' in header_lower or 'ret. code' in header_lower:
+                        elif ('ret.' in header_lower and 'code' in header_lower) or 'edoc .ter' in header_lower:
+                            col_map['retention_code'] = idx
+                        elif ('retention' in header_lower and 'years' in header_lower):
+                            col_map['retention_years'] = idx
+                        elif ('retention period' in header_lower) or ('retention' in header_lower):
+                            col_map['retention_years'] = idx
                             col_map['retention'] = idx
                         elif 'remark' in header_lower:
                             col_map['remarks'] = idx
                         elif 'legal' in header_lower or 'citation' in header_lower:
                             col_map['legal'] = idx
-                        elif 'archival' in header_lower:
+                        elif 'archival' in header_lower or 'lavihcra' in header_lower:
                             col_map['archival'] = idx
 
                     # Process data rows
@@ -239,8 +244,9 @@ def process_texas_pdf(pdf_path: Path, output_schema: dict, retention_codes_path:
                         if not row or not any(row):
                             continue
 
-                        # Skip header-like rows
-                        if any(cell and isinstance(cell, str) and 'item no' in cell.lower() for cell in row):
+                        # Skip header-like rows or rows with vertical reversed headers in cells
+                        row_text_full = ' '.join(str(cell or '').lower() for cell in row)
+                        if any(header in row_text_full for header in ['item no', 'rsin', 'record series', 'edoc .ter', 'lavihcra']):
                             continue
 
                         # Extract data
@@ -277,9 +283,57 @@ def process_texas_pdf(pdf_path: Path, output_schema: dict, retention_codes_path:
                         if 'rsin' in col_map and len(row) > col_map['rsin']:
                             record['rsin'] = str(row[col_map['rsin']] or '').strip()
 
-                        if 'retention' in col_map and len(row) > col_map['retention']:
+                        # Extract Retention
+                        ret_code = ''
+                        ret_years = ''
+
+                        if 'retention_code' in col_map and len(row) > col_map['retention_code']:
+                            ret_code = str(row[col_map['retention_code']] or '').strip()
+                            # Handle reversed text if it leaked into data
+                            if ret_code == 'CA': ret_code = 'AC'
+                            elif ret_code == 'VA': ret_code = 'AV'
+                            elif ret_code == 'EC': ret_code = 'CE'
+                            elif ret_code == 'EF': ret_code = 'FE'
+                            elif ret_code == 'AL': ret_code = 'LA'
+                            elif ret_code == 'MP': ret_code = 'PM'
+                            elif ret_code == 'SU': ret_code = 'US'
+                        
+                        if 'retention_years' in col_map and len(row) > col_map['retention_years']:
+                            ret_years = str(row[col_map['retention_years']] or '').strip()
+
+                        # If ret_code is missing but ret_years has something like "AC + 2"
+                        if not ret_code and ret_years:
+                            parsed = parse_retention_field(ret_years, retention_codes)
+                            if parsed['retention_code']:
+                                ret_code = parsed['retention_code']
+                                ret_years = parsed['retention_years']
+
+                        if not ret_code and 'retention' in col_map and len(row) > col_map['retention']:
+                            # Fallback to combined field if separate ones aren't found
                             retention_data = parse_retention_field(str(row[col_map['retention']] or ''), retention_codes)
                             record.update(retention_data)
+                        else:
+                            record['retention_code'] = ret_code
+                            record['retention_years'] = ret_years
+                            # Build statement from components
+                            if ret_code in retention_codes:
+                                title = retention_codes[ret_code]['title']
+                                if ret_years:
+                                    try:
+                                        # Clean years string (sometimes has extra text)
+                                        years_match = re.search(r'(\d+(?:\.\d+)?)', ret_years)
+                                        if years_match:
+                                            years_val = years_match.group(1)
+                                            years_int = int(float(years_val))
+                                            year_label = 'year' if years_int == 1 else 'years'
+                                            record['retention_statement'] = f"{title} plus {years_int} {year_label}"
+                                            record['retention_years'] = str(years_int)
+                                        else:
+                                            record['retention_statement'] = f"{title} plus {ret_years}"
+                                    except ValueError:
+                                        record['retention_statement'] = f"{title} plus {ret_years}"
+                                else:
+                                    record['retention_statement'] = title
 
                         if 'remarks' in col_map and len(row) > col_map['remarks']:
                             record['comments'] = str(row[col_map['remarks']] or '').strip()

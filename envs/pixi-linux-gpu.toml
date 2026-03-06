@@ -15,6 +15,7 @@ regex = { version = "<2025", channel = "conda-forge" }
 beautifulsoup4 = ">=4.14.3,<5"
 sodapy = ">=2.2.0,<3"
 word2number = ">=1.1"
+nodejs = ">=25.7.0,<25.8"
 
 [pypi-dependencies]
 torch = { version = ">=2.10" } 
