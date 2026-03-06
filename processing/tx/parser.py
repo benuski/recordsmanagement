@@ -161,6 +161,9 @@ def parse_table_row(row_node, retention_codes: dict) -> dict | None:
         'series_description': '',
         'retention_code': '',
         'retention_years': '',
+        'retention_months': '',
+        'retention_weeks': '',
+        'retention_days': '',
         'retention_statement': '',
         'disposition': '',
         'confidential': '',
@@ -225,53 +228,61 @@ def parse_table_row(row_node, retention_codes: dict) -> dict | None:
         if len(cell_texts) >= 13:
             record['legal_citation'] = cell_texts[12].strip()
 
-    # Parse retention code and years from retention_statement
+    # Parse retention code and periods from retention_statement
     if record['retention_statement']:
-        # Pattern: "AC + 2" or "FE + 3" or "PM" or "US"
-        retention_match = re.match(r'([A-Z]{2,3})(?:\s*\+\s*(\d+))?', record['retention_statement'])
-        if retention_match:
-            record['retention_code'] = retention_match.group(1)
-            if retention_match.group(2):
-                record['retention_years'] = retention_match.group(2)
+        # Basic code extraction
+        code_match = re.match(r'^([A-Z]{2,3})', record['retention_statement'])
+        if code_match:
+            record['retention_code'] = code_match.group(1)
+            
+            # Look for numbers with units
+            years_match = re.search(r'(\d+(?:\.\d+)?)\s*(?:year|yr)', record['retention_statement'], re.IGNORECASE)
+            months_match = re.search(r'(\d+(?:\.\d+)?)\s*(?:month|mo)', record['retention_statement'], re.IGNORECASE)
+            weeks_match = re.search(r'(\d+(?:\.\d+)?)\s*(?:week|wk)', record['retention_statement'], re.IGNORECASE)
+            days_match = re.search(r'(\d+(?:\.\d+)?)\s*(?:day)', record['retention_statement'], re.IGNORECASE)
 
-        # Build full retention statement using codes CSV
-        if record['retention_code'] in retention_codes:
-            code_info = retention_codes[record['retention_code']]
-            title = code_info['title']
+            if years_match: record['retention_years'] = years_match.group(1)
+            if months_match: record['retention_months'] = months_match.group(1)
+            if weeks_match: record['retention_weeks'] = weeks_match.group(1)
+            if days_match: record['retention_days'] = days_match.group(1)
+            
+            # If no explicit units but has a number like "AC + 2"
+            if not any([record['retention_years'], record['retention_months'], record['retention_weeks'], record['retention_days']]):
+                num_match = re.search(r'\+\s*(\d+(?:\.\d+)?)', record['retention_statement'])
+                if num_match:
+                    # Default to years if no unit specified
+                    record['retention_years'] = num_match.group(1)
 
-            if record['retention_years']:
-                years_int = int(record['retention_years'])
-                year_label = 'year' if years_int == 1 else 'years'
-                record['retention_statement'] = f"{title} plus {record['retention_years']} {year_label}"
-            else:
-                record['retention_statement'] = title
+            # Build full retention statement using codes CSV
+            if record['retention_code'] in retention_codes:
+                code_info = retention_codes[record['retention_code']]
+                title = code_info['title']
+                
+                parts = []
+                if record['retention_years']:
+                    label = 'year' if record['retention_years'] == '1' else 'years'
+                    parts.append(f"{record['retention_years']} {label}")
+                if record['retention_months']:
+                    label = 'month' if record['retention_months'] == '1' else 'months'
+                    parts.append(f"{record['retention_months']} {label}")
+                if record['retention_weeks']:
+                    label = 'week' if record['retention_weeks'] == '1' else 'weeks'
+                    parts.append(f"{record['retention_weeks']} {label}")
+                if record['retention_days']:
+                    label = 'day' if record['retention_days'] == '1' else 'days'
+                    parts.append(f"{record['retention_days']} {label}")
+                    
+                if parts:
+                    record['retention_statement'] = f"{title} plus {' and '.join(parts)}"
+                else:
+                    record['retention_statement'] = title
 
-    # Parse disposition for archival value (might be in a separate column or in remarks)
-    # Check if there's an explicit archival column
-    for cell_text in cell_texts:
-        cell_lower = cell_text.lower().strip()
-        if cell_lower in ['a', 'r', 'archive', 'archival']:
-            if cell_lower == 'a' or 'archive' in cell_lower:
-                record['disposition'] = 'Permanent, Archives'
-            elif cell_lower == 'r':
-                record['disposition'] = 'Must offer to Archives prior to destruction'
-            break
-
-    # If no explicit disposition found, default based on retention code
-    if not record['disposition']:
-        if record['retention_code'] == 'PM':
-            record['disposition'] = 'Permanent, Archives'
-        else:
-            record['disposition'] = 'Non-confidential Destruction'
-
-    # Check for confidentiality markers
-    all_text = ' '.join(cell_texts).lower()
-    if 'confidential' in all_text and 'non-confidential' not in all_text:
-        record['confidential'] = True
-        if 'destruction' in record['disposition'].lower() and 'confidential' not in record['disposition'].lower():
-            record['disposition'] = 'Confidential Destruction'
-    else:
-        record['confidential'] = False
+    # If retention is still missing, check archival column (index 9)
+    if not record['retention_code'] and len(cell_texts) > 9:
+        archival = cell_texts[9].strip().upper()
+        if archival == 'A' or 'ARCHIVE' in archival:
+            record['retention_code'] = 'PM'
+            record['retention_statement'] = 'Permanent'
 
     # Skip records without essential fields
     if not record['series_id'] or not record['series_title']:

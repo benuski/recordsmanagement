@@ -44,6 +44,9 @@ RECORD_TEMPLATE = {
     "series_description": "",
     "retention_statement": "",
     "retention_years": "",
+    "retention_months": "",
+    "retention_weeks": "",
+    "retention_days": "",
     "retention_code": "",
     "retention_code_definition": "",
     "comments": "",
@@ -98,25 +101,22 @@ def resolve_retention_code_definition(record: dict) -> str:
     return f"{title}: {definition}"
 
 def resolve_retention_statement(record: dict) -> str:
-    """Construct retention_statement as 'title plus retention_years year(s)'."""
+    """Construct retention_statement as 'title plus [periods]'."""
     code = record.get("retention_code", "")
-    years = record.get("retention_years", "")
     if code not in RETENTION_CODES:
         return ""
     title = RETENTION_CODES[code]["title"]
-    if years:
-        year_label = "year" if years == "1" else "years"
-        return f"{title} plus {years} {year_label}"
+    
+    parts = []
+    for unit in ["years", "months", "weeks", "days"]:
+        val = record.get(f"retention_{unit}", "")
+        if val:
+            label = unit[:-1] if val == "1" else unit
+            parts.append(f"{val} {label}")
+            
+    if parts:
+        return f"{title} plus {' and '.join(parts)}"
     return title
-
-def resolve_disposition(record: dict) -> str:
-    """Map source 'archival' field to a disposition value."""
-    archival = record.get("archival", "")
-    if archival == "A":
-        return "Permanent, Archives"
-    elif archival == "R":
-        return "Must offer to Archives prior to destruction"
-    return ""
 
 def standardize_record(raw: dict) -> dict:
     record = dict(raw)
@@ -129,14 +129,38 @@ def standardize_record(raw: dict) -> dict:
     # Derive schedule_id from series_id (x.y from x.y.zzz)
     record["schedule_id"] = extract_schedule_id(record.get("series_id", ""))
 
+    # Extract units from retention_years if it contains text like "3 months"
+    years_val = str(record.get("retention_years", ""))
+    if years_val:
+        # Check for explicit units
+        months_match = re.search(r'(\d+)\s*(?:month|mo)', years_val, re.IGNORECASE)
+        weeks_match = re.search(r'(\d+)\s*(?:week|wk)', years_val, re.IGNORECASE)
+        days_match = re.search(r'(\d+)\s*(?:day)', years_val, re.IGNORECASE)
+        years_match = re.search(r'(\d+)\s*(?:year|yr)', years_val, re.IGNORECASE)
+        
+        if months_match: record["retention_months"] = months_match.group(1)
+        if weeks_match: record["retention_weeks"] = weeks_match.group(1)
+        if days_match: record["retention_days"] = days_match.group(1)
+        
+        if years_match:
+            record["retention_years"] = years_match.group(1)
+        elif any([months_match, weeks_match, days_match]):
+            # If we found other units but no 'years' keyword, clear retention_years
+            record["retention_years"] = ""
+        # if none found, keep it as is (might be just a number)
+
     # Resolve retention_code_definition from code + source field
     record["retention_code_definition"] = resolve_retention_code_definition(record)
 
-    # Construct retention_statement from code title + retention_years
+    # Construct retention_statement from code title + retention periods
     record["retention_statement"] = resolve_retention_statement(record)
 
-    # Resolve disposition from archival field
-    record["disposition"] = resolve_disposition(record)
+    # If retention is missing, check archival status
+    if not record.get("retention_code"):
+        archival = record.get("archival", "").upper()
+        if archival == "A":
+            record["retention_code"] = "PM"
+            record["retention_statement"] = "Permanent"
 
     # Apply static metadata (overwrites any conflicting source values)
     record.update(METADATA)

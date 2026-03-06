@@ -18,6 +18,8 @@ sodapy = ">=2.2.0,<3"
 word2number = ">=1.1"
 regex = { version = "<2025", channel = "conda-forge" }
 pymupdf = ">=1.26.1,<2"
+pillow = { version = ">=10.1,<11", channel = "conda-forge" }
+nodejs = ">=24.13.0,<24.14"
 
 [pypi-dependencies]
 marker-pdf = ">=1.10.0"
