@@ -138,6 +138,7 @@ def process_ohio_general_html(html_file: Path, schema: dict) -> list[dict]:
             disposition="",
             last_updated=None,
             last_checked=str(date.today()),
+            url="https://rims.das.ohio.gov/GeneralSchedule"
         )
         schedules.append(clean_ohio_general_record(raw_record))
 
