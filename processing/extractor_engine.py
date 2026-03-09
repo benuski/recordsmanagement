@@ -82,6 +82,10 @@ def clean_record_fields(record: dict, config: StateScheduleConfig) -> dict:
     retention = re.sub(r'\s+', ' ', record.get('retention_statement', '')).strip()
     disposition = re.sub(r'\s+', ' ', record.get('disposition', '')).strip()
 
+    # Fix common typos from source data
+    retention = re.sub(r'(?i)\bPermanen\b', 'Permanent', retention)
+    disposition = re.sub(r'(?i)\bPermanen\b', 'Permanent', disposition)
+
     disp_match = re.search(
         r'(?i)(Non-confidential Destruction|Confidential Destruction|Permanent, Archives|Permanent, In Agency|Archives|Destruction)$',
         disposition if disposition else retention
@@ -113,7 +117,7 @@ def clean_record_fields(record: dict, config: StateScheduleConfig) -> dict:
 
     # Universal Retention Years Calculation
     # Defined cleanly at the top of the block so it can never be unbound
-    retention_years_match = re.search(r'(\d+)\s*year', retention, re.IGNORECASE)
+    retention_years_match = re.search(r'\(?(\d+)\)?\s*year', retention, re.IGNORECASE)
     word_match = re.search(r'\b([a-zA-Z]+(?:-[a-zA-Z]+)?)\b\s*year', retention, re.IGNORECASE)
 
     if retention_years_match:

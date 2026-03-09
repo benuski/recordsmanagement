@@ -22,7 +22,7 @@ _RETAIN_EMPTY_RE    = re.compile(r'^Retain[\s\.]*$', re.IGNORECASE)
 _THEN_DISP_RE       = re.compile(r'(?:,\s*)?then\s+(.*)', re.IGNORECASE)
 _OAKS_RE            = re.compile(r'\.?\s*OAKS:.*', re.IGNORECASE)
 _TRAILING_PUNCT_RE  = re.compile(r'[\.,;:]$')
-_DIGIT_YEAR_RE      = re.compile(r'(\d+)\s*year', re.IGNORECASE)
+_DIGIT_YEAR_RE      = re.compile(r'\(?(\d+)\)?\s*year', re.IGNORECASE)
 _WORD_NUM_RE        = re.compile(r'\b([a-zA-Z]+(?:-[a-zA-Z]+)?)\b\s*year', re.IGNORECASE)
 _LEGAL_CITATION_RE  = re.compile(r'(\bORC\s*\d+\.\d+|\b\d+\s*CFR\s*\d+|\b\d+\s*USC\s*\d+)', re.IGNORECASE)
 
@@ -138,6 +138,7 @@ def process_ohio_general_html(html_file: Path, schema: dict) -> list[dict]:
             disposition="",
             last_updated=None,
             last_checked=str(date.today()),
+            url="https://rims.das.ohio.gov/GeneralSchedule"
         )
         schedules.append(clean_ohio_general_record(raw_record))
 

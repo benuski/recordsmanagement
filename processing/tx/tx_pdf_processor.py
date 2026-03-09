@@ -124,51 +124,54 @@ def parse_retention_field(retention_text: str, retention_codes: dict) -> dict:
 
     # Pattern: "AC + 2" or "FE + 3 months" or "PM" or "US"
     # Basic code extraction
-    code_match = re.match(r'^([A-Z]{2,3})', retention_text)
+    code_match = re.match(r'^([A-Z]{2,3})\b', retention_text)
     if code_match:
         result['retention_code'] = code_match.group(1)
         
-        # Look for numbers with units
-        years_match = re.search(r'(\d+(?:\.\d+)?)\s*(?:year|yr)', retention_text, re.IGNORECASE)
-        months_match = re.search(r'(\d+(?:\.\d+)?)\s*(?:month|mo)', retention_text, re.IGNORECASE)
-        weeks_match = re.search(r'(\d+(?:\.\d+)?)\s*(?:week|wk)', retention_text, re.IGNORECASE)
-        days_match = re.search(r'(\d+(?:\.\d+)?)\s*(?:day)', retention_text, re.IGNORECASE)
+    # Look for numbers with units
+    years_match = re.search(r'(\d+(?:\.\d+)?)\s*(?:year|yr)', retention_text, re.IGNORECASE)
+    months_match = re.search(r'(\d+(?:\.\d+)?)\s*(?:month|mo)', retention_text, re.IGNORECASE)
+    weeks_match = re.search(r'(\d+(?:\.\d+)?)\s*(?:week|wk)', retention_text, re.IGNORECASE)
+    days_match = re.search(r'(\d+(?:\.\d+)?)\s*(?:day)', retention_text, re.IGNORECASE)
 
-        if years_match: result['retention_years'] = years_match.group(1)
-        if months_match: result['retention_months'] = months_match.group(1)
-        if weeks_match: result['retention_weeks'] = weeks_match.group(1)
-        if days_match: result['retention_days'] = days_match.group(1)
+    if years_match: result['retention_years'] = years_match.group(1)
+    if months_match: result['retention_months'] = months_match.group(1)
+    if weeks_match: result['retention_weeks'] = weeks_match.group(1)
+    if days_match: result['retention_days'] = days_match.group(1)
+    
+    # If no explicit units but has a number like "AC + 2"
+    if not any([result['retention_years'], result['retention_months'], result['retention_weeks'], result['retention_days']]):
+        num_match = re.search(r'\+\s*(\d+(?:\.\d+)?)', retention_text)
+        if num_match:
+            # Default to years if no unit specified
+            result['retention_years'] = num_match.group(1)
+
+    # Build full retention statement using codes CSV
+    parts = []
+    if result['retention_years']:
+        label = 'year' if result['retention_years'] == '1' else 'years'
+        parts.append(f"{result['retention_years']} {label}")
+    if result['retention_months']:
+        label = 'month' if result['retention_months'] == '1' else 'months'
+        parts.append(f"{result['retention_months']} {label}")
+    if result['retention_weeks']:
+        label = 'week' if result['retention_weeks'] == '1' else 'weeks'
+        parts.append(f"{result['retention_weeks']} {label}")
+    if result['retention_days']:
+        label = 'day' if result['retention_days'] == '1' else 'days'
+        parts.append(f"{result['retention_days']} {label}")
+
+    if result['retention_code'] and result['retention_code'] in retention_codes:
+        code_info = retention_codes[result['retention_code']]
+        title = code_info['title']
         
-        # If no explicit units but has a number like "AC + 2"
-        if not any([result['retention_years'], result['retention_months'], result['retention_weeks'], result['retention_days']]):
-            num_match = re.search(r'\+\s*(\d+(?:\.\d+)?)', retention_text)
-            if num_match:
-                # Default to years if no unit specified
-                result['retention_years'] = num_match.group(1)
-
-        # Build full retention statement using codes CSV
-        if result['retention_code'] in retention_codes:
-            code_info = retention_codes[result['retention_code']]
-            title = code_info['title']
-            
-            parts = []
-            if result['retention_years']:
-                label = 'year' if result['retention_years'] == '1' else 'years'
-                parts.append(f"{result['retention_years']} {label}")
-            if result['retention_months']:
-                label = 'month' if result['retention_months'] == '1' else 'months'
-                parts.append(f"{result['retention_months']} {label}")
-            if result['retention_weeks']:
-                label = 'week' if result['retention_weeks'] == '1' else 'weeks'
-                parts.append(f"{result['retention_weeks']} {label}")
-            if result['retention_days']:
-                label = 'day' if result['retention_days'] == '1' else 'days'
-                parts.append(f"{result['retention_days']} {label}")
-                
-            if parts:
-                result['retention_statement'] = f"{title} plus {' and '.join(parts)}"
-            else:
-                result['retention_statement'] = title
+        if parts:
+            result['retention_statement'] = f"{title} plus {' and '.join(parts)}"
+        else:
+            result['retention_statement'] = title
+    elif parts:
+        # Just the time units
+        result['retention_statement'] = " and ".join(parts)
 
     return result
 
@@ -210,6 +213,7 @@ def process_texas_pdf(pdf_path: Path, output_schema: dict, retention_codes_path:
     logger.info(f"Extracted metadata: schedule_id={metadata['schedule_id']}, agency={metadata['agency_name']}")
 
     records = []
+    current_col_map = None
 
     try:
         with pdfplumber.open(pdf_path) as pdf:
@@ -223,64 +227,81 @@ def process_texas_pdf(pdf_path: Path, output_schema: dict, retention_codes_path:
                 logger.info(f"Page {page_num}: Found {len(tables)} tables")
 
                 for table_idx, table in enumerate(tables):
-                    if not table or len(table) < 2:  # Need header + at least one row
+                    if not table:
                         continue
 
                     # Find header row and map columns
                     header_row_idx = -1
                     for r_idx, row in enumerate(table[:5]):  # Check first 5 rows for header
-                        if row and any(cell and 'item no' in str(cell).lower() for cell in row):
-                            header_row_idx = r_idx
-                            break
+                        if row:
+                            for cell in row:
+                                if cell:
+                                    # Clean cell text for robust matching (remove weird spacing/newlines)
+                                    clean_cell = "".join(str(cell).lower().split())
+                                    if "itemno" in clean_cell or "item#" in clean_cell:
+                                        header_row_idx = r_idx
+                                        break
+                            if header_row_idx != -1:
+                                break
 
                     if header_row_idx == -1:
-                        logger.warning(f"Page {page_num}, Table {table_idx+1}: No header row found, skipping")
-                        continue
-
-                    # Combine main header and sub-header to catch "Years", "Months", "Days"
-                    row1 = table[header_row_idx]
-                    row2 = table[header_row_idx + 1] if header_row_idx + 1 < len(table) else []
-                    
-                    combined_headers = []
-                    for idx in range(max(len(row1), len(row2))):
-                        c1 = str(row1[idx]).strip() if idx < len(row1) and row1[idx] else ''
-                        c2 = str(row2[idx]).strip() if idx < len(row2) and row2[idx] else ''
-                        combined_headers.append(f"{c1} {c2}".strip().lower().replace('\n', ' '))
-
-                    # Map column indices
-                    col_map = {}
-                    for idx, header_lower in enumerate(combined_headers):
-                        if not header_lower:
+                        if current_col_map:
+                            # Use previous col_map if column counts are compatible
+                            col_map = current_col_map
+                        else:
+                            logger.warning(f"Page {page_num}, Table {table_idx+1}: No header row found, skipping")
                             continue
-                        # Field 3: Agency Item Number (AIN) - unique, permanent identifier
-                        if 'agency' in header_lower and 'item' in header_lower:
-                            col_map['series_id'] = idx
-                        # Field 4: Record Series Item Number (RSIN) - reference to state schedule
-                        elif 'rsin' in header_lower or ('record' in header_lower and 'series' in header_lower and 'item' in header_lower):
-                            col_map['rsin'] = idx
-                        elif 'series title' in header_lower or 'record series title' in header_lower:
-                            col_map['series_title'] = idx
-                        elif 'description' in header_lower:
-                            col_map['description'] = idx
-                        elif ('ret.' in header_lower and 'code' in header_lower) or 'edoc .ter' in header_lower:
-                            col_map['retention_code'] = idx
-                        elif ('retention' in header_lower and 'years' in header_lower) or 'sraey' in header_lower or 'years' in header_lower.split():
-                            col_map['retention_years'] = idx
-                        elif ('retention' in header_lower and 'months' in header_lower) or 'shtnom' in header_lower or 'months' in header_lower.split():
-                            col_map['retention_months'] = idx
-                        elif ('retention' in header_lower and 'days' in header_lower) or 'syad' in header_lower or 'days' in header_lower.split():
-                            col_map['retention_days'] = idx
-                        elif ('retention period' in header_lower) or ('retention' in header_lower):
-                            # Default fallback if no specific units are found
-                            if 'retention_years' not in col_map:
+                    else:
+                        # Combine main header and sub-header to catch "Years", "Months", "Days"
+                        row1 = table[header_row_idx]
+                        row2 = table[header_row_idx + 1] if header_row_idx + 1 < len(table) else []
+                        
+                        combined_headers = []
+                        for idx in range(max(len(row1), len(row2))):
+                            c1 = str(row1[idx]).strip() if idx < len(row1) and row1[idx] else ''
+                            c2 = str(row2[idx]).strip() if idx < len(row2) and row2[idx] else ''
+                            combined_headers.append(f"{c1} {c2}".strip().lower().replace('\n', ' '))
+
+                        # Map column indices
+                        col_map = {}
+                        for idx, header_lower in enumerate(combined_headers):
+                            if not header_lower:
+                                continue
+                            
+                            # Clean header for matching
+                            clean_h = "".join(header_lower.split())
+                            
+                            # Field 3: Agency Item Number (AIN) - unique, permanent identifier
+                            if 'agency' in clean_h and 'item' in clean_h:
+                                col_map['series_id'] = idx
+                            # Field 4: Record Series Item Number (RSIN) - reference to state schedule
+                            elif 'rsin' in clean_h or ('record' in clean_h and 'series' in clean_h and 'item' in clean_h):
+                                col_map['rsin'] = idx
+                            elif 'seriestitle' in clean_h or 'recordseriestitle' in clean_h:
+                                col_map['series_title'] = idx
+                            elif 'description' in clean_h:
+                                col_map['description'] = idx
+                            elif ('ret.' in clean_h and 'code' in clean_h) or 'edoc.ter' in clean_h or 'retcode' in clean_h:
+                                col_map['retention_code'] = idx
+                            elif ('retention' in clean_h and 'years' in clean_h) or 'sraey' in clean_h or 'years' in header_lower.split():
                                 col_map['retention_years'] = idx
-                            col_map['retention'] = idx
-                        elif 'remark' in header_lower:
-                            col_map['remarks'] = idx
-                        elif 'legal' in header_lower or 'citation' in header_lower:
-                            col_map['legal'] = idx
-                        elif 'archival' in header_lower or 'lavihcra' in header_lower:
-                            col_map['archival'] = idx
+                            elif ('retention' in clean_h and 'months' in clean_h) or 'shtnom' in clean_h or 'months' in header_lower.split():
+                                col_map['retention_months'] = idx
+                            elif ('retention' in clean_h and 'days' in clean_h) or 'syad' in clean_h or 'days' in header_lower.split():
+                                col_map['retention_days'] = idx
+                            elif ('retentionperiod' in clean_h) or ('retention' in clean_h):
+                                # Default fallback if no specific units are found
+                                if 'retention_years' not in col_map:
+                                    col_map['retention_years'] = idx
+                                col_map['retention'] = idx
+                            elif 'remark' in clean_h:
+                                col_map['remarks'] = idx
+                            elif 'legal' in clean_h or 'citation' in clean_h:
+                                col_map['legal'] = idx
+                            elif 'archival' in clean_h or 'lavihcra' in clean_h or 'lavihcoa' in clean_h:
+                                col_map['archival'] = idx
+                        
+                        current_col_map = col_map
 
                     # Process data rows
                     for r_idx, row in enumerate(table):
@@ -351,38 +372,42 @@ def process_texas_pdf(pdf_path: Path, output_schema: dict, retention_codes_path:
                         period_parts = []
                         if 'retention_years' in col_map and len(row) > col_map['retention_years']:
                             y_val = str(row[col_map['retention_years']] or '').strip()
-                            if y_val: period_parts.append(f"{y_val} years")
+                            if y_val:
+                                period_parts.append(f"{y_val} years")
+                                record['retention_years'] = y_val
                         if 'retention_months' in col_map and len(row) > col_map['retention_months']:
                             m_val = str(row[col_map['retention_months']] or '').strip()
-                            if m_val: period_parts.append(f"{m_val} months")
+                            if m_val:
+                                period_parts.append(f"{m_val} months")
+                                record['retention_months'] = m_val
                         if 'retention_days' in col_map and len(row) > col_map['retention_days']:
                             d_val = str(row[col_map['retention_days']] or '').strip()
-                            if d_val: period_parts.append(f"{d_val} days")
+                            if d_val:
+                                period_parts.append(f"{d_val} days")
+                                record['retention_days'] = d_val
                         
                         ret_period_text = " ".join(period_parts)
 
-                        # If ret_code is missing but ret_period_text has something like "AC + 2"
                         if not ret_code and ret_period_text:
                             parsed = parse_retention_field(ret_period_text, retention_codes)
                             if parsed['retention_code']:
-                                record.update(parsed)
+                                record['retention_code'] = parsed['retention_code']
                                 ret_code = parsed['retention_code']
+                            if parsed['retention_statement']:
+                                record['retention_statement'] = parsed['retention_statement']
                         
-                        if not ret_code and 'retention' in col_map and len(row) > col_map['retention']:
+                        if not ret_code and not ret_period_text and 'retention' in col_map and len(row) > col_map['retention']:
                             # Fallback to combined field if separate ones aren't found
                             retention_data = parse_retention_field(str(row[col_map['retention']] or ''), retention_codes)
                             record.update(retention_data)
+                            ret_code = record.get('retention_code', '')
                         elif ret_code:
                             record['retention_code'] = ret_code
                             # Parse units from period text
                             parsed_units = parse_retention_field(f"{ret_code} + {ret_period_text}", retention_codes)
-                            record.update({
-                                'retention_years': parsed_units['retention_years'],
-                                'retention_months': parsed_units['retention_months'],
-                                'retention_weeks': parsed_units['retention_weeks'],
-                                'retention_days': parsed_units['retention_days'],
-                                'retention_statement': parsed_units['retention_statement']
-                            })
+                            for k in ['retention_years', 'retention_months', 'retention_weeks', 'retention_days']:
+                                if parsed_units.get(k): record[k] = parsed_units[k]
+                            record['retention_statement'] = parsed_units.get('retention_statement', '')
 
                         if 'remarks' in col_map and len(row) > col_map['remarks']:
                             record['comments'] = str(row[col_map['remarks']] or '').strip()
