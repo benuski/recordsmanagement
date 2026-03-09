@@ -113,7 +113,7 @@ def clean_record_fields(record: dict, config: StateScheduleConfig) -> dict:
 
     # Universal Retention Years Calculation
     # Defined cleanly at the top of the block so it can never be unbound
-    retention_years_match = re.search(r'(\d+)\s*year', retention, re.IGNORECASE)
+    retention_years_match = re.search(r'\(?(\d+)\)?\s*year', retention, re.IGNORECASE)
     word_match = re.search(r'\b([a-zA-Z]+(?:-[a-zA-Z]+)?)\b\s*year', retention, re.IGNORECASE)
 
     if retention_years_match:
