@@ -28,6 +28,11 @@ def process_and_evaluate(pdf_path: Path, output_dir: Path, agency_mapping: dict,
     try:
         is_image, effective_date = analyze_pdf_preflight(pdf_path)
         
+        # Determine source URL if base_url is provided in config
+        source_url = ""
+        if config.base_url:
+            source_url = f"{config.base_url.rstrip('/')}/{pdf_path.name}"
+
         if is_image and skip_ocr:
             logger.warning(f"[{schedule_id}] File is an image scan and --skip-ocr is enabled. Skipping entirely.")
             return
@@ -64,6 +69,8 @@ def process_and_evaluate(pdf_path: Path, output_dir: Path, agency_mapping: dict,
 
             for record in records:
                 record['agency_name'] = agency_name
+                if source_url:
+                    record['url'] = source_url
 
             score = score_records(records, config)
 

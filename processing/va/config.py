@@ -21,5 +21,6 @@ virginia_config = StateScheduleConfig(
         'ret': ["RETENTION", "SCHEDULED RETENTION PERIOD"],
         'disp': ["DISPOSITION", "DISPOSITION METHOD"]
     },
-    citation_penalty_strings=["COV", "CFR", "VAC"]
+    citation_penalty_strings=["COV", "CFR", "VAC"],
+    base_url="https://old.lva.virginia.gov/agencies/records/sched_specific/"
 )

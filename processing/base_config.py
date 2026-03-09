@@ -18,3 +18,6 @@ class StateScheduleConfig:
     
     # Strings that indicate a bad extraction if found in a title
     citation_penalty_strings: List[str]
+
+    # Optional base URL for source documents
+    base_url: str = ""
