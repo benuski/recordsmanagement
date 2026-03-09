@@ -1,8 +1,7 @@
 import logging
 from pathlib import Path
 
-from processing.tx.tx_pdf_processor import process_texas_pdf
-from processing.tx.parse_agencies import parse_agencies_html
+from processing.tx.parser import process_texas_pdf, parse_agencies_html
 from processing.utils import save_records
 
 logger = logging.getLogger(__name__)

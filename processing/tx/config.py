@@ -8,8 +8,8 @@ texas_config = StateScheduleConfig(
         "texas state library", "archives commission", "tslac",
         "records retention schedule", "state and local records"
     ],
-    # Texas uses numeric series IDs with dots (e.g., 1.1.001, 4.2.015)
-    series_id_pattern=re.compile(r'^\d+\.\d+\.\d+$'),
+    # Texas uses alphanumeric series IDs (e.g., ACC1000, ADM19, 1.1.001)
+    series_id_pattern=re.compile(r'^[A-Z]+\d+$|^\d+\.\d+\.\d+$'),
     # Texas legal citations
     legal_citation_pattern=re.compile(
         r'(\bTAC\b.*|\bTexas Administrative Code\b.*|\bGovernment Code\b.*|\b\d+\s*TAC.*)',

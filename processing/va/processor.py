@@ -27,7 +27,10 @@ def load_agency_mapping(csv_path: Path) -> dict[str, str]:
     return mapping
 
 def run(args, output_schema: dict):
-    agency_mapping = load_agency_mapping(args.agency_csv)
+    # Use standardized path for Virginia agencies
+    va_agency_csv = Path("processing/va/resources/agencies.csv")
+    agency_mapping = load_agency_mapping(va_agency_csv)
+    
     active_config = virginia_config
     pdf_files = list(args.input_directory.glob("*.pdf"))
 

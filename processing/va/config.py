@@ -12,7 +12,7 @@ virginia_config = StateScheduleConfig(
     series_id_pattern=re.compile(r'^\d{6}$'),
     # Virginia specific administrative and legal codes
     legal_citation_pattern=re.compile(
-        r'(\b\d+\s*CFR.*|\b\d+\s*VAC.*|\bCode of Virginia\b.*|\bCOV\b.*|\b\d+\s*USC.*)$', 
+        r'(\b\d+\s*CFR\s+[\d\.-]+|\b\d+\s*VAC\s+[\d\.-]+|\bCode of Virginia\s+§?\s*[\d\.-]+|\bCOV\s+§?\s*[\d\.-]+|\b\d+\s*USC\s+[\d\.-]+)$', 
         re.IGNORECASE
     ),
     header_keywords={

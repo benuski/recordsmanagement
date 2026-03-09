@@ -1,15 +1,75 @@
-import json
+"""
+Texas-specific parsers for both agency index HTML and retention schedule PDFs.
+Consolidated from tx_pdf_processor.py and parse_agencies.py.
+"""
+
 import re
 import csv
 import logging
+import pdfplumber
 from pathlib import Path
 from datetime import datetime
+from bs4 import BeautifulSoup
+
+from processing.tx.config import texas_config
+from processing.utils import make_record, clean_record_fields
 
 logger = logging.getLogger(__name__)
 
 # ---------------------------------------------------------------------------
-# Retention Codes Loading
+# HTML Agency Index Parser
 # ---------------------------------------------------------------------------
+
+def parse_agencies_html(html_path: Path) -> dict:
+    """
+    Parse agencies.html and return a dict mapping schedule_id to agency info.
+    Returns: dict: {schedule_id: {name, last_updated, next_update}}
+    """
+    agencies = {}
+    if not html_path.exists():
+        logger.warning(f"Texas agencies.html not found at {html_path}")
+        return agencies
+
+    with open(html_path, 'r', encoding='utf-8') as f:
+        soup = BeautifulSoup(f.read(), 'html.parser')
+
+    tables = soup.find_all('table')
+    for table in tables:
+        rows = table.find_all('tr')
+        for row in rows[1:]:  # Skip header row
+            cells = row.find_all(['td', 'th'])
+            if len(cells) < 2:
+                continue
+
+            agency_cell = cells[0].get_text(strip=True)
+            match = re.match(r'(.+?)\((\d{3,4})\)', agency_cell)
+            if match:
+                agency_name = match.group(1).strip()
+                schedule_id = match.group(2)
+
+                approval_date = cells[1].get_text(strip=True) if len(cells) > 1 else ''
+                next_recert = cells[3].get_text(strip=True) if len(cells) > 3 else ''
+
+                last_updated = ''
+                if approval_date:
+                    try:
+                        date_obj = datetime.strptime(approval_date, '%Y-%m-%d')
+                        last_updated = date_obj.strftime('%Y-%m-%d')
+                    except: pass
+
+                next_update = next_recert if re.match(r'\d{4}-\d{2}', next_recert) else ''
+
+                agencies[schedule_id] = {
+                    'name': agency_name,
+                    'last_updated': last_updated,
+                    'next_update': next_update
+                }
+    return agencies
+
+# ---------------------------------------------------------------------------
+# PDF Retention Schedule Parser
+# ---------------------------------------------------------------------------
+
 def load_retention_codes(csv_path: Path) -> dict:
     """Load retention codes CSV into a dict keyed by code."""
     codes = {}
@@ -27,53 +87,13 @@ def load_retention_codes(csv_path: Path) -> dict:
                 }
     except Exception as e:
         logger.error(f"Failed to load retention codes: {e}")
-
     return codes
 
-
-# ---------------------------------------------------------------------------
-# Structure Traversal Helpers
-# ---------------------------------------------------------------------------
-def find_nodes_by_type(node, node_type: str) -> list:
-    """Recursively find all nodes of a specific type in the document tree."""
-    results = []
-    if isinstance(node, dict):
-        if node.get('type') == node_type:
-            results.append(node)
-        if 'children' in node:
-            for child in node['children']:
-                results.extend(find_nodes_by_type(child, node_type))
-    elif isinstance(node, list):
-        for item in node:
-            results.extend(find_nodes_by_type(item, node_type))
-    return results
-
-
-def extract_text_from_node(node) -> str:
-    """Extract all text from a node and its children."""
-    text_parts = []
-
-    if isinstance(node, dict):
-        # Direct text in this node
-        if 'text' in node:
-            text_parts.extend(node['text'])
-
-        # Recurse into children
-        if 'children' in node:
-            for child in node['children']:
-                text_parts.append(extract_text_from_node(child))
-
-    return ' '.join(text_parts).strip()
-
-
-# ---------------------------------------------------------------------------
-# Metadata Extraction
-# ---------------------------------------------------------------------------
-def extract_metadata_from_structure(structure: dict, pdf_path: Path) -> dict:
-    """Extract metadata from cover pages (dates, agency info, etc.)."""
+def extract_metadata_from_pdf(pdf_path: Path) -> dict:
+    """Extract metadata from the first few pages of the PDF."""
     metadata = {
         'state': 'tx',
-        'schedule_type': '',
+        'schedule_type': 'specific',
         'last_updated': '',
         'next_update': '',
         'agency_name': '',
@@ -82,275 +102,167 @@ def extract_metadata_from_structure(structure: dict, pdf_path: Path) -> dict:
         'url': ''
     }
 
-    # Find all paragraph nodes on early pages (cover pages)
-    paragraphs = find_nodes_by_type(structure, 'P')
+    filename_match = re.match(r'^(\d{3,4})\.pdf$', pdf_path.name)
+    if filename_match:
+        metadata['schedule_id'] = filename_match.group(1)
 
-    for para in paragraphs[:100]:  # Check first 100 paragraphs (cover and cert pages)
-        text = extract_text_from_node(para)
+    try:
+        with pdfplumber.open(pdf_path) as pdf:
+            for page in pdf.pages[:3]:
+                text = page.extract_text()
+                if not text: continue
 
-        # Look for last updated date (e.g., "4/21/2025")
-        if not metadata['last_updated']:
-            date_match = re.search(r'(\d{1,2}/\d{1,2}/\d{4})', text)
-            if date_match:
-                try:
-                    date_obj = datetime.strptime(date_match.group(1), '%m/%d/%Y')
-                    metadata['last_updated'] = date_obj.strftime('%Y-%m-%d')
-                except:
-                    pass
+                if not metadata['last_updated']:
+                    date_match = re.search(r'(\d{1,2}/\d{1,2}/\d{4})', text)
+                    if date_match:
+                        try:
+                            date_obj = datetime.strptime(date_match.group(1), '%m/%d/%Y')
+                            metadata['last_updated'] = date_obj.strftime('%Y-%m-%d')
+                        except: pass
 
-        # Look for next update (e.g., "April 2030")
-        if not metadata['next_update']:
-            next_match = re.search(r'((?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{4})', text, re.IGNORECASE)
-            if next_match:
-                try:
-                    date_obj = datetime.strptime(next_match.group(1), '%B %Y')
-                    metadata['next_update'] = date_obj.strftime('%Y-%m')
-                except:
-                    pass
+                if not metadata['schedule_id']:
+                    code_match = re.search(r'Agency\s+Code[:\s]+(\d{3,4})', text, re.IGNORECASE)
+                    if code_match: metadata['schedule_id'] = code_match.group(1)
 
-        # Look for Agency Code in "Section 1. Agency Information"
-        if not metadata['schedule_id']:
-            code_match = re.search(r'Agency\s+Code[:\s]+(\d{3,4})', text, re.IGNORECASE)
-            if code_match:
-                metadata['schedule_id'] = code_match.group(1)
+                if not metadata['agency_name']:
+                    name_match = re.search(r'Agency\s+Name[:\s]+(.+?)(?:\n|$)', text, re.IGNORECASE)
+                    if name_match: metadata['agency_name'] = name_match.group(1).strip()
+    except Exception as e:
+        logger.error(f"Error extracting metadata from {pdf_path}: {e}")
 
-        # Look for Agency Name in "Section 1. Agency Information"
-        if not metadata['agency_name']:
-            name_match = re.search(r'Agency\s+Name[:\s]+(.+?)(?:\s*$|\s*\d)', text, re.IGNORECASE)
-            if name_match:
-                metadata['agency_name'] = name_match.group(1).strip()
-
-    # Determine schedule type
-    if metadata['schedule_id']:
-        metadata['schedule_type'] = 'agency-specific'
-    else:
-        metadata['schedule_type'] = 'general'
-
-    # Build URL from schedule_id
     if metadata['schedule_id']:
         metadata['url'] = f"https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/{metadata['schedule_id']}.pdf"
-
+    
     return metadata
 
-
-# ---------------------------------------------------------------------------
-# Table Parsing
-# ---------------------------------------------------------------------------
-def parse_table_row(row_node, retention_codes: dict) -> dict | None:
-    """Parse a single table row into a record dict."""
-    cells = [c for c in row_node.get('children', []) if c.get('type') in ['TD', 'TH']]
-
-    if len(cells) < 3:  # Need at least series_id, title, and retention
-        return None
-
-    # Extract text from each cell
-    cell_texts = [extract_text_from_node(cell) for cell in cells]
-
-    # Skip header rows
-    first_cell = cell_texts[0].lower() if cell_texts else ''
-    if any(header in first_cell for header in ['record series', 'item no', 'rsin', 'agency item', 'ain']):
-        return None
-
-    # Skip empty rows
-    if not any(cell_texts):
-        return None
-
-    record = {
-        'series_id': '',
-        'series_title': '',
-        'series_description': '',
+def parse_retention_field(retention_text: str, retention_codes: dict) -> dict:
+    """Parse retention code and periods from a raw retention string."""
+    result = {
         'retention_code': '',
         'retention_years': '',
         'retention_months': '',
         'retention_weeks': '',
         'retention_days': '',
-        'retention_statement': '',
-        'disposition': '',
-        'confidential': '',
-        'legal_citation': '',
-        'comments': ''
+        'retention_statement': ''
     }
+    if not retention_text: return result
 
-    # Texas table structure (based on 601.pdf):
-    # 0: Item No (RSIN/series_id)
-    # 1: Record Series Title
-    # 2-9: Various columns depending on schedule
-    # 10: Retention Period
-    # 11: Remarks (comments)
-    # 12: Legal Citations
+    retention_text = retention_text.strip()
+    code_match = re.match(r'^([A-Z]{2,3})\b', retention_text)
+    if code_match: result['retention_code'] = code_match.group(1)
+        
+    for unit in ['year', 'month', 'week', 'day']:
+        m = re.search(fr'(\d+(?:\.\d+)?)\s*(?:{unit})', retention_text, re.IGNORECASE)
+        if m: result[f'retention_{unit}s'] = m.group(1)
+    
+    if not any([result['retention_years'], result['retention_months'], result['retention_weeks'], result['retention_days']]):
+        num_match = re.search(r'\+\s*(\d+(?:\.\d+)?)', retention_text)
+        if num_match: result['retention_years'] = num_match.group(1)
 
-    # Extract based on typical positions, but be flexible
-    if len(cell_texts) >= 1:
-        record['series_id'] = cell_texts[0].strip()
+    parts = []
+    for unit in ['year', 'month', 'week', 'day']:
+        val = result[f'retention_{unit}s']
+        if val: parts.append(f"{val} {unit}{'s' if val != '1' else ''}")
 
-    if len(cell_texts) >= 2:
-        record['series_title'] = cell_texts[1].strip()
+    if result['retention_code'] and result['retention_code'] in retention_codes:
+        title = retention_codes[result['retention_code']]['title']
+        result['retention_statement'] = f"{title} plus {' and '.join(parts)}" if parts else title
+    elif parts:
+        result['retention_statement'] = " and ".join(parts)
 
-    # Find retention column (usually has pattern like "AC + 2" or "PM")
-    retention_col_idx = None
-    for idx, cell_text in enumerate(cell_texts):
-        if re.match(r'^[A-Z]{2,3}(\s*\+\s*\d+)?$', cell_text.strip()):
-            retention_col_idx = idx
-            record['retention_statement'] = cell_text.strip()
-            break
+    return result
 
-    # If we found retention, extract surrounding columns
-    if retention_col_idx:
-        # Description might be before retention (multiple columns merged)
-        desc_parts = []
-        for idx in range(2, retention_col_idx):
-            if cell_texts[idx].strip():
-                desc_parts.append(cell_texts[idx].strip())
-        if desc_parts:
-            record['series_description'] = ' '.join(desc_parts)
-
-        # Remarks column (typically after retention)
-        if retention_col_idx + 1 < len(cell_texts):
-            remarks = cell_texts[retention_col_idx + 1].strip()
-            if remarks:
-                record['comments'] = remarks
-
-        # Legal citations column (typically after remarks)
-        if retention_col_idx + 2 < len(cell_texts):
-            legal = cell_texts[retention_col_idx + 2].strip()
-            if legal:
-                record['legal_citation'] = legal
-
-    # Alternative: if no clear retention pattern, use fixed column indices
-    if not retention_col_idx:
-        # Assume standard layout
-        if len(cell_texts) >= 3:
-            record['series_description'] = cell_texts[2].strip()
-        if len(cell_texts) >= 11:
-            record['retention_statement'] = cell_texts[10].strip()
-        if len(cell_texts) >= 12:
-            record['comments'] = cell_texts[11].strip()
-        if len(cell_texts) >= 13:
-            record['legal_citation'] = cell_texts[12].strip()
-
-    # Parse retention code and periods from retention_statement
-    if record['retention_statement']:
-        # Basic code extraction
-        code_match = re.match(r'^([A-Z]{2,3})', record['retention_statement'])
-        if code_match:
-            record['retention_code'] = code_match.group(1)
-            
-            # Look for numbers with units
-            years_match = re.search(r'(\d+(?:\.\d+)?)\s*(?:year|yr)', record['retention_statement'], re.IGNORECASE)
-            months_match = re.search(r'(\d+(?:\.\d+)?)\s*(?:month|mo)', record['retention_statement'], re.IGNORECASE)
-            weeks_match = re.search(r'(\d+(?:\.\d+)?)\s*(?:week|wk)', record['retention_statement'], re.IGNORECASE)
-            days_match = re.search(r'(\d+(?:\.\d+)?)\s*(?:day)', record['retention_statement'], re.IGNORECASE)
-
-            if years_match: record['retention_years'] = years_match.group(1)
-            if months_match: record['retention_months'] = months_match.group(1)
-            if weeks_match: record['retention_weeks'] = weeks_match.group(1)
-            if days_match: record['retention_days'] = days_match.group(1)
-            
-            # If no explicit units but has a number like "AC + 2"
-            if not any([record['retention_years'], record['retention_months'], record['retention_weeks'], record['retention_days']]):
-                num_match = re.search(r'\+\s*(\d+(?:\.\d+)?)', record['retention_statement'])
-                if num_match:
-                    # Default to years if no unit specified
-                    record['retention_years'] = num_match.group(1)
-
-            # Build full retention statement using codes CSV
-            if record['retention_code'] in retention_codes:
-                code_info = retention_codes[record['retention_code']]
-                title = code_info['title']
-                
-                parts = []
-                if record['retention_years']:
-                    label = 'year' if record['retention_years'] == '1' else 'years'
-                    parts.append(f"{record['retention_years']} {label}")
-                if record['retention_months']:
-                    label = 'month' if record['retention_months'] == '1' else 'months'
-                    parts.append(f"{record['retention_months']} {label}")
-                if record['retention_weeks']:
-                    label = 'week' if record['retention_weeks'] == '1' else 'weeks'
-                    parts.append(f"{record['retention_weeks']} {label}")
-                if record['retention_days']:
-                    label = 'day' if record['retention_days'] == '1' else 'days'
-                    parts.append(f"{record['retention_days']} {label}")
-                    
-                if parts:
-                    record['retention_statement'] = f"{title} plus {' and '.join(parts)}"
-                else:
-                    record['retention_statement'] = title
-
-    # If retention is still missing, check archival column (index 9)
-    if not record['retention_code'] and len(cell_texts) > 9:
-        archival = cell_texts[9].strip().upper()
-        if archival == 'A' or 'ARCHIVE' in archival:
-            record['retention_code'] = 'PM'
-            record['retention_statement'] = 'Permanent'
-
-    # Skip records without essential fields
-    if not record['series_id'] or not record['series_title']:
-        return None
-
-    return record
-
-
-def parse_texas_structure(structure_json_path: Path, output_schema: dict, retention_codes_path: Path) -> list[dict]:
-    """
-    Parse a Texas PDF using pdfplumber structure JSON.
-
-    Args:
-        structure_json_path: Path to the pdfplumber --structure-text JSON file
-        output_schema: Output record schema template
-        retention_codes_path: Path to retentioncodes.csv
-
-    Returns:
-        List of standardized record dictionaries
-    """
-    logger.info(f"Parsing Texas structure from {structure_json_path}")
-
-    # Load retention codes
+def process_texas_pdf(pdf_path: Path, schema: dict, retention_codes_path: Path, agency_mapping: dict = None) -> list[dict]:
+    """Process a Texas retention schedule PDF and extract records."""
+    logger.info(f"Processing Texas PDF: {pdf_path}")
     retention_codes = load_retention_codes(retention_codes_path)
-    logger.info(f"Loaded {len(retention_codes)} retention codes")
+    metadata = extract_metadata_from_pdf(pdf_path)
 
-    # Load structure JSON
-    with open(structure_json_path, 'r', encoding='utf-8') as f:
-        structure = json.load(f)
-
-    # Extract metadata from cover pages
-    metadata = extract_metadata_from_structure(structure, structure_json_path)
-    logger.info(f"Extracted metadata: schedule_id={metadata['schedule_id']}, agency={metadata['agency_name']}")
-
-    # Find all tables in the document
-    tables = find_nodes_by_type(structure, 'Table')
-    logger.info(f"Found {len(tables)} tables")
+    if agency_mapping and metadata['schedule_id'] in agency_mapping:
+        agency_info = agency_mapping[metadata['schedule_id']]
+        metadata['agency_name'] = agency_info['name']
+        if not metadata['last_updated']: metadata['last_updated'] = agency_info['last_updated']
+        if not metadata['next_update']: metadata['next_update'] = agency_info['next_update']
 
     records = []
+    current_col_map = None
 
-    for table_idx, table in enumerate(tables):
-        rows = [c for c in table.get('children', []) if c.get('type') == 'TR']
-        logger.info(f"Table {table_idx + 1}: {len(rows)} rows")
+    try:
+        with pdfplumber.open(pdf_path) as pdf:
+            for page in pdf.pages:
+                tables = page.extract_tables()
+                if not tables: continue
 
-        for row in rows:
-            record = parse_table_row(row, retention_codes)
-            if record:
-                # Apply metadata to each record
-                record.update({
-                    'state': metadata['state'],
-                    'schedule_type': metadata['schedule_type'],
-                    'schedule_id': metadata['schedule_id'],
-                    'last_updated': metadata['last_updated'],
-                    'next_update': metadata['next_update'],
-                    'last_checked': metadata['last_checked'],
-                    'url': metadata['url']
-                })
+                for table in tables:
+                    if not table: continue
+                    header_row_idx = -1
+                    for r_idx, row in enumerate(table[:5]):
+                        if row and any(cell and ("itemno" in "".join(str(cell).lower().split()) or "item#" in "".join(str(cell).lower().split())) for cell in row):
+                            header_row_idx = r_idx
+                            break
 
-                # If agency_name is in metadata, add it
-                if metadata['agency_name']:
-                    record['agency_name'] = metadata['agency_name']
+                    if header_row_idx == -1:
+                        if current_col_map: col_map = current_col_map
+                        else: continue
+                    else:
+                        row1, row2 = table[header_row_idx], (table[header_row_idx + 1] if header_row_idx + 1 < len(table) else [])
+                        combined_headers = [f"{str(row1[i] or '').strip()} {str(row2[i] or '').strip()}".strip().lower() for i in range(max(len(row1), len(row2)))]
+                        
+                        col_map = {}
+                        for idx, h in enumerate(combined_headers):
+                            clean_h = "".join(h.split())
+                            if 'agency' in clean_h and 'item' in clean_h: col_map['series_id'] = idx
+                            elif 'rsin' in clean_h or ('record' in clean_h and 'series' in clean_h and 'item' in clean_h): col_map['rsin'] = idx
+                            elif 'seriestitle' in clean_h or 'recordseriestitle' in clean_h: col_map['series_title'] = idx
+                            elif 'description' in clean_h: col_map['description'] = idx
+                            elif ('ret.' in clean_h and 'code' in clean_h) or 'edoc.ter' in clean_h or 'retcode' in clean_h: col_map['retention_code'] = idx
+                            elif 'years' in h.split() or 'sraey' in clean_h: col_map['retention_years'] = idx
+                            elif 'months' in h.split() or 'shtnom' in clean_h: col_map['retention_months'] = idx
+                            elif 'days' in h.split() or 'syad' in clean_h: col_map['retention_days'] = idx
+                            elif 'remark' in clean_h: col_map['remarks'] = idx
+                            elif 'legal' in clean_h or 'citation' in clean_h: col_map['legal'] = idx
+                            elif 'archival' in clean_h or 'lavihcra' in clean_h: col_map['archival'] = idx
+                        current_col_map = col_map
 
-                # Ensure all schema fields are present (pass through empty fields)
-                for field in output_schema:
-                    if field not in record:
-                        record[field] = output_schema[field]
+                    for r_idx, row in enumerate(table):
+                        if r_idx <= header_row_idx or not row or not any(row): continue
+                        row_text_full = ' '.join(str(cell or '').lower() for cell in row)
+                        if any(kw in row_text_full for kw in ['item no', 'rsin', 'record series', 'edoc .ter', 'lavihcra']): continue
 
-                records.append(record)
+                        series_id = str(row[col_map.get('series_id', 0)] or '').strip() if len(row) > col_map.get('series_id', 0) else ''
+                        series_title = str(row[col_map.get('series_title', 1)] or '').strip() if len(row) > col_map.get('series_title', 1) else ''
+                        
+                        # Skip if no series_id, no title, or if series_id doesn't match the pattern (e.g., TOC entries)
+                        if not series_id or not series_title or not texas_config.series_id_pattern.match(series_id):
+                            continue
 
-    logger.info(f"Extracted {len(records)} records from {len(tables)} tables")
+                        raw_record = make_record(
+                            schema,
+                            series_id=series_id,
+                            series_title=series_title,
+                            series_description=str(row[col_map['description']] or '').strip() if 'description' in col_map and len(row) > col_map['description'] else '',
+                            rsin=str(row[col_map['rsin']] or '').strip() if 'rsin' in col_map and len(row) > col_map['rsin'] else '',
+                            comments=str(row[col_map['remarks']] or '').strip() if 'remarks' in col_map and len(row) > col_map['remarks'] else '',
+                            legal_citation=str(row[col_map['legal'] or ''] or '').strip() if 'legal' in col_map and len(row) > col_map['legal'] else '',
+                            **metadata
+                        )
+
+                        ret_code = str(row[col_map['retention_code']] or '').strip() if 'retention_code' in col_map and len(row) > col_map['retention_code'] else ''
+                        # Handle mirrored text
+                        ret_code = "".join(reversed(ret_code)) if ret_code in ["CA", "VA", "EC", "EF", "AL", "MP", "SU"] else ret_code
+                        
+                        period_text = " ".join([f"{str(row[col_map[k]] or '').strip()} {k.split('_')[1]}" for k in ['retention_years', 'retention_months', 'retention_days'] if k in col_map and len(row) > col_map[k] and str(row[col_map[k]] or '').strip()])
+                        
+                        parsed = parse_retention_field(f"{ret_code} + {period_text}", retention_codes)
+                        raw_record.update(parsed)
+
+                        if not raw_record['retention_code'] and 'archival' in col_map and len(row) > col_map['archival']:
+                            if 'A' in str(row[col_map['archival']]).upper():
+                                raw_record.update({'retention_code': 'PM', 'retention_statement': 'Permanent'})
+
+                        records.append(clean_record_fields(raw_record, texas_config))
+
+    except Exception as e:
+        logger.error(f"Error processing PDF {pdf_path}: {e}")
+        raise
     return records
