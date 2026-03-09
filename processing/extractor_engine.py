@@ -82,6 +82,10 @@ def clean_record_fields(record: dict, config: StateScheduleConfig) -> dict:
     retention = re.sub(r'\s+', ' ', record.get('retention_statement', '')).strip()
     disposition = re.sub(r'\s+', ' ', record.get('disposition', '')).strip()
 
+    # Fix common typos from source data
+    retention = re.sub(r'(?i)\bPermanen\b', 'Permanent', retention)
+    disposition = re.sub(r'(?i)\bPermanen\b', 'Permanent', disposition)
+
     disp_match = re.search(
         r'(?i)(Non-confidential Destruction|Confidential Destruction|Permanent, Archives|Permanent, In Agency|Archives|Destruction)$',
         disposition if disposition else retention
