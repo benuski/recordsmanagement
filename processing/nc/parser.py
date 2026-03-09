@@ -6,21 +6,12 @@ from pathlib import Path
 from datetime import date
 import os
 
-from processing.extractor_engine import make_record, clean_record_fields
+from processing.utils import make_record, clean_record_fields
 from processing.base_config import StateScheduleConfig
 
 logger = logging.getLogger(__name__)
 
-# NC config
-nc_config = StateScheduleConfig(
-    state_code="nc",
-    default_walls=(0,0,0),
-    footer_strings=[],
-    series_id_pattern=re.compile(r'^\d+\.[A-Z0-9]+$'),
-    legal_citation_pattern=re.compile(r'(G\.S\.\s*§.*|CFR.*|Authority\s+.*)', re.IGNORECASE),
-    header_keywords={},
-    citation_penalty_strings=[]
-)
+from processing.nc.config import nc_config
 
 def get_text(node):
     texts = []

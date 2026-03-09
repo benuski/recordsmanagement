@@ -6,9 +6,9 @@ from pathlib import Path
 from bs4 import BeautifulSoup
 from word2number import w2n
 
-from processing.oh.ohio import ohio_config
-from processing.extractor_engine import clean_record_fields as universal_clean_record_fields
-from processing.extractor_engine import make_record
+from processing.oh.config import ohio_config
+from processing.utils import clean_record_fields as universal_clean_record_fields
+from processing.utils import make_record
 
 logger = logging.getLogger(__name__)
 
