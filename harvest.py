@@ -62,7 +62,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Extract data from state records retention schedules.")
     parser.add_argument("--input-directory", type=Path, default=None, help="Path to the directory containing source PDFs or to save/read HTML files (default: processing/<state-code>/src/)")
     parser.add_argument("--output-directory", type=Path, default=None, help="Path to save the resulting JSON files (default: data/<state-code>/)")
-    parser.add_argument("--state-code", required=True, type=str, choices=["va", "oh", "tx"], help="The two-letter state code (e.g., va, oh, tx)")
+    parser.add_argument("--state-code", required=True, type=str, choices=["va", "oh", "tx", "nc"], help="The two-letter state code (e.g., va, oh, tx, nc)")
     parser.add_argument("--schema-path", type=Path, default=Path("processing/output_template_clean.json"), help="Path to the output JSON schema")
     parser.add_argument("--agency-csv", type=Path, default=Path("agencies.csv"), help="Path to the agency mapping CSV")
     parser.add_argument("--skip-ocr", action="store_true", help="Bypass the marker-pdf OCR engine and skip image-only PDFs")
@@ -244,3 +244,31 @@ if __name__ == "__main__":
                         json.dump(records, f, indent=2, ensure_ascii=False)
 
             logger.info(f"Done! Successfully extracted {len(grouped_records)} schedule groups from {len(html_files)} files to {args.output_directory}")
+
+    # -----------------------------------------------------------------------
+    # North Carolina Pipeline (PDF Structure JSON)
+    # -----------------------------------------------------------------------
+    elif args.state_code == "nc":
+        from processing.nc.parser import process_nc_pdf
+        pdf_files = list(args.input_directory.glob("??_*.pdf"))
+        
+        if not pdf_files:
+            logger.warning(f"No PDF files found in {args.input_directory} matching '??_*.pdf'")
+        else:
+            logger.info(f"Starting pipeline for {len(pdf_files)} files using {args.state_code.upper()} configuration.")
+            
+            all_records = []
+            for pdf_file in pdf_files:
+                logger.info(f"Processing {pdf_file.name}...")
+                try:
+                    records = process_nc_pdf(pdf_file, output_schema)
+                    all_records.extend(records)
+                    logger.info(f"Extracted {len(records)} records from {pdf_file.name}")
+                except Exception as e:
+                    logger.error(f"Failed to process {pdf_file.name}: {e}")
+                    
+            if all_records:
+                output_file = args.output_directory / "functional_schedule.json"
+                with open(output_file, 'w', encoding='utf-8') as f:
+                    json.dump(all_records, f, indent=2, ensure_ascii=False)
+                logger.info(f"Done! Successfully extracted {len(all_records)} records to {output_file}")
