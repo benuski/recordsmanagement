@@ -108,10 +108,15 @@ def clean_record_fields(record: dict, config: StateScheduleConfig) -> dict:
             retention = re.sub(r'\s+', ' ', retention).strip()
             disposition = f"{disposition} {kw}".strip()
 
-    legal_citation = ""
+    legal_citation = record.get('legal_citation', '').strip()
     citation_match = config.legal_citation_pattern.search(desc)
     if citation_match:
-        legal_citation = citation_match.group(1).strip()
+        found_citation = citation_match.group(1).strip()
+        if not legal_citation:
+            legal_citation = found_citation
+        elif found_citation not in legal_citation:
+            legal_citation = f"{legal_citation}; {found_citation}"
+        
         desc = desc[:citation_match.start()].strip()
         desc = re.sub(r'[\.,;:]$', '', desc).strip()
 

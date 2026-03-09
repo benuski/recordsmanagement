@@ -236,14 +236,7 @@ def process_nc_pdf(pdf_path: Path, schema: dict) -> list[dict]:
             cleaned = clean_record_fields(raw_record, nc_config)
             records.append(cleaned)
             functional_map[rc_no] = cleaned
-
-    # Now handle the appendix mappings
-    # Since appendix rows don't explicitly say *which* RC No. they map to in a structured way on the same row,
-    # we have to infer the RC No. from the context (which isn't strictly tabular in the appendix).
-    # Wait, looking closer at the appendix structure, the RC No. isn't on every row, it usually precedes the appendix in the document or the appendix is missing the RC No relation in a simple way.
-    # Actually, let's keep them as specific records by copying the last functional record if we can't map them reliably, OR we just save the appendix items as their own standalone specific records.
-    # Let's make them standalone records where the series_id is the legacy item number, since the PDF doesn't strictly tie them back to the RC No in the table.
-    
+  
     for app in appendix_mappings:
         app_record = make_record(
             schema,
