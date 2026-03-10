@@ -8,11 +8,13 @@ import csv
 import logging
 import pdfplumber
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, date
 from bs4 import BeautifulSoup
 
 from processing.tx.config import texas_config
 from processing.utils import make_record, clean_record_fields
+from processing.utils.pdf_utils import stringify_words
+from processing.utils.text_utils import split_title_and_description
 
 logger = logging.getLogger(__name__)
 
@@ -172,6 +174,92 @@ def parse_retention_field(retention_text: str, retention_codes: dict) -> dict:
 
     return result
 
+def parse_using_vertical_silo_tx(
+    pdf_path: Path, schedule_id: str, effective_date: str | None,
+    schema: dict, config: texas_config, retention_codes: dict
+) -> list[dict]:
+    """Custom silo parser for Texas landscape/tagged PDFs."""
+    all_records = []
+    # g1: end of RSIN column (~100)
+    # g2: end of Title column (~240)
+    # g3: end of Description column (~440)
+    # g4: end of Retention Code column (~530)
+    # g5: end of Retention Period columns (~700)
+    g1, g2, g3, g4, g5 = config.default_walls
+    
+    with pdfplumber.open(pdf_path) as pdf:
+        for page in pdf.pages:
+            words = page.extract_words()
+            if not words: continue
+
+            # Filter out headers/footers
+            valid_words = [w for w in words if 150 < w['top'] < page.height - 50]
+            
+            # Anchors are in the RSIN column (between 50 and g1)
+            anchors = [w for w in valid_words if 50 < w['x0'] < g1 and config.series_id_pattern.match(w['text'].strip())]
+            anchors.sort(key=lambda x: x['top'])
+
+            if not anchors: continue
+
+            bands = []
+            for i, anchor in enumerate(anchors):
+                y_start = anchor['top'] - 5
+                y_end = anchors[i + 1]['top'] - 5 if i + 1 < len(anchors) else page.height
+                bands.append({
+                    'rsin': anchor['text'].strip(),
+                    'y_start': y_start,
+                    'y_end': y_end,
+                    'ain_words': [],
+                    'title_words': [],
+                    'desc_words': [],
+                    'ret_code_words': [],
+                    'ret_period_words': [],
+                    'remarks_words': []
+                })
+
+            for w in valid_words:
+                for band in bands:
+                    if band['y_start'] <= w['top'] < band['y_end']:
+                        if w['x0'] < 50: band['ain_words'].append(w)
+                        elif 50 <= w['x0'] < g1: pass # It's the anchor
+                        elif g1 <= w['x0'] < g2: band['title_words'].append(w)
+                        elif g2 <= w['x0'] < g3: band['desc_words'].append(w)
+                        elif g3 <= w['x0'] < g4: band['ret_code_words'].append(w)
+                        elif g4 <= w['x0'] < g5: band['ret_period_words'].append(w)
+                        else: band['remarks_words'].append(w)
+                        break
+
+            for band in bands:
+                ain = stringify_words(band['ain_words'])
+                rsin = band['rsin']
+                title = stringify_words(band['title_words'])
+                desc = stringify_words(band['desc_words'])
+                ret_code = stringify_words(band['ret_code_words'])
+                ret_period = stringify_words(band['ret_period_words'])
+                remarks = stringify_words(band['remarks_words'])
+
+                raw_record = make_record(
+                    schema,
+                    state='tx',
+                    schedule_type='specific',
+                    schedule_id=schedule_id,
+                    series_id=ain or rsin,
+                    series_title=title,
+                    series_description=desc,
+                    rsin=rsin,
+                    comments=remarks,
+                    last_updated=effective_date,
+                    last_checked=str(date.today())
+                )
+                
+                # Parse retention
+                parsed = parse_retention_field(f"{ret_code} + {ret_period}", retention_codes)
+                raw_record.update(parsed)
+                
+                all_records.append(clean_record_fields(raw_record, config))
+
+    return all_records
+
 def process_texas_pdf(pdf_path: Path, schema: dict, retention_codes_path: Path, agency_mapping: dict = None) -> list[dict]:
     """Process a Texas retention schedule PDF and extract records."""
     logger.info(f"Processing Texas PDF: {pdf_path}")
@@ -205,8 +293,14 @@ def process_texas_pdf(pdf_path: Path, schema: dict, retention_codes_path: Path, 
                         if current_col_map: col_map = current_col_map
                         else: continue
                     else:
-                        row1, row2 = table[header_row_idx], (table[header_row_idx + 1] if header_row_idx + 1 < len(table) else [])
-                        combined_headers = [f"{str(row1[i] or '').strip()} {str(row2[i] or '').strip()}".strip().lower() for i in range(max(len(row1), len(row2)))]
+                        row1 = table[header_row_idx]
+                        row2 = table[header_row_idx + 1] if header_row_idx + 1 < len(table) else []
+                        max_len = max(len(row1), len(row2))
+                        combined_headers = []
+                        for i in range(max_len):
+                            h1 = str(row1[i] or '').strip() if i < len(row1) else ''
+                            h2 = str(row2[i] or '').strip() if i < len(row2) else ''
+                            combined_headers.append(f"{h1} {h2}".strip().lower())
                         
                         col_map = {}
                         for idx, h in enumerate(combined_headers):
@@ -243,7 +337,7 @@ def process_texas_pdf(pdf_path: Path, schema: dict, retention_codes_path: Path, 
                             series_description=str(row[col_map['description']] or '').strip() if 'description' in col_map and len(row) > col_map['description'] else '',
                             rsin=str(row[col_map['rsin']] or '').strip() if 'rsin' in col_map and len(row) > col_map['rsin'] else '',
                             comments=str(row[col_map['remarks']] or '').strip() if 'remarks' in col_map and len(row) > col_map['remarks'] else '',
-                            legal_citation=str(row[col_map['legal'] or ''] or '').strip() if 'legal' in col_map and len(row) > col_map['legal'] else '',
+                            legal_citation=str(row[col_map['legal']] or '').strip() if 'legal' in col_map and len(row) > col_map['legal'] else '',
                             **metadata
                         )
 
@@ -265,4 +359,16 @@ def process_texas_pdf(pdf_path: Path, schema: dict, retention_codes_path: Path, 
     except Exception as e:
         logger.error(f"Error processing PDF {pdf_path}: {e}")
         raise
+    
+    if not records:
+        logger.info(f"No tables found via extract_tables in {pdf_path}. Attempting vertical silo fallback.")
+        records = parse_using_vertical_silo_tx(
+            pdf_path, 
+            metadata['schedule_id'], 
+            metadata['last_updated'], 
+            schema, 
+            texas_config,
+            retention_codes
+        )
+
     return records
