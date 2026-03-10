@@ -1,0 +1,4 @@
+  - The user uses pixi to manage Python dependencies, and the binary is located in ~/.pixi.
+  - do not edit files in data/ directly, the scripts in processing/ are the only way to edit files in data/
+  - Source files that I'm working with for each state are in processing/<statecode>/src/
+  - output json files should be written to data/<statecode>/

@@ -31,11 +31,8 @@ This document provides a one-sentence explanation for every Python script in the
 
 ## Texas (`processing/tx/`)
 - **processing/tx/config.py**: Defines the configuration and regex patterns for Texas state agency schedules.
-- **processing/tx/parse_agencies.py**: Scrapes and extracts agency names and codes from Texas's online agency index.
-- **processing/tx/tx_pdf_processor.py**: Implements a specialized PDF table extractor tailored for Texas's complex multi-column layouts.
+- **processing/tx/parser.py**: Consolidated parser for Texas that handles both agency index HTML and complex retention schedule PDFs.
 - **processing/tx/processor.py**: The high-level pipeline runner for Texas that manages metadata extraction and record grouping.
-- **processing/tx/parser.py**: (Legacy) Original parsing logic replaced by the new modular state processor.
-- **processing/tx/tx_processing.py**: (Legacy) Original processing logic replaced by the new modular state processor.
 - **processing/tx/__init__.py**: Initializes the Texas module as a package.
 
 ## Virginia (`processing/va/`)
