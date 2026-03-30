@@ -2,6 +2,7 @@ import os
 import re
 import logging
 import subprocess
+import contextlib
 from pathlib import Path
 from datetime import date
 import pdfplumber
@@ -292,7 +293,8 @@ def parse_using_marker_html(
 
 def parse_using_marker_html_optimized(
     pdf_path: Path, schedule_id: str, effective_date: str | None,
-    is_image: bool, schema: dict, config: StateScheduleConfig
+    is_image: bool, schema: dict, config: StateScheduleConfig,
+    gpu_semaphore = None
 ) -> list[dict]:
     expected_marker_dir = pdf_path.parent / schedule_id
     html_path = expected_marker_dir / f"{schedule_id}.html"
@@ -308,28 +310,32 @@ def parse_using_marker_html_optimized(
         logger.info(f"[{schedule_id}] Using existing, up-to-date HTML file")
 
     elif is_image:
-        logger.info(f"[{schedule_id}] Running marker_single with memory optimization...")
-        try:
-            subprocess.run(
-                [
-                    "marker_single",
-                    str(pdf_path),
-                    "--output_dir", str(pdf_path.parent),
-                    "--output_format", "html"
-                ],
-                check=True,
-                capture_output=True,
-                text=True,
-                timeout=600,
-                env=env
-            )
-            if expected_marker_dir.exists():
-                html_path = expected_marker_dir / f"{schedule_id}.html"
+        # Use the semaphore to ensure only one worker uses the GPU at a time
+        semaphore_context = gpu_semaphore if gpu_semaphore else contextlib.nullcontext()
+        
+        with semaphore_context:
+            logger.info(f"[{schedule_id}] GPU Key Acquired. Running marker_single...")
+            try:
+                subprocess.run(
+                    [
+                        "marker_single",
+                        str(pdf_path),
+                        "--output_dir", str(pdf_path.parent),
+                        "--output_format", "html"
+                    ],
+                    check=True,
+                    capture_output=True,
+                    text=True,
+                    timeout=600,
+                    env=env
+                )
+                if expected_marker_dir.exists():
+                    html_path = expected_marker_dir / f"{schedule_id}.html"
 
-        except (subprocess.CalledProcessError, subprocess.TimeoutExpired) as e:
-            error_msg = e.stderr if isinstance(e, subprocess.CalledProcessError) else "Timeout Expired"
-            logger.error(f"[{schedule_id}] marker_single failed: {error_msg}")
-            return []
+            except (subprocess.CalledProcessError, subprocess.TimeoutExpired) as e:
+                error_msg = e.stderr if isinstance(e, subprocess.CalledProcessError) else "Timeout Expired"
+                logger.error(f"[{schedule_id}] marker_single failed: {error_msg}")
+                return []
 
     if html_path.exists():
         with open(html_path, 'r', encoding='utf-8') as f:

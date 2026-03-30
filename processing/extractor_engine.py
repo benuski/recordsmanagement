@@ -19,6 +19,14 @@ from processing.central_file import save_records, score_records
 
 logger = logging.getLogger(__name__)
 
+# Global semaphore for GPU access (initialized in run_state_pipeline)
+_gpu_semaphore = None
+
+def init_worker(semaphore):
+    """Initializes the worker process with a global semaphore."""
+    global _gpu_semaphore
+    _gpu_semaphore = semaphore
+
 def load_agency_mapping(state_code: str) -> dict[str, str]:
     """Loads state-specific agency mapping CSV if it exists."""
     mapping = {}
@@ -78,7 +86,8 @@ def process_and_evaluate(pdf_path: Path, output_dir: Path, agency_mapping: dict,
 
             if strategy == 'html':
                 records = parse_using_marker_html_optimized(
-                    pdf_path, schedule_id, effective_date, is_image, schema, config
+                    pdf_path, schedule_id, effective_date, is_image, schema, config,
+                    gpu_semaphore=_gpu_semaphore
                 )
             elif strategy == 'table':
                 records = parse_using_table_engine(
@@ -152,9 +161,18 @@ def run_state_pipeline(args, state_config: StateScheduleConfig, output_schema: d
         skip_ocr=args.skip_ocr
     )
 
+    # Use a Manager to create a semaphore that can be shared across processes
+    manager = multiprocessing.Manager()
+    gpu_sem = manager.Semaphore(1) # Lock to 1 GPU instance
+
     # Use 'spawn' for safe multiprocessing with complex libraries
     ctx = multiprocessing.get_context('spawn')
     # Use fewer processes than CPU count to be safe with memory
     num_procs = max(1, multiprocessing.cpu_count() // 2)
-    with ctx.Pool(processes=num_procs, maxtasksperchild=25) as pool:
+    with ctx.Pool(
+        processes=num_procs, 
+        maxtasksperchild=25,
+        initializer=init_worker,
+        initargs=(gpu_sem,)
+    ) as pool:
         pool.map(worker, files)
