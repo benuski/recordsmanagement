@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TAX",
+      "schedule_type": "specific",
+      "schedule_id": "11100483",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/33557"
+    },
+    "series_metadata": {
+      "series_id": "1017-0006",
+      "series_title": "Distributions",
+      "series_description": "Any distribution information of state revenue to local governments and accompanying reports, worksheets, spreadsheets, settlements and other supporting documentation. Records include local government breakdown of distributions, vouchers, Revenue Holding Account Redistribution, variance sheets, aggregate level adjustments data, any and all allocation reports, revenue source data, warrant journals pertaining to distributions and voided warrants and reissuance of stopped or voided warrants pertaining to distributions as well as local government transmittals. Records also include any records mentioned above stored electronically in the FUNDS database or on the shared network drive.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: distribution is made. ; Paper: distribution is made",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2016-06-23",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

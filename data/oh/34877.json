@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551673",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/34877"
+    },
+    "series_metadata": {
+      "series_id": "DAT-OAG-01",
+      "series_title": "Data Requests",
+      "series_description": "Documents request for Ohio Attorney General (AGO)-held data from external government agencies and other entities. Records include, but are not limited to, copy of memorandum of understanding or contract, correspondence, any data provided by requestor used to identify data to extract, extract and/or processed/redacted request files, and applicable consent and/or legal compliance forms.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: certificate of destruction is received. ; Paper: certificate of destruction is received, unless scanned and saved electronically",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2017-12-19",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

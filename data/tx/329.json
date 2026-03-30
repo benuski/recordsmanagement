@@ -1,74 +1,104 @@
 [
   {
-    "agency_name": "",
-    "state": "tx",
-    "schedule_type": "specific",
-    "schedule_id": "329",
-    "series_id": "7/20)",
-    "series_title": "",
-    "series_description": "",
-    "retention_statement": "",
-    "retention_years": null,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
+    "schedule_metadata": {
+      "state": "tx",
+      "agency_name": null,
+      "schedule_type": "specific",
+      "schedule_id": "329",
+      "url": null
+    },
+    "series_metadata": {
+      "series_id": "7/20)",
+      "series_title": "",
+      "series_description": "",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": null,
+      "comments": ""
+    },
+    "state_specific_attributes": {
+      "rsin": "7/20)"
+    },
     "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": "2024-06-11",
-    "next_update": "",
-    "url": "",
-    "rsin": "7/20)"
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
-    "agency_name": "",
-    "state": "tx",
-    "schedule_type": "specific",
-    "schedule_id": "329",
-    "series_id": "a FIN-45 5.3.007",
-    "series_title": "and After invitations to bid specifications, awarded bids, and bid tabulation Associated with renewed, or amended September 1, 2015. – Includes bid requisition/authorizations,",
-    "series_description": "or propose, bid of the instrument and unawarded its terms /evaluations. proceed a contract executed, on or after FE 3",
-    "retention_statement": "441.1855 years",
-    "retention_years": 1855,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
+    "schedule_metadata": {
+      "state": "tx",
+      "agency_name": null,
+      "schedule_type": "specific",
+      "schedule_id": "329",
+      "url": null
+    },
+    "series_metadata": {
+      "series_id": "a FIN-45 5.3.007",
+      "series_title": "and After invitations to bid specifications, awarded bids, and bid tabulation Associated with renewed, or amended September 1, 2015. – Includes bid requisition/authorizations,",
+      "series_description": "or propose, bid of the instrument and unawarded its terms /evaluations. proceed a contract executed, on or after FE 3",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "441",
+      "duration_years": 1855,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": null,
+      "comments": "Code,"
+    },
+    "state_specific_attributes": {
+      "rsin": "9/1/2015"
+    },
     "retention_code": "",
-    "comments": "Code,",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": "2024-06-11",
-    "next_update": "",
-    "url": "",
-    "rsin": "9/1/2015"
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
-    "agency_name": "",
-    "state": "tx",
-    "schedule_type": "specific",
-    "schedule_id": "329",
-    "series_id": "b",
-    "series_title": "and Prior invitations to bid specifications, awarded bids, and bid tabulation Associated with renewed, or amended 31, 2015.",
-    "series_description": "or propose, bid and unawarded /evaluations. a contract executed, on or before August",
-    "retention_statement": "",
-    "retention_years": null,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
+    "schedule_metadata": {
+      "state": "tx",
+      "agency_name": null,
+      "schedule_type": "specific",
+      "schedule_id": "329",
+      "url": null
+    },
+    "series_metadata": {
+      "series_id": "b",
+      "series_title": "and Prior invitations to bid specifications, awarded bids, and bid tabulation Associated with renewed, or amended 31, 2015.",
+      "series_description": "or propose, bid and unawarded /evaluations. a contract executed, on or before August",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": null,
+      "comments": ""
+    },
+    "state_specific_attributes": {
+      "rsin": "8/31/2015"
+    },
     "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": "2024-06-11",
-    "next_update": "",
-    "url": "",
-    "rsin": "8/31/2015"
+    "retention_weeks": "",
+    "retention_days": ""
   }
 ]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "PRX",
+      "schedule_type": "specific",
+      "schedule_id": "887-0113",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39002"
+    },
+    "series_metadata": {
+      "series_id": "887-0034",
+      "series_title": "Pharmacy Technician Files",
+      "series_description": "(A) These files are used to administer and enforce the provisions and requirements of Chapters 3715, 3719, 4729, and 2925 of the Revised Code. The principle purpose of these files is for the enforcement of the Pharmacy Practice Act, the laws governing the legal distribution of drugs in Ohio and provide a standard automated processing procedure for issuance and renewal of pharmacy intern licenses. (B) These files contain information on the status of Ohio Pharmacy technicians with respect to: (1) Personal and employment records; (2) Professional records (experience and certification); (3) Public legal records.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Electronic: on server lapse or failed renew",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2021-04-14",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

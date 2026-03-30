@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551742",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/38536"
+    },
+    "series_metadata": {
+      "series_id": "066-OAG-67",
+      "series_title": "Property Room Evidence Log/Evidence Control Records",
+      "series_description": "Records used to track the date received, chain of custody, and final disposition of evidence collected by the Consumer Protection section for criminal investigation and/or civil case work.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: from date of disposition. ; Paper: from date of disposition",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2019-09-03",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TAX",
+      "schedule_type": "specific",
+      "schedule_id": "110-0319",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35916"
+    },
+    "series_metadata": {
+      "series_id": "110-801-04",
+      "series_title": "Documents Filed by Appraisal Firms and Individual Appraisers",
+      "series_description": "Documents filed by appraisal firms and individual appraisers pursuant to Ohio Administrative Code section 5705-3-04(J).",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: documents current and preceding year. If scanned, . ; Electronic: documents current and preceding year",
+      "duration_years": null,
+      "duration_months": 6,
+      "disposition_method": "Paper: Wastepaper ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2019-02-11",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

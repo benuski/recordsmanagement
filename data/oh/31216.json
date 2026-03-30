@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "JFS",
+      "schedule_type": "specific",
+      "schedule_id": "6000158",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/31216"
+    },
+    "series_metadata": {
+      "series_id": "CS-SDUR10",
+      "series_title": "Reconciliation Ledgers",
+      "series_description": "Records include documents from each Ohio county (88) to account for and reconcile all financial data relating to the child support transactions of a county’s activity. The ledgers are created from information contained in Support Enforcement Tracking System (SETS) daily allocation financial management reports. Each file includes, but is not limited to, collection and disbursement reports (allocated and unallocated funds); financial corrections data; CMR data; SETS reports with spreadsheets and supporting documents; copies of bank statements and bank transaction adjustments; and daily non-standard activity (NSA) logs, as well as other various supporting documentation from SETS.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: in office state and federal audits are completed, audit report is released and all discrepancies are resolved. ; Paper: Paper: in office 1 years and 2 years in records center",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2024-06-20",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

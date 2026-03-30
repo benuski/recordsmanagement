@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551725",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/36150"
+    },
+    "series_metadata": {
+      "series_id": "65-OAG-54",
+      "series_title": "Task Force Work Orders",
+      "series_description": "Documents equipment and service requests from covert task forces. Such needs include, but are not limited to, equipment needed, equipment or building repairs, and computer support.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: completion of work. ; Paper: completion of work, unless scanned and saved electronically",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2019-03-14",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

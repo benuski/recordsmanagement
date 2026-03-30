@@ -1,0 +1,839 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "nc",
+      "agency_name": "",
+      "schedule_type": "general",
+      "schedule_id": "09",
+      "url": "https://archives.ncdcr.gov/functional-schedule"
+    },
+    "series_metadata": {
+      "series_id": "911.3",
+      "series_title": "Data Documentation Records",
+      "series_description": "records concerning data in automated systems; includes data element dictionary, file layout, code book or table, entity relationships tables, and other records related to the structure, management, and organization of data",
+      "legal_citation": ""
+    },
+    "retention_rules": {
+      "trigger_event": "System is discontinued and/or replaced",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2025-02-24",
+      "next_update_due": null,
+      "comments": ""
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "nc",
+      "agency_name": "",
+      "schedule_type": "general",
+      "schedule_id": "09",
+      "url": "https://archives.ncdcr.gov/functional-schedule"
+    },
+    "series_metadata": {
+      "series_id": "912.1",
+      "series_title": "Data Migration Records",
+      "series_description": "technical records documenting data migrations NOTE: The data itself is subject to the disposition instructions indicated for its relevant record type; these are merely records about migrating said data",
+      "legal_citation": ""
+    },
+    "retention_rules": {
+      "trigger_event": "Complete",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2025-02-24",
+      "next_update_due": null,
+      "comments": ""
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "nc",
+      "agency_name": "",
+      "schedule_type": "general",
+      "schedule_id": "09",
+      "url": "https://archives.ncdcr.gov/functional-schedule"
+    },
+    "series_metadata": {
+      "series_id": "913.S",
+      "series_title": "Data Warehouses",
+      "series_description": "federated data gathered by the agency from other sources for the purposes of comparison and distribution SEE ALSO: Reporting (AGENCY MANAGEMENT)",
+      "legal_citation": "Confidentiality NOTE: Consistent with any restrictions placed on the data producer"
+    },
+    "retention_rules": {
+      "trigger_event": "Superseded/Obsolete",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2025-02-24",
+      "next_update_due": null,
+      "comments": ""
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "nc",
+      "agency_name": "",
+      "schedule_type": "general",
+      "schedule_id": "09",
+      "url": "https://archives.ncdcr.gov/functional-schedule"
+    },
+    "series_metadata": {
+      "series_id": "915.3",
+      "series_title": "Electronic Records Policies",
+      "series_description": "records documenting the policies and procedures employed by the agency to maintain authentic and accessible electronic records SEE ALSO: Agency Policies (AGENCY MANAGEMENT)",
+      "legal_citation": ""
+    },
+    "retention_rules": {
+      "trigger_event": "Superseded/Obsolete",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2025-02-24",
+      "next_update_due": null,
+      "comments": ""
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "nc",
+      "agency_name": "",
+      "schedule_type": "general",
+      "schedule_id": "09",
+      "url": "https://archives.ncdcr.gov/functional-schedule"
+    },
+    "series_metadata": {
+      "series_id": "916.A",
+      "series_title": "Geospatial Data",
+      "series_description": "records maintained by the Department of Public Safety concerning the first geographic positions and coordinates surveys established for geodetic stations throughout the state SEE ALSO: Photogrammetric Project Records (INFRASTRUCTURE MANAGEMENT), Disaster Recovery Records (RISK MANAGEMENT) (continued on following page)",
+      "legal_citation": ""
+    },
+    "retention_rules": {
+      "trigger_event": "PERMANENT (archival) ∞",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2025-02-24",
+      "next_update_due": null,
+      "comments": "Transfer superseded or retired dataset to the State Records Center for immediate transfer to the custody of the Archives."
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "nc",
+      "agency_name": "",
+      "schedule_type": "general",
+      "schedule_id": "09",
+      "url": "https://archives.ncdcr.gov/functional-schedule"
+    },
+    "series_metadata": {
+      "series_id": "916.P",
+      "series_title": "Geospatial Data",
+      "series_description": "data layers maintained by the Department of Environmental Quality; includes data about stream flow in bodies of water SEE ALSO: Photogrammetric Project Records (INFRASTRUCTURE MANAGEMENT), Disaster Recovery Records (RISK MANAGEMENT) (continued on following page)",
+      "legal_citation": ""
+    },
+    "retention_rules": {
+      "trigger_event": "PERMANENT (appraisal required) ∞",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2025-02-24",
+      "next_update_due": null,
+      "comments": ""
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "nc",
+      "agency_name": "",
+      "schedule_type": "general",
+      "schedule_id": "09",
+      "url": "https://archives.ncdcr.gov/functional-schedule"
+    },
+    "series_metadata": {
+      "series_id": "917.S",
+      "series_title": "Records Backup Information",
+      "series_description": "records documenting regular or essential system backups; includes backup tape inventories and other related records",
+      "legal_citation": ""
+    },
+    "retention_rules": {
+      "trigger_event": "Superseded/Obsolete",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2025-02-24",
+      "next_update_due": null,
+      "comments": ""
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "nc",
+      "agency_name": "",
+      "schedule_type": "general",
+      "schedule_id": "09",
+      "url": "https://archives.ncdcr.gov/functional-schedule"
+    },
+    "series_metadata": {
+      "series_id": "918.5",
+      "series_title": "System Backups",
+      "series_description": "backups of e-mails sent and received by employees of executive branch agencies in accordance with Executive Order No. 12 (2013) SEE ALSO: Correspondence (AGENCY MANAGEMENT)",
+      "legal_citation": "Authority/Retention EO No. 12 (2013)"
+    },
+    "retention_rules": {
+      "trigger_event": "Received/Sent : : * NOTE: Backups of Capstone positions or those identified as having archival e-mail accounts are permanent records",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2025-02-24",
+      "next_update_due": null,
+      "comments": ""
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "nc",
+      "agency_name": "",
+      "schedule_type": "general",
+      "schedule_id": "09",
+      "url": "https://archives.ncdcr.gov/functional-schedule"
+    },
+    "series_metadata": {
+      "series_id": "918.S",
+      "series_title": "System Backups",
+      "series_description": "backups of electronic files and data that are generated expressly for the purpose of restoring computer systems in the event of a disaster or accidental damage SEE ALSO: Correspondence (AGENCY MANAGEMENT)",
+      "legal_citation": ""
+    },
+    "retention_rules": {
+      "trigger_event": "backups in accordance with your agency's established, regular backup plan and procedures SEE: Security Backup Files as Public Records in North Carolina",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2025-02-24",
+      "next_update_due": null,
+      "comments": ""
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "nc",
+      "agency_name": "",
+      "schedule_type": "general",
+      "schedule_id": "09",
+      "url": "https://archives.ncdcr.gov/functional-schedule"
+    },
+    "series_metadata": {
+      "series_id": "921.S",
+      "series_title": "Automated Program Listing Source Code",
+      "series_description": "automated program code that generates the machine language instructions used to operate an automated information system",
+      "legal_citation": "Confidentiality G.S. § 132-6.1(c)"
+    },
+    "retention_rules": {
+      "trigger_event": "Superseded/Obsolete",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2025-02-24",
+      "next_update_due": null,
+      "comments": ""
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "nc",
+      "agency_name": "",
+      "schedule_type": "general",
+      "schedule_id": "09",
+      "url": "https://archives.ncdcr.gov/functional-schedule"
+    },
+    "series_metadata": {
+      "series_id": "922.1",
+      "series_title": "Data Authentication",
+      "series_description": "fixity checks and other periodic tests of data validity",
+      "legal_citation": ""
+    },
+    "retention_rules": {
+      "trigger_event": "FROM: Creation : : *",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2025-02-24",
+      "next_update_due": null,
+      "comments": ""
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "nc",
+      "agency_name": "",
+      "schedule_type": "general",
+      "schedule_id": "09",
+      "url": "https://archives.ncdcr.gov/functional-schedule"
+    },
+    "series_metadata": {
+      "series_id": "923.1",
+      "series_title": "IT Assistance Records",
+      "series_description": "records documenting troubleshooting and problem-solving assistance provided by information systems personnel; includes help desk assistance requests, work orders, site visit reports, service histories, resolution records, and other related records",
+      "legal_citation": ""
+    },
+    "retention_rules": {
+      "trigger_event": "Resolution",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2025-02-24",
+      "next_update_due": null,
+      "comments": ""
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "nc",
+      "agency_name": "",
+      "schedule_type": "general",
+      "schedule_id": "09",
+      "url": "https://archives.ncdcr.gov/functional-schedule"
+    },
+    "series_metadata": {
+      "series_id": "928.S",
+      "series_title": "Voice Over Internet Protocol (VoIP) Records",
+      "series_description": "records concerning line registrations",
+      "legal_citation": ""
+    },
+    "retention_rules": {
+      "trigger_event": "Superseded/Obsolete",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2025-02-24",
+      "next_update_due": null,
+      "comments": ""
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "nc",
+      "agency_name": "",
+      "schedule_type": "general",
+      "schedule_id": "09",
+      "url": "https://archives.ncdcr.gov/functional-schedule"
+    },
+    "series_metadata": {
+      "series_id": "928.1",
+      "series_title": "",
+      "series_description": "records concerning call logs",
+      "legal_citation": ""
+    },
+    "retention_rules": {
+      "trigger_event": "FROM: Creation",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2025-02-24",
+      "next_update_due": null,
+      "comments": ""
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "nc",
+      "agency_name": "",
+      "schedule_type": "general",
+      "schedule_id": "09",
+      "url": "https://archives.ncdcr.gov/functional-schedule"
+    },
+    "series_metadata": {
+      "series_id": "929.S",
+      "series_title": "Web Management and Operations Records",
+      "series_description": "site maps that show the directory structure into which content pages are organized, and commercial, off-the-shelf software configuration or content management system files used to operate the site and establish its look and feel; also includes server environment configuration specifications SEE ALSO: Social Media and Websites (PUBLIC RELATIONS)",
+      "legal_citation": ""
+    },
+    "retention_rules": {
+      "trigger_event": "Superseded/Obsolete",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2025-02-24",
+      "next_update_due": null,
+      "comments": ""
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "nc",
+      "agency_name": "",
+      "schedule_type": "general",
+      "schedule_id": "09",
+      "url": "https://archives.ncdcr.gov/functional-schedule"
+    },
+    "series_metadata": {
+      "series_id": "924.2",
+      "series_title": "Network and System Security Records (cont.)",
+      "series_description": "records documenting incidents involving unauthorized attempted entry or probes on data processing systems, information technology systems, telecommunications networks, and electronic security systems, including associated software and hardware; includes logs, extracts, compilations of data, and other related records",
+      "legal_citation": "Confidentiality G.S. § 132-6.1(c)"
+    },
+    "retention_rules": {
+      "trigger_event": "FROM: Creation : : *",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2025-02-24",
+      "next_update_due": null,
+      "comments": ""
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "nc",
+      "agency_name": "",
+      "schedule_type": "general",
+      "schedule_id": "09",
+      "url": "https://archives.ncdcr.gov/functional-schedule"
+    },
+    "series_metadata": {
+      "series_id": "924.5",
+      "series_title": "Network and System Security Records (cont.)",
+      "series_description": "finalized cyber incident reports",
+      "legal_citation": ""
+    },
+    "retention_rules": {
+      "trigger_event": "FROM: Resolution",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2025-02-24",
+      "next_update_due": null,
+      "comments": ""
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "nc",
+      "agency_name": "",
+      "schedule_type": "general",
+      "schedule_id": "09",
+      "url": "https://archives.ncdcr.gov/functional-schedule"
+    },
+    "series_metadata": {
+      "series_id": "925.S",
+      "series_title": "Network Diagrams",
+      "series_description": "records documenting the logical and physical relationships of network components for purposes of organization, deployment, troubleshooting, monitoring of access, and management of day-to-day operations",
+      "legal_citation": "Confidentiality G.S. § 132-6.1(c)"
+    },
+    "retention_rules": {
+      "trigger_event": "Superseded/Obsolete",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2025-02-24",
+      "next_update_due": null,
+      "comments": ""
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "nc",
+      "agency_name": "",
+      "schedule_type": "general",
+      "schedule_id": "09",
+      "url": "https://archives.ncdcr.gov/functional-schedule"
+    },
+    "series_metadata": {
+      "series_id": "926.3",
+      "series_title": "System Documentation",
+      "series_description": "records documenting operating systems, application programs, structure and form of datasets, system structure, and system-to-system communication; includes system overviews, dataset inventories, server names, IP addresses, purpose of the systems, vendor-supplied documentation, installed software, and current source code",
+      "legal_citation": "Confidentiality G.S. § 132-1.1(g) G.S. § 132-6.1(c)"
+    },
+    "retention_rules": {
+      "trigger_event": "Superseded/Obsolete",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2025-02-24",
+      "next_update_due": null,
+      "comments": ""
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "nc",
+      "agency_name": "",
+      "schedule_type": "general",
+      "schedule_id": "09",
+      "url": "https://archives.ncdcr.gov/functional-schedule"
+    },
+    "series_metadata": {
+      "series_id": "927.1",
+      "series_title": "Technical Program Documentation",
+      "series_description": "records concerning program code, program flowcharts, program maintenance logs, systems change notices, and other related records that document modifications to computer programs",
+      "legal_citation": "Confidentiality G.S. § 132-6.1(c)"
+    },
+    "retention_rules": {
+      "trigger_event": "Superseded/Obsolete",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2025-02-24",
+      "next_update_due": null,
+      "comments": ""
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "nc",
+      "agency_name": "Geographic Information and Analysis, Center for",
+      "schedule_type": "specific",
+      "schedule_id": "09",
+      "url": "https://www.ncdcr.gov/functional-schedule-state-agencies"
+    },
+    "series_metadata": {
+      "series_id": "49947",
+      "series_title": "Geospatial Framework Raster Dataset (Elevation and Bathymetry, Orthoimagery)",
+      "series_description": "",
+      "legal_citation": ""
+    },
+    "retention_rules": {
+      "trigger_event": "SEE FUNCTIONAL SCHEDULE",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2025-02-24",
+      "next_update_due": null,
+      "comments": "Legacy Item Number mapped to Functional Schedule chapter 09."
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "nc",
+      "agency_name": "Geographic Information and Analysis, Center for",
+      "schedule_type": "specific",
+      "schedule_id": "09",
+      "url": "https://www.ncdcr.gov/functional-schedule-state-agencies"
+    },
+    "series_metadata": {
+      "series_id": "49946",
+      "series_title": "Geospatial Framework Vector Dataset (Hydrography, Geodetic Control, Cadastral, Transportation, Governmental Units, Elevation and Bathymetry)",
+      "series_description": "",
+      "legal_citation": ""
+    },
+    "retention_rules": {
+      "trigger_event": "SEE FUNCTIONAL SCHEDULE",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2025-02-24",
+      "next_update_due": null,
+      "comments": "Legacy Item Number mapped to Functional Schedule chapter 09."
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "nc",
+      "agency_name": "Geographic Information and Analysis, Center for",
+      "schedule_type": "specific",
+      "schedule_id": "09",
+      "url": "https://www.ncdcr.gov/functional-schedule-state-agencies"
+    },
+    "series_metadata": {
+      "series_id": "49949",
+      "series_title": "Geospatial Thematic Raster Dataset",
+      "series_description": "",
+      "legal_citation": ""
+    },
+    "retention_rules": {
+      "trigger_event": "SEE FUNCTIONAL SCHEDULE",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2025-02-24",
+      "next_update_due": null,
+      "comments": "Legacy Item Number mapped to Functional Schedule chapter 09."
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "nc",
+      "agency_name": "Geographic Information and Analysis, Center for",
+      "schedule_type": "specific",
+      "schedule_id": "09",
+      "url": "https://www.ncdcr.gov/functional-schedule-state-agencies"
+    },
+    "series_metadata": {
+      "series_id": "49948",
+      "series_title": "Geospatial Thematic Vector Dataset",
+      "series_description": "",
+      "legal_citation": ""
+    },
+    "retention_rules": {
+      "trigger_event": "SEE FUNCTIONAL SCHEDULE",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2025-02-24",
+      "next_update_due": null,
+      "comments": "Legacy Item Number mapped to Functional Schedule chapter 09."
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "nc",
+      "agency_name": "Public Safety, Department of",
+      "schedule_type": "specific",
+      "schedule_id": "09",
+      "url": "https://www.ncdcr.gov/functional-schedule-state-agencies"
+    },
+    "series_metadata": {
+      "series_id": "44496",
+      "series_title": "Geodetic Control Maps File",
+      "series_description": "",
+      "legal_citation": ""
+    },
+    "retention_rules": {
+      "trigger_event": "SEE FUNCTIONAL SCHEDULE",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2025-02-24",
+      "next_update_due": null,
+      "comments": "Legacy Item Number mapped to Functional Schedule chapter 09."
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "nc",
+      "agency_name": "Public Safety, Department of",
+      "schedule_type": "specific",
+      "schedule_id": "09",
+      "url": "https://www.ncdcr.gov/functional-schedule-state-agencies"
+    },
+    "series_metadata": {
+      "series_id": "2716",
+      "series_title": "Geodetic Subject File",
+      "series_description": "",
+      "legal_citation": ""
+    },
+    "retention_rules": {
+      "trigger_event": "SEE FUNCTIONAL SCHEDULE",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2025-02-24",
+      "next_update_due": null,
+      "comments": "Legacy Item Number mapped to Functional Schedule chapter 09."
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "nc",
+      "agency_name": "Public Safety, Department of",
+      "schedule_type": "specific",
+      "schedule_id": "09",
+      "url": "https://www.ncdcr.gov/functional-schedule-state-agencies"
+    },
+    "series_metadata": {
+      "series_id": "17210",
+      "series_title": "North Carolina Geodetic Survey Index Triangulation Data File",
+      "series_description": "",
+      "legal_citation": ""
+    },
+    "retention_rules": {
+      "trigger_event": "SEE FUNCTIONAL SCHEDULE",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2025-02-24",
+      "next_update_due": null,
+      "comments": "Legacy Item Number mapped to Functional Schedule chapter 09."
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

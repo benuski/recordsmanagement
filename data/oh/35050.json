@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551683",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35050"
+    },
+    "series_metadata": {
+      "series_id": "ITS-OAG-03",
+      "series_title": "Data Feed Input/Output Files",
+      "series_description": "Temporary files received from outside record-keeping entities that are then loaded and saved on AGO systems or intermediary files sent from AGO office in order to complete a file/data transmission. Records include, but are not limited to, copies of received or sent documents or data being saved to or pulled from AGO systems.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: loaded in or sent from AGO systems",
+      "duration_years": null,
+      "duration_months": 6,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2018-04-26",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TOS",
+      "schedule_type": "specific",
+      "schedule_id": "10900589",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/30877"
+    },
+    "series_metadata": {
+      "series_id": "SEC-131",
+      "series_title": "Monthly Statements for Custodial Investment Accounts",
+      "series_description": "Monthly statements for the custodial accounts at each custodial bank that contains information on the respective account, monthly holdings, and transactions.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: conclusion of current fiscal year, and an additional 6 fiscal years",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2022-10-28",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

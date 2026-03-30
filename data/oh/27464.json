@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "855-1042",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/27464"
+    },
+    "series_metadata": {
+      "series_id": "ALLS-15",
+      "series_title": "Requests for Investigations",
+      "series_description": "Requests for Investigations are requests made for an outside agency (such as the State Highway Patrol, Auditor, etc.) to investigate a BWC employee. Included in the Request for Investigation are the actual request, referrals, preliminary investigation documents, etc.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: these records completion of investigation or decision not investigate, and ; Electronic: these records completion of investigation or decision not investigate, and",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2009-05-05",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

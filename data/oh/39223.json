@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DHS",
+      "schedule_type": "specific",
+      "schedule_id": "760-1606",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39223"
+    },
+    "series_metadata": {
+      "series_id": "2800",
+      "series_title": "Ohio Narcotics and Intelligence Center- Forensic Storage",
+      "series_description": "To set a retention schedule for digital device extractions and supporting documentation of evidence from criminal cases.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Two (2) years current year. ; Paper: Two (2) years current year",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2022-06-07",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

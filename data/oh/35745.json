@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TAX",
+      "schedule_type": "specific",
+      "schedule_id": "11100798",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35745"
+    },
+    "series_metadata": {
+      "series_id": "REV0001",
+      "series_title": "Debits and Credits",
+      "series_description": "Records include notifications from Treasurer of State that require adjustments to checks deposited via image cash letter to the bank. For a multitude of reasons, the bank may be unable to collect on the image of the check presented and they change the amount deposited. Treasurer of State passes these adjustments on to Taxation. Revenue Accounting adjusts a deposit and the corresponding taxpayer account to reflect the bank change. Reasons for these adjustment include, but are not limited to, encoding, errors, scanning errors, foreign checks.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: scanned ; Electronic",
+      "duration_years": 10,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2019-01-30",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

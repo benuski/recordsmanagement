@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "855-1030",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/18045"
+    },
+    "series_metadata": {
+      "series_id": "MIAD-25",
+      "series_title": "System Users Access Records",
+      "series_description": "Records created to control or monitor access to a system and the data created for security purposes, including but not limited to user account records of persons (e.g. BWC employees, interns, consultants, employers, medical providers, third party administrators, and injured workers), which have access to the mainframe, Internet and other BWC application systems.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: no longer of administrative value BWC, and",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2008-07-10",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

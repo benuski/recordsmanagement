@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OOD",
+      "schedule_type": "specific",
+      "schedule_id": "50760129",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39392"
+    },
+    "series_metadata": {
+      "series_id": "90-DDD-009",
+      "series_title": "DDD Exiting Employee Personal Files Stored on SSA Servers",
+      "series_description": "The Division of Disability Determination (DDD) is funded by the Social Security Administration (SSA) to make determinations of whether a claimant is disabled under Ohio law. All work done by a DDD employee is stored on an SSA server in compliance with federal law. DDD employees are designated a personal space on an SSA server to store records that are either personal in nature, transient, drafts or copies of records stored in an SSA database system. When a DDD employee leaves the agency, a copy of these files are backed up on an SSA server that is managed by OOD IT staff to ensure accessibility in case of future legal obligations.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: three (3) federal fiscal years employee leaves agency. A Certificate of Disposal is required when destroying these records",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2023-12-14",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

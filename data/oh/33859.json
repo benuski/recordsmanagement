@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGR",
+      "schedule_type": "specific",
+      "schedule_id": "700-0207",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/33859"
+    },
+    "series_metadata": {
+      "series_id": "AGR-9073",
+      "series_title": "Certificate of Records Disposal Form",
+      "series_description": "Documentation certifying the destruction or transfer of records according o approved records retention schedules. May include the title of the record series, inclusive dates, retention schedule number, volume of records and method of disposal. These records will be saved electronically on the CPL shared drive.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Permanently or of no legal value. ; Paper: Permanently or of no legal value",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition_method": "Electronic: Shred ; Paper: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2017-02-01",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

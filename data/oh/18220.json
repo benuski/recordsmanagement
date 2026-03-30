@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551177",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/18220"
+    },
+    "series_metadata": {
+      "series_id": "NIU-003",
+      "series_title": "Intelligence Files",
+      "series_description": "Records of information received on criminal activity by citizen or law enforcement agencies either by telephone or in writing. These reports are kept for five years from the date of the last information received. Information might include names addresses vehicles and specifics on criminal activity. Copies of such reports are sent to the local agencies. Retention does not exceed five years unless further intelligence on the same criminal suspects is developed.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: ater date of last activity",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2002-12-11",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

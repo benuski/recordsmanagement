@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OCC",
+      "schedule_type": "specific",
+      "schedule_id": "10530239",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/20811"
+    },
+    "series_metadata": {
+      "series_id": "OCC-OP-08",
+      "series_title": "Computer Usage Files",
+      "series_description": "Electronic files or automated logs created to monitor computer system usage including but not limited to log-in files, system usage files, data entry logs, and records of individual computer program usage",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: 12 current monthly system backup cycles. 3 current years of annual backup copies",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2004-07-14",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

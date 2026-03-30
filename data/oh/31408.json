@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "JFS",
+      "schedule_type": "specific",
+      "schedule_id": "6000094",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/31408"
+    },
+    "series_metadata": {
+      "series_id": "DCY-MEDIA",
+      "series_title": "Media Log",
+      "series_description": "Log of legislative inquiries received from the Office of External Affairs which is used to track service actions and complaints. Log includes tracking number, date request was received, the requester, reason for the complaint, and the response date.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: in office",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2024-01-03",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

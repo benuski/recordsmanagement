@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "EDU",
+      "schedule_type": "specific",
+      "schedule_id": "200-0484",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35388"
+    },
+    "series_metadata": {
+      "series_id": "EDU-LEG-02",
+      "series_title": "Litigation Records",
+      "series_description": "These are original case files pertaining to any litigation that ODE is involved in. These contain briefs, subpoenas, memos and other filings as well as correspondence.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: case is closed. ; Electronic: case is closed",
+      "duration_years": 20,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2021-05-28",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

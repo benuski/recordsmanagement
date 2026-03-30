@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TOS",
+      "schedule_type": "specific",
+      "schedule_id": "10900645",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/33192"
+    },
+    "series_metadata": {
+      "series_id": "SEC-819",
+      "series_title": "Reconciliation of BAI file to bank account list",
+      "series_description": "A spreadsheet kept electronically that tracks the reconciliation of the accounts listed in the BAI file to the master bank account list to ensure that all accounts are identified and listed correctly. BAI, or the BAI file format, is a file format for performing electronic cash management balance reporting. The BAI format was developed and previously maintained by the Bank Administration Institute (BAI).",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: conclusion of current fiscal year, and an additional 4 fiscal years",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2022-05-03",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

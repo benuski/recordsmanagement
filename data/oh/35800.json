@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TAX",
+      "schedule_type": "specific",
+      "schedule_id": "11100368",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35800"
+    },
+    "series_metadata": {
+      "series_id": "NAT GAS",
+      "series_title": "OH Natural Gas Consumption Report, Supporting Sched",
+      "series_description": "Including, but not limited to, application for Natural Gas distribution company (MCF-1), natural gas company tax return (MCF-2), authorization to file and/or pay kilowatt hour tax or MCF taxes via the internet (KWH-6), associated documentation and correspondence. Documents may include printouts, reports, & support documentation contrasting distributor and self assessing purchaser for cross check compliance review.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: end of calendar year in which return was filed or cross check was completed ; Electronic: 4 yrs end of calendar year in which return was filed or cross check was completed",
+      "duration_years": 4,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2019-01-31",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

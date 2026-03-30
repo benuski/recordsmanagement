@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DRC",
+      "schedule_type": "specific",
+      "schedule_id": "15010251",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/21204"
+    },
+    "series_metadata": {
+      "series_id": "MED-0004",
+      "series_title": "Mental Health Record",
+      "series_description": "Mental Health Record to include all clinical documentation related to the diagnosis and treatment provided to an offender while incarcerated within the Department of Rehabilitation and Correction",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Mental Health Record is maintained at institution while offender is incarcerated. When offender is released, record is be maintained in storage",
+      "duration_years": 10,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2004-12-22",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DHS",
+      "schedule_type": "specific",
+      "schedule_id": "760-1460",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/29531"
+    },
+    "series_metadata": {
+      "series_id": "ADIM-2",
+      "series_title": "Shipping Records and Reports",
+      "series_description": "Daily reports of shipment transactions and original copies of picking lists for products distributed by the department and a detailed spreadsheet including : pick /ship date, order number, requestor, serial ranges, item code, and quantity for all shipments. Electronic records of shipment transactions processed via the Clippership system and MS Access database. Original documents are stored at Lebanon Correctional facility .",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Maintain 2 calendar years, current year ; Electronic: Shipping database (Clippership) information is maintained a \"rolling\" 3 calendar year cycle. Shipping database (MS Access) information is maintained 3 calendar years and no longer of administrative value",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Recycle ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2011-06-20",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

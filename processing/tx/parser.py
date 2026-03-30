@@ -13,8 +13,7 @@ from bs4 import BeautifulSoup
 
 from processing.tx.config import texas_config
 from processing.central_file import make_record, clean_record_fields, update_record, get_nested_val
-from processing.utils.pdf_utils import stringify_words
-from processing.utils.text_utils import split_title_and_description
+from processing.core import stringify_words, split_title_and_description
 
 logger = logging.getLogger(__name__)
 

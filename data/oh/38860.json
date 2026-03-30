@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "JFS",
+      "schedule_type": "specific",
+      "schedule_id": "795-0733",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/38860"
+    },
+    "series_metadata": {
+      "series_id": "HR-IMEDS",
+      "series_title": "Independent Medical Exam and Disability Separation Files",
+      "series_description": "Independent medical examinations are requested for employees for a variety of medical conditions to determine if they are fit for duty. If the employee is determined to be unfit for work, involuntary disability separation paperwork is filed. Files include personal medical history, requests for leave, physician reports, board order, letter directing the employee to report to work or disability determination letter and related correspondence.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic",
+      "duration_years": 4,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2024-01-31",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

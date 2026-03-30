@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DRC",
+      "schedule_type": "specific",
+      "schedule_id": "501-0001",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/27679"
+    },
+    "series_metadata": {
+      "series_id": "APA-0001",
+      "series_title": "District Office Case Records",
+      "series_description": "Includes duplicate case records for Ohio parole and probation cases. Contains face sheet, parole plan summary, Federal Bureau of Investigation and BCI reports, institution reports, psychological, medical, education and discipline reports (copies); authorization of release to parole, reports of parole progress and special information and general correspondence. Evidence of final release from parole supervision and Interstate Compact correspondence.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: final release from parole supervison",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2010-02-18",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

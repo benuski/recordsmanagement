@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551624",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/33742"
+    },
+    "series_metadata": {
+      "series_id": "FIN-10",
+      "series_title": "Purchase Orders and Related Documents",
+      "series_description": "Records document the purchase and payment for goods and/or services. Records include, but are not limited to, backup and supporting documents like requests to purchases (RTPs), information captured in the RTP system, print request orders (PROs), and findings for recovery.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: provided audited. ; Paper: provided audited unless saved electronically",
+      "duration_years": 4,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2016-09-22",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

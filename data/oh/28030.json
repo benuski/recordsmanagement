@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TAX",
+      "schedule_type": "specific",
+      "schedule_id": "110-0139",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/28030"
+    },
+    "series_metadata": {
+      "series_id": "T-700",
+      "series_title": "REMITTANCE ADVICE FORM",
+      "series_description": "This form is used by the Ohio Clerk of Courts to report sales and use tax receipts on a daily basis (except for Sunday) on motor vehicle, boat and outboard motor transactions. Clerks of Court issue tax receipts on motor vehicle tax payments from dealers (ST14''s) and individual (t-160s) and receipts on boat/outboard motor tax payments from dealers and individuals (T-615''s). The form shows gross amount collected, less 1 poundage adjust (add or minus) report for previous week, net tax collected, and the amount to be remitted to the Treasurer of State. It also shows sales tax receipt and tax return numbers issued by the Clerk of Courts for ST-14''s, T-610s and T-615s. The form shows which county it is from, the clerks name and the tax rate for that county.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: retention period is , that period of time records are destroyed by shredding",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2009-11-23",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

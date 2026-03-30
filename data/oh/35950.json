@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TAX",
+      "schedule_type": "specific",
+      "schedule_id": "11100789",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35950"
+    },
+    "series_metadata": {
+      "series_id": "IT Waiver",
+      "series_title": "Individual Taxpayer Waiver for Preparers Electronic Filing Requirement",
+      "series_description": "Paid tax payers who prepare more than 75 Ohio personal income tax returns for the current tax year must ensure that each return is filed using department-approved electronic media, unless the taxpayer whose return is being filed requests on this form that the return is filed using another department-approved method. To waive the tax preparers requirement to ensure that the return is filed using department-approved electronic media, the taxpayer must complete and sign this form and submit it to the tax preparer.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: and provided audited and report is released ; Electronic: and provided audited and report is released",
+      "duration_years": 4,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2019-02-11",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "INS",
+      "schedule_type": "specific",
+      "schedule_id": "820-0574",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/34344"
+    },
+    "series_metadata": {
+      "series_id": "130-03",
+      "series_title": "Security System Information",
+      "series_description": "Security system information including security reports; video, badge, alarm incidents; security service request forms; annual security inspection reports; easylobby employee list; and ccure badge logs/journals.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: ; ; Paper",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2017-10-10",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

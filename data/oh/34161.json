@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGR",
+      "schedule_type": "specific",
+      "schedule_id": "700-0063",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/34161"
+    },
+    "series_metadata": {
+      "series_id": "AGR-5544",
+      "series_title": "Plant Health Laboratory Services",
+      "series_description": "These are tests on plants, insects, and bees; samples are obtained and submitted by Plant Pest Control and Apiary Inspectors. The tests are analyzed in the Plant Pest Division or outside contracted labs i.e (microscopic examination of sample.) Tests results are recorded in a corresponding division report.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Keep , if report contains no items of interest. Keep 3 years if report contains information on a disease or insect problem ; Electronic: Keep , if report contains no items of interest. Keep 3 years if report contains information on a disease or insect problem",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "Paper: Wastepaper ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2017-04-08",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

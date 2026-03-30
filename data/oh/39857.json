@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DAS",
+      "schedule_type": "specific",
+      "schedule_id": "11001718",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39857"
+    },
+    "series_metadata": {
+      "series_id": "REA-05",
+      "series_title": "Acquisition Records",
+      "series_description": "Appraisals, Controlling Board approvals, real estate purchase agreements, board resolutions, Attorney General opinions, contracts.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: stored electronically ; Electronic: acquired property has been sold or transferred and/or agreement has been terminated",
+      "duration_years": 21,
+      "duration_months": null,
+      "disposition_method": "Paper: Recycle ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2025-09-05",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

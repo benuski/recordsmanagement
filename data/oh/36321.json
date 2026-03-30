@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "855-0759",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/36321"
+    },
+    "series_metadata": {
+      "series_id": "PUB-01",
+      "series_title": "Requests for Forms",
+      "series_description": "The Requests for Forms are from internal/external customers requesting publications or forms that are received via phone, fax, e-mail, US Mail, Internet or walk-in.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: this record , and ; Electronic: this record , and",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2020-04-20",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

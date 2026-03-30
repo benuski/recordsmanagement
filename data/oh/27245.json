@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "PUC",
+      "schedule_type": "specific",
+      "schedule_id": "870-0537",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/27245"
+    },
+    "series_metadata": {
+      "series_id": "22.4",
+      "series_title": "Certificate Database",
+      "series_description": "Electronic database containing information that pertains to the Certificates of Authority of PUCO-regulated companies. Information includes name of company, address, type of authority granted, date of issuance and current status.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: system is determined obsolete",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Other",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2024-07-02",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

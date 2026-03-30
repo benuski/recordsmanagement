@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OIC",
+      "schedule_type": "specific",
+      "schedule_id": "18450447",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/27294"
+    },
+    "series_metadata": {
+      "series_id": "IC-FIS-02",
+      "series_title": "Payment Card Log & Attachments",
+      "series_description": "Log forms used to record payment card purchases and CAS payments. Log forms must include invoice, receiving for each voucher number detailed.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: audited by Auditor and audit report is re;eased and all discrepancies are resolved ; Electronic",
+      "duration_years": 10,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2009-02-24",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

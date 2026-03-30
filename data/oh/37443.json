@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OTC",
+      "schedule_type": "specific",
+      "schedule_id": "50580475",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/37443"
+    },
+    "series_metadata": {
+      "series_id": "OTC5000205",
+      "series_title": "Time Card Summary Reports",
+      "series_description": "Record of final approved paid hours by pay period, by employee, by unit.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: ; Paper: , unless stored electronically",
+      "duration_years": 6,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2022-07-07",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

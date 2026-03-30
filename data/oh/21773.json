@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "ETH",
+      "schedule_type": "specific",
+      "schedule_id": "50100030",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/21773"
+    },
+    "series_metadata": {
+      "series_id": "IT-08",
+      "series_title": "System Users Access Records & Computer Usage Files",
+      "series_description": "Electronic or textual records created to control or monitor individual access to or usage of a system and its data created for security/monitoring purposes, including but not limited to user account records, system usage files, security logs and password files.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: no longer of administrative value agency",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2005-06-02",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

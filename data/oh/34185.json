@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "PRX",
+      "schedule_type": "specific",
+      "schedule_id": "887-0034",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/34185"
+    },
+    "series_metadata": {
+      "series_id": "887-0059",
+      "series_title": "OARRS Account Application",
+      "series_description": "An application from an individual from a licensed facility requesting an account for our Ohio Automated RX Reporting System (OARRS) system. Paper is obsolete (before 2017),",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: be stored on OARRS electronic server life of account",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2024-04-10",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

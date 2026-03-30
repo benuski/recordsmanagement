@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DAS",
+      "schedule_type": "specific",
+      "schedule_id": "11001691",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39460"
+    },
+    "series_metadata": {
+      "series_id": "LEG-03",
+      "series_title": "Public Records Requests",
+      "series_description": "Records pertaining to requests for public records that are processed through the Office of Legal Services that are not covered by PUR-03",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: one year ; Paper: one year",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2024-07-11",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

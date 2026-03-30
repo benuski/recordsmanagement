@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "JFS",
+      "schedule_type": "specific",
+      "schedule_id": "6000154",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/31263"
+    },
+    "series_metadata": {
+      "series_id": "CS-SDUR02",
+      "series_title": "Returned Deposit Items (RDI)",
+      "series_description": "Records contain documentation on all activities concerning Returned Deposit Items (RDIs). An RDI results from situations including but not limited to non-sufficient funds, returned checks due to lack of endorsement, account closed or stop payment. Records may include original check from remitter, supporting documents; correspondence to / from remitter and bank, correspondence with counties, copies of replacement checks and deposit slips, correspondence between CSPC Vendor / Attorney General’s Office and/or Office of Child Support, printouts of SETS / CSPC Vendor screens and reports and Attorney General Collection Reports. Databases and Excel spreadsheets are used to track the RDIs (original amount, payments received and balance remaining).",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: in office child support case is closed. ; Electronic: in office child support case is closed",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2024-06-20",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

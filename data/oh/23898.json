@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DHS",
+      "schedule_type": "specific",
+      "schedule_id": "760-0500",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/23898"
+    },
+    "series_metadata": {
+      "series_id": "B063-30",
+      "series_title": "Pretrial Suspension - OVI",
+      "series_description": "Entries ordering a pretrial suspension are submitted by Ohio courts of record in accordance with section 4511.191 of the Ohio Revised Code. Information is keyed into the driver license system suspending the individuals driving privileges pending the outcome of the court hearing. The form contains the persons name, address, social security number, drivers license number, date of birth, offense date, court code, and court case number.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: All paper documents are placed in a recycle bin 30 days they are scanned. ; Electronic: IT should scan file, if all cases relative order have been closed delete records. All cases generated on/or October 2004 are stored in image, from close date",
+      "duration_years": 7,
+      "duration_months": null,
+      "disposition_method": "Paper: Recycle ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2006-09-27",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

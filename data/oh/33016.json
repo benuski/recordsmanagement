@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "SOS",
+      "schedule_type": "specific",
+      "schedule_id": "50030115",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/33016"
+    },
+    "series_metadata": {
+      "series_id": "CBE-103",
+      "series_title": "State and Territorial Exchange of Vital Events (STEVE) files",
+      "series_description": "File containing county statewide voter registration database (SWVRD) records that have been matched with records of decedents for the purpose of cancelling the registrations of deceased voters.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: two (2) years",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2015-07-02",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

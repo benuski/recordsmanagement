@@ -8,8 +8,8 @@ from pathlib import Path
 from functools import partial
 
 from processing.base_config import StateScheduleConfig
-from processing.utils import (
-    analyze_pdf_preflight,
+from processing.core import analyze_pdf_preflight
+from processing.strategies import (
     select_optimal_strategy_memory_aware,
     parse_using_marker_html_optimized,
     parse_using_table_engine,
@@ -128,19 +128,23 @@ def process_and_evaluate(pdf_path: Path, output_dir: Path, agency_mapping: dict,
     except Exception as e:
         logger.error(f"Failed to process {pdf_path.name}: {e}", exc_info=True)
 
-def run_state_pipeline(args, state_config: StateScheduleConfig, output_schema: dict):
+def run_state_pipeline(args, state_config: StateScheduleConfig, output_schema: dict, glob_pattern: str = "*.pdf", worker_func=None):
     """Standardized entry point for state processing."""
     agency_mapping = load_agency_mapping(args.state_code)
     
-    pdf_files = list(args.input_directory.glob("*.pdf"))
-    if not pdf_files:
-        logger.warning(f"No PDF files found in {args.input_directory}")
+    files = list(args.input_directory.glob(glob_pattern))
+    if not files:
+        logger.warning(f"No files found in {args.input_directory} matching {glob_pattern}")
         return
         
-    logger.info(f"Starting pipeline for {len(pdf_files)} files using {args.state_code.upper()} configuration.")
+    logger.info(f"Starting pipeline for {len(files)} files using {args.state_code.upper()} configuration.")
     
+    if worker_func is None:
+        worker_func = process_and_evaluate
+
+    # Note: worker_func must accept (file_path, output_dir, agency_mapping, schema, config, skip_ocr)
     worker = partial(
-        process_and_evaluate,
+        worker_func,
         output_dir=args.output_directory,
         agency_mapping=agency_mapping,
         schema=output_schema,
@@ -153,4 +157,4 @@ def run_state_pipeline(args, state_config: StateScheduleConfig, output_schema: d
     # Use fewer processes than CPU count to be safe with memory
     num_procs = max(1, multiprocessing.cpu_count() // 2)
     with ctx.Pool(processes=num_procs, maxtasksperchild=25) as pool:
-        pool.map(worker, pdf_files)
+        pool.map(worker, files)

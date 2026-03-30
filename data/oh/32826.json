@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551561",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/32826"
+    },
+    "series_metadata": {
+      "series_id": "60-OAG-27",
+      "series_title": "Litigation Billing Tracking Information",
+      "series_description": "Tracking of invoice information sent to Bureau of Workers Compensation (BWC) client for payment of providing records, independent medical examination (IME), deposition expenses, or attorney fees or costs. Information includes, but is not limited to, date of service, provider, Tax ID, claimants names, claim number, case number, Assistant Attorney General assigned, and date sent to BWC.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: invoice sent client agency",
+      "duration_years": 4,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2024-02-06",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

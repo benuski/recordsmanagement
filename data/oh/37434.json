@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DOT",
+      "schedule_type": "specific",
+      "schedule_id": "770-2649",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/37434"
+    },
+    "series_metadata": {
+      "series_id": "AV-31",
+      "series_title": "Aircraft Airworthiness Records",
+      "series_description": "This series consists of Component Sheets, FAA 8130 Authorize Release Certification, Log Book Records, Weight and Balances, Blueprints, Supplemental Type Certification, FAA337, Maintenance Release Cards, Conversions, Malfunction Defect Report, Engine Power Check Charts, Avionics Schematics, and AD/SB Summaries. These documents are required to be maintained in accordance with 14 CFR 91.417.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: aircraft is sold or otherwise no longer in use. ; Electronic: aircraft is sold or otherwise no longer in use",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Recycle ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2021-10-08",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

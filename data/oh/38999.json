@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "EDU",
+      "schedule_type": "specific",
+      "schedule_id": "200-0624",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/38999"
+    },
+    "series_metadata": {
+      "series_id": "EDU-LEG-23",
+      "series_title": "Subpoenas",
+      "series_description": "This record series contains orders from a court, an attorney, or other authoritative entity that commands appearance and/or testimony in court, at hearing, or at deposition, or commands production of documents or other items.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: subpoenas that command appearance fulfilled. all other subpoenas and responsive records six (6) months from date of compliance. ; Electronic: subpoenas that command appearance fulfilled. all other subpoenas and responsive records six (6) months from date of compliance",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2021-03-26",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

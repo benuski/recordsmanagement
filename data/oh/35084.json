@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "COS",
+      "schedule_type": "specific",
+      "schedule_id": "879-0023",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35084"
+    },
+    "series_metadata": {
+      "series_id": "VIO-04",
+      "series_title": "INSPECTION REPORTS",
+      "series_description": "Records include data entered into agency based system to record and create inspection reports on schools, individuals, salons, and barbershops inspected by state inspectors such as: inspection finding, violations/warnings given, salon/barbershop name, ID number, and signature of salon/barbershop owner or manager or data converted from Salesforce system into a searchable archive format upon replacement of Salesforce system. Record series includes paper copies created and data created and maintained as part of the salon/barbershop inspection record. Record series includes all records retained as of 1/21/2018 form Series 50040002, agency series BRB-877004. As of 01/21/2018 the State Cosmetology and Barber Board processes and retains all records from the Ohio State Barber Board per the enactment of H.B. 49.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Paper versions of inspection report will be maintained scanned as part of administrative case file and hold no further administrative value. ; Electronic: Salesforce system data shall be retained five years creation date of inspection record or salesforce system is discontinued and data is converted a searchable archive format. Archive data shall be maintained five years creation date of inspection record. Emailed copies of inspection reports are held replaced by signed paper copy and",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2021-08-02",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

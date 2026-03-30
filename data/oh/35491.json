@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TAX",
+      "schedule_type": "specific",
+      "schedule_id": "11100705",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35491"
+    },
+    "series_metadata": {
+      "series_id": "RP Asmts",
+      "series_title": "RP Assessments",
+      "series_description": "Sales tax responsible party assessments - retention time for all Audit types and Tax Types of closed at a zero balance ( if by paid or cancelled) is four full years from that zero balance date",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: in office assessment is closed at zero balance",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2018-11-15",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

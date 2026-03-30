@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "855-0983",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/31502"
+    },
+    "series_metadata": {
+      "series_id": "CUF-1",
+      "series_title": "Computer Usage Files",
+      "series_description": "The Computer Usage Files contain electronic files, automated logs and web logs; created to monitor computer system usage by internal and external users. The Computer Usage Files may include (but are not limited to) log-in files, system usage files, data entry logs, records of individual computer program usage, websites usage and web page activity.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: , and",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2013-07-08",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DOH",
+      "schedule_type": "specific",
+      "schedule_id": "440-0289",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/10097"
+    },
+    "series_metadata": {
+      "series_id": "11-04",
+      "series_title": "Health Facilties Complaint Forms",
+      "series_description": "Includes any provider/facility complaint forms such as Complaint Unit Intake Form, Medicare/Medicaid Complaint Form, ODH Summary of Complaint Form, and Long Term Care Quality Assurance Forms. May contain confidential complaint or patient information.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: unsubstantiated complaints . substantiated complaints 3 years",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "Paper: Wastepaper",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "1993-04-09",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

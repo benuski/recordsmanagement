@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551750",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/38623"
+    },
+    "series_metadata": {
+      "series_id": "BCI-ID-024",
+      "series_title": "Civilian Applicant Background Checks",
+      "series_description": "Documents background check requests by applicants for, but not limited to, employment background checks, child placement, personal use/need, VISA purposes, occupational licenses, and carrying a concealed handgun license (CHL) permits. Applications are compared to the Computerized Criminal History (CCH) and Automated Fingerprint Identification System (AFIS) to see if there is any disqualifying criminal history. Records include, but are not limited to, application, fingerprint collection, and response letters from the Bureau of Criminal Investigation (BCI) confirming the status of the check.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: and is no longer a RapBack enrollee. ; Paper: and is no longer a RapBack enrollee, unless scanned and saved electronically",
+      "duration_years": 6,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2019-12-19",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

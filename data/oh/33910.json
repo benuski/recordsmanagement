@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BOR",
+      "schedule_type": "specific",
+      "schedule_id": "235-0076",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/33910"
+    },
+    "series_metadata": {
+      "series_id": "HEI-001",
+      "series_title": "Higher Education Information (HEI) System",
+      "series_description": "Ohio Department of Higher Education database which maintains multiple sets of data that are necessary to the operation of ODHE. This includes but is not limited to student data, facilities data, and financial data. This record series also contains HEI data submission files that are structurally invalid This record series also contains HEI data submission files that are structurally sound but contain validation errors",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: data maintained in database will be kept permanently data that is submitted but is structurally invalid will be deleted immediately review that informs files are invalid data that is submitted that is structurally sound but contain validation errors will be kept 90 days from date of submission and",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2017-04-08",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

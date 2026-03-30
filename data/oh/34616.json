@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OIC",
+      "schedule_type": "specific",
+      "schedule_id": "845-0505",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/34616"
+    },
+    "series_metadata": {
+      "series_id": "IC-MED-08",
+      "series_title": "Fee Bill Inquiries",
+      "series_description": "A form created when an IC specialist examiner or their representative inquire about non-payment of a fee bill. The form contains the date, claim number, the specialist information,name, provider numbers, date of service, and amount of the bill. This form is used as receipt of inquiry and documentation of action for reconciliation of payment.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Two years",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2023-02-01",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

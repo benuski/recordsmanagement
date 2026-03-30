@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "PUC",
+      "schedule_type": "specific",
+      "schedule_id": "70000077",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/27125"
+    },
+    "series_metadata": {
+      "series_id": "75.9",
+      "series_title": "Railroad Information Database",
+      "series_description": "Comprehensive database of records pertaining to railroad crossings in Ohio. Information includes incidents (accidents), inspections, projects and complaints.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: data superseded, obsolete, or replaced",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2009-01-22",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

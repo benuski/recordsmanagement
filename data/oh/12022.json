@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "COM",
+      "schedule_type": "specific",
+      "schedule_id": "800-0698",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/12022"
+    },
+    "series_metadata": {
+      "series_id": "05-01",
+      "series_title": "Public Informations Requests",
+      "series_description": "Requests made by the news media for information and public records. They include the requestors name, media affiliation, request, date of request, description of information provided, and, if applicable, information on how to contact the requestor with said information. Such record may also include additional information to fulfill a specific request.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Keep one year end of calendar year in which request was made",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2001-03-20",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

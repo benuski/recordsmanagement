@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TOS",
+      "schedule_type": "specific",
+      "schedule_id": "10900539",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/30104"
+    },
+    "series_metadata": {
+      "series_id": "ACC-07",
+      "series_title": "Bank Statements",
+      "series_description": "Electronic monthly bank statements received by the Treasurer of State for state and custodial accounts.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: conclusion of current fiscal year 1 additional fiscal year. ; Electronic: conclusion of current fiscal year 1 additional fiscal year",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2022-10-26",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "855-1203",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35471"
+    },
+    "series_metadata": {
+      "series_id": "HUMA-25",
+      "series_title": "Internal Incident Reports",
+      "series_description": "The Incident Report contain time, dates, parties involved, description of incident and action taken. The Incident Reports are used to protect the rights of individuals involved in the accident and to show compliance with BWC Safety and Health Administration procedures and policies.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: in office incident, and ; Electronic: in office incident, and",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2020-05-22",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

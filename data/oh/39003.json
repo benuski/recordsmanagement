@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "PRX",
+      "schedule_type": "specific",
+      "schedule_id": "887-0109",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39003"
+    },
+    "series_metadata": {
+      "series_id": "887-0035",
+      "series_title": "Home Medical Equipment Service Provider Files",
+      "series_description": "A) The principle purpose of these files is for the enforcement of the laws governing the sale, delivery, installation, maintenance, replacement, or demonstration of home medical equipment to the public in Ohio and provide a standard automated processing procedure for issuance and renewal of home medical equipment service providers licenses and registrations, as set forth in Chapter 4752 of the ORC. (B) These files contain information on the status of Ohio home medical equipment service providers with respect to: (1) qualifications for registration or licensure; (2) records of compliance with drug laws and regulations; (3) Public legal records.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Electronic: on server lapse, failed renew, or DCB",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2021-04-08",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

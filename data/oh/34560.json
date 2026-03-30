@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551655",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/34560"
+    },
+    "series_metadata": {
+      "series_id": "058-OAG-27",
+      "series_title": "Investigative Case Files",
+      "series_description": "Documents compiled to make a determination as to whether an investigation is warranted and any subsequent documents gathered during an investigation or created in the course of litigating a court case. Can include, but is not limited to complaints, information on the charitable organization, narratives detailing specifics of the matter, supporting documentation (interviews, background checks, reports, etc.), and an explanation of the final determination to close the investigation or proceed to litigation. Investigations that culminate in legal cases may also include but not be limited to the complaint, legal documents, investigative materials, internal memos, correspondence, pleadings, attorney notes, research, attorney work product, license applications, examiner reports, adjudications, and transcripts.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: case closed. ; Paper: case closed, unless scanned and saved electronically",
+      "duration_years": 7,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2017-08-03",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

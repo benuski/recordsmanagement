@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AUD",
+      "schedule_type": "specific",
+      "schedule_id": "10700119",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/26703"
+    },
+    "series_metadata": {
+      "series_id": "LE-07",
+      "series_title": "Findings for Recovery records sent to the Attorney Generals Office",
+      "series_description": "Records related to persons/entities against whom an unresolved finding for recovery has been issued, including but not limited to related communications, certifications, and findings for recovery work papers.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: electronic version has been created, or no longer of administrative value, whichever first occurs ; Electronic: from date relevant audit report is issued by Auditor of State",
+      "duration_years": 7,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2023-03-20",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OTC",
+      "schedule_type": "specific",
+      "schedule_id": "50580385",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/25788"
+    },
+    "series_metadata": {
+      "series_id": "OTC-501-49",
+      "series_title": "Monthly Insurance Provider Statements",
+      "series_description": "Monthly statements from medical insurance provider for reconcilement of the account for medical insurance.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Maintain audited",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2008-06-07",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

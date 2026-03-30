@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OTC",
+      "schedule_type": "specific",
+      "schedule_id": "50580591",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/30294"
+    },
+    "series_metadata": {
+      "series_id": "OTC501-159",
+      "series_title": "Internal Revenue Service (IRS) 1099 Forms and Listing",
+      "series_description": "The Internal Revenue Service (IRS) 1099 Forms are copies of the form physically mailed to the recipient. The 1099 listing is a computer printout containing the names of the 1099 recipients, address, Federal Tax Identification number or Social Security Number, and total amount paid by the Ohio Turnpike Commission.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2012-08-03",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

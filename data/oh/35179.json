@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "855-1187",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35179"
+    },
+    "series_metadata": {
+      "series_id": "EMP-COMP1",
+      "series_title": "Employer Compliance Tracker",
+      "series_description": "History of cases worked by the Employer Compliance Department. They contain a record of all contacts and correspondence related with attempting to get the employer back into compliance.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Resolved cases – three (3) years in Employer Compliance SharePoint Tracker. Referred cases – if referred Special Investigations – five (5) years case is resolved in Employer Compliance SharePoint Tracker",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2018-08-13",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

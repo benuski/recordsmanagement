@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGR",
+      "schedule_type": "specific",
+      "schedule_id": "700-0153",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/33514"
+    },
+    "series_metadata": {
+      "series_id": "AGR-0115",
+      "series_title": "Public Records Requests",
+      "series_description": "Documents pertaining to public requests, including but not limited to the original request, correspondence between staff and requestor or other staff, redacted and un-redacted responsive records. Maintained to document compliance with public records law obligations (ORC) 149.43.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: from date of request being fulfilled ; Paper: from date of request being fulfilled",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Electronic: Trash ; Paper: Recycle",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2016-07-12",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

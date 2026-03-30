@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DBH",
+      "schedule_type": "specific",
+      "schedule_id": "51130022",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39890"
+    },
+    "series_metadata": {
+      "series_id": "1590008",
+      "series_title": "Dangerous Drug Accountability Records",
+      "series_description": "Records for dangerous drugs/controlled substances showing drug name, strength, dosage form, quantity, expiration date and lot no., issued to/by, date and signature for receipt, and administration documentation which includes patient names.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: date last dosage was administered ; Paper: date last dosage was administered",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2025-11-28",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

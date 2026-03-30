@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551821",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39769"
+    },
+    "series_metadata": {
+      "series_id": "ITS-DEV-02",
+      "series_title": "Automated Program Listing and Source Code",
+      "series_description": "Automated program code which generates the machine-language instructions used to operate an automated information system.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: from last use, modification, or decommissioning of associated system or application related code",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2025-04-11",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

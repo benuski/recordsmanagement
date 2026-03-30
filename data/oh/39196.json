@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TOS",
+      "schedule_type": "specific",
+      "schedule_id": "10900679",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39196"
+    },
+    "series_metadata": {
+      "series_id": "CBK-2",
+      "series_title": "Operating Documents",
+      "series_description": "Various documents associated with programmatic operations. Documents include internal procedures, data analytics, help/process documents, and planning files.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: later of: (1) two years creation of document or (2) useful life of document one year",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2022-10-26",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

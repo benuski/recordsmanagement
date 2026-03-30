@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TOS",
+      "schedule_type": "specific",
+      "schedule_id": "10900598",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/31314"
+    },
+    "series_metadata": {
+      "series_id": "REV-212",
+      "series_title": "Verification documents for warrants physically presented for payment",
+      "series_description": "Payees of state-issued warrants and checks have the option to physically present the instrument for payment at the cashier''s window at the Treasurer''s office. When warrants and checks are presented for payment, cashiers will search a database to confirm the check or warrant is authentic and then print the confirmation. If the warrant or check exceeds a certain dollar amount, the cashiers will complete a carbon copy verification form, and keep one copy while giving the other copy to the payee.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: from date warrant or check is first presented payment at cashier''s window. ; Electronic: from date warrant or check is first presented payment at cashier''s window",
+      "duration_years": null,
+      "duration_months": 6,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2022-05-03",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

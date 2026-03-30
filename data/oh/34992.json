@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "855-1180",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/34992"
+    },
+    "series_metadata": {
+      "series_id": "C-35",
+      "series_title": "BWC ICD Modifications Requests list",
+      "series_description": "This SharePoint list is to capture International Classification of Diseases (ICD) modification requests from the Claims offices to the ICD Modification Unit.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Keep and",
+      "duration_years": null,
+      "duration_months": 6,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2018-02-26",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "COM",
+      "schedule_type": "specific",
+      "schedule_id": "800-0661",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/28850"
+    },
+    "series_metadata": {
+      "series_id": "LIC-01",
+      "series_title": "Liquor Permit Premises & Supplier Files",
+      "series_description": "Files on all supplier and liquor permit holders in the State of Ohio containing: the application, investigation questionnaire, all documents required to show proof of eligibility, copies of the permit issued and all renewals issued with the application for the annual renewal.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Permit applications, including Temporary liquor permits are processed through LITS (License Issuance Tracking System) a computerized optical scanning Image System and continually updated. Paper files are kept ensure quality and completeness ; Electronic: Permit applications, including Temporary liquor permits are processed through LITS(License Issuance Tracking System) a computerized optical scanning Image System and continually updated. LITS images are stored forever and",
+      "duration_years": 999,
+      "duration_months": 6,
+      "disposition_method": "Paper: Shred ; Electronic: Permanent",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2010-12-11",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

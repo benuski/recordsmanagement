@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TAX",
+      "schedule_type": "specific",
+      "schedule_id": "11100576",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/36026"
+    },
+    "series_metadata": {
+      "series_id": "ALC- 82",
+      "series_title": "Alcohol Refund Claims (ALC80, ALC81), Applications (ALC82) & Related Documents",
+      "series_description": "Refund claims for beer and malt beverages (ALC81), wine and mixed beverages (ALC80), application for refund of Cuyahoga county taxes on wine and mixed beverages, beer or malt beverages (ALC82) paid in excess of leagal requirements and related documentation.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: 3 yrs expiration of calendar year in which claim form or application & related documentation was received. If scanned, . ; Electronic: Delete 3 yrs expiration of calendar year in which claim form or application & related documentation was received",
+      "duration_years": null,
+      "duration_months": 6,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2019-02-20",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "EPA",
+      "schedule_type": "specific",
+      "schedule_id": "715-0935",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/32748"
+    },
+    "series_metadata": {
+      "series_id": "OEPA-15",
+      "series_title": "Ohio EPA Monitoring",
+      "series_description": "Raw data, lab reports, paper forms, log books, field work and other monitoring data collected by Ohio EPA employees or its designees to determine environmental conditions and compliance.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: or scanned. ; Electronic",
+      "duration_years": 10,
+      "duration_months": null,
+      "disposition_method": "Paper: Recycle ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2014-12-11",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

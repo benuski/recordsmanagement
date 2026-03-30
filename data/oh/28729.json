@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OPP",
+      "schedule_type": "specific",
+      "schedule_id": "50660018",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/28729"
+    },
+    "series_metadata": {
+      "series_id": "OPP-LIC-06",
+      "series_title": "Criminal Records Check",
+      "series_description": "These reports contain applicants'' social security numbers and the results of any criminal record checks associated with the applicant. Per ORC 4761.051, the Board must obtain a criminal records background check prior to issuing any license. Per Ohio Criminal Identification and Investigation, these records are highly confidential and should be shredded once the information needed for licensure purposes is obtained.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: 90 days receipt letter is sent applicant informing them of their right a copy of report",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2010-10-28",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

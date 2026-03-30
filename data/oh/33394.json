@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551593",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/33394"
+    },
+    "series_metadata": {
+      "series_id": "BCI-ID-016",
+      "series_title": "Weekly Court Disposition Reports (External)",
+      "series_description": "Reports sent from courts to the Bureau of Criminal Investigation & Identification (BCI) that add sentencing information to arrests that have occurred in their jurisdictions in order to update the Computerized Criminal History (CCH) database. The reports provided by the courts contain information about the disposition of court cases, including but not limited to, sentencing, probation, fines, restitution and other stipulations.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: . ; Paper: or 7 years death as established by adequate proof",
+      "duration_years": 110,
+      "duration_months": 6,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2016-02-11",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

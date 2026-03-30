@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551689",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35105"
+    },
+    "series_metadata": {
+      "series_id": "69-OAG-11",
+      "series_title": "Court Case Files",
+      "series_description": "Case files serve as primary source of litigation information for case filed in state and federal courts concerning Ohio Attorney General (AGO) client agencies. Records include, but are not limited to, pleadings, memorandum, affidavits, attorney work product, legal research, motions, judgements, discovery, evidence, transcripts, correspondence, settlement and negotiation documents, and hearing and deposition materials.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: case has closed and all appeals have exhausted. ; Paper: case has closed and all appeals have exhausted, unless scanned and saved electronically",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2018-07-17",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

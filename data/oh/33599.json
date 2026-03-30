@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGR",
+      "schedule_type": "specific",
+      "schedule_id": "700-0156",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/33599"
+    },
+    "series_metadata": {
+      "series_id": "700-155",
+      "series_title": "Court Case Files",
+      "series_description": "Court case files serve as the primary source of litigation information and may contain, but are not limited to, pleadings, memorandum, affidavits, attorney work product, legal research, motions, judgments, discovery, evidence, transcripts, correspondence, settlement and negotiation documents, and hearing and deposition materials. Sometimes case files originate as appeals against administrative hearing rulings by client agencies.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: from date of final appealable order or dismissal. ; Paper: from date of final appealable order or dismissal, or saved electronically",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2016-07-14",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

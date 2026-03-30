@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "LOT",
+      "schedule_type": "specific",
+      "schedule_id": "950-1007",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39608"
+    },
+    "series_metadata": {
+      "series_id": "17-01-09",
+      "series_title": "Game Library",
+      "series_description": "Electronic files including documents related to game themes, game artwork, denomination, and pay tables for each that are submitted to the Commission for approval.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Maintain digital copy three (3) years game is no longer in service, review administrative value",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2024-10-17",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

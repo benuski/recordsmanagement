@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DMR",
+      "schedule_type": "specific",
+      "schedule_id": "15900333",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35175"
+    },
+    "series_metadata": {
+      "series_id": "DMR-CS-01",
+      "series_title": "Waiting List Information",
+      "series_description": "SITA compiles information from all 88 county boards regarding individuals listed on their waiting lists. Information includes the individuals name, type of service requested, and Contact information. Other units in Community Services may also use this information for review purposes, waiver determination, and other Departmental needs.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: removal ; Electronic: removal",
+      "duration_years": 7,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2019-02-14",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

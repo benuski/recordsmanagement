@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551815",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39451"
+    },
+    "series_metadata": {
+      "series_id": "TOB-AGO-03",
+      "series_title": "Master Settlement Agreement Payments",
+      "series_description": "Files relating to payments by Participating Tobacco Manufacturers required by the 1998 Tobacco Master Settlement Agreement (MSA) with the State of Ohio. Records include, but are not limited to, payment detail reports, correspondence, and dispute letters.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: all payments related arbitration have been received. Records not needed in ongoing arbitration case can be destroyed when no longer of administrative value. ; Paper: all payments related arbitration have been received. Records not needed in ongoing arbitration case can be destroyed when no longer of administrative value. If scanned and saved electronically, dispose of paper immediately",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2024-05-09",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

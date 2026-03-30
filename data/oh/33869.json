@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DHS",
+      "schedule_type": "specific",
+      "schedule_id": "760-1510",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/33869"
+    },
+    "series_metadata": {
+      "series_id": "REGS13-02",
+      "series_title": "Vehicle Registration Cancellation",
+      "series_description": "This record series contains all documentation related to a customer''s request to cancel his or her vehicle registration including: BMV Form 4311 (Customer Request to Cancel Registration), BMV Form 4870 (Plate Cancellation Complete/Court Reject Notification), and any additional correspondence used to process the cancellation.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: imaged and validated in Custom Processing Imaging Client (CPIC) system ; Electronic: in BMV''s Custom Processing Imaging Client (CPIC) system three years following date of cancellation or rejection",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2016-11-03",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGR",
+      "schedule_type": "specific",
+      "schedule_id": "700-0199",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/33837"
+    },
+    "series_metadata": {
+      "series_id": "AGR-9066",
+      "series_title": "Analytical Toxicology Lab Archived Standard Operating Procedures and Method Validation Records",
+      "series_description": "Analytical Toxicology Lab (ATL) archived Standard Operating Procedures (SOPs) are procedures that will no longer be used in the Analytical Toxicology Lab (ATL). Method Validation records are records that the lab created when validating the procedure. The Quality Assurance Coordinator is the Record Retention Coordinator.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: SOP has been archived. ; Electronic: SOP has been archived",
+      "duration_years": 10,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2016-12-01",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

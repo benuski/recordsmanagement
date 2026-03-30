@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DVS",
+      "schedule_type": "specific",
+      "schedule_id": "50610130",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39354"
+    },
+    "series_metadata": {
+      "series_id": "DVS-OVH-M01",
+      "series_title": "Resident Medical Files",
+      "series_description": "All medical records pertaining to Ohio Veterans Home residents including, but not limited to, patient assessments, medical orders, progress notes, laboratory results, physician orders, patient charts, powers of attorney, patient pharmacy records, medical history, records of physical examinations, treatment reports, admission, and discharge records.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: from Resident death or discharge, unless scanned into electronic database ; Electronic: from Resident death or discharge",
+      "duration_years": 10,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2023-07-31",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

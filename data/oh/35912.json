@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "855-0388",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35912"
+    },
+    "series_metadata": {
+      "series_id": "RCDS-5",
+      "series_title": "BWC Service Request for Records",
+      "series_description": "The BWC Service Request for Records (OS-75) is a form used by the BWC departments to document the history of the transactions of records for storage, retrieval, return to storage, and the destruction of records at BWC. It documents the location of the records, the detailed description of the records, the media type (e.g. paper, electronic, CD or microfilm), destruction method, pertinent dates, and the DAS record series authorization number. It also documents the date the records are eligible to be destroyed if they are in storage, or the actual destruction date of the records. The OS-75 form is signed by the Department RIM Coordinator requesting the service of records and is signed by the RIM Coordinator Liaison approving the request. The OS-75 form is also used to certify the destruction of records according to an approved records retention schedule.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: deposits, destructions, and returns, [although GAR-RR-03 and GAR-RR-04, on which this schedule is premised, permit a 2-year retention, BWC RIM expanded period business need]. retrievals only, transaction is complete (return storage) ; Paper: deposits, destructions, and returns, if scanned, verify image, and",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2023-08-30",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

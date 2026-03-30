@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OOD",
+      "schedule_type": "specific",
+      "schedule_id": "50760051",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/32433"
+    },
+    "series_metadata": {
+      "series_id": "90-DDD-002",
+      "series_title": "Paper Disability Claim Files",
+      "series_description": "Paper files containing claimant records received by the agency during the claim determination process. Records may include confidential medical, mental health, educational, vocational related documents and supporting documentation.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Files that are property of SSA but are created and maintained by OOD during disability determination process. Once disability determination is made files are turned over SSA",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2014-06-26",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "PRX",
+      "schedule_type": "specific",
+      "schedule_id": "887-0012",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/34550"
+    },
+    "series_metadata": {
+      "series_id": "887-0040",
+      "series_title": "DEA 106 Forms",
+      "series_description": "These forms are used by pharmacies to report lost or stolen controlled substances as required by the DEA. Pharmacies are required to submit the Ohio Pharmacy Board a copy so our Agents can investigate loss patterns and/or diversions.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Paper: Scan or on site and offsite 3 years ; Electronic: Electronic: on server 5 years",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2021-04-08",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

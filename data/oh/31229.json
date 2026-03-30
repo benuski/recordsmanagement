@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "JFS",
+      "schedule_type": "specific",
+      "schedule_id": "6000045",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/31229"
+    },
+    "series_metadata": {
+      "series_id": "CS-CUST01",
+      "series_title": "PIN Reset Files",
+      "series_description": "Files contain requests from child support consumers/customers to have their PIN''s reset in the interactive voice response (IVR) system in order to check on status of case disposition or child support warrant. The resets are usually requested due to forgotten or compromised PIN''''''''s. The requests contain the nature of the request, a picture ID or SS# and must be signed and dated. Data is entered into Remedy for tracking purposes and SETS as proof of reset.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: in office ; Electronic: superseded, obsolete or replaced",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2013-03-29",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

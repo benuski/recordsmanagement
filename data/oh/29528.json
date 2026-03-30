@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DHS",
+      "schedule_type": "specific",
+      "schedule_id": "760-1457",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/29528"
+    },
+    "series_metadata": {
+      "series_id": "E Recs-01",
+      "series_title": "Asset & Inventory Management System (AIMS) Database Records",
+      "series_description": "Record series consists of electronic files residing in AIMS database that track the activities of items as they are purchased, received, and distributed throughout the ODPS and its contracted agencies. AIMS records include tables of associated asset items, non-asset items, contracts, clothing, purchase and receipt records, deputy registrar supply chain supplies, and end user requests.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: N/A ; Electronic: information in database records have been assigned a destroyable status and have remained inactive three (3) years",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2011-06-20",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551406",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/29204"
+    },
+    "series_metadata": {
+      "series_id": "RM-AGO-02",
+      "series_title": "Records Disposal Request Records",
+      "series_description": "Records documenting the disposal of records in accordance to approved records retention schedules for the office. Information my include, but is not limited to, inclusive dates of records disposed, quantity/volume, media format, date of final destruction, and potential list of specific matters destroyed.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: . If scanned and saved electronically, dispose of paper immediately. ; Electronic",
+      "duration_years": 10,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2023-10-19",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

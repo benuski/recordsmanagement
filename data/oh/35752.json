@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DAS",
+      "schedule_type": "specific",
+      "schedule_id": "11001644",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35752"
+    },
+    "series_metadata": {
+      "series_id": "LTD-01",
+      "series_title": "Employee Training Files",
+      "series_description": "Record of State of Ohio employee training within the Statewide Learning Management System.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: employee separates employment ; Paper: employee separates employment",
+      "duration_years": 7,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Recycle",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2025-11-19",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

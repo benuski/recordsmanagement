@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "JFS",
+      "schedule_type": "specific",
+      "schedule_id": "795-0772",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/31425"
+    },
+    "series_metadata": {
+      "series_id": "DCY-CENREG",
+      "series_title": "Central Registry Search Requests",
+      "series_description": "Records contain requestors who have access to SACWIS request an Alleged Perpetrator (AP) search through SACWIS. Requestors who do not have access to SACWIS requested an AP search through Ohio Sacwis Alleged Perpetrator Search (OSAPS). The systems integrate and share information. Requested information includes name, date of birth, social security number, information on the search such as the requested entity, etc., Response letters, which are stored in the systems, contain name, date of birth, last four digits of social security number and results of search (match, etc.).",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: in office",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2023-12-20",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

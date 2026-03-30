@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OSB",
+      "schedule_type": "specific",
+      "schedule_id": "51030102",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39653"
+    },
+    "series_metadata": {
+      "series_id": "OSB-307C",
+      "series_title": "Student Athlete Files",
+      "series_description": "Records maintained on student athletes, including physical exams, consent forms, and eligibility evaluations.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: school year in which records were created. In event of accident or injury, minor reaches age 21 ; Paper: school year in which records were created",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2024-12-23",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

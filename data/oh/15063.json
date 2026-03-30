@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TTA",
+      "schedule_type": "specific",
+      "schedule_id": "240-0020",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/15063"
+    },
+    "series_metadata": {
+      "series_id": "OP-22",
+      "series_title": "Direct Purchase",
+      "series_description": "The deposit slip from the bank and any paper work associated with the check for Electronic Funds make up purchases, volume discount make up purchases, fee payments, Scholarship checks or multiple purchases with 1 check. (Associated paperwork may include: an application, transfer form, coupon or letter.)",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Store on site audit, store off-site",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2001-02-08",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

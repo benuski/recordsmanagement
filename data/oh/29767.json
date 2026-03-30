@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TOS",
+      "schedule_type": "specific",
+      "schedule_id": "10900508",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/29767"
+    },
+    "series_metadata": {
+      "series_id": "ADM-10",
+      "series_title": "RFPs and related documents",
+      "series_description": "Requests for Proposals (RFPs), Request for Qualifications (RFQs), and Requests for Information (RFIs) that are published by the office of the Treasurer of State. These documents describe the products and services that the office of the Treasurer of State wishes to purchase, and provide instructions on how companies can submit bids for contracts to provide such products and services.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: two years expiration of contract which RFP / RFI / RFQ is soliciting bids",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2022-10-27",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

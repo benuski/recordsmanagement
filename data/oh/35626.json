@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551713",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35626"
+    },
+    "series_metadata": {
+      "series_id": "567-OAG-79",
+      "series_title": "Building Access Requests",
+      "series_description": "Communications to building management requesting non-standard access to Ohio Attorney General buildings/floors.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: , unless printed. ; Paper",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2018-12-14",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "ETH",
+      "schedule_type": "specific",
+      "schedule_id": "50100015",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/21720"
+    },
+    "series_metadata": {
+      "series_id": "ADM-16",
+      "series_title": "Printing Orders",
+      "series_description": "Documents used to order printing jobs from State Printing and for encumbering funds",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: applicable fiscal period has been audited by Auditor of State and audit report is released and all discrepancies are resolved",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Wastepaper",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2005-05-17",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DVS",
+      "schedule_type": "specific",
+      "schedule_id": "50610134",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39393"
+    },
+    "series_metadata": {
+      "series_id": "DVS-ADM-002",
+      "series_title": "Video Recording System",
+      "series_description": "Video recordings made by the Ohio Veterans Home video recording system.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: 30 days unless saved an authorized purpose including, but not limited , an administrative, criminal, or civil investigation or other incident in which a video recording is useful. If such an incident occurs, no longer useful, statute of limitations has run, or any initiated action is final dependent upon reason retention of video. Unless such an incident occurs, video may be overwritten 30 days",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2023-12-28",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

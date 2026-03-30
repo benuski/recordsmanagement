@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TOS",
+      "schedule_type": "specific",
+      "schedule_id": "10900678",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39195"
+    },
+    "series_metadata": {
+      "series_id": "CBK-1",
+      "series_title": "Pre-Upload Files",
+      "series_description": "Files which contain participating entities' data which will be subsequently uploaded into the TOS administrative portal linked to Checkbook.Ohio.gov. Files are likely to take the form of Excel and CSV files. The record is the final format, or the, \"ready to upload\" file.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Datafiles may be destroyed at end of their administrative value",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2022-10-26",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

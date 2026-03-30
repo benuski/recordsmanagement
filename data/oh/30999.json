@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "JFS",
+      "schedule_type": "specific",
+      "schedule_id": "795-0205",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/30999"
+    },
+    "series_metadata": {
+      "series_id": "UC-TRA-004",
+      "series_title": "Trade Claims Record Folder",
+      "series_description": "Claimant information file used for determining eligibility for unemployment compensation benefits under the Trade Readjustment Assistance Program. File contains claimant’s personal information and work history, application for benefits, notice of benefit determination, statement of reason for separation from employment, request for information from employer and employer responses, redetermination requests, interview notices and weekly claims for benefits.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: in office past last benefit payment and in Records Center benefit year ends provided no administrative or legal action is pending",
+      "duration_years": 5,
+      "duration_months": 6,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2013-02-13",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

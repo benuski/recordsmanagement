@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "855-1079",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/34530"
+    },
+    "series_metadata": {
+      "series_id": "LEGL/CASFL",
+      "series_title": "Litigation Case Files",
+      "series_description": "The Litigation Case Files consist of all the documents returned to the BWC after the close of litigation in which the BWC was a party. These files may include the following types of documents: affidavits, summons and complaints, responsive pleadings, discovered documents, motions and responses, orders of dismissals, settlement agreements, notices of appeal, legal briefs, transcripts of proceedings, orders, court decisions, and other related information.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: records two years case is closed and no further appeals can be filed. If dismissed without prejudice, one year statute of limitations runs. ; Paper: as confidential immediately paper record has been scanned and verified",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase ; Paper: Burn",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2017-09-07",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

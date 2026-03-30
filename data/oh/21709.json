@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "EPA",
+      "schedule_type": "specific",
+      "schedule_id": "17150843",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/21709"
+    },
+    "series_metadata": {
+      "series_id": "ITS-45",
+      "series_title": "Magnetic Reel Tapes",
+      "series_description": "Magnetic reel tapes are used for weekly backups of the Agency computer system. Each tape stores six months of data and is updated every six months. Period of last backup transferred from reel tapes was 01/04 - 07/04. Magnetic reel tapes are now obsolete and data was transferred to data cartridges which is currently being used for weekly backups.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: 30 days",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Trash",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2005-05-26",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

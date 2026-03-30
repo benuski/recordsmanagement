@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DOT",
+      "schedule_type": "specific",
+      "schedule_id": "770-1824",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/36275"
+    },
+    "series_metadata": {
+      "series_id": "IT-200",
+      "series_title": "System Backup Files",
+      "series_description": "Copies of master files or databases, application software, logs, directories, and other records needed to restore a system in case of a disaster or inadvertent destruction.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Back up and network logs are retained 90 days and",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Other",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2019-04-18",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

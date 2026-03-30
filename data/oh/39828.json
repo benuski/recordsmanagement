@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGE",
+      "schedule_type": "specific",
+      "schedule_id": "490-0282",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39828"
+    },
+    "series_metadata": {
+      "series_id": "ODA-LPAD-02",
+      "series_title": "AGE-Aging Correspondence, Online Public Records Management System",
+      "series_description": "The comprehensive public records management system streamlines constituent inquiries and correspondence and responses that come in on the ODA webpage",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Retention period of ; Paper: Retention period of",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2025-06-24",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

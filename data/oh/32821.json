@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551560",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/32821"
+    },
+    "series_metadata": {
+      "series_id": "OW-AGO-18",
+      "series_title": "Security Video and Logs",
+      "series_description": "Security Video and Logs are used to maintain security of AGO facilities as well as assist in any investigative action that may need to be conducted. The security video system captures movement in certain areas of the AGO facilities per floor, door, and/or area. The running date, time, and locations are logged in the video system. Screen shots can be grabbed from the video. Files may include, but are not limited to, video, screen captured photos from video, and transaction logs from the video system.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Video automatically overwritten a minimum of 21 days",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2015-02-06",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551695",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35478"
+    },
+    "series_metadata": {
+      "series_id": "062-OAG-30",
+      "series_title": "Debt Manager Reports",
+      "series_description": "Account list reports generated daily to summarize day's work (transactions, certifications, adjustments, etc.), errors that have occurred within the file transfer process, listing of accounts, system activity, and other reference purposes.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2023-11-01",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

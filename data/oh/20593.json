@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DRC",
+      "schedule_type": "specific",
+      "schedule_id": "15010246",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/20593"
+    },
+    "series_metadata": {
+      "series_id": "LEG03",
+      "series_title": "Ohio Court Cases",
+      "series_description": "Ohio court cases against the Department and/or departmental employees filed in Ohio Courts other than the Court of Claims. This category includes any complaint, writ, petition, application or appeal that may be heard by a municipal court, court of common pleas, court of appeals, and the Ohio Supreme Court. All files pertaining to any action filed in a division of an Ohio municipal court, court of common pleas, district court of appeals or Ohio Supreme Court.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: case is decided and appeals are exhausted",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2004-05-28",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

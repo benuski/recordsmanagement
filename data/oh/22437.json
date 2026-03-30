@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "GOV",
+      "schedule_type": "specific",
+      "schedule_id": "040-0002",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/22437"
+    },
+    "series_metadata": {
+      "series_id": "APP-02",
+      "series_title": "Appointment Files",
+      "series_description": "Contains appointment letter, biographical information, resumes, letters of recommendation, oath of office, and activities of those appointed.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: in office determined of no value",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Archives",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2005-10-12",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

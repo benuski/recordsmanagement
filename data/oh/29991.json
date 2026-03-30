@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "855-1036",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/29991"
+    },
+    "series_metadata": {
+      "series_id": "MSPM-4",
+      "series_title": "API reports for Subsequent 148''s and MCO notes",
+      "series_description": "The Application Processing Interface (API) reports for Subsequent 148''s and MCO notes provide a breakdown of the performance and production of the Managed Care Organization (MCO). This information is sent from the BWC Information Technology (IT) Department to the BWC MCO Business Unit for review.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: these records ; Electronic: on BWC server 17 years, and",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2012-04-05",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

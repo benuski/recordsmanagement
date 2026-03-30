@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OTC",
+      "schedule_type": "specific",
+      "schedule_id": "50580361",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/24751"
+    },
+    "series_metadata": {
+      "series_id": "OTC-504-10",
+      "series_title": "Data Documentation/Data Dictionary Records",
+      "series_description": "Records generally created during development or modification and necessary to access, retrieve, manipulate and interpret data in an automated system including data element dictionary, file layout, code book or table, and other records that explain the meaning, purpose, structure, logical relationships, and origin of the data elements.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: discontinuance of system or application and system or application''s data is destroyed or transferred a new structure or format ; Electronic: discontinuance of system or application and system or application''s data is destroyed or transferred a new structure or format",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Paper: Recycle ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2008-05-07",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

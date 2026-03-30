@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DVS",
+      "schedule_type": "specific",
+      "schedule_id": "50610140",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39620"
+    },
+    "series_metadata": {
+      "series_id": "DVS-FIS-01",
+      "series_title": "Treasury/Fiscal Paper Records",
+      "series_description": "Any Treasury/Fiscal document that is in paper form that has been scanned for electronic storage. This includes, but is not limited to, vouchers, receipts, warrant records, balance sheets, ledgers, and petty cash records. This series only applies to paper records that are newer than 2012 and that have been scanned for electronic storage. The Department has scanned all treasury/fiscal records electronically after 2012. It is the purpose of this Record Series to reduce duplication and physical storage costs where records are fully memorialized electronically. This Record Series does not apply to electronic records. Those records would be eligible for disposal per established Record Series specific to the record type.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: as per record specific record series unless it is scanned electronic storage. Once scanned, paper copy can be disposed of",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2024-11-05",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

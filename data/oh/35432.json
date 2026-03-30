@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TOS",
+      "schedule_type": "specific",
+      "schedule_id": "10900495",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35432"
+    },
+    "series_metadata": {
+      "series_id": "INV-3",
+      "series_title": "Daily Packet for Investments in State Regular Account",
+      "series_description": "Documents that may be saved electronically include, but are not limited to, the following:(1) Interest and Maturity Income Due, which shows which investments mature (either partially or completely) on the particular day; (2) Daily Transaction Summary, which contains all the transactions executed on a particular date, lists the fund number, discount rate, type of investment, par amount, and principal amount; and (3) Daily Settlement Report, which lists all investments that settle on any particular date.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: conclusion of current fiscal year, and an additional 6 fiscal years",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2022-10-26",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

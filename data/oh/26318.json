@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "855-1017",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/26318"
+    },
+    "series_metadata": {
+      "series_id": "ALLS-14",
+      "series_title": "Fax Logs",
+      "series_description": "The Fax Logs (e.g. RightFax and fax logs created by BWC employees that are stored in the computers’ I drive or electronic folders) record inbound and outbound faxes, fax numbers, names of the BWC employees, attorneys, injured workers, employers, and medical providers. The RightFax metadata includes an event queue, dialing rules, a receive queue, and other information that describes the RightFax documents, users and server(s), including but not limited to Fax numbers, and names of individuals or companies.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: inbound fax logs 8 days, and",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2008-05-16",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

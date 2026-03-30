@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551516",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/30694"
+    },
+    "series_metadata": {
+      "series_id": "OW-AGO-15",
+      "series_title": "Mail Log",
+      "series_description": "Mail log is created to record the mail received by sections of the office. It can contain fields such as date received, initials of the person who logged the piece of mail, sender and recipient information, and a brief description of the letter''s contents.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: from end of calendar year ; Electronic: from end of calendar year",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "Paper: Recycle ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2012-10-31",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

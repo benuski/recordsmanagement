@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OOD",
+      "schedule_type": "specific",
+      "schedule_id": "50760019",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/32181"
+    },
+    "series_metadata": {
+      "series_id": "40-FIS-010",
+      "series_title": "Security System Video Recordings",
+      "series_description": "DVR recording system that is part of the security system that records designated areas on OOD premises. The system is a re-write loop with a maximum capacity.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: system is a re-write loop. Recordings are overwritten continuously. Recordings are retained a minimum of (twenty) 20 days. re-write period may be longer than (twenty) 20 days depending on length of each motion activated recording",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2014-04-01",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

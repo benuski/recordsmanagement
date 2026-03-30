@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "855-0959",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35046"
+    },
+    "series_metadata": {
+      "series_id": "BPAY-1099",
+      "series_title": "Internal Revenue Service (IRS) 1099 Listing & W-9’s",
+      "series_description": "The Internal Revenue Service (IRS) 1099 Listing is a PDF containing names of the 1099 recipients. The IRS forms 1099 and W-9 as well as returned 1099's & W-9's forms are digitally imaged and stored online.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: six (6) years on BWC Web, and ; Paper: paper copy 30 days post scanning ensure clear copy",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2023-05-03",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551598",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/33399"
+    },
+    "series_metadata": {
+      "series_id": "BCI-ID-021",
+      "series_title": "Expungement and Sealed Records of Dismissals and Convictions",
+      "series_description": "Per ORC 2953.32 and 2953.33, court orders and records requesting the removal of arrest and/or dispositions from an individual's active criminal history at the Bureau of Criminal Investigation (BCI). Records include, but are not limited to, order from court, cover sheet from clerk of courts, and possibly some correspondence between courts and BCI.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: or 7 years death is adequately established. ; Paper: or 7 years death is adequately established. If scanned, dispose of paper file as soon as possible",
+      "duration_years": 110,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2024-02-09",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

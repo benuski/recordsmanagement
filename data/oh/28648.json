@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "855-0397",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/28648"
+    },
+    "series_metadata": {
+      "series_id": "CRC-01",
+      "series_title": "Client Health Records",
+      "series_description": "The Client Health Records includes all original treatment documentation on clients who have been through a rehabilitation program or evaluation at the J. Leonard Camera Center or the Walker Center.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Microform: original microfilm an offsite records facility. original microfilm . Copies of microfilm are be retained in office . ; Paper: in office 3 years treatment is complete",
+      "duration_years": 10,
+      "duration_months": null,
+      "disposition_method": "Microform: Burn ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2010-07-28",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

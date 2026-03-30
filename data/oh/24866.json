@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OTC",
+      "schedule_type": "specific",
+      "schedule_id": "50580202",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/24866"
+    },
+    "series_metadata": {
+      "series_id": "OTC-503-02",
+      "series_title": "Month End Closing File",
+      "series_description": "Comparison of charge customer billing, comparison of debit card customer transactions, collector audit report log, collector audit report summary, charge billing printout, debit card transaction printout and processing date moves.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: or audited ; Electronic: or audited",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2007-08-07",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

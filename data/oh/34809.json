@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551667",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/34809"
+    },
+    "series_metadata": {
+      "series_id": "071-OAG-10",
+      "series_title": "Collection Payments/Restitution Files",
+      "series_description": "Documents the collection of payments from debtors owing money to a client agency of the Environmental Protection section based on a consent order or judgment. Records include, but are not limited to, ledger of funds owed/balances, payment schedules, checks received, deposit slips, payment demand letters, and satisfaction of judgment letters.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: consent order or judgment is terminated, provided audited. ; Paper: consent order or judgment is terminated, provided audited, unless scanned and saved electronically",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2017-11-27",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

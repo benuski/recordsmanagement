@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "ETH",
+      "schedule_type": "specific",
+      "schedule_id": "50100022",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/21716"
+    },
+    "series_metadata": {
+      "series_id": "ADM-12",
+      "series_title": "Long Distance Telephone Records",
+      "series_description": "Invoices and logs of long distance calls made by agency personnel and related records",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: applicable fiscal period has been audited by Auditor of State and audit report is released and all discrepancies are resolved ; Electronic: applicable fiscal period has been audited by Auditor of State and audit report is released and all discrepancies are resolved",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2005-05-17",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

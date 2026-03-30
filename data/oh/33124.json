@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DAS",
+      "schedule_type": "specific",
+      "schedule_id": "11001638",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/33124"
+    },
+    "series_metadata": {
+      "series_id": "SEC-8",
+      "series_title": "Security Card Database to DAS Controlled Parking Garages",
+      "series_description": "Electronic files containing dates and times when security access card is used at restricted entry and exit points to parking garages controlled by DAS.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: in system 30 days",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2025-12-19",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

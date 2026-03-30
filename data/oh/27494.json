@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OCC",
+      "schedule_type": "specific",
+      "schedule_id": "10530316",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/27494"
+    },
+    "series_metadata": {
+      "series_id": "OCC-BA-09",
+      "series_title": "IGR (Intrastate Gross Revenues) Invoices and Final Assessment Invoices",
+      "series_description": "Yearly IGR (Intrastate Gross Revenues) Invoice verifications and Final assessment letters are mailed by OCC to utility companies: May; 50% payment invoice and Sept; Final Assessment invoices. Both are used to define Intrastate General Reciepts Revenue from utility companies.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: paper copy of verification letters ; Electronic: Totals information is retained in reports on OCC computer system, retained 7 years",
+      "duration_years": 4,
+      "duration_months": null,
+      "disposition_method": "Paper: Recycle ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2009-05-15",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

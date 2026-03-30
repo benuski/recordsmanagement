@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "COS",
+      "schedule_type": "specific",
+      "schedule_id": "879-0063",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/34548"
+    },
+    "series_metadata": {
+      "series_id": "SLN/SCH-06",
+      "series_title": "Authorized Representative Record",
+      "series_description": "Contains authorized representative form(paper or electronic)and all data entered upon the state''s electronic licensing system related to the authorized representative.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: data is entered into state''''''''s electronic licensing system ; Electronic: data is entered into state''s electronic licensing system. Once authorized representative is no longer active or representative of salon, facility or school represented, electronic licensing system record may be erased",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2017-08-17",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

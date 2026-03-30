@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TAX",
+      "schedule_type": "specific",
+      "schedule_id": "110-0248",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35806"
+    },
+    "series_metadata": {
+      "series_id": "110/304-62",
+      "series_title": "TAXPAYER INVESTIGATION REQUEST",
+      "series_description": "IOC''''''''s to District office requesting investigation on taxpayer for additional information before Tax Release or dissolutions are approved.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: in office information is received ; Electronic: in office information is received",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2019-02-08",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "ETH",
+      "schedule_type": "specific",
+      "schedule_id": "50100023",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/21732"
+    },
+    "series_metadata": {
+      "series_id": "EDU-02",
+      "series_title": "CLE Records",
+      "series_description": "Records documenting lists of attendees and related records for Continuing Legal Education sessions presented by agency",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: presentation; ; Paper: presentation",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Wastepaper",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2005-05-17",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

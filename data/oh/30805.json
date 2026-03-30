@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "JFS",
+      "schedule_type": "specific",
+      "schedule_id": "6000051",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/30805"
+    },
+    "series_metadata": {
+      "series_id": "CI-PHOTO",
+      "series_title": "Photo ID Records",
+      "series_description": "Photo identification of employees and/or contractors with the following information: Name, Photo, State User Identification Number, Office Name/Division, and Access Levels.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: employment termination",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2024-01-24",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

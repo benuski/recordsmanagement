@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "COM",
+      "schedule_type": "specific",
+      "schedule_id": "800-0823",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/38685"
+    },
+    "series_metadata": {
+      "series_id": "10-004",
+      "series_title": "Application for Finder Certificate of Registration",
+      "series_description": "This record retention schedule consists of Applications for Finder Certificate of Registration and accompanying documentation submitted to the Division.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: paper application and all supporting documentation is properly imaged and indexed. once images are confirmed as complete and legible paper can be shredded. ; Electronic: Electronic images are be retained as long as Certificate of Finder Registration is valid. Scanned images are be retained ten years final expiration date of registration, withdrawal of an application or denial of an application",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2020-02-25",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

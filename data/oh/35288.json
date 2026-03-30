@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TAX",
+      "schedule_type": "specific",
+      "schedule_id": "11100443",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35288"
+    },
+    "series_metadata": {
+      "series_id": "HR-54",
+      "series_title": "Final Horse Racing Report",
+      "series_description": "This form is submitted by commercial permit holders at the end of each racing meet. It is a summary of the amount wagered on each racing day and is submitted together with a final remittance based upon the total amount wagered during the meet.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: end of calendar year. ; Paper: end of calendar year. If scanned",
+      "duration_years": 5,
+      "duration_months": 6,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2019-09-05",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

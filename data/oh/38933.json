@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DHS",
+      "schedule_type": "specific",
+      "schedule_id": "760-1600",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/38933"
+    },
+    "series_metadata": {
+      "series_id": "1310",
+      "series_title": "LEADS Access Review Form",
+      "series_description": "The Federal Bureau of Investigation (FBI) Criminal Justice Information Services (CJIS) Security Policy requires any individual with access to unencrypted Criminal Justice Information (CJI) to be screened for arrest records. Those with a record must be submitted for approval prior to be given access to information obtained through LEADS. This information must be kept by LEADS during the duration of an individual's employment career to document that LEADS was notified of the arrest and to reference during future notifications.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Scan and upload ; Electronic: subject reaches age of 80 or subject is deceased, whichever occurs first",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2026-02-09",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

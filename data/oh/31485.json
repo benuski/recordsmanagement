@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "COM",
+      "schedule_type": "specific",
+      "schedule_id": "18000701",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/31485"
+    },
+    "series_metadata": {
+      "series_id": "54-01",
+      "series_title": "Master Case Files",
+      "series_description": "File contains information for use in legal proceedings. It includes evidence submission forms, disposition form, lab reports, and any other pertinent information.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: paper copy in operating area four calendar years ; Microform: microfilm diazo copy in operating area permanently and master microfilm in off site storage permanently. ; Electronic: machine readable format in operating area permanently. backup copy in off-site storage permanently. LIMS record on LIMS server permanently",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Microform: Permanent ; Electronic: Permanent",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2013-06-25",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

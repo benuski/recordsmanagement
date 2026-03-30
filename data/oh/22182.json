@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "EPA",
+      "schedule_type": "specific",
+      "schedule_id": "715-0835",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/22182"
+    },
+    "series_metadata": {
+      "series_id": "HW-002",
+      "series_title": "Superceded pages of permit applications",
+      "series_description": "Includes application pages that are being replaced as a result of a permit modification and revised pages (e.g., from an NOD) that do not become a part of the final authorized permit application.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: permit modification or renewal is issued final unless an appeal has been filed. In appeal cases, appeal is finally resolved",
+      "duration_years": null,
+      "duration_months": 6,
+      "disposition_method": "Paper: Recycle",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2005-11-29",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

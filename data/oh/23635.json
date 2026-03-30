@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OTC",
+      "schedule_type": "specific",
+      "schedule_id": "50580268",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/23635"
+    },
+    "series_metadata": {
+      "series_id": "OTC-501-21",
+      "series_title": "Paid Invoices - General Accounting Fund",
+      "series_description": "Invoices paid from the Revenue Fund. Includes purchase authorization, receiving reports attached to voucher for payment.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: or audited",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2007-08-14",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

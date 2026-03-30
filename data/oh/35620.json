@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OIC",
+      "schedule_type": "specific",
+      "schedule_id": "845-0534",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35620"
+    },
+    "series_metadata": {
+      "series_id": "IC-SS-03",
+      "series_title": "Visitor Property Log Sheet",
+      "series_description": "A document that logs in a visitor''s personal property (i.e. a small pen or pocket knife, chemical mace, etc.) sequestered prior to entering an IC facility. The property is then signed for and returned to the owner prior to leaving the office premises.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Store on site last recorded date on sheet",
+      "duration_years": null,
+      "duration_months": 18,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2023-02-24",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "PUC",
+      "schedule_type": "specific",
+      "schedule_id": "70000070",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/27467"
+    },
+    "series_metadata": {
+      "series_id": "14.12",
+      "series_title": "Wage and Tax Statements",
+      "series_description": "File of wage and tax statements containing information concerning employee earnings and tax withholdings (Form W-2, Department of Treasury, IRS).",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: superseded, obsolete, or replaced ; Paper: If a paper version of a record exist, scan and record electronically",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2026-02-20",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

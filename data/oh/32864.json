@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DHS",
+      "schedule_type": "specific",
+      "schedule_id": "760-1512",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/32864"
+    },
+    "series_metadata": {
+      "series_id": "4005",
+      "series_title": "Applications for Vehicle Registration",
+      "series_description": "This record series includes all vehicle registration applications (initial and renewal), as well as supplementary forms, and supporting documentation created and received during the registration process completed online or in person at a deputy registrar.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: current, three years from date of registration''s expiration. Record may be imaged. If imaged, validated and authenticated ; Electronic: current, three years from date of registration''s expiration. These records are retained in BMV''''''''s driver license system",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2015-03-06",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

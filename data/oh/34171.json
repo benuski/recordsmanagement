@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGR",
+      "schedule_type": "specific",
+      "schedule_id": "700-0208",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/34171"
+    },
+    "series_metadata": {
+      "series_id": "ANML-L-13",
+      "series_title": "Federal Drug and Food Administration (FDA) Laboratory Investigation and Response Network (LIRN)",
+      "series_description": "All laboratory records associated with the FDA (Food and Drug Administration) LIRN (Veterinary Laboratory Investigation Response Network) cooperative agreement programs. This includes the grant, the cooperative agreement contract and the award. Retain Records 7 years after the cooperative agreement program has ended. The Supervisor of the cooperative agreement is the record retention coordinator.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: cooperative agreement program has ended. ; Electronic: cooperative agreement program has ended",
+      "duration_years": 7,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2017-04-08",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

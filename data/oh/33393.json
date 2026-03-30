@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551592",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/33393"
+    },
+    "series_metadata": {
+      "series_id": "BCI-ID-015",
+      "series_title": "Weekly Court Disposition Reports (Internal)",
+      "series_description": "Reports from the Bureau of Criminal Investigation & Identification (BCI) to the courts providing that status of the accepted/rejected transactions on the Computerized Criminal History (CCH) database. Rejections can occur if technical requirements are not met or if the transaction is submitted with missing information. The court has the ability to review the report and resubmit the transactions.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: . ; Paper: 110 year or 7 years death as established by adequate proof",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2016-02-11",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OOD",
+      "schedule_type": "specific",
+      "schedule_id": "50760008",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/32054"
+    },
+    "series_metadata": {
+      "series_id": "70-LG-003",
+      "series_title": "Consumer Appeal Files & Logs",
+      "series_description": "Files that contain all records associated with appeals filed by consumers because of the provision or denial of a service. Record may include: copies of consumer case records, correspondence, letters regarding appeals, hearing records, log records, database files and supporting documentation.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Appeal files are maintained in either an active or closed status. Closed consumer appeal files are maintained three (3) federal fiscal years appeal is closed. An RC-3 is required when destroying these records. ; Electronic: Appeal files are maintained in either an active or closed status. Closed consumer appeal files are maintained three (3) federal fiscal years appeal is closed. An RC-3 is required when destroying these records",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2014-01-13",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

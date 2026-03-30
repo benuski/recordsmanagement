@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "CIV",
+      "schedule_type": "specific",
+      "schedule_id": "876-0095",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/34285"
+    },
+    "series_metadata": {
+      "series_id": "GEN-0095",
+      "series_title": "Accounts Payable Invoice",
+      "series_description": "(Accounts Payable Invoices) Bill for goods shipped or services rendered. They are matched with purchase orders and receiving reports, and attached to vouchers for payment.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: or audited by Auditor of State",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2017-11-07",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

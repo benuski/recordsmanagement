@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DVS",
+      "schedule_type": "specific",
+      "schedule_id": "50610139",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39616"
+    },
+    "series_metadata": {
+      "series_id": "DVS-VSCO-001",
+      "series_title": "Veterans Service Commissioners/Officer Certification Records",
+      "series_description": "copy of all eligibility records including but not limited to DD2014, standards of conduct forms, verification of training attendance, exam results, and accreditation documents from the United States Department of Veterans Affairs",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Commissioner/Officer resignation, termination, death, or, commissioners only, failing reappointment ; Paper: Commissioner/Officer resignation, termination, death, or, commissioners only, failing reappointment",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2024-10-23",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

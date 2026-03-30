@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551651",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/34454"
+    },
+    "series_metadata": {
+      "series_id": "OW-AGO-27",
+      "series_title": "Building Access Control Records",
+      "series_description": "Access control systems that manage AGO employee access permissions and access history to AGO building floors/rooms. Records include information on, but not limited to, employee photographs, unique employee identifiers, card access permissions, access history, and general employee account/card information. [Should any access information be needed for investigation or litigation, it will be copied from the system and retained according to the appropriate retention schedule for the investigation or case to which it pertains.]",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: 90 days or delete upon employee separation from office. [Should any access information be needed investigation or litigation, it will be copied from system and retained according appropriate retention schedule investigation or case which it pertains.]",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2017-06-13",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

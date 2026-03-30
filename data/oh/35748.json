@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TAX",
+      "schedule_type": "specific",
+      "schedule_id": "110-0223",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35748"
+    },
+    "series_metadata": {
+      "series_id": "110/304-27",
+      "series_title": "AUTOMATED COLLECTION SYSTEM (ACS) REPORTS",
+      "series_description": "Computer generated reports reflecting assissments on which tax releases have been requested.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: and current ; Electronic: and current",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2019-02-06",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

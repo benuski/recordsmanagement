@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DHS",
+      "schedule_type": "specific",
+      "schedule_id": "760-0350",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/19410"
+    },
+    "series_metadata": {
+      "series_id": "1115",
+      "series_title": "Delivery Slips & Packing Lists",
+      "series_description": "Slips and lists showing the name of a vendor, amount delivered, description of the article(s), date of delivery, and method of delivery.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: with voucher",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Paper: Wastepaper",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2003-04-28",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

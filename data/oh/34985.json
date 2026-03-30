@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BOR",
+      "schedule_type": "specific",
+      "schedule_id": "235-0353",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/34985"
+    },
+    "series_metadata": {
+      "series_id": "ACAD-0002",
+      "series_title": "Institutional Complaints",
+      "series_description": "This record series includes complaints received by the Ohio Department of Higher Education related to Ohio public and private institutions of higher education. It includes any attachments or documents related to the complaint, all agency responses to such complaint and communications with any institution regarding the complaint.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: from ODHE''s final response complaint",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2018-03-21",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

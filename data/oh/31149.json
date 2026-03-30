@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "855-1107",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/31149"
+    },
+    "series_metadata": {
+      "series_id": "EMPL/REAPP",
+      "series_title": "Self Insured (SI) Employer Renewal Application",
+      "series_description": "The SI employer has to file a Renewal Application (SI7) each year to renew their self insurance. The employer provides the BWC Self Insured Department with the most current information such as name, addresses, subsidiaries, locations, and parent information, including financial information. From the information the employer provided, the underwriting department will update the records to reflect the most current information. The Self Insured (SI) Employer Renewal Application is scanned into the Universal Document Service (UDS). The Universal Document Service (UDS) is an imaging concept that stores any type of electronic file, such as Microsoft Office documents, Adobe Acrobat, audio/video, Computer Aided Design (CAD), etc. as well as scanned images.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Scan original document into UDS, verify scanned image is readable, and ; Electronic: employer has gone out of business, and",
+      "duration_years": 10,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2013-03-01",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DNR",
+      "schedule_type": "specific",
+      "schedule_id": "725-0666",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/8666"
+    },
+    "series_metadata": {
+      "series_id": "734-009",
+      "series_title": "Permit Lists (Plugging & Drilling)",
+      "series_description": "Weekly list of permits issued to drill/plug wells. Includes applicant name, date of application, well location, proposed formation and drilling unit size.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Risk Based Data Management System",
+      "duration_years": 50,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2021-01-13",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

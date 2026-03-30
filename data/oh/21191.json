@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DAS",
+      "schedule_type": "specific",
+      "schedule_id": "11001432",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/21191"
+    },
+    "series_metadata": {
+      "series_id": "ESS-ECC-01",
+      "series_title": "Customer/Trading Partner Files",
+      "series_description": "Series consists of a log file or history of trading partner transmissions. Customer is responsible for keeping a backup of original trading partner payload or data files.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Keep on server 90 days",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2005-03-17",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

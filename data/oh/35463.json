@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "855-1195",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35463"
+    },
+    "series_metadata": {
+      "series_id": "FM-18",
+      "series_title": "Facility Moves and Changes",
+      "series_description": "Requests from customers for any facility moves or changes to their areas such as furniture or pod rebuilds.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: on I:Drive in Facilities Management folder and ; Paper: and",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2018-12-06",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

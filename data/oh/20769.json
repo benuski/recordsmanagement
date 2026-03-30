@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OCC",
+      "schedule_type": "specific",
+      "schedule_id": "10530308",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/20769"
+    },
+    "series_metadata": {
+      "series_id": "OCC-M-08",
+      "series_title": "Accident, Health & Safety Records, Incident Report",
+      "series_description": "Accident, Health & Safety Records, Incident Reports, OSHA Reports, etc.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: permanently ; Paper: paper . Scan electronic form permanent retention",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition_method": "Electronic: Permanent ; Paper: Trash",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2004-09-20",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "855-1185",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35011"
+    },
+    "series_metadata": {
+      "series_id": "HUMA-5",
+      "series_title": "Exit Interview Questionnaire and Letter",
+      "series_description": "The Exit Interview Questionnaire and Letter is a questionnaire that is sent to each employee once they have indicated they will be separating from the Bureau whether it be retirement, voluntarily separation, and or quit. The questionnaire and letter is generated to offer feedback regarding those whom has expressed interest in leaving the agency such as, the job preformed, the job performance, the salary, management, and co-workers.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Employee’s date of separation from BWC, and ; Electronic: Employee’s date of separation from BWC, and",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2018-04-26",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

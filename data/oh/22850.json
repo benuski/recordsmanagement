@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "EPA",
+      "schedule_type": "specific",
+      "schedule_id": "715-0867",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/22850"
+    },
+    "series_metadata": {
+      "series_id": "FA-18",
+      "series_title": "TAS, Revenue, and Agency Reporting Database",
+      "series_description": "Electronic data in time-accounting system, revenue system and agency reporting accounting database. The time-accounting system is an Agency record of the hours worked and leave used by employees. The revenue system is a record of amounts due to Ohio EPA (usually for fees), payments and outstanding balances. The agency reporting accounting database is a record of all agency financial transactions downloaded from the Central Accounting System.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: on computer server",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2006-04-26",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

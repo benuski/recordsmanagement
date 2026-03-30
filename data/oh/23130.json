@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OTC",
+      "schedule_type": "specific",
+      "schedule_id": "50580040",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/23130"
+    },
+    "series_metadata": {
+      "series_id": "OTC-300-10",
+      "series_title": "Concessionaire Contracts",
+      "series_description": "Original contracts with all Service Plaza vendors or concessionaires, terms and conditions, insurance certificates, performance bonds, and correspondence.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Maintain three years date contract expires. ; Electronic: Document image three years following date of contract expiration. from date contract expired",
+      "duration_years": 15,
+      "duration_months": null,
+      "disposition_method": "Paper: Trash ; Electronic: Trash",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2006-04-12",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

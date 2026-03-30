@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "PRX",
+      "schedule_type": "specific",
+      "schedule_id": "887-0035",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/33100"
+    },
+    "series_metadata": {
+      "series_id": "887-0058",
+      "series_title": "Abandoned Application",
+      "series_description": "Ohio Automated RX Reporting System (OARRS) application that was received incomplete where the applicant never provides additional information.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Electronic applications be retained on OARRS server a period of (1) year",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2024-04-10",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

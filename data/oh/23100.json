@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "INS",
+      "schedule_type": "specific",
+      "schedule_id": "820-0684",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/23100"
+    },
+    "series_metadata": {
+      "series_id": "180-24",
+      "series_title": "Attendance Records",
+      "series_description": "Copies of timesheets, leave requests, etc.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: In office ; ; Paper: In office",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase ; Paper: Wastepaper",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2006-02-01",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

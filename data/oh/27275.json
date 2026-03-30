@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "PUC",
+      "schedule_type": "specific",
+      "schedule_id": "70000088",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/27275"
+    },
+    "series_metadata": {
+      "series_id": "77.8",
+      "series_title": "Ohio Motor Carrier Information System (OMCIS)",
+      "series_description": "Computer database system containing all active and inactive motor carriers showing name, address, authority numbers and authority for both interstate and intrastate carriers. This file automatically assigns authority numbers to the new carriers. This file also maintains records of stamp and decal payments, status of insurance and contracts, Unified Carrier Registrations, and Alliance for Uniform Hazardous Materials Procedures.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: data superseded, obsolete or replaced",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2009-02-23",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

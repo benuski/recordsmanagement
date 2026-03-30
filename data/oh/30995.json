@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "JFS",
+      "schedule_type": "specific",
+      "schedule_id": "6000131",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/30995"
+    },
+    "series_metadata": {
+      "series_id": "UC-SPC-004",
+      "series_title": "Disaster Unemployment Assistance Files",
+      "series_description": "Notification and reports documenting a disaster unemployment assistance event. File includes DUA declaration from the President of the United States, news release from the Governor, newspaper articles regarding the event, state in which the event occurred, nature of event (e.g., ice storm, flooding, landslide). File also contains weekly reports which identify the disaster number and event date, state program costs, administrative costs, number of applications received, number of weeks paid, number of benefits paid, number of appeals received, pending and resolved and closeout reports which summarize the event, claims activity, issues and recommendations during the DUA period.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: in office final action resolving DUA event ; Electronic: in office final action resolving DUA event",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2013-02-13",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551596",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/33396"
+    },
+    "series_metadata": {
+      "series_id": "BCI-ID-018",
+      "series_title": "Webcheck Audits",
+      "series_description": "Audits of national webcheck locations in that State of Ohio to determine compliance with the Federal Bureau of Investigation (FBI) and the Ohio Bureau of Criminal Investigation & Identification (BCI) policies. Records may include, but are not limited to, transactions reviewed for the audit, background checks of individuals operating equipment, MOU between webcheck agency and BCI, result of audit, and correspondence.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: from close of audit. ; Paper: from close of audit",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2016-02-11",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

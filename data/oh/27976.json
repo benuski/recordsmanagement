@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "INS",
+      "schedule_type": "specific",
+      "schedule_id": "820-0832",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/27976"
+    },
+    "series_metadata": {
+      "series_id": "220-05",
+      "series_title": "Independent Review Organization (IRO) - External Review Case Reports",
+      "series_description": "Case reports documenting external review decisions of health insurance coverage denials by accredited Independent Review Organizations (IROs). Authority: 1751.84-85, 3923.67-68, 3923.76-77.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: 60 days from case closed date administrative case review",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2009-09-18",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

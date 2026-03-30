@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "855-1070",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/28965"
+    },
+    "series_metadata": {
+      "series_id": "MSAD-23",
+      "series_title": "Files from Closed Managed Care Organizations (MCO)",
+      "series_description": "The Files from Closed Managed Care Organizations (MCO) list the MCO’s that are no longer in business. The records contain work papers, MCO Provider account banking statements and reconciliation documents, General Accounting Deposit records, cancelled checks, bill payments, and on-site audit reports.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: files from Managed Care Organizations (MCO) that are no longer in business, in office",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2011-01-20",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

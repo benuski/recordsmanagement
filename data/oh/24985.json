@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OTC",
+      "schedule_type": "specific",
+      "schedule_id": "50580437",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/24985"
+    },
+    "series_metadata": {
+      "series_id": "OTC-502-20",
+      "series_title": "Bank Tape Check Reports - EBM710",
+      "series_description": "Monthly computer generated report listing the bank account number, check numbers, dates and amounts paid out to the General Revenue and Payroll cash accounts.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: and audited",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2008-09-09",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

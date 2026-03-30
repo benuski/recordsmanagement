@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TAX",
+      "schedule_type": "specific",
+      "schedule_id": "11100367",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35270"
+    },
+    "series_metadata": {
+      "series_id": "2001-0004",
+      "series_title": "Master Settlement Agreement (MSA) Reports ET-60",
+      "series_description": "An agreement reached among 46 states and tobacco compaines in order to settle state suits to recover costs associated with treating smoking-related illness. Form for reporting payment into escrow account.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: expiration of calendar year in which completed/ court case. If scanned, . ; Electronic: expiration of calendar year in which completed/ court case",
+      "duration_years": 4,
+      "duration_months": 6,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2018-11-16",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

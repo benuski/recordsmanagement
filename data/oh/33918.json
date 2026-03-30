@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551632",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/33918"
+    },
+    "series_metadata": {
+      "series_id": "075-OAG-17",
+      "series_title": "Prosecuted Case Files",
+      "series_description": "Prosecuted case files for Healthcare Fraud section, including but not limited to the Medicaid Fraud Control Unit (MFCU) and Workers'' Compensation Fraud Unit (WCFU). Cases can include, but may not be limited to, investigatory materials, administrative documents, attorney work product, research, pleadings, correspondence, discovery, expert materials, and settlement materials.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: electronically from case closure. ; Paper: from case closure, unless saved electronically",
+      "duration_years": 20,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2016-12-01",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

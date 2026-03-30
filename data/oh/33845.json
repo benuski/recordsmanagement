@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGR",
+      "schedule_type": "specific",
+      "schedule_id": "700-0202",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/33845"
+    },
+    "series_metadata": {
+      "series_id": "AGR-9074",
+      "series_title": "Consumer Protection Lab (CPL) Record Storage Room access log",
+      "series_description": "This is the access log for the storage room in the basement of the Consumer Protection Lab (CPL) where all of records are stored. The Record Retention Coordinator is the Admin Laboratory Tech.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2016-12-01",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

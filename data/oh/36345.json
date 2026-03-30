@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "COM",
+      "schedule_type": "specific",
+      "schedule_id": "800-0706",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/36345"
+    },
+    "series_metadata": {
+      "series_id": "65-06",
+      "series_title": "BCII Criminal Background Check Results",
+      "series_description": "This record retention schedule consists of results from criminal records checks conducted by BCII for initial applicants for real estate, appraiser, home inspectors or appraisal management company registration, license or certificate. These records may contain social security numbers which are not a matter of public record pursuant to Ohio Revised Code Section 149.43(A)(1)(dd). Per the Ohio BCII and the Federal Bureau of Investigation, these records are highly confidential and should be shredded once the information needed for registration, license or certificate purposes is obtained.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: background checks that produce no criminal records applicant",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2019-05-20",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

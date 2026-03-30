@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TOS",
+      "schedule_type": "specific",
+      "schedule_id": "10900491",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/29559"
+    },
+    "series_metadata": {
+      "series_id": "HUM-118",
+      "series_title": "Employee FMLA, Disability, Worker Comp records",
+      "series_description": "Records pertaining to Family Medical Leave Act (FMLA), Disability & Workers Compensation claims filed by employees.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: employee separation ; Electronic: employee separation",
+      "duration_years": 6,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2022-10-26",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

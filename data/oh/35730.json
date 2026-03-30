@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TAX",
+      "schedule_type": "specific",
+      "schedule_id": "110-0119",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35730"
+    },
+    "series_metadata": {
+      "series_id": "110/113-09",
+      "series_title": "COMPUTATION OF TAX DUE ON PURCHASES - FORM 800",
+      "series_description": "This form is filled out by office personnel when a taxpayer voluntarily submits payment of taxes due. It requests the name and address of purchaser, the tax rate, name of county for tax allocation, from whom purchased, description of purchase, amount of purchase, total sales, computed tax and tax collected.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: This form is retained in office files a period of four years from date payment was received. that it is shredded. scanned. ; Electronic: from date payment was received",
+      "duration_years": 4,
+      "duration_months": 6,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2019-01-30",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

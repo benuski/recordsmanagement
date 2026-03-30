@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "JFS",
+      "schedule_type": "specific",
+      "schedule_id": "795-0783",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/30838"
+    },
+    "series_metadata": {
+      "series_id": "CI-ID-SWIP",
+      "series_title": "ID Card Swipe Access Records",
+      "series_description": "Each ODJFS employee is issued an ID Badge which is programmed to allow each employee with specific building access for security purposes. ALL ODJFS building have Security System for access purpose, certain office may have several layers of access control depending in the type of information housed in the specific office. Each time an employee swipe their ID badge a record of that swipe is kept on a server maintained by OIS.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Maintained on server prior removal/destruction unless notified of an audit or litgation at which time we would keep necessary records no longer needed",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2024-06-20",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DHS",
+      "schedule_type": "specific",
+      "schedule_id": "760-1251",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/32072"
+    },
+    "series_metadata": {
+      "series_id": "2027",
+      "series_title": "OSHA Incident Reports, Logs, and Annual Summaries",
+      "series_description": "This series contains reports of incidents (OSHA 301), OSHA Logs (OSHA 300), and annual summaries related to employee work-related illnesses, injuries, and deaths. Records are entered and maintained in the ODPS HR/PeopleSoft system.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: current, five years in HR/PeopleSoft and ERIS systems. Reports relating or indicating employee exposure toxic or harmful substances or physical agents shall be retained from date of employee''s separation",
+      "duration_years": 30,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2014-02-12",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

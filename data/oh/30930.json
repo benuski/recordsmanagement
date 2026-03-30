@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551524",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/30930"
+    },
+    "series_metadata": {
+      "series_id": "BCI-ADM-18",
+      "series_title": "State Fines Reports",
+      "series_description": "Summary reports from local law enforcement for criminal gang activity fines and mandatory drug fines. Reports list the use and disposition of all fine monies, record of receipts, general types of expenditures, and the specific amount of each general type of expenditure. Reporting requirements are outlined in ORC 2923.42(C)(2)(b) and 2925.03 (F)(2)(b).",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: (scanned image or data entered through OHLEG system) ; Paper: or scanned/data entry, whichever is earlier (some entered online and never exist in paper format)",
+      "duration_years": 4,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Recycle",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2013-01-15",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

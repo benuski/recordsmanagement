@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DRC",
+      "schedule_type": "specific",
+      "schedule_id": "15010247",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/20596"
+    },
+    "series_metadata": {
+      "series_id": "REC0036",
+      "series_title": "INMATE UNIT FILE",
+      "series_description": "All records pertaining to the inmate that are kept in the unit where the inmate resides.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: This file will be merged with inmate master file upon inmate''s release from custody. final release, maximum expiration, expiration of sentence, death, etc",
+      "duration_years": 10,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2004-05-28",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

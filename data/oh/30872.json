@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TOS",
+      "schedule_type": "specific",
+      "schedule_id": "10900584",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/30872"
+    },
+    "series_metadata": {
+      "series_id": "SEC-121",
+      "series_title": "Custody Compliance Reporting Database",
+      "series_description": "Microsoft Access database that is used to track the number and type of instances of compliance or other issues that arise in custodial accounts, instances of claims in the custodial accounts, as well as the analysis of the confirmed reconciliations, including the dates the reconciliations are received from custodial account holders. This database is used solely for internal tracking purposes to track relevant data and trends.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: data conclusion of current fiscal year, and an additional 4 fiscal years",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2013-01-15",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

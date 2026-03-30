@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "FCC",
+      "schedule_type": "specific",
+      "schedule_id": "50730011",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/32369"
+    },
+    "series_metadata": {
+      "series_id": "17",
+      "series_title": "Employment Background Checks",
+      "series_description": "All information collected on potential employees. Includes but is not limited to drug tests, credit reports, and criminal background checks.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Non-hired candidates - five years. Hired candidates - following employee''s separation. ; Paper: Non-hired candidates - five years. Hired candidates, two years following separation",
+      "duration_years": 50,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2014-05-28",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

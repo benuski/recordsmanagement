@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "JFS",
+      "schedule_type": "specific",
+      "schedule_id": "795-0946",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/38797"
+    },
+    "series_metadata": {
+      "series_id": "OFIS 01",
+      "series_title": "OAK Financial Interface System Files(OFIS)",
+      "series_description": "The OAK Financial Interface System Files(OFIS) is a file that contains provider payee information such as, names, address, payment amount, but not limited to adjustments or adjustment request forms (6766 and 6767). Also related correspondence detailing payment discrepancies or audits.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: from document date",
+      "duration_years": 10,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2024-09-10",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

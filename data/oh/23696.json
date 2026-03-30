@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "EPA",
+      "schedule_type": "specific",
+      "schedule_id": "715-0885",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/23696"
+    },
+    "series_metadata": {
+      "series_id": "SIWM-11",
+      "series_title": "Scrap Tire Submitted Annual Reports",
+      "series_description": "The raw data for annual tire data reports submitted by the owners of tire sites.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: onsite a minimum of",
+      "duration_years": null,
+      "duration_months": 15,
+      "disposition_method": "Paper: Recycle",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2006-06-07",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

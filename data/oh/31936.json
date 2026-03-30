@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DHS",
+      "schedule_type": "specific",
+      "schedule_id": "760-1514",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/31936"
+    },
+    "series_metadata": {
+      "series_id": "4007",
+      "series_title": "Daily Requisition (Special Plates)",
+      "series_description": "The daily requisition report contains special plates orders and is produced via Special Plates Ordering Tracking System (SPOTS). This record series contains the daily documentation which includes the various SPOTS reports, Requisition Committee''''''''s approval or denial of plate selection, appeal documentation, recall information and plate issuance justification. The record will also contain a copy of SPOTS reports confirmation and any email traffic/discussion from the customer or between the Requisition Committee members and the BMV Legal Department.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: daily requisition reports contained in this series will be stored on site (Shipley) from date of issuance. ; Electronic: daily requisition reports and correspondence received and/or distributed, contained in this series, will be stored electronically (via Microsoftt Outlook) from date of issuance",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2013-12-31",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

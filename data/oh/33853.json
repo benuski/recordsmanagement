@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGR",
+      "schedule_type": "specific",
+      "schedule_id": "700-0097",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/33853"
+    },
+    "series_metadata": {
+      "series_id": "ANML-L-04",
+      "series_title": "Quality Management Records",
+      "series_description": "All records associated with the Quality Management System including but not limited to: Obsolete Quality Manual (Tier I), Obsolete Procedures (Tier II and III), Audits (Internal and External), Management Reviews, Proficiency Test Results, Meeting Minutes (Quality Assurance Meeting (QAM), Quality Assurance Unit Meeting (QAUM), Supervisor and Section), Corrective Action Reports (CARs), Preventive Action Reports (PARs), Improvement Action Reports (IARs), Vendor Evaluations, Complaints, Customer Surveys. Quality Assurance Officer (QAO) is the Record Retention Coordinator.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: ; Electronic",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2016-12-08",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

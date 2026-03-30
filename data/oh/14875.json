@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DOH",
+      "schedule_type": "specific",
+      "schedule_id": "440-0393",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/14875"
+    },
+    "series_metadata": {
+      "series_id": "14-03-HFR",
+      "series_title": "HMO Complaints",
+      "series_description": "Contains complaints received by ODH in regards to Health Maintenance organizations. Includes name of person filling complaint.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: unsubstantiated complaints",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "Paper: Wastepaper",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "1992-07-27",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

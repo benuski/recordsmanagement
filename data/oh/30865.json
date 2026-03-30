@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TOS",
+      "schedule_type": "specific",
+      "schedule_id": "10900572",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/30865"
+    },
+    "series_metadata": {
+      "series_id": "SEC-103",
+      "series_title": "Corporate Action Reports",
+      "series_description": "Electronic files that show outstanding corporate action information as of the close of the previous business day. Corporate actions include, but are not limited to, the issuance of dividends, stock splits, buybacks, and mergers. Files in this series are downloaded daily by Treasurer personnel from the websites of custodial banks or are received from the custodial banks by email.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: conclusion of current fiscal year, and an additional 6 fiscal years",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2013-01-08",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

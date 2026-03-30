@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "COM",
+      "schedule_type": "specific",
+      "schedule_id": "18000651",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/25457"
+    },
+    "series_metadata": {
+      "series_id": "BW-05",
+      "series_title": "Active Solicitor Files",
+      "series_description": "Contains solicitor applications, and any other information pertaining to the solicitor. This is a bi-annual renewal.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Solicitor Applications are processed ; Paper: Paper files are kept",
+      "duration_years": 999,
+      "duration_months": 6,
+      "disposition_method": "Electronic: Permanent ; Paper: Recycle",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2010-06-15",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

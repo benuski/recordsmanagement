@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "MED",
+      "schedule_type": "specific",
+      "schedule_id": "883-0019",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35706"
+    },
+    "series_metadata": {
+      "series_id": "PER-01",
+      "series_title": "Employee Personnel File",
+      "series_description": "Including, but not limited to: documents pertaining to application forms, personnel actions, benefit forms, training records, workforce development, tuition rembursement, other education assistance program records, and copies/or originals of other documents concerning the employee [excluding medical records].",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: employee leaves employment. ; Paper: employee leaves employment",
+      "duration_years": 7,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2021-12-14",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "ODM",
+      "schedule_type": "specific",
+      "schedule_id": "50750041",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35867"
+    },
+    "series_metadata": {
+      "series_id": "OHP-PS-01",
+      "series_title": "OHP Unprocessed Refunds",
+      "series_description": "Unprocessed ODJFS 6766/6767 Adjustment Request for unprocessed provider refund checks and corresponding documentation prior to the implementation of the Medicaid Information Technology System (MITS) on August 2, 2011. Information contained in these documents remained unprocessed at the closure of Medicaid Management Information System (MMIS). New business processes precluded them from being entered in MITS at \"Go Live\". Check information spans 7/2008 through 12/2010.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: 90 days hard copy is imaged and ; Electronic: digital image hard copy is imaged and",
+      "duration_years": 7,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2019-05-01",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

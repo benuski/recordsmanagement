@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TAX",
+      "schedule_type": "specific",
+      "schedule_id": "11100651",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35789"
+    },
+    "series_metadata": {
+      "series_id": "Budget02",
+      "series_title": "Payment Card Logs",
+      "series_description": "Logs for purchases made by State of Ohio credit card and all documentation back up.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: current fiscal year. If scanned, . ; Electronic: current fiscal year",
+      "duration_years": 3,
+      "duration_months": 6,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2019-01-30",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

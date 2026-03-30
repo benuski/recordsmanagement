@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "JFS",
+      "schedule_type": "specific",
+      "schedule_id": "400-1334",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/31227"
+    },
+    "series_metadata": {
+      "series_id": "CS-SETS02",
+      "series_title": "Child Support SETS Data",
+      "series_description": "Child Support Enforcement tracking and reporting system (SETS)devised to document attempts to obtain adequate child support services. Services include establishingpaternity, locating an absent parent, tracking child support payments, collecting licensesuspension/revocation and new hire reporting data which is used to enforce child support obligations,and absent parent data reported to the IRS to intercept tax refunds.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: reports printed from system superseded, obsolete or replaced ; Electronic: SETS data in system",
+      "duration_years": 7,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2024-06-14",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

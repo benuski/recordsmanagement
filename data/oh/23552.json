@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OTC",
+      "schedule_type": "specific",
+      "schedule_id": "50580531",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/23552"
+    },
+    "series_metadata": {
+      "series_id": "OTC-500-65",
+      "series_title": "Charge Card Orders",
+      "series_description": "Information pertaining to the charge card orders made for accounts whose credit cards are expiring.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: card order is made in case of discrepancies",
+      "duration_years": null,
+      "duration_months": 6,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2009-10-08",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DAS",
+      "schedule_type": "specific",
+      "schedule_id": "11001652",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/38901"
+    },
+    "series_metadata": {
+      "series_id": "IOP-1",
+      "series_title": "DAS Administrative Services Web Sites",
+      "series_description": "Media previously available to the public that once conveyed individual agency information in lieu of oral communication that no longer serves an administrative purpose. This includes, but is not limited to, written website content, files, and images which are no longer accessible to the public (i.e unused, expired, deleted), are no longer relevant to the purpose of the agency, or, classify as informal, temporary, routine correspondence, and/or social media posts. All website media which fit this description will be maintained and accessible in production systems for one year.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Maintain media in production system one year",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2020-10-15",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

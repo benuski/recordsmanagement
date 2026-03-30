@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "SOS",
+      "schedule_type": "specific",
+      "schedule_id": "50030007",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/28278"
+    },
+    "series_metadata": {
+      "series_id": "CBE-48",
+      "series_title": "Voter Verified Paper Audit Trail",
+      "series_description": "Voter Verified Paper Audit Trail (VVPAT) official ballot to be used for recount purposes.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: eighty-one (81) days an election or a federal election ; Paper: eighty-one (81) days an election or a federal election",
+      "duration_years": null,
+      "duration_months": 22,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2023-11-01",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

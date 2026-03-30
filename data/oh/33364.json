@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TOS",
+      "schedule_type": "specific",
+      "schedule_id": "10900646",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/33364"
+    },
+    "series_metadata": {
+      "series_id": "FIS-14",
+      "series_title": "Individual loan files for workforce development revolving loan fund",
+      "series_description": "A digital packet of documents for each loan issued through the program that includes the loan application, promissory note, disclosure form, payment history, Quickbooks student loan ledger, completion certificate or dropout certificate, and notation of full payment.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: either (a) loan has been paid off, or (b) loan has been written off by Ohio Attorney General’s Office",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2022-10-26",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "SOS",
+      "schedule_type": "specific",
+      "schedule_id": "50030131",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/34659"
+    },
+    "series_metadata": {
+      "series_id": "CBE-107",
+      "series_title": "Backup Signature Pollbook",
+      "series_description": "Printed, blank signature pollbooks that have been prepared as backup in case of problems with the electronic pollbook, but then not used during the election.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: 60 days or no longer of administrative value",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2017-10-05",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

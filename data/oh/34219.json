@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551641",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/34219"
+    },
+    "series_metadata": {
+      "series_id": "066-OAG-50",
+      "series_title": "Title Defect Recision Fund Files",
+      "series_description": "Documents the resolution of complaints involving or potentially involving the Title Defect Recision Fund statute per ORC 4505.181. Records include, but are not limited to, payout request memo, reimbursement demand letter, letters of authority to the Bureau of Motor Vehicles (BMV), correspondence with lienholders/consumer/dealer/BMV, documentation of payment, voided warrant letter, temporary tag payment to BMV, information regarding the status and disposition of the vehicle (auction, towing, pickup, etc.), and ATPS reports that track the title paperwork.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Title Defect Recision payment matter deemed closed or a civil case is filed. ; Paper: Title Defect Recision payment matter deemed closed or a civil case is filed, unless scanned and saved electronically",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2017-03-24",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

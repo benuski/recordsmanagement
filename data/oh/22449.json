@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "PUC",
+      "schedule_type": "specific",
+      "schedule_id": "870-0419",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/22449"
+    },
+    "series_metadata": {
+      "series_id": "2.3.1",
+      "series_title": "Disability Benefits Claim Files",
+      "series_description": "File containing all in-house records of disability benefits claims which have been inactive for two years, claims for deceased employees, and medical information, where claim was not filed within two years.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: in office ; Microform: microfilm superseded by updated microfiche",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Microform: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2005-07-29",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

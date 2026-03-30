@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "855-1186",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35048"
+    },
+    "series_metadata": {
+      "series_id": "BPAY-CCLB",
+      "series_title": "Court Cost Litigation Bills",
+      "series_description": "These records contain court cost litigation bills received from the Attorney General office (AG) relating to Injured Worker claims that went through the court system. The invoices are to pay the court expenses approved by the AG office and are scanned into the Benefits Payable UDS Warrant system by claim number. This would include but not limited to other types of POD payments processed such as C-60's, C-19's C-31RE's & SIFs.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Scan ; Electronic: court cost litigation email 30 days quality control and",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2023-07-20",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

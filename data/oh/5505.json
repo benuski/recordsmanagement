@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TTA",
+      "schedule_type": "specific",
+      "schedule_id": "240-0012",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/5505"
+    },
+    "series_metadata": {
+      "series_id": "OP-12",
+      "series_title": "Transfer Forms",
+      "series_description": "Transfer forms allow a customer to transfer funds to a different beneficiary (contract). Confidential - Revised Code 3334.11.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Keep audit",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2000-11-24",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

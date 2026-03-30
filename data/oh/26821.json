@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "PUC",
+      "schedule_type": "specific",
+      "schedule_id": "870-0485",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/26821"
+    },
+    "series_metadata": {
+      "series_id": "24.13",
+      "series_title": "Confidential Documents From Formal Case Files",
+      "series_description": "Filings from the formal docketed case files that are given protective treatment pursuant to Ohio Administrative Code 4901-1-24. Examples of documents involved include testimonies, exhibits, financial statements, cost studies, reports, and other items containing proprietary or sensitive information regarding utility company facilities and operations.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: in confidential status Motion Protective Order is granted, or designated period expires, whichever is greater",
+      "duration_years": null,
+      "duration_months": 18,
+      "disposition_method": "Paper: Other",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2008-11-10",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

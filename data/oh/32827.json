@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OTC",
+      "schedule_type": "specific",
+      "schedule_id": "50580615",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/32827"
+    },
+    "series_metadata": {
+      "series_id": "OTC-701-42",
+      "series_title": "Fuel and Material Inventory Logs",
+      "series_description": "Inventory logs relating to the purchase and usage of diesel, gas, lubricants, etc. for vehicles and equipment.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: scanned copy present year ; Paper: scanned electronically. Once scanned, dispose of paper copy. scanned copy present year",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Trash",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2021-06-16",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

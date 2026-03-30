@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DDD",
+      "schedule_type": "specific",
+      "schedule_id": "50740136",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39520"
+    },
+    "series_metadata": {
+      "series_id": "DDDMDA-10",
+      "series_title": "Provider Certification Records",
+      "series_description": "Certificates provided to individuals, providers, agency facilities, or county boards that have successfully passed Department review for certification, program, medication administration, certification qualifications, and/or services provided. This includes all applications for certifications and needed documentation for review.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: scanned and saved electronically. ; Electronic: certification ends",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2024-06-18",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

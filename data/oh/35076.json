@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DHS",
+      "schedule_type": "specific",
+      "schedule_id": "760-1587",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35076"
+    },
+    "series_metadata": {
+      "series_id": "4018",
+      "series_title": "Electronic Liens and Titles (ELT) Data",
+      "series_description": "Each record contains data received electronically from Electronic Lienholders when requesting a transaction supported by the ELT process. Transaction types are: 1) Lien request, 2) Request for physical title, 3) Lien reassignment request, and 4) Lien discharge request. The data received always contains the year, make, and vehicle identification number (VIN), hull identification number (HIN), and motor identification number (MIN) of the vehicle or watercraft. In the case of a lien request, the data also contains the owner’s name. Additionally, the data indicates who the lienholder is currently and/or who the lienholder is to be.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Records are be retained seven (7) years from date of entry and",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2018-06-21",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

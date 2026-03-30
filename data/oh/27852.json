@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DHS",
+      "schedule_type": "specific",
+      "schedule_id": "760-1304",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/27852"
+    },
+    "series_metadata": {
+      "series_id": "INV0054",
+      "series_title": "Request for EBT card",
+      "series_description": "Documents the request for an Electronic Benefit Transfer (EBT) Card for criminal and civil investigations. Includes INV0054 to request additional funds added to the EBT card as well as DPS 0116 for the transfer of EBT Card owners.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: in Central Office EBT Card is received. Paper documentation should be scanned and saved electronically. ; Electronic: five (5) years current year",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2023-10-11",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

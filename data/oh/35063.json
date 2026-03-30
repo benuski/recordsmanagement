@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "JFS",
+      "schedule_type": "specific",
+      "schedule_id": "795-0941",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35063"
+    },
+    "series_metadata": {
+      "series_id": "OIS-AUD-LG2",
+      "series_title": "OIS Audit Trail Logs",
+      "series_description": "All audit trail logs and records on access to Federal Tax Information (FTI) must be audited at the operating system, software, and database levels. Software and platforms have differing audit capabilities. Auditing must be enabled to the greatest extent necessary to capture access, modification, deletion, and movement of Federal Tax Information (FTI) by each unique user. These records will be retained to provide support for after-the-fact investigations of security incidents and to meet regulatory and agency information retention requirements",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: in office",
+      "duration_years": 7,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2024-05-24",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

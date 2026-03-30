@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "JFS",
+      "schedule_type": "specific",
+      "schedule_id": "795-0837",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/30709"
+    },
+    "series_metadata": {
+      "series_id": "UC-SPC-001",
+      "series_title": "Benefits Tracking System",
+      "series_description": "System for tracking processing activity on combined wage claims, federal (UCFE) and military (UCX) claims, and appeals. Appeals include redetermination, Hearing Officer, Full Review, and at all court levels. System includes claimant's personal information, claims processing data on active/inactive cases, and dates of appeal and final determination.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2024-01-24",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "855-1133",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/29912"
+    },
+    "series_metadata": {
+      "series_id": "RTBC/RRPM",
+      "series_title": "Retrospective Rating Program Material and Application Information",
+      "series_description": "The Retrospective Rating Program Material and Application Information includes: the application for the program, initial minimum premium percentage worksheets, eligibility report, correspondence, financial evaluation worksheet, letter of acceptance or rejection for the program, annual evaluation and adjustments, minimum premium percentage worksheets, claim/payroll adjustments and GAAP audited financial statements. If the information the employer filled out on these documents meets the criteria for the Retrospective Rating Program then they may participate in the program. The Universal Document Service (UDS) is an imaging concept that stores any type of electronic file, such as Microsoft Office documents, Adobe Acrobat, audio/video, Computer Aided Design (CAD), etc. as well as scanned images.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: if documents are not scanned into UDS. If scanned into UDS, destroyed it has been verified that a readable copy has been stored electronically, and ; Electronic: in UDS , and",
+      "duration_years": 12,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2012-04-05",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

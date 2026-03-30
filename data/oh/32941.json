@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DHS",
+      "schedule_type": "specific",
+      "schedule_id": "760-1564",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/32941"
+    },
+    "series_metadata": {
+      "series_id": "1300",
+      "series_title": "Ohio State Patrol (OSP) Intelligence Products Reference Library",
+      "series_description": "Information, reports, and research results collected from various law enforcement databases and retained for the purpose of trending and analysis.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: in Intelligence Unit’s data-system no longer relevant or of administrative value",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2024-02-28",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

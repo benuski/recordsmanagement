@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "CCC",
+      "schedule_type": "specific",
+      "schedule_id": "50670012",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/36163"
+    },
+    "series_metadata": {
+      "series_id": "CCC-015",
+      "series_title": "Central Office Security Camera Footage",
+      "series_description": "Surveillance camera recordings from inside the agency''s Central Office.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: 30 days",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2019-03-21",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

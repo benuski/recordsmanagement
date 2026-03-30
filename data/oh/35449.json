@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DOT",
+      "schedule_type": "specific",
+      "schedule_id": "770-0538",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35449"
+    },
+    "series_metadata": {
+      "series_id": "OESS-06",
+      "series_title": "Transfer Ticket - Form M&R-546",
+      "series_description": "Two part form used to transfer material between sections within the garage. Original to records and copy to provider. Sent to office for general ledger use. All information now being stored in EIMS System.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Information stored in EIMS System and is no longer destroyed",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition_method": "Electronic: Permanent",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2018-12-14",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

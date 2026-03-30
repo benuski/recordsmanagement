@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OTC",
+      "schedule_type": "specific",
+      "schedule_id": "50580112",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/23546"
+    },
+    "series_metadata": {
+      "series_id": "OTC-500-59",
+      "series_title": "Charge Account Customer Files - Closed",
+      "series_description": "Cancelled files of charge account customer: Files include original application for charge privilege, current and expired bonds (surety bond) and correspondence pertaining to the account.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: closed file",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2006-08-16",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

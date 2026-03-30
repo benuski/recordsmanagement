@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DAS",
+      "schedule_type": "specific",
+      "schedule_id": "100-0707",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/26041"
+    },
+    "series_metadata": {
+      "series_id": "SSP-03",
+      "series_title": "State Surplus Sale Number Assignment Book",
+      "series_description": "This consists of a log from which State Surplus Sales numbers are assigned. The information listed is date of sale, type of sale, purchaser's name (agency or individual), county of purchaser, sale number, total amount of sale, and license number, if a vehicle. Types of sales involved are: Sale of the Month; tax-supported agencies; Ohio State Patrol Vehicles sold; and sealed bids. (location sales).",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: 3 fiscal years in operating system",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2025-12-19",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

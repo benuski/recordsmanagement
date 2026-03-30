@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "855-1163",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35156"
+    },
+    "series_metadata": {
+      "series_id": "ADMPRO10",
+      "series_title": "Cancelled Bids",
+      "series_description": "Cancelled Bids include any proposals received from a vendor responding to a Request for Proposal (RFP) or Invitation to Bid (ITB) where the RFP or ITB was canceled and not awarded. Any proposal documentation received from a prospective vendor as well as the bid folder documentation generated from a cancelled bid.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: When Bid is cancelled; 90 days, and ; Electronic: on Procurement I;/drive when bid is cancelled; 90 days, and",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2018-09-10",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

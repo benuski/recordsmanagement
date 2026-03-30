@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DHS",
+      "schedule_type": "specific",
+      "schedule_id": "760-1461",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/29532"
+    },
+    "series_metadata": {
+      "series_id": "ADIM-1",
+      "series_title": "Receiving Records",
+      "series_description": "Printing/purchase documents are combined with original copies of packing lists and receiving documents that provide order status verification on arriving products. Electronic records are maintained through network supported applications. Original documents are stored at Lebanon Correctional facility.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Maintain 2 fiscal years, current fiscal year ; Electronic: Receiving database (MS Access) information is maintained 3 fiscal years and no longer of administrative value",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Recycle ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2011-06-20",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

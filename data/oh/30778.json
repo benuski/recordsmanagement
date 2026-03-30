@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DMR",
+      "schedule_type": "specific",
+      "schedule_id": "15900331",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/30778"
+    },
+    "series_metadata": {
+      "series_id": "DMR-SOSS17",
+      "series_title": "Medical Conference Infromation",
+      "series_description": "Documentation of Medical conference, hosted by DODD, including agenda, speakers, participants, budget, etc",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: from date of conference. ; Paper: from date of conference",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Trash",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2018-05-14",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

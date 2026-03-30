@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TAX",
+      "schedule_type": "specific",
+      "schedule_id": "11100841",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/38542"
+    },
+    "series_metadata": {
+      "series_id": "N/A",
+      "series_title": "Railroad values - Used in Operation",
+      "series_description": "Values for railroad real property used in the operation of a railroad (RRR), organized by county and tax district. This report lists the values of RRR loaded to DTS''s database each fall. Source data is provided to DTE from ODT''s Excise Division. It is used in conjunction with other taxable real property values to calculate tax reduction factors at the end of each year.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Ten years date report is run. ; Electronic: Ten years date report is run",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Trash ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2019-09-09",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

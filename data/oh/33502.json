@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DAS",
+      "schedule_type": "specific",
+      "schedule_id": "11001640",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/33502"
+    },
+    "series_metadata": {
+      "series_id": "FIN-04",
+      "series_title": "Payment Cardholder Account Information",
+      "series_description": "All records relating to payment cardholder accounts, including: payment cardholder applications, information forms, agreements, change requests, and any other records that relate to the payment cardholder account. This does not include transactional documentation.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: electronically card is inactivated ; Paper: stored electronically",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Recycle",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2025-08-25",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

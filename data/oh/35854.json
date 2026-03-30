@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "ODM",
+      "schedule_type": "specific",
+      "schedule_id": "50750203",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35854"
+    },
+    "series_metadata": {
+      "series_id": "LAS-PURCH",
+      "series_title": "Purchasing Records",
+      "series_description": "Alphabetical files by vendor of agency purchase orders to include requisitions and supporting documentation of these requests, e.g. bids, signature approvals, pricing and copies of invoices.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: in office , audited by Auditor of State and audited report is released and discrepancies are resolved ; Electronic: in office , audited by Auditor of State and audited report is released and discrepancies are resolved",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2019-02-15",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

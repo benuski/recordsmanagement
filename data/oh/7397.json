@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "COM",
+      "schedule_type": "specific",
+      "schedule_id": "800-0633",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/7397"
+    },
+    "series_metadata": {
+      "series_id": "MIST-01",
+      "series_title": "Report Data Tapes",
+      "series_description": "This data includes: local option votes, active permit holders, 10yr agency control, YTD fee distribution, bailment purchase orders, store total file (final dump), District summary file (final dump), original brand summary, brand summary (80/80), payroll-employee master and detail, capital assets history, reformatted accounting records, YTD agency control, and item record file (final dump).",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Information is retained",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "1999-03-17",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

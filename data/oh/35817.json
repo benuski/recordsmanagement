@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "ODM",
+      "schedule_type": "specific",
+      "schedule_id": "50750172",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35817"
+    },
+    "series_metadata": {
+      "series_id": "ODM-PAY-01",
+      "series_title": "Payroll Files",
+      "series_description": "Record contains employment history, payroll earnings, and deduction information. May contain Personnel Action, Withholding Certificates, Payroll Deduction, Deferred Compensation, Health Care, Dental Care, Disability Application, and Request for Leave, Address Change, Payroll Record, and W2 Roster.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: electronically in Onbase",
+      "duration_years": 7,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2019-02-11",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

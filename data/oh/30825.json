@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TOS",
+      "schedule_type": "specific",
+      "schedule_id": "090-0461",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/30825"
+    },
+    "series_metadata": {
+      "series_id": "REV-210",
+      "series_title": "Cigarette Tax Stamps - order forms & invoices",
+      "series_description": "In accordance with Revised Code chapter 5743, the Treasurer sells cigarette tax stamps to dealers which are subsequently affixed to individual packs of cigarettes sold in Ohio. Dealers complete and submit order forms. Information from the order form is then entered into a computer and a paper invoice is generated and sent to the dealer so proper payment can be remitted. A copy of the invoice is also printed and attached to the order form.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: order form and paper invoices later of following: conclusion of current fiscal year and two additional fiscal years, or annual audit of Treasurer corresponding fiscal year by Auditor of State is complete and final audit report has been published. ; Electronic: invoice information input into database conclusion of current fiscal year and five additional fiscal years",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2022-05-03",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

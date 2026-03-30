@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "PUC",
+      "schedule_type": "specific",
+      "schedule_id": "870-0424",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/27274"
+    },
+    "series_metadata": {
+      "series_id": "77.7",
+      "series_title": "Intrastate Insurance Filings",
+      "series_description": "File containing insurance papers of motor carriers, which includes the following: liability insurance limits, cargo insurance limits, cancellations, and surety bonds.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Paper copy be destroyed image is checked quality and completeness. ; Electronic: Maintain as long as registration is active. Once it has expired, keep",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Paper: Wastepaper ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2009-02-23",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

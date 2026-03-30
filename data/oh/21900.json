@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DNR",
+      "schedule_type": "specific",
+      "schedule_id": "725-0113",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/21900"
+    },
+    "series_metadata": {
+      "series_id": "730-017",
+      "series_title": "Cabin Registration Form",
+      "series_description": "Form used for the purpose of registering cabin users at Ohio State Parks and the card contains at least the following information: name of registrant, address, date of arrival, number of nights planning to stay and unit number.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: audit",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Paper: Wastepaper",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2006-11-02",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]
