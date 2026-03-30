@@ -1,50 +1,64 @@
 [
   {
-    "agency_name": "Virginia Retirement System",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "158-005",
-    "series_id": "015239",
-    "series_title": "Monthly Contribution Reports",
-    "series_description": "This series consists of monthly reports from covered employers that document any changes in employee compensation or contribution amounts. Employers prepare and file reports with the VRS Employer Reporting Section for review, audit, reconciliation, and posting to the member's account. The records are retained for evidence of the",
-    "retention_statement": "Retain documents for 7 years after closure of fiscal year. Return to agency for reformatting to digital media according to Library of Virginia's standards/guidelines. Destroy paper records after quality control inspection verifies images according to No. 8 on schedule cover page. No RM-3 required.",
-    "retention_years": 7,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/158-005.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Virginia Retirement System",
+      "schedule_type": "specific",
+      "schedule_id": "158-005",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/158-005.pdf"
+    },
+    "series_metadata": {
+      "series_id": "015239",
+      "series_title": "Monthly Contribution Reports",
+      "series_description": "This series consists of monthly reports from covered employers that document any changes in employee compensation or contribution amounts. Employers prepare and file reports with the VRS Employer Reporting Section for review, audit, reconciliation, and posting to the member's account. The records are retained for evidence of the",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "documents closure of fiscal year. Return agency reformatting digital media according Library of Virginia's standards/guidelines. paper records quality control inspection verifies images according No. 8 on schedule cover page. No RM-3 required",
+      "duration_years": 7,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "Virginia Retirement System",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "158-005",
-    "series_id": "009040",
-    "series_title": "member's contribution history",
-    "series_description": "Each file includes: VRS-1500 Contribution Report, VRS-52 Contribution Worksheet, and VRS-1501 Error Report. The file may also include VRS-48 Member Information Change Report, VRS-65 Election to Participate — Optional Retirement Plan, computer produced member record displays, worksheets, correspondence, and DMV screen-print.",
-    "retention_statement": "Transfer original copy of microfilm or electronic storage media to SRC Media Vault for permanent retention. Agency responsible for updating electronic media as per No. 7 on schedule cover sheet.",
-    "retention_years": null,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/158-005.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Virginia Retirement System",
+      "schedule_type": "specific",
+      "schedule_id": "158-005",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/158-005.pdf"
+    },
+    "series_metadata": {
+      "series_id": "009040",
+      "series_title": "member's contribution history",
+      "series_description": "Each file includes: VRS-1500 Contribution Report, VRS-52 Contribution Worksheet, and VRS-1501 Error Report. The file may also include VRS-48 Member Information Change Report, VRS-65 Election to Participate — Optional Retirement Plan, computer produced member record displays, worksheets, correspondence, and DMV screen-print.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "original copy of microfilm or electronic storage media SRC Media Vault permanent retention. Agency responsible updating electronic media as per No. 7 on schedule cover sheet",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   }
 ]

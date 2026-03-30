@@ -1,26 +1,33 @@
 [
   {
-    "agency_name": "Department of Transportation",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "501-026",
-    "series_id": "002989",
-    "series_title": "Records Management: Transfer Files (AS-94)",
-    "series_description": "This series documents the transfer of boxes from VDOT to offsite storage. This series may include, but is not limited to: forms and supporting documentation.",
-    "retention_statement": "3 Years after expiration",
-    "retention_years": 3,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Non-confidential Destruction",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": "2021-02-02",
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/501-026.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Department of Transportation",
+      "schedule_type": "specific",
+      "schedule_id": "501-026",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/501-026.pdf"
+    },
+    "series_metadata": {
+      "series_id": "002989",
+      "series_title": "Records Management: Transfer Files (AS-94)",
+      "series_description": "This series documents the transfer of boxes from VDOT to offsite storage. This series may include, but is not limited to: forms and supporting documentation.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "expiration",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Non-confidential Destruction",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2021-02-02",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   }
 ]

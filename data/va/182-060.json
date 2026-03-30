@@ -1,26 +1,33 @@
 [
   {
-    "agency_name": "Virginia Employment Commission",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "182-060",
-    "series_id": "200516",
-    "series_title": "Unemployment Insurance Trust Fund Records",
-    "series_description": "This series documents all transactions relating to the Unemployment Insurance Trust Fund. This series may include, but is not limited to: daily benefit payment journals, deposits, and supporting documentation.",
-    "retention_statement": "6 Years after creation",
-    "retention_years": 6,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Non-confidential Destruction",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": "2016-07-12",
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/182-060.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Virginia Employment Commission",
+      "schedule_type": "specific",
+      "schedule_id": "182-060",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/182-060.pdf"
+    },
+    "series_metadata": {
+      "series_id": "200516",
+      "series_title": "Unemployment Insurance Trust Fund Records",
+      "series_description": "This series documents all transactions relating to the Unemployment Insurance Trust Fund. This series may include, but is not limited to: daily benefit payment journals, deposits, and supporting documentation.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "creation",
+      "duration_years": 6,
+      "duration_months": null,
+      "disposition_method": "Non-confidential Destruction",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2016-07-12",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   }
 ]

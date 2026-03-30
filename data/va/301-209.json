@@ -1,98 +1,126 @@
 [
   {
-    "agency_name": "Department of Agriculture and Consumer Services",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "301-209",
-    "series_id": "200311",
-    "series_title": "Agricultural Stewardship Act Complaint Files The series",
-    "series_description": "documents the receipt of complaints pursuant to the Agricultural Stewardship Act. This series may include, but is not limited to: owner/operator information, stewardship plans, maps, photographs, case notes, and correspondence relating to the complaint.",
-    "retention_statement": "",
-    "retention_years": null,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Permanent, In Agency",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/301-209.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Department of Agriculture and Consumer Services",
+      "schedule_type": "specific",
+      "schedule_id": "301-209",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/301-209.pdf"
+    },
+    "series_metadata": {
+      "series_id": "200311",
+      "series_title": "Agricultural Stewardship Act Complaint Files The series",
+      "series_description": "documents the receipt of complaints pursuant to the Agricultural Stewardship Act. This series may include, but is not limited to: owner/operator information, stewardship plans, maps, photographs, case notes, and correspondence relating to the complaint.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Permanent",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition_method": "Permanent, In Agency",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "Department of Agriculture and Consumer Services",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "301-209",
-    "series_id": "200839",
-    "series_title": "Industrial Hemp Program Compliance Records",
-    "series_description": "This series documents the monitoring of industrial hemp to ensure compliance with the Virginia Industrial Hemp Law. This series may include, but is not limited to, reports submitted by industrial hemp registrants and records related to the sampling and analysis of industrial hemp.",
-    "retention_statement": "5 Years after end of calendar year",
-    "retention_years": 5,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Confidential Destruction",
-    "confidential": true,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/301-209.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Department of Agriculture and Consumer Services",
+      "schedule_type": "specific",
+      "schedule_id": "301-209",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/301-209.pdf"
+    },
+    "series_metadata": {
+      "series_id": "200839",
+      "series_title": "Industrial Hemp Program Compliance Records",
+      "series_description": "This series documents the monitoring of industrial hemp to ensure compliance with the Virginia Industrial Hemp Law. This series may include, but is not limited to, reports submitted by industrial hemp registrants and records related to the sampling and analysis of industrial hemp.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "end of calendar year",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Confidential Destruction",
+      "confidential_flag": true
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "Department of Agriculture and Consumer Services",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "301-209",
-    "series_id": "200840",
-    "series_title": "Industrial Hemp Program Registration Records",
-    "series_description": "This series documents the registration process for Industrial Hemp Growers, Processors, Dealers, and Handlers and the agency's administration of the provisions of the Industrial Hemp Law pertaining to industrial hemp registrations. This series may include, but is not limited to: registration applications, FBI Identity History Summaries, registrations issued, correspondence with the applicant or law enforcement, and supporting documentation.",
-    "retention_statement": "5 Years after end of calendar year",
-    "retention_years": 5,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Confidential Destruction",
-    "confidential": true,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/301-209.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Department of Agriculture and Consumer Services",
+      "schedule_type": "specific",
+      "schedule_id": "301-209",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/301-209.pdf"
+    },
+    "series_metadata": {
+      "series_id": "200840",
+      "series_title": "Industrial Hemp Program Registration Records",
+      "series_description": "This series documents the registration process for Industrial Hemp Growers, Processors, Dealers, and Handlers and the agency's administration of the provisions of the Industrial Hemp Law pertaining to industrial hemp registrations. This series may include, but is not limited to: registration applications, FBI Identity History Summaries, registrations issued, correspondence with the applicant or law enforcement, and supporting documentation.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "end of calendar year",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Confidential Destruction",
+      "confidential_flag": true
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "Department of Agriculture and Consumer Services",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "301-209",
-    "series_id": "200312",
-    "series_title": "Virginia Farm Link Program Files The series",
-    "series_description": "documents the registration of farm owners and farm seekers through the Virginia Farm Link database. This series may include, but is not limited to: applications and correspondence.",
-    "retention_statement": "5 Years after closed",
-    "retention_years": 5,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Confidential Destruction",
-    "confidential": true,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/301-209.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Department of Agriculture and Consumer Services",
+      "schedule_type": "specific",
+      "schedule_id": "301-209",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/301-209.pdf"
+    },
+    "series_metadata": {
+      "series_id": "200312",
+      "series_title": "Virginia Farm Link Program Files The series",
+      "series_description": "documents the registration of farm owners and farm seekers through the Virginia Farm Link database. This series may include, but is not limited to: applications and correspondence.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "closed",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Confidential Destruction",
+      "confidential_flag": true
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   }
 ]

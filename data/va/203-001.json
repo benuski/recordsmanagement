@@ -1,26 +1,33 @@
 [
   {
-    "agency_name": "Wilson Workforce and Rehabilitation Center",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "203-001",
-    "series_id": "008306",
-    "series_title": "Client Case Records: Medical/Vocational",
-    "series_description": "This series documents the care, treatment/intervention, and/or training provided to each client enrolled at the Center.",
-    "retention_statement": "Retain 10 years after last treatment or training then destroy in compliance with No. 8 on the schedule cover page. 12VAC5-410-370F",
-    "retention_years": 10,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/203-001.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Wilson Workforce and Rehabilitation Center",
+      "schedule_type": "specific",
+      "schedule_id": "203-001",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/203-001.pdf"
+    },
+    "series_metadata": {
+      "series_id": "008306",
+      "series_title": "Client Case Records: Medical/Vocational",
+      "series_description": "This series documents the care, treatment/intervention, and/or training provided to each client enrolled at the Center.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "last treatment or training in compliance with No. 8 on schedule cover page. 12VAC5-410-370F",
+      "duration_years": 10,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   }
 ]

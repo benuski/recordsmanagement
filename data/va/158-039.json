@@ -1,26 +1,33 @@
 [
   {
-    "agency_name": "Virginia Retirement System",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "158-039",
-    "series_id": "009035",
-    "series_title": "Reconciliation and Cash Flow Documentation",
-    "series_description": "",
-    "retention_statement": "Retain 5 years after end of FY, then destroy.",
-    "retention_years": 5,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/158-039.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Virginia Retirement System",
+      "schedule_type": "specific",
+      "schedule_id": "158-039",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/158-039.pdf"
+    },
+    "series_metadata": {
+      "series_id": "009035",
+      "series_title": "Reconciliation and Cash Flow Documentation",
+      "series_description": "",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "end of FY",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   }
 ]

@@ -1,74 +1,95 @@
 [
   {
-    "agency_name": "Virginia Passenger Rail Authority",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "522-001",
-    "series_id": "200775",
-    "series_title": "Engineering and Construction Projects",
-    "series_description": "This series documents planning and project records for the Engineering and Construction Division. This series may include, but is not limited to planning and design records, applications, contract administration files engineering records, historically significant records and other project documentation.",
-    "retention_statement": "",
-    "retention_years": null,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Permanent, In Agency",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": "2023-09-14",
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/522-001.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Virginia Passenger Rail Authority",
+      "schedule_type": "specific",
+      "schedule_id": "522-001",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/522-001.pdf"
+    },
+    "series_metadata": {
+      "series_id": "200775",
+      "series_title": "Engineering and Construction Projects",
+      "series_description": "This series documents planning and project records for the Engineering and Construction Division. This series may include, but is not limited to planning and design records, applications, contract administration files engineering records, historically significant records and other project documentation.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Permanent",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition_method": "Permanent, In Agency",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2023-09-14",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "Virginia Passenger Rail Authority",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "522-001",
-    "series_id": "200776",
-    "series_title": "MARC Run-Through Agreement Files",
-    "series_description": "This series documents contractual obligations between VPRA and MARC for through-running commuter trains between Virginia and Maryland. This series may include but is not limited to the signed final agreement. The service is scheduled to begin between states in 2030 at the earliest.",
-    "retention_statement": "",
-    "retention_years": null,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Permanent, In Agency",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": "2023-09-14",
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/522-001.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Virginia Passenger Rail Authority",
+      "schedule_type": "specific",
+      "schedule_id": "522-001",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/522-001.pdf"
+    },
+    "series_metadata": {
+      "series_id": "200776",
+      "series_title": "MARC Run-Through Agreement Files",
+      "series_description": "This series documents contractual obligations between VPRA and MARC for through-running commuter trains between Virginia and Maryland. This series may include but is not limited to the signed final agreement. The service is scheduled to begin between states in 2030 at the earliest.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Permanent",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition_method": "Permanent, In Agency",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2023-09-14",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "Virginia Passenger Rail Authority",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "522-001",
-    "series_id": "000334",
-    "series_title": "Rail Memorandum of Understanding Program Files",
-    "series_description": "This series documents the Memorandum of Understanding Program (CSX-MOU), between the DRPT and the CSX Corporation regarding the usage of CSX railroad tracks for public transit. This series may include agreements, contracts, addenda, background information and invoices.",
-    "retention_statement": "20 Years after end of calendar year",
-    "retention_years": 20,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Non-confidential Destruction",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": "2023-09-14",
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/522-001.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Virginia Passenger Rail Authority",
+      "schedule_type": "specific",
+      "schedule_id": "522-001",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/522-001.pdf"
+    },
+    "series_metadata": {
+      "series_id": "000334",
+      "series_title": "Rail Memorandum of Understanding Program Files",
+      "series_description": "This series documents the Memorandum of Understanding Program (CSX-MOU), between the DRPT and the CSX Corporation regarding the usage of CSX railroad tracks for public transit. This series may include agreements, contracts, addenda, background information and invoices.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "end of calendar year",
+      "duration_years": 20,
+      "duration_months": null,
+      "disposition_method": "Non-confidential Destruction",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2023-09-14",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   }
 ]

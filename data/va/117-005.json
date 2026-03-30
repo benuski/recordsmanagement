@@ -1,26 +1,33 @@
 [
   {
-    "agency_name": "Virginia State Bar",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "117-005",
-    "series_id": "008003",
-    "series_title": "Clients' Protection Fund Petitions",
-    "series_description": "reimbursement from the Clients' Protection Fund. This fund was established in 1976 for the purpose of making monetary",
-    "retention_statement": "Retain 15 years after reimbursement or denial of petition, then",
-    "retention_years": 15,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/117-005.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Virginia State Bar",
+      "schedule_type": "specific",
+      "schedule_id": "117-005",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/117-005.pdf"
+    },
+    "series_metadata": {
+      "series_id": "008003",
+      "series_title": "Clients' Protection Fund Petitions",
+      "series_description": "reimbursement from the Clients' Protection Fund. This fund was established in 1976 for the purpose of making monetary",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "reimbursement or denial of petition",
+      "duration_years": 15,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   }
 ]

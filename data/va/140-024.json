@@ -1,50 +1,64 @@
 [
   {
-    "agency_name": "Department of Criminal Justice Services",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "140-024",
-    "series_id": "200837",
-    "series_title": "School Safety Audits: Reports",
-    "series_description": "This series documents the completion of school safety audits. This series may include, but is not limited to: guides, sample communications, reports, and other supporting documentation.",
-    "retention_statement": "5 Years after end of state fiscal year",
-    "retention_years": 5,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Non-confidential Destruction",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/140-024.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Department of Criminal Justice Services",
+      "schedule_type": "specific",
+      "schedule_id": "140-024",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/140-024.pdf"
+    },
+    "series_metadata": {
+      "series_id": "200837",
+      "series_title": "School Safety Audits: Reports",
+      "series_description": "This series documents the completion of school safety audits. This series may include, but is not limited to: guides, sample communications, reports, and other supporting documentation.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "end of state fiscal year",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Non-confidential Destruction",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "Department of Criminal Justice Services",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "140-024",
-    "series_id": "200836",
-    "series_title": "School Safety Audits: Research",
-    "series_description": "This series consists of the research from school and division safety audit survey and climate survey responses, which may then be used to generate reports. This series may include, but is not limited to research.",
-    "retention_statement": "10 Years after end of state fiscal",
-    "retention_years": 10,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "year Non-confidential Destruction",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/140-024.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Department of Criminal Justice Services",
+      "schedule_type": "specific",
+      "schedule_id": "140-024",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/140-024.pdf"
+    },
+    "series_metadata": {
+      "series_id": "200836",
+      "series_title": "School Safety Audits: Research",
+      "series_description": "This series consists of the research from school and division safety audit survey and climate survey responses, which may then be used to generate reports. This series may include, but is not limited to research.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "end of state fiscal",
+      "duration_years": 10,
+      "duration_months": null,
+      "disposition_method": "year Non-confidential Destruction",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   }
 ]

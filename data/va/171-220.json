@@ -1,26 +1,33 @@
 [
   {
-    "agency_name": "State Corporation Commission",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "171-220",
-    "series_id": "009250",
-    "series_title": "Referrals from other Property and Casualty Sections",
-    "series_description": "This series documents restitution, corrective action plans, and other dispositions against insurers and other",
-    "retention_statement": "Retain for 5 years after payment is complete, then destroy.",
-    "retention_years": 5,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/171-220.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "State Corporation Commission",
+      "schedule_type": "specific",
+      "schedule_id": "171-220",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/171-220.pdf"
+    },
+    "series_metadata": {
+      "series_id": "009250",
+      "series_title": "Referrals from other Property and Casualty Sections",
+      "series_description": "This series documents restitution, corrective action plans, and other dispositions against insurers and other",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "payment is complete",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   }
 ]

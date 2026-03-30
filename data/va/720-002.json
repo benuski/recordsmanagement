@@ -1,26 +1,33 @@
 [
   {
-    "agency_name": "Department of Behavioral Health and Developmental Services",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "720-002",
-    "series_id": "200875",
-    "series_title": "Provider Files for Licensed Services Organization",
-    "series_description": "This series documents the approval, monitoring, and licensing of DBHDS providers to include mental health, substance abuse, developmental disability and brain injury services. This series may include but is not limited to: applications and supporting materials, State Corporation Commission documentation, organizational administrative documentation, copies of licenses issued, complaints, investigations, and incident reports.",
-    "retention_statement": "5 Years after closed",
-    "retention_years": 5,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Confidential Destruction",
-    "confidential": true,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": "2025-09-11",
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/720-002.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Department of Behavioral Health and Developmental Services",
+      "schedule_type": "specific",
+      "schedule_id": "720-002",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/720-002.pdf"
+    },
+    "series_metadata": {
+      "series_id": "200875",
+      "series_title": "Provider Files for Licensed Services Organization",
+      "series_description": "This series documents the approval, monitoring, and licensing of DBHDS providers to include mental health, substance abuse, developmental disability and brain injury services. This series may include but is not limited to: applications and supporting materials, State Corporation Commission documentation, organizational administrative documentation, copies of licenses issued, complaints, investigations, and incident reports.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "closed",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Confidential Destruction",
+      "confidential_flag": true
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2025-09-11",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   }
 ]

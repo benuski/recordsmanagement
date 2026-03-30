@@ -1,26 +1,33 @@
 [
   {
-    "agency_name": "Department for Aging and Rehabilitative Services",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "262-001",
-    "series_id": "000521",
-    "series_title": "Disability Determination Services: Closed Medicaid Disability Files",
-    "series_description": "This series documents Medicaid disability files created to determine medical assistance eligibility under Title XIX of the Social Security Act. This series may include, but is not limited to: client allegations of disability, work history, activities of daily living reports, and medical reports to evaluate work related functions.",
-    "retention_statement": "Retain 1 year after determination of eligibility then destroy in compliance with No. 8 on the schedule cover page.",
-    "retention_years": 1,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/262-001.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Department for Aging and Rehabilitative Services",
+      "schedule_type": "specific",
+      "schedule_id": "262-001",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/262-001.pdf"
+    },
+    "series_metadata": {
+      "series_id": "000521",
+      "series_title": "Disability Determination Services: Closed Medicaid Disability Files",
+      "series_description": "This series documents Medicaid disability files created to determine medical assistance eligibility under Title XIX of the Social Security Act. This series may include, but is not limited to: client allegations of disability, work history, activities of daily living reports, and medical reports to evaluate work related functions.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "determination of eligibility in compliance with No. 8 on schedule cover page",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   }
 ]

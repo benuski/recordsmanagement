@@ -1,74 +1,95 @@
 [
   {
-    "agency_name": "Department of Wildlife Resources",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "403-001",
-    "series_id": "200256",
-    "series_title": "Boat Registration and Titling Applications",
-    "series_description": "This series documents the registration of boats and watercraft in the commonwealth. This series may include, but is not limited to: titles, registration and renewal applications, lien releases, certificates of origin, certificates of titles, sales invoices, and outof-state registrations.",
-    "retention_statement": "75 Years after submission",
-    "retention_years": 75,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Confidential Destruction",
-    "confidential": true,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/403-001.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Department of Wildlife Resources",
+      "schedule_type": "specific",
+      "schedule_id": "403-001",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/403-001.pdf"
+    },
+    "series_metadata": {
+      "series_id": "200256",
+      "series_title": "Boat Registration and Titling Applications",
+      "series_description": "This series documents the registration of boats and watercraft in the commonwealth. This series may include, but is not limited to: titles, registration and renewal applications, lien releases, certificates of origin, certificates of titles, sales invoices, and outof-state registrations.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "submission",
+      "duration_years": 75,
+      "duration_months": null,
+      "disposition_method": "Confidential Destruction",
+      "confidential_flag": true
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "Department of Wildlife Resources",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "403-001",
-    "series_id": "200257",
-    "series_title": "Lifetime Hunting and Fishing License Applications",
-    "series_description": "This series documents application for lifetime hunting and fishing licenses. This series may include, but is not limited to: applications and photocopies of drivers' licenses, valid identification cards or birth certificates.",
-    "retention_statement": "3 Years after submission",
-    "retention_years": 3,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Confidential Destruction",
-    "confidential": true,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/403-001.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Department of Wildlife Resources",
+      "schedule_type": "specific",
+      "schedule_id": "403-001",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/403-001.pdf"
+    },
+    "series_metadata": {
+      "series_id": "200257",
+      "series_title": "Lifetime Hunting and Fishing License Applications",
+      "series_description": "This series documents application for lifetime hunting and fishing licenses. This series may include, but is not limited to: applications and photocopies of drivers' licenses, valid identification cards or birth certificates.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "submission",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Confidential Destruction",
+      "confidential_flag": true
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "Department of Wildlife Resources",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "403-001",
-    "series_id": "200258",
-    "series_title": "Lifetime Hunting and Fishing License Data Files",
-    "series_description": "This series documents the issuance of lifetime hunting and fishing licenses. This series may include, but is not limited to: license data.",
-    "retention_statement": "100 Years after issuance",
-    "retention_years": 100,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Confidential Destruction",
-    "confidential": true,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/403-001.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Department of Wildlife Resources",
+      "schedule_type": "specific",
+      "schedule_id": "403-001",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/403-001.pdf"
+    },
+    "series_metadata": {
+      "series_id": "200258",
+      "series_title": "Lifetime Hunting and Fishing License Data Files",
+      "series_description": "This series documents the issuance of lifetime hunting and fishing licenses. This series may include, but is not limited to: license data.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "issuance",
+      "duration_years": 100,
+      "duration_months": null,
+      "disposition_method": "Confidential Destruction",
+      "confidential_flag": true
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   }
 ]

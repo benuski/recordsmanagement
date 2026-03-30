@@ -12,7 +12,7 @@ from datetime import datetime, date
 from bs4 import BeautifulSoup
 
 from processing.tx.config import texas_config
-from processing.utils import make_record, clean_record_fields
+from processing.central_file import make_record, clean_record_fields, update_record, get_nested_val
 from processing.utils.pdf_utils import stringify_words
 from processing.utils.text_utils import split_title_and_description
 
@@ -254,7 +254,7 @@ def parse_using_vertical_silo_tx(
                 
                 # Parse retention
                 parsed = parse_retention_field(f"{ret_code} + {ret_period}", retention_codes)
-                raw_record.update(parsed)
+                update_record(raw_record, **parsed)
                 
                 all_records.append(clean_record_fields(raw_record, config))
 
@@ -348,11 +348,11 @@ def process_texas_pdf(pdf_path: Path, schema: dict, retention_codes_path: Path, 
                         period_text = " ".join([f"{str(row[col_map[k]] or '').strip()} {k.split('_')[1]}" for k in ['retention_years', 'retention_months', 'retention_days'] if k in col_map and len(row) > col_map[k] and str(row[col_map[k]] or '').strip()])
                         
                         parsed = parse_retention_field(f"{ret_code} + {period_text}", retention_codes)
-                        raw_record.update(parsed)
+                        update_record(raw_record, **parsed)
 
-                        if not raw_record['retention_code'] and 'archival' in col_map and len(row) > col_map['archival']:
+                        if not get_nested_val(raw_record, 'retention_code') and 'archival' in col_map and len(row) > col_map['archival']:
                             if 'A' in str(row[col_map['archival']]).upper():
-                                raw_record.update({'retention_code': 'PM', 'retention_statement': 'Permanent'})
+                                update_record(raw_record, retention_code='PM', retention_statement='Permanent')
 
                         records.append(clean_record_fields(raw_record, texas_config))
 

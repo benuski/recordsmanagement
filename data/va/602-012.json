@@ -1,194 +1,250 @@
 [
   {
-    "agency_name": "Department of Medical Assistance Services",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "602-012",
-    "series_id": "006148",
-    "series_title": "Automatic Call Distributer Report",
-    "series_description": "This series documents detailed information on the calls received through the Managed Care Helpline such as the number of incoming calls received, answered, number of agents working, average talk time, average hold time, and abandon rate. This series may include but is no limited to: forms and reports.",
-    "retention_statement": "5 Years after audit",
-    "retention_years": 5,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Confidential Destruction",
-    "confidential": true,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": "2024-03-28",
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/602-012.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Department of Medical Assistance Services",
+      "schedule_type": "specific",
+      "schedule_id": "602-012",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/602-012.pdf"
+    },
+    "series_metadata": {
+      "series_id": "006148",
+      "series_title": "Automatic Call Distributer Report",
+      "series_description": "This series documents detailed information on the calls received through the Managed Care Helpline such as the number of incoming calls received, answered, number of agents working, average talk time, average hold time, and abandon rate. This series may include but is no limited to: forms and reports.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "audit",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Confidential Destruction",
+      "confidential_flag": true
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2024-03-28",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "Department of Medical Assistance Services",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "602-012",
-    "series_id": "009321",
-    "series_title": "BabyCare Records",
-    "series_description": "This series documents pre-authorization and closure requests for BabyCare This series may include, but is not limited to: forms and correspondence.",
-    "retention_statement": "6 Years after approval",
-    "retention_years": 6,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Confidential Destruction",
-    "confidential": true,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": "2024-03-28",
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/602-012.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Department of Medical Assistance Services",
+      "schedule_type": "specific",
+      "schedule_id": "602-012",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/602-012.pdf"
+    },
+    "series_metadata": {
+      "series_id": "009321",
+      "series_title": "BabyCare Records",
+      "series_description": "This series documents pre-authorization and closure requests for BabyCare This series may include, but is not limited to: forms and correspondence.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "approval",
+      "duration_years": 6,
+      "duration_months": null,
+      "disposition_method": "Confidential Destruction",
+      "confidential_flag": true
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2024-03-28",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "Department of Medical Assistance Services",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "602-012",
-    "series_id": "009320",
-    "series_title": "Early Periodic Screening Diagnosis and Treatment (EPSDT) Records",
-    "series_description": "This series documents provider requests for specialized services to correct or ameliorate an identified health need for eligible individuals under the age of 21. This series may inlcude, but is not limited to: notifications.",
-    "retention_statement": "6 Years after decision",
-    "retention_years": 6,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Confidential Destruction",
-    "confidential": true,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": "2024-03-28",
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/602-012.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Department of Medical Assistance Services",
+      "schedule_type": "specific",
+      "schedule_id": "602-012",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/602-012.pdf"
+    },
+    "series_metadata": {
+      "series_id": "009320",
+      "series_title": "Early Periodic Screening Diagnosis and Treatment (EPSDT) Records",
+      "series_description": "This series documents provider requests for specialized services to correct or ameliorate an identified health need for eligible individuals under the age of 21. This series may inlcude, but is not limited to: notifications.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "decision",
+      "duration_years": 6,
+      "duration_months": null,
+      "disposition_method": "Confidential Destruction",
+      "confidential_flag": true
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2024-03-28",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "Department of Medical Assistance Services",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "602-012",
-    "series_id": "006149",
-    "series_title": "Exemption Requests",
-    "series_description": "This series documents requests for exemption from managed care. This series may include, but is not limited to: forms and letters",
-    "retention_statement": "7 Years after end of calendar year",
-    "retention_years": 7,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Confidential Destruction",
-    "confidential": true,
-    "legal_citation": "COV 32.1-325.3",
-    "last_checked": "2026-03-09",
-    "last_updated": "2024-03-28",
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/602-012.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Department of Medical Assistance Services",
+      "schedule_type": "specific",
+      "schedule_id": "602-012",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/602-012.pdf"
+    },
+    "series_metadata": {
+      "series_id": "006149",
+      "series_title": "Exemption Requests",
+      "series_description": "This series documents requests for exemption from managed care. This series may include, but is not limited to: forms and letters. COV 32.1-325.3",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "end of calendar year",
+      "duration_years": 7,
+      "duration_months": null,
+      "disposition_method": "Confidential Destruction",
+      "confidential_flag": true
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2024-03-28",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "Department of Medical Assistance Services",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "602-012",
-    "series_id": "006037",
-    "series_title": "Managed Care Reporting Records: Non Proprietary",
-    "series_description": "This series documents compliance of Options and Medallion II contracts and does not include vendor proprietary information. This series may include, but is not limited to: Request for Proposal (RFPs) and supporting documentation.",
-    "retention_statement": "5 Years after expiration",
-    "retention_years": 5,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Non-confidential Destruction",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": "2024-03-28",
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/602-012.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Department of Medical Assistance Services",
+      "schedule_type": "specific",
+      "schedule_id": "602-012",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/602-012.pdf"
+    },
+    "series_metadata": {
+      "series_id": "006037",
+      "series_title": "Managed Care Reporting Records: Non Proprietary",
+      "series_description": "This series documents compliance of Options and Medallion II contracts and does not include vendor proprietary information. This series may include, but is not limited to: Request for Proposal (RFPs) and supporting documentation.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "expiration",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Non-confidential Destruction",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2024-03-28",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "Department of Medical Assistance Services",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "602-012",
-    "series_id": "006036",
-    "series_title": "Managed Care Reporting Records: Proprietary",
-    "series_description": "This series documents compliance of Options and Medallion II contracts and does include vendor proprietary information. This series may include, but is not limited to: Request for Proposal (RFPs) and supporting documentation",
-    "retention_statement": "5 Years after end of calendar year",
-    "retention_years": 5,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Confidential Destruction",
-    "confidential": true,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": "2024-03-28",
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/602-012.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Department of Medical Assistance Services",
+      "schedule_type": "specific",
+      "schedule_id": "602-012",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/602-012.pdf"
+    },
+    "series_metadata": {
+      "series_id": "006036",
+      "series_title": "Managed Care Reporting Records: Proprietary",
+      "series_description": "This series documents compliance of Options and Medallion II contracts and does include vendor proprietary information. This series may include, but is not limited to: Request for Proposal (RFPs) and supporting documentation",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "end of calendar year",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Confidential Destruction",
+      "confidential_flag": true
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2024-03-28",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "Department of Medical Assistance Services",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "602-012",
-    "series_id": "006150",
-    "series_title": "Provider Panel Requests",
-    "series_description": "This series documents requests submitted by Medicaid providers to add or remove members from their panels. This series may include, but is not limited to: forms and correspondence.",
-    "retention_statement": "5 Years after end of calendar year",
-    "retention_years": 5,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Confidential Destruction",
-    "confidential": true,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": "2024-03-28",
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/602-012.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Department of Medical Assistance Services",
+      "schedule_type": "specific",
+      "schedule_id": "602-012",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/602-012.pdf"
+    },
+    "series_metadata": {
+      "series_id": "006150",
+      "series_title": "Provider Panel Requests",
+      "series_description": "This series documents requests submitted by Medicaid providers to add or remove members from their panels. This series may include, but is not limited to: forms and correspondence.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "end of calendar year",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Confidential Destruction",
+      "confidential_flag": true
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2024-03-28",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "Department of Medical Assistance Services",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "602-012",
-    "series_id": "200521",
-    "series_title": "School Health Services Records",
-    "series_description": "This series documents the review of Medicaid claimings for school-based services in order to determine reimbursement . This series may include, but is not limited to: Plans of Care and Progress notes and copies of Individualized Education Program (IEP) documentation.",
-    "retention_statement": "6 Years after closed",
-    "retention_years": 6,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Confidential Destruction",
-    "confidential": true,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": "2024-03-28",
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/602-012.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Department of Medical Assistance Services",
+      "schedule_type": "specific",
+      "schedule_id": "602-012",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/602-012.pdf"
+    },
+    "series_metadata": {
+      "series_id": "200521",
+      "series_title": "School Health Services Records",
+      "series_description": "This series documents the review of Medicaid claimings for school-based services in order to determine reimbursement . This series may include, but is not limited to: Plans of Care and Progress notes and copies of Individualized Education Program (IEP) documentation.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "closed",
+      "duration_years": 6,
+      "duration_months": null,
+      "disposition_method": "Confidential Destruction",
+      "confidential_flag": true
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2024-03-28",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   }
 ]

@@ -1,50 +1,64 @@
 [
   {
-    "agency_name": "Virginia Workers' Compensation Commission",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "191-040",
-    "series_id": "200496",
-    "series_title": "Claim Files: Birth-Related Neurological Injury",
-    "series_description": "This series documents claims made in the event of a birthrelated neurological injury. This series may include, but is not limited to: application, medical records, and supporting documentation.",
-    "retention_statement": "75 Years after event",
-    "retention_years": 75,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Confidential Destruction",
-    "confidential": true,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": "2016-01-04",
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/191-040.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Virginia Workers' Compensation Commission",
+      "schedule_type": "specific",
+      "schedule_id": "191-040",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/191-040.pdf"
+    },
+    "series_metadata": {
+      "series_id": "200496",
+      "series_title": "Claim Files: Birth-Related Neurological Injury",
+      "series_description": "This series documents claims made in the event of a birthrelated neurological injury. This series may include, but is not limited to: application, medical records, and supporting documentation.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "event",
+      "duration_years": 75,
+      "duration_months": null,
+      "disposition_method": "Confidential Destruction",
+      "confidential_flag": true
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2016-01-04",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "Virginia Workers' Compensation Commission",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "191-040",
-    "series_id": "200497",
-    "series_title": "Claim Files: Birth-Related Neurological Injury Death of Child",
-    "series_description": "This series documents claims made in the event of a birthrelated neurological injury that resulted in the death of the child. This series may include, but is not limited to: application, medical records, and supporting documentation.",
-    "retention_statement": "10 Years after event",
-    "retention_years": 10,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Confidential Destruction",
-    "confidential": true,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": "2016-01-04",
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/191-040.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Virginia Workers' Compensation Commission",
+      "schedule_type": "specific",
+      "schedule_id": "191-040",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/191-040.pdf"
+    },
+    "series_metadata": {
+      "series_id": "200497",
+      "series_title": "Claim Files: Birth-Related Neurological Injury Death of Child",
+      "series_description": "This series documents claims made in the event of a birthrelated neurological injury that resulted in the death of the child. This series may include, but is not limited to: application, medical records, and supporting documentation.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "event",
+      "duration_years": 10,
+      "duration_months": null,
+      "disposition_method": "Confidential Destruction",
+      "confidential_flag": true
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2016-01-04",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   }
 ]

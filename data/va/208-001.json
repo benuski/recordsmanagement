@@ -1,50 +1,64 @@
 [
   {
-    "agency_name": "Virginia Polytechnic Institute and State University",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "208-001",
-    "series_id": "008001",
-    "series_title": "Veterinary Patient Medical Records",
-    "series_description": "This series documents the medical treatment specific to inpatient and outpatient animals at the Virginia-Maryland Regional College of Veterinary Medicine. Includes information on diagnostic workups, drugs administered, and all relevant medical and surgical procedures performed. These records are also maintained for research and clinical study purposes.",
-    "retention_statement": "Retain 20 years after last treatment, then destroy in compliance with No. 8 on schedule cover page.",
-    "retention_years": 20,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/208-001.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Virginia Polytechnic Institute and State University",
+      "schedule_type": "specific",
+      "schedule_id": "208-001",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/208-001.pdf"
+    },
+    "series_metadata": {
+      "series_id": "008001",
+      "series_title": "Veterinary Patient Medical Records",
+      "series_description": "This series documents the medical treatment specific to inpatient and outpatient animals at the Virginia-Maryland Regional College of Veterinary Medicine. Includes information on diagnostic workups, drugs administered, and all relevant medical and surgical procedures performed. These records are also maintained for research and clinical study purposes.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "last treatment, in compliance with No. 8 on schedule cover page",
+      "duration_years": 20,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "Virginia Polytechnic Institute and State University",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "208-001",
-    "series_id": "008002",
-    "series_title": "Veterinary Medical X-Ray Records",
-    "series_description": "This series consists of diagnostic x-ray films used in the medical treatment of inpatient and outpatient animals at the Virginia-Maryland Regional College of Veterinary Medicine.",
-    "retention_statement": "Retain 10 years after last treatment, then destroy.",
-    "retention_years": 10,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/208-001.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Virginia Polytechnic Institute and State University",
+      "schedule_type": "specific",
+      "schedule_id": "208-001",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/208-001.pdf"
+    },
+    "series_metadata": {
+      "series_id": "008002",
+      "series_title": "Veterinary Medical X-Ray Records",
+      "series_description": "This series consists of diagnostic x-ray films used in the medical treatment of inpatient and outpatient animals at the Virginia-Maryland Regional College of Veterinary Medicine.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "last treatment",
+      "duration_years": 10,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   }
 ]

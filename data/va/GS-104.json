@@ -1,242 +1,312 @@
 [
   {
-    "agency_name": null,
-    "state": "va",
-    "schedule_type": "general",
-    "schedule_id": "GS-104",
-    "series_id": "100963",
-    "series_title": "Box Rent Receipts:",
-    "series_description": "This series documents the issue of internal mail boxes and the collection of rent receipts.",
-    "retention_statement": "Retain 3 years after end of year, then destroy.",
-    "retention_years": 3,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/GS-104.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": null,
+      "schedule_type": "general",
+      "schedule_id": "GS-104",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/GS-104.pdf"
+    },
+    "series_metadata": {
+      "series_id": "100963",
+      "series_title": "Box Rent Receipts:",
+      "series_description": "This series documents the issue of internal mail boxes and the collection of rent receipts.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "end of year",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": null,
-    "state": "va",
-    "schedule_type": "general",
-    "schedule_id": "GS-104",
-    "series_id": "100964",
-    "series_title": "Certified and Registered Mail Records",
-    "series_description": "This series documents the acceptance and shipment or receipt and release of certified or registered mail.",
-    "retention_statement": "Retain 3 years after the last entry, then destroy.",
-    "retention_years": 3,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/GS-104.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": null,
+      "schedule_type": "general",
+      "schedule_id": "GS-104",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/GS-104.pdf"
+    },
+    "series_metadata": {
+      "series_id": "100964",
+      "series_title": "Certified and Registered Mail Records",
+      "series_description": "This series documents the acceptance and shipment or receipt and release of certified or registered mail.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "last entry",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": null,
-    "state": "va",
-    "schedule_type": "general",
-    "schedule_id": "GS-104",
-    "series_id": "100965",
-    "series_title": "Equipment Maintenance Records",
-    "series_description": "This series documents the repair and maintenance of mailroom equipment.",
-    "retention_statement": "Retain until final disposition of equipment, then destroy.",
-    "retention_years": null,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/GS-104.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": null,
+      "schedule_type": "general",
+      "schedule_id": "GS-104",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/GS-104.pdf"
+    },
+    "series_metadata": {
+      "series_id": "100965",
+      "series_title": "Equipment Maintenance Records",
+      "series_description": "This series documents the repair and maintenance of mailroom equipment.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "final disposition of equipment",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": null,
-    "state": "va",
-    "schedule_type": "general",
-    "schedule_id": "GS-104",
-    "series_id": "100966",
-    "series_title": "Mail/Parcel Metering Records",
-    "series_description": "This series controls the use of mail or parcel meters and the accounting for charges incurred.",
-    "retention_statement": "Retain 3 years after last entry, then destroy.",
-    "retention_years": 3,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/GS-104.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": null,
+      "schedule_type": "general",
+      "schedule_id": "GS-104",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/GS-104.pdf"
+    },
+    "series_metadata": {
+      "series_id": "100966",
+      "series_title": "Mail/Parcel Metering Records",
+      "series_description": "This series controls the use of mail or parcel meters and the accounting for charges incurred.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "last entry",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": null,
-    "state": "va",
-    "schedule_type": "general",
-    "schedule_id": "GS-104",
-    "series_id": "100967",
-    "series_title": "Mail Shipment/Receipt Records",
-    "series_description": "This series documents the control of incoming and outgoing mail.",
-    "retention_statement": "Retain 1 year after last entry, then destroy.",
-    "retention_years": 1,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/GS-104.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": null,
+      "schedule_type": "general",
+      "schedule_id": "GS-104",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/GS-104.pdf"
+    },
+    "series_metadata": {
+      "series_id": "100967",
+      "series_title": "Mail Shipment/Receipt Records",
+      "series_description": "This series documents the control of incoming and outgoing mail.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "last entry",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": null,
-    "state": "va",
-    "schedule_type": "general",
-    "schedule_id": "GS-104",
-    "series_id": "100968",
-    "series_title": "Postage/Payment Due Records",
-    "series_description": "This series documents the receipt and collection of funds for postage mail, COD mail and other collections.",
-    "retention_statement": "Retain 3 years after collection, then destroy.",
-    "retention_years": 3,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/GS-104.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": null,
+      "schedule_type": "general",
+      "schedule_id": "GS-104",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/GS-104.pdf"
+    },
+    "series_metadata": {
+      "series_id": "100968",
+      "series_title": "Postage/Payment Due Records",
+      "series_description": "This series documents the receipt and collection of funds for postage mail, COD mail and other collections.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "collection",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": null,
-    "state": "va",
-    "schedule_type": "general",
-    "schedule_id": "GS-104",
-    "series_id": "100969",
-    "series_title": "Postal Payments",
-    "series_description": "This series documents the payment of bills for postage or other mail services.",
-    "retention_statement": "Retain 3 years after payment, then destroy.",
-    "retention_years": 3,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/GS-104.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": null,
+      "schedule_type": "general",
+      "schedule_id": "GS-104",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/GS-104.pdf"
+    },
+    "series_metadata": {
+      "series_id": "100969",
+      "series_title": "Postal Payments",
+      "series_description": "This series documents the payment of bills for postage or other mail services.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "payment",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": null,
-    "state": "va",
-    "schedule_type": "general",
-    "schedule_id": "GS-104",
-    "series_id": "100970",
-    "series_title": "Refunds and Adjustments",
-    "series_description": "This series documents the request for and/or receipt of refunds or adjustments from the USPS or other common carriers.",
-    "retention_statement": "Retain 3 years after last activity, then destroy.",
-    "retention_years": 3,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/GS-104.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": null,
+      "schedule_type": "general",
+      "schedule_id": "GS-104",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/GS-104.pdf"
+    },
+    "series_metadata": {
+      "series_id": "100970",
+      "series_title": "Refunds and Adjustments",
+      "series_description": "This series documents the request for and/or receipt of refunds or adjustments from the USPS or other common carriers.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "last activity",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": null,
-    "state": "va",
-    "schedule_type": "general",
-    "schedule_id": "GS-104",
-    "series_id": "100971",
-    "series_title": "Requisitions for Postage",
-    "series_description": "This series documents internal requests for postage, issue or postage and reimbursement, if applicable.",
-    "retention_statement": "Retain 3 years after issue of postage, then destroy.",
-    "retention_years": 3,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/GS-104.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": null,
+      "schedule_type": "general",
+      "schedule_id": "GS-104",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/GS-104.pdf"
+    },
+    "series_metadata": {
+      "series_id": "100971",
+      "series_title": "Requisitions for Postage",
+      "series_description": "This series documents internal requests for postage, issue or postage and reimbursement, if applicable.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "issue of postage",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": null,
-    "state": "va",
-    "schedule_type": "general",
-    "schedule_id": "GS-104",
-    "series_id": "100972",
-    "series_title": "Special Handling or Shipping Records",
-    "series_description": "This series documents the shipment or receipt of parcels through common carriers (Fedex, UPS, couriers, etc) and subsequent bill and payment.",
-    "retention_statement": "Retain 3 years after last activity, then destroy.",
-    "retention_years": 3,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/GS-104.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": null,
+      "schedule_type": "general",
+      "schedule_id": "GS-104",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/GS-104.pdf"
+    },
+    "series_metadata": {
+      "series_id": "100972",
+      "series_title": "Special Handling or Shipping Records",
+      "series_description": "This series documents the shipment or receipt of parcels through common carriers (Fedex, UPS, couriers, etc) and subsequent bill and payment.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "last activity",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   }
 ]

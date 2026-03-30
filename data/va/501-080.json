@@ -1,74 +1,95 @@
 [
   {
-    "agency_name": "Department of Transportation",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "501-080",
-    "series_id": "200557",
-    "series_title": "Smart Tag/EZ Pass Customer Account Toll",
-    "series_description": "Transaction Summaries This series documents summary data of customer transactions in the Customer Accounts database such as account numbers and toll amounts. This series may include, but is not limited to: customer quarterly statements.",
-    "retention_statement": "2 Years after event",
-    "retention_years": 2,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Confidential Destruction",
-    "confidential": true,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": "2025-12-11",
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/501-080.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Department of Transportation",
+      "schedule_type": "specific",
+      "schedule_id": "501-080",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/501-080.pdf"
+    },
+    "series_metadata": {
+      "series_id": "200557",
+      "series_title": "Smart Tag/EZ Pass Customer Account Toll",
+      "series_description": "Transaction Summaries This series documents summary data of customer transactions in the Customer Accounts database such as account numbers and toll amounts. This series may include, but is not limited to: customer quarterly statements.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "event",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Confidential Destruction",
+      "confidential_flag": true
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2025-12-11",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "Department of Transportation",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "501-080",
-    "series_id": "000055",
-    "series_title": "Smart Tag/EZ Pass Customer Account Toll",
-    "series_description": "Transactions This series documents customer toll transactions and activities including tag and toll locations, and time and amount debited. This series may include, but is not limited to: transaction tables.",
-    "retention_statement": "0 Years after no longer administratively useful",
-    "retention_years": 0,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Confidential Destruction",
-    "confidential": true,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": "2025-12-11",
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/501-080.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Department of Transportation",
+      "schedule_type": "specific",
+      "schedule_id": "501-080",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/501-080.pdf"
+    },
+    "series_metadata": {
+      "series_id": "000055",
+      "series_title": "Smart Tag/EZ Pass Customer Account Toll",
+      "series_description": "Transactions This series documents customer toll transactions and activities including tag and toll locations, and time and amount debited. This series may include, but is not limited to: transaction tables.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "no longer administratively useful",
+      "duration_years": 0,
+      "duration_months": null,
+      "disposition_method": "Confidential Destruction",
+      "confidential_flag": true
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2025-12-11",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "Department of Transportation",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "501-080",
-    "series_id": "000054",
-    "series_title": "Smart Tag/EZ Pass Customer Accounts Applications",
-    "series_description": "This series documents Smart Tag/EZ Pass applications that includes customer name, address, telephone number, vehicle information, and method of payment. This series may include, but is not limited to: applications.",
-    "retention_statement": "1 Year after closed",
-    "retention_years": 1,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Confidential Destruction",
-    "confidential": true,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": "2025-12-11",
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/501-080.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Department of Transportation",
+      "schedule_type": "specific",
+      "schedule_id": "501-080",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/501-080.pdf"
+    },
+    "series_metadata": {
+      "series_id": "000054",
+      "series_title": "Smart Tag/EZ Pass Customer Accounts Applications",
+      "series_description": "This series documents Smart Tag/EZ Pass applications that includes customer name, address, telephone number, vehicle information, and method of payment. This series may include, but is not limited to: applications.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "closed",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "Confidential Destruction",
+      "confidential_flag": true
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2025-12-11",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   }
 ]

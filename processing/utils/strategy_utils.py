@@ -10,7 +10,7 @@ from bs4 import BeautifulSoup
 from processing.base_config import StateScheduleConfig
 from processing.utils.pdf_utils import stringify_words
 from processing.utils.text_utils import split_title_and_description, clean_record_fields
-from processing.utils.schema_utils import make_record
+from processing.central_file import make_record, get_nested_val, set_nested_val
 
 logger = logging.getLogger(__name__)
 
@@ -282,10 +282,9 @@ def parse_using_marker_html(
                     )
 
                 elif current_record and not col2 and not col3:
-                    if current_record["series_description"]:
-                        current_record["series_description"] += " " + col1.replace('\n', ' ')
-                    else:
-                        current_record["series_description"] = col1.replace('\n', ' ')
+                    existing_desc = get_nested_val(current_record, 'series_description') or ""
+                    new_desc = (existing_desc + " " + col1.replace('\n', ' ')).strip()
+                    set_nested_val(current_record, 'series_description', new_desc)
 
     if current_record:
         processed_records.append(clean_record_fields(current_record, config))

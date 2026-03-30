@@ -1,194 +1,250 @@
 [
   {
-    "agency_name": "Virginia Workers' Compensation Commission",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "191-030",
-    "series_id": "009036",
-    "series_title": "Cancellation/Reinstatement Notices",
-    "series_description": "This series documents cancellations, reinstatements, renewals, and updates to workers' compensation insurance coverage. This series may include, but is not limited to: forms, notifications, orders, and requests for information.",
-    "retention_statement": "10 Years after receipt",
-    "retention_years": 10,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Non-confidential Destruction",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": "2016-01-04",
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/191-030.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Virginia Workers' Compensation Commission",
+      "schedule_type": "specific",
+      "schedule_id": "191-030",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/191-030.pdf"
+    },
+    "series_metadata": {
+      "series_id": "009036",
+      "series_title": "Cancellation/Reinstatement Notices",
+      "series_description": "This series documents cancellations, reinstatements, renewals, and updates to workers' compensation insurance coverage. This series may include, but is not limited to: forms, notifications, orders, and requests for information.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "receipt",
+      "duration_years": 10,
+      "duration_months": null,
+      "disposition_method": "Non-confidential Destruction",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2016-01-04",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "Virginia Workers' Compensation Commission",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "191-030",
-    "series_id": "200484",
-    "series_title": "Executive Coverage",
-    "series_description": "This series documents the decision by a company's chief executive to waive coverage under a workers' compensation policy and also any subsequent rejection of that waiver. This series may include, but is not limited to: Approval Of Rejection of Coverage (16A) Letter, Approval Of Revocation of Prior Rejection of Coverage (17A) Letter, and Occupational Disease Waivers.",
-    "retention_statement": "",
-    "retention_years": null,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Permanent, In Agency",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": "2016-01-04",
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/191-030.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Virginia Workers' Compensation Commission",
+      "schedule_type": "specific",
+      "schedule_id": "191-030",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/191-030.pdf"
+    },
+    "series_metadata": {
+      "series_id": "200484",
+      "series_title": "Executive Coverage",
+      "series_description": "This series documents the decision by a company's chief executive to waive coverage under a workers' compensation policy and also any subsequent rejection of that waiver. This series may include, but is not limited to: Approval Of Rejection of Coverage (16A) Letter, Approval Of Revocation of Prior Rejection of Coverage (17A) Letter, and Occupational Disease Waivers.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Permanent",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition_method": "Permanent, In Agency",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2016-01-04",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "Virginia Workers' Compensation Commission",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "191-030",
-    "series_id": "200485",
-    "series_title": "Failure to Insure: Fines",
-    "series_description": "This series documents the assessment of, failure to remit payment of, and actions to collect fines for failure to provide workers' compensation insurance. This series may include, but is not limited to: forms, notices, and orders.",
-    "retention_statement": "25 Years after receipt",
-    "retention_years": 25,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Confidential Destruction",
-    "confidential": true,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": "2016-01-04",
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/191-030.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Virginia Workers' Compensation Commission",
+      "schedule_type": "specific",
+      "schedule_id": "191-030",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/191-030.pdf"
+    },
+    "series_metadata": {
+      "series_id": "200485",
+      "series_title": "Failure to Insure: Fines",
+      "series_description": "This series documents the assessment of, failure to remit payment of, and actions to collect fines for failure to provide workers' compensation insurance. This series may include, but is not limited to: forms, notices, and orders.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "receipt",
+      "duration_years": 25,
+      "duration_months": null,
+      "disposition_method": "Confidential Destruction",
+      "confidential_flag": true
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2016-01-04",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "Virginia Workers' Compensation Commission",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "191-030",
-    "series_id": "200486",
-    "series_title": "Filing Compliance",
-    "series_description": "This series documents the compliance by employers and carriers to submit filings not covered in any other series. This series may include, but is not limited to: forms, notices, correspondence, opinions, and orders.",
-    "retention_statement": "50 Years after receipt",
-    "retention_years": 50,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Confidential Destruction",
-    "confidential": true,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": "2016-01-04",
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/191-030.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Virginia Workers' Compensation Commission",
+      "schedule_type": "specific",
+      "schedule_id": "191-030",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/191-030.pdf"
+    },
+    "series_metadata": {
+      "series_id": "200486",
+      "series_title": "Filing Compliance",
+      "series_description": "This series documents the compliance by employers and carriers to submit filings not covered in any other series. This series may include, but is not limited to: forms, notices, correspondence, opinions, and orders.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "receipt",
+      "duration_years": 50,
+      "duration_months": null,
+      "disposition_method": "Confidential Destruction",
+      "confidential_flag": true
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2016-01-04",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "Virginia Workers' Compensation Commission",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "191-030",
-    "series_id": "009039",
-    "series_title": "Insurance Coverage",
-    "series_description": "This series documents the establishment and continuity of insurance coverage for Virginia employers. This series may include, but is not limited to: forms, notices, and orders.",
-    "retention_statement": "1 Year after receipt",
-    "retention_years": 1,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Non-confidential Destruction",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": "2016-01-04",
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/191-030.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Virginia Workers' Compensation Commission",
+      "schedule_type": "specific",
+      "schedule_id": "191-030",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/191-030.pdf"
+    },
+    "series_metadata": {
+      "series_id": "009039",
+      "series_title": "Insurance Coverage",
+      "series_description": "This series documents the establishment and continuity of insurance coverage for Virginia employers. This series may include, but is not limited to: forms, notices, and orders.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "receipt",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "Non-confidential Destruction",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2016-01-04",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "Virginia Workers' Compensation Commission",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "191-030",
-    "series_id": "009037",
-    "series_title": "Insurance Reported as Canceled",
-    "series_description": "This series documents the investigation of employers whose insurance coverage has been reported as cancelled. This series may include, but is not limited to: spreadsheets, forms, notices, and contractor certifications.",
-    "retention_statement": "3 Years after receipt",
-    "retention_years": 3,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Confidential Destruction",
-    "confidential": true,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": "2016-01-04",
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/191-030.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Virginia Workers' Compensation Commission",
+      "schedule_type": "specific",
+      "schedule_id": "191-030",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/191-030.pdf"
+    },
+    "series_metadata": {
+      "series_id": "009037",
+      "series_title": "Insurance Reported as Canceled",
+      "series_description": "This series documents the investigation of employers whose insurance coverage has been reported as cancelled. This series may include, but is not limited to: spreadsheets, forms, notices, and contractor certifications.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "receipt",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Confidential Destruction",
+      "confidential_flag": true
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2016-01-04",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "Virginia Workers' Compensation Commission",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "191-030",
-    "series_id": "200487",
-    "series_title": "Professional Employer Organization \"",
-    "series_description": "This series documents the VWCC registration by professional employer organizations doing business in the commonwealth. This series may include, but is not limited to: Professional Employers Organization Registration Certificate, Professional Employers Organization Confirmation Annual Report Receipt, and Occupational Disease Waivers.",
-    "retention_statement": "",
-    "retention_years": null,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Permanent, In Agency",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": "2016-01-04",
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/191-030.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Virginia Workers' Compensation Commission",
+      "schedule_type": "specific",
+      "schedule_id": "191-030",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/191-030.pdf"
+    },
+    "series_metadata": {
+      "series_id": "200487",
+      "series_title": "Professional Employer Organization \"",
+      "series_description": "This series documents the VWCC registration by professional employer organizations doing business in the commonwealth. This series may include, but is not limited to: Professional Employers Organization Registration Certificate, Professional Employers Organization Confirmation Annual Report Receipt, and Occupational Disease Waivers.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Permanent",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition_method": "Permanent, In Agency",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2016-01-04",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "Virginia Workers' Compensation Commission",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "191-030",
-    "series_id": "009038",
-    "series_title": "Rejection of Coverage",
-    "series_description": "This series documents employees that may be excluded from workers compensation coverage by a corporation. This series may include, but is not limited to: forms and notices.",
-    "retention_statement": "5 Years after end of calendar year",
-    "retention_years": 5,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Confidential Destruction",
-    "confidential": true,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": "2016-01-04",
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/191-030.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Virginia Workers' Compensation Commission",
+      "schedule_type": "specific",
+      "schedule_id": "191-030",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/191-030.pdf"
+    },
+    "series_metadata": {
+      "series_id": "009038",
+      "series_title": "Rejection of Coverage",
+      "series_description": "This series documents employees that may be excluded from workers compensation coverage by a corporation. This series may include, but is not limited to: forms and notices.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "end of calendar year",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Confidential Destruction",
+      "confidential_flag": true
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2016-01-04",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   }
 ]

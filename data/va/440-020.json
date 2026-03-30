@@ -1,74 +1,95 @@
 [
   {
-    "agency_name": "Department of Environmental Quality",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "440-020",
-    "series_id": "200528",
-    "series_title": "End-User Reimbursement Program",
-    "series_description": "This series documents the process of reimbursing end users for recycling waste tires for fuel, product manufacturing, and/or civil engineering, as well as tracking the origin of tires used by recyclers. This series may include, but is not limited to: applications, waste tire certificates, and correspondence.",
-    "retention_statement": "3 Years after approval",
-    "retention_years": 3,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Confidential Destruction",
-    "confidential": true,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": "2016-10-18",
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/440-020.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Department of Environmental Quality",
+      "schedule_type": "specific",
+      "schedule_id": "440-020",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/440-020.pdf"
+    },
+    "series_metadata": {
+      "series_id": "200528",
+      "series_title": "End-User Reimbursement Program",
+      "series_description": "This series documents the process of reimbursing end users for recycling waste tires for fuel, product manufacturing, and/or civil engineering, as well as tracking the origin of tires used by recyclers. This series may include, but is not limited to: applications, waste tire certificates, and correspondence.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "approval",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Confidential Destruction",
+      "confidential_flag": true
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2016-10-18",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "Department of Environmental Quality",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "440-020",
-    "series_id": "200531",
-    "series_title": "Waste Tire Hauler Registry",
-    "series_description": "This series documents the annual process by which waste tire haulers voluntarily apply to be placed on the Department’s website for Registered Waste Tire Haulers. This series may include, but is not limited to: application, local business license, Tax ID/FIN data, and correspondence.",
-    "retention_statement": "1 Year after superseded, obsolete, rescinded",
-    "retention_years": 1,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "or Confidential Destruction",
-    "confidential": true,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": "2016-10-18",
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/440-020.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Department of Environmental Quality",
+      "schedule_type": "specific",
+      "schedule_id": "440-020",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/440-020.pdf"
+    },
+    "series_metadata": {
+      "series_id": "200531",
+      "series_title": "Waste Tire Hauler Registry",
+      "series_description": "This series documents the annual process by which waste tire haulers voluntarily apply to be placed on the Department’s website for Registered Waste Tire Haulers. This series may include, but is not limited to: application, local business license, Tax ID/FIN data, and correspondence.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "superseded, obsolete, rescinded",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "or Confidential Destruction",
+      "confidential_flag": true
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2016-10-18",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "Department of Environmental Quality",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "440-020",
-    "series_id": "200529",
-    "series_title": "Waste Tire Piles: Certified",
-    "series_description": "This series documents the identification of waste tire piles and their various attributes, including the location, age, property owner, and number of tires. This series may include, but is not limited to: access agreements and correspondence.",
-    "retention_statement": "3 Years after closed",
-    "retention_years": 3,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Confidential Destruction",
-    "confidential": true,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": "2016-10-18",
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/440-020.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Department of Environmental Quality",
+      "schedule_type": "specific",
+      "schedule_id": "440-020",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/440-020.pdf"
+    },
+    "series_metadata": {
+      "series_id": "200529",
+      "series_title": "Waste Tire Piles: Certified",
+      "series_description": "This series documents the identification of waste tire piles and their various attributes, including the location, age, property owner, and number of tires. This series may include, but is not limited to: access agreements and correspondence.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "closed",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Confidential Destruction",
+      "confidential_flag": true
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2016-10-18",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   }
 ]

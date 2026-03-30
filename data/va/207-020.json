@@ -1,74 +1,95 @@
 [
   {
-    "agency_name": "University of Virginia",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "207-020",
-    "series_id": "200626",
-    "series_title": "Affiliated Foundations: Required Reporting Records",
-    "series_description": "This series documents periodic reporting of affiliated foundations to the Board of Visitors as required by university policy. This series may include, but is not limited to: audit records, financial statements, tax forms, budgets, notification of changes to articles of incorporation and by-laws, regular board and executive session meeting minutes.",
-    "retention_statement": "3 Years after end of state fiscal year",
-    "retention_years": 3,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Confidential Destruction",
-    "confidential": true,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": "2025-03-13",
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/207-020.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "University of Virginia",
+      "schedule_type": "specific",
+      "schedule_id": "207-020",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/207-020.pdf"
+    },
+    "series_metadata": {
+      "series_id": "200626",
+      "series_title": "Affiliated Foundations: Required Reporting Records",
+      "series_description": "This series documents periodic reporting of affiliated foundations to the Board of Visitors as required by university policy. This series may include, but is not limited to: audit records, financial statements, tax forms, budgets, notification of changes to articles of incorporation and by-laws, regular board and executive session meeting minutes.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "end of state fiscal year",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Confidential Destruction",
+      "confidential_flag": true
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2025-03-13",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "University of Virginia",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "207-020",
-    "series_id": "200719",
-    "series_title": "Demand and Response Transportation (DART): Program Eligibility",
-    "series_description": "This series documents the determination of eligibility for university-affiliated users of the Demand and Response Transportation (DART) program. This series may include, but is not limited to: applications, correspondence, and lists.",
-    "retention_statement": "5 Years after event",
-    "retention_years": 5,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Confidential Destruction",
-    "confidential": true,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": "2025-03-13",
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/207-020.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "University of Virginia",
+      "schedule_type": "specific",
+      "schedule_id": "207-020",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/207-020.pdf"
+    },
+    "series_metadata": {
+      "series_id": "200719",
+      "series_title": "Demand and Response Transportation (DART): Program Eligibility",
+      "series_description": "This series documents the determination of eligibility for university-affiliated users of the Demand and Response Transportation (DART) program. This series may include, but is not limited to: applications, correspondence, and lists.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "event",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Confidential Destruction",
+      "confidential_flag": true
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2025-03-13",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "University of Virginia",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "207-020",
-    "series_id": "200718",
-    "series_title": "Demand and Response Transportation (DART): Program Rider’s Guide",
-    "series_description": "This series documents the handbook for the Demand and Response Transportation (DART) program that is provided to users as a guide for proper and successful use of the service. This series may include, but is not limited to: procedural guides.",
-    "retention_statement": "5 Years after superseded, obsolete, rescinded",
-    "retention_years": 5,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "or Non-confidential Destruction",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": "2025-03-13",
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/207-020.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "University of Virginia",
+      "schedule_type": "specific",
+      "schedule_id": "207-020",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/207-020.pdf"
+    },
+    "series_metadata": {
+      "series_id": "200718",
+      "series_title": "Demand and Response Transportation (DART): Program Rider’s Guide",
+      "series_description": "This series documents the handbook for the Demand and Response Transportation (DART) program that is provided to users as a guide for proper and successful use of the service. This series may include, but is not limited to: procedural guides.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "superseded, obsolete, rescinded",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "or Non-confidential Destruction",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2025-03-13",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   }
 ]

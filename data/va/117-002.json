@@ -1,50 +1,64 @@
 [
   {
-    "agency_name": "Virginia State Bar",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "117-002",
-    "series_id": "100563",
-    "series_title": "Membership Registration Forms Information submitted by licensed attorneys requesting to become members of the Virginia State Bar. Data from these hardcopy forms are entered into the VSB Membership Database (refer to Specific Schedule No. 117-003.)",
-    "series_description": "",
-    "retention_statement": "Retain 50 years on-site, then transfer to State Records Center for 25 years; then destroy in compliance with No. 8 on schedule cover page. Total retention 75 years.",
-    "retention_years": 50,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/117-002.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Virginia State Bar",
+      "schedule_type": "specific",
+      "schedule_id": "117-002",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/117-002.pdf"
+    },
+    "series_metadata": {
+      "series_id": "100563",
+      "series_title": "Membership Registration Forms Information submitted by licensed attorneys requesting to become members of the Virginia State Bar. Data from these hardcopy forms are entered into the VSB Membership Database (refer to Specific Schedule No. 117-003.)",
+      "series_description": "",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "25 years; in compliance with No. 8 on schedule cover page. Total retention 75 years",
+      "duration_years": 50,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "Virginia State Bar",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "117-002",
-    "series_id": "100564",
-    "series_title": "Membership Suspension, Cancellation and Reinstatement Files",
-    "series_description": "Documents events such as suspension, cancellation and",
-    "retention_statement": "Retain 25 years on-site, then transfer to State Records Center for 50 years, then destroy in compliance with No. 8 on schedule cover page. Total retention 75 years.",
-    "retention_years": 25,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/117-002.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Virginia State Bar",
+      "schedule_type": "specific",
+      "schedule_id": "117-002",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/117-002.pdf"
+    },
+    "series_metadata": {
+      "series_id": "100564",
+      "series_title": "Membership Suspension, Cancellation and Reinstatement Files",
+      "series_description": "Documents events such as suspension, cancellation and",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "50 years, in compliance with No. 8 on schedule cover page. Total retention 75 years",
+      "duration_years": 25,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   }
 ]

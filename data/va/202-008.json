@@ -1,74 +1,95 @@
 [
   {
-    "agency_name": "The Library Of Virginia",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "202-008",
-    "series_id": "100871",
-    "series_title": "Applications for Librarian Certification",
-    "series_description": "Documents the receipt of requests for librarian certification and approval or disapproval. Series includes applications, correspondence, copies of certificates and other related documents. Licensing was done by Department of Commerce prior to 1989.",
-    "retention_statement": "Retain 5 years then transfer to the Records Center,Library of Virginia. Retain in Records Center 45 years,then destroy in compliance with No. 8 on schedulecover page. Total retention 50 years.",
-    "retention_years": 5,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/202-008.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "The Library Of Virginia",
+      "schedule_type": "specific",
+      "schedule_id": "202-008",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/202-008.pdf"
+    },
+    "series_metadata": {
+      "series_id": "100871",
+      "series_title": "Applications for Librarian Certification",
+      "series_description": "Documents the receipt of requests for librarian certification and approval or disapproval. Series includes applications, correspondence, copies of certificates and other related documents. Licensing was done by Department of Commerce prior to 1989.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Records Center,Library of Virginia. in Records Center 45 years, in compliance with No. 8 on schedulecover page. Total retention 50 years",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "The Library Of Virginia",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "202-008",
-    "series_id": "100872",
-    "series_title": "Certification Register",
-    "series_description": "Documents the application history, in chronological order for Librarian Certification.",
-    "retention_statement": "Retain permanently in agency.",
-    "retention_years": null,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/202-008.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "The Library Of Virginia",
+      "schedule_type": "specific",
+      "schedule_id": "202-008",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/202-008.pdf"
+    },
+    "series_metadata": {
+      "series_id": "100872",
+      "series_title": "Certification Register",
+      "series_description": "Documents the application history, in chronological order for Librarian Certification.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "permanently in agency",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "The Library Of Virginia",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "202-008",
-    "series_id": "100873",
-    "series_title": "Minutes of the Librarian Certification Board",
-    "series_description": "Documents the activities of the now defunct Board for Librarian",
-    "retention_statement": "Transfer records to the , Library of Virginia for permanent retention.",
-    "retention_years": null,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Archives",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/202-008.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "The Library Of Virginia",
+      "schedule_type": "specific",
+      "schedule_id": "202-008",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/202-008.pdf"
+    },
+    "series_metadata": {
+      "series_id": "100873",
+      "series_title": "Minutes of the Librarian Certification Board",
+      "series_description": "Documents the activities of the now defunct Board for Librarian",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "records Archives, Library of Virginia permanent retention",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   }
 ]

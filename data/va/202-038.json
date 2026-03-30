@@ -1,314 +1,405 @@
 [
   {
-    "agency_name": "The Library Of Virginia",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "202-038",
-    "series_id": "005406",
-    "series_title": "Accession Log",
-    "series_description": "This series consists of an index of records transferred into the State Records Center by Records Center Client. Series includes an accession or transfer number, transferring agency, brief description, volume transferred and the date accepted. Log is used to assign transfer numbers.",
-    "retention_statement": "Retain in agency 50 years after data entry, then destroy.",
-    "retention_years": 50,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/202-038.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "The Library Of Virginia",
+      "schedule_type": "specific",
+      "schedule_id": "202-038",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/202-038.pdf"
+    },
+    "series_metadata": {
+      "series_id": "005406",
+      "series_title": "Accession Log",
+      "series_description": "This series consists of an index of records transferred into the State Records Center by Records Center Client. Series includes an accession or transfer number, transferring agency, brief description, volume transferred and the date accepted. Log is used to assign transfer numbers.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "in agency data entry",
+      "duration_years": 50,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "The Library Of Virginia",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "202-038",
-    "series_id": "005407",
-    "series_title": "Box Database",
-    "series_description": "This series consists of a table recording the location and identification of all boxes stored in the State Records Center or Archives and other relevant supporting tables.",
-    "retention_statement": "Retain until item permanently removed from inventory, then delete entry. Disposal reporting onCertificate of Records Disposal(RM-3 form) not required.",
-    "retention_years": null,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/202-038.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "The Library Of Virginia",
+      "schedule_type": "specific",
+      "schedule_id": "202-038",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/202-038.pdf"
+    },
+    "series_metadata": {
+      "series_id": "005407",
+      "series_title": "Box Database",
+      "series_description": "This series consists of a table recording the location and identification of all boxes stored in the State Records Center or Archives and other relevant supporting tables.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "item permanently removed from inventory, delete entry. Disposal reporting onCertificate of Records Disposal(RM-3 form) not required",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "The Library Of Virginia",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "202-038",
-    "series_id": "005408",
-    "series_title": "Contract Administration Records",
-    "series_description": "This series documents staff administration, supervision or oversight of contractors or vendors providing supplies, services or equipment to the State Records Center.",
-    "retention_statement": "Retain 3 years after expiration of contract, then destroy.",
-    "retention_years": 3,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/202-038.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "The Library Of Virginia",
+      "schedule_type": "specific",
+      "schedule_id": "202-038",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/202-038.pdf"
+    },
+    "series_metadata": {
+      "series_id": "005408",
+      "series_title": "Contract Administration Records",
+      "series_description": "This series documents staff administration, supervision or oversight of contractors or vendors providing supplies, services or equipment to the State Records Center.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "expiration of contract",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "The Library Of Virginia",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "202-038",
-    "series_id": "005409",
-    "series_title": "Customer Account Records",
-    "series_description": "This series documents the history of Records Center contacts with its customers. Series may include, but is not limited to, correspondence, itemized bills, records of other services provided and related supporting documentation.",
-    "retention_statement": "Retain 10 years after end of fiscal year, then purge and destroy.",
-    "retention_years": 10,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/202-038.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "The Library Of Virginia",
+      "schedule_type": "specific",
+      "schedule_id": "202-038",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/202-038.pdf"
+    },
+    "series_metadata": {
+      "series_id": "005409",
+      "series_title": "Customer Account Records",
+      "series_description": "This series documents the history of Records Center contacts with its customers. Series may include, but is not limited to, correspondence, itemized bills, records of other services provided and related supporting documentation.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "end of fiscal year, purge and",
+      "duration_years": 10,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "The Library Of Virginia",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "202-038",
-    "series_id": "005410",
-    "series_title": "Disposal Files",
-    "series_description": "This series consists of a history of records destroyed or returned by the State Records Center. Series includes Destruction Certificates, Transfer Forms and other supporting documentation.",
-    "retention_statement": "After 5 years after disposal of records, then purge and transfer internally for Records Center storage. Retain in Records Center for 45 years. Total retention 50 years, then destroy.",
-    "retention_years": 5,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/202-038.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "The Library Of Virginia",
+      "schedule_type": "specific",
+      "schedule_id": "202-038",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/202-038.pdf"
+    },
+    "series_metadata": {
+      "series_id": "005410",
+      "series_title": "Disposal Files",
+      "series_description": "This series consists of a history of records destroyed or returned by the State Records Center. Series includes Destruction Certificates, Transfer Forms and other supporting documentation.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "disposal of records, purge and internally Records Center storage. in Records Center 45 years. Total retention 50 years",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "The Library Of Virginia",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "202-038",
-    "series_id": "005411",
-    "series_title": "Equipment Maintenance and Service Records",
-    "series_description": "This series documents the repair and service of equipment installed or used by Records Center staff.",
-    "retention_statement": "Retain 3 years after disposal of equipment, then destroy.",
-    "retention_years": 3,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/202-038.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "The Library Of Virginia",
+      "schedule_type": "specific",
+      "schedule_id": "202-038",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/202-038.pdf"
+    },
+    "series_metadata": {
+      "series_id": "005411",
+      "series_title": "Equipment Maintenance and Service Records",
+      "series_description": "This series documents the repair and service of equipment installed or used by Records Center staff.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "disposal of equipment",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "The Library Of Virginia",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "202-038",
-    "series_id": "005412",
-    "series_title": "File Retrieval Requests – Closed",
-    "series_description": "This series consists of agency requests for return of records and/or production of copies of records. Includes requests where records have been returned to storage location.",
-    "retention_statement": "Retain 25 years after last action, then destroy in compliance with No. 8 on schedule cover page.",
-    "retention_years": 25,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/202-038.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "The Library Of Virginia",
+      "schedule_type": "specific",
+      "schedule_id": "202-038",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/202-038.pdf"
+    },
+    "series_metadata": {
+      "series_id": "005412",
+      "series_title": "File Retrieval Requests – Closed",
+      "series_description": "This series consists of agency requests for return of records and/or production of copies of records. Includes requests where records have been returned to storage location.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "last action, in compliance with No. 8 on schedule cover page",
+      "duration_years": 25,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "The Library Of Virginia",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "202-038",
-    "series_id": "005413",
-    "series_title": "File Retrieval Requests – Open",
-    "series_description": "This series consists of agency requests for return of records and/or production of copies of records. Includes requests where records have not been returned to storage location.",
-    "retention_statement": "Upon refilling of record, transfer the related request to records series 005412, \"File Retrieval Requests – Closed\".",
-    "retention_years": null,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/202-038.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "The Library Of Virginia",
+      "schedule_type": "specific",
+      "schedule_id": "202-038",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/202-038.pdf"
+    },
+    "series_metadata": {
+      "series_id": "005413",
+      "series_title": "File Retrieval Requests – Open",
+      "series_description": "This series consists of agency requests for return of records and/or production of copies of records. Includes requests where records have not been returned to storage location.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Upon refilling of record, related request records series 005412, \"File Retrieval Requests – Closed\"",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "The Library Of Virginia",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "202-038",
-    "series_id": "005414",
-    "series_title": "Material Data Safety Sheets (MSDS)",
-    "series_description": "This series consists of a collection of manufacturer prepared safety sheets required by 29CFR1910.1020 to be on hand wherever hazardous materials are transported, stored or used.",
-    "retention_statement": "Retain until permanent removal or disposal of related hazardous material, then destroy. Disposal reporting on Certificate of Records Disposal (RM-3 form) not required.",
-    "retention_years": null,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/202-038.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "The Library Of Virginia",
+      "schedule_type": "specific",
+      "schedule_id": "202-038",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/202-038.pdf"
+    },
+    "series_metadata": {
+      "series_id": "005414",
+      "series_title": "Material Data Safety Sheets (MSDS)",
+      "series_description": "This series consists of a collection of manufacturer prepared safety sheets required by 29CFR1910.1020 to be on hand wherever hazardous materials are transported, stored or used.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "permanent removal or disposal of related hazardous material, . Disposal reporting on Certificate of Records Disposal (RM-3 form) not required",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "The Library Of Virginia",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "202-038",
-    "series_id": "005415",
-    "series_title": "Material Safety Training This series consist of records documenting safety training, including training in the use of hazardous materials and mechanized or electrical equipment, and required certifications.",
-    "series_description": "",
-    "retention_statement": "Retain 3 years after employee departure, then destroy.",
-    "retention_years": 3,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/202-038.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "The Library Of Virginia",
+      "schedule_type": "specific",
+      "schedule_id": "202-038",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/202-038.pdf"
+    },
+    "series_metadata": {
+      "series_id": "005415",
+      "series_title": "Material Safety Training This series consist of records documenting safety training, including training in the use of hazardous materials and mechanized or electrical equipment, and required certifications.",
+      "series_description": "",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "employee departure",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "The Library Of Virginia",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "202-038",
-    "series_id": "005416",
-    "series_title": "Record Transfers - Active",
-    "series_description": "This series documents the receipt of records currently in the custody of the State Records Center. This series consists of Records Transfer and Receipt Forms or substitutes and supporting documentation.",
-    "retention_statement": "Retain until all items on transfer have been destroyed and/or permanently transferred out of Records Center, then transfer to records series 005410, Disposal Files with all related Certificates of Record Disposal and related documentation attached.",
-    "retention_years": null,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/202-038.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "The Library Of Virginia",
+      "schedule_type": "specific",
+      "schedule_id": "202-038",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/202-038.pdf"
+    },
+    "series_metadata": {
+      "series_id": "005416",
+      "series_title": "Record Transfers - Active",
+      "series_description": "This series documents the receipt of records currently in the custody of the State Records Center. This series consists of Records Transfer and Receipt Forms or substitutes and supporting documentation.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "all items on have been destroyed and/or permanently transferred out of Records Center, records series 005410, Disposal Files with all related Certificates of Record Disposal and related documentation attached",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "The Library Of Virginia",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "202-038",
-    "series_id": "005417",
-    "series_title": "Scanner Download Reports",
-    "series_description": "This series consists of reports that document the entry of data into or out of Records Center databases through the use of barcode scanners.",
-    "retention_statement": "Retain 1 year after report date, then destroy.",
-    "retention_years": 1,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/202-038.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "The Library Of Virginia",
+      "schedule_type": "specific",
+      "schedule_id": "202-038",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/202-038.pdf"
+    },
+    "series_metadata": {
+      "series_id": "005417",
+      "series_title": "Scanner Download Reports",
+      "series_description": "This series consists of reports that document the entry of data into or out of Records Center databases through the use of barcode scanners.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "report date",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "The Library Of Virginia",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "202-038",
-    "series_id": "005418",
-    "series_title": "Transportation Records",
-    "series_description": "This series consists of requests for pickup, delivery or transfer of records or other items by Records Center Staff.",
-    "retention_statement": "Retain 3 years after action completed, then destroy.",
-    "retention_years": 3,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/202-038.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "The Library Of Virginia",
+      "schedule_type": "specific",
+      "schedule_id": "202-038",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/202-038.pdf"
+    },
+    "series_metadata": {
+      "series_id": "005418",
+      "series_title": "Transportation Records",
+      "series_description": "This series consists of requests for pickup, delivery or transfer of records or other items by Records Center Staff.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "action completed",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   }
 ]

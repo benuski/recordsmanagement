@@ -1,26 +1,33 @@
 [
   {
-    "agency_name": "Department of Medical Assistance Services",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "602-019",
-    "series_id": "200520",
-    "series_title": "Medicaid/Family Access to Medical Insurance Security(FAMIS) Records",
-    "series_description": "This series documents applications to enroll and receive healthcare services covered under Medicaid and FAMIS. This series may include, but is not limited to: applications, verifications, eligibility appeals, and correspondence.",
-    "retention_statement": "5 Years after last action",
-    "retention_years": 5,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Confidential Destruction",
-    "confidential": true,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": "2016-07-12",
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/602-019.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Department of Medical Assistance Services",
+      "schedule_type": "specific",
+      "schedule_id": "602-019",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/602-019.pdf"
+    },
+    "series_metadata": {
+      "series_id": "200520",
+      "series_title": "Medicaid/Family Access to Medical Insurance Security(FAMIS) Records",
+      "series_description": "This series documents applications to enroll and receive healthcare services covered under Medicaid and FAMIS. This series may include, but is not limited to: applications, verifications, eligibility appeals, and correspondence.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "last action",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Confidential Destruction",
+      "confidential_flag": true
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2016-07-12",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   }
 ]

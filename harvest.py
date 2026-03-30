@@ -54,18 +54,18 @@ if __name__ == "__main__":
     
     output_schema = load_output_schema(args.schema_path)
 
-    # Dynamically load the state processor
-    try:
-        module_path = f"processing.{args.state_code}.processor"
-        state_module = importlib.import_module(module_path)
-        
-        if hasattr(state_module, 'run'):
-            state_module.run(args, output_schema)
-        else:
-            logger.error(f"Module {module_path} does not have a 'run' function.")
-    except ImportError as e:
-        logger.error(f"Failed to import processor for state {args.state_code}: {e}")
-    except Exception as e:
-        logger.error(f"An error occurred during execution of {args.state_code} pipeline: {e}")
-        import traceback
-        logger.error(traceback.format_exc())
+    from processing.registry import STATE_REGISTRY
+    from processing.extractor_engine import run_state_pipeline
+
+    if args.state_code not in STATE_REGISTRY:
+        logger.error(f"State {args.state_code} not found in registry.")
+        sys.exit(1)
+
+    state_entry = STATE_REGISTRY[args.state_code]
+    
+    if state_entry['runner']:
+        # State has a custom runner (e.g., OH, TX, NC)
+        state_entry['runner'](args, output_schema)
+    else:
+        # State uses the standard extractor_engine pipeline (e.g., VA)
+        run_state_pipeline(args, state_entry['config'], output_schema)
