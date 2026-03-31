@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "SOS",
+      "schedule_type": "specific",
+      "schedule_id": "50030218",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39431"
+    },
+    "series_metadata": {
+      "series_id": "A800-02",
+      "series_title": "Cross-State List Maintenance Records",
+      "series_description": "Electronic files received by the Secretary of State’s office from other states or territories for the purpose of comparison and cross-checking of voter registration records.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: sixty (60) days or no longer of investigative value",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2024-04-30",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

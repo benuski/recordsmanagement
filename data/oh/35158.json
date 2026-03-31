@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "18550788",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35158"
+    },
+    "series_metadata": {
+      "series_id": "Mail-6",
+      "series_title": "Postal Accounts",
+      "series_description": "These are money accounts set up with the post office to pay for PO Boxes, money for mail meters,and postage due mail.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: , audited and audit report has been resolved and released with no discrepancies",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2018-09-10",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

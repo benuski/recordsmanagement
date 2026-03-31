@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TAX",
+      "schedule_type": "specific",
+      "schedule_id": "11100848",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39757"
+    },
+    "series_metadata": {
+      "series_id": "InfoReleases",
+      "series_title": "Information Releases",
+      "series_description": "Information Releases - technical advisories that offer detailed explanations of selected laws, rulings that govern the taxes administered by the Ohio Department of Taxation.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Should be kept ten years from date release is rescinded or superseded",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2025-02-19",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

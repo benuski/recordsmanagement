@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TOS",
+      "schedule_type": "specific",
+      "schedule_id": "10900676",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39193"
+    },
+    "series_metadata": {
+      "series_id": "CPIM-9",
+      "series_title": "Electronic Payment Batch Reports and Pay-ins Forms (for CPIM revenue)",
+      "series_description": "Reports that list and document revenue received by the CPIM program as payment for certification, program registration fees, and ACH payments. Such revenue is delivered to and deposited through the Treasurer of State Revenue Management's processing system (such as CBOSS). Records for this schedule are held in an electronic database (such as Switchbox).",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: remainder of calendar year in which form was submitted, three additional years",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2022-10-26",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "855-0979",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/26556"
+    },
+    "series_metadata": {
+      "series_id": "MIAD-WCIS",
+      "series_title": "Workers Compensation Insurance System (WCIS) Database Backups",
+      "series_description": "Tape backups of the Oracle database on the Mainframe needed to restore the Workers Compensation Insurance System (WCIS) in case of disaster or inadvertent destruction. Backup intervals are daily and monthly. WCIS provides functionality for Employer policy initiation and maintenance, payroll processing and adjustments, financial adjustments, lapse account activity, experience rate adjustments, and employer file maintenance. The backups for the Workers Compensation Insurance System (WCIS) are for daily and monthly timeframes.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: daily backup 7 days, and",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2008-07-29",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

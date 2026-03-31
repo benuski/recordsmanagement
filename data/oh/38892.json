@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551771",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/38892"
+    },
+    "series_metadata": {
+      "series_id": "ITS-OAG-06",
+      "series_title": "System Backup Files",
+      "series_description": "System Backup Files contain copies of all electronic records, documents, files and information stored on agency servers. They are used as a safeguard to restore office functions and documents in the event of an emergency or system loss. Back up files are to be used only for disaster recovery purposes.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: up . ; Microform: up",
+      "duration_years": null,
+      "duration_months": 6,
+      "disposition_method": "Electronic: Delete ; Microform: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2020-09-09",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

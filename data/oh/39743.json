@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "CDP",
+      "schedule_type": "specific",
+      "schedule_id": "50770005",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39743"
+    },
+    "series_metadata": {
+      "series_id": "CDP06",
+      "series_title": "Applications: Denied",
+      "series_description": "Original application files for applications for a certificate, license, or endorsement but were denied by the Board. Includes initial applications, renewal, and restoration/reinstatement applications, etc.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: - denied applications, electronic medium, or physical file if it was not scanned, a period of from date of final appeal; , shred physical file. ; Electronic: - denied applications, electronic medium a period of from date of final appeal; , delete electronic medium",
+      "duration_years": 4,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2025-02-26",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

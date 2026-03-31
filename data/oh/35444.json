@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DOT",
+      "schedule_type": "specific",
+      "schedule_id": "770-0518",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35444"
+    },
+    "series_metadata": {
+      "series_id": "OESS-01",
+      "series_title": "Salvage Equipment Receipt - Form EM-10",
+      "series_description": "Receipt for deletion of equipment on rolling stock inventory from the twelve (12) field districts and central office. All information now kept electronically in EIMS Enterprise System.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Information kept in EIMS System and is no longer destroyed",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition_method": "Electronic: Permanent",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2018-12-14",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TAX",
+      "schedule_type": "specific",
+      "schedule_id": "11100753",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/36013"
+    },
+    "series_metadata": {
+      "series_id": "Permits",
+      "series_title": "Permit Reports",
+      "series_description": "Weekly alcohol and beer permit lists electronically submitted by the Department of Liquor Control and occasionally printed by Department of Taxation.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: 3 yrs expiration of calendar year in which report & any related documentation was received. ; Electronic: 3 yrs expiration of calendar year in which report & any related documentation was received",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2019-02-20",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

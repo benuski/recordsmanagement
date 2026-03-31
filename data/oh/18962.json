@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "COM",
+      "schedule_type": "specific",
+      "schedule_id": "800-0634",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/18962"
+    },
+    "series_metadata": {
+      "series_id": "MIS-02",
+      "series_title": "Back-up Tapes",
+      "series_description": "Production full volume back-up data for Lan, MIS application test data, test system maintenance products, test system operating libraries, test system distribution libraries, indexes for test data files, system maintenance products, system operation libraries, system product distribution libraries, indexes for data files, data files for production and test software, data files for all liquor control production processing, all data files under Data Com database. (fna MIST-02)",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: 8 generation data group generations",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2003-02-21",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

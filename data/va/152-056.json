@@ -1,26 +1,33 @@
 [
   {
-    "agency_name": "Department of the Treasury",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "152-056",
-    "series_id": "009281",
-    "series_title": "Holder Reports - Negative The series contains Standard Report of Unclaimed Property (AP-1 form) submitted by banks and businesses when they do not have any unclaimed property in their possession.",
-    "series_description": "",
-    "retention_statement": "Retain for 10 years after closure of report year, then destroy in accordance with No. 8 on the cover page. Code of Virginia § 55-210.17",
-    "retention_years": 10,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/152-056.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Department of the Treasury",
+      "schedule_type": "specific",
+      "schedule_id": "152-056",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/152-056.pdf"
+    },
+    "series_metadata": {
+      "series_id": "009281",
+      "series_title": "Holder Reports - Negative The series contains Standard Report of Unclaimed Property (AP-1 form) submitted by banks and businesses when they do not have any unclaimed property in their possession.",
+      "series_description": "",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "closure of report year, in accordance with No. 8 on cover page. Code of Virginia § 55-210.17",
+      "duration_years": 10,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   }
 ]

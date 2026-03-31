@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DAS",
+      "schedule_type": "specific",
+      "schedule_id": "100-1120",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/4376"
+    },
+    "series_metadata": {
+      "series_id": "TM-SON-04",
+      "series_title": "Trouble Ticket Information",
+      "series_description": "This series consists of a computer generated printout which lists the circuit number, agency name, address, phone number and operational hours of the location of the circuit. It lists what type of trouble (problems) with the circuit and the repairs made",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: in operating area superseded ; Paper: in office area",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase ; Paper: Recycle",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "1993-06-29",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

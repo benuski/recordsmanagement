@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DRC",
+      "schedule_type": "specific",
+      "schedule_id": "501-0046",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/25117"
+    },
+    "series_metadata": {
+      "series_id": "FIS-0011",
+      "series_title": "Money Order Log/Mailroom",
+      "series_description": "Log of all money orders received in the mailroom to be credited to inmate accounts. Includes copies of all money orders.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: and provided audit completed and report released",
+      "duration_years": 4,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2007-08-14",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DOT",
+      "schedule_type": "specific",
+      "schedule_id": "770-2592",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/38626"
+    },
+    "series_metadata": {
+      "series_id": "ProgMgmt-5",
+      "series_title": "Electronic Vehicle Registrations, Crash Records and Images",
+      "series_description": "These records contain vehicle registrations and crash data information for crashes occurring on Ohio roadways. The use of this data impacts safety and welfare of the traveling public on Ohio roadways.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: electronically any current, non-finalized open years",
+      "duration_years": 15,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2019-12-26",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

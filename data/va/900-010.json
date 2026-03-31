@@ -1,50 +1,64 @@
 [
   {
-    "agency_name": null,
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "900-010",
-    "series_id": "000397",
-    "series_title": "CCS Telephone Contacts, Messages, and Inquiries",
-    "series_description": "This series consists of information received and entered into the Customer Contact Solution(CCS) from communications between Virginia Housing Development Authority and its clients regarding products and services.",
-    "retention_statement": "Retain permanently in agency.",
-    "retention_years": null,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/900-010.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": null,
+      "schedule_type": "specific",
+      "schedule_id": "900-010",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/900-010.pdf"
+    },
+    "series_metadata": {
+      "series_id": "000397",
+      "series_title": "CCS Telephone Contacts, Messages, and Inquiries",
+      "series_description": "This series consists of information received and entered into the Customer Contact Solution(CCS) from communications between Virginia Housing Development Authority and its clients regarding products and services.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "permanently in agency",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": null,
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "900-010",
-    "series_id": "000398",
-    "series_title": "License Records",
-    "series_description": "This series consists of paid licenses that VHDA uses for various music purchases in print and electronic marketing collateral.",
-    "retention_statement": "Retain 3 years after paid license expires then destroy.",
-    "retention_years": 3,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/900-010.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": null,
+      "schedule_type": "specific",
+      "schedule_id": "900-010",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/900-010.pdf"
+    },
+    "series_metadata": {
+      "series_id": "000398",
+      "series_title": "License Records",
+      "series_description": "This series consists of paid licenses that VHDA uses for various music purchases in print and electronic marketing collateral.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "paid license expires",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   }
 ]

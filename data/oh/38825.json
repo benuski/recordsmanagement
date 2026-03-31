@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "855-0931",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/38825"
+    },
+    "series_metadata": {
+      "series_id": "OSHA-2",
+      "series_title": "Consultation Report Files",
+      "series_description": "File contains on-site consultation reports.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Scan and verify image ; Electronic: or federal audit has been completed, audit report released, and findings resolved",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2020-04-22",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

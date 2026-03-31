@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DVS",
+      "schedule_type": "specific",
+      "schedule_id": "50610132",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39390"
+    },
+    "series_metadata": {
+      "series_id": "DVS-OVH-VA1",
+      "series_title": "VA Resident Claims",
+      "series_description": "All documents needed in support of submitting claims for Veterans Benefits to the Department of Veterans Affairs pursuant to Title 38.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: or scanned into electronic form ; Electronic: indefinitely",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Permanent",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2023-12-06",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

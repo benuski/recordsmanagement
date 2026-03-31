@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "JFS",
+      "schedule_type": "specific",
+      "schedule_id": "795-0884",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/31265"
+    },
+    "series_metadata": {
+      "series_id": "CS-SDUR04",
+      "series_title": "Public Assistance/ Medicaid Refunds and Documentation",
+      "series_description": "Records document requests from county Child Support Enforcement Agency(CSEA's) for Child Support cases which require a Public Assistance or Medicaid Refund through Payment Analysis Team B. Files include, but are not limited to, PA/Medicaid Refund Request forms housed within the \"FC_MC_Requests\"(name of email account), PA/Medicaid Access Database information which stores all requests submitted.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: in office child support case is closed. ; Paper: in office child support case is closed",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2024-06-18",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

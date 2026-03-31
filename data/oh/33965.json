@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGR",
+      "schedule_type": "specific",
+      "schedule_id": "17000217",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/33965"
+    },
+    "series_metadata": {
+      "series_id": "AGR-9051",
+      "series_title": "Laboratory Reports",
+      "series_description": "USALIMS (Laboratory Information Management System) Reports, Sample Submission Forms and any other pertinent information submitted by the client (Not specified otherwise by a specific program). The record retention coordinator for hard copy sample submission forms is the Receiving Laboratory Technician.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: ; Electronic",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2017-01-05",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

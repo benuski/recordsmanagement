@@ -1,26 +1,33 @@
 [
   {
-    "agency_name": "Department of Medical Assistance Services",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "602-006",
-    "series_id": "015010",
-    "series_title": "Medicaid Appeals Closed Cases No series description available",
-    "series_description": "",
-    "retention_statement": "7 Years after last action",
-    "retention_years": 7,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Confidential Destruction",
-    "confidential": true,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": "1991-04-15",
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/602-006.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Department of Medical Assistance Services",
+      "schedule_type": "specific",
+      "schedule_id": "602-006",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/602-006.pdf"
+    },
+    "series_metadata": {
+      "series_id": "015010",
+      "series_title": "Medicaid Appeals Closed Cases No series description available",
+      "series_description": "",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "last action",
+      "duration_years": 7,
+      "duration_months": null,
+      "disposition_method": "Confidential Destruction",
+      "confidential_flag": true
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "1991-04-15",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   }
 ]

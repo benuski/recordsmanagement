@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DHS",
+      "schedule_type": "specific",
+      "schedule_id": "760-1321",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/32065"
+    },
+    "series_metadata": {
+      "series_id": "2002",
+      "series_title": "Personnel Deportment Record",
+      "series_description": "Contains the history of the formal discipline imposed on an employee. Formal disciplinary action that is imposed for just cause consists of: One or more written reprimands, a fine in an amount not to exceed five (5) days pay, and one or more days suspension. Prior disciplinary record is used to determine appropriate level for any future discipline.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Written reprimands are retained date of reprimand if there has been no other discipline imposed during past . Fines and suspensions are retained 36 months if there has been no other discipline imposed during past 36 months. ; Paper: hard copy it has been scanned into EIR",
+      "duration_years": null,
+      "duration_months": 24,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2024-10-21",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,26 +1,33 @@
 [
   {
-    "agency_name": "Virginia Workers' Compensation Commission",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "191-032",
-    "series_id": "015227",
-    "series_title": "Criminal Injuries Compensation Fund (CICF) Claim Files",
-    "series_description": "This series documents the claimant's request for financial assistance for expenses incurred as a result of criminal activities. The series may include, but is not limited to: applications, supporting documentation, and notices.",
-    "retention_statement": "100 Years after last action",
-    "retention_years": 100,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Confidential Destruction",
-    "confidential": true,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": "2016-01-04",
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/191-032.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Virginia Workers' Compensation Commission",
+      "schedule_type": "specific",
+      "schedule_id": "191-032",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/191-032.pdf"
+    },
+    "series_metadata": {
+      "series_id": "015227",
+      "series_title": "Criminal Injuries Compensation Fund (CICF) Claim Files",
+      "series_description": "This series documents the claimant's request for financial assistance for expenses incurred as a result of criminal activities. The series may include, but is not limited to: applications, supporting documentation, and notices.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "last action",
+      "duration_years": 100,
+      "duration_months": null,
+      "disposition_method": "Confidential Destruction",
+      "confidential_flag": true
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2016-01-04",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   }
 ]

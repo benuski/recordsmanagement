@@ -1,26 +1,33 @@
 [
   {
-    "agency_name": "State Corporation Commission",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "171-040",
-    "series_id": "005011",
-    "series_title": "Rules, Rates, and Forms Filings: Life and Health, Property and Casualty",
-    "series_description": "This series documents the submission of required filings by life and health (L&H) insurers, property and casualty (P&C) insurers, rate service organizations, and residual market facilities to the Commission for review and approval. The series may include, but is not limited to: rules, rates, and forms filings",
-    "retention_statement": "0 Years after superseded, obsolete, rescinded",
-    "retention_years": 0,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "or Non-confidential Destruction",
-    "confidential": false,
-    "legal_citation": "COV 38.2-316",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/171-040.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "State Corporation Commission",
+      "schedule_type": "specific",
+      "schedule_id": "171-040",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/171-040.pdf"
+    },
+    "series_metadata": {
+      "series_id": "005011",
+      "series_title": "Rules, Rates, and Forms Filings: Life and Health, Property and Casualty",
+      "series_description": "This series documents the submission of required filings by life and health (L&H) insurers, property and casualty (P&C) insurers, rate service organizations, and residual market facilities to the Commission for review and approval. The series may include, but is not limited to: rules, rates, and forms filings. COV 38.2-316",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "superseded, obsolete, rescinded",
+      "duration_years": 0,
+      "duration_months": null,
+      "disposition_method": "or Non-confidential Destruction",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   }
 ]

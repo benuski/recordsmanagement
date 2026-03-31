@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DAS",
+      "schedule_type": "specific",
+      "schedule_id": "100-1018",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/2409"
+    },
+    "series_metadata": {
+      "series_id": "FLT-05",
+      "series_title": "Fleet Billings File (Volumes)",
+      "series_description": "Copies of the current and previous fiscal years billing units for each month and the annual Billing Units Summary statements. Also contains a copy of the annual agency invoice.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: in operating area superseded by a new Fleet Billings Memo ; Paper: electronically stored",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Recycle",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2025-08-25",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

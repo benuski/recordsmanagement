@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OTC",
+      "schedule_type": "specific",
+      "schedule_id": "50580215",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/24954"
+    },
+    "series_metadata": {
+      "series_id": "OTC-502-03",
+      "series_title": "Physical Inventory Reports and Work Papers",
+      "series_description": "All computer generated reports that pertain to the annual Physical Inventory of materials for the various divisions and sections at the Ohio Turnpike Commission, includes tags and work papers.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: ; Electronic",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Paper: Recycle ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2007-08-13",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

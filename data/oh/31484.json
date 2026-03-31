@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TAX",
+      "schedule_type": "specific",
+      "schedule_id": "110-0137",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/31484"
+    },
+    "series_metadata": {
+      "series_id": "110-124-16",
+      "series_title": "OHIO SEVERANCE TAX RETURN & RELATED DOCUMENTS",
+      "series_description": "These forms, including but not limited to, SV3, SV3A, and SV5, are submitted quarterly or annually by severers who remove certain natural resources from the soil or water of this state. These returns show the quantity and type of natural resources removed & are accompained by the appropriate tax remittance and related documentation.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: 4 yrs end of calendar year in which return was filed. ; Electronic: 4 yrs end of calendar year in which return was filed",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2013-06-25",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

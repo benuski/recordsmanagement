@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TOS",
+      "schedule_type": "specific",
+      "schedule_id": "10900558",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/30627"
+    },
+    "series_metadata": {
+      "series_id": "SEC-806",
+      "series_title": "Reports provided to Auditor of State",
+      "series_description": "At the conclusion of each state fiscal year, the Auditor of State performs a financial audit of the Treasurer of State. As part of this audit, various reports are requested from the Trust Department. These reports show all purchases and sales of investments during the previous fiscal year, as well as investments that matured or were called for redemption. There are also reports that show the inventory of investments held by the Treasurer at the conclusion of each fiscal year, which occurs on June 30. The format of the reports can vary from year to year depending on specific requests received from auditor. The Trust Department retains digital copies of all reports provided to the Auditor of State.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: 4 fiscal years from conclusion of fiscal year which reports pertain, provided that Auditor of State has completed audit of Treasurer of State and published final report respective fiscal year",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2012-10-30",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

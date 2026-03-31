@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TAX",
+      "schedule_type": "specific",
+      "schedule_id": "11100849",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39920"
+    },
+    "series_metadata": {
+      "series_id": "Bus-Reg.",
+      "series_title": "Business Tax Registrations",
+      "series_description": "Records include registration forms or applications and supporting documentation for the Commercial Activity Tax, Petroleum Activity Tax, Financial Institution Tax, Wireless 9-1-1 Charge or Next Generation 9-1-1 Access Fee, and Resort Area Gross Receipts Excise Tax.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: account is canceled or closed ; Paper: account is canceled or closed",
+      "duration_years": 4,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2025-12-10",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

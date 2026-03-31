@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AUD",
+      "schedule_type": "specific",
+      "schedule_id": "10700232",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/27288"
+    },
+    "series_metadata": {
+      "series_id": "070-RC-07",
+      "series_title": "Record Box Transfer List",
+      "series_description": "Form used by all regions and departments when sending records to stroage or imaging. These forms include a departmental box number, contents description, inclusive dates of records, and a destroy date which is in accordance with an approved record retention schedule.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: If no electronic copy exists, all boxes have been destroyed. ; Electronic: all boxes have been destroyed",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Recycle ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2009-03-04",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

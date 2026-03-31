@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AUD",
+      "schedule_type": "specific",
+      "schedule_id": "10700210",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/26616"
+    },
+    "series_metadata": {
+      "series_id": "070-UAN-01",
+      "series_title": "Uniform Accounting Network Client Data Files",
+      "series_description": "Includes all data submitted to UAN from client user including annual financial reports.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic",
+      "duration_years": 7,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2008-08-27",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

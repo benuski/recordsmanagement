@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DHS",
+      "schedule_type": "specific",
+      "schedule_id": "760-1565",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/32950"
+    },
+    "series_metadata": {
+      "series_id": "4006",
+      "series_title": "Law Enforcement Requests for Actions to be Taken on a Vehicle Title",
+      "series_description": "Record series to include documents submitted by Law Enforcement / BMV Investigators requesting action to be taken on a vehicle title. Requests/actions may include, but are not limited to, title cancellations for open investigations regarding vehicle ownership/title transfer fraud (e.g. fraudulent documents, signatures, forms of payment/bad checks, etc.); administrative holds that Title Support employees place on a VIN in ATPS to prevent future title transfers to occur for that vehicle within the state of Ohio; administrative holds that Title Support employees remove from a VIN in ATPS to allow for future title transfers to occur; authority letters that instruct Clerk of Courts Title offices to take some type of action on a title (e.g. issue a title, remove a lien, etc.); order in letters that inform individuals their title has been cancelled and also instructs them to immediately mail that title to the BMV. This series also includes any supporting documentation for the above mentioned requests/actions.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: case is closed or no longer than 20 years if case remains open/unresolved. ; Paper: date case is closed, and in event case remains open/unresolved, records shall be retained no longer than 20 years. Records may be imaged",
+      "duration_years": 7,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2015-06-22",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

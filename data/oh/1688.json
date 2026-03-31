@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DOH",
+      "schedule_type": "specific",
+      "schedule_id": "440-0285",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/1688"
+    },
+    "series_metadata": {
+      "series_id": "07-07",
+      "series_title": "Complaint and Adjudication Files",
+      "series_description": "Complaints against hearing aid dealers and investigation documentation, and adjudication hearing and court records, if appealed.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: RMaintain in office case is closed",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "1992-07-27",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

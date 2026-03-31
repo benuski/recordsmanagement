@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "SOS",
+      "schedule_type": "specific",
+      "schedule_id": "50030119",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/33032"
+    },
+    "series_metadata": {
+      "series_id": "E-D2036",
+      "series_title": "Federal Postcard Application (FPCA)",
+      "series_description": "Application for absentee ballots and registration as a voter on a form adopted in accordance with federal regulations relating to the Uniformed and Overseas Citizen Absentee Voting Act per R.C. 3511.02.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Applications be scanned ; Electronic: Applications be scanned",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Permanent",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2015-07-30",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

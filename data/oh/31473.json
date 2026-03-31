@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TAX",
+      "schedule_type": "specific",
+      "schedule_id": "11100628",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/31473"
+    },
+    "series_metadata": {
+      "series_id": "EX/EN ASSE",
+      "series_title": "Excise and Energy Tax Assessment Files",
+      "series_description": "These files are for assessments issued to beer, wine, severance, horse racing, kilowatt, natural gas, motor fuel, IFTA(International Fuel Tax Agreement), casino and tire fee taxpayers. The files contain the recommendation for assessment, the notice of assessment, the audit work papers and related correspondence/documentation.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: end of calendar year in which payment is received or assessment was cancelled. ; Electronic: end of calendar year in which payment is received or assessmnt was cancelled",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2013-06-27",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

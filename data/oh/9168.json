@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DAS",
+      "schedule_type": "specific",
+      "schedule_id": "100-1027",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/9168"
+    },
+    "series_metadata": {
+      "series_id": "FLT-07",
+      "series_title": "Fleet Management Chargebacks",
+      "series_description": "Copies of Fleet Management Chargeback files consisting of DAS/Invoice (ADM 7008) and copies of the Vendor receipts. Fleet Management pays all bills for damage to leased or rental vehicles.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: in operating area Two (2) Fiscal Years ; Paper: stored electronically",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Recycle",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2025-08-25",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

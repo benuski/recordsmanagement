@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DNR",
+      "schedule_type": "specific",
+      "schedule_id": "725-1015",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/38941"
+    },
+    "series_metadata": {
+      "series_id": "727-029",
+      "series_title": "Lumber Inventory Tracking Records",
+      "series_description": "Lumber tracking spreadsheet. Managers are required to complete this spreadsheet by the 5th of each month. These spreadsheets track any movement of lumber from trees on state owned property. They include additions, transfers and project usage and are used to reconcile against all locations with lumber. They are also used for quarterly reports.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Keep ; Paper: Keep",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Recycle",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2021-01-05",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OOD",
+      "schedule_type": "specific",
+      "schedule_id": "50760004",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/31970"
+    },
+    "series_metadata": {
+      "series_id": "10-ADM-001",
+      "series_title": "Ad Hoc Reports",
+      "series_description": "Report queries pulled for various work functions from COGNOS, OSCAR/AWARE, BEAMS, CATS, OAKS, OHMS, IBM, TRAC, SOPPS and any additional database accessed by the agency. These report/queries are transient in nature as they can be reproduced upon demand.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: no longer of administrative value and ; Paper: no longer of administrative value and",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2014-01-02",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

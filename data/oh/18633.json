@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "COM",
+      "schedule_type": "specific",
+      "schedule_id": "800-0611",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/18633"
+    },
+    "series_metadata": {
+      "series_id": "ELEV-01",
+      "series_title": "Elevator Record Folders",
+      "series_description": "File contains pertinent information regarding the historical data collected on an elevator. Accident reports details analysis of who was involved, the location, calse and extent of injury, also signature of who reported the accident(injury). Out of service elevator info. Commission cards are authorization notices for insurance companies to do elevator inspections within the state of Ohio.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: , scanned ; Electronic: machine readable notified that elevator is no longer in service",
+      "duration_years": null,
+      "duration_months": 6,
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2003-01-13",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

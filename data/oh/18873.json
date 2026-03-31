@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGR",
+      "schedule_type": "specific",
+      "schedule_id": "700-0025",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/18873"
+    },
+    "series_metadata": {
+      "series_id": "AGR-6502",
+      "series_title": "Metrology/NTEP LabReports",
+      "series_description": "These records include test reports and test data for evaluations performed in the National Type Evaluation Program (NTEP) lab to certify a scale, scanning device, or measuring device submitted by a private manufacturer. Records are maintained by control number and company name. The NTEP lab verifies that a weighing or measuring device meets uniform national requirements before it is approved to be utilized in the retail marketplace.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Keep ; Paper: Keep 5 years",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2025-06-09",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

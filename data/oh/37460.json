@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551735",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/37460"
+    },
+    "series_metadata": {
+      "series_id": "ITS-OAG-05",
+      "series_title": "Project Management Office Files",
+      "series_description": "Files that document the life-cycle of an Information Technology Services (ITS) project from the initial work order requesting the development, the designing, and final approval and initiation of a new system. ITS Project Management, Infrastructure, and Security units will work with AG sections in the development of these projects. Once a project is completed, the system will become operational and managed by the Infrastructure unit. Records can include, but are not limited to, work orders and enhancement work orders, design documents, schedules, system test plans, and sign-offs. Data and test data housed in resulting systems will not fall under this schedule, but under retention schedules specific to those records'' information.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: life of system/related system(s) needed time convert/migrate data newer system or if project is canceled. systems be decommissioned, with longest applicable records retention schedule associated with data housed within system. ; Paper: life of system/related system(s) needed time convert/migrate data newer system or if project is canceled, unless scanned and saved electronically. systems be decommissioned, with longest applicable records retention schedule associated with data housed within system, unless scanned and saved electronically",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2019-06-27",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

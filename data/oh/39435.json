@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "COM",
+      "schedule_type": "specific",
+      "schedule_id": "800-0840",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39435"
+    },
+    "series_metadata": {
+      "series_id": "840-04",
+      "series_title": "Manufactured Home Installation Permit Records",
+      "series_description": "Records relating to manufactured home installation permits. This record series includes, but is not limited to, applications, grants or denials of a permit or extension; installation permits; temporary occupancy permits; notices of expiring permit; alternative designs; installation plans; foundation designs; homeowner/installation agreements; and inspection reports.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: record shall be destroyed three years expiration/revocation of installation permit (including any extension periods), three years denial of an installation permit, or three years date a home passed a final inspection, whichever is later. ; Paper: If an electronic version of record exists, paper copy shall be destroyed. If an electronic version of record does not exist",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2024-04-30",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

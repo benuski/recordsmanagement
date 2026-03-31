@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AUD",
+      "schedule_type": "specific",
+      "schedule_id": "10700287",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/38882"
+    },
+    "series_metadata": {
+      "series_id": "GP-O-10",
+      "series_title": "Employee Payroll and Benefits Documents",
+      "series_description": "List of document types in this record series include, but are not limited to: Benefit Enrollment/Change form, Benefit Refunds, Benefit Eligibility Appeal packet, Change of Address, Deferred Compensation, Dependent Eligibility documents, Final Payroll Certification, Healthcare Waiver form, Insurance Enrollment form, Jury Duty-Copy of Check and Subpoena, Leave Conversion form, Over/Under Payment & Financial Settlement, Physician Verification Notice, Tax Forms (Federal, State, City), Union Authorization Cards, Verification of Employment/Income",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: while needed ; Electronic: from effective date of employee separation",
+      "duration_years": 7,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2020-09-14",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

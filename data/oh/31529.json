@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "JFS",
+      "schedule_type": "specific",
+      "schedule_id": "795-0322",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/31529"
+    },
+    "series_metadata": {
+      "series_id": "OIS-OI-MFL",
+      "series_title": "Mainframe Console Log",
+      "series_description": "Electronic log of Unisys mainframe activity (input/output). Includes log run names, start/stop times and any unusual events that impact the system.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: in office",
+      "duration_years": null,
+      "duration_months": 3,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2013-07-05",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

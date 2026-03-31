@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DHS",
+      "schedule_type": "specific",
+      "schedule_id": "17600992",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/33549"
+    },
+    "series_metadata": {
+      "series_id": "B072-01",
+      "series_title": "Salespersons License",
+      "series_description": "This record series includes all paper and scanned applications and/or documents that are submitted for a salespersons license is issued by the BMV dealer licensing section.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: three months from scan date. ; Electronic: two years from date of cancellation or inactive date",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2016-05-26",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

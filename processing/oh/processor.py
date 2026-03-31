@@ -1,11 +1,28 @@
 import logging
 from pathlib import Path
-
 from processing.oh.harvester import harvest_links, download_detail_pages, download_general_schedule
 from processing.oh.parser import process_ohio_html, process_ohio_general_html
-from processing.utils import save_records
+from processing.central_file import save_records, get_nested_val
+from processing.extractor_engine import run_state_pipeline
 
 logger = logging.getLogger(__name__)
+
+def oh_worker(file_path: Path, output_dir: Path, agency_mapping: dict, schema: dict, config, skip_ocr: bool):
+    """Worker wrapper for Ohio HTML schedules."""
+    try:
+        if file_path.name.startswith("gen_"):
+            records = process_ohio_general_html(file_path, schema)
+        else:
+            record = process_ohio_html(file_path, schema)
+            records = [record] if record else []
+            
+        if records:
+            # Ohio specific schedules are 1-per-file usually, but we want to group by agency eventually.
+            # For the parallel worker, we save per input file to avoid collisions.
+            # Consolidation can happen in a post-process step if needed.
+            save_records(records, output_dir, default_filename=f"{file_path.stem}.json")
+    except Exception as e:
+        logger.error(f"Failed to process OH file {file_path.name}: {e}")
 
 def harvest(args):
     """Downloads Ohio records from the remote server."""
@@ -34,33 +51,6 @@ def harvest(args):
         logger.info("Downloading missing specific records...")
         download_detail_pages(urls, args.input_directory)
 
-def parse(args, output_schema: dict):
-    """Parses local Ohio HTML files into JSON."""
-    logger.info("Initiating Ohio parsing phase...")
-    html_files = list(args.input_directory.glob("*.html"))
-
-    if not html_files:
-        logger.warning(f"No HTML files found in {args.input_directory} to parse.")
-        return
-
-    all_records = []
-    for i, file_path in enumerate(html_files):
-        if file_path.name.startswith("gen_"):
-            records = process_ohio_general_html(file_path, output_schema)
-            all_records.extend(records)
-        else:
-            record = process_ohio_html(file_path, output_schema)
-            if record:
-                all_records.append(record)
-
-        if (i + 1) % 500 == 0:
-            logger.info(f"Parsed {i+1}/{len(html_files)} files...")
-
-    if all_records:
-        save_records(all_records, args.output_directory, group_by='agency_name')
-
-    logger.info(f"Done! Successfully parsed {len(html_files)} files to {args.output_directory}")
-
 def run(args, output_schema: dict):
     task = getattr(args, 'task', 'all')
 
@@ -71,4 +61,12 @@ def run(args, output_schema: dict):
             logger.info("Skipping harvest phase (use --task harvest or --update-dl to enable)")
 
     if task in ['parse', 'all']:
-        parse(args, output_schema)
+        from processing.oh.config import ohio_config
+        # Run Ohio parsing in parallel!
+        run_state_pipeline(
+            args, 
+            ohio_config, 
+            output_schema, 
+            glob_pattern="*.html", 
+            worker_func=oh_worker
+        )

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TOS",
+      "schedule_type": "specific",
+      "schedule_id": "10900670",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35429"
+    },
+    "series_metadata": {
+      "series_id": "IA-04",
+      "series_title": "Auditor of State Requests and Reports",
+      "series_description": "The requests sent by the Auditor of State and the reports, and related documents, prepared by the Treasurer of State in response to such requests.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: 4 fiscal years from conclusion of fiscal year that reports or requests were generated, provided that Auditor of State has completed audit of Treasurer of State and published final report respective fiscal year",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2019-05-06",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

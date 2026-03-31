@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "ART",
+      "schedule_type": "specific",
+      "schedule_id": "920-0020",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/30591"
+    },
+    "series_metadata": {
+      "series_id": "OAC-0017",
+      "series_title": "Automated Email Correspondence for Online Grant System",
+      "series_description": "Automated email correspondence from the online grant system to potential and actual grant applicants, copied to the agency''s online grant system''s email inbox, making notification of various online grants system activities, status notifications and misc. related correspondences that have transient or intermediate retention value.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: in grant system inbox no longer than",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2012-09-18",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

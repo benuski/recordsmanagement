@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OIC",
+      "schedule_type": "specific",
+      "schedule_id": "845-0549",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/38641"
+    },
+    "series_metadata": {
+      "series_id": "IC-MED-06",
+      "series_title": "Insufficient Medical Exam Reports",
+      "series_description": "This records series consists of, but not limited to, IC medical reports that are deemed deficient and unacceptable.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: from date of receipt by agency. Delete electronic copy, and hard copy (if kept)",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2023-02-24",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

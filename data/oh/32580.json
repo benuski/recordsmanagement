@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OOD",
+      "schedule_type": "specific",
+      "schedule_id": "50760094",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/32580"
+    },
+    "series_metadata": {
+      "series_id": "80-BE-002",
+      "series_title": "BE Operating Program System (BEOPS)",
+      "series_description": "The Business Enterprise Operating Program System file contains a copy of the operating system that is distributed to operators to as an optional method to produce monthly and semi-annual reports; inventories and daily cash reports as required by the Business Enterprise Program.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: most current version of software is retained on a permanent basis. current system is updated, superseded, or becomes obsolete. outdated system",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2014-09-04",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

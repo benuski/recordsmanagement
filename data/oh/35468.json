@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TAX",
+      "schedule_type": "specific",
+      "schedule_id": "11100812",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35468"
+    },
+    "series_metadata": {
+      "series_id": "DTE 032",
+      "series_title": "Districts in Excess of 10 Mill Report",
+      "series_description": "The Tax Rates Report for Districts in Excess of 10 Mill is run each year following calculation of tax reduction factors and sent to counties that have overages in any of their districts.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: five years date report is sent county. If scanned, . ; Electronic: five years date report is sent county",
+      "duration_years": null,
+      "duration_months": 6,
+      "disposition_method": "Paper: Wastepaper ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2018-10-15",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

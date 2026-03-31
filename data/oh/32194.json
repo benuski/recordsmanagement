@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551540",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/32194"
+    },
+    "series_metadata": {
+      "series_id": "BCI-OLG-04",
+      "series_title": "OHLEG Search Engine Access Logs",
+      "series_description": "OHLEG Search Engine Access Logs capture the identity of the person performing a search, the IP address the search was conducted from, the time of the search, the search criteria entered into the search engine, and which documents or data was looked at. Logs are used to audit system security and use, and investigate misuse of the OHLEG Search Engine.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic",
+      "duration_years": 8,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2014-03-06",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

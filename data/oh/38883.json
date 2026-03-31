@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AUD",
+      "schedule_type": "specific",
+      "schedule_id": "10700286",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/38883"
+    },
+    "series_metadata": {
+      "series_id": "GP-O-04",
+      "series_title": "Employee Medical Documents",
+      "series_description": "List of document types in this record series include, but are not limited to: Accident or Illness form, American with Disabilities Act (ADA), C+84, C86, C-9, Childbirth/Adoption, DHO/SHO Orders, Disability Application, Doctor Letter for Light Duty, Family and Medical Leave Act (FMLA) documents, Hospitalization/Outpatient Surgery Certification, Independent Medical Exam (IME), Injury/Illness Report (ADM 4303), Medco-14s, Medical correspondence, Medical Records, Ohio Employee Assistance Program (EAP) Agreements, Retirement Disability Application, Return to Work, Salary Continuation Request/Extension, Statement of Psychiatric Disability-Psych Questionnaire (ADM 4316), Transitional Work Program (TWP), Workers' Compensation correspondence, letters from BWC, etc.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: case documents support is closed ; Paper: while needed",
+      "duration_years": 7,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2020-09-14",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

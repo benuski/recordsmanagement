@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551581",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/33207"
+    },
+    "series_metadata": {
+      "series_id": "GSS-OAG-01",
+      "series_title": "Office Services and Copy Center Requests",
+      "series_description": "Correspondence between AGO employees and General Services'' Office Services or the AGO Copy Center concerning, but not limited to, deliveries, mail room tasks, simple office upkeep/changes, shipping and receiving, copy orders, and printing orders.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: . ; Electronic",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2015-10-15",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

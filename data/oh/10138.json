@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BTA",
+      "schedule_type": "specific",
+      "schedule_id": "116-0006",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/10138"
+    },
+    "series_metadata": {
+      "series_id": "06",
+      "series_title": "Warrant Journal",
+      "series_description": "This is a computer printout which accompanies warrants issued by the Auditor of State reflecting the name of payee, amount of warrant, date issued and warrant number. This information is entered on to the respective voucher before sending the warrant for payment.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Current year past retained in department. Four years past and older sent retenton 4 years",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Paper: Wastepaper",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "1977-01-13",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

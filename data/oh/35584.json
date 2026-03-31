@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AUD",
+      "schedule_type": "specific",
+      "schedule_id": "10700224",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35584"
+    },
+    "series_metadata": {
+      "series_id": "SIU-01",
+      "series_title": "SIU Case Files - Litigation",
+      "series_description": "Special Investigations Unit (SIU) case files prosecuted by County and Federal Prosecutors. Used to assist and provide documentation to Prosecutors in upcoming indictments and/or trials. These files may include but are not limited to: Auto track reports, BMV information, Business Corporate info, Civil court actions, criminal history report, FINCEN report, Lexis-Nexis report, the original complaint, correspondence, investigative reports, interviews, planning forms and documents and/or other records of evidence obtained by subpoena, search warrant or other means.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: while needed ; Electronic: case is closed",
+      "duration_years": 7,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2026-01-30",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

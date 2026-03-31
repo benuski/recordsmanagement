@@ -1,26 +1,33 @@
 [
   {
-    "agency_name": "Department of Medical Assistance Services",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "602-004",
-    "series_id": "015009",
-    "series_title": "Category II In-State & Out-of-State Checks from Medicaid Providers with Documentation No series description available",
-    "series_description": "",
-    "retention_statement": "5 Years after end of state fiscal year",
-    "retention_years": 5,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Confidential Destruction",
-    "confidential": true,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": "1988-01-04",
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/602-004.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Department of Medical Assistance Services",
+      "schedule_type": "specific",
+      "schedule_id": "602-004",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/602-004.pdf"
+    },
+    "series_metadata": {
+      "series_id": "015009",
+      "series_title": "Category II In-State & Out-of-State Checks from Medicaid Providers with Documentation No series description available",
+      "series_description": "",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "end of state fiscal year",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Confidential Destruction",
+      "confidential_flag": true
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "1988-01-04",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   }
 ]

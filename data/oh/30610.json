@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551507",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/30610"
+    },
+    "series_metadata": {
+      "series_id": "OW-AGO-12",
+      "series_title": "Administrative Hearing Files",
+      "series_description": "Administrative Hearing Files may include, but are not limited to, notice of opportunity for hearing, letter of intent, request for hearing, hearing notifications, scheduling information, case summons, court record, continuances, file sent by client (gathered during investigation), legal research, evidentiary materials, pleadings, exhibits, correspondence, attorney work product, report and recommendation from hearing officer, settlement and negotiation documents, and final adjudication order. (Includes 119 hearings)",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: case closed out of internal case management sytem, or saved electronically. ; Electronic: case closed out of internal case management sytem",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2012-10-03",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

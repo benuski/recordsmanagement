@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551590",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/33403"
+    },
+    "series_metadata": {
+      "series_id": "BCI-ID-014",
+      "series_title": "State Registry of Sex Offenders",
+      "series_description": "Pursuant to the requirement of 2950.13, the Office of the Ohio Attorney General/Bureau of Criminal Investigation & Identification (BCI) shall maintain a state registry of sex offenders and child victim offenders. Registry also provides information for public notifications. Demographic information includes, but is not limited to, the sex offender''s name, address, personally identifying information, conviction information, victim information, and registration status.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: terminated by operation of statute or court order, , or 7 years adequate proof of death, whichever comes earlier",
+      "duration_years": 110,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2016-02-11",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

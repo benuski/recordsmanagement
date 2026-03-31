@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DDD",
+      "schedule_type": "specific",
+      "schedule_id": "50740077",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39266"
+    },
+    "series_metadata": {
+      "series_id": "DDDLAO-9",
+      "series_title": "OSSAS Protocols",
+      "series_description": "Internal OSSAS Protocols, including the compliance review, special review and sanction protocols",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Maintain obsolete or superseded by new protocol",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2022-11-30",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551653",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/34555"
+    },
+    "series_metadata": {
+      "series_id": "BCI-INV-22",
+      "series_title": "Missing Child and Adult Clearinghouse Case Files",
+      "series_description": "Information submitted to AGO by local law enforcement that allows AGO to issue an endangered child or missing persons alert. Records include, but are not limited to, description of missing person, information on custodian, potential suspect, lead law enforcement agency, telephone logs, missing persons posters, photos, photo release form, news clippings, correspondence, copy of police report, and copy of AGO entry into National Center for Missing and Exploited Children system.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: located, provided person has reached age of majority (age 18). Records needed investigations will be copied and retained per applicable BCI case file retention schedule. ; Paper: If not located within 8 years, maintain a paper file located, provided person has reached age of majority (age 18), unless scanned and saved electronically. Records needed investigations will be copied and retained per applicable BCI case file retention schedule",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2017-08-03",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

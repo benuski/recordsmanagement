@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DAS",
+      "schedule_type": "specific",
+      "schedule_id": "100-1066",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/26047"
+    },
+    "series_metadata": {
+      "series_id": "FSP-05",
+      "series_title": "OSN Property Log",
+      "series_description": "Log containing Ohio State Number (OSN), holding agency, number from screeners list, date requested government acquisition price. When property is approved for pickup by GSA then add: amount of items received, whether withdrawn by holding agency and amount of monies withdrawn, rejection and reason if applicable, any direct transfer and dollar amount of overages and/or shortages. Used to track federal property by its OSN.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: in operating system Federal review",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2025-12-19",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TOS",
+      "schedule_type": "specific",
+      "schedule_id": "10900553",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/30633"
+    },
+    "series_metadata": {
+      "series_id": "SEC-811",
+      "series_title": "Linked Deposit program daily activity and reconciliation documents",
+      "series_description": "A packet of documents that includes a report from the investment inventory software that shows all linked deposit purchases, maturities and interest paid on a given day. This report is then reconciled against bank documents, which are also included in this packet, and that show the incoming and outgoing funds for the corresponding business day.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: conclusion of current fiscal year, and an additional 6 fiscal years. ; Paper: conclusion of current fiscal year, and an additional 6 fiscal years",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2022-10-27",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

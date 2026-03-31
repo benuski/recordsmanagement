@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DHS",
+      "schedule_type": "specific",
+      "schedule_id": "760-1201",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/23410"
+    },
+    "series_metadata": {
+      "series_id": "B033-01",
+      "series_title": "Returned Checks",
+      "series_description": "Various payment types (checks, credit cards, etc.) issued for payment of services are returned by the bank, but are subsequently paid. The Tax Distribution Section is notified and a letter is sent to the customer requesting payment. Once payment is received, no further collection action is taken.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: returned item has been paid in full and cleared through office of Attorney General. thereafter providing audited by Auditor of State and audit report released",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2026-01-05",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

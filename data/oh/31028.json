@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "JFS",
+      "schedule_type": "specific",
+      "schedule_id": "795-0677",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/31028"
+    },
+    "series_metadata": {
+      "series_id": "UC-PSF-011",
+      "series_title": "Lockbox Copies of Reimbursements",
+      "series_description": "Reimbursements (e.g., checks, money orders, etc.) received from customers for benefit overpayments are delivered to ODJFS’ Lockbox #836 at National City Bank on a daily basis. On the following workday, the copies of the money items are picked up at the bank and delivered to Benefit Payments Finance for balancing. Subsequently, a report is sent to Treasurer of State stating the amount that has been deposited. The information is then entered into the Benefits System crediting claimants for monies paid.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: reimbursements are received and receipts are balanced daily against fund accounts ; Electronic: in office audited by Auditor of State, audit report is released and all discrepancies are resolved",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2013-02-13",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

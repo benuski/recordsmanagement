@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "LIB",
+      "schedule_type": "specific",
+      "schedule_id": "350-0031",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/28171"
+    },
+    "series_metadata": {
+      "series_id": "RS-IR-10",
+      "series_title": "Shipping Lists File",
+      "series_description": "Purpose: Lists of federal publications serving as an inventory of materials received and used to check disposition of items received. Available online.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Paper: Trash",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2009-12-09",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

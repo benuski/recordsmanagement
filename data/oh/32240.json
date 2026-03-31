@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DRC",
+      "schedule_type": "specific",
+      "schedule_id": "501-0103",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/32240"
+    },
+    "series_metadata": {
+      "series_id": "AD/EX-0001",
+      "series_title": "Special Investigation Case Files",
+      "series_description": "Documents entire investigation process, including sexual abuse investigations, describing the facts found while conducting an investigation involving an employee or offender''s alleged violation of policy, procedure, or Ohio Revised Code",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: inmate has reached final release, expiration of sentence, death, or employee is no longer employed by agency. ; Electronic: inmate has reached final release, expiration of sentence, death, or employee is no longer employed by agency",
+      "duration_years": 10,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2014-04-18",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

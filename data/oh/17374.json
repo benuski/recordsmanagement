@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "18550844",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/17374"
+    },
+    "series_metadata": {
+      "series_id": "ALLS-11",
+      "series_title": "CAS - Claims Adjudication System",
+      "series_description": "List of claim files requested from Industrial Commission to be pulled for hearing.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: in house",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2002-08-23",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

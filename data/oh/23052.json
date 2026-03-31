@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DHS",
+      "schedule_type": "specific",
+      "schedule_id": "760-1190",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/23052"
+    },
+    "series_metadata": {
+      "series_id": "B052-1",
+      "series_title": "Package X-Ray Images",
+      "series_description": "Record series consists of X-ray images of all parcels and packages that were received by ODPS Shipley Building prior to their being processed and fictitious parcels that are used for quality control purposes.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2006-02-16",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

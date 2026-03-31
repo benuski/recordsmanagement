@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "18550803",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/31412"
+    },
+    "series_metadata": {
+      "series_id": "LEGL-54",
+      "series_title": "Disability Relief Application",
+      "series_description": "The Employer Disability Relief Program is used to encourage employers to employ and retain employees with disabilities as specified in Ohio R.C. 4123.343 by charging a portion of the claim to the State Surplus Fund, for lost time claims of their disabled employee rather than charging the employer’s risk fund for the entire amount of the claim. This packet contains the following documents: Application for Disability Relief – Form CHP-4A, Notice of Informal Conference for Employers, Notice of Informal Conference for Representatives, BWC Predetermination Worksheet, BWC Determination Worksheet, BWC Disability Relief Determination Order, Notices from Third Party Administrators of Withdrawal of an application First Report of an Injury, Occupational Disease or Death, Clinical Reports - General Correspondence, Medical Records. The Disability Relief Applications are submitted by employers and their Representatives to BWC requesting relief. The BWC Disability Relief Orders are scanned into the Universal Document Service (UDS) of the Employer Risk File, which are retained for the retention schedule of the Employer’s Risk File. See 855-0976 Employer Risk File Retention Schedule. The Universal Document Service (UDS) is an imaging concept that stores any type of electronic file. The Disability Relief Application data and the BWC Determination Order data are entered into the Disability Relief Database. The Data is kept for the retention schedule of the Disability Relief Database. See 8551154 Disability Relief Database Retention Schedule. Finally, the complete application packet with BWC Determination Order are scanned into the injured workers claim file and retained for the retention schedule of the claim file. See 855-0265 Claim File Retention Schedule. BWC Determination Orders can be appealed to the Industrial Commission but are not litigated.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: BWC Disability Relief Determination Orders are scanned into Universal Document Service (UDS) of Employer Risk File. electronic records , and",
+      "duration_years": 10,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2023-11-28",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

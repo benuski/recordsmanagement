@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "EXP",
+      "schedule_type": "specific",
+      "schedule_id": "723-0058",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/38784"
+    },
+    "series_metadata": {
+      "series_id": "PER-07",
+      "series_title": "Personnel files",
+      "series_description": "File maintained for each employee which may include, but is not limited to items such as application/resume, new hire documentation, position descriptions, human resource requests, recommendation for hire, personnel actions, training records, change of address forms, emergency contact information, letters of commendation, policy and procedure acknowledgements, performance evaluations, disciplinary documents, and separation records.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: portions used verify employment, retirement, or OPERS contributions separation employees prior 2012. Purge all other records seven years separation ; Electronic: portions used verify employment, retirement, or OPERS contributions separation employees prior 2012. Purge all other records seven years separation",
+      "duration_years": 50,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2020-03-05",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

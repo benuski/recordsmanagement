@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DHS",
+      "schedule_type": "specific",
+      "schedule_id": "17600993",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/23681"
+    },
+    "series_metadata": {
+      "series_id": "B072-13",
+      "series_title": "Temp Tag Audit Reports (DS)",
+      "series_description": "This record series consists of three types of computer generated printouts which are combined to produce the necessary information needed for monitoring the distribution, disposition, corrections and errors pertaining to temporary tags. The record series contains the following printouts: 1. Inventory Correction Audit Trail Printouts - Computer generated listings which are used to make inventory corrections on temporary tags and the accompanying applications. The printouts contain the dealers permit number, business date, item numbers, category code, disposition code, application number, status code, form number and reason for error. 2. Dealer Inventory, Update Error Report, Exception Printouts - Computer generated reports which indicate errors in consecutive numbers or series of the temporary tags and/or applications issued to the various dealerships. The error reports are used as a reference source for updating and correcting the computer files. The printouts contain the batch number, permit number, item number, dealers name, disposition code, application number, issue date, applicants name and reason for error. 3. LEADS Correction, Dealer Reformat Error Reports - Computer generated listings which are used to key corrected information into the LEADS computer system. The printouts contain the batch number, application number, issue date, expiration date, vehicle year, make, type, serial number, certificate of title number, owners name, address and social security number. As information is keyed into the computer system and verified, the correction printouts are batched and boxed for storage.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: one year reference purposes",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2006-07-05",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

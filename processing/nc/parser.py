@@ -6,7 +6,7 @@ from pathlib import Path
 from datetime import date
 import os
 
-from processing.utils import make_record, clean_record_fields
+from processing.central_file import make_record, clean_record_fields
 from processing.base_config import StateScheduleConfig
 
 logger = logging.getLogger(__name__)

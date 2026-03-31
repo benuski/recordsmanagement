@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TOS",
+      "schedule_type": "specific",
+      "schedule_id": "10900556",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/30629"
+    },
+    "series_metadata": {
+      "series_id": "SEC-808",
+      "series_title": "Trade confirmations and purchase and maturity notices",
+      "series_description": "Paper confirmations provided by brokers that document securities purchased and sold by the Treasurer of State. Also includes purchase and maturity notices sent by banks to inform the Treasurer that certificates of deposits purchased as part of the linked deposit program are approaching maturity. Note that not all institutions send paper notices.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: conclusion of current fiscal year, and an additional 6 fiscal years",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2012-10-30",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

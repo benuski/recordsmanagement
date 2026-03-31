@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DHS",
+      "schedule_type": "specific",
+      "schedule_id": "760-1482",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/30394"
+    },
+    "series_metadata": {
+      "series_id": "FISV-12001",
+      "series_title": "Driver Abstract Transaction History",
+      "series_description": "This record contains a history of bulk record account holders'' transactions (requests) for driver abstracts. This record includes information captured during each transaction relating to the requester''s account and credentials including account number, user ID, and user password, as well as the driver''s information accessed during the transaction including driver''s SSN, DL number, and DOB. The information captured in this record is used by Admin/Fiscal for reconciliation purposes, but Information Technology is the holder of the record and responsible for recording and reporting its destruction.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Current 180 days",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2012-06-01",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

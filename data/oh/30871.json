@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TOS",
+      "schedule_type": "specific",
+      "schedule_id": "10900581",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/30871"
+    },
+    "series_metadata": {
+      "series_id": "SEC-120",
+      "series_title": "Incident Database",
+      "series_description": "Microsoft Access database that is used to track details of compliance or other issues that may arise in both state and custodial accounts. This database is used solely for internal tracking purposes by the Trust department to ascertain incident trends.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: data conclusion of current fiscal year, and an additional 4 fiscal years",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2013-01-15",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OIC",
+      "schedule_type": "specific",
+      "schedule_id": "845-0496",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/34139"
+    },
+    "series_metadata": {
+      "series_id": "IC-IT-12",
+      "series_title": "Supplemental Security Video",
+      "series_description": "Copies of IC surveillance video footage made to supplement any action, including but not limited to, accidents, incidents, investigations, etc. For purposes of potential litigation, any such copies shall be retained as source documents for a period of 1 year.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: from date stamp original video is recorded",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2025-12-17",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

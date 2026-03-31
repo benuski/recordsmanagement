@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "SOS",
+      "schedule_type": "specific",
+      "schedule_id": "050-0065",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/11405"
+    },
+    "series_metadata": {
+      "series_id": "CBE-33",
+      "series_title": "Registration Cards: Inactive",
+      "series_description": "Cancelled voter registration cards.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: permanently ; Paper: permanently, unless scanned and scans kept permanently",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition_method": "Electronic: Permanent ; Paper: Permanent",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2024-05-29",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

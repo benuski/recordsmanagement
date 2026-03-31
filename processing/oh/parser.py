@@ -7,8 +7,12 @@ from bs4 import BeautifulSoup
 from word2number import w2n
 
 from processing.oh.config import ohio_config
-from processing.utils import clean_record_fields as universal_clean_record_fields
-from processing.utils import make_record
+from processing.central_file import (
+    make_record, 
+    update_record, 
+    get_nested_val, 
+    clean_record_fields as universal_clean_record_fields
+)
 
 logger = logging.getLogger(__name__)
 
@@ -39,10 +43,10 @@ def _clean_punct(s: str) -> str:
     return _TRAILING_PUNCT_RE.sub('', s).strip()
 
 def clean_ohio_general_record(record: dict) -> dict:
-    title       = _normalize(record.get('series_title', ''))
-    desc        = _normalize(record.get('series_description', ''))
-    retention   = _normalize(record.get('retention_statement', ''))
-    disposition = _normalize(record.get('disposition', ''))
+    title       = _normalize(get_nested_val(record, 'series_title') or '')
+    desc        = _normalize(get_nested_val(record, 'series_description') or '')
+    retention   = _normalize(get_nested_val(record, 'retention_statement') or '')
+    disposition = _normalize(get_nested_val(record, 'disposition') or '')
 
     if not disposition and _PERMANENT_RE.search(retention):
         disposition = "Permanent"
@@ -93,15 +97,15 @@ def clean_ohio_general_record(record: dict) -> dict:
     disp_lower = disposition.lower()
     is_confidential = 'confidential' in disp_lower and 'non-confidential' not in disp_lower
 
-    record.update({
-        'series_title':        title,
-        'series_description':  desc,
-        'retention_statement': retention,
-        'retention_years':     retention_years,
-        'disposition':         disposition,
-        'confidential':        is_confidential,
-        'legal_citation':      legal_citation,
-    })
+    update_record(record, 
+        series_title=title,
+        series_description=desc,
+        retention_statement=retention,
+        retention_years=retention_years,
+        disposition=disposition,
+        confidential=is_confidential,
+        legal_citation=legal_citation
+    )
     return record
 
 # ---------------------------------------------------------------------------

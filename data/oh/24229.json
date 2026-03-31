@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DRC",
+      "schedule_type": "specific",
+      "schedule_id": "501-0385",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/24229"
+    },
+    "series_metadata": {
+      "series_id": "LEG-0012",
+      "series_title": "Court of Claims Case File Database",
+      "series_description": "Local electronic program containing detailed information on cases filed against ODRC in the Court of Claims of Ohio.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic",
+      "duration_years": 50,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2006-11-08",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

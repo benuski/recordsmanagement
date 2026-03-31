@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DAS",
+      "schedule_type": "specific",
+      "schedule_id": "11001725",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39919"
+    },
+    "series_metadata": {
+      "series_id": "CC-2",
+      "series_title": "Job Audit Log",
+      "series_description": "Record of job audits including date audit was requested and date employee forms were mailed.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: from date communicated parties. ; Paper: from date communicated parties",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase ; Paper: Recycle",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2025-12-10",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

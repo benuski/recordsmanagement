@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "JFS",
+      "schedule_type": "specific",
+      "schedule_id": "6000101",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35636"
+    },
+    "series_metadata": {
+      "series_id": "LAS-LS-12",
+      "series_title": "Public Record Requests",
+      "series_description": "Requests and Subpoenas for either public records or confidential or non-public information/records. The subpoenas covered by this records series are those issued to ODJFS when ODJFS is not a party to the litigation.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: in office ; Electronic: 3 years from date of receipt",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2024-02-09",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

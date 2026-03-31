@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "ODM",
+      "schedule_type": "specific",
+      "schedule_id": "50750269",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35861"
+    },
+    "series_metadata": {
+      "series_id": "505-00-03",
+      "series_title": "Electronic Visit Verification (EVV) Document Retention",
+      "series_description": "The EVV team generates various documents in support of program goals and agency initiatives. Records may include general correspondence, management and operations reports, manuals and handbooks, system specifications, technical documents, and data reports. The records generated may include individual private Protected Health Information (PHI) or Confidential Personal Information (CPI). The EVV System receives visit data from providers for certain home and community-based services. This information contains information such as date, time, type of service, direct care worker, billing provider, individual Medicaid identification, address and phone numbers for individuals and providers, location of visit, and exception codes. This visit data is used in the adjudication of claims. All records are used in support of EVV agency activities.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: in office ; Electronic: on agency drive",
+      "duration_years": 10,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2024-12-04",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

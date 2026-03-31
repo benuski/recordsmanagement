@@ -1,26 +1,33 @@
 [
   {
-    "agency_name": "Department of the Treasury",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "152-006",
-    "series_id": "100973",
-    "series_title": "Unclaimed Property: Personal Property Papers",
-    "series_description": "This series consists of unclaimed personal property such as insurance policies, deeds, wills, birth certificates, bank account books, receipts, personal letters, as well as other types of intangible personal property and memorabilia. This property comes mainly from safe deposit boxes where no owner or heir could be located.",
-    "retention_statement": "Retain in agency 1 year, then transfer to the Records Center, Library of Virginia. Retain in Records Center 19 years. Total retention 20 years. After review by the Department of Treasury, Division of Unclaimed Property, transfer balance of papers to the Description Services, Library of Virginia for further review and final disposition. After removing records series 100974, \"Unclaimed Property: Personal Property Papers - Special Interest Records, destroy remaining papers in compliance with No. 8 on schedule cover page.",
-    "retention_years": 1,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Archives",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/152-006.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Department of the Treasury",
+      "schedule_type": "specific",
+      "schedule_id": "152-006",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/152-006.pdf"
+    },
+    "series_metadata": {
+      "series_id": "100973",
+      "series_title": "Unclaimed Property: Personal Property Papers",
+      "series_description": "This series consists of unclaimed personal property such as insurance policies, deeds, wills, birth certificates, bank account books, receipts, personal letters, as well as other types of intangible personal property and memorabilia. This property comes mainly from safe deposit boxes where no owner or heir could be located.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "in agency , Records Center, Library of Virginia. in Records Center 19 years. Total retention 20 years. review by Department of Treasury, Division of Unclaimed Property, balance of papers Archives Description Services, Library of Virginia further review and final disposition. removing records series 100974, \"Unclaimed Property: Personal Property Papers - Special Interest Records, remaining papers in compliance with No. 8 on schedule cover page",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   }
 ]

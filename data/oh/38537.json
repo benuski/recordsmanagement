@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TAX",
+      "schedule_type": "specific",
+      "schedule_id": "11100838",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/38537"
+    },
+    "series_metadata": {
+      "series_id": "n/a",
+      "series_title": "Year-End Rolls",
+      "series_description": "Several printouts are created from jobs run to \"roll\" the database to the next year in preparation for the upcoming tax reduction factor calculation season. These printouts are checked for errors that may have occurred during the job run and compared to previous year printouts.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Five years date rolls are completed. ; Electronic: Five years date rolls are completed",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Trash ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2019-09-05",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

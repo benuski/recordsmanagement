@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DAS",
+      "schedule_type": "specific",
+      "schedule_id": "100-1060",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/24120"
+    },
+    "series_metadata": {
+      "series_id": "SFP-03",
+      "series_title": "Certificate to Obtain Title to Vehicle",
+      "series_description": "Original copy of Certificate to Obtain Title to a Vehicle which is issued by the holding agency.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Scanned into Salesforce",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2025-12-22",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

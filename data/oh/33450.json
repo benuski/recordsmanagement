@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551607",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/33450"
+    },
+    "series_metadata": {
+      "series_id": "057-OAG-38",
+      "series_title": "Court Case Files (Workers'' Compensation Defense Unit)",
+      "series_description": "Files gathered and used to manage and litigate cases concerning worker''s compensation. Client files containing court cases and appeals against administrative hearing rulings by client agencies. Can include, but is not limited to, pleadings, memorandum, affidavits, attorney work product, medical records, motions, judgments, evidence, correspondence, settlement and negotiation documents, hearing and deposition materials, and general administrative documents.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Medical records disposed of final court entry and all appeals exhausted. all other documents case closed, dismissed, or settled and all appeals exhausted, unless scanned and saved electronically. ; Electronic: Medical records disposed of final court entry and all appeals exhausted. all other documents case closed, dismissed, or settled and all appeals exhausted",
+      "duration_years": 4,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2016-03-18",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

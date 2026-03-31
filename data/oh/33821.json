@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551626",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/33821"
+    },
+    "series_metadata": {
+      "series_id": "GSF-OAG-03",
+      "series_title": "Vehicle GPS Data",
+      "series_description": "System captures data about mileage, speed, fuel efficiency, emissions, safety and more in order for the agency to identify ways to improve efficiency and reduce costs.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: 30 days vehicle tracking data, all other data will be overwritten 90 days",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2016-10-07",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TOS",
+      "schedule_type": "specific",
+      "schedule_id": "10900522",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/36386"
+    },
+    "series_metadata": {
+      "series_id": "IT-12",
+      "series_title": "Email Retention",
+      "series_description": "All emails that are sent to or from the internet domain \"tos.ohio.gov\" are retained via a legal hold rule in Office 365.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Withinn Office 365 TOS emails have a legal hold on them prevent acidental deletion. Searches on deleted emails need be done from that module in O365",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2022-12-05",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

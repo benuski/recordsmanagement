@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DOT",
+      "schedule_type": "specific",
+      "schedule_id": "770-1747",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/36274"
+    },
+    "series_metadata": {
+      "series_id": "IT-700",
+      "series_title": "Electronic File Backups",
+      "series_description": "Tape, CD or DVD backups of server data files for archival or emergency restoration purposes. Back up intervals vary greatly, and some backups are stored away from ODOT buildings/facilities.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: one year",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2019-04-18",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

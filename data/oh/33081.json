@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OHF",
+      "schedule_type": "specific",
+      "schedule_id": "50590005",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/33081"
+    },
+    "series_metadata": {
+      "series_id": "0004",
+      "series_title": "Litigation Files Maintained by Legal Office",
+      "series_description": "All court documents received by OHFA, drafted by Ohio Attorney General''s Office, filed by Ohio Attorney General''s Office and all notes taken by or received by the Chief Legal Counsel or any other employees of OHFA related to any litigation matter filed by or against OHFA.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: case is closed and no further appeals can be filed",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2015-07-30",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

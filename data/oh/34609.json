@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OIC",
+      "schedule_type": "specific",
+      "schedule_id": "845-0512",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/34609"
+    },
+    "series_metadata": {
+      "series_id": "IC-FIS-07",
+      "series_title": "Equipment Movement Report",
+      "series_description": "This record series consists of a system generated report that documents the movement of assets from one location to another location. These records have met their retention period and are no longer current or used.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: from date of report ; Electronic: from date of report",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2017-12-20",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

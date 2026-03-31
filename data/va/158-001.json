@@ -1,122 +1,157 @@
 [
   {
-    "agency_name": "Virginia Retirement System",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "158-001",
-    "series_id": "015248",
-    "series_title": "Daily Batch Sheet Headers",
-    "series_description": "This series consists of batch sheets for records being scanned and indexed to the Retirement Imaging System.",
-    "retention_statement": "Retain onsite 3 months, transfer to Records Center for 4 years and 9 months, then destroy in compliance with No. 8 on schedule cover page. Total retention 5 years.",
-    "retention_years": 4,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/158-001.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Virginia Retirement System",
+      "schedule_type": "specific",
+      "schedule_id": "158-001",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/158-001.pdf"
+    },
+    "series_metadata": {
+      "series_id": "015248",
+      "series_title": "Daily Batch Sheet Headers",
+      "series_description": "This series consists of batch sheets for records being scanned and indexed to the Retirement Imaging System.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "onsite , Records Center and 9 months, in compliance with No. 8 on schedule cover page. Total retention 5 years",
+      "duration_years": 4,
+      "duration_months": 3,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "Virginia Retirement System",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "158-001",
-    "series_id": "015249",
-    "series_title": "Daily Import Reports",
-    "series_description": "This series documents the daily downloads from the mainframe computer system to the Retirement Imaging System. These reports track closing of workflow cases, and changes to member accounts including SSN changes and case status flags.",
-    "retention_statement": "Retain onsite 3 months, transfer to Records Center for 4 years and 9 months, then destroy in compliance with No. 8 on schedule cover page. Total retention 5 years.",
-    "retention_years": 4,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/158-001.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Virginia Retirement System",
+      "schedule_type": "specific",
+      "schedule_id": "158-001",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/158-001.pdf"
+    },
+    "series_metadata": {
+      "series_id": "015249",
+      "series_title": "Daily Import Reports",
+      "series_description": "This series documents the daily downloads from the mainframe computer system to the Retirement Imaging System. These reports track closing of workflow cases, and changes to member accounts including SSN changes and case status flags.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "onsite , Records Center and 9 months, in compliance with No. 8 on schedule cover page. Total retention 5 years",
+      "duration_years": 4,
+      "duration_months": 3,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "Virginia Retirement System",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "158-001",
-    "series_id": "015247",
-    "series_title": "Member/Annuitant Records-Offsite Media",
-    "series_description": "This series consists of the scanned or microfilmed images of the member/annuitant record retained by the agency on the Retirement Imaging System.",
-    "retention_statement": "Transfer the backup copy of the media to the Records Center, Library of Virginia. Retain in Records Center for 10 years, then return to agency for testing and migration to new media. Destroy in compliance with No. 8 on schedule cover page.",
-    "retention_years": 10,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/158-001.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Virginia Retirement System",
+      "schedule_type": "specific",
+      "schedule_id": "158-001",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/158-001.pdf"
+    },
+    "series_metadata": {
+      "series_id": "015247",
+      "series_title": "Member/Annuitant Records-Offsite Media",
+      "series_description": "This series consists of the scanned or microfilmed images of the member/annuitant record retained by the agency on the Retirement Imaging System.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "backup copy of media Records Center, Library of Virginia. in Records Center , return agency testing and migration new media. in compliance with No. 8 on schedule cover page",
+      "duration_years": 10,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "Virginia Retirement System",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "158-001",
-    "series_id": "015000",
-    "series_title": "Member/Annuitant Records-Original",
-    "series_description": "Documents",
-    "retention_statement": "Scan original records to Retirement Imaging System upon receipt. Transfer original records to Records Center, Library of Virginia for storage after quality assurance inspection and indexing of the records verifies information was successfully reformatted. Retain in Records Center 7 years, then destroy in compliance with No. 8 on schedule cover page. Total retention 7 years.",
-    "retention_years": 7,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/158-001.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Virginia Retirement System",
+      "schedule_type": "specific",
+      "schedule_id": "158-001",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/158-001.pdf"
+    },
+    "series_metadata": {
+      "series_id": "015000",
+      "series_title": "Member/Annuitant Records-Original",
+      "series_description": "Documents",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Scan original records Retirement Imaging System upon receipt. original records Records Center, Library of Virginia storage quality assurance inspection and indexing of records verifies information was successfully reformatted. in Records Center , in compliance with No. 8 on schedule cover page. Total retention",
+      "duration_years": 7,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "Virginia Retirement System",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "158-001",
-    "series_id": "015246",
-    "series_title": "Member/Annuitant Records-Record Copy",
-    "series_description": "This series consists of the scanned or microfilmed images of the member/annuitant record retained by the agency on the Retirement Imaging System.",
-    "retention_statement": "Retain for 80 years or until 7 years after member/annuitant has died and accounts with beneficiaries have been settled, whichever is shorter. Destroy in compliance with No. 8 on schedule cover page.",
-    "retention_years": 80,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/158-001.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Virginia Retirement System",
+      "schedule_type": "specific",
+      "schedule_id": "158-001",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/158-001.pdf"
+    },
+    "series_metadata": {
+      "series_id": "015246",
+      "series_title": "Member/Annuitant Records-Record Copy",
+      "series_description": "This series consists of the scanned or microfilmed images of the member/annuitant record retained by the agency on the Retirement Imaging System.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "or 7 years member/annuitant has died and accounts with beneficiaries have been settled, whichever is shorter. in compliance with No. 8 on schedule cover page",
+      "duration_years": 80,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   }
 ]

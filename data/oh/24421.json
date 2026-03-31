@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DRC",
+      "schedule_type": "specific",
+      "schedule_id": "501-0391",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/24421"
+    },
+    "series_metadata": {
+      "series_id": "MED-0039",
+      "series_title": "Intellectually Disabled Services and Testing",
+      "series_description": "Database that documents all admission mental health files were reviewed and flagged for intellectual disability testing, completion, and follow-up tracking.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: following release of offender",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2025-10-08",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

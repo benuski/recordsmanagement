@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TAX",
+      "schedule_type": "specific",
+      "schedule_id": "110-0240",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35489"
+    },
+    "series_metadata": {
+      "series_id": "110/304-49",
+      "series_title": "TAX REFUND DISBURSEMENT JOURNAL",
+      "series_description": "Computer generated listing of all accounts and amounts being refunded for Sales and Use taxes.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: in office",
+      "duration_years": 4,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2018-11-15",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

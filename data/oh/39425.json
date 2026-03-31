@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "CRB",
+      "schedule_type": "specific",
+      "schedule_id": "50800001",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39425"
+    },
+    "series_metadata": {
+      "series_id": "CRB-008",
+      "series_title": "Physical Inventory Records and Fixed Asset Reports",
+      "series_description": "Records, reports, and other working documents which detail the annual fixed asset inventory of equipment owned or leased by an agency. Includes description and location which detail the annual fixed asset of the office. These records are compared to OAKS records to reconcile differences and used to compile an annual report.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: or superseded, provided audited by Auditor of State, audit report is released and all discrepancies are resolved ; Electronic: or superseded, provided audited by Auditor of State, audit report is released and all discrepancies are resolved",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2024-04-29",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGR",
+      "schedule_type": "specific",
+      "schedule_id": "17000150",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/18714"
+    },
+    "series_metadata": {
+      "series_id": "AGR-7003",
+      "series_title": "Amusement Ride Inspections",
+      "series_description": "Inspections of amusement rides that include, but are not limited to, information on location, installation, structural integrity, electrical safety, and any notice of violations issued as a result of the inspection.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Keep year of inspection",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2022-10-13",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

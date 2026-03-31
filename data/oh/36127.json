@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DOT",
+      "schedule_type": "specific",
+      "schedule_id": "17701670",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/36127"
+    },
+    "series_metadata": {
+      "series_id": "APD-2",
+      "series_title": "Outdoor Advertising Control File",
+      "series_description": "These files contain copies of invoices that have been sent to sign owner, money deposited and verification by sign owner of any updates to permit file.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: paper in active area two years. ; Electronic: Scan paper documents into electronic format. scanned image in electronic format or determined be of no value",
+      "duration_years": 25,
+      "duration_months": null,
+      "disposition_method": "Paper: Recycle ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2019-03-05",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

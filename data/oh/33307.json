@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "COM",
+      "schedule_type": "specific",
+      "schedule_id": "800-0702",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/33307"
+    },
+    "series_metadata": {
+      "series_id": "65-07",
+      "series_title": "Education Loan Files",
+      "series_description": "This retention schedule consists of applications for education loans, agreement to repay loan forms, collection documents, verification of repayment documents and other related documents and correspondence. These records may contain social security numbers which are not a matter of public record for purposes of Ohio Revised Code Section 149.03.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Paper copy is imaged and indexed on computer. Upon confirmation that paper copy was imaged and indexed on computer ; Microform: Any images on microfiche are be retained from date grant or loan application is received by Division. ; Electronic: Images are be retained from date grant or loan application is received by Division",
+      "duration_years": 10,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Microform: Shred ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2016-01-28",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

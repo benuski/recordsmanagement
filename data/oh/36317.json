@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DHS",
+      "schedule_type": "specific",
+      "schedule_id": "760-1585",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/36317"
+    },
+    "series_metadata": {
+      "series_id": "1306",
+      "series_title": "Multi-Agency Radio Communications System Computer Aided Dispatch Data",
+      "series_description": "This record series contains all electronic databases and tables generated and retained in the Multi-Agency Radio Communications System (MARCS) Computer Aided Dispatch (CAD) system. This retention policy excludes any data maintained by the Ohio State Highway Patrol (OSHP) Statistical Analysis Unit (SAU) which are covered under separate retention schedules.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Records will be purged daily on a rolling three (3) year schedule",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2020-11-09",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

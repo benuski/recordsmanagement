@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "ODM",
+      "schedule_type": "specific",
+      "schedule_id": "50750057",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35895"
+    },
+    "series_metadata": {
+      "series_id": "415-01-09",
+      "series_title": "Hospital Inpatient/Outpatient payment System",
+      "series_description": "Record supports existing inpatient/outpatient hospital payment system policy under the Medicaid Program. File contains, but is not limited to, printouts documenting payment policy rationale; financial statements; hospital cost data; third party data (Medicare supporting data); statistical analyses; and related reports that are the basis for existing hospital payments.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: in office claims are paid under policy ; Electronic: in office policy is superseded and audits are completed, reports are released and all discrepancies are resolved",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Recycle ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2019-02-14",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

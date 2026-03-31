@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DVM",
+      "schedule_type": "specific",
+      "schedule_id": "923-0018",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/30505"
+    },
+    "series_metadata": {
+      "series_id": "OVMB-44",
+      "series_title": "CPI and Public Record Logs",
+      "series_description": "DAS IT-OP-07 for \"System Users Access Records\" until they are no longer of administrative value, then destroyed. The Confidential Personal Information Log is required by Section 1347.15 of the Ohio Revised Code. The log inputs specific requests for confidential information and the staff person fulfilling the request as required by law enacted in 2010. Public Record Logs detail the requests for public records of the Agency and the staff person fullfilling the request in accordance with the recommendation of the Ohio Auditor of State''s office.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: no longer of adminstrative value",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Recycle",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2013-08-26",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

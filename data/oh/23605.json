@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OTC",
+      "schedule_type": "specific",
+      "schedule_id": "50580641",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/23605"
+    },
+    "series_metadata": {
+      "series_id": "OTC-701-04",
+      "series_title": "Requisition Files for Purchase of Equipment, Materials and Services",
+      "series_description": "Documents, specifications, quotations, and technical documentation necessary for the purchase of equipment, materials, and services required for maintenance operations",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: purchase authorization expiration date, any applicable warranty period has expired and/or equipment is disposed of. ; Electronic: 5 years any applicable warranty period has expired and/or equipment is disposed of",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Paper: Trash ; Electronic: Trash",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2017-05-11",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TAX",
+      "schedule_type": "specific",
+      "schedule_id": "11100621",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35923"
+    },
+    "series_metadata": {
+      "series_id": "110-801-15",
+      "series_title": "Co Auditor Continuing Education Status Report",
+      "series_description": "Ohio County Auditor Continuing Education Status Report is filed yearly with the Tax Commissioner by the County Auditor''s Association of Ohio per ORC Section 319.04.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Tax Comissioner audit, . If scanned, . ; Electronic: Tax Commissioner audit, delete",
+      "duration_years": 2,
+      "duration_months": 6,
+      "disposition_method": "Paper: Wastepaper ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2019-02-08",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

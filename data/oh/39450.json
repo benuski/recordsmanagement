@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551812",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39450"
+    },
+    "series_metadata": {
+      "series_id": "TOB-AGO-02",
+      "series_title": "Diligent Enforcement Arbitration Files",
+      "series_description": "Files relating to the arbitration proceedings to determine whether the State of Ohio diligently enforced per ORC 1346.01-.03. Records include, but are not limited to, filings, correspondence, copies of litigation files, document production, materials from the AGO manufacturer files, and copies of escrow payments.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: all payments related arbitration have been received. ; Paper: all payments related arbitration have been received. If scanned and saved electronically, dispose of immediately",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2024-05-09",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

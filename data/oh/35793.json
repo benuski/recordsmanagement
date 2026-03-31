@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TAX",
+      "schedule_type": "specific",
+      "schedule_id": "110-0315",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35793"
+    },
+    "series_metadata": {
+      "series_id": "110/304/95",
+      "series_title": "FORM ST-495 PERSONAL DELIVERY RECEIPT",
+      "series_description": "Receipts for items personally delivered by Agents of the Tax Commissioner.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: ; Microform: microfilm permanently",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Microform: Permanent",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2019-01-30",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

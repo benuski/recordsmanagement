@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "855-0175",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/27556"
+    },
+    "series_metadata": {
+      "series_id": "LEGL-12",
+      "series_title": "Closed Subrogation Cases",
+      "series_description": "The Closed Subrogation Cases records include files for subrogation cases that have been collected or closed as uncollectible. These files include correspondence, notes, pleadings, check copies, and settlement agreements. The Closed Subrogation Cases are scanned into a secure online repository. The secured online repository is an imaging concept that stores any type of electronic file, such as Microsoft Office documents, Adobe Acrobat, audio/video, Computer Aided Design (CAD), etc. as well as scanned images.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: in a secure online repository, keep subrogation case tracker subrogation file has closed and ; Paper: Hold records in Subrogation Unit case is closed. Scan into a secure online repository",
+      "duration_years": 10,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2023-10-11",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

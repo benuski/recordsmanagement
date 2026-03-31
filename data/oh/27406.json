@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "SOA",
+      "schedule_type": "specific",
+      "schedule_id": "50550089",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/27406"
+    },
+    "series_metadata": {
+      "series_id": "SOAFIN016",
+      "series_title": "Asset Records",
+      "series_description": "Internal record of Agency assets",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: asset is sold or sent State Salvage",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2009-04-07",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

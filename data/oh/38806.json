@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551760",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/38806"
+    },
+    "series_metadata": {
+      "series_id": "BCI-OLG-06",
+      "series_title": "Violent Offender Database",
+      "series_description": "Per ORC 2903.42, database consisting of information on enrollees classified as violent offenders, including those from out-of-state, by law enforcement groups like county sheriffs, Ohio Attorney General (AGO), Bureau of Criminal Investigation (BCI), and Ohio Department of Rehabilitation and Corrections (ODRC). Demographic information in the database includes, but is not limited to, offender''s name, address, personally identifying information, driver''s and vehicle information, employment information, and offense information.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: enrollee''s enrollment period or extension date expires, unless sealed/expunged. ; Paper: enrollee''s enrollment period or extension date expires, unless sealed/expunged, or scanned and saved electronically",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2020-03-27",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

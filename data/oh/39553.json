@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551819",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39553"
+    },
+    "series_metadata": {
+      "series_id": "BCI-OLG-10",
+      "series_title": "Human Trafficking Tips and Referrals",
+      "series_description": "Tips and referrals received by the Ohio Attorney General's Office (AGO) concerning possible human trafficking activity. After review, information may be forwarded to local Human Trafficking task forces, local law enforcement, or the Bureau of Criminal Investigation (BCI) for possible investigation. Records include, but are not limited to, recording of calls, call records logged in call system, Human Trafficking Hotline forms, text and email messages, web tip forms, and application push notifications and media communications.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: from receiving. If tip/referral is forwarded BCI investigate, records will be retained per applicable investigative records retention schedule. ; Paper: from receiving. If scanned and saved electronically, dispose of paper immediately. If tip/referral is forwarded BCI investigate, records will be retained per applicable investigative records retention schedule",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2024-09-24",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

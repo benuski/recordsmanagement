@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TOS",
+      "schedule_type": "specific",
+      "schedule_id": "10900545",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/30604"
+    },
+    "series_metadata": {
+      "series_id": "SEC-703",
+      "series_title": "Account Verification Request Forms (Agency Collateral)",
+      "series_description": "Private entities required to pledge securities to an agency may elect to pledge a certificate of deposit. As the CD approaches maturity, this form is sent to the financial institution, which is instructed to provide confirmation of the deposit and whether or not the CD was renewed, and the terms on which the CD was renewed.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Forms are retained with pledged security duration that pledge is active and security is held in custody by Treasurer. Once corresponding security is released agency, form is stored with Pledge Release Documents (SEC-702) conclusion of fiscal year in which agency collateral was released, an additional 4 fiscal years. ; Electronic: Forms are retained with pledged security duration that pledge is active and security is held in custody by Treasurer. Once corresponding security is released agency, form is stored with Pledge Release Documents (SEC-702) conclusion of fiscal year in which agency collateral was released, an additional 4 fiscal years",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2022-10-27",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DAS",
+      "schedule_type": "specific",
+      "schedule_id": "11001316",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/17995"
+    },
+    "series_metadata": {
+      "series_id": "SEC - 2",
+      "series_title": "Incident Reports",
+      "series_description": "Reports detailing investigations of incidents in DAS buildings monitored by GSD/Security. Reports contain time, date, parties involved, description of incident and action taken. Reports are used to protect the rights of individuals involved in the incident and to show compliance with DAS security procedures and policy.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: five (5) years in operating system case is closed or dropped",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2025-12-15",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

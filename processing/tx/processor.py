@@ -1,56 +1,38 @@
 import logging
-import concurrent.futures
 from pathlib import Path
-
-from processing.tx.parser import process_texas_pdf, parse_agencies_html
-from processing.utils import save_records
+from processing.tx.parser import process_texas_pdf, parse_agencies_html, load_retention_codes
+from processing.central_file import save_records
+from processing.extractor_engine import run_state_pipeline
 
 logger = logging.getLogger(__name__)
 
-def process_single_pdf(pdf_file, output_schema, retention_codes_path, agency_mapping):
-    """Worker function for parallel PDF processing."""
+def tx_worker(pdf_path: Path, output_dir: Path, agency_mapping: dict, schema: dict, config, skip_ocr: bool):
+    """Worker wrapper for Texas retention schedules."""
+    retention_codes_path = Path("processing/tx/resources/retentioncodes.csv")
     try:
-        records = process_texas_pdf(pdf_file, output_schema, retention_codes_path, agency_mapping)
-        return pdf_file.name, records
+        records = process_texas_pdf(pdf_path, schema, retention_codes_path, agency_mapping)
+        if records:
+            # Texas typically groups by schedule_id, but per-file is equivalent here
+            save_records(records, output_dir, default_filename=f"{pdf_path.stem}.json")
+            logger.info(f"Extracted {len(records)} records from {pdf_path.name}")
     except Exception as e:
-        logger.error(f"Failed to process {pdf_file.name}: {e}")
-        return pdf_file.name, []
+        logger.error(f"Failed to process TX file {pdf_path.name}: {e}")
 
 def run(args, output_schema: dict):
-    pdf_files = list(args.input_directory.glob("*.pdf"))
-    retention_codes_path = Path("processing/tx/resources/retentioncodes.csv")
+    """Entry point for TX pipeline using the standardized runner."""
+    from processing.tx.config import texas_config
+    
+    # Pre-load agency mapping for the workers
     agencies_html_path = Path("processing/tx/src/agencies.html")
-
-    # Load agency mapping from agencies.html
     agency_mapping = {}
     if agencies_html_path.exists():
         agency_mapping = parse_agencies_html(agencies_html_path)
         logger.info(f"Loaded {len(agency_mapping)} agencies from {agencies_html_path}")
-    else:
-        logger.warning(f"agencies.html not found at {agencies_html_path}")
 
-    if not pdf_files:
-        logger.warning(f"No PDF files found in {args.input_directory}")
-        return
-
-    logger.info(f"Starting pipeline for {len(pdf_files)} files using TX configuration.")
-
-    all_records = []
-    
-    # Process PDFs in parallel
-    max_workers = 4
-    with concurrent.futures.ProcessPoolExecutor(max_workers=max_workers) as executor:
-        futures = [
-            executor.submit(process_single_pdf, pdf_file, output_schema, retention_codes_path, agency_mapping)
-            for pdf_file in pdf_files
-        ]
-        
-        for future in concurrent.futures.as_completed(futures):
-            filename, records = future.result()
-            all_records.extend(records)
-            logger.info(f"Extracted {len(records)} records from {filename}")
-
-    if all_records:
-        save_records(all_records, args.output_directory, group_by='schedule_id')
-
-    logger.info(f"Done! Successfully processed {len(pdf_files)} files to {args.output_directory}")
+    # Standard runner will handle the glob and the pool
+    run_state_pipeline(
+        args, 
+        texas_config, 
+        output_schema, 
+        worker_func=tx_worker
+    )

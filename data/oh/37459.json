@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551734",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/37459"
+    },
+    "series_metadata": {
+      "series_id": "ITS-OAG-04",
+      "series_title": "ITS Tracking System Work Orders",
+      "series_description": "Documents work orders handled by the Information Technologies Client Services for the AGO and some constituents like law enforcement agencies, courts, and some instances the public. Entries contain information about the requester, the work order, the technician assigned to the order, the related AGO section, the location the order concerns (if applicable), the date the order was created, the date the order was closed.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: work order completion. If work order(s) concern an Information Technologies project, that work order(s) will be retained per applicable \"Project Management Office Files\" retention schedule",
+      "duration_years": 7,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2019-06-27",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "ACC",
+      "schedule_type": "specific",
+      "schedule_id": "889-0001",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/32909"
+    },
+    "series_metadata": {
+      "series_id": "AB-01",
+      "series_title": "CPA CERTIFICATE APPLICATION",
+      "series_description": "Form granting the certificate of certified public accountants.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: scanned, or two months death of certificate holder, ; Electronic: two months death of certificate holder",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2022-01-05",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

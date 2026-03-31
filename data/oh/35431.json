@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TOS",
+      "schedule_type": "specific",
+      "schedule_id": "10900612",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35431"
+    },
+    "series_metadata": {
+      "series_id": "ECON-02",
+      "series_title": "Wire Requests from Economic Development department",
+      "series_description": "Wire request sheets are prepared by Economic Development staff and submitted to the Investments and Trust department. These forms authorize the purchase of a financial instrument from the bank that is providing the linked-deposit loan to an Economic Development program participating bank. Documentation includes position requests, wire sheets, and collateral sufficiency analysis.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: later of (a) conclusion of fiscal year in which corresponding wire was requested, an additional 2 fiscal years, or (b) annual audit of Treasurer corresponding fiscal year by Auditor of State is complete and final audit report has been published",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2022-10-26",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

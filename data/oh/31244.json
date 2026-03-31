@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "JFS",
+      "schedule_type": "specific",
+      "schedule_id": "795-0137",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/31244"
+    },
+    "series_metadata": {
+      "series_id": "LMI-LFS-02",
+      "series_title": "Initial and Continuing Claims",
+      "series_description": "Unemployment compensation claims filed initially to determine eligibility, and upon approval, continued for weekly benefits. They are housed by county of residence of the recipient in Ohio and adjoining states. Series also includes commuter claims for other states. A commuter claim is an Ohio-liable claim in which the claimant lives in one state and works in another state.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: in office superseded, obsolete or replaced",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2023-11-28",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

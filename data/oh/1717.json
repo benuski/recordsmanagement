@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DOH",
+      "schedule_type": "specific",
+      "schedule_id": "440-0421",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/1717"
+    },
+    "series_metadata": {
+      "series_id": "32-09",
+      "series_title": "Ohio Cancer Incidence Surveillance Syste",
+      "series_description": "The Ohio Cancer Incidence Surveillance System (OCISS) receives cancer reports from cancer reporters (for example, hospitals, physicians, ambulatory health care providers, laboratories) either in an electronic format, on paper, or via fax in accordance with Ohio law and rules that require the reporting of this information.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Five years from date of electronic receipt. At end of each calendar year ( example, December 31, 2021), delete electronic cancer reports received more than prior ( example, on or before December 31, 2016). ; Paper: Three years date of diagnosis listed on paper or faxed cancer reports. At end of each calendar year ( example, December 31, 2021), shred paper cancer reports and delete faxed cancer reports with a date of diagnosis more than 3 years prior ( example, on or before December 31, 2018)",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2022-04-29",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

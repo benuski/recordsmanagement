@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OOD",
+      "schedule_type": "specific",
+      "schedule_id": "50760022",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/32354"
+    },
+    "series_metadata": {
+      "series_id": "40-FIS-011",
+      "series_title": "Vehicle Operation/Maintenance Files",
+      "series_description": "The records are maintained to document the maintenance and operation of OOD vehicle fleet. Records may include monthly reports on fuel purchases, maintenance and repair invoices, Vehicle Service Record, Monthly Vehicle Progress Report, operation reports, warranty, guaranty statements, operating manual, work orders, copies of accident reports, mileage statements, use logs, and other documents or reports generated about the vehicles.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: during operation of vehicle by agency. Operating manuals and warranty information goes with vehicle State Salvage and all other records may be destroyed. A Certificate of Disposal is required when destroying these records. ; Electronic: during operation of vehicle by agency. Operating manuals and warranty information goes with vehicle State Salvage and all other records may be destroyed. A Certificate of Disposal is required when destroying these records",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Trash ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2014-05-13",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

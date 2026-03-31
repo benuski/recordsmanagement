@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OTC",
+      "schedule_type": "specific",
+      "schedule_id": "50580622",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35109"
+    },
+    "series_metadata": {
+      "series_id": "9",
+      "series_title": "E-ZPass Account Disputes",
+      "series_description": "Ohio E-ZPass accountholder disputes regarding inaccurate toll transactions (i.e., transponder malfunction, reclassification of vehicle class, duplicate transponder read, extended time on turnpike, authorized u-turns, credit card disputes, adjusted max fare toll tickets, etc.).",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: from date dispute is resolved",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2018-08-03",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

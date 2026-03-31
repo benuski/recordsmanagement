@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TOS",
+      "schedule_type": "specific",
+      "schedule_id": "10900600",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/31322"
+    },
+    "series_metadata": {
+      "series_id": "SEC-220",
+      "series_title": "Investment Manager Database",
+      "series_description": "This is an electronic database used to track information about external investment managers hired by the custodial funds as well as external investment managers hired by Southern Ohio Agricultural & Community Development Foundation (SOAC).",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: conclusion of current fiscal year, and an additional 4 fiscal years",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2013-05-08",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "INS",
+      "schedule_type": "specific",
+      "schedule_id": "820-0824",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/27621"
+    },
+    "series_metadata": {
+      "series_id": "120-01",
+      "series_title": "Delinquent Accounts Certified to Attorney General",
+      "series_description": "Records of unpaid invoices certified to Attorney General''s office for collection.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: paid and audited by state and report released ; Electronic: paid and audited by state and report released",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2009-06-02",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

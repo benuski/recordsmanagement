@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551395",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/29005"
+    },
+    "series_metadata": {
+      "series_id": "BCI-LAB-19",
+      "series_title": "Unsolved Latent Print Database (AFIS)",
+      "series_description": "Contains images of fingerprints (including partials and palm prints) that have yet to be identified. The prints are from crime scenes and submitted to BCII from local law enforcement. BCII images the prints and submits them to AFIS along with any known demographics. These prints help to match suspects to unsolved cases through matching with other images in database.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Delete identity made, case solved, or print determined not be viable. If match made, print copy and place in case file per BCI-LAB-16, 17 or 18",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2011-01-20",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

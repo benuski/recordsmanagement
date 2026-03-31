@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551806",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39376"
+    },
+    "series_metadata": {
+      "series_id": "RM-AGO-04",
+      "series_title": "Records Inventory and Analysis Forms",
+      "series_description": "Form used in the analysis of a records series in order to develop a records retention schedule based on the administrative, fiscal, legal and historical value of the records. Form may include information on, but is not limited to, the confidentiality statutes that might be applicable to the series, vital record status, retention period and corresponding schedule information, record series description, and media format/storage information.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: superseded by an updated analysis or record series is no longer created",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2023-10-19",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

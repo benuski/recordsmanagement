@@ -1,26 +1,33 @@
 [
   {
-    "agency_name": "Secretary of Education",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "185-001",
-    "series_id": "100854",
-    "series_title": "Legislative Initiatives",
-    "series_description": "This series documents the legislative process for bills that affect the Office of the Secretary and its assigned state agencies. This series may include, but is not limited to: legislation, notes, and correspondence.",
-    "retention_statement": "",
-    "retention_years": null,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Permanent, Archives",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": "2018-01-11",
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/185-001.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Secretary of Education",
+      "schedule_type": "specific",
+      "schedule_id": "185-001",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/185-001.pdf"
+    },
+    "series_metadata": {
+      "series_id": "100854",
+      "series_title": "Legislative Initiatives",
+      "series_description": "This series documents the legislative process for bills that affect the Office of the Secretary and its assigned state agencies. This series may include, but is not limited to: legislation, notes, and correspondence.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Permanent",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition_method": "Permanent, Archives",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2018-01-11",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   }
 ]

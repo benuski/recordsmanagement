@@ -1,314 +1,405 @@
 [
   {
-    "agency_name": "Department of Transportation",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "501-007",
-    "series_id": "200574",
-    "series_title": "Accounts Payable: Non-Federal Funding",
-    "series_description": "This series documents accounts payable vouchers that do not involve funding from federal sources. This series may include, but is not limited to: FD-1 Vouchers, Construction and Maintenance vouchers, and Small Purchase Charge card reconciliation packages that do not involve federal funds.",
-    "retention_statement": "6 Years after end of state fiscal year",
-    "retention_years": 6,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Confidential Destruction",
-    "confidential": true,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": "2019-01-10",
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/501-007.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Department of Transportation",
+      "schedule_type": "specific",
+      "schedule_id": "501-007",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/501-007.pdf"
+    },
+    "series_metadata": {
+      "series_id": "200574",
+      "series_title": "Accounts Payable: Non-Federal Funding",
+      "series_description": "This series documents accounts payable vouchers that do not involve funding from federal sources. This series may include, but is not limited to: FD-1 Vouchers, Construction and Maintenance vouchers, and Small Purchase Charge card reconciliation packages that do not involve federal funds.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "end of state fiscal year",
+      "duration_years": 6,
+      "duration_months": null,
+      "disposition_method": "Confidential Destruction",
+      "confidential_flag": true
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2019-01-10",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "Department of Transportation",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "501-007",
-    "series_id": "001402",
-    "series_title": "Accounts Payables: Federal Funding",
-    "series_description": "This series documents accounts payable vouchers that involve projects that are funded from federal sources. This series may include, but is not limited to: FD-1 vouchers, construction and maintenance vouchers, small purchase charge card reconciliation packages, employee travel reimbursement and expense reports.",
-    "retention_statement": "3 Years after final disposition",
-    "retention_years": 3,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Confidential Destruction",
-    "confidential": true,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": "2019-01-10",
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/501-007.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Department of Transportation",
+      "schedule_type": "specific",
+      "schedule_id": "501-007",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/501-007.pdf"
+    },
+    "series_metadata": {
+      "series_id": "001402",
+      "series_title": "Accounts Payables: Federal Funding",
+      "series_description": "This series documents accounts payable vouchers that involve projects that are funded from federal sources. This series may include, but is not limited to: FD-1 vouchers, construction and maintenance vouchers, small purchase charge card reconciliation packages, employee travel reimbursement and expense reports.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "final disposition",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Confidential Destruction",
+      "confidential_flag": true
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2019-01-10",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "Department of Transportation",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "501-007",
-    "series_id": "001507",
-    "series_title": "Annual Financial Statements",
-    "series_description": "This series documents summaries of the agency's financial operations. This series may include, but is not limited to: reports.",
-    "retention_statement": "",
-    "retention_years": null,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Permanent, In Agency",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": "2019-01-10",
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/501-007.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Department of Transportation",
+      "schedule_type": "specific",
+      "schedule_id": "501-007",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/501-007.pdf"
+    },
+    "series_metadata": {
+      "series_id": "001507",
+      "series_title": "Annual Financial Statements",
+      "series_description": "This series documents summaries of the agency's financial operations. This series may include, but is not limited to: reports.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Permanent",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition_method": "Permanent, In Agency",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2019-01-10",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "Department of Transportation",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "501-007",
-    "series_id": "001419",
-    "series_title": "Bond Statements",
-    "series_description": "This series documents bond statements that are used for audits and preparing financial reports. This series may include, but is not limited to: bond statements and correspondence",
-    "retention_statement": "3 Years after project completion",
-    "retention_years": 3,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Confidential Destruction",
-    "confidential": true,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": "2019-01-10",
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/501-007.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Department of Transportation",
+      "schedule_type": "specific",
+      "schedule_id": "501-007",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/501-007.pdf"
+    },
+    "series_metadata": {
+      "series_id": "001419",
+      "series_title": "Bond Statements",
+      "series_description": "This series documents bond statements that are used for audits and preparing financial reports. This series may include, but is not limited to: bond statements and correspondence",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "project completion",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Confidential Destruction",
+      "confidential_flag": true
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2019-01-10",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "Department of Transportation",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "501-007",
-    "series_id": "001421",
-    "series_title": "Bond Transactions",
-    "series_description": "This series documents bond transactions such as the recordation of new and refunding bond issues, bond proceeds, related cost of issuance, defeasance of debt, and debt service payments.This series may include, but is not limited to: statements, vouchers, and bond closing documents.",
-    "retention_statement": "3 Years after final payment",
-    "retention_years": 3,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Confidential Destruction",
-    "confidential": true,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": "2019-01-10",
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/501-007.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Department of Transportation",
+      "schedule_type": "specific",
+      "schedule_id": "501-007",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/501-007.pdf"
+    },
+    "series_metadata": {
+      "series_id": "001421",
+      "series_title": "Bond Transactions",
+      "series_description": "This series documents bond transactions such as the recordation of new and refunding bond issues, bond proceeds, related cost of issuance, defeasance of debt, and debt service payments.This series may include, but is not limited to: statements, vouchers, and bond closing documents.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "final payment",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Confidential Destruction",
+      "confidential_flag": true
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2019-01-10",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "Department of Transportation",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "501-007",
-    "series_id": "001566",
-    "series_title": "Consultant Estimate (A-58) Vouchers",
-    "series_description": "This series documents transactions involving consultant services used on road projects. This series may include, but is not limited to:consultant agreements, AP voucher transmittal forms, and project estimate vouchers.",
-    "retention_statement": "3 Years after final payment",
-    "retention_years": 3,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Non-confidential Destruction",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": "2019-01-10",
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/501-007.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Department of Transportation",
+      "schedule_type": "specific",
+      "schedule_id": "501-007",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/501-007.pdf"
+    },
+    "series_metadata": {
+      "series_id": "001566",
+      "series_title": "Consultant Estimate (A-58) Vouchers",
+      "series_description": "This series documents transactions involving consultant services used on road projects. This series may include, but is not limited to:consultant agreements, AP voucher transmittal forms, and project estimate vouchers.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "final payment",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Non-confidential Destruction",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2019-01-10",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "Department of Transportation",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "501-007",
-    "series_id": "001446",
-    "series_title": "Daily Federal Aid Billing Reports",
-    "series_description": "This series documents information on invoices or agreements submitted to the federal government for projects that receive federal aid. This series may include, but is not limited to: reports and correspondence.",
-    "retention_statement": "3 Years after final payment",
-    "retention_years": 3,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Non-confidential Destruction",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": "2019-01-10",
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/501-007.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Department of Transportation",
+      "schedule_type": "specific",
+      "schedule_id": "501-007",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/501-007.pdf"
+    },
+    "series_metadata": {
+      "series_id": "001446",
+      "series_title": "Daily Federal Aid Billing Reports",
+      "series_description": "This series documents information on invoices or agreements submitted to the federal government for projects that receive federal aid. This series may include, but is not limited to: reports and correspondence.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "final payment",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Non-confidential Destruction",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2019-01-10",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "Department of Transportation",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "501-007",
-    "series_id": "000118",
-    "series_title": "Federal Wire Deposit and Expenditure Transfers",
-    "series_description": "This series documents the recording of payments received from the Federal Highway Administration (FHWA). This series may include, but is not limited to: Journal Vouchers, Batch Headers, and supporting documentation.",
-    "retention_statement": "3 Years after final payment",
-    "retention_years": 3,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Non-confidential Destruction",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": "2019-01-10",
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/501-007.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Department of Transportation",
+      "schedule_type": "specific",
+      "schedule_id": "501-007",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/501-007.pdf"
+    },
+    "series_metadata": {
+      "series_id": "000118",
+      "series_title": "Federal Wire Deposit and Expenditure Transfers",
+      "series_description": "This series documents the recording of payments received from the Federal Highway Administration (FHWA). This series may include, but is not limited to: Journal Vouchers, Batch Headers, and supporting documentation.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "final payment",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Non-confidential Destruction",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2019-01-10",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "Department of Transportation",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "501-007",
-    "series_id": "001473",
-    "series_title": "Journal Voucher",
-    "series_description": "This series documents transaction requests for Journal Vouchers and Correction Vouchers. This series may include, but is not limited to: vouchers and supporting documentation.",
-    "retention_statement": "10 Years after end of state fiscal",
-    "retention_years": 10,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "year Non-confidential Destruction",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": "2019-01-10",
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/501-007.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Department of Transportation",
+      "schedule_type": "specific",
+      "schedule_id": "501-007",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/501-007.pdf"
+    },
+    "series_metadata": {
+      "series_id": "001473",
+      "series_title": "Journal Voucher",
+      "series_description": "This series documents transaction requests for Journal Vouchers and Correction Vouchers. This series may include, but is not limited to: vouchers and supporting documentation.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "end of state fiscal",
+      "duration_years": 10,
+      "duration_months": null,
+      "disposition_method": "year Non-confidential Destruction",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2019-01-10",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "Department of Transportation",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "501-007",
-    "series_id": "001413",
-    "series_title": "Payroll Employee Changes/Status",
-    "series_description": "This series documents changes to and status of employee payroll information and Worker's Compensation cases. This series may include, but is not limited to: Form FD204 and direct bank deposits.",
-    "retention_statement": "5 Years after separation",
-    "retention_years": 5,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Confidential Destruction",
-    "confidential": true,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": "2019-01-10",
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/501-007.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Department of Transportation",
+      "schedule_type": "specific",
+      "schedule_id": "501-007",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/501-007.pdf"
+    },
+    "series_metadata": {
+      "series_id": "001413",
+      "series_title": "Payroll Employee Changes/Status",
+      "series_description": "This series documents changes to and status of employee payroll information and Worker's Compensation cases. This series may include, but is not limited to: Form FD204 and direct bank deposits.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "separation",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Confidential Destruction",
+      "confidential_flag": true
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2019-01-10",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "Department of Transportation",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "501-007",
-    "series_id": "001487",
-    "series_title": "Project Billing and Agreements",
-    "series_description": "This series documents agreements and billing of projects for which the county, town, city, or utilities contribute money for construction or road maintenance. This series may include, but is not limited to: agreements, forms and supporting documentation.",
-    "retention_statement": "3 Years after final payment",
-    "retention_years": 3,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Non-confidential Destruction",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": "2019-01-10",
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/501-007.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Department of Transportation",
+      "schedule_type": "specific",
+      "schedule_id": "501-007",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/501-007.pdf"
+    },
+    "series_metadata": {
+      "series_id": "001487",
+      "series_title": "Project Billing and Agreements",
+      "series_description": "This series documents agreements and billing of projects for which the county, town, city, or utilities contribute money for construction or road maintenance. This series may include, but is not limited to: agreements, forms and supporting documentation.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "final payment",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Non-confidential Destruction",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2019-01-10",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "Department of Transportation",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "501-007",
-    "series_id": "001480",
-    "series_title": "Property Damage:Paid-in-Full Files",
-    "series_description": "This series documents amounts owed by individuals who damage VDOT property such as that caused by a traffic accident. This series may include, but is not limited to: photographs, police reports, and estimates for repairs.",
-    "retention_statement": "3 Years after final payment",
-    "retention_years": 3,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Confidential Destruction",
-    "confidential": true,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": "2019-01-10",
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/501-007.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Department of Transportation",
+      "schedule_type": "specific",
+      "schedule_id": "501-007",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/501-007.pdf"
+    },
+    "series_metadata": {
+      "series_id": "001480",
+      "series_title": "Property Damage:Paid-in-Full Files",
+      "series_description": "This series documents amounts owed by individuals who damage VDOT property such as that caused by a traffic accident. This series may include, but is not limited to: photographs, police reports, and estimates for repairs.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "final payment",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Confidential Destruction",
+      "confidential_flag": true
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2019-01-10",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "Department of Transportation",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "501-007",
-    "series_id": "001465",
-    "series_title": "Tax Information",
-    "series_description": "This series documents tax information required by and provided to the IRS on federal identification numbers and reportable income payments of vendors. This series may include, but is not limited to: W-9 and 1099 forms, and 972CG reports",
-    "retention_statement": "4 Years after end of state fiscal year",
-    "retention_years": 4,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Confidential Destruction",
-    "confidential": true,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": "2019-01-10",
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/501-007.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Department of Transportation",
+      "schedule_type": "specific",
+      "schedule_id": "501-007",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/501-007.pdf"
+    },
+    "series_metadata": {
+      "series_id": "001465",
+      "series_title": "Tax Information",
+      "series_description": "This series documents tax information required by and provided to the IRS on federal identification numbers and reportable income payments of vendors. This series may include, but is not limited to: W-9 and 1099 forms, and 972CG reports",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "end of state fiscal year",
+      "duration_years": 4,
+      "duration_months": null,
+      "disposition_method": "Confidential Destruction",
+      "confidential_flag": true
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2019-01-10",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   }
 ]

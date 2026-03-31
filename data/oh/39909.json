@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DBH",
+      "schedule_type": "specific",
+      "schedule_id": "51130008",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39909"
+    },
+    "series_metadata": {
+      "series_id": "1590025",
+      "series_title": "Receipt for Delivery",
+      "series_description": "Form originating in the Pharmacy Service Center warehouse on which the receiving facility acknowledges receipt of shipments via the drug truck. It lists the items shipped, quantity shipped, and quantity received.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: order has been checked in or any delivery problem has been resolved ; Paper: order has been checked in or any delivery problem has been resolved",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Trash",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2025-11-28",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

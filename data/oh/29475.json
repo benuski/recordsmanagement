@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TOS",
+      "schedule_type": "specific",
+      "schedule_id": "090-0469",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/29475"
+    },
+    "series_metadata": {
+      "series_id": "REV-219",
+      "series_title": "Agency Deposit Tapes / Deposit Reports",
+      "series_description": "Calculator tapes from state agencies that match the OAKS revenue documents for check payments. Also includes check tally reports and daily deposit reports from the check processing system.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Paper: Wastepaper",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2011-05-12",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

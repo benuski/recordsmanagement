@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TOS",
+      "schedule_type": "specific",
+      "schedule_id": "10900594",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/30864"
+    },
+    "series_metadata": {
+      "series_id": "SEC-102",
+      "series_title": "Transaction Files",
+      "series_description": "Electronic text files that show all securities transactions that settled on the previous business day within the accounts for which Treasurer acts as custodian. Files in this series are generated daily by the relevant custodial bank and transmitted to the Treasurer by FTP.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: conclusion of current fiscal year, and an additional 6 fiscal years",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2013-02-06",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

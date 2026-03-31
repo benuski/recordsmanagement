@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TOS",
+      "schedule_type": "specific",
+      "schedule_id": "10900548",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/30597"
+    },
+    "series_metadata": {
+      "series_id": "SEC-603",
+      "series_title": "Forms Documenting Release or Substitution of Pledged Collateral by Depository Banks",
+      "series_description": "Forms submitted by depository banks to the Treasurer that request the return of securities previously pledged to collateralize public deposits held by that bank. R.C. Chapter 135 requires that depository banks pledge collateral as security in return for the deposit of public funds. Banks will ask to substitute collateral if the pledged security is maturing, or ask for the collateral to be returned if the bank has pledged collateral in excess of that required in R.C. Chapter 135. After this form is received by the Treasurer, a collateral sufficiency report is generated for that bank which indicates whether the release of the specified collateral will result in non-compliance with the collateralization requirements in R.C. Chapter 135. If the release or substitution is approved, then a release confirmation is obtained from the Trustee that shows that the pledged security was returned to the depository bank. All three of these documents are stored together.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: conclusion of fiscal year in which form was filed, an additional 4 fiscal years. ; Paper: conclusion of fiscal year in which form was filed, an additional 4 fiscal years",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2022-10-28",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

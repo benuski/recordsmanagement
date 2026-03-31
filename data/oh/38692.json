@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DHS",
+      "schedule_type": "specific",
+      "schedule_id": "760-1575",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/38692"
+    },
+    "series_metadata": {
+      "series_id": "PISG-8",
+      "series_title": "Electronic images of registration cards, mailing labels, and packing lists",
+      "series_description": "Record series includes electronic images of registration cards issued, the packing list of registration cards, and the mailing labels.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: .electronic copy two years date of issuance",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2020-02-05",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

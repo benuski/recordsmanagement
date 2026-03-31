@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "855-1178",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/34933"
+    },
+    "series_metadata": {
+      "series_id": "C-34",
+      "series_title": "Lump Sum Settlement (LSS) Dashboard",
+      "series_description": "The Lump Sum Settlement (LSS) Dashboard contains information pertaining to a settlement of a claimant’s claim for workers’ compensation benefits such as, but not limited to: settlement agreement, medical records, requests for treatment, requests for payment of compensation, compensation payment records, orders issued by Bureau of Workers’ Compensation (BWC) or the Industrial Commission, and communication between the BWC LSS Injury Management Supervisor (IMS), LSS Claims Service Specialist (CSS), and BWC Settlement Attorneys. The Lump Sum Settlement Dashboard can include claim information regarding settlements that have reached a final settlement agreement, and claims that did not reach a final settlement agreement (denied/disallowed/dismissed/withdrawn). Settlement brings the workers’ compensation claim to an end.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: If settlement agreement was reached and approved, Lump Sum Settlement Dashboard claim settlement date of claim, and OR If settlement agreement was denied or never reached, Lump Sum Settlement Dashboard being; denied, disallowed, dismissed or withdrawn, and",
+      "duration_years": 6,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2018-01-17",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "COS",
+      "schedule_type": "specific",
+      "schedule_id": "879-0061",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/34901"
+    },
+    "series_metadata": {
+      "series_id": "Comp - 01",
+      "series_title": "Complaints",
+      "series_description": "Series contains consumer complaints regarding a business, school or individual. Series also contains records transferred on 01/21/2018 previously under series authorization number 50040003, agency series 877007. As of 01/21/2018 the State Cosmetology and Barber Board processes and retains all records from the Ohio State Barber Board per the enactment of H.B. 49.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: investigation is complete or scanned machine-readable format, whichever occurs first, unless matter goes hearing. ; Electronic: investigation is complete and case is closed, including all appeals",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2021-08-02",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

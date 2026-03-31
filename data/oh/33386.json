@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "855-0920",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/33386"
+    },
+    "series_metadata": {
+      "series_id": "C-20-B",
+      "series_title": "Settled Claim File",
+      "series_description": "The settled claim file contains information pertaining to a claimant’s claim for workers’ compensation benefits, such as, but not limited to: settlement agreement, medical records, requests for treatment, requests for payment of compensation, compensation payment records, and orders issued by BWC or the Industrial Commission. A settled claim can be any type of workers’ compensation claim in which the parties have entered into a binding agreement to settle any and all remaining amounts to be paid in a workers’ compensation claim. Settlement brings the workers’ compensation claim to an end.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: settled claim file settlement date of claim, and ; Microform: settled claim file settlement date of claim, and ; Electronic: settled claim file settlement date of claim, and",
+      "duration_years": 6,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Microform: Burn ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2024-01-30",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

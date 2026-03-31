@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TAX",
+      "schedule_type": "specific",
+      "schedule_id": "11100689",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35304"
+    },
+    "series_metadata": {
+      "series_id": "MF LIC APP",
+      "series_title": "Motor Fuel License Applications",
+      "series_description": "License applications as a MF Dealer, MF Information Update, Permissive MF Dealer, Retail MF Dealer, MF Exporter type A or B, MF Exporter type A or B Terminal Operator, Terminal Operator update and a Transporter or Motor Fuel. Forms include: MF201, MF201A, MF202, MF203, MF204, MF204A, MF205, MF205A",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: end of calendar year in which application was cancelled ; Electronic: end of calendar year in which application was cancelled",
+      "duration_years": 4,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2019-08-31",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

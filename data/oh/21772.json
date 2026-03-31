@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "ETH",
+      "schedule_type": "specific",
+      "schedule_id": "50100029",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/21772"
+    },
+    "series_metadata": {
+      "series_id": "IT-07",
+      "series_title": "System Backup Files",
+      "series_description": "Copies of master files or databases, application software, logs, directories and other records needed to restore a system in case of disaster or inadvertent destruction",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: a minimum of 12 monthly backup cycles and",
+      "duration_years": null,
+      "duration_months": 12,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2005-06-02",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

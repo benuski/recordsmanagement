@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DHS",
+      "schedule_type": "specific",
+      "schedule_id": "760-1548",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/32632"
+    },
+    "series_metadata": {
+      "series_id": "2811",
+      "series_title": "Social Media",
+      "series_description": "Series covers DPS postings to Social Media sites including, but not limited to Facebook, Twitter, Youtube, etc. This information includes, but is not limited to press releases, videos, events, and general information about DPS. The series also covers non-DPS generated postings removed by DPS pursuant to DPS Policy 401.01. Information posted that falls under a separate retention schedule will be kept according to that retention schedule.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: DPS postings - updated or no longer needed Non-DPS Generated postings - current month",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2014-09-18",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

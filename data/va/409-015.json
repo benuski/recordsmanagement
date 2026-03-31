@@ -1,50 +1,64 @@
 [
   {
-    "agency_name": "Department of Energy",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "409-015",
-    "series_id": "005471",
-    "series_title": "Aeromag and Aerorad Overlays",
-    "series_description": "This series consists of mylar overlays created from information collected during magnetic or radar aerial surveys of the geology of Virginia. Series is used to update geologic resources. Overlays are scanned as tiff files and into a GIS system for convenience. Refer to Code of Virginia, 45.1-386.",
-    "retention_statement": "Retain 60 years after creation, then transfer records to the , Library of Virginia for permanent retention,Code of Virginia, 45.1-388.",
-    "retention_years": 60,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Archives",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/409-015.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Department of Energy",
+      "schedule_type": "specific",
+      "schedule_id": "409-015",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/409-015.pdf"
+    },
+    "series_metadata": {
+      "series_id": "005471",
+      "series_title": "Aeromag and Aerorad Overlays",
+      "series_description": "This series consists of mylar overlays created from information collected during magnetic or radar aerial surveys of the geology of Virginia. Series is used to update geologic resources. Overlays are scanned as tiff files and into a GIS system for convenience. Refer to Code of Virginia, 45.1-386.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "creation, records Archives, Library of Virginia permanent retention,Code of Virginia, 45.1-388",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "Department of Energy",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "409-015",
-    "series_id": "005474",
-    "series_title": "Transfer Maps",
-    "series_description": "This series consists of USGS maps annotated with mineral resource information collected during field surveys by staff geologists. Information updates Virginia resource information",
-    "retention_statement": "Retain 60 years after creation, then transfer records to the , Library of Virginia for permanent retention,Code of Virginia, 45.1-388.",
-    "retention_years": 60,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Archives",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/409-015.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Department of Energy",
+      "schedule_type": "specific",
+      "schedule_id": "409-015",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/409-015.pdf"
+    },
+    "series_metadata": {
+      "series_id": "005474",
+      "series_title": "Transfer Maps",
+      "series_description": "This series consists of USGS maps annotated with mineral resource information collected during field surveys by staff geologists. Information updates Virginia resource information",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "creation, records Archives, Library of Virginia permanent retention,Code of Virginia, 45.1-388",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   }
 ]

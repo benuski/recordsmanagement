@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DNR",
+      "schedule_type": "specific",
+      "schedule_id": "725-0850",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/29389"
+    },
+    "series_metadata": {
+      "series_id": "750-RT-005",
+      "series_title": "Hull Identification Number and Inspections",
+      "series_description": "This series contains records generally associated with watercraft hull identification numbers, including but not limited to: inspection findings, logs tabulating inspections, and other related documents.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: ; Electronic",
+      "duration_years": 4,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2021-01-14",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "855-0944",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/25953"
+    },
+    "series_metadata": {
+      "series_id": "MIAD-13",
+      "series_title": "Infrastructure and Technology Service Request",
+      "series_description": "Requests for installation or modification of any equipment or service (i.e., hardware, software, furniture, telephone, printers and moves) provided by the Infrastructure and Technology Division.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: request is completed ; Paper: request is completed",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Recycle",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2008-03-14",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DAS",
+      "schedule_type": "specific",
+      "schedule_id": "11001666",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39261"
+    },
+    "series_metadata": {
+      "series_id": "OES-4",
+      "series_title": "DAS Employee USCIS I-9 Employment Eligibility Forms",
+      "series_description": "As mandated by the Immigration Reform and Control Act of 1986, the United State Citizenship and Immigration Services (USCIS) I-9 form is used to verify an employee’s identity and legal authorization to work within the United States. The form contains information such as the employee’s name, social security number, date of birth, and employer review and verification of documented identification of the employee. OES inputs form data into eVerify, I-9 form is retained within OnBase.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: scanned ; Electronic: from date of hiring or 1 year employment is terminated, whichever is later",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2025-12-16",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

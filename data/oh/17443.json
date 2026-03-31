@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "855-0989",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/17443"
+    },
+    "series_metadata": {
+      "series_id": "RTUN 7",
+      "series_title": "(AC-2) Permanent Authorization Form",
+      "series_description": "The Permanent Authorization Form (AC-2) is submitted by the Third Party Administrator (TPA) and/or the employer. The AC-2 provides permanent rights to the TPA to view or access any of the employers’ rate information. The AC-2 is scanned into the Universal Document Service (UDS). UDS is an imaging concept that stores any type of electronic file, such as Microsoft Office documents, Adobe Acrobat, audio/video, Computer Aided Design (CAD), etc. as well as scanned images.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: paper AC-2 forms are immediately scanned into Universal Document Service (UDS) when they are received. AC-2 forms are in UDS they are reviewed quality assurance. If qaulity is accepted, paper form can be destroyed. ; Electronic: AC-2 forms are scanned into Universal Document Service (UDS). If policy is cancelled and there is no balance",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Recycle ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2008-03-11",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

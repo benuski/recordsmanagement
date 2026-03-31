@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551701",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35542"
+    },
+    "series_metadata": {
+      "series_id": "81-OAG-07",
+      "series_title": "Post-Conviction DNA Applications",
+      "series_description": "Documents requests by eligible inmates for post-conviction DNA testing per Ohio Revised Code (ORC) 2953.71 and 2953.81. The Ohio Attorney General''s Office receives a copy of the request per ORC 2953.73. Application includes, but is not limited to, the following information: defendant/inmate background, conviction background, evidence for testing, acknowledgement to terms and conditions, and certification of services.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: 90 days decision is made. ; Paper: 90 days decision is made, unless scanned and saved electronically",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2018-11-05",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGR",
+      "schedule_type": "specific",
+      "schedule_id": "700-0148",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/33832"
+    },
+    "series_metadata": {
+      "series_id": "AGR-9063",
+      "series_title": "Analytical Toxicology Lab (ATL) Routine Lab Records",
+      "series_description": "Routine Lab Records including but not limited to Accessioning Paperwork, Batch Paperwork, Chain of Custody Paperwork, and Cleared Folders. The Analytical Toxicology Laboratory (ATL) Administrative Professional 2 is the Record Retention Coordinator.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Keep . ; Electronic: Keep",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2016-12-01",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

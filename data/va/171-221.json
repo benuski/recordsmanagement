@@ -1,50 +1,64 @@
 [
   {
-    "agency_name": "State Corporation Commission",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "171-221",
-    "series_id": "000260",
-    "series_title": "Damage Investigation Reports",
-    "series_description": "This series consists of the investigation of damages to utility lines and probable violations of the Underground Utility Damage Prevention Act. This series may include, but is not limited to: case files, photographs, enforcement action notes, statements, and correspondence. 20VAC5-309-20 et seq.",
-    "retention_statement": "Retain 6 years after case is closed then destroy in compliance with No. 8 on schedule cover page.",
-    "retention_years": 6,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/171-221.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "State Corporation Commission",
+      "schedule_type": "specific",
+      "schedule_id": "171-221",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/171-221.pdf"
+    },
+    "series_metadata": {
+      "series_id": "000260",
+      "series_title": "Damage Investigation Reports",
+      "series_description": "This series consists of the investigation of damages to utility lines and probable violations of the Underground Utility Damage Prevention Act. This series may include, but is not limited to: case files, photographs, enforcement action notes, statements, and correspondence. 20VAC5-309-20 et seq.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "case is closed in compliance with No. 8 on schedule cover page",
+      "duration_years": 6,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "State Corporation Commission",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "171-221",
-    "series_id": "000348",
-    "series_title": "Pipeline Safety Inspection Reports and Enforcement Orders",
-    "series_description": "This series consists of the findings, citations, and follow-up actions to correct any violations or issues that are discovered as part of State Corporation Commission's (SCC) gas and hazardous liquid pipeline safety inspections. This series may include, but is not limited to: inspection reports, photographs, company correspondence, and federal grant program documentation",
-    "retention_statement": "Retain 6 years after the inspection is closed then destroy in compliance with No. 8 on schedule cover page.",
-    "retention_years": 6,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "Code of Virginia § 56-257.2.",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/171-221.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "State Corporation Commission",
+      "schedule_type": "specific",
+      "schedule_id": "171-221",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/171-221.pdf"
+    },
+    "series_metadata": {
+      "series_id": "000348",
+      "series_title": "Pipeline Safety Inspection Reports and Enforcement Orders",
+      "series_description": "This series consists of the findings, citations, and follow-up actions to correct any violations or issues that are discovered as part of State Corporation Commission's (SCC) gas and hazardous liquid pipeline safety inspections. This series may include, but is not limited to: inspection reports, photographs, company correspondence, and federal grant program documentation. Code of Virginia § 56-257.2.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "inspection is closed in compliance with No. 8 on schedule cover page",
+      "duration_years": 6,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   }
 ]

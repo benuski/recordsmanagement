@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DAS",
+      "schedule_type": "specific",
+      "schedule_id": "11001579",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/29414"
+    },
+    "series_metadata": {
+      "series_id": "BEN-6",
+      "series_title": "Benefit Change Forms",
+      "series_description": "Records submitted as basis for enrolling/maintaining dependents in benefit program that could change over time. Includes federal tax return, marriage certificate, proof of joint residency, affidavit of common law marriage, certificate of common law marriage, adoption agency papers, custody agreements, foster child court documents, legal guardian court documents, qualified medical support order. HB1 affidavit, driver’s license, annual affidavit or student status letter from registrar.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: current year prior ; Electronic: current year prior",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2025-11-19",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

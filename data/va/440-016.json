@@ -1,74 +1,95 @@
 [
   {
-    "agency_name": "Department of Environmental Quality",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "440-016",
-    "series_id": "009511",
-    "series_title": "Ground Water Withdrawal Permits: Permanent",
-    "series_description": "This series documents groundwater permitting, including well construction and abandonment, geophysical data, drilling, submersible pumps, and aquifer testing. This series may include, but is not limited to: GW-2 forms, logs, and reports.",
-    "retention_statement": "",
-    "retention_years": null,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Permanent, In Agency",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": "2016-09-13",
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/440-016.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Department of Environmental Quality",
+      "schedule_type": "specific",
+      "schedule_id": "440-016",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/440-016.pdf"
+    },
+    "series_metadata": {
+      "series_id": "009511",
+      "series_title": "Ground Water Withdrawal Permits: Permanent",
+      "series_description": "This series documents groundwater permitting, including well construction and abandonment, geophysical data, drilling, submersible pumps, and aquifer testing. This series may include, but is not limited to: GW-2 forms, logs, and reports.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Permanent",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition_method": "Permanent, In Agency",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2016-09-13",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "Department of Environmental Quality",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "440-016",
-    "series_id": "009512",
-    "series_title": "Ground Water Withdrawal Permits: Temporary",
-    "series_description": "This series documents the processing of groundwater withdrawal applications and issuance or denial of permits. This series may include, but is not limited to: applications, permits, fact sheets, construction & engineering plans and specifications, field notes, correspondence, aquifer picks, and Virginia Department of Health engineering description sheets.",
-    "retention_statement": "10 Years after expiration",
-    "retention_years": 10,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Confidential Destruction",
-    "confidential": true,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": "2016-09-13",
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/440-016.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Department of Environmental Quality",
+      "schedule_type": "specific",
+      "schedule_id": "440-016",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/440-016.pdf"
+    },
+    "series_metadata": {
+      "series_id": "009512",
+      "series_title": "Ground Water Withdrawal Permits: Temporary",
+      "series_description": "This series documents the processing of groundwater withdrawal applications and issuance or denial of permits. This series may include, but is not limited to: applications, permits, fact sheets, construction & engineering plans and specifications, field notes, correspondence, aquifer picks, and Virginia Department of Health engineering description sheets.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "expiration",
+      "duration_years": 10,
+      "duration_months": null,
+      "disposition_method": "Confidential Destruction",
+      "confidential_flag": true
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2016-09-13",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "Department of Environmental Quality",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "440-016",
-    "series_id": "200527",
-    "series_title": "Groundwater Withdrawal Permitting Compliance",
-    "series_description": "This series documents compliance with the groundwater withdrawal permitting program, including water quality, levels, inspections, warnings and notices, and corrective actions. This series may include, but is not limited to: reports and correspondence.",
-    "retention_statement": "12 Years after approval",
-    "retention_years": 12,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Non-confidential Destruction",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": "2016-09-13",
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/440-016.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Department of Environmental Quality",
+      "schedule_type": "specific",
+      "schedule_id": "440-016",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/440-016.pdf"
+    },
+    "series_metadata": {
+      "series_id": "200527",
+      "series_title": "Groundwater Withdrawal Permitting Compliance",
+      "series_description": "This series documents compliance with the groundwater withdrawal permitting program, including water quality, levels, inspections, warnings and notices, and corrective actions. This series may include, but is not limited to: reports and correspondence.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "approval",
+      "duration_years": 12,
+      "duration_months": null,
+      "disposition_method": "Non-confidential Destruction",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2016-09-13",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   }
 ]

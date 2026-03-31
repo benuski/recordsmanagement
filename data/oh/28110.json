@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DHS",
+      "schedule_type": "specific",
+      "schedule_id": "760-1367",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/28110"
+    },
+    "series_metadata": {
+      "series_id": "INV0048",
+      "series_title": "Confidential Informant / Underage Purchaser Files",
+      "series_description": "Contains all information associated with enrollment and management of a Confidential Informant (IC) or Underage Purchaser (UP). Series contains: INV 0048 Underage Purchaser Enrollment Information; INV 0061 Underage Purchaser Study Guide & Written Exam; INV 0089 Electronic Surveillance Release; INV 0161 Minor’s Medical Treatment Authorization; copy of UP birth certificate, copy of UP work permit (if applicable); any audits of the UP file; INV 0043 Underage Purchaser Payment Receipt; and all INV 0029 Confidential Informant Payment Logs.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: five years from last time UP was used ; Electronic: five years from last time UP was used",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2023-05-22",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

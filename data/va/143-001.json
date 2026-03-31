@@ -1,146 +1,188 @@
 [
   {
-    "agency_name": "Division of Debt Collection",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "143-001",
-    "series_id": "006255",
-    "series_title": "Accounts Case Management System",
-    "series_description": "This series documents information about all files referred to Division of Debt Collection (DDC), including debtor identification, client contact information and notes, DDC attorneys and claims representatives assigned to a file, historical notes , financial history notes, client contact notes, financial transactions, security access, and form/document production and imaging on individual accounts. This series consists of digital images and a database.",
-    "retention_statement": "40 Years after closed",
-    "retention_years": 40,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Confidential Destruction",
-    "confidential": true,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": "2015-12-03",
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/143-001.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Division of Debt Collection",
+      "schedule_type": "specific",
+      "schedule_id": "143-001",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/143-001.pdf"
+    },
+    "series_metadata": {
+      "series_id": "006255",
+      "series_title": "Accounts Case Management System",
+      "series_description": "This series documents information about all files referred to Division of Debt Collection (DDC), including debtor identification, client contact information and notes, DDC attorneys and claims representatives assigned to a file, historical notes , financial history notes, client contact notes, financial transactions, security access, and form/document production and imaging on individual accounts. This series consists of digital images and a database.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "closed",
+      "duration_years": 40,
+      "duration_months": null,
+      "disposition_method": "Confidential Destruction",
+      "confidential_flag": true
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2015-12-03",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "Division of Debt Collection",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "143-001",
-    "series_id": "200473",
-    "series_title": "Financial Records: Advice",
-    "series_description": "This series documents all financial transactions that occur within debtor accounts, including payments made directly to the client agency or to the Division as well as any debtor's accountbalance adjustment. This series may include, but is not limited to: ledger sheets, receipts, supporting payment and adjustment documentation, transaction reports, and deposit verifications.",
-    "retention_statement": "10 Years after end of state fiscal",
-    "retention_years": 10,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "year Confidential Destruction",
-    "confidential": true,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": "2015-12-03",
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/143-001.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Division of Debt Collection",
+      "schedule_type": "specific",
+      "schedule_id": "143-001",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/143-001.pdf"
+    },
+    "series_metadata": {
+      "series_id": "200473",
+      "series_title": "Financial Records: Advice",
+      "series_description": "This series documents all financial transactions that occur within debtor accounts, including payments made directly to the client agency or to the Division as well as any debtor's accountbalance adjustment. This series may include, but is not limited to: ledger sheets, receipts, supporting payment and adjustment documentation, transaction reports, and deposit verifications.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "end of state fiscal",
+      "duration_years": 10,
+      "duration_months": null,
+      "disposition_method": "year Confidential Destruction",
+      "confidential_flag": true
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2015-12-03",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "Division of Debt Collection",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "143-001",
-    "series_id": "200474",
-    "series_title": "Financial Records: Monthly Reconciliation",
-    "series_description": "This series documents all financial transactions between the Division and client agencies. This series may include but is not limited to: ledger sheets, receipts, invoices, bank statements, supporting payment and disbursement documentation, transaction reports, and deposit verifications.",
-    "retention_statement": "10 Years after end of state fiscal",
-    "retention_years": 10,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "year Confidential Destruction",
-    "confidential": true,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": "2015-12-03",
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/143-001.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Division of Debt Collection",
+      "schedule_type": "specific",
+      "schedule_id": "143-001",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/143-001.pdf"
+    },
+    "series_metadata": {
+      "series_id": "200474",
+      "series_title": "Financial Records: Monthly Reconciliation",
+      "series_description": "This series documents all financial transactions between the Division and client agencies. This series may include but is not limited to: ledger sheets, receipts, invoices, bank statements, supporting payment and disbursement documentation, transaction reports, and deposit verifications.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "end of state fiscal",
+      "duration_years": 10,
+      "duration_months": null,
+      "disposition_method": "year Confidential Destruction",
+      "confidential_flag": true
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2015-12-03",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "Division of Debt Collection",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "143-001",
-    "series_id": "006259",
-    "series_title": "Judgment and Docket Records",
-    "series_description": "This series documents the scheduling, judgment, and docketing of individual cases, as well as the verification of judgment and docketing information to release liens. This series may include, but is not limited to: correspondence, abstracts, and spreadsheets.",
-    "retention_statement": "10 Years after last action",
-    "retention_years": 10,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Confidential Destruction",
-    "confidential": true,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": "2015-12-03",
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/143-001.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Division of Debt Collection",
+      "schedule_type": "specific",
+      "schedule_id": "143-001",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/143-001.pdf"
+    },
+    "series_metadata": {
+      "series_id": "006259",
+      "series_title": "Judgment and Docket Records",
+      "series_description": "This series documents the scheduling, judgment, and docketing of individual cases, as well as the verification of judgment and docketing information to release liens. This series may include, but is not limited to: correspondence, abstracts, and spreadsheets.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "last action",
+      "duration_years": 10,
+      "duration_months": null,
+      "disposition_method": "Confidential Destruction",
+      "confidential_flag": true
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2015-12-03",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "Division of Debt Collection",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "143-001",
-    "series_id": "006260",
-    "series_title": "Litigation and Claims: Closed Files",
-    "series_description": "This series documents cases that have been paid in full; settled; closed uncollectible with no judgment; or discharged by Chapter 7, 11, or 13 bankruptcy. This series may include, but is not limited to: pleadings, court orders, abstracts, notes, correspondence, memoranda, reports, invoices, check copies, financial records, educational records, health and social services records, settlement documents, and other supporting documentation.",
-    "retention_statement": "10 Years after closed",
-    "retention_years": 10,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Confidential Destruction",
-    "confidential": true,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": "2015-12-03",
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/143-001.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Division of Debt Collection",
+      "schedule_type": "specific",
+      "schedule_id": "143-001",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/143-001.pdf"
+    },
+    "series_metadata": {
+      "series_id": "006260",
+      "series_title": "Litigation and Claims: Closed Files",
+      "series_description": "This series documents cases that have been paid in full; settled; closed uncollectible with no judgment; or discharged by Chapter 7, 11, or 13 bankruptcy. This series may include, but is not limited to: pleadings, court orders, abstracts, notes, correspondence, memoranda, reports, invoices, check copies, financial records, educational records, health and social services records, settlement documents, and other supporting documentation.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "closed",
+      "duration_years": 10,
+      "duration_months": null,
+      "disposition_method": "Confidential Destruction",
+      "confidential_flag": true
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2015-12-03",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "Division of Debt Collection",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "143-001",
-    "series_id": "200475",
-    "series_title": "Litigation and Claims: Inactive Judgments",
-    "series_description": "This series documents potentially enforceable judgments that are currently inactive because debtor and/or assets are unavailable. This series may include, but is not limited to: pleadings, court orders, abstracts, notes, correspondence, memoranda, reports, invoices, check copies, financial records, legal advice, educational records, health and social services records, and other supporting documentation.",
-    "retention_statement": "40 Years after last action",
-    "retention_years": 40,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Confidential Destruction",
-    "confidential": true,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": "2015-12-03",
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/143-001.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Division of Debt Collection",
+      "schedule_type": "specific",
+      "schedule_id": "143-001",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/143-001.pdf"
+    },
+    "series_metadata": {
+      "series_id": "200475",
+      "series_title": "Litigation and Claims: Inactive Judgments",
+      "series_description": "This series documents potentially enforceable judgments that are currently inactive because debtor and/or assets are unavailable. This series may include, but is not limited to: pleadings, court orders, abstracts, notes, correspondence, memoranda, reports, invoices, check copies, financial records, legal advice, educational records, health and social services records, and other supporting documentation.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "last action",
+      "duration_years": 40,
+      "duration_months": null,
+      "disposition_method": "Confidential Destruction",
+      "confidential_flag": true
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2015-12-03",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   }
 ]

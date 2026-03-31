@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "COM",
+      "schedule_type": "specific",
+      "schedule_id": "800-0697",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/495"
+    },
+    "series_metadata": {
+      "series_id": "836-04",
+      "series_title": "Boiler Inspection Reports",
+      "series_description": "File contains the inspection report which states all of the necessary information of the internal inspection of a boiler giving specific size, type, name of manufacturer, location of boiler name and address of owner or user, owner number, state number, Ohio standard number, National Board number and the date manufactured, and any related information.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: scanned ; Electronic: machine readable notified that boiler has been scrapped",
+      "duration_years": null,
+      "duration_months": 6,
+      "disposition_method": "Paper: Recycle ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2000-02-23",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

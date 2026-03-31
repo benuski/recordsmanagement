@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "EXP",
+      "schedule_type": "specific",
+      "schedule_id": "723-0111",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/774"
+    },
+    "series_metadata": {
+      "series_id": "PAY-06",
+      "series_title": "Withholding Exemption Certificate",
+      "series_description": "Form submitted by each employee showing the number of exemption claimed upon which a withholding deduction is made. The Internal Revenue Service requires that such reports be kept for four years.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: superceded or employee concerned is separated or terminated",
+      "duration_years": 4,
+      "duration_months": null,
+      "disposition_method": "Paper: Wastepaper",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "1986-06-27",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "INS",
+      "schedule_type": "specific",
+      "schedule_id": "820-0754",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/25500"
+    },
+    "series_metadata": {
+      "series_id": "150-04",
+      "series_title": "Incomplete/Withdrawn/Denied License Applications",
+      "series_description": "Incomplete, withdrawn, or denied applications for licensure in Ohio.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: 90 days from time application is considered incomplete, withdrawn or denied ; Electronic: 90 days from time application is considered incomplete, withdrawn or denied",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2007-10-30",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

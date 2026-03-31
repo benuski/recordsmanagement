@@ -1,50 +1,64 @@
 [
   {
-    "agency_name": "Virginia Freedom of Information Advisory Council",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "834-001",
-    "series_id": "200501",
-    "series_title": "Advisory Opinions: Formal",
-    "series_description": "This series documents the written opinions produced and published by the Freedom of Information Advisory Council staff members that provide the advice, guidance, and clarification that encourages and facilitates compliance with the Freedom of Information Act. This series includes published opinions. COV 30-179 (1)",
-    "retention_statement": "",
-    "retention_years": null,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Permanent, In Agency",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": "2016-05-19",
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/834-001.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Virginia Freedom of Information Advisory Council",
+      "schedule_type": "specific",
+      "schedule_id": "834-001",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/834-001.pdf"
+    },
+    "series_metadata": {
+      "series_id": "200501",
+      "series_title": "Advisory Opinions: Formal",
+      "series_description": "This series documents the written opinions produced and published by the Freedom of Information Advisory Council staff members that provide the advice, guidance, and clarification that encourages and facilitates compliance with the Freedom of Information Act. This series includes published opinions. COV 30-179 (1)",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Permanent",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition_method": "Permanent, In Agency",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2016-05-19",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "Virginia Freedom of Information Advisory Council",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "834-001",
-    "series_id": "200502",
-    "series_title": "Advisory Opinions: Informal",
-    "series_description": "This series documents the informal, unpublished advice, opinions, and guidance that Freedom of Information Council staff members provide to citizens, state and local governments, and media representatives. This series may include, but is not limited to: correspondence and logs.",
-    "retention_statement": "2 Years after end of calendar year",
-    "retention_years": 2,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Non-confidential Destruction",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": "2016-05-19",
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/834-001.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Virginia Freedom of Information Advisory Council",
+      "schedule_type": "specific",
+      "schedule_id": "834-001",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/834-001.pdf"
+    },
+    "series_metadata": {
+      "series_id": "200502",
+      "series_title": "Advisory Opinions: Informal",
+      "series_description": "This series documents the informal, unpublished advice, opinions, and guidance that Freedom of Information Council staff members provide to citizens, state and local governments, and media representatives. This series may include, but is not limited to: correspondence and logs.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "end of calendar year",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Non-confidential Destruction",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2016-05-19",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   }
 ]

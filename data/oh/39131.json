@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TAX",
+      "schedule_type": "specific",
+      "schedule_id": "11100845",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39131"
+    },
+    "series_metadata": {
+      "series_id": "DTE-100",
+      "series_title": "Real Property Conveyance Fee Statement of Value and Receipt",
+      "series_description": "The Real Property Conveyance Fee Statement is an affidavit which identifies real estate sold and provides information such as the property's assessed value and selling price used in market studies conducted by the Ohio Department of Taxation for purposes of real property assessment equalization.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Current and preceding retained counties scheduled sexennial re-appraissal or triennial update in current year. counties not scheduled re-approaisal or triennial update in current year, DTE form 100's on file will be those current year and years since last re-appraisal or update, with no forms being maintained longer than three years prior current year. ; Paper: Current and preceding retained counties scheduled sexennial re-appraissal or triennial update in current year. counties not scheduled re-approaisal or triennial update in current year, DTE form 100's on file will be those current year and years since last re-appraisal or update, with no forms being maintained longer than three years prior current year",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Wastepaper",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2022-01-26",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

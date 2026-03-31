@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DAS",
+      "schedule_type": "specific",
+      "schedule_id": "11001719",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39856"
+    },
+    "series_metadata": {
+      "series_id": "REA-04",
+      "series_title": "State-Owned Land Records",
+      "series_description": "Easements, leases, license agreements, memorandums of understanding, transfers of jurisdiction, oil and gas leases, subordination agreements, tenant occupant agreements.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: agreement has been terminated ; Paper: stored electronically",
+      "duration_years": 6,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Recycle",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2025-09-05",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

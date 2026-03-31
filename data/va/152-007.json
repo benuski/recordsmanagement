@@ -1,26 +1,33 @@
 [
   {
-    "agency_name": "Department of the Treasury",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "152-007",
-    "series_id": "009280",
-    "series_title": "Bond Financing Transcripts",
-    "series_description": "This series documents the legal, financial, and administrative matters and processes associated with the issuance of bonds. It consists of bound volumes of legal documents which include but is not limited to legal opinions, debt service schedule,",
-    "retention_statement": "Retain for 3 years after the bond has matured, is called, or refunded, then destroy in compliance with No. 8 on the cover page. 26CFR§1.148-5(d)(6)(iii)(E).",
-    "retention_years": 3,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/152-007.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Department of the Treasury",
+      "schedule_type": "specific",
+      "schedule_id": "152-007",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/152-007.pdf"
+    },
+    "series_metadata": {
+      "series_id": "009280",
+      "series_title": "Bond Financing Transcripts",
+      "series_description": "This series documents the legal, financial, and administrative matters and processes associated with the issuance of bonds. It consists of bound volumes of legal documents which include but is not limited to legal opinions, debt service schedule,",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "bond has matured, is called, or refunded, in compliance with No. 8 on cover page. 26CFR§1.148-5(d)(6)(iii)(E)",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   }
 ]

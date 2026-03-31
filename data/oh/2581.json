@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OBD",
+      "schedule_type": "specific",
+      "schedule_id": "860-0024",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/2581"
+    },
+    "series_metadata": {
+      "series_id": "GEN-0024",
+      "series_title": "GA-25 Records Retention Schedule",
+      "series_description": "A form used to identify the length of time a record must be retained before final disposition.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: superseded by a revised retention schedule, or record series in no longer created",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Wastepaper",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "1993-11-29",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

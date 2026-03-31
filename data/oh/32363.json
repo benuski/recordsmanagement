@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OOD",
+      "schedule_type": "specific",
+      "schedule_id": "50760044",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/32363"
+    },
+    "series_metadata": {
+      "series_id": "40-FIS-006",
+      "series_title": "Inventory Record",
+      "series_description": "File containing records that list all equipment including the description, date purchased, cost, vendor, and serial number (if any) along with miscellaneous information. Records may include: Records of Transfer of Equipment and Furniture; Equipment Receipt, inventories, disposal of surplus property records; maintenance, repair and warranty repair; and any additional records relating to inventory control.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: records life of equipment, two (2) state fiscal years. ; Electronic: records life of equipment, two (2) state fiscal years",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Trash ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2014-05-13",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

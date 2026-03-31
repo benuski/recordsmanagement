@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OCC",
+      "schedule_type": "specific",
+      "schedule_id": "10530207",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/27358"
+    },
+    "series_metadata": {
+      "series_id": "OCC-RPM-10",
+      "series_title": "Visitors Log",
+      "series_description": "Records documenting the entry and departure of employees and visitors into a State office building during and/or after office hours",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Sign in log book maintained at front counter. sign in log book past date book is complete",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "Paper: Trash",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2009-04-07",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

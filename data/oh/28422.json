@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TAX",
+      "schedule_type": "specific",
+      "schedule_id": "11100435",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/28422"
+    },
+    "series_metadata": {
+      "series_id": "SD-40P",
+      "series_title": "SD Income Tax Extension Payment Voucher",
+      "series_description": "This form is a payment voucher sent by taxpayer with SD-100 when balance due is remitted.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Original kept scanned ; Electronic: Electronic record kept via ODT Info Image Systems",
+      "duration_years": 10,
+      "duration_months": 6,
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2010-03-09",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

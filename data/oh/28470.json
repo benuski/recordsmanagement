@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "855-1135",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/28470"
+    },
+    "series_metadata": {
+      "series_id": "ALLS-32",
+      "series_title": "Employer Visits (ETA)",
+      "series_description": "The ETA Tracking System stores employer stats, including past history of activity that BWC Employer Specialists, Business Consultants and our Safety Consultants provided, regarding the amount of time spent and what was discussed with each customer. The Tracking System was created in 1999 however after 2004 the Tracking System became a query only system due to no information being stored into the Tracking System.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: employer is no longer in existance ; Electronic: employer is no longer in existance",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2010-04-29",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

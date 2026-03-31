@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TOS",
+      "schedule_type": "specific",
+      "schedule_id": "090-0475",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/30828"
+    },
+    "series_metadata": {
+      "series_id": "REV-227",
+      "series_title": "Electronic Fund Transfer (EFT) payment documentation & applications",
+      "series_description": "Documentation showing the aggregate daily electronic deposits of employer withholding tax, sales tax, corporate franchise tax, municipal income tax, commercial activity tax (CAT), and other taxes into the proper bank account, and the subsequent transfer of such funds to the main state bank account, and the posting of revenue from the payment of such taxes into the proper OAKS fund. Also includes supporting documentation of allocation of incoming ACH and credit card revenue to the proper OAKS fund. Also includes applications filed by taxpaying entities wishing to remit taxes through EFT.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: conclusion of current fiscal year, and an additional 1 fiscal years",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2022-10-28",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

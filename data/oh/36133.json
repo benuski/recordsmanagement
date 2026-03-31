@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "ODM",
+      "schedule_type": "specific",
+      "schedule_id": "50750267",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/36133"
+    },
+    "series_metadata": {
+      "series_id": "505-00-06",
+      "series_title": "Provider Network Management Records Retention",
+      "series_description": "The Provider Network Management system receives data from potential and current providers for enrollment, disenrollment, certification, revalidation, and credentialing purposes to be a Medicaid provider. This data contains information such as name, date of birth, social security number, driver''s license number, address and professional certification documents. The system also contains claims data and recipient eligibility and immunization records from other systems.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: paper copies of all project deliverables, artifacts, training materials and other non-system records, scanned into machine readable format. Paper copies not scanned shall be kept and ; Electronic: Three historical versions and one current version of machine readable formats of all project deliverables, artifacts, training materials and other non-system records should be maintained at any point of time, or , whichever comes first",
+      "duration_years": 7,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2019-03-11",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

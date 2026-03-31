@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "RCB",
+      "schedule_type": "specific",
+      "schedule_id": "872-0059",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/27620"
+    },
+    "series_metadata": {
+      "series_id": "RCB-0030",
+      "series_title": "Healthcare Integrity and Protection Data Bank Adverse Action Reports",
+      "series_description": "Healthcare Integrity and Protection Data Bank Adverse Action Report is a confidential document created by the Healthcare Integrity and Protection Data Bank when an adverse action is reported involving a licensed entity. The report includes the identification of the individual,contains sensitive data, and the details of specific actions taken by the agency against the licensed entity.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: three months final report is cleared by HIPDB. ; Electronic: three months final report is cleared by HIPDB",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2009-06-02",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

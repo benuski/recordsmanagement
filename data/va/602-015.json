@@ -1,26 +1,33 @@
 [
   {
-    "agency_name": "Department of Medical Assistance Services",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "602-015",
-    "series_id": "006193",
-    "series_title": "Quarterly Expenditure Report – Health Care Financing Administration – HCFA 64 Refugee Resettlement",
-    "series_description": "This series documents all expenditures; add pays, federal grants, and disallowances. Contains reports, back up documentation for expenditures, add payments, federal grants and disallowances of claims.",
-    "retention_statement": "Retain 5 years after the close of the federal fiscal year, then transfer to the Records Center, Library of Virginia. Retain in Records Center 15 years. Total retention 20 years, then destroy in compliance with No. 8 on schedule cover page.",
-    "retention_years": 5,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/602-015.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Department of Medical Assistance Services",
+      "schedule_type": "specific",
+      "schedule_id": "602-015",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/602-015.pdf"
+    },
+    "series_metadata": {
+      "series_id": "006193",
+      "series_title": "Quarterly Expenditure Report – Health Care Financing Administration – HCFA 64 Refugee Resettlement",
+      "series_description": "This series documents all expenditures; add pays, federal grants, and disallowances. Contains reports, back up documentation for expenditures, add payments, federal grants and disallowances of claims.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "close of federal fiscal year, Records Center, Library of Virginia. in Records Center 15 years. Total retention 20 years, in compliance with No. 8 on schedule cover page",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   }
 ]

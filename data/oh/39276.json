@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DHS",
+      "schedule_type": "specific",
+      "schedule_id": "760-1611",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39276"
+    },
+    "series_metadata": {
+      "series_id": "4022",
+      "series_title": "Government Access Site",
+      "series_description": "The Government Access Site is a role-based web site used by external government agencies, courts, and peace officers. Users with access to the system (depending on role) can view BMV reinstatement requirements, three year driving abstracts, driving history, print mailing labels to mail items to the BMV (Plates/Licenses), vehicle registration records, and vehicle title records.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: records thirteen (13) months",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2022-12-05",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

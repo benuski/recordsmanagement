@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551676",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/34952"
+    },
+    "series_metadata": {
+      "series_id": "066-OAG-59",
+      "series_title": "Data Breach Correspondence",
+      "series_description": "Correspondence and/or related documents received from government agencies, businesses or the general public pertaining to data breaches of computerized systems containing personal information and potential disclosure of personal information contained in those systems. Information may be used for investigative or civil action by the Ohio Attorney General''s Office (AGO) per ORC 1347.12 and 1349.19.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: . ; Paper: , unless scanned and saved electronically",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2018-02-05",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DNR",
+      "schedule_type": "specific",
+      "schedule_id": "725-1054",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/38953"
+    },
+    "series_metadata": {
+      "series_id": "750-RT-007",
+      "series_title": "Watercraft Information System (WIS)",
+      "series_description": "This file contains stored electronic data generally associated with the registration and titling of watercraft and their motors, and with law enforcement actions, including but not limited to: watercraft registration, titling, owner information, and other computerized information relating to Division of Parks and Watercraft duties covered by R.C. Chapters 1547 and 1548. The electronic file also includes Watercraft Dealer, Livery and Agent files, financial report data, law enforcement actions, user accounts, and other computerized information.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: records from creation date or system is superseded",
+      "duration_years": 50,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2023-09-18",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

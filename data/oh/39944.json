@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551826",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39944"
+    },
+    "series_metadata": {
+      "series_id": "OW-AGO-36",
+      "series_title": "Third-Party Subpoenas",
+      "series_description": "Court orders received by the Ohio Attorney General's Office (AGO) concerning lawsuits the AGO is not involved in, but is required to provide documents, testimony, or other information relevant to the case. Records include, but are not limited to, the subpoena received, correspondence, and responsive documents sent by the AGO. If the AGO files a motion to quash and litigation commences, those records would be retained under the applicable court case files records retention schedule.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: from completion of legal mandate. ; Paper: from completion of legal mandate. If scanned and saved electronically, dispose of paper immediately",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2026-01-09",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "PRX",
+      "schedule_type": "specific",
+      "schedule_id": "887-0053",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/33178"
+    },
+    "series_metadata": {
+      "series_id": "887-0044",
+      "series_title": "Confidential Information Requests",
+      "series_description": "Information obtain from LEADS, OHLEG, TLO and LEXIS NEXIS which pertain to a OSBP Investigation/Case",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: on server sent appropriate agent",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2021-04-08",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

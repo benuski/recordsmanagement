@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGR",
+      "schedule_type": "specific",
+      "schedule_id": "700-0197",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/33839"
+    },
+    "series_metadata": {
+      "series_id": "AGR-9068",
+      "series_title": "Training Records",
+      "series_description": "All records associated with training which include external documents related to position descriptions. The Section Supervisor is the Record Retention Coordinator.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Length of employment + . ; Electronic: Length of employment +",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2016-11-22",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "CIV",
+      "schedule_type": "specific",
+      "schedule_id": "876-0139",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/34363"
+    },
+    "series_metadata": {
+      "series_id": "876-0147",
+      "series_title": "Workers'''''''' Compensation File",
+      "series_description": "Documentation relating to an on-the-job injury claim",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: employee separation ; Electronic: employee separation",
+      "duration_years": 7,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2018-06-21",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

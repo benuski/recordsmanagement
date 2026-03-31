@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551656",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/34562"
+    },
+    "series_metadata": {
+      "series_id": "058-OAG-29",
+      "series_title": "Charitable Registration and Soliciting Charity Registration Files",
+      "series_description": "These records are related to registration filings required by charities as mandated in ORC 109 and ORC 1716. These registration requirements only need to be completed once as long as there are no significant changes to the operations of the charity and include documents which may include but are not limited to articles of incorporation, IRS determination letter, by-laws, etc. Additionally, the records may include requests for abatement and registration exemptions, as well as the responses to those requests. These records are collected and maintained in an online charitable registration system.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: life of charity, trust, or solicitation campaign . ; Paper: life of charity, trust, or solicitation campaign , unless scanned and saved electronically",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2017-08-03",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

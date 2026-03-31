@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "FCC",
+      "schedule_type": "specific",
+      "schedule_id": "50730006",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/32323"
+    },
+    "series_metadata": {
+      "series_id": "03",
+      "series_title": "Invoices (Accounts Payable)",
+      "series_description": "All invoices submitted for payment",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: two (2) years onsite two (2) years offsite close of fiscal year in which created ; Electronic: four years close of fiscal year in which created",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2014-05-28",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

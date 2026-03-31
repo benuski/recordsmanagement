@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OTC",
+      "schedule_type": "specific",
+      "schedule_id": "50580302",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/25883"
+    },
+    "series_metadata": {
+      "series_id": "OTC-501-83",
+      "series_title": "Invoices to Charge Account Customers",
+      "series_description": "Monthly statement of toll charges for each account containing summary, by day, of their account transactions.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic",
+      "duration_years": null,
+      "duration_months": 15,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2008-03-11",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

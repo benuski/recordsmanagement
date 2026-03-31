@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TAX",
+      "schedule_type": "specific",
+      "schedule_id": "11100557",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35992"
+    },
+    "series_metadata": {
+      "series_id": "IT-4708",
+      "series_title": "Annual Composite Income Tax Return for Investors in Pass-Through Entities",
+      "series_description": "This form may be used for taxpayer electing to file a composite return on behalf of 2 or more non-resident partners. This form is filed with annual individual income tax return from IT-1040.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: from due date ; Electronic: from due date",
+      "duration_years": 4,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2019-02-14",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

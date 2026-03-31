@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DOT",
+      "schedule_type": "specific",
+      "schedule_id": "770-1596",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/36404"
+    },
+    "series_metadata": {
+      "series_id": "PERMIT-07",
+      "series_title": "Superload Invoices",
+      "series_description": "Invoices requesting payment for ODOT escorts on Superload moves.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: paper documents scanned ; Electronic: scanned images two years current year",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Recycle ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2019-05-30",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

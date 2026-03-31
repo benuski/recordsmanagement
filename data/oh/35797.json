@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TAX",
+      "schedule_type": "specific",
+      "schedule_id": "110-0053",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35797"
+    },
+    "series_metadata": {
+      "series_id": "110/115-31",
+      "series_title": "Income Tax Assesment (IT-1042)",
+      "series_description": "This is a formal notification to the taxpayer of an income tax assessment. Failure to respond to this notice will result in the case beng turned over to the Attorney General for collection. This is a five part form. Part one is retained in the Tax Commissioner''s Book. Part two is mailed to the taxpayer. Part three is retained by the Assessment Unit of the Income Tax Division. Parts four and five are used for processing payments by the Income Tax Division.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: records (Parts 3,4,5) in office files returns tax year which is being assessed are destroyed, or all payments have been resolved, whichever is later. And ; Electronic: records (Parts 3,4,5) in office files returns tax year which is being assessed are destroyed, or all payments have been resolved, whichever is later. And",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Wastepaper ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2019-01-31",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

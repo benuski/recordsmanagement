@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "CCC",
+      "schedule_type": "specific",
+      "schedule_id": "50670152",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/36167"
+    },
+    "series_metadata": {
+      "series_id": "CCC-020",
+      "series_title": "OHLEG Audit Logs",
+      "series_description": "This record series consists of Ohio Law Enforcement Gateway (OHLEG) audit logs, which are used to audit system security and use, and investigate the misuse of the OHLEG search engine. Audit logs capture the identity of the person performing the search, the IP address the search was conducted from, the time of the search, the search criteria entered for the search, and the documents or data viewed.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: initial OHLEG search conducted, 30 days ; Electronic: , a case is considered closed, or appeal period has expired, whichever is longer",
+      "duration_years": 8,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2019-03-21",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

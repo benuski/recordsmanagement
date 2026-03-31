@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OTC",
+      "schedule_type": "specific",
+      "schedule_id": "50580593",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/32989"
+    },
+    "series_metadata": {
+      "series_id": "OTC-602-01",
+      "series_title": "Goods <$50,000",
+      "series_description": "Requisitions, mailing lists, specifications, quotes received and purchase order for the procurement of good under $50,000. May include, if applicable, delivery requests, correspondence, catalogs/literature.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: from date of purchase order ; Paper: 5 years",
+      "duration_years": 10,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2015-07-30",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

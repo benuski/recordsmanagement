@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "JFS",
+      "schedule_type": "specific",
+      "schedule_id": "795-0877",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/31266"
+    },
+    "series_metadata": {
+      "series_id": "CS-SDUR05",
+      "series_title": "Payment Analysis Files",
+      "series_description": "Records document transactions in the Support Enforcement Tracking System (SETS) that cause the release of monies affecting funds on child support cases. CMR (Canceled Unclaimed Funds or CUF/Manual Checks/Recoupments) either initiates or approves county requests for financial corrections or manual checks. Requests can be rejected because of invalid data or lack of funding in the master account. Transactions may reconcile and correct payments made in error or initiate replacement checks for checks that have been voided or payment has been stopped for certain reasons. Files which are stored in databases may contain, but are not limited to, financial corrections, payment corrections, manual check requests, and comments. Other supporting records include Adjudicated Arrears Initiative (AAI), related correspondence, workflows, manuals and special projects. Requests are tracked within the CMR Access Database.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: in office or no longer administrative or Fiscal value ; Electronic: in office or no longer administrative or Fiscal value",
+      "duration_years": 7,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2024-06-18",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

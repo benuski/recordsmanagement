@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OTC",
+      "schedule_type": "specific",
+      "schedule_id": "50580461",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/24805"
+    },
+    "series_metadata": {
+      "series_id": "OTC-706-05",
+      "series_title": "Service Plaza Incident Reports",
+      "series_description": "Detailed information regarding any unusual occurrence at a Service Plaza, describing the incident, taking statements from customers and witnesses, taking photographs as necessary (slip and falls, accidents, etc.) and signs off on either the “Service Plaza Incident Report” for injuries, or the “Service Plaza General Incident Report” for non-injury incidents. Unusual incidents documented on these reports include, but are not limited to, accidents, injuries, slip and falls, medical emergencies, safety issues, operator issues, customer issues, customer assistance, etc.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: incident reports without claims . incident reports with claims 4 years",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2008-09-24",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

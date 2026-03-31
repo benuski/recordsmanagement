@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DVM",
+      "schedule_type": "specific",
+      "schedule_id": "50070019",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/17742"
+    },
+    "series_metadata": {
+      "series_id": "OVMB12",
+      "series_title": "Temporary Permit",
+      "series_description": "Permits granted for specific time period",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: expiration",
+      "duration_years": null,
+      "duration_months": 6,
+      "disposition_method": "Paper: Recycle",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2001-11-06",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

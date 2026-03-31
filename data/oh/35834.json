@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TAX",
+      "schedule_type": "specific",
+      "schedule_id": "11100777",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35834"
+    },
+    "series_metadata": {
+      "series_id": "LTC",
+      "series_title": "Local Tax Certifications",
+      "series_description": "Local tax certifications are responses to tax data requests sent to local governments (county, municipal and townships) that are completed and returned to the ODT. These documents are submitted annually and the forms include, but are not limited to: LG-11 (municipal income), S-4 (lodging), S-5 (admissions), PC-1 (conveyance fees), MH-1 (manufactured homes) and LG3&5 (local government fund).",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Seven years from date of data collection year. If scanned, . ; Electronic: Seven years from date of data collection year",
+      "duration_years": null,
+      "duration_months": 6,
+      "disposition_method": "Paper: Recycle ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2019-02-14",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

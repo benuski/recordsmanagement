@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "JFS",
+      "schedule_type": "specific",
+      "schedule_id": "795-0940",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35087"
+    },
+    "series_metadata": {
+      "series_id": "OFA-PIR-01",
+      "series_title": "TANF Data Report (TDR)",
+      "series_description": "The TANF(Temporary Assistance to Needy Families) Data Report (TDR) is submitted to the United Stated Department of Health and Human Services (HHS) on a quarterly basis. From a technical side, several preliminary and final files are created monthly to achieve the one report that is submitted quarterly to HHS. The data includes The TANF(Temporary Assistance to Needy Families) Data Report (TDR)information about consumers who are participating in the Ohio Works First (OWF) program. The key information, among others, shared is the consumer''s work participation data (if any), which is used to calculate Ohio''s work participate rates.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2018-08-03",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

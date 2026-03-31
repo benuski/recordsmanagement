@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DAS",
+      "schedule_type": "specific",
+      "schedule_id": "100-0600",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/15089"
+    },
+    "series_metadata": {
+      "series_id": "PRT-031",
+      "series_title": "State Printing Request for Paper and Materials",
+      "series_description": "Used as a purchase order to draw from a general encumbrance. Request lists: description of materials to be purchased, bill to/ship to addresses, quantity, price, contract number (if applicable), and internal identification number.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: in electronic form three years",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2023-11-28",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DHS",
+      "schedule_type": "specific",
+      "schedule_id": "760-1290",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/25777"
+    },
+    "series_metadata": {
+      "series_id": "E Recs-02",
+      "series_title": "BASS Database Records",
+      "series_description": "Record series consists of authorized transactions processed via the Business Application Services System (BASS) conducted at Deputy Registrar agencies and the Department of Public Safety. These records are associated with the mission of the department including, but, not limited to, the issuance of driver licenses, state identification cards, and vehicle registrations.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Records are maintained on BASS database seven years from date of validation",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2008-03-11",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

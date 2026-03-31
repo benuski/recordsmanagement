@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TAX",
+      "schedule_type": "specific",
+      "schedule_id": "11100702",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/30565"
+    },
+    "series_metadata": {
+      "series_id": "W-2 Media",
+      "series_title": "Electronic Employer Wage & Withholding Statement",
+      "series_description": "CD-ROM, 3490 or 3590 Tape cartridges that contain employee tax filing information.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: ORC 5747.13 employer media is reatined from due date or date on wich it was received, whichever is later. Data submitted on floppy disks is an invalid media type which is not retained & is destroyed upon request",
+      "duration_years": 4,
+      "duration_months": null,
+      "disposition_method": "Electronic: Burn",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2012-08-07",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

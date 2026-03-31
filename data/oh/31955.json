@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TOS",
+      "schedule_type": "specific",
+      "schedule_id": "10900633",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/31955"
+    },
+    "series_metadata": {
+      "series_id": "INV-11",
+      "series_title": "Data in investment inventory management software",
+      "series_description": "Data about each investment holding is entered into the investment inventory management software when the investment is purchased. Such data includes, but is not limited to: CUSIP, internal fund to which security is allocated, security type, description, interest rate, maturity date, par value, trade price, and broker used. After such data is entered into the software, a tracking number is automatically assigned to the record of that investment holding. The record of an investment holding is updated when interest payments are received, the security is sold, or other activity occurs. The data input into this software is used to generate a variety of reports that are covered by other retention schedules. Such reports include, but are not limited to: holding reports and transaction activity reports for various time periods.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: data relevant investment holding six years final sale, maturity, or disposition of that investment holding",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2022-10-26",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

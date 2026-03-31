@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "JFS",
+      "schedule_type": "specific",
+      "schedule_id": "795-0863",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/31230"
+    },
+    "series_metadata": {
+      "series_id": "CS-CUST02",
+      "series_title": "Customer Inquiry/Response Files",
+      "series_description": "Records contain inquiries from customers, along with any supporting documentation, and CICC’s responses to those inquiries. Inquiries are received via telephone, paper or electronic transmission. Information may include customer’s Personal Identifiable Information (PII), confidential case information, and the nature of the inquiry.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: in office , 4 years in records center . ; Electronic: 5 years",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2024-06-18",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

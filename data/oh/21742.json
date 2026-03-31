@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "ETH",
+      "schedule_type": "specific",
+      "schedule_id": "50100049",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/21742"
+    },
+    "series_metadata": {
+      "series_id": "FDS-02",
+      "series_title": "Financial Disclosure Correspondence to Elicit Fili",
+      "series_description": "Copies of Financial Disclosure Reminder letters and other correspondence used to elicit compliance prior to deadline.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: filings received and no longer of administrative value",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2005-06-22",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

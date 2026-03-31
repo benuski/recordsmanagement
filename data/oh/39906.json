@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DBH",
+      "schedule_type": "specific",
+      "schedule_id": "51130013",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39906"
+    },
+    "series_metadata": {
+      "series_id": "1590022",
+      "series_title": "Pharmacy Repack Record",
+      "series_description": "Record of manufacturing, repacking, or unit dosing of medications. Shows manufacturer, manufacturer lot no., pharmacy lot no., expiration dates, repack size, etc.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: or 1 year beyond expiration date assigned drug being repacked, whichever is longer ; Paper: or 1 year beyond expiration date assigned drug being repacked, whichever is longer",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2025-11-28",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

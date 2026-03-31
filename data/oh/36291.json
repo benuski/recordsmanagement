@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "ETH",
+      "schedule_type": "specific",
+      "schedule_id": "50100070",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/36291"
+    },
+    "series_metadata": {
+      "series_id": "GEN-05",
+      "series_title": "R.C. 102.04(D) Statements",
+      "series_description": "Statements, correspondence and communications relating to statements filed pursuant to Section 102.04(D) of the Revised Code.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: statement is filed ; Electronic: statement is filed",
+      "duration_years": 10,
+      "duration_months": null,
+      "disposition_method": "Paper: Trash ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2019-04-23",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

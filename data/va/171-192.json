@@ -1,74 +1,95 @@
 [
   {
-    "agency_name": "State Corporation Commission",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "171-192",
-    "series_id": "101335",
-    "series_title": "Insurance Company Tax and Assessment Records",
-    "series_description": "This series documents taxes paid by insurance companies. This series may include, but is not limited to: premiums collected, taxes paid, audits, and assessments.",
-    "retention_statement": "7 Years after end of calendar year",
-    "retention_years": 7,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Confidential Destruction",
-    "confidential": true,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": "2017-10-12",
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/171-192.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "State Corporation Commission",
+      "schedule_type": "specific",
+      "schedule_id": "171-192",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/171-192.pdf"
+    },
+    "series_metadata": {
+      "series_id": "101335",
+      "series_title": "Insurance Company Tax and Assessment Records",
+      "series_description": "This series documents taxes paid by insurance companies. This series may include, but is not limited to: premiums collected, taxes paid, audits, and assessments.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "end of calendar year",
+      "duration_years": 7,
+      "duration_months": null,
+      "disposition_method": "Confidential Destruction",
+      "confidential_flag": true
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2017-10-12",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "State Corporation Commission",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "171-192",
-    "series_id": "005518",
-    "series_title": "Surplus Lines Broker Affadavits",
-    "series_description": "This series documents that requested insurance was not available or not available at an acceptable price from any company licensed to do business in the Commonwealth. This series may include, but is not limited to: affidavits",
-    "retention_statement": "5 Years after end of calendar year",
-    "retention_years": 5,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Confidential Destruction",
-    "confidential": true,
-    "legal_citation": "COV 38.24806",
-    "last_checked": "2026-03-09",
-    "last_updated": "2017-10-12",
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/171-192.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "State Corporation Commission",
+      "schedule_type": "specific",
+      "schedule_id": "171-192",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/171-192.pdf"
+    },
+    "series_metadata": {
+      "series_id": "005518",
+      "series_title": "Surplus Lines Broker Affadavits",
+      "series_description": "This series documents that requested insurance was not available or not available at an acceptable price from any company licensed to do business in the Commonwealth. This series may include, but is not limited to: affidavits. COV 38.24806",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "end of calendar year",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Confidential Destruction",
+      "confidential_flag": true
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2017-10-12",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "State Corporation Commission",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "171-192",
-    "series_id": "005519",
-    "series_title": "Surplus Lines Broker Taxes",
-    "series_description": "This series documents taxes assessed to surplus brokers. This series may include, but is not limited to: premiums collected, taxes paids, audits, and assessments",
-    "retention_statement": "7 Years after end of calendar year",
-    "retention_years": 7,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Confidential Destruction",
-    "confidential": true,
-    "legal_citation": "COV 58.1-2501",
-    "last_checked": "2026-03-09",
-    "last_updated": "2017-10-12",
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/171-192.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "State Corporation Commission",
+      "schedule_type": "specific",
+      "schedule_id": "171-192",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/171-192.pdf"
+    },
+    "series_metadata": {
+      "series_id": "005519",
+      "series_title": "Surplus Lines Broker Taxes",
+      "series_description": "This series documents taxes assessed to surplus brokers. This series may include, but is not limited to: premiums collected, taxes paids, audits, and assessments. COV 58.1-2501",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "end of calendar year",
+      "duration_years": 7,
+      "duration_months": null,
+      "disposition_method": "Confidential Destruction",
+      "confidential_flag": true
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2017-10-12",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   }
 ]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DRC",
+      "schedule_type": "specific",
+      "schedule_id": "501-0418",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/26229"
+    },
+    "series_metadata": {
+      "series_id": "SOC-0029",
+      "series_title": "Federal Bonding: Bonds Processed Database",
+      "series_description": "Electronic database of bonds issued: Includes employer information, employee information including SSN and address, bond issued and date. Federal Bonding applications: includes telephone application, copy of bonding certificate, and employer notification letter. Not processed for reasons of failure to complete application process, non-conformation of hire. Federal Bonding applications: includes telephone application, copy of bonding certificate, and employer notification letter. Completed packets are maintained electronically.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Maintain",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2008-05-14",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

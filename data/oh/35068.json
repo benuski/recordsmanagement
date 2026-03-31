@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "ETH",
+      "schedule_type": "specific",
+      "schedule_id": "146-0012",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35068"
+    },
+    "series_metadata": {
+      "series_id": "OEC-12",
+      "series_title": "Confidential Investigation Files",
+      "series_description": "Records pertaining to investigations conducted by the Commission, other than those in Schedule Number OEC-10 and INV-021, telephone calls regarding past conduct, and the investigative telephone log.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: date of disposition ; Electronic: date of disposition",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2018-06-21",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

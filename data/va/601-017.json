@@ -1,122 +1,157 @@
 [
   {
-    "agency_name": "Department of Health",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "601-017",
-    "series_id": "009505",
-    "series_title": "Decedent Locator Cards",
-    "series_description": "This series documents vital information of decedents. This series may include, but is not limited to: decedent's name, date of death, date of birth, Social Security number, case file number, cause of death, and pathologist's name.",
-    "retention_statement": "",
-    "retention_years": null,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Permanent, In Agency",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/601-017.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Department of Health",
+      "schedule_type": "specific",
+      "schedule_id": "601-017",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/601-017.pdf"
+    },
+    "series_metadata": {
+      "series_id": "009505",
+      "series_title": "Decedent Locator Cards",
+      "series_description": "This series documents vital information of decedents. This series may include, but is not limited to: decedent's name, date of death, date of birth, Social Security number, case file number, cause of death, and pathologist's name.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Permanent",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition_method": "Permanent, In Agency",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "Department of Health",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "601-017",
-    "series_id": "009506",
-    "series_title": "Medical Examiner's (ME) Records",
-    "series_description": "This series documents a decedent's cause and manner of death. This series may include, but is not limited to: ME's report, autopsy report, toxicology report, view diagram, scene diagram, evidence receipt, personal effects receipt, identification of unknown body, cremation certificate, report of gross findings, child death investigation form, and notice of ME case.",
-    "retention_statement": "100 Years after event",
-    "retention_years": 100,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Confidential Destruction",
-    "confidential": true,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/601-017.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Department of Health",
+      "schedule_type": "specific",
+      "schedule_id": "601-017",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/601-017.pdf"
+    },
+    "series_metadata": {
+      "series_id": "009506",
+      "series_title": "Medical Examiner's (ME) Records",
+      "series_description": "This series documents a decedent's cause and manner of death. This series may include, but is not limited to: ME's report, autopsy report, toxicology report, view diagram, scene diagram, evidence receipt, personal effects receipt, identification of unknown body, cremation certificate, report of gross findings, child death investigation form, and notice of ME case.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "event",
+      "duration_years": 100,
+      "duration_months": null,
+      "disposition_method": "Confidential Destruction",
+      "confidential_flag": true
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "Department of Health",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "601-017",
-    "series_id": "009507",
-    "series_title": "Morgue Log Books",
-    "series_description": "This series documents log in/out information for the decedents that are brought into the morgue. This series may include, but is not limited to: decedent's name, transport company, funeral home, and date and time decedent was brought in and removed from the ME's facility.",
-    "retention_statement": "",
-    "retention_years": null,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Permanent, In Agency",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/601-017.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Department of Health",
+      "schedule_type": "specific",
+      "schedule_id": "601-017",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/601-017.pdf"
+    },
+    "series_metadata": {
+      "series_id": "009507",
+      "series_title": "Morgue Log Books",
+      "series_description": "This series documents log in/out information for the decedents that are brought into the morgue. This series may include, but is not limited to: decedent's name, transport company, funeral home, and date and time decedent was brought in and removed from the ME's facility.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Permanent",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition_method": "Permanent, In Agency",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "Department of Health",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "601-017",
-    "series_id": "200841",
-    "series_title": "Turndowns",
-    "series_description": "This series documents information received for cases that did not fall under the jurisdiction of the medical examiner. This series may include, but is not limited to: medical records, law enforcement agency reports, emergency services reports, prescription monitoring records, non-medical examiner death certificates, and correspondence.",
-    "retention_statement": "3 Years after notification",
-    "retention_years": 3,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Confidential Destruction",
-    "confidential": true,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/601-017.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Department of Health",
+      "schedule_type": "specific",
+      "schedule_id": "601-017",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/601-017.pdf"
+    },
+    "series_metadata": {
+      "series_id": "200841",
+      "series_title": "Turndowns",
+      "series_description": "This series documents information received for cases that did not fall under the jurisdiction of the medical examiner. This series may include, but is not limited to: medical records, law enforcement agency reports, emergency services reports, prescription monitoring records, non-medical examiner death certificates, and correspondence.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "notification",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Confidential Destruction",
+      "confidential_flag": true
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "Department of Health",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "601-017",
-    "series_id": "001015",
-    "series_title": "Virginia State Anatomical Program (VSAP) Records",
-    "series_description": "This series documents the donation of cadavers for educational advancement at medical schools and other institutions in Virginia. This series may include, but is not limited to: donor records, transportation authorization forms, and quarterly reports.",
-    "retention_statement": "100 Years after last action",
-    "retention_years": 100,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Confidential Destruction",
-    "confidential": true,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/601-017.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Department of Health",
+      "schedule_type": "specific",
+      "schedule_id": "601-017",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/601-017.pdf"
+    },
+    "series_metadata": {
+      "series_id": "001015",
+      "series_title": "Virginia State Anatomical Program (VSAP) Records",
+      "series_description": "This series documents the donation of cadavers for educational advancement at medical schools and other institutions in Virginia. This series may include, but is not limited to: donor records, transportation authorization forms, and quarterly reports.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "last action",
+      "duration_years": 100,
+      "duration_months": null,
+      "disposition_method": "Confidential Destruction",
+      "confidential_flag": true
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   }
 ]

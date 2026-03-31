@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "WDA",
+      "schedule_type": "specific",
+      "schedule_id": "730-0050",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/451"
+    },
+    "series_metadata": {
+      "series_id": "GAR-BLM-05",
+      "series_title": "Capital Asset Records",
+      "series_description": "Capital Asset Records",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: asset is sold",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Paper: Wastepaper",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2000-08-12",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TOS",
+      "schedule_type": "specific",
+      "schedule_id": "10900574",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/30867"
+    },
+    "series_metadata": {
+      "series_id": "SEC-105",
+      "series_title": "Tax Reclaim Files",
+      "series_description": "Electronic files that show outstanding tax reclaim information as of the close of the previous business day. \"Tax reclaim\" refers to a process by which a non-resident investor obtains a refund in taxes withheld from investment income in foreign countries. Tax reclaims arise with international assets that are primarily held in sub-custody outside the United States, but may also arise with ADRs (American Depositary Receipts) held in the United States. Files in this series are downloaded daily by Treasurer personnel from the websites of custodial banks or are received from the custodial banks by email.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: conclusion of current fiscal year, and an additional 6 fiscal years",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2013-01-08",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

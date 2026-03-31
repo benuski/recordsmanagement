@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGR",
+      "schedule_type": "specific",
+      "schedule_id": "17000249",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/21059"
+    },
+    "series_metadata": {
+      "series_id": "AGR 4526",
+      "series_title": "MI-9 Label Approval Form",
+      "series_description": "This record lists what the label is submitted for; sketch approval, printer proof approval, final approval, type of labeling being submitted, or product. The label needs to be approved before being placed on the product. The label may contain confidential information, for example, \"secret ingredients\" or trade secrets.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Keep product is no longer made",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Paper: Wastepaper",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2022-02-22",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

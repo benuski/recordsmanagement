@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OIC",
+      "schedule_type": "specific",
+      "schedule_id": "845-0478",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/27734"
+    },
+    "series_metadata": {
+      "series_id": "IC-CS-02",
+      "series_title": "Interpreter Documents",
+      "series_description": "These documents and emails verify that the interpreter was present at a hearing or medical exam, and that their service was provided and approved, and has been submitted for payment.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: from date of receipt",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2023-02-14",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

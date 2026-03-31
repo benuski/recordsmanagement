@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551528",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/31341"
+    },
+    "series_metadata": {
+      "series_id": "066-OAG-41",
+      "series_title": "Identity Theft Victim Files",
+      "series_description": "The Ohio Attorney General's Office will work with credit reporting agencies on an Ohio victim of identity theft's behalf in order to have credit issues removed from their credit report or provide other non-credit rectifications. Records include, but are not limited to, notorized copy of identity theft affidavit, identity theft notification form, copy of the police report submitted by the victim of identity theft, correspondence, copies of credit reports, and other documentary evidence.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: from entry date, provided closed. ; Paper: from entry date, provided closed. If scanned and saved electronically, dispose of paper immediately",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2023-09-20",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

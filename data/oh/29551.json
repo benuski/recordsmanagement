@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TOS",
+      "schedule_type": "specific",
+      "schedule_id": "090-0491",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/29551"
+    },
+    "series_metadata": {
+      "series_id": "HUM-111",
+      "series_title": "OPERS Certifications",
+      "series_description": "OPERS form that is completed by an employee and certified by the employer. This form certifies the dates that a former employee worked in the office of the Treasurer of State, so that the former employee can receive OPERS credit for that period of time.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Microform: employee''s date of separation ; Paper: 6 years employee''s date of separation, and",
+      "duration_years": 50,
+      "duration_months": null,
+      "disposition_method": "Microform: Shred ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2022-10-26",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

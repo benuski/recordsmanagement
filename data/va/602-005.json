@@ -1,50 +1,64 @@
 [
   {
-    "agency_name": "Department of Medical Assistance Services",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "602-005",
-    "series_id": "100537",
-    "series_title": "Cost Reimbursement Report MMR 230, 240, 270 & 280 No series description available",
-    "series_description": "",
-    "retention_statement": "5 Years after creation",
-    "retention_years": 5,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Confidential Destruction",
-    "confidential": true,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": "1992-01-27",
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/602-005.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Department of Medical Assistance Services",
+      "schedule_type": "specific",
+      "schedule_id": "602-005",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/602-005.pdf"
+    },
+    "series_metadata": {
+      "series_id": "100537",
+      "series_title": "Cost Reimbursement Report MMR 230, 240, 270 & 280 No series description available",
+      "series_description": "",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "creation",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Confidential Destruction",
+      "confidential_flag": true
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "1992-01-27",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": "Department of Medical Assistance Services",
-    "state": "va",
-    "schedule_type": "specific",
-    "schedule_id": "602-005",
-    "series_id": "100536",
-    "series_title": "Cost Reports for Hospitals and Nursing Homes No series description available",
-    "series_description": "",
-    "retention_statement": "5 Years after end of calendar year",
-    "retention_years": 5,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "Confidential Destruction",
-    "confidential": true,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": "1992-01-27",
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/602-005.pdf",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Department of Medical Assistance Services",
+      "schedule_type": "specific",
+      "schedule_id": "602-005",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/602-005.pdf"
+    },
+    "series_metadata": {
+      "series_id": "100536",
+      "series_title": "Cost Reports for Hospitals and Nursing Homes No series description available",
+      "series_description": "",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "end of calendar year",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Confidential Destruction",
+      "confidential_flag": true
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "1992-01-27",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   }
 ]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DBH",
+      "schedule_type": "specific",
+      "schedule_id": "51130025",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39885"
+    },
+    "series_metadata": {
+      "series_id": "1590003",
+      "series_title": "Bulk and PRN Medication Orders",
+      "series_description": "Form used to order bulk and PRN (as needed) medications from the pharmacy. Includes hospital name, patient name and no., drug name and strength, amount of drug needed, person requesting etc.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: ; Paper",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2025-11-28",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

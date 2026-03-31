@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551554",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/32721"
+    },
+    "series_metadata": {
+      "series_id": "066-OAG-47",
+      "series_title": "Title Defect Recision Fund - Dealer Bonds",
+      "series_description": "The Ohio Attorney General’s Office (AGO) receives posted dealer bonds by statute, such as in ORC 4505.181 and OAC 4501:1-3-11, that they maintain to track those entities allowed to do business in the state. Records include, but are not limited to, the original bond and envelope it was sent in, and/or electronic transmission, with a date/time stamp as to when it was received by the AGO.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: bond, subsequent renewal, or any new replacement bond expires. ; Paper: bond, subsequent renewal, or any new replacement bond expires. If scanned and saved electronically, dispose of paper immediately",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2025-10-01",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

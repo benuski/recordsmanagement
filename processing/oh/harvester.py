@@ -93,44 +93,53 @@ def download_general_schedule(base_url: str, output_dir: Path) -> None:
 def download_detail_pages(urls: list[str], output_dir: Path) -> None:
     """Downloads HTML files, utilizing If-Modified-Since to only fetch updated schedules."""
     output_dir.mkdir(parents=True, exist_ok=True)
-    base_headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
+
+    # Use a session for better connection pooling (more human-like)
+    session = requests.Session()
+    session.headers.update({"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"})
+
+    logger.info(f"Checking/Downloading {len(urls)} Ohio records...")
 
     for i, url in enumerate(urls):
         record_id = url.split('/')[-1]
-        file_path = output_dir / f"spec_{record_id}.html"  # Prefix with spec_ for clarity
+        file_path = output_dir / f"spec_{record_id}.html"
 
-        request_headers = base_headers.copy()
+        request_headers = {}
 
-        # If we already have the file, ask the server if it has been modified since we last downloaded it
         if file_path.exists():
             mtime = file_path.stat().st_mtime
-            # Format the local file's modification time into the standard HTTP date format
             http_date = formatdate(timeval=mtime, localtime=False, usegmt=True)
             request_headers["If-Modified-Since"] = http_date
 
         try:
-            response = requests.get(url, headers=request_headers)
+            # Randomize the delay between 6 and 10 seconds for maximum safety
+            time.sleep(random.uniform(6.0, 10.0))
+
+            # Periodically take a "long break" to look like a human
+            if i > 0 and i % 100 == 0:
+                logger.info("Taking a human-like break (2-3 minutes)...")
+                time.sleep(random.uniform(120.0, 180.0))
+
+            response = session.get(url, headers=request_headers, timeout=30)
 
             if response.status_code == 429:
-                logger.critical(f"Received 429 Too Many Requests on {url}. Exiting to prevent IP block.")
+                logger.critical(f"Received 429 Too Many Requests on {url}. EXITING IMMEDIATELY to protect IP.")
                 sys.exit(1)
 
-            # 304 Not Modified means our local copy is still perfectly up-to-date
             if response.status_code == 304:
                 continue
 
             response.raise_for_status()
 
-            # If we get a 200 OK, the file is new or updated, so we write/overwrite it
             with open(file_path, 'w', encoding='utf-8') as f:
                 f.write(response.text)
 
-            if (i + 1) % 50 == 0 or i == 0:
-                logger.info(f"[{i+1}/{len(urls)}] Downloaded new or updated record {record_id}...")
+            if (i + 1) % 25 == 0 or i == 0:
+                logger.info(f"[{i+1}/{len(urls)}] Synced record {record_id}...")
 
-            time.sleep(random.uniform(4.0, 6.0))
         except SystemExit:
             raise
         except Exception as e:
             logger.error(f"Error downloading {url}: {e}")
-            time.sleep(random.uniform(8.0, 12.0))
+            # Cool down even longer after an error
+            time.sleep(random.uniform(30.0, 60.0))

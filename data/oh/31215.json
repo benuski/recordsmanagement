@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "JFS",
+      "schedule_type": "specific",
+      "schedule_id": "6000159",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/31215"
+    },
+    "series_metadata": {
+      "series_id": "CS-SDUR09",
+      "series_title": "Bank Transfer Data",
+      "series_description": "Record documents electronic movement of monies from the bank (Star Bank , Fifth-Third, Bank One) to the various accounts (e.g. Master, Recoupment, and Suspense). File contains, but is not limited to, reports from the bank that money is being moved to a specific account, vendor (Affiliated Computer Services ACS) report of transaction activity, transfer history detail reports, Treasurer of State Account disbursement report, Excel and Quattro Pro disbursement spreadsheets, SETS allocated and unallocated report printouts, and related correspondence.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: in office and 5 years in records center, image ; Electronic: in office 6 years",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2024-06-20",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

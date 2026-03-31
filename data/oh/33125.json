@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DAS",
+      "schedule_type": "specific",
+      "schedule_id": "11001637",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/33125"
+    },
+    "series_metadata": {
+      "series_id": "SEC-9",
+      "series_title": "Building Security Video Files",
+      "series_description": "Digital video records used to record daily activity at entrance and exit doors and select interior locations within buildings owned or leased by DAS.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: 30 days or capacity of storage device requires overwriting",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2025-12-15",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

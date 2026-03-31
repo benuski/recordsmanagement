@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DOT",
+      "schedule_type": "specific",
+      "schedule_id": "770-2601",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/37420"
+    },
+    "series_metadata": {
+      "series_id": "AV-30",
+      "series_title": "Federal Aviation Administration (FAA) Aeronautical Studies",
+      "series_description": "Documents from the FAA that determines a aeronautical study on ODOT Tower locations. This determines whether a tower requires FAA lighting/painting. It also tells the FAA the presence of the structure.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: in electronic format tower site is no longer being used and has been dismantled or sold",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2019-06-13",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DDD",
+      "schedule_type": "specific",
+      "schedule_id": "50740059",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39185"
+    },
+    "series_metadata": {
+      "series_id": "DDDHUMR-15",
+      "series_title": "Drug Test Results",
+      "series_description": "Drug test results received in accordance with State of Ohio Drug Free Workplace Programs and US Department of Transportation Omnibus Transportation Safety Act.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: positive tests five years and all other test results three years. ; Paper: positive tests five years and all other test results three years, or scanned and saved electronically",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2022-05-02",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

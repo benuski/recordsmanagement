@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DHS",
+      "schedule_type": "specific",
+      "schedule_id": "760-1615",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39355"
+    },
+    "series_metadata": {
+      "series_id": "4023",
+      "series_title": "Project Tracking System",
+      "series_description": "The Project Tracking System tracks phone calls taken by the Ohio BMV Deputy Technical Services Unit, License Control Unit, Telecommunications Section, and Vehicle Information Services Section. The system contains confidential personal information (Name, address, Ohio driver license/state ID number, SSN, and date of birth). Access to the system is limited and assigned by BMV management. The system allows BMV Sections to assign calls to other BMV sections.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: records twenty-four (24) months",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2023-07-20",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

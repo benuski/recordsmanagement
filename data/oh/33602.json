@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DHS",
+      "schedule_type": "specific",
+      "schedule_id": "17600979",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/33602"
+    },
+    "series_metadata": {
+      "series_id": "B072-12",
+      "series_title": "Dealer System Computer Generated Reports and Files",
+      "series_description": "This record series includes computer generated reports and files from the Dealer System on a daily, weekly, or quarterly basis(dealer permits, correction letters, salespersons license, etc...)",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: in Dealer System 30 days from date of generation",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2016-07-12",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

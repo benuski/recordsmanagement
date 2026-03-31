@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551576",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/33056"
+    },
+    "series_metadata": {
+      "series_id": "062-OAG-21",
+      "series_title": "Federal Tax Information Audit Trail Logs (IRS 1075)",
+      "series_description": "Federal Tax Information (FTI) Audit Trail Logs track the auditing capabilities of an information system holding FTI-related information such as login records, permission and password changes, administrator commands, modifications or deletion of information, and remote network access; identify audit-related information that establish what type of events occurred, when the event occurred, where the event occurred, the source of the event, the outcome of the event, and identification of those associated with the event that occurred within the system; and retains information that will help reconstruct events in the event of unauthorized activity or malfunctions within the information system.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: unless scanned and saved electronically. ; Electronic",
+      "duration_years": 7,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2015-07-23",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

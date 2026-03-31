@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DAS",
+      "schedule_type": "specific",
+      "schedule_id": "11001726",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39922"
+    },
+    "series_metadata": {
+      "series_id": "OES-3",
+      "series_title": "DAS Applicant Records",
+      "series_description": "Applications and all other records relating to application for employment with DAS by those not hired for the job for which they applied.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: scanned electronically ; Electronic: vacancy filled or canceled",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "Paper: Recycle ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2025-12-15",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "JFS",
+      "schedule_type": "specific",
+      "schedule_id": "795-0904",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/31662"
+    },
+    "series_metadata": {
+      "series_id": "OIS-DD-IP",
+      "series_title": "OIS Polices Standards Procedure and Standard Operating Procedures",
+      "series_description": "All IPPs are maintained by EBS. OIS also has Policies, Standards & Procedures (PSPs), Standard Operating Procedures (SOPs), job aids and other related documents. Copies of PSPs and SOPs are stored in ServiceNow, which is maintained by DAS-OIT.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: in Office OIS OIS Polices Standards Procedure and Standard Operating Procedures , and OIS will inform DAS-OIT of retention period any versions that are stored in ServiceNow, which is maintained by DAS-OIT",
+      "duration_years": 7,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2023-12-28",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

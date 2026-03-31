@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "PRX",
+      "schedule_type": "specific",
+      "schedule_id": "887-0062",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/34510"
+    },
+    "series_metadata": {
+      "series_id": "887-0013",
+      "series_title": "BOP Checks System",
+      "series_description": "In-house electronic system used to track all check and cash payments submitted by mail or in person directly to the Board of Pharmacy.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "2022-12-28",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

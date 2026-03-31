@@ -1,16 +1,38 @@
 import argparse
 import logging
 import json
-import importlib
+import sys
 from pathlib import Path
+from datetime import datetime
 
 # ---------------------------------------------------------------------------
 # Logging Setup
 # ---------------------------------------------------------------------------
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s - %(levelname)s - %(message)s"
-)
+def setup_logging(state_code: str):
+    log_dir = Path("logs")
+    log_dir.mkdir(exist_ok=True)
+    
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    log_file = log_dir / f"{state_code}_{timestamp}.log"
+    
+    # Configure root logger to capture all module logs
+    root_logger = logging.getLogger()
+    root_logger.setLevel(logging.INFO)
+    
+    formatter = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
+    
+    # Terminal Handler
+    console_handler = logging.StreamHandler(sys.stdout)
+    console_handler.setFormatter(formatter)
+    root_logger.addHandler(console_handler)
+    
+    # File Handler
+    file_handler = logging.FileHandler(log_file, encoding='utf-8')
+    file_handler.setFormatter(formatter)
+    root_logger.addHandler(file_handler)
+    
+    return log_file
+
 logger = logging.getLogger(__name__)
 
 # ---------------------------------------------------------------------------
@@ -43,6 +65,9 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
+    log_path = setup_logging(args.state_code)
+    logger.info(f"Logging initialized. Saving to {log_path}")
+
     if args.input_directory is None:
         args.input_directory = Path("processing") / args.state_code / "src"
 
@@ -54,18 +79,18 @@ if __name__ == "__main__":
     
     output_schema = load_output_schema(args.schema_path)
 
-    # Dynamically load the state processor
-    try:
-        module_path = f"processing.{args.state_code}.processor"
-        state_module = importlib.import_module(module_path)
-        
-        if hasattr(state_module, 'run'):
-            state_module.run(args, output_schema)
-        else:
-            logger.error(f"Module {module_path} does not have a 'run' function.")
-    except ImportError as e:
-        logger.error(f"Failed to import processor for state {args.state_code}: {e}")
-    except Exception as e:
-        logger.error(f"An error occurred during execution of {args.state_code} pipeline: {e}")
-        import traceback
-        logger.error(traceback.format_exc())
+    from processing.registry import STATE_REGISTRY
+    from processing.extractor_engine import run_state_pipeline
+
+    if args.state_code not in STATE_REGISTRY:
+        logger.error(f"State {args.state_code} not found in registry.")
+        sys.exit(1)
+
+    state_entry = STATE_REGISTRY[args.state_code]
+    
+    if state_entry['runner']:
+        # State has a custom runner (e.g., OH, TX, NC)
+        state_entry['runner'](args, output_schema)
+    else:
+        # State uses the standard extractor_engine pipeline (e.g., VA)
+        run_state_pipeline(args, state_entry['config'], output_schema)
