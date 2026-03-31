@@ -3,14 +3,36 @@ import logging
 import json
 import sys
 from pathlib import Path
+from datetime import datetime
 
 # ---------------------------------------------------------------------------
 # Logging Setup
 # ---------------------------------------------------------------------------
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s - %(levelname)s - %(message)s"
-)
+def setup_logging(state_code: str):
+    log_dir = Path("logs")
+    log_dir.mkdir(exist_ok=True)
+    
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    log_file = log_dir / f"{state_code}_{timestamp}.log"
+    
+    # Configure root logger to capture all module logs
+    root_logger = logging.getLogger()
+    root_logger.setLevel(logging.INFO)
+    
+    formatter = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
+    
+    # Terminal Handler
+    console_handler = logging.StreamHandler(sys.stdout)
+    console_handler.setFormatter(formatter)
+    root_logger.addHandler(console_handler)
+    
+    # File Handler
+    file_handler = logging.FileHandler(log_file, encoding='utf-8')
+    file_handler.setFormatter(formatter)
+    root_logger.addHandler(file_handler)
+    
+    return log_file
+
 logger = logging.getLogger(__name__)
 
 # ---------------------------------------------------------------------------
@@ -42,6 +64,9 @@ if __name__ == "__main__":
     parser.add_argument("--update-dl", action="store_true", help="Download/update HTML files from remote servers (default: parse existing files only)")
 
     args = parser.parse_args()
+
+    log_path = setup_logging(args.state_code)
+    logger.info(f"Logging initialized. Saving to {log_path}")
 
     if args.input_directory is None:
         args.input_directory = Path("processing") / args.state_code / "src"
