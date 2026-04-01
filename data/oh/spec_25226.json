@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "EPA",
+      "schedule_type": "specific",
+      "schedule_id": "715-0904",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/25226"
+    },
+    "series_metadata": {
+      "series_id": "DAGW-10",
+      "series_title": "Chemical and Bacteriological Tracking Logs",
+      "series_description": "Paper and electronic tracking logs to track chemical and bacteriological samples, violations, and/or other general information.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: in operating area . ; Electronic: in operating area",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Paper: Recycle ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2007-08-21",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

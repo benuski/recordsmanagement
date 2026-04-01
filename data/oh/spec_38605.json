@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OIC",
+      "schedule_type": "specific",
+      "schedule_id": "845-0541",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/38605"
+    },
+    "series_metadata": {
+      "series_id": "IC-IT-17",
+      "series_title": "Centralized Fax Server Data",
+      "series_description": "This record consists of electronic data associated with the sending and receiving of all faxes to and from the agency and the corresponding meta data.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Retain18 months from date of reception and or transmission",
+      "duration_years": null,
+      "duration_months": 18,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2019-12-05",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

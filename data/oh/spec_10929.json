@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "COM",
+      "schedule_type": "specific",
+      "schedule_id": "800-0636",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/10929"
+    },
+    "series_metadata": {
+      "series_id": "MIST-11",
+      "series_title": "History Tapes",
+      "series_description": "Special order brand summary and gallonage by period/dynamic file - added records. Capital assets by section in division/dynamic file - updated/deleted/added records.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: 30 generation data group generations",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "1999-03-17",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

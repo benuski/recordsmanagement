@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TAX",
+      "schedule_type": "specific",
+      "schedule_id": "11100365",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/36009"
+    },
+    "series_metadata": {
+      "series_id": "OH KW DOCS",
+      "series_title": "Ohio Kilowatt Hour Reports, Supporting Schedules & Cross Checks",
+      "series_description": "Including but not limited to, application for electric distribution company (KWH-1), electric distribution company tax return (KWH-2), electric distribution company schedule of self-assessing purchasers(KWH-2), application for self-assessing purchaser (KWH-3), self-assessing purchaser tax return (KWH-4), authorization to file and/or pay kilowatt hour tax or MCF tax via th internet (KWH-6) and associated documentation & correspondence. Documents may include printouts, reports, supporting documentation contrasting distributor and self assessing purchaser for cross check compliance review.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: end of calendar year in which return was filed or cross check was completed. ; Electronic: end of of calendar year in which return was filed or cross check was completed",
+      "duration_years": 4,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2019-02-14",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

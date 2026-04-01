@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "855-0812",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/3776"
+    },
+    "series_metadata": {
+      "series_id": "JLCC-09",
+      "series_title": "PRN Original Client Health Records",
+      "series_description": "These records include original treatment documentation, rehabilitation plans, intake forms, progress notes, closure reports and correspondence with managed care organizations and documentation from case managers.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: in BWC storage facility discharge, microfilm ; Microform: microfilm 20 years in off-site storage ; Electronic: audited by auditor of State and audit report is released, audit resolutions issued or resolved, or no longer of administrative value",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Microform: Burn ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2001-04-20",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

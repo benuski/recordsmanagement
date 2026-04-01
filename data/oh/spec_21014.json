@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DHS",
+      "schedule_type": "specific",
+      "schedule_id": "760-1048",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/21014"
+    },
+    "series_metadata": {
+      "series_id": "FISV04004",
+      "series_title": "ACCOUNTS PAYABLE INVOICES",
+      "series_description": "INVOICES FOR PRODUCTS AND SERVICES INCLUDING RECEIVING DOCUMENTS PAYMENT VOUCHERS.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: CURRENT AND 3 PRIOR FISCAL YEARS",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Recycle",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2004-11-29",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

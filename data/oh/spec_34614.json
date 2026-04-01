@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OIC",
+      "schedule_type": "specific",
+      "schedule_id": "845-0511",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/34614"
+    },
+    "series_metadata": {
+      "series_id": "IC-FIS-12",
+      "series_title": "Trip Tickets",
+      "series_description": "This record series pertains to travel information entered by an employee documenting the mileage traveled to and from a destination in the course of conducting agency business. These records are audited by the Fiscal department and are not directly related to reimbursements.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: electronic copies from date trip ticket travel occurred",
+      "duration_years": null,
+      "duration_months": 18,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2017-12-20",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

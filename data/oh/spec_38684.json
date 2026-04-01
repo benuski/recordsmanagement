@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "COM",
+      "schedule_type": "specific",
+      "schedule_id": "800-0822",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/38684"
+    },
+    "series_metadata": {
+      "series_id": "10-003",
+      "series_title": "Criminal Background Check Results",
+      "series_description": "This record retention schedule consists of the results obtained from criminal background check conducted by BCI and other law enforcement agencies for applicants for certificates of finder registration.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: background checks that produce no criminal records applicant, paper copy approval of application and issuance of a finder registration applicant. background checks that produce criminal records applicant, paper copy application is denied and expiration of time of all potential applicant''s appeals has passed",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2020-02-25",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

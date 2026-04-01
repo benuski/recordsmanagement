@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OTC",
+      "schedule_type": "specific",
+      "schedule_id": "50580643",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35027"
+    },
+    "series_metadata": {
+      "series_id": "OTC-701-47",
+      "series_title": "Daily Section Report Form",
+      "series_description": "Form used to record the equipment, labor and materials used by a maintenance crew throughout the work day. Form also used to track activities and locations of the work.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: information from form is inputted into database ; Electronic",
+      "duration_years": 12,
+      "duration_months": null,
+      "disposition_method": "Paper: Recycle ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2018-04-26",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

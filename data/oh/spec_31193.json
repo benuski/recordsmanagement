@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "JFS",
+      "schedule_type": "specific",
+      "schedule_id": "6000108",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/31193"
+    },
+    "series_metadata": {
+      "series_id": "CS-ADMN04",
+      "series_title": "Audit Files",
+      "series_description": "Records contain documentation regarding state and federal audits of the child support program, and related e-mail correspondence in response to findings.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: in office and 3 years in records center ; Electronic: 5 years",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2024-06-20",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

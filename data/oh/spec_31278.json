@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "JFS",
+      "schedule_type": "specific",
+      "schedule_id": "795-0710",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/31278"
+    },
+    "series_metadata": {
+      "series_id": "LMI-WR-01",
+      "series_title": "Occupational Licensing Report",
+      "series_description": "Report tracking the number of licensed occupations in Ohio. Report details the number of active and inactive licenses, and new licenses issued to individuals in various professions, e.g. medical, counselor, commercial and non-commercial occupations.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: in office",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2023-11-28",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

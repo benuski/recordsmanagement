@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "JFS",
+      "schedule_type": "specific",
+      "schedule_id": "6000085",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/31226"
+    },
+    "series_metadata": {
+      "series_id": "CS-SDUP04",
+      "series_title": "Child Support Payment Central Collection Documentation",
+      "series_description": "Records contain remittance information from remitters (e.g. employers, obligors, financial institutions, Unemployment Compensation, Bureau of Worker’s Compensation, etc.) that are received by Child Support Payment Central(CSPC) with payments for child support obligations. Records may contain the obligor’s name, social security number, case number, payment amount and related child support case information.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: 60 days hardcopy is prepped, scanned (imaged), and quality control is complete ; Electronic",
+      "duration_years": 7,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2024-06-18",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

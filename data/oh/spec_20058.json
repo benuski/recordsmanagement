@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DMR",
+      "schedule_type": "specific",
+      "schedule_id": "15900337",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/20058"
+    },
+    "series_metadata": {
+      "series_id": "DODD-ALL01",
+      "series_title": "State Use Licenses, Permits, Certifications",
+      "series_description": "All documents relating to application and grant or denial of an administrative license, permits, certifications of community rehabilitation programs.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: certification or program has expired. ; Electronic: certification or program has expired",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Paper: Trash ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2021-01-05",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

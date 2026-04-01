@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OIC",
+      "schedule_type": "specific",
+      "schedule_id": "845-0497",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/34468"
+    },
+    "series_metadata": {
+      "series_id": "IC-CLS-01",
+      "series_title": "Image Correction Form",
+      "series_description": "A form that is completed when a document on ECM or the BWC network needs to be re-indexed or deleted.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: 120-days from document date ; Electronic: 120-days from document date",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2017-06-22",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

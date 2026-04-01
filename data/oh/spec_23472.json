@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OTC",
+      "schedule_type": "specific",
+      "schedule_id": "50580477",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/23472"
+    },
+    "series_metadata": {
+      "series_id": "OTC5000216",
+      "series_title": "W-2 Tax Statements and W-2 Reports",
+      "series_description": "Record of employee wages, taxes, etc. for tax filing purposes. W-2 Wage and Tax Statement W-2C Corrected Wage and Tax Statement W-3 Transmittal of Wage and Tax Statement W-3C Transmittal of Corrected Wage and Tax Statement",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: ; Electronic",
+      "duration_years": 6,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2008-10-07",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

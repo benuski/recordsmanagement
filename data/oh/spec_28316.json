@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "855-1130",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/28316"
+    },
+    "series_metadata": {
+      "series_id": "MSAD-110",
+      "series_title": "Rehabilitation Services Commission (RSC) Weekly Eligibility File Transfer",
+      "series_description": "The Rehabilitation Services Commission (RSC) Weekly Eligibility File Transfer contains an exchange of data between the RSC and the BWC to verify an individual’s eligibility for funding through the cooperative agreement.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: RSC Monthly Management File , on I: Drive in Rehab Policy folder, and",
+      "duration_years": 15,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2010-02-16",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

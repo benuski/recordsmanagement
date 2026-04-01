@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DAS",
+      "schedule_type": "specific",
+      "schedule_id": "100-1015",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/2407"
+    },
+    "series_metadata": {
+      "series_id": "FLT-03",
+      "series_title": "Annual Agency Credit Card Billing Invoice File",
+      "series_description": "Copies of Credit Card Annual Billing Invoices for each user agency consisting of the agency name, credit card account number, number of cards on the account, rate calculation and the total annual charge.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: in operating area Two (2) Fiscal Years ; Paper: stored electronically",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Recycle",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2025-08-25",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

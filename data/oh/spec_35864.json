@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "ODM",
+      "schedule_type": "specific",
+      "schedule_id": "50750226",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35864"
+    },
+    "series_metadata": {
+      "series_id": "402-54-11",
+      "series_title": "Medicaid Claims Invoices",
+      "series_description": "Claims are received from physicians, dentists, medical suppliers and various providers for payment of services rendered to Medicaid recipients. Records contain detailed information regarding recipient’s background, medical history, provider, type of service, and complete cost breakouts of services rendered to ensure compliance with CMS requirements and Medicaid program policy to minimize potential billing discrepancies. Claims are submitted into the MITS system via electronic imaging, portal or EDI applications. Prior to July, 2011 claims were keyed into the system manually either by internal staff or by a contracted vendor.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Microform: 90 days claim is imaged and quality review is complete, and ; Paper: 90 days claim is imaged and quality review is complete, and ; Electronic: digital image hard copy is imaged and",
+      "duration_years": 7,
+      "duration_months": null,
+      "disposition_method": "Microform: Shred ; Paper: Shred ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2019-05-01",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

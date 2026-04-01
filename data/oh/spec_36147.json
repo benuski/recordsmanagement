@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551720",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/36147"
+    },
+    "series_metadata": {
+      "series_id": "65-OAG-51",
+      "series_title": "Equipment Inventory and Assignment Tracking",
+      "series_description": "Tracks location, custody, and status of equipment used by the Ohio Organized Crime Investigations Commission (OOCIC). Records concern, but are not limited to, equipment like GPS units, vehicles, cameras, investigative equipment, walkie-talkie radios, computers, and cellular phones.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: equipment salvaged, destroyed, or transferred ownership, provided audited. ; Paper: equipment salvaged, destroyed, or transferred ownership, provided audited, unless scanned and saved electronically",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2019-03-14",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "855-0716",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/36180"
+    },
+    "series_metadata": {
+      "series_id": "Fraud-1",
+      "series_title": "BWC Security Cases",
+      "series_description": "Investigative materials collected or created during the course a BWC Security investigation.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Scan and maintain image has been verified. If not scanned, , and ; Electronic: , and",
+      "duration_years": 4,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2020-05-22",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

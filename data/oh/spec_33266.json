@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551586",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/33266"
+    },
+    "series_metadata": {
+      "series_id": "062-OAG-25",
+      "series_title": "Foreclosure Case Files",
+      "series_description": "Case file compiled when the State of Ohio is a lien holder in a foreclosure case. Can include, but is not limited to, the complaint, the AGO answer, correspondence, and copies of pleadings and other documents submitted by parties in the case.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: from opening of case or 1 year AGO disclaims interest, whichever is earlier. Transient documents can be deleted when they are no longer of administrative value. ; Paper: scanned or transient records are no longer administrative value",
+      "duration_years": 8,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2015-12-03",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

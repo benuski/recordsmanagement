@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "ODM",
+      "schedule_type": "specific",
+      "schedule_id": "50750275",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35849"
+    },
+    "series_metadata": {
+      "series_id": "LAS-LS-01",
+      "series_title": "Electronic Rule Filing Documents for other Agencies",
+      "series_description": "Documents required in the rule-filing process that the Ohio Department of Medicaid (ODM) enters electronically into the systems of other state agencies or entities including documents entered into any electronic rule-filing system of the Legislative Service Commission (LSC) such as Electronic Rule Filing (ERF).",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: all data has been entered into system of other agencies and ; Electronic: all data has been entered into system of other agencies and",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2019-02-14",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

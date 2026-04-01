@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DDD",
+      "schedule_type": "specific",
+      "schedule_id": "50740113",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39318"
+    },
+    "series_metadata": {
+      "series_id": "DDDMDA-3",
+      "series_title": "Waiting List Assessment (WLA)",
+      "series_description": "Assessment submitted to DODD for waiver waiting list.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: individual is removed from waiting list",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2023-01-11",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

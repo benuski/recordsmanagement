@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGR",
+      "schedule_type": "specific",
+      "schedule_id": "17000179",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/19054"
+    },
+    "series_metadata": {
+      "series_id": "AGR-0604",
+      "series_title": "Facilities Database",
+      "series_description": "This is an Access database that contains information about large poultry and livestock facilities. The information includes, for example, the facility address, the names and addresses of the owner and manager, inspection reports (included as a Word attachment), animal type, and the date the permit was issued.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Keep",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Electronic: Trash",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2003-03-27",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

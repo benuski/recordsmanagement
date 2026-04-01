@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "EDU",
+      "schedule_type": "specific",
+      "schedule_id": "200-0305",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/33807"
+    },
+    "series_metadata": {
+      "series_id": "EDU-FST-02",
+      "series_title": "Diabetic Waiver Request",
+      "series_description": "This report contains requests from individuals with diabetes whom want to become a school bus driver. Before consent from ODE, the following medical documentation must be submitted and approved: vital statistics, copy of valid commercial driver license, 3 year driving history (abstract), completed t-8 (3 pages), documentation and approval from Endocrinologist on driver history, medical history, documentation and approval by an Opthamologist, and either the approval or disapproval from ODE. Follow-up documentation for 3 years by Opthamologist and Endocrinologist @ 6 months intervals.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: longevity of driver's service. ; Electronic: longevity of driver's service",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2021-09-01",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

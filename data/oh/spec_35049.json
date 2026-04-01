@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "855-1192",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35049"
+    },
+    "series_metadata": {
+      "series_id": "BPAY-FX",
+      "series_title": "Faxes",
+      "series_description": "These records contain various documents received from internal, as well as external customers, related to Injured Worker claims, employers, medical providers, and other payees. These documents are processed based upon what they are related to. They are all scanned to Benefits Payables UDS Warrants system. Documents include: A-42 Voice Authorization for direct deposit, C-19 Service Invoices for Funeral/Job Mod/Medical Police reports, C-170 Warrant Stop Pays, C-60 IW Travel Reimbursement, EFT applications, POA/Guardianship papers, Fulfillment & Check Logs from DAS State Printing, and other misc. documents.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: faxes 30 days quality control and",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2018-09-10",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

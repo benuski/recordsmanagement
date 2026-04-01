@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OTC",
+      "schedule_type": "specific",
+      "schedule_id": "50580298",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/25877"
+    },
+    "series_metadata": {
+      "series_id": "OTC-501-78",
+      "series_title": "Gasoline Tax Refund Application",
+      "series_description": "Monthly filing to the State of Ohio for refund of sales tax on gasoline used for off-highway purposes.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2008-03-11",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

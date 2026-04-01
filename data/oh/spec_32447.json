@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BOR",
+      "schedule_type": "specific",
+      "schedule_id": "235-0343",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/32447"
+    },
+    "series_metadata": {
+      "series_id": "LEGAL-3",
+      "series_title": "Sharepoint Legal Tracking System",
+      "series_description": "The Ohio Board of Regents uses a Sharepoint Tracking System to track and monitor the status of contracts, MOU''s, agreements and other legally binding documents. Any records that are stored on the tracking system (completed contracts, drafts, etc...) are also stored elsewhere and covered by individual retention schedules. This schedule covers the information provided by the requester in the tracking system as well as emails sent out by the system.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: no longer of administrative value",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2014-06-26",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

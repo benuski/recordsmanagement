@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TOS",
+      "schedule_type": "specific",
+      "schedule_id": "10900507",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/29765"
+    },
+    "series_metadata": {
+      "series_id": "FIS-12",
+      "series_title": "Payroll Register",
+      "series_description": "Bi-weekly payroll journals list for each employee in the agency: (a) the number of hours worked, (b) gross and net amount of paycheck, and (c) description of each paycheck deduction (grouped by employee and deduction type).",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: image ; Microform: microfilm onsite 50 years from payroll period referenced in report",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Microform: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2011-09-30",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

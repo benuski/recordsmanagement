@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "855-1148",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/26336"
+    },
+    "series_metadata": {
+      "series_id": "ALLS-23",
+      "series_title": "Flextime Forms",
+      "series_description": "The Flextime Forms contains information about the employees alternative work hours. Includes forms and surveys regarding flextime.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Flextime Forms superseded or employee leaves unit, and ; Electronic: superseded or employee leaves unit, and",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Recycle ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2012-05-24",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

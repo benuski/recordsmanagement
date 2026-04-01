@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TAX",
+      "schedule_type": "specific",
+      "schedule_id": "110-0191",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/36012"
+    },
+    "series_metadata": {
+      "series_id": "110-124-27",
+      "series_title": "TREASURER OF STATE REVENUE RECEIPTS (OBM-7249)",
+      "series_description": "These forms are submitted to the Department of Taxation by the Treasurer of State as a record of how much money was paid into various funds for a batch of tax returns. We receive these forms for beer, wine, cigarette, and severance tax returns.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Forms will be destroyed three years end of calendar year in which money was deposited in accordance with 5743.071, 4301.47 and 5749.11. If scanned, . ; Electronic: end of calendar year in which money was deposited in accordance with 5743.071, 4301.47 and 5749.11",
+      "duration_years": 3,
+      "duration_months": 6,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2019-02-14",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551579",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/33059"
+    },
+    "series_metadata": {
+      "series_id": "062-OAG-24",
+      "series_title": "Electronic and Non-Electronic Federal Tax Information Logs (IRS 1075)",
+      "series_description": "Electronic and Non-Electronic Federal Tax Information (FTI) Logs identify and track the location of electronic and non-electronic FTI received by the IRS and includes elements like taxpayer name or other identifying number, tax year(s), type of FTI information, the reason for the request, date requested, date received, exact location of FTI, who has access to the data, and if disposed, the date and method of disposition. FTI transmitted from one mainframe computer to another needs to be identified on the log including the approximate number of taxpayer records, the date of the transmissions, the best possible description of the records, and the name of the individual making/receiving the transmission. Actual FTI information should not be maintained on the log.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: . ; Paper: unless scanned and saved electronically",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2015-07-23",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TAX",
+      "schedule_type": "specific",
+      "schedule_id": "11100646",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35977"
+    },
+    "series_metadata": {
+      "series_id": "IT-4852",
+      "series_title": "EMPLOYEES SUBSTITUTE WAGE AND TAX STATEMENT",
+      "series_description": "This form is used by taxpayers who have been unable to obtain a form W-2 or IT-2 from their employers. This form is attached to the IT-1040. This form is filed as required and is a one part form.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: records in office files IT1040 is destroyed, . If scanned, . ; Electronic: records in office files IT1040 is destroyed",
+      "duration_years": 4,
+      "duration_months": 6,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2019-02-13",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

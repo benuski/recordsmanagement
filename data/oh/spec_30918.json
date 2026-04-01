@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "JFS",
+      "schedule_type": "specific",
+      "schedule_id": "795-0840",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/30918"
+    },
+    "series_metadata": {
+      "series_id": "FIS-ACCT-2",
+      "series_title": "Local Office Payment Card Transaction Log",
+      "series_description": "Record of credit card transactions. May include, but is not limited to,invoices, receipts, and payment card log which lists the purchase date, vendor name, itemdescription, section or unit head, dollar amount, date received and present date. Information iselectronically forwarded to Fiscal’s “Pay Card Log Reconcile” for eventual entering into the OhioAdministrative Knowledge System (OAKS). Also included in these files is e-mail correspondencerelated to the expenditures.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: in office 1 fiscal year, thendestroy provided audited by Auditorof State, audit report is released andall discrepancies are resolved",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2024-04-03",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

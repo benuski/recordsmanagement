@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TAX",
+      "schedule_type": "specific",
+      "schedule_id": "110-0314",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35960"
+    },
+    "series_metadata": {
+      "series_id": "110/304/94",
+      "series_title": "FORM PS-3811 DOMESTIC RETURN RECEIPT",
+      "series_description": "Receipt cards for items sent by certified mail.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: ; Microform: microfilm permanently",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Microform: Permanent",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2019-02-12",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TAX",
+      "schedule_type": "specific",
+      "schedule_id": "11100662",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35969"
+    },
+    "series_metadata": {
+      "series_id": "TBOR 1",
+      "series_title": "Taxpayer Bill of Rights Representative Form",
+      "series_description": "Departmental form for designating representative to act on behalf of taxpayer.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Scanned - ; Electronic: End of year following year in which it expires - Example - TBOR expires March 31, 2005, destruction would occur December 31, 2006",
+      "duration_years": null,
+      "duration_months": 1,
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2019-02-12",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

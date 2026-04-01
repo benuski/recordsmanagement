@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "855-1019",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/18046"
+    },
+    "series_metadata": {
+      "series_id": "MIAD-06",
+      "series_title": "Mainframe Production Library Operating System Backups",
+      "series_description": "The Mainframe Production Library Operating System Backups includes but not limited to system libraries, source code, load modules, residence packs for restarting the operation system, Job Control Language libraries, 3rd party software libraries, and parameter libraries. It includes every thing needed for restore a system in the event of a disaster or inadvertent destruction, with the exception of application data files.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: weekly backup 4 weeks, and",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2008-06-30",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

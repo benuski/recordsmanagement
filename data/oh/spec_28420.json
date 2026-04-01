@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TAX",
+      "schedule_type": "specific",
+      "schedule_id": "11100444",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/28420"
+    },
+    "series_metadata": {
+      "series_id": "SD-100ES",
+      "series_title": "School District Estimated Income Tax Payment Voucher",
+      "series_description": "This form is usde by individuals to remite estimated Ohio School District income tax payments on a quarterly basis.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Mantain original scanning ; Electronic: An electronic record is maintained vie ODT Info Image System",
+      "duration_years": 10,
+      "duration_months": 6,
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2010-03-09",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

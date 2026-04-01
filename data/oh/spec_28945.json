@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551307",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/28945"
+    },
+    "series_metadata": {
+      "series_id": "062-OAG-14",
+      "series_title": "Claim Payment and Fee Reports",
+      "series_description": "Reports used to review and validate claim account balances and payments for purposes of research and reporting to the Auditor of State. Reports can include, but are not limited to, information on account balances, payments, amounts for checks deposited and processed, tax offsets, lottery checks, and monies paid to individual clients, special counsel, and/or vendors.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: , provided available current audit",
+      "duration_years": 4,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2022-06-30",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

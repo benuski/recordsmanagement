@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "COM",
+      "schedule_type": "specific",
+      "schedule_id": "18000674",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/19086"
+    },
+    "series_metadata": {
+      "series_id": "LIC-10",
+      "series_title": "Permit Violations File",
+      "series_description": "Listing of all outstanding violations against persons holding a liquor license in the state of Ohio, such as selling to a minor, after hours operations, etc.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Maintain hard copy in operating area entered into database and ; Electronic: Maintain machine-readable records on computer database superseded or record series is no longer created and",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Recycle ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2003-03-27",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

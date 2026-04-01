@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551668",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/34808"
+    },
+    "series_metadata": {
+      "series_id": "071-OAG-09",
+      "series_title": "Bankruptcy Notices",
+      "series_description": "Documents initial notice of a bankruptcy declaration by an individual or company by the Ohio Attorney General (AGO). AGO will inform client agencies whom may have interest in pursuing legal action. Records include, but are not limited to, notices from bankruptcy court or client agency, correspondence, and responses from client agencies regarding whether or not action should be pursued. If the AGO pursues legal action, the records will be retained per the applicable Environmental section''s case files retention schedule.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: . If legal action pursued, per applicable Environmental section''s case file retention schedule. ; Paper: 8 year, unless scanned and saved electronically. If legal action pursued, per applicable Environmental section''s case file retention schedule",
+      "duration_years": 8,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2017-11-27",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

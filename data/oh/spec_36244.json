@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DOT",
+      "schedule_type": "specific",
+      "schedule_id": "770-2632",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/36244"
+    },
+    "series_metadata": {
+      "series_id": "TrafMgmt-9",
+      "series_title": "Buckeye Incident Traffic Forms",
+      "series_description": "Records and forms documenting Dynamic Message Sign and Highway Advisory Radio System alerts for missing persons, Amber alerts, safety campaign messages and weather alerts.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: current year five years from date of incident",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2019-04-09",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

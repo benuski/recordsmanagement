@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "855-0129",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/29691"
+    },
+    "series_metadata": {
+      "series_id": "HR-05",
+      "series_title": "Position Number",
+      "series_description": "Electronic records of employee's name and (PN) position number, on payroll, their classification, hourly rate of pay, civil service status, total payroll cost and total benefits cost.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: in office",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2023-07-20",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

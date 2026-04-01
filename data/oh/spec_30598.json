@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TOS",
+      "schedule_type": "specific",
+      "schedule_id": "10900566",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/30598"
+    },
+    "series_metadata": {
+      "series_id": "SEC-604a",
+      "series_title": "Collateral Sufficiency Report",
+      "series_description": "A report that lists by depository bank each deposit account held by the Treasurer for which collateralization is required pursuant to R.C. Chapter 135, as well as the collateral pledged by that respective bank. Such deposits include, but are not limited to, certificates of deposits purchased by the Treasurer for linked deposit programs, as well as money market and other accounts and CDs purchased with State and Agency funds. This report separately lists the balance of each account and accrued interest. Pledged collateral is listed by CUSIP, and separately lists the par value and accrued interest. After listing the inventory of accounts and collateral for each bank, the report contains the results of computer-calculated formulas that indicate whether the inventory of deposits for the bank is sufficiently collateralized. The final two pages of the report list whether or not the computer program found collateral deficiencies at any of the depository banks, and identifies any such deficiencies. This report is automatically generated after the conclusion of each business day by a computer script.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: complete report in digital format whichever of following periods is longer: (a) one calendar year; or (b) annual fiscal year audit of Treasurer is performed by Auditor of State, and corresponding audit report is published",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2012-10-31",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

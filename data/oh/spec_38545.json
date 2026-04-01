@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DAS",
+      "schedule_type": "specific",
+      "schedule_id": "11001648",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/38545"
+    },
+    "series_metadata": {
+      "series_id": "MARCS-3",
+      "series_title": "Leads Transaction Logs",
+      "series_description": "This record series contains all electronic databases and tables generated and retained in the Multi-Agency Radio Communications System (MARCS) Computer Aided Dispatch (CAD) system. Some data included in these tables are agency incident data, LEADS transaction data only, and unit/radio Automated Resource Locator (ARL) data.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Records will be purged daily on a rolling three (3) year schedule ; Paper: stored electronically",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2025-08-25",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

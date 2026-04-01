@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551608",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/33449"
+    },
+    "series_metadata": {
+      "series_id": "057-OAG-37",
+      "series_title": "Claim File (Workers'' Compensation Defense Unit)",
+      "series_description": "A Claim File concerns hearing(s) on potentially multiple workers'' compensation issues arising from or stemming from the same accident or injury. Records include, but are not limited to, notices of hearing, motions, scheduling information, continuances, files sent by client on injured worker (gathered during investigation), pleadings, exhibits, medical records, correspondence, attorney work product, hearing orders, surveillance DVDs and final adjudication orders.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: from claim being declared inactive, dismissed, or settled, unless scanned and saved electronically. ; Electronic: from claim being declared inactive, dismissed, or settled",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2016-03-18",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

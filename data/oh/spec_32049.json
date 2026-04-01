@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BOR",
+      "schedule_type": "specific",
+      "schedule_id": "235-0253",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/32049"
+    },
+    "series_metadata": {
+      "series_id": "GEN-1",
+      "series_title": "Draft documents",
+      "series_description": "All drafts of agency documents including, but not limited to, publications, minutes, reports",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: superseded by another draft or final version of document ; Paper: superseded by another draft or final version of document",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Recycle",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2014-01-13",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

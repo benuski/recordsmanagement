@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "PRX",
+      "schedule_type": "specific",
+      "schedule_id": "887-0090",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/34484"
+    },
+    "series_metadata": {
+      "series_id": "887-060",
+      "series_title": "Archive Reports",
+      "series_description": "Spreadsheet listings of inactive or discontinued licensee files, files include pharmacist, intern, terminal distributor of dangerous drugs, wholesale distributor of dangerous drugs and case files that are sent to the Board''''s offsite storage facility.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: log should licensing file records a period of (3) years scheduled shred date and destruction of files, data may",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2017-08-02",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

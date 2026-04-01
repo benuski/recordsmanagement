@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "INS",
+      "schedule_type": "specific",
+      "schedule_id": "820-0506",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/21581"
+    },
+    "series_metadata": {
+      "series_id": "180-03",
+      "series_title": "Auto Tracking Log",
+      "series_description": "Log containing names of persons being investigated and background checks have been done and the dates of the checks.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: In office ; ; Electronic: In office",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2005-07-19",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

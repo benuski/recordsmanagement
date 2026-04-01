@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "JFS",
+      "schedule_type": "specific",
+      "schedule_id": "6000119",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/31985"
+    },
+    "series_metadata": {
+      "series_id": "DIR-PSC",
+      "series_title": "Personal Service Contracts",
+      "series_description": "The file contains copies of contracts processed and retained by the ODJFS Office of Contracts and Acquisitions for personal services involving meeting facilities, assessment of office functions and operations, and consultations regarding program issues.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: 60 days hardcopy is prepped, scanned (imaged), and quality control is complete ; Electronic: contract expires",
+      "duration_years": 4,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2014-01-07",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

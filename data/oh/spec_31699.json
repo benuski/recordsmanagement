@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "JFS",
+      "schedule_type": "specific",
+      "schedule_id": "600-0011",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/31699"
+    },
+    "series_metadata": {
+      "series_id": "HR-TIMEKP",
+      "series_title": "Time Sheets",
+      "series_description": "Time and leave distribution tracking system for ODJFS. May include employee time sheets, work and flex schedules, requests for leave, overtime and compensatory time, and cost responsibility coding.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: providing all audits are completed, 7 years employee separation",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2024-01-24",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

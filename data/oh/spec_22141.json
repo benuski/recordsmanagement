@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DEN",
+      "schedule_type": "specific",
+      "schedule_id": "50060059",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/22141"
+    },
+    "series_metadata": {
+      "series_id": "DEN-G-0001",
+      "series_title": "Transient Documents",
+      "series_description": "Documents that serve to convey information of temporary importance, including but not limited to: phone messages, phone logs, post-it notes, calendars, facsimile coversheets, notes to convey information and for follow-up, drafts of documents upon which no official agency action is taken, routine correspondence, routine e-mail and routine voice mail.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: ALL: no longer of administrative value ; Paper: ALL: no longer of adminsitrative value",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase ; Paper: Trash",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2005-07-12",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

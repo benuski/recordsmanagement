@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551755",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/38721"
+    },
+    "series_metadata": {
+      "series_id": "SP-AGO-04",
+      "series_title": "Felony-Offense (2901.13(A)(3)) Prosecuted Cases",
+      "series_description": "Prosecuted cases by the Ohio Attorney General's Office (AGO) that rise to the conviction of a felony offense of those stipulated in ORC section 2901.13(A)(3). Records include, but are not limited to, pleadings, memorandum, affidavits, attorney work product, legal research, motions, judgments, discovery, evidence, transcripts, correspondence, settlement and negotiation documents, hearing and deposition materials, and reports from local law enforcement.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: from case closing. If case resulted in a not guilty verdict or no bills, 2 years from case closing. If case concerns officer-involved use of force that resulted in no bills, 5 years from case closing. ; Paper: from case closing. If case resulted in a not guilty verdict or no bills, 2 years from case closing. If case concerns officer-involved use of force that resulted in no bills, 5 years from case closing. If scanned and saved electronically, dispose of paper immediately",
+      "duration_years": 20,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2025-06-04",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

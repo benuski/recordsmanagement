@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "ARC",
+      "schedule_type": "specific",
+      "schedule_id": "50010045",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/23973"
+    },
+    "series_metadata": {
+      "series_id": "ARC-01C/As",
+      "series_title": "Innactive Certificate of Authorizations",
+      "series_description": "Architectural and Landscape Architectural Firms that have not renewed their registrations.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: from non-renewal and at end of fiscal year (FY) ; Electronic: Purge inactive records at end of each fiscal year",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2006-12-13",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

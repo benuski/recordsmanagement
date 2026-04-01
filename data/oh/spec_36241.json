@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DOT",
+      "schedule_type": "specific",
+      "schedule_id": "770-2494",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/36241"
+    },
+    "series_metadata": {
+      "series_id": "TrafMgmt-6",
+      "series_title": "Recorded Video from Highway Cameras - Other Media Copies",
+      "series_description": "770-2481 describes the ODOT video recording system for CCTV traffic cameras. Under that schedule electronic copies of recorded video are kept on a server for a moving three consecutive days on a moving three day period. This record schedule consists of copies of the ODOT video from the archive for distribution upon request. An electronic file copy on a PC hard drive and/or removable media will contain the selected recorded video.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: current year (1) year three (3)years",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2019-04-09",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

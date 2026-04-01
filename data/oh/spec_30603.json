@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TOS",
+      "schedule_type": "specific",
+      "schedule_id": "10900544",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/30603"
+    },
+    "series_metadata": {
+      "series_id": "SEC-702",
+      "series_title": "Pledge Release Documents (Agency Collateral)",
+      "series_description": "Pledge Release documents are comprised of several forms and reports. When an agency wishes to return pledged collateral to a private entity that is held by the Treasurer (see SEC-701), the agency submits a Request for Release form. Data from these forms are manually entered into the Treasurer''s computer system. A preliminary report called a Request Release Report is generated. The information on this preliminary report is then verified for accuracy before the Release Report is generated. Separate reports are generated for each agency to which pledged securities are released on any given business day. The Release Report is signed by the agency official to whom the pledged security is released. Supporting documentation is also stored with these reports. Such documents may include, but are not limited to, copies of the Request for Release form, copies of corresponding Pledge Form, copies of applications submitted by pledgor to agency, copies of the security, Bloomberg description of the security, and copy of the state ID of the agency employee retrieving the released security.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: conclusion of fiscal year in which agency collateral was released, an additional 4 fiscal years",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2012-10-03",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

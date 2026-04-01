@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OIC",
+      "schedule_type": "specific",
+      "schedule_id": "845-0526",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/34893"
+    },
+    "series_metadata": {
+      "series_id": "IC-IT-08",
+      "series_title": "ECM Claim Records",
+      "series_description": "Images of Claim documents maintained for adjudication of disputed and jurisdictional workers compensation issues.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: electronically on agency system from closure of last PCN (position control number)",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2018-01-18",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

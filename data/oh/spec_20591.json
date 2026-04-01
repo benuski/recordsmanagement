@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DRC",
+      "schedule_type": "specific",
+      "schedule_id": "15010248",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/20591"
+    },
+    "series_metadata": {
+      "series_id": "LEG02",
+      "series_title": "Court of Claims Case Files",
+      "series_description": "All files pertaining to complaints filed in the Court of Claims (administrative and judicial dockets) against the department or a state correctional institution.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: case is decided and appeals are exhausted",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2004-06-07",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "855-1018",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/18050"
+    },
+    "series_metadata": {
+      "series_id": "MIAD-10",
+      "series_title": "Change Management Process",
+      "series_description": "The Change Management Process describes the modifications to the configuration item of the Infrastructure and Technology Division’s computer systems or structural configuration of the building including but not limited to Forward Schedule of Change, Requests for Change, Change Review Meeting Reports, and other Change Management Reports.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Configuration Item that is being changed is retired",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2008-06-30",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

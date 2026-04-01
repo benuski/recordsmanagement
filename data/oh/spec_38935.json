@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DOT",
+      "schedule_type": "specific",
+      "schedule_id": "770-2652",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/38935"
+    },
+    "series_metadata": {
+      "series_id": "REVE02",
+      "series_title": "Certified Delinquent Claim Files",
+      "series_description": "This series consists of a complete record of an unpaid accounts receivable invoice that has been certified as a delinquent claim to the Attorney General. Includes invoices and correspondence.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: paper paid/cancelled. Scan and . ; Electronic: Maintain permanently",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Permanent",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2021-04-30",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

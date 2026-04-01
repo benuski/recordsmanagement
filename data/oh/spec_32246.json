@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "CDP",
+      "schedule_type": "specific",
+      "schedule_id": "50770000",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/32246"
+    },
+    "series_metadata": {
+      "series_id": "CDP01",
+      "series_title": "Transcripts",
+      "series_description": "The Board receives verification of education and criminal record report results to support application requirements.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Microform: 14 days from time electronic file is provided board ; Paper: no paper files are retained in office. all paper transcripts are uploaded electronic system. ; Electronic: in licensing and document management system a period of one year. that period of time records may be destroyed",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Microform: Erase ; Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2025-02-12",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

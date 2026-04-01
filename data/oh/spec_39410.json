@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "JFS",
+      "schedule_type": "specific",
+      "schedule_id": "795-1080",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39410"
+    },
+    "series_metadata": {
+      "series_id": "DD-PM-01",
+      "series_title": "Data Validation Reporting",
+      "series_description": "System of validating program employment and training activity and services provided under the Workforce Innovation and Opportunity Act (WIOA) to ensure reliable collection and compliance with federal requirements. Client records are stored in the Ohio Workforce Case Management System and are validated and then verified in the field. Through the validation process, the WIOA Standardized Reporting Data extract, sampled records and several system generated reports (i.e, Error Reports and Duplicated Record Reports) are produced along with other related information pertaining to the Data Validation process.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: submittal of final closeout expenditure report that funding period or date of final audit resolution. ; Electronic: submittal of final closeout expenditure report that funding period or date of final audit resolution",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2024-03-05",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

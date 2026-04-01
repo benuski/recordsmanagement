@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "JFS",
+      "schedule_type": "specific",
+      "schedule_id": "400-1114",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/31393"
+    },
+    "series_metadata": {
+      "series_id": "OFA-DEP-03",
+      "series_title": "Conference Tracking Files",
+      "series_description": "Used to track conference registration and participation of Family Assistance staff. File contains, but is not limited to, copies of requests to attend conferences, requests to purchase (RTP), travel request voucher (TRV), conference agendas and any other applicable documentation.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: in office conference ends ; Electronic: in office conference ends",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2013-06-27",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

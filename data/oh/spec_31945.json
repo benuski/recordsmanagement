@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551531",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/31945"
+    },
+    "series_metadata": {
+      "series_id": "BCI-OLG-02",
+      "series_title": "Online Protection Order Registry (OPOR)",
+      "series_description": "This is an online portal for Ohio courts to enter data for use in generating records in the protection order process, such as the petition, exparte hearing, full hearing, 10A form and other relevant records. Also used in real-time for law enforcement to view the details concerning issued protection orders. Cases in OPOR receive unique case numebrs which tie all documents relating to a particular order together. An OPOR case entry is not an official copy of the protection order, which are printed orders with a judge''s signature and retained at the court in accordance with each court''s retention schedules. Judges and law enforcement will periodically refer to an OPOR case to identify any recent, expired orders when dealing with repeat protective order cases.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: expiration or cancelling of protective order",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2013-12-10",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

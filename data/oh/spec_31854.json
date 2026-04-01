@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TOS",
+      "schedule_type": "specific",
+      "schedule_id": "10900630",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/31854"
+    },
+    "series_metadata": {
+      "series_id": "SEC-815",
+      "series_title": "Reconciliation of depository banks to FICA program banks",
+      "series_description": "On a daily basis, the Trust department reconciles the FDIC identification numbers of banks on the Ohio Board of Deposit''s list of approved depository banks to hold state funds against the FDIC identification numbers of banks that hold Treasurer of State and STAR Ohio deposits as part of the Federally Insured Cash Account (FICA) program. The purpose of this reconciliation is to ensure depository banks are not holding state funds that are either uncollateralized or uninsured. Each day a report is generated that shows any exceptions or lack thereof. Any reports that show exceptions also contain supporting documentation as to the resolution of that exception.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: later of following: conclusion of current fiscal year and two additional fiscal years, or annual audit of Treasurer corresponding fiscal year by Auditor of State is complete and final audit report has been published. ; Paper: later of following: conclusion of current fiscal year and two additional fiscal years, or annual audit of Treasurer corresponding fiscal year by Auditor of State is complete and final audit report has been published",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2022-10-26",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

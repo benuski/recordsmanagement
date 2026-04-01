@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TOS",
+      "schedule_type": "specific",
+      "schedule_id": "10900652",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35430"
+    },
+    "series_metadata": {
+      "series_id": "IT-20",
+      "series_title": "TOS Routine Transaction Electronic Files",
+      "series_description": "Electronic files received by TOS that are processed into a TOS system including, but not limited to, holdings and transactions files, bank prior day transactions, bank intraday file, custodial files, collateral holdings, collateral transactions, state holdings, state transactions, bank fee files, OPCS bank files, and other similar files. This schedule does not include the retention of data within the system or database.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: two years upon creation of file",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2022-11-10",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

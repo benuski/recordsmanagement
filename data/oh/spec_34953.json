@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551675",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/34953"
+    },
+    "series_metadata": {
+      "series_id": "062-OAG-26",
+      "series_title": "Phone System Recordings (Collections)",
+      "series_description": "Recordings of in-bound and out-bound calls for quality assurance, security assessment, or for a Collections-related matter(s). [Any call needed for investigation, litigation, or for a Collections-related matter(s) will be copied from the system and retained according to the appropriate retention schedule for the investigation or case to which it pertains.]",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Records automatically deleted 90 days based on third-party service''s recording systems. [Any call needed investigation, litigation, or a Collections-related matter(s) will be copied from system and retained according appropriate retention schedule investigation or case which it pertains.]",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2018-02-05",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

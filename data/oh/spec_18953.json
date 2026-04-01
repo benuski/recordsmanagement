@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "COM",
+      "schedule_type": "specific",
+      "schedule_id": "18000655",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/18953"
+    },
+    "series_metadata": {
+      "series_id": "LIC-02",
+      "series_title": "Inactive Permit Files",
+      "series_description": "These are files that are no longer active for various reasons, such as, transfers, closings of business, voluntary or involuntary cancellations, revocations, and rejections. (fna PM-202)",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: dead files in office Permit is canceled",
+      "duration_years": 10,
+      "duration_months": null,
+      "disposition_method": "Paper: Recycle",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2003-02-21",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

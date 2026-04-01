@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TOS",
+      "schedule_type": "specific",
+      "schedule_id": "10900656",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35409"
+    },
+    "series_metadata": {
+      "series_id": "SEC-302",
+      "series_title": "Depository Collateral Inventory Statements",
+      "series_description": "Statements submitted by a Trustee that describe collateral pledged by that bank to the Treasurer as security for public deposits for banks in the Ohio Pooled Collateral System.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: conclusion of fiscal year, and an additional 4 fiscal years",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2018-12-13",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

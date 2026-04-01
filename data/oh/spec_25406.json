@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "INS",
+      "schedule_type": "specific",
+      "schedule_id": "820-0600",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/25406"
+    },
+    "series_metadata": {
+      "series_id": "200-36",
+      "series_title": "Holding Company Files - Form B/C",
+      "series_description": "Registration and/or reports of insurers authorized to do business in the state of Ohio under the insurance holding company regulatory act. ORC 3901.3.02",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: ; Electronic",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2007-10-15",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

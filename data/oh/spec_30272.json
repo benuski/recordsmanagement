@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "SOS",
+      "schedule_type": "specific",
+      "schedule_id": "50030050",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/30272"
+    },
+    "series_metadata": {
+      "series_id": "A700-01",
+      "series_title": "Public Records Requests Log",
+      "series_description": "Electronic file containing a log of public records requests received by the Secretary of State’s legal department. Log includes the date of the request, name of person or entity making the request, type of records requested, status of response, form of response & completion date.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: audited by Auditor of State and audit report is released and all discrepancies are resolved",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2012-04-18",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

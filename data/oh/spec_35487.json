@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TAX",
+      "schedule_type": "specific",
+      "schedule_id": "11100644",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35487"
+    },
+    "series_metadata": {
+      "series_id": "W2",
+      "series_title": "Employer Wage and Withholding Statement",
+      "series_description": "A W2 is an employer wage and withholding record provided to an individual who had/is employed by this employer. This schedule is for W-2''''''''''''''''s provided by employers to the Department along with their withholding-related forms (IT-3), as opposed to W-2''''''''''''''''s provided by individuals with their income tax returns.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: scanning ; Electronic: An electronic record (scanned or data file format) will be retained",
+      "duration_years": 4,
+      "duration_months": 6,
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2018-11-13",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

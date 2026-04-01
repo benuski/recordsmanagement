@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGE",
+      "schedule_type": "specific",
+      "schedule_id": "490-0204",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/32785"
+    },
+    "series_metadata": {
+      "series_id": "BELTS-0003",
+      "series_title": "Preferred Provider Monthly Reports & E-2 Forms",
+      "series_description": "Preferred Provider Monthly Reports & E-2 Forms will be kept for a period of 1 year then shredded.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Provider Monthly Reports and E-2 Forms will be kept a period. Provider Monthly Reports and E-2 Forms will be destroyed one year period has expired",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2014-12-23",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

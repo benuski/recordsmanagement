@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DOH",
+      "schedule_type": "specific",
+      "schedule_id": "440-0394",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/14876"
+    },
+    "series_metadata": {
+      "series_id": "29-01",
+      "series_title": "Family/Patient Medical Records",
+      "series_description": "Charts maintained on each individual receiving services at LHC or by refferal from LHC contains patient identifiers and demographic data as well as information on services provided, diagnosois/ medcial conditions found, laboratory results etc..",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Maintain in office",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "1992-07-27",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

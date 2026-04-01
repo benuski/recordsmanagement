@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "855-1194",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35267"
+    },
+    "series_metadata": {
+      "series_id": "HUMA-BC1",
+      "series_title": "Background Check Submission Forms and Results",
+      "series_description": "Background Check Forms completed by applicants for positions. Forms are completed in order to capture Fingerprints or to submit to Department of Public Safety for unclassified positions. When results are received a copy of the results are attached to the submission form.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: one year from date of receipt. ; Electronic: one year from date of receipt",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2018-09-20",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "LCC",
+      "schedule_type": "specific",
+      "schedule_id": "965-0010",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/14327"
+    },
+    "series_metadata": {
+      "series_id": "LCC/APP-02",
+      "series_title": "Appeal Docket",
+      "series_description": "Index of all cases appealed from the denial of a liquor permit application by the Division of Liquor Control.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: or final disposition of all cases listed on Docket, whichever occurs last, and",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Paper: Wastepaper",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "1999-07-28",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

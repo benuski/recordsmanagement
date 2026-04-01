@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "COM",
+      "schedule_type": "specific",
+      "schedule_id": "18000706",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/19833"
+    },
+    "series_metadata": {
+      "series_id": "51-02",
+      "series_title": "Card index for Owner, Occupant, Suspect",
+      "series_description": "File contains the case number, name, date of fire, location, and kind of property burned. This index is used as a cross reference to the investigative case file.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: in operating area record series is no longer created",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2003-10-17",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

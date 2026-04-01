@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DOT",
+      "schedule_type": "specific",
+      "schedule_id": "770-1742",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/30161"
+    },
+    "series_metadata": {
+      "series_id": "TS-36",
+      "series_title": "Electronic Model Data",
+      "series_description": "Trip tables, predicted network traffic data, and similar analyses for a base year and future years.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Superceded, previous model is archived",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Other",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2012-04-18",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

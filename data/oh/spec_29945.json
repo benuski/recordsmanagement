@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "855-0168",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/29945"
+    },
+    "series_metadata": {
+      "series_id": "Legal-05",
+      "series_title": "Mock Files",
+      "series_description": "The Mock Files are appeals made by attorneys to a higher hearing level regarding a workers’ compensation issue. The mock files are maintained by the Legal Division for legal appeals with the Industrial Commission.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: 90 days last order where no further appeal is filed, and ; Electronic: emails 90 days last order where no further appeal is filed, and",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2012-05-24",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

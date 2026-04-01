@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TOS",
+      "schedule_type": "specific",
+      "schedule_id": "090-0492",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/29552"
+    },
+    "series_metadata": {
+      "series_id": "LEG-07",
+      "series_title": "Financial Disclosure Statements",
+      "series_description": "Ohio Ethics Commission Statement for Administrative Officials source of income, gifts, travel, investments & real property.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: filing deadline document. ; Electronic: filing deadline document",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2022-10-26",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

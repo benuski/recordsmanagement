@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551386",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/28948"
+    },
+    "series_metadata": {
+      "series_id": "BCI-LAB-15",
+      "series_title": "DNA Samples",
+      "series_description": "Per ORC 109.573, 2152.74, and 2901.07, the Bureau of Criminal Investigation (BCI) laboratory unit receives DNA samples from local law enforcement for persons arrested/charged for a felony offense or sexually-related misdemeanor. Samples are then submitted to the Ohio DNA database for match analysis. Records include, but are not limited to, submitted DNA samples, DNA collection forms, and communications between BCI and local law enforcement.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: DNA sample submission information from date of collection. If sample is rejected per failing standards per OAC 109:5-5-02, 1 year. If sample is duplicative existing samples within past 5 years per OAC 109:5-5-02, confirming. ; Paper: physical DNA sample and collection card from date of collection. If sample is rejected per failing standards per OAC 109:5-5-02, 1 year. If sample is duplicative existing samples within past 5 years per OAC 109:5-5-02, confirming",
+      "duration_years": 125,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2020-10-23",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

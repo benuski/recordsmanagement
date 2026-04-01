@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DOT",
+      "schedule_type": "specific",
+      "schedule_id": "770-1733",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/36271"
+    },
+    "series_metadata": {
+      "series_id": "TS-51",
+      "series_title": "Pavement Profile Data",
+      "series_description": "Highway inertial road profiles are used to quantify road roughness or smoothness on your entire highway network. This data is used internally by ODOT to manage our highway network and is also required to be reported to FHWA for Highway Performance Monitoring System and national performance management regulations. This data is required to be collected and submitted by contractors or their consultants on all highway construction projects which have rideability based smoothness specifications. The data is also used to trigger maintenance actions and for research.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Permanent",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition_method": "Electronic: Other",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2019-04-18",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

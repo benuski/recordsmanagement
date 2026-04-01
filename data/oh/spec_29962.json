@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OCC",
+      "schedule_type": "specific",
+      "schedule_id": "10530295",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/29962"
+    },
+    "series_metadata": {
+      "series_id": "OCC-LEG-03",
+      "series_title": "Litigation Case Files",
+      "series_description": "Litigation case files consist of documents and other information regarding proceedings and other matters before state and federal administrative agencies and state and federal courts including, but not limited to; motions, briefs, comments, objections, legal memoranda, expert analysis (spreadsheets and reports), testimony and exhibits, external communications, formal and informal discovery questions and responses, trial preparation materials and privileged communications. Litigation case files also include documents that have been redacted to protect information that is claimed (generally by third parties) to be proprietary or trade secret and is subject to a protective order or agreement.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: and maintain in OCC Electronic Reference Library (ERL); ; Paper: Paper documents contained in case files are scanned into ERL. Paper document is scanned, it can be disposed of once it is no longer of administrative value",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition_method": "Electronic: Permanent ; Paper: Recycle",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2012-01-03",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

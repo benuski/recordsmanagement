@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "LOT",
+      "schedule_type": "specific",
+      "schedule_id": "950-0759",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/29222"
+    },
+    "series_metadata": {
+      "series_id": "4-01-05",
+      "series_title": "Ohio Lottery Scratch/Draw Games, Ticket Files and Agent Files",
+      "series_description": "These reports contain the master file of the Scratch/Draw tickets Internal Control File, daily transactions records, daily gross totals of the inventory for the day, daily liability file by day and game, validity files, redeemed ticket files (after game closing), and Lottery’s master agent database at certain time frames, the source programming codes being utilized at that time, the Internal Revenue year end information, the purge claims information for Gaming Vendor.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: reports digitally three (3) years",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2024-10-01",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

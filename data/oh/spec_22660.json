@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "INS",
+      "schedule_type": "specific",
+      "schedule_id": "18200570",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/22660"
+    },
+    "series_metadata": {
+      "series_id": "GP-O-03",
+      "series_title": "Employee Personnel File",
+      "series_description": "Position descriptions, applications, personnel actions, enrollment information, awards/thank you''s, designations certificates, college transcripts, training attendance, acknowledgements, goals, objectives and performance reviews.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: employee leaves employment ; Paper: employee leaves employment",
+      "duration_years": 7,
+      "duration_months": null,
+      "disposition_method": "Electronic: Other ; Paper: Other",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2006-02-15",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

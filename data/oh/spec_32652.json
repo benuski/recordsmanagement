@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OOD",
+      "schedule_type": "specific",
+      "schedule_id": "50760118",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/32652"
+    },
+    "series_metadata": {
+      "series_id": "60-ITG-013",
+      "series_title": "Database Audit Trail Files",
+      "series_description": "Data generated during the creation of a master file or database used to validate a master file or database during a processing cycle. Audit files are retained to create a management audit trail to ensure the quality of data. They can aid in recreating or documenting changes in a master file or database by validating that the system is operating as it was designed (authentication). Examples of database fields used as an audit trail include: data stamp; time stamp; user identification; account number accessed.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Maintain seven (7) back-up cycles and when no longer of administrative value",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2015-01-05",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

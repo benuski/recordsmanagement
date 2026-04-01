@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "INS",
+      "schedule_type": "specific",
+      "schedule_id": "820-0847",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39973"
+    },
+    "series_metadata": {
+      "series_id": "210-05",
+      "series_title": "Medical Liability Closed Claims Annual Report",
+      "series_description": "Disclosure of medical liability closed claims data in aggregate as required pursuant to ORC 3929.302. (Electronic)",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: most recent 5 reports ; Electronic: most recent 5 reports",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2026-03-12",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

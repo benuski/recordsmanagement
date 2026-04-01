@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DAS",
+      "schedule_type": "specific",
+      "schedule_id": "100-1353",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/2246"
+    },
+    "series_metadata": {
+      "series_id": "PRT-050",
+      "series_title": "Meter Readings",
+      "series_description": "Record series consists of meter readings of printing equipment used for the production of print jobs in State Printing & Mail Services.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: on department G: drive three years",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2025-06-04",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

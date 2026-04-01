@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551534",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/31984"
+    },
+    "series_metadata": {
+      "series_id": "062-OAG-18",
+      "series_title": "Judgment Liens",
+      "series_description": "Lien information used the Attorney General''s office to collect debt owed to state agencies. Judgment liens include information such as the agency owed, debtor name/address, debt account numbers, amount of debt as of a certain date, county and local entity where the lien is recorded, and the case number. The files can also include a lien satisfaction notice stating that the debt has been paid.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: scanned and/or data entered ; Electronic: debt satisfied. If debt not satisfied, debt written off",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2013-12-30",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

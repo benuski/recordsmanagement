@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "NUR",
+      "schedule_type": "specific",
+      "schedule_id": "884-0102",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/34646"
+    },
+    "series_metadata": {
+      "series_id": "ADM-10",
+      "series_title": "PERSONNEL FILES",
+      "series_description": "Copies of all application forms, personnel actions, benefit forms, training records, discipline records, personal information regarding medical information, performance evaluations, commendation letters, tax and payroll information, and any other documents concerning employee files.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: employee’s employment with Board of Nursing is terminated, ; Electronic: employee’s employment with Board of Nursing is terminated",
+      "duration_years": 7,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2017-10-05",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

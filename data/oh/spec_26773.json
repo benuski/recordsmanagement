@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DHS",
+      "schedule_type": "specific",
+      "schedule_id": "760-1322",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/26773"
+    },
+    "series_metadata": {
+      "series_id": "B063-31",
+      "series_title": "Next of Kin Emergency Contact Information Database",
+      "series_description": "This record series contains next of kin contact information for individuals who are issued an Ohio driver’s license, commercial driver’s license, temporary instruction permit, or identification card in accordance with ORC 4501.81. The information is provided voluntarily by the individual. It is only to be used if the individual is involved in a motor vehicle accident or emergency situation and the individual dies or is seriously injured or rendered unconscious and is unable to communicate. Information is collected at deputy registrar agencies and through Next of Kin Emergeny Contact Information form (BMV 2437).",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: 30 days information has been entered into database. ; Electronic",
+      "duration_years": 7,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2008-09-24",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

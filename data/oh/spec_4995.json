@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "EPA",
+      "schedule_type": "specific",
+      "schedule_id": "715-0826",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/4995"
+    },
+    "series_metadata": {
+      "series_id": "SWD-67",
+      "series_title": "Sludge Management Plans (SMP)",
+      "series_description": "Documents describing how wastewater treatment plants will handle and dispose of their sewage sludge.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: current SMP is kept in active files it is updated. Once updated, old SMP is moved dead files",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Paper: Wastepaper",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "1998-01-21",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

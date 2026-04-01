@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGR",
+      "schedule_type": "specific",
+      "schedule_id": "700-0201",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/34194"
+    },
+    "series_metadata": {
+      "series_id": "ANML-L-10",
+      "series_title": "Archived Standard Operating Procedures (SOPs) and Method Validation Records",
+      "series_description": "Archived Standard Operating Procedures (SOPs) are procedures of methods that will no longer be used in the lab. Method Validation Records are records that the laboratory produced when validating the procedure. (Not specified otherwise by a specific program). Quality Assurance Officer is the Record Retention Coordinator for the Archived SOPs and the Lab Supervisor is the Record Retention Coordinator for the Method Validation Records.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: SOP has been archived. ; Paper: SOP has been archived",
+      "duration_years": 7,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2017-04-08",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

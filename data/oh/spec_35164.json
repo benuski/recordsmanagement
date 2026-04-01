@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "68550021",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35164"
+    },
+    "series_metadata": {
+      "series_id": "BPAY - 34",
+      "series_title": "Daily EFT Transfer Balancing Packet",
+      "series_description": "The Daily Electronic Fund Transfer (EFT) Transfer balancing/reconciliation packet contains a listing of DocView reports for various systems. They reflect the number & dollars of electronic versus paper payments. The reports substantiate the total Automated Clearing House (ACH) totals by amount and count for debits and credits being transferred, for a given day. The packet also contains all the BWC/DAS Check & Fulfillment Logs with approval to mail paper warrants from DAS State Printing. Also contained is a list of payments (warrants & non-negotiable notices) pulled by DAS, for the day. The entire packet is scanned once the EFT transfers have occurred and paper warrants are mailed.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: date EFT Authorization Forms have been scanned ; Paper: 30 days being scanned quality assurance",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2018-08-30",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

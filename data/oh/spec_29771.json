@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TOS",
+      "schedule_type": "specific",
+      "schedule_id": "10900502",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/29771"
+    },
+    "series_metadata": {
+      "series_id": "ADM-13",
+      "series_title": "Drafts",
+      "series_description": "Draft versions of written materials produced by all departments within the Treasurer of State. Drafts may include: RFPs, RFQs, RFIs, written agreements, spreadsheets, memorandum and correspondence.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: next draft version is created. Once final version is distributed, all draft versions. ; Paper: next draft version is created. Once final version is distributed, all draft versions",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2022-10-27",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

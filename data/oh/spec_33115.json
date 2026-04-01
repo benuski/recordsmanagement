@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "PRX",
+      "schedule_type": "specific",
+      "schedule_id": "887-0037",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/33115"
+    },
+    "series_metadata": {
+      "series_id": "887-0036",
+      "series_title": "Check Payments",
+      "series_description": "Check payments that are received via mail or person through the front desk.Checks are then remotely deposited digitally.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Copies of digitally deposited checks are retained in fiscal office a period of ensure no return checks",
+      "duration_years": null,
+      "duration_months": 6,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2015-09-10",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

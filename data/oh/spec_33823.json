@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGR",
+      "schedule_type": "specific",
+      "schedule_id": "17000218",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/33823"
+    },
+    "series_metadata": {
+      "series_id": "AGR-9052",
+      "series_title": "Laboratory Records",
+      "series_description": "Records/ Forms documenting the testing of samples submitted to CPL from state programs including Meat Inspection, Food Safety, Plant Health, Dairy, Fair, Micro EPA Water Program (any program not specified otherwise by a specific program). This includes lab records from subcontractors, chain of custody paperwork, raw data, obsolete Certificates of Analysis (COA''s) of Quality Critical Supplies, obsolete EXD''s related to procedures, forms, package inserts. Also included are equipment monitoring records and equipment calibration records (not specified otherwise by a specific program). The Section Supervisor is responsible for the record retention.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Keep . ; Electronic: Keep",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2016-11-10",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

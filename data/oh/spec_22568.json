@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "ETH",
+      "schedule_type": "specific",
+      "schedule_id": "50100052",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/22568"
+    },
+    "series_metadata": {
+      "series_id": "GEN-04",
+      "series_title": "Telephone Logs",
+      "series_description": "Logs maintained by various agency personnel to record incoming calls, record intake, or document telephone conversations/consultations",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Paper: Wastepaper",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2005-11-07",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "COM",
+      "schedule_type": "specific",
+      "schedule_id": "800-0546",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/2889"
+    },
+    "series_metadata": {
+      "series_id": "835-03",
+      "series_title": "Engineer's License Stubs",
+      "series_description": "This file contains the stubs of each renewal license issued annually. The stubs reveal the numbers of the licensees issued the licensee's name, adress, renewal date, and represents payment of the fee.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Machine readable records are be maintained and updated on AS 400 computer data base system, as long as stubs are being issued ; Paper: license stubs records have been audited by Auditor of State and audit report is released",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "1996-05-01",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

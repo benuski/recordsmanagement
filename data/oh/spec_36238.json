@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DOT",
+      "schedule_type": "specific",
+      "schedule_id": "770-2630",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/36238"
+    },
+    "series_metadata": {
+      "series_id": "CLC-04",
+      "series_title": "Raw Video Footage",
+      "series_description": "All excess video recordings that are edited out/not used for final product. This schedule is intended for use by all Districts, Divisions and Sections within ODOT.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: final video is produced",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2019-04-09",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

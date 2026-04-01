@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "RAC",
+      "schedule_type": "specific",
+      "schedule_id": "875-0014",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35648"
+    },
+    "series_metadata": {
+      "series_id": "RC-20",
+      "series_title": "Veterinarian Tags",
+      "series_description": "This is a card signed by the Veterinarian, a witness, and a urine catcher (if collected) after blood and urine samples are collected.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Current year ; Electronic: current year",
+      "duration_years": null,
+      "duration_months": 3,
+      "disposition_method": "Paper: Recycle ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2019-01-07",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

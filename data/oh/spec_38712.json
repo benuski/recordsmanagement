@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "LSC",
+      "schedule_type": "specific",
+      "schedule_id": "10350062",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/38712"
+    },
+    "series_metadata": {
+      "series_id": "LSC-FIS-94",
+      "series_title": "Revenue Receipts Journal",
+      "series_description": "Use to record revenue receipts from any known source.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: official audit report has been received from Auditor of State. ; Electronic: official audit report has been received from Auditor of State",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "Paper: Recycle ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2020-02-18",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

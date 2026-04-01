@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGR",
+      "schedule_type": "specific",
+      "schedule_id": "17000193",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/19205"
+    },
+    "series_metadata": {
+      "series_id": "AGR-0106",
+      "series_title": "Vouchers",
+      "series_description": "These are expenditure documents that authorize (approve)payment to a vendor (other than a state agency) for goods or services. (Employee Expense Reimbursement Requests can be attached to vouchers. These reimbursement requests have Dept. of Agriculture employee names, addresses, and social security numbers on them. This information should be shredded to prevent identity theft).",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Keep provided audited by Auditor of State and audit report is released and all discrepancies are resolved",
+      "duration_years": 4,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2003-04-17",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

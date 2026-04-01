@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OTC",
+      "schedule_type": "specific",
+      "schedule_id": "50580025",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/23378"
+    },
+    "series_metadata": {
+      "series_id": "OTC-601-11",
+      "series_title": "Job Inquiry Files and Correspondence",
+      "series_description": "All information received from job applicants or other persons interested in employment opportunities at OTC.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Maintain . ; Paper: Maintain in paper form from date of inquiry or application. Document image",
+      "duration_years": 6,
+      "duration_months": 6,
+      "disposition_method": "Electronic: Trash ; Paper: Trash",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2006-04-12",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

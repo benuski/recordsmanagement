@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "JFS",
+      "schedule_type": "specific",
+      "schedule_id": "795-1083",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39541"
+    },
+    "series_metadata": {
+      "series_id": "OUIOLEPDAT",
+      "series_title": "Equity Grant Language Translation Project",
+      "series_description": "The Equity Grant Language Translation Project addresses adding language options other than English to multiple self-serve options associated with multiple Unemployment Insurance (UI) platforms. The implementation of a Limited English Proficiency (LEP) tool on the Ohio Unemployment Insurance (UI) Help website enables LEP contact center constituents/users to access UI information in their native language to better understand options and how to apply for UI benefits. This solution provides a functionality to allow for real-time translations in multiple languages, thus allowing ODJFS to reach a larger audience regarding UI services. The records for this functionality include chat translation and Chat AI Bot (system program designed to simulate communication using a text interface and artificial intelligence [AI]) including question and answer (Q/A) transcripts, Interactive Voice Response (IVR) tree translation and Voice AI (artificial intelligence) Bot. The translation functionality provides two-way translation of chat conversation and translation of IVR tree allowing an LEP constituent/user to converse fluidly with a chat agent and navigate through the IVR tree in their native language. The Google translation used for any agency function will be supplemented with a Glossary developed by the Agency to ensure commonly used language and terms are in the correct context and have the appropriate meaning. Both sets of data will be stored in English and the selected language within the Google Cloud Platform (GPC) environment. The storage processes include redaction for Personally Identifiable Information (PII). The top ten languages for Ohio claimants are identified as: 1. Spanish 2. Somali 3. Arabic 4. Mandarin 5. French 6. Nepali 7. Amharic 8. Russian 9. Tigrinya 10. Vietnamese",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2024-08-13",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

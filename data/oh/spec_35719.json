@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TAX",
+      "schedule_type": "specific",
+      "schedule_id": "11100808",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35719"
+    },
+    "series_metadata": {
+      "series_id": "Bus-Corr",
+      "series_title": "Business Tax Correspondence",
+      "series_description": "Record series includes assorted correspondence sent from various individuals, companies and organizations directed to the Business Tax division. Correspondence could include responses to delinquency notices, responses to billing notices, account updates, and any other correspondence directed to the Business Tax division via mail, email, facsimile or other mode of communication, unless it is of the type that would only require 6 month retention.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: ; Electronic",
+      "duration_years": 4,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2019-01-30",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

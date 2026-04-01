@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "JFS",
+      "schedule_type": "specific",
+      "schedule_id": "400-0097",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/31109"
+    },
+    "series_metadata": {
+      "series_id": "BSH-09",
+      "series_title": "Policy Development Files",
+      "series_description": "State Hearing Decision documentation that have had confidential information redacted. These records are used to respond to public inquiries.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: ; Paper: in office 60 days hardcopy is prepped, scanned (imaged), and quality control is complete",
+      "duration_years": 4,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2024-02-06",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

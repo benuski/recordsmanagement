@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGR",
+      "schedule_type": "specific",
+      "schedule_id": "17000131",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/38662"
+    },
+    "series_metadata": {
+      "series_id": "AGR-5551",
+      "series_title": "Feed, Fertilizer & Lime Lab Results",
+      "series_description": "Laboratory results on feed, fertilizer, and liming products that were tested in the Consumer Analytical laboratory.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Keep original test date",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Paper: Wastepaper",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2020-01-23",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

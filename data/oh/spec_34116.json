@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "855-0976",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/34116"
+    },
+    "series_metadata": {
+      "series_id": "RPRO-EF",
+      "series_title": "Employer Policy File",
+      "series_description": "The policy number can be requested by the Employer, Third Party Administrator, or BWC Employee. The entire file is scanned into the Universal Document Service (UDS). The Universal Document Service (UDS) is an imaging concept that stores any type of electronic file, such as Microsoft Office documents, Adobe Acrobat, audio/video, Computer Aided Design (CAD), etc. as well as scanned images.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: If policy status is any status other than Active or Reinstated, in UDS a period of inactivity. ; Paper: If policy status is: · Active or Reinstated: Original documents will be destroyed scanned into UDS, and scanned image is verified as readable. · Cancelled by Employer: Original documents will be destroyed when: · Account balance is zero, and · There has been no activity in policy a two year period cancellation date. · Any status other than Active or Reinstated, with a balance due on account: Original documents will be destroyed when there has been no activity in policy a 5 year period",
+      "duration_years": 10,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2017-01-09",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

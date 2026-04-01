@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DHS",
+      "schedule_type": "specific",
+      "schedule_id": "17601215",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/24509"
+    },
+    "series_metadata": {
+      "series_id": "PERS-3",
+      "series_title": "Background Checks",
+      "series_description": "Contains information collected on employees of a deputy registrar agency during the course of a background investigation. Also includes correspondence from the Ohio Bureau of Criminal Identification and Investigation (BCII).",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: in active files individual terminates employment. inactive files three years",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2006-12-19",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

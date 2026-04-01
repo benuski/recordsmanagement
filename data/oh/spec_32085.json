@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551537",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/32085"
+    },
+    "series_metadata": {
+      "series_id": "BCI-ID-011",
+      "series_title": "RapBack Program Notifications and Activity Logs",
+      "series_description": "The RapBack program generates proactive reports to organizations when an enrollee who has undergone a fingerprint-based background check has subsequent criminal activity. Based on information received from courts and law enforcement, notification is sent to the subscriber that activity has occurred on an enrollee''s record. The notifications allow the subscribing organization to research the offense and make decisions concerning whether the event disqualifies the enrollee from employment, licensure, volunteering, etc. Manual and automated logs and emails included in this series track the subscriber''s actions within the account.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: ; Electronic",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2014-01-07",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

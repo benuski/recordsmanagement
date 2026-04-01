@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "CRB",
+      "schedule_type": "specific",
+      "schedule_id": "50800006",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39419"
+    },
+    "series_metadata": {
+      "series_id": "CRB-002",
+      "series_title": "Attendance Records",
+      "series_description": "Data collected from an electronic timekeeping system to establish payable work hours and attendance including, but not limited to, time of day employee begins and ends work on a given day, hours worked each day, and total hours worked each work week.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: State Audit, audit report is released, all discrepancies are resolved ; Electronic: State Audit, audit report is released, all discrepancies are resolved",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2024-04-29",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGE",
+      "schedule_type": "specific",
+      "schedule_id": "490-0081",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/14644"
+    },
+    "series_metadata": {
+      "series_id": "MIS-07",
+      "series_title": "OASIS Data",
+      "series_description": "E2A files, home delivery site files, nutrition, financial and social services files diskettes and files on Drives C and Drive D.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: in office",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "1991-03-23",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

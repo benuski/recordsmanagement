@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DBH",
+      "schedule_type": "specific",
+      "schedule_id": "51130006",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39911"
+    },
+    "series_metadata": {
+      "series_id": "1590027",
+      "series_title": "Records of Dispensing and/or Distribution",
+      "series_description": "Any other record not specifically mentioned in the Pharmacy Services retention schedule that documents dispensing or distribution of medication.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: ; Paper",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2025-11-28",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

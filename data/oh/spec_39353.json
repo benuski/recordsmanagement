@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "855-1211",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39353"
+    },
+    "series_metadata": {
+      "series_id": "BPAY-35",
+      "series_title": "Bank Account Data stored in EFT RNP",
+      "series_description": "History of bank account is stored within the EFT Rates & Payments (RNP) module. Open accounts are closed when there are no payment(s) for one (1) year. The bank account numbers stored in EFT RNP contain accounts of injured workers and injured workers’ dependents.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: injured worker bank routing and account data, data six (6) years any of following: 1. injured worker’s/dependents’ claim is settled; or 2. injured worker’s/dependents’ claim has reached statute of limitations in R.C. 4123.52; or 3. injured worker’s/dependents’ bank account is closed",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2023-07-05",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

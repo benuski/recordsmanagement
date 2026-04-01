@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AUD",
+      "schedule_type": "specific",
+      "schedule_id": "10700187",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/24386"
+    },
+    "series_metadata": {
+      "series_id": "FIN-11",
+      "series_title": "Accounts Receivable Batches",
+      "series_description": "Documents authorizing invoicing for goods and/or services rendered, deposits and backup documentation, (billing summaries, delinquent payment notices), receipt or repayments where the original payment was in error. Documents include entity checks, remittances, batch summary and Treasurer revenue receipts, cancelled checks, deposit receipts, deposit modifications, intrastate transfer vouchers for audit services and intrastate transfer vouchers for goods and services.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: while needed, an electronic version has been created and verified accuracy ; Electronic: 8 fiscal years",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2021-06-04",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

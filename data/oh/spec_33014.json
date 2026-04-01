@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "SOS",
+      "schedule_type": "specific",
+      "schedule_id": "50030086",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/33014"
+    },
+    "series_metadata": {
+      "series_id": "CBE-90",
+      "series_title": "Attorney-in-Fact Forms",
+      "series_description": "An elector may designate another individual as an Attorney-in-Fact to complete election related documents. (R.C. 3501.11; R.C. 3501.382)",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: revoked or elector no longer registered in county",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2015-07-07",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

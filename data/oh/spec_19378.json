@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DMR",
+      "schedule_type": "specific",
+      "schedule_id": "15900273",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/19378"
+    },
+    "series_metadata": {
+      "series_id": "DMR-FA-3",
+      "series_title": "Signature Authorization Forms",
+      "series_description": "Copies of Signature Authorization Forms maintained at OBM which designate specific employees to sign for the Director",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: ; Electronic",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Paper: Trash ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2021-03-18",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OTC",
+      "schedule_type": "specific",
+      "schedule_id": "50580607",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35375"
+    },
+    "series_metadata": {
+      "series_id": "OTC-502-65",
+      "series_title": "Non-Revenue Transponder Forms",
+      "series_description": "Signed forms for employees and contractors who have a non-revenue transponder in their possession.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: account is closed and transponder is returned and audited",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Recycle",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2018-09-20",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

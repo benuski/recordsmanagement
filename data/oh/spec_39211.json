@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OTC",
+      "schedule_type": "specific",
+      "schedule_id": "50580651",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39211"
+    },
+    "series_metadata": {
+      "series_id": "14",
+      "series_title": "Resolved Unpaid Tolls License Plate Image(s)",
+      "series_description": "Unpaid toll(s) that are paid and resolved. This record series contains license plate images associated with the toll(s)",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: payment or resolution. Purge 3 years of payment or resolution or when toll(s) transaction is purged, whichever is sooner",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2022-06-21",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

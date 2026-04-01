@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OTC",
+      "schedule_type": "specific",
+      "schedule_id": "50580342",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/24758"
+    },
+    "series_metadata": {
+      "series_id": "OTC-504-27",
+      "series_title": "Audit Trail Files",
+      "series_description": "Data generated during the creation of a master file or database used to validate a master file or database during a processing cycle.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: a minimum of 12 database/master file backup cycles ; Electronic: a minimum of 12 database/master file backup cycles",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Recycle ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2008-05-01",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

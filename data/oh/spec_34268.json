@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "CIV",
+      "schedule_type": "specific",
+      "schedule_id": "18760260",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/34268"
+    },
+    "series_metadata": {
+      "series_id": "COMP 02",
+      "series_title": "PUBLIC RECORDS REQUESTS",
+      "series_description": "Letters or other documents containing requests for copies of documents from closed case files, documents related to identifying the location of closed case files and retrieving copies of the requested documents, correspondence informing the requesting party of the cost of the documents, correspondence to and from a party regarding a public record request and the record request log, and transmitting the documents upon payment and the log (maintained in electronic format only) of these requests.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: ; Electronic",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2017-07-31",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TOS",
+      "schedule_type": "specific",
+      "schedule_id": "10900555",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/30630"
+    },
+    "series_metadata": {
+      "series_id": "SEC-809",
+      "series_title": "Monthly statements of custodial STAR Ohio and investment accounts",
+      "series_description": "Reports generated from the investment inventory software that show all transactions for the previous calendar month in STAR Ohio accounts and investment accounts for which the Treasurer acts as custodian. Monthly statements received in the mail or printed from bank websites show activity that occurred in each account. The bank statements are then reconciled to the reports generated from the investment inventory software. Supporting documentation and emails detailing any exceptions or issues are included with these monthly reports and statements.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: conclusion of current fiscal year, and an additional 6 fiscal years",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2012-10-30",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

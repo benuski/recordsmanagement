@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "COM",
+      "schedule_type": "specific",
+      "schedule_id": "800-0189",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/38676"
+    },
+    "series_metadata": {
+      "series_id": "10-01",
+      "series_title": "Claim Files",
+      "series_description": "Claim Files consist of an OUF-6 Unclaimed Funds Claim Form containing owner detail information provided by the original holder that reported and remitted the funds to the Director. The OUF-6 Form is completed and signed by the claimaint and submitted with documentary proof of ownership, including personal identification and/or tax identification number(s). Claim files also include correspondence exchanged between the Division and claimant as well as other documents relevant to the claim.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Paper claim files are shredded 60 days assigned a claims examiner ; Electronic: Scanned images are retained permanently",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Permanent",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2020-08-13",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

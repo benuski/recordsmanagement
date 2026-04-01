@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DMR",
+      "schedule_type": "specific",
+      "schedule_id": "15900334",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/20077"
+    },
+    "series_metadata": {
+      "series_id": "DMR-SOSS18",
+      "series_title": "Real Estates Documents",
+      "series_description": "Easements, Leases, maps, deeds of all Department-owned property.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: , property is sold",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Paper: Trash",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2004-05-28",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

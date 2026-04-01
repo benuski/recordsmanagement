@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DOT",
+      "schedule_type": "specific",
+      "schedule_id": "770-1793",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/36281"
+    },
+    "series_metadata": {
+      "series_id": "SPR-6",
+      "series_title": "Origin-Destination Survey Results",
+      "series_description": "Electronic data/information files which summarize the findings of individual Origin & Destination surveys. These are extensive field data collections and office analysis efforts to measure travel patterns in and around a defined area. Several days are usually spent stopping and interviewing drivers at key locations around an area of interest to determine where drivers started their trip (origin), where they are going (destination) and the generalizedpurpose of the travel. There are variations of information gathered as well as the methods used to collect it, depending on the questions at hand, but usually the underlying goal is to uptain a sample of trip origins and destinations from drivers in order to forecast the magnitude of diversion of traffic, due to new highways, added or reduced capacity, added or eliminated access, change in tolls, etc. The information collected is usually used to build and/or calibrate travel models, which are used to estimate impacts of various policies and investment strategies on the transportation system.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: , or superceded by a newer O&D study of same geographic area",
+      "duration_years": 20,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2019-04-18",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

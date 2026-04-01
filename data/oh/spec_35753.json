@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "PRX",
+      "schedule_type": "specific",
+      "schedule_id": "887-0107",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35753"
+    },
+    "series_metadata": {
+      "series_id": "887-0006",
+      "series_title": "Financial Transaction Records",
+      "series_description": "Includes A/R, A/P, purchase order, refunds, ISTVs, etc. that are transacted in OAKS FIN. Examples include vouchers, deposits, refunds of expenditure, payment card transactions and vouchers, printing orders, budget journals and transfers, and spreadsheet journals.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Paper: If applicable (not all transactions have associated paper records), audit is completed by Auditor of State and all exceptions are resolved. ; Electronic: Electronic: Retained in OAKS pursuant OBM policy",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2022-12-21",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

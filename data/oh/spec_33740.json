@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551617",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/33740"
+    },
+    "series_metadata": {
+      "series_id": "FIN-08",
+      "series_title": "Vouchers and Expenditure Documents",
+      "series_description": "Documents authorizing payment of an invoice for goods and/or services received and contain information about payments made, such as author, vendor, agency, goods/services being purchased, as well as backup documentation. Records include, but not limited to, signature authority forms, sheriff subsidies, prompt pay reports, payroll reports, allocations, and Child Abuse Protection program (CAP) reimbursements.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: provided audited. ; Paper: provided audited unless saved electronically",
+      "duration_years": 4,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2016-08-18",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

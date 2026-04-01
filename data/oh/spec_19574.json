@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DMR",
+      "schedule_type": "specific",
+      "schedule_id": "15900247",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/19574"
+    },
+    "series_metadata": {
+      "series_id": "DMR-IA-2",
+      "series_title": "Medicaid Internal Audit Reports",
+      "series_description": "Audits of Medicaid programs required by the federal government. (Examples: Residential Facility Waiver, Individual Options Waiver, and Community Alternative Funding System)",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper",
+      "duration_years": 7,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2003-10-17",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

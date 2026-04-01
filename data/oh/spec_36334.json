@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DOT",
+      "schedule_type": "specific",
+      "schedule_id": "770-2642",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/36334"
+    },
+    "series_metadata": {
+      "series_id": "MaintAd-9",
+      "series_title": "Global Positioning System/Automatic Vehicle Location Server Data",
+      "series_description": "This record series consists of GPS/AVL and Hydraulic data from ODOT''s snow and ice fleet that is maintained on ODOT''s server.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Server data (GPS information, hydraulic information, etc.) will be saved 5 fiscal years (fiscal year runs from July 1-July 30th)",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2019-05-21",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

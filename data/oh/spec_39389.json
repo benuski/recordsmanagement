@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DVS",
+      "schedule_type": "specific",
+      "schedule_id": "50610133",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39389"
+    },
+    "series_metadata": {
+      "series_id": "DVS-DOM-01",
+      "series_title": "Domiciliary Admission Files",
+      "series_description": "All admissions documents connected with the application for admission of a potential domiciliary resident. Documents include, but are not limited to, the DD214 attached to the application, birth certificate, Form 1010SH, transfer datasheet, admission application, application for health benefits, and clinical risk agreement.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: from Resident death or discharge, unless scanned into electronic database ; Electronic: from Resident death or discharge",
+      "duration_years": 10,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2023-12-19",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

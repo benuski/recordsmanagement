@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DHS",
+      "schedule_type": "specific",
+      "schedule_id": "760-1547",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/32664"
+    },
+    "series_metadata": {
+      "series_id": "4011",
+      "series_title": "Automated Title Processing System (ATPS) - Miscellaneous Transactions",
+      "series_description": "This record series includes monetary receipts created during completion of miscellaneous transactions that do not relate to the issuance of a certificate of title, e.g., fishing licenses, copies of records, reports, affidavits, and passports.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: in Automated Title Processing System (ATPS) from date of transaction",
+      "duration_years": 7,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2014-09-18",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

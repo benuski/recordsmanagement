@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "855-1085",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/34154"
+    },
+    "series_metadata": {
+      "series_id": "MIAD-14",
+      "series_title": "Data Documentation and Data Dictionary Records",
+      "series_description": "The Data Documentation and Data Dictionary Records are generally created during development or modification and necessary to access, retrieve, manipulate and interpret data in an automated system including data element dictionary, file layout, copy book or table, and other records that explain the meaning, purpose, structure, logical relationships, and origin of the data elements.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: discontinuance of system or application and/or system or application data is transferred a new structure or format, and ; Paper: discontinuance of system or application and/or system or application data is transferred a new structure or format, and",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Recycle",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2017-04-28",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

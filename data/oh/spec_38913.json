@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DNR",
+      "schedule_type": "specific",
+      "schedule_id": "725-1012",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/38913"
+    },
+    "series_metadata": {
+      "series_id": "736-003",
+      "series_title": "Capital Projects--Claims and Disputes",
+      "series_description": "Material related to claims and disputes filed on capital project including, but not limited to, correspondence, expert reports, mediation proposals, and documentation and supporting material. Also includes records of pleadings, memoranda, briefs, judgments and settlement ordersfrom courts and other tribunals",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: claim or dispute has been resolved. , erase ; Paper: converted an electronic format, or claim or dispute has been resolved",
+      "duration_years": 15,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2020-12-18",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

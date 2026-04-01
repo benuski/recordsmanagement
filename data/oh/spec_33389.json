@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AUD",
+      "schedule_type": "specific",
+      "schedule_id": "070-0060",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/33389"
+    },
+    "series_metadata": {
+      "series_id": "070-QA-01",
+      "series_title": "Independant Public Accountant (IPA) Report Reviews",
+      "series_description": "Prepared for each audit conducted by and IPA firm. Each file contains, but is not limited to, a copy of the audit report package submitted by the IPA firm, a QA report checklist, mainframe reports (printouts) regarding the audit and copies of correspondence prepared by Quality Assurance. If a work paper review is also performed, the file will contain a QA working paper checklist, correspondence to the IPA/Client regarding the working paper review issues, the IPA response to the issues.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: from completion of review or imaged ; Electronic: from completion of review",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2016-01-26",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

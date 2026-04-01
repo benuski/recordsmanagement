@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DHS",
+      "schedule_type": "specific",
+      "schedule_id": "17601147",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/24050"
+    },
+    "series_metadata": {
+      "series_id": "DB-02",
+      "series_title": "Remittance Processing Reports",
+      "series_description": "Remittance processing reports are computer generated printouts received from Data which lists all registration applications and money issued through the Remittance Processing system. These reports include REG51 (refund reports), REG52 (refund rejects), REG54 (over/under reports), REG57 (rejects reports), REG59 (reject transaction letters), REG60 (errors in generating letters), REG61 (suspended records), and REG62 (accepted records). The printouts contain plate numbers, payment dates, social security numbers, check amounts, donations, amounts due, refund amounts, batch/sequence numbers, refund amounts, error codes, and over/under fees. NOTE: A new procedure went into effect May 2002 - \"BMV Remittance Processing\". All mail-in applications are processed through the BMV Remittance Processing Unit.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: reports are retained audited by Auditor of State and audit report released",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2006-10-03",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

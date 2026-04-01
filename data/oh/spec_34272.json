@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGR",
+      "schedule_type": "specific",
+      "schedule_id": "17000153",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/34272"
+    },
+    "series_metadata": {
+      "series_id": "AGR-3003",
+      "series_title": "Milk Processor License",
+      "series_description": "This record is a license for businesses that process and package milk or milk products and businesses that are licensed under the Ohio Frozen Dessert Rules (Chapter 901:11-3). This license is perpetual.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Keep year in which license went inactive. ; Electronic: Keep year in which license went inactive",
+      "duration_years": 4,
+      "duration_months": null,
+      "disposition_method": "Paper: Wastepaper ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2021-01-07",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

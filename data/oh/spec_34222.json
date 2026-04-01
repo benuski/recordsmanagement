@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551643",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/34222"
+    },
+    "series_metadata": {
+      "series_id": "066-OAG-51",
+      "series_title": "Title Defect Recision Fund - Assessment Tracking System",
+      "series_description": "Per ORC 4505.181(G), the Ohio Attorney General's Office (AGO) shall track dealer's assessment payments into the a title defect recision fund. Records include, but are not limited to, dealership name, contact information, date paid, bond information, invoice number, copy of payment received for dealer's payment, envelope payment was received in with date/time stamp to document receipt, invoice sent from the AGO to the dealer, and correspondence.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: assessment. ; Paper: logged into Title Defect Recision tracking system and original payment forwarded AGO Finance section",
+      "duration_years": 2,
+      "duration_months": 6,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2025-11-12",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

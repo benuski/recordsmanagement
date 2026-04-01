@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OTC",
+      "schedule_type": "specific",
+      "schedule_id": "50580517",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/23553"
+    },
+    "series_metadata": {
+      "series_id": "OTC-500-66",
+      "series_title": "Charge Account Allotment Lists",
+      "series_description": "Information required to calculate number of credit cards each company is allowed free of charge. Allotment lists are run monthly for those accounts whose cards are expiring.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: run date in case of discrepancy",
+      "duration_years": null,
+      "duration_months": 6,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2009-08-20",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

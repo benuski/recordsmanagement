@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "855-0534",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35045"
+    },
+    "series_metadata": {
+      "series_id": "FD-32",
+      "series_title": "EFT and EBT Authorization Forms",
+      "series_description": "The Electronic Fund Transfer (EFT) and Electronic Benefit Transfer (EBT) Authorization Forms are used for benefit recipients and vendors that are paid from the State Insurance Fund (SIF). These forms give BWC authorization to send a benefit recipient’s / vendors payments electronically to the financial institution indicated. The EFT and EBT forms are scanned into the Warrant UDS System",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: date EFT and EBT Authorization Forms has been scanned ; Paper: 30 days being scanned quality assurance",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Recycle",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2018-06-21",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

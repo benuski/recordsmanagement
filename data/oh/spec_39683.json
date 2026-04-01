@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OSB",
+      "schedule_type": "specific",
+      "schedule_id": "51030042",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39683"
+    },
+    "series_metadata": {
+      "series_id": "OSB-339",
+      "series_title": "Home Instruction (HI)",
+      "series_description": "Records that identify students that are on home instruction due to medical or severe behavioral needs. These records include lesson plans, progress reports, grades and time sheets of the tutor that worked with the student",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: student graduates or withdraws from district ; Electronic: student graduates or withdraws from district",
+      "duration_years": 6,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2024-12-19",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

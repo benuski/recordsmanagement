@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "855-0267",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/33385"
+    },
+    "series_metadata": {
+      "series_id": "C-20",
+      "series_title": "Lost Time Claim file",
+      "series_description": "The lost time claim file contains information pertaining to a claimant’s claim for workers’ compensation benefits, such as, but not limited to: medical records, requests for treatment, requests for payment of compensation, compensation payment records, and orders issued by BWC or the Industrial Commission. A lost time claim is a claim in which compensation benefits have been paid, such as, but not limited to: temporary total disability compensation, salary continuation, permanent partial disability compensation, or permanent total disability compensation. The statute of limitations for lost time claims is as follows: •For claims with DOI prior to 8/25/06, the claim expires ten (10) years from the last medical bill, compensation payment, or date of death. •For claims with DOI from 8/25/06 to 9/14/20, the claim expires five (5) years from the last medical bill, compensation payment, or date of death. •For claims with DOI on or after 9/15/2020, the claim expires five (5) years from the date of the last medical service rendered, compensation payment, or date of death.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: lost time claim file claim has reached appropriate statute of limitations (i.e. expiration date) according date of injury (DOI) year. Digitally image claim file records, 30 days quality control, and ; Electronic: lost time claim file claim has reached appropriate statute of limitations (i.e. expiration date) according date of injury (DOI) year. ; Microform: lost time claim file claim has reached appropriate statute of limitations (i.e. expiration date) according date of injury (DOI) year",
+      "duration_years": 6,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete ; Microform: Burn",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2024-01-30",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

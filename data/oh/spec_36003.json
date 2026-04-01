@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "ODM",
+      "schedule_type": "specific",
+      "schedule_id": "50750070",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/36003"
+    },
+    "series_metadata": {
+      "series_id": "405-86-47",
+      "series_title": "Waiver Program Administrative Files",
+      "series_description": "Files of Medicaid provider and consumer case records for federally approved ODJFS administered wavier, Success, and State Plan Home Care Programs. Record includes, but is not limited to, consumer enrollment and intake, service plans, assessment and referral, level of care, administrative approvals and maintenance documenting consumer medical history (diagnosis and treatment) and provider services to recipients. Records are processed and maintained at the Case Management Agency and shipped to the records center when the cases are closed and become inactive. Records are maintained electronically.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: in office at case management agency case is closed and convert electronic. in office 60 days scanning. if material is released scanned material is reviewed. ; Microform: CD/DVD in warehouse and and released and all discrepancies are resolved",
+      "duration_years": 7,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Microform: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2019-02-28",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

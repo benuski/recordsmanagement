@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OTC",
+      "schedule_type": "specific",
+      "schedule_id": "50580042",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/23133"
+    },
+    "series_metadata": {
+      "series_id": "OTC-300-17",
+      "series_title": "Personal Service Contracts",
+      "series_description": "Original contracts for miscellaneous personal services, terms and conditions, insurance certificates, performance bonds and correspondence.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Maintain in operating area three years expiration of contract. ; Electronic: Document image following three year period expiration of contract. from date that contract expired",
+      "duration_years": 15,
+      "duration_months": null,
+      "disposition_method": "Paper: Trash ; Electronic: Trash",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2006-04-12",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

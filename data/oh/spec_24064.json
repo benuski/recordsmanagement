@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DRC",
+      "schedule_type": "specific",
+      "schedule_id": "501-0390",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/24064"
+    },
+    "series_metadata": {
+      "series_id": "MED-0005",
+      "series_title": "Sex Offender File",
+      "series_description": "This file contains all information on sex offenders from the point they enter the Sex Offender Risk Reduction Center (SORCC) at the Madison Correctional Institution during reception. All information regarding sex offender assessment, programming and treatment are contained in the file.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: in office offender completes SORCC program ; Electronic: electronically following offender''s final release, maximum expiration or death",
+      "duration_years": 10,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2006-11-08",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OIC",
+      "schedule_type": "specific",
+      "schedule_id": "845-0546",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/38619"
+    },
+    "series_metadata": {
+      "series_id": "IC-LGL-02",
+      "series_title": "Court Case Vote Sheets",
+      "series_description": "A synopsis of the claim that cites relevant court cases. This includes, but is not limited to, the magistrates decision and the Court of Appeals decision as well as the recommended course of action. The document consists of the majority vote and signatures of the agency commissioners if the agency will be filing an appeal with the Supreme Court of Ohio.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: from decision due date. ; Electronic: from decision due date",
+      "duration_years": 75,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2023-01-11",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

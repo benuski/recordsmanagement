@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TAX",
+      "schedule_type": "specific",
+      "schedule_id": "110-0125",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/28440"
+    },
+    "series_metadata": {
+      "series_id": "FT1120",
+      "series_title": "Estimated Corp Franchise Tax Payment (FT-1120E, ER EX)",
+      "series_description": "These forms are used by corporations for filing and paying a 1/3 of their estimated OH Franchise Tax. As well as paying their last 1/2 of estimated taxes and their second 1/3 payments.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: file scanned into ODT Info Image System ; Electronic: An electronic record is kept via ODT Info Image System",
+      "duration_years": 10,
+      "duration_months": 6,
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2010-03-09",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

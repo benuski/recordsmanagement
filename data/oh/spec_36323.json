@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TOS",
+      "schedule_type": "specific",
+      "schedule_id": "10900672",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/36323"
+    },
+    "series_metadata": {
+      "series_id": "LEG-06",
+      "series_title": "Confidential Personal Information (CPI) System Access Logs",
+      "series_description": "Electronic logs documenting employee access to confidential personal information (CPI) pursuant to ORC 1347.15 and OAC 113-25-01.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: log has been generated",
+      "duration_years": 7,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2022-10-27",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "855-1171",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/33518"
+    },
+    "series_metadata": {
+      "series_id": "BSRSL-1",
+      "series_title": "Bank Statements, Bank Statement Reconciliations, and Subsidiary Ledger Workpaper Documentation",
+      "series_description": "Bank Statements are monthly BWC trust account bank statements received from JP Morgan and daily Direct Deposit Account bank statements received from Key Bank. The Bank Statement reconciliations include daily PDF DDA bank reconciliations, monthly trust account reconciliations (i.e. paper and electronic), weekly confirmed reconciliations (i.e. electronic), and supporting documentation. The electronic versions of the bank statements and bank statement reconciliations are in Portable Document Format (PDF) and saved in the Financial Reporting folder on the I-drive at BWC. The subsidiary ledger workpaper documentation is primarily paper documentation and contains data on amounts owed to BWC (i.e. State Insurance Fund receipt journal support) and payments (e.g. warrant information) issued by BWC.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Maintain on I: drive in a Financial Reporting folder. audited by Auditor of State, audit report is released, all discrepancies are resolved ; Paper: audited by Auditor of State, audit report is released, all discrepancies are resolved",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2016-05-18",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

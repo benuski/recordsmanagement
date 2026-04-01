@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551802",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39339"
+    },
+    "series_metadata": {
+      "series_id": "FIN-14",
+      "series_title": "IRS 1098-F Reporting",
+      "series_description": "Per 26 USC 6050X and 26 CFR 1.6050X-1, the Ohio Attorney General's Office (OAG) will submit to the Internal Revenue Service (IRS) information concerning any suits, orders, or agreements that become binding at or over a threshold amount of $50,000. Information includes, but is not limited to, filer details, payer details, and the specific fines, penalties, and other amounts concerning the settlement or judgment.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: provided available current audit",
+      "duration_years": 4,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2023-02-24",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

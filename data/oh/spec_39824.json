@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551823",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39824"
+    },
+    "series_metadata": {
+      "series_id": "BCI-OLG-11",
+      "series_title": "OHLEG Support Requests",
+      "series_description": "Documents support requests from users of the Ohio Law Enforcement Gateway (OHLEG) network by the Bureau of Criminal Investigation (BCI) concerning such matters as how to use the OHLEG system, log in issues, or permission issues. Records include, but are not limited to, email requests and phone call records.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: from completion of request",
+      "duration_years": 8,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2025-06-02",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

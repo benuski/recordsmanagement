@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DHS",
+      "schedule_type": "specific",
+      "schedule_id": "760-1608",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39230"
+    },
+    "series_metadata": {
+      "series_id": "4021",
+      "series_title": "Q-Flow Data",
+      "series_description": "This series contains records of the service tickets logged for customers arrived/queue BMV Agencies for the services like Driver’s License, Vehicle Registrations, etc… . Data includes basic information for the customer such as name, phone number, email address and history of the event/actions on the ticket like queue timings and communications via Short Message Service (SMS) or emails. NOTE: There is no system integration between Q-flow and BASS or any other systems.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: three (3) years from date case/ticket was created; thirty (30) days customer communications, SMS and/or emails",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2022-07-22",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

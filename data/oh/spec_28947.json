@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551383",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/28947"
+    },
+    "series_metadata": {
+      "series_id": "BCI-LAB-14",
+      "series_title": "DNA Profile (CODIS) - Combined DNA Index System",
+      "series_description": "Electronically maintained DNA profile used for future identification purposes. Includes the DNA profile generated from the sample (BCI-LAB-15) obtained from and submitted by local law enforcement agencies as well as demographic information (name, DOB, SSN, gender, race, etc.), qualifying offense, names of collector and witness to collection, date of collection, date collection received at BCII lab and by whom (this information is obtained through the DNA collection card BCI-LAB-13 and entered into CODIS).",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: from date of collection",
+      "duration_years": 125,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2010-12-11",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

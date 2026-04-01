@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "855-0126",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/32809"
+    },
+    "series_metadata": {
+      "series_id": "HR-PF01",
+      "series_title": "Personnel File",
+      "series_description": "The Personnel Files are electronic records of all actions pertaining to each individual BWC employee. The Personnel Files cover all the employees’ records for the duration of employment with BWC. Records contained in the Personnel Files are performance evaluations, commendation letters, position changes, tax information, the Early Retirement Initiative (ERI) letter, approval of retirement from the Ohio Public Employees Retirement System (OPERS), and personal information regarding medical information. This series contains personnel actions and attachments: Personnel Actions (ADM-4100). Documents may include Certificates of Achievement, Licenses, and Degrees, Professional Reference Letters, Copies of Military Discharge Reports (DD-214) and Employee applications of employment. Personnel actions submitted for permanent retention include: Removal Documents, Theft-in-Office Documents (The only criminal records to be sent),New-Hire documents (Employee applications, Supplemental Employment Agreements, Position Descriptions, Teaching certificate copies, Certificates relevant to the job, and other correspondences relative to the position), Updated Applications, State Personnel Board of Review Orders and correspondences, Death Certificates, attached to the appropriate P/A. The following must NOT be sent to DAS Records in accordance with Section 149.43 of the Ohio Revised Code or collective bargaining arbitrations: Equal Employment Opportunity (EEO) Information form, Letters of recommendation, Medical records (physician statements, disability paperwork, Criminal records, except for \"Theft-in-Office\", Disciplinary records, except for Removals. Agencies are instructed to adopt records retention schedules for agency copies of personnel records, including copies of documents that are submitted to DAS and items that are not part of the employee personnel file maintained by DAS. These are for all classified and unclassified state employees.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: scanned material in UDS (or any database that replaces it) employee’s date of separation from BWC, and",
+      "duration_years": 7,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2023-07-20",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

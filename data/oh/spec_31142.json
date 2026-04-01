@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "JFS",
+      "schedule_type": "specific",
+      "schedule_id": "795-0001",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/31142"
+    },
+    "series_metadata": {
+      "series_id": "UC-BPR-001",
+      "series_title": "Benefits Claims File",
+      "series_description": "Claimant information file used for determining eligibility for unemployment compensationbenefits. It contains personal information on claimant & claimant''s work history. This unemployment compensation filecontains confidential information and documentation regarding initial, continued, and additional claims forunemployment benefits.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: paper documents 60 days afterprepped, imaged, indexed , and qualitycontrol performed and completed, thendestroy. ; Electronic: in office 1 benefit year,records center",
+      "duration_years": 4,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2024-02-01",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

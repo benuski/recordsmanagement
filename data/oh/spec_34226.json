@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551646",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/34226"
+    },
+    "series_metadata": {
+      "series_id": "066-OAG-55",
+      "series_title": "Compliance Accounting Tracking System",
+      "series_description": "Used for tracking monies received by the Ohio Attorney General Office's (AGO) Consumer Protection section for compliance with Assurance of Voluntary Compliance (AVC) Agreements or Final Judgments between the AGO and suppliers. Information includes, but is not limited to, supplier name, address, telephone number, account type, amount due (or statement amount), payments made, notes, payment interval information, any amount due that has been suspended, any fees owed, civil penalties and restitution.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: compliance matter closed or 40 years if referred Collections Enforcement, unless notified that Collections Enforcement has closed matter. ; Paper: compliance matter closed or 40 years if referred Collections Enforcement, unless notified that Collection Enforcement has closed matter. If scanned and saved electronically, dispose of paper immediately",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2025-11-12",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

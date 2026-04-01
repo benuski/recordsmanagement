@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TAX",
+      "schedule_type": "specific",
+      "schedule_id": "110-0146",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35734"
+    },
+    "series_metadata": {
+      "series_id": "110/408-03",
+      "series_title": "SALES TAX RECORDS",
+      "series_description": "Vendor/audit card file, air/water pollution certificates, audit records, refund claims.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: ST1 - ; Electronic: ST1 -",
+      "duration_years": 10,
+      "duration_months": null,
+      "disposition_method": "Paper: Burn ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2019-01-30",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

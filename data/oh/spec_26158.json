@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "PYT",
+      "schedule_type": "specific",
+      "schedule_id": "885-0026",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/26158"
+    },
+    "series_metadata": {
+      "series_id": "PYT-016",
+      "series_title": "FBI Criminal Records Check",
+      "series_description": "Results of criminal records checks received from the FBI for initial license applicants.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: results with no records identified, dispose of immediately. results with criminal records identified, collect relevant information from appropriate courts and",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2008-03-28",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

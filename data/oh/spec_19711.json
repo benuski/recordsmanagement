@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "COM",
+      "schedule_type": "specific",
+      "schedule_id": "800-0642",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/19711"
+    },
+    "series_metadata": {
+      "series_id": "MIS-29",
+      "series_title": "Library of Inactive Programs",
+      "series_description": "Library of inactive programs not used at present time. Dynamic file-added records. (fna MIST-29)",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: This library is backed-up each night, which is \"one generation data group\". 10 generation data groups",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2003-06-26",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

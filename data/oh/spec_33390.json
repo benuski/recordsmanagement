@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "78550011",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/33390"
+    },
+    "series_metadata": {
+      "series_id": "MIMS-1",
+      "series_title": "Employee Health Records",
+      "series_description": "The Employee Health Records are records that document medical services provided to BWC Employees by the BWC Employee Health Center Nurse.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Scan into (EHS) Employee Health Services database, check quality assurance and ; Electronic: employee has separated from BWC",
+      "duration_years": 7,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2016-04-20",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DBH",
+      "schedule_type": "specific",
+      "schedule_id": "51130021",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39891"
+    },
+    "series_metadata": {
+      "series_id": "1590009",
+      "series_title": "Drug Dispensing Records",
+      "series_description": "Hard copy records of dispensing of drugs. Includes but is not limited to: daily transportation reports, packing lists and prescription (script) journals.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: ; Paper",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2025-11-28",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

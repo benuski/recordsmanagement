@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DHS",
+      "schedule_type": "specific",
+      "schedule_id": "760-0819",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/19371"
+    },
+    "series_metadata": {
+      "series_id": "1107",
+      "series_title": "Vehicle to Salvage Information Form",
+      "series_description": "To provide a record of vehicles released to the State and Federal Surplus Property Section of DAS. (ADM-3911)",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: vehicle has been salvaged, current",
+      "duration_years": 4,
+      "duration_months": null,
+      "disposition_method": "Paper: Wastepaper",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2003-04-28",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

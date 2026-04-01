@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TOS",
+      "schedule_type": "specific",
+      "schedule_id": "10900498",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/31850"
+    },
+    "series_metadata": {
+      "series_id": "INV-6",
+      "series_title": "Daily Packet of Trade Sheets & Trade Report",
+      "series_description": "This packet contains copies of the trade tickets that document the purchase and sale of securities by employees in the Investments department (including for the State Regular Account & STAR Ohio). The packet also contains a summary Trade Report that lists all securities that were bought, sold, or available for loan to others on the corresponding date.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: conclusion of current fiscal year, and an additional 6 fiscal years",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2022-10-26",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

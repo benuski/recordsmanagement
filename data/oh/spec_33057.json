@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551577",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/33057"
+    },
+    "series_metadata": {
+      "series_id": "062-OAG-22",
+      "series_title": "Visitor Access Logs (IRS 1075)",
+      "series_description": "The Visitor Access Log is for unauthorized persons to fill out (electronically or physcially) when they enter a designated entrance to a restricted area where Federal Tax Information (FTI) is held. The logs must include the name and organization of the visitor, signature of the visitor, form of identification, date of access, time of entry and departure, purpose of the visit, and the name and organization of the person visited.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: . ; Paper: unless scanned and saved electronically",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2015-07-23",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DOT",
+      "schedule_type": "specific",
+      "schedule_id": "770-2271",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/30181"
+    },
+    "series_metadata": {
+      "series_id": "IT - 303",
+      "series_title": "Remote Operating System Conversational Operating Environment (ROSCOE) Libraries",
+      "series_description": "All employees who have been granted mainframe access can create ROSCOE libraries to store application program source code, Job Control Language (JCL), or any other items used to create the executable code for applications which are in use at ODOT. When the employee is no longer with ODOT, these libraries will be retained for a period of one year, at which time they will be backed up to an alternative medium and then deleted.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2012-04-18",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

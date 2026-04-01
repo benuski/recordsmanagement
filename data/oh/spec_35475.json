@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551696",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35475"
+    },
+    "series_metadata": {
+      "series_id": "062-OAG-27",
+      "series_title": "Debt Account Files",
+      "series_description": "Records tracking debts owed and payment history to client agencies collected by the Ohio Attorney General's Office per ORC 131.02. Records include, but are not limited to, details about the debt (findings for recovery, foreclosure, bankruptcy, crime victim, offer-in-compromise (OIC)), notes on actions related to account, financial profile of debtor, information on payments and adjustments, current balances, certification of account, liens, resolution and settlements, and liquor permits. May also contain litigation material like lien information, notes from client, attorney notes, and findings for recovery.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: up unless otherwise specified by rule or client agreement, or 10 years if debt is satisfied, discharged, or canceled; whichever occurs first. ; Paper: up unless otherwise specified by rule or client agreement, or 10 years if debt is satisfied, discharged, or canceled; whichever occurs first. If scanned and saved electronically, dispose of paper immediately",
+      "duration_years": 40,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2025-06-09",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

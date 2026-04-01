@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DOT",
+      "schedule_type": "specific",
+      "schedule_id": "770-2629",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/36177"
+    },
+    "series_metadata": {
+      "series_id": "OEO-02",
+      "series_title": "Background Check Authorization Form",
+      "series_description": "This series contains all original Background Check Authorization Forms completed by applicants for positions within the Ohio Department of Transportation.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: emailed Background Check Authorization Form PDF''s within License.AbstractRequest@dot.ohio.gov secured email six months",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2019-03-21",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

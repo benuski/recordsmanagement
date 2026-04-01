@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DAS",
+      "schedule_type": "specific",
+      "schedule_id": "11001594",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/29645"
+    },
+    "series_metadata": {
+      "series_id": "IMS-4",
+      "series_title": "Agency Quarterly FGA Reports",
+      "series_description": "Individual agency reports produced quarterly, illustrating the relationship between the agency''s budget, release and permits and OAKS vouchers.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: in operating system",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2011-08-18",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

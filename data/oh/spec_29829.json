@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TOS",
+      "schedule_type": "specific",
+      "schedule_id": "10900518",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/29829"
+    },
+    "series_metadata": {
+      "series_id": "IT-01",
+      "series_title": "Warrant Processing Files (.igw files)",
+      "series_description": "Warrant processing files received each day from the bank that has the contract to handle warrant processing services for the Treasurer of State. This file consists of images and associated data for warrants presented for payment on the previous day. The images and data are extracted from this data and copies are loaded into the warrant processing software (see agency series number ACC-73; series authorization number 090-0309).",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: 45 days",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2011-10-31",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

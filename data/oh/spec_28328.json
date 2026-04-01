@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DAS",
+      "schedule_type": "specific",
+      "schedule_id": "100-0477",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/28328"
+    },
+    "series_metadata": {
+      "series_id": "RISK-01",
+      "series_title": "Property and Casualty Underwriting and Claim Files",
+      "series_description": "Series contains correspondence, policies, schedules, collections, assets, reports, contacts, billing, and other underwriting documentation contained within the Origami Risk system. Series contains police reports; estimates; medical documentation; payment requests, case pleadings, and other miscellaneous correspondence and documents sent electronically and saved in the Origami Risk system as necessary to manage claims.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: no longer of administrative value",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2025-12-17",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

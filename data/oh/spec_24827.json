@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AUD",
+      "schedule_type": "specific",
+      "schedule_id": "10700192",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/24827"
+    },
+    "series_metadata": {
+      "series_id": "070-TR-04",
+      "series_title": "County Auditor Continuing Education Status Report",
+      "series_description": "Form(s) submitted by Ohio County Auditors verifying continuing education credits in accordance with ORC 319.04(A).",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: audited ; Paper: while needed",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2026-01-30",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

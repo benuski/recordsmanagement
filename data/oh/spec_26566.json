@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "18550798",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/26566"
+    },
+    "series_metadata": {
+      "series_id": "LEGL-38",
+      "series_title": "Contracts",
+      "series_description": "Contracts for goods and services, temporary personnel, purchase orders and all related documentation that includes Request for proposal, invitation to bid and other encumbrances.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Contracts goods, in Contracts Unit of Legal Division contract expires ; Electronic: Contracts goods, in Contracts Unit of Legal Division contract expires",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2008-07-29",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

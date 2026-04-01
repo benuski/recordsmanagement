@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OIC",
+      "schedule_type": "specific",
+      "schedule_id": "845-0518",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/34617"
+    },
+    "series_metadata": {
+      "series_id": "IC-MP-16",
+      "series_title": "Monthly Report of PTD Decisions",
+      "series_description": "This report provides information on PTD (Permanent Total Disability) Hearings and PTD Tentative Order decisions (granted, denied, referred, dismissed, reset/continued) on a monthly basis. This report presents the number of PTD''s granted and denied by month with graphs and tables.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: from creation date of report",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2017-12-20",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

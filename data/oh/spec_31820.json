@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "ODM",
+      "schedule_type": "specific",
+      "schedule_id": "50750069",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/31820"
+    },
+    "series_metadata": {
+      "series_id": "404-63-31",
+      "series_title": "Medicaid Prior Authorization Reviews",
+      "series_description": "Used to review cases for authorizing treatment and or service for Medicaid recipients. Requests may be either approved or denied. Types of treatment and/or service include: Supplies; ambulance; ambulate; dental; durable medical equipment, occupational therapy, out-patient hospital visits, pharmaceuticals-drugs, food supplements, physician visits, private nurse duty, hospital rehabilitation, special committee cases, transplant, and vision care. Includes: forms ODHS 3142, ODHS 3612, and ODHS 3542. Hard copy prior authorization requests are verified against MMIS requests listing.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: in office MMIS data entry is complete. Records Automation be digitally scanned compact disc. hard copy 60(sixty) days quality review is completed. hard copy 60 days quality review. ; Electronic: master and duplicate CD’s",
+      "duration_years": 7,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2024-02-06",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

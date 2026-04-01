@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DOT",
+      "schedule_type": "specific",
+      "schedule_id": "770-2501",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/36062"
+    },
+    "series_metadata": {
+      "series_id": "LBR-03",
+      "series_title": "Drug and Alcohol Testing Records",
+      "series_description": "Drug and alcohol testing files consisting of test results and related documentation.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: All actions pertaining drug/alcohol testing are uploaded and stored permanently on Ohio OAKS Enterprise database/software program which is operated and maintained by DAS. In event of positive test results or issuance of discipline, information is also uploaded into OH Grievance System and is permanently maintained by DAS. ; Paper: paper copies of any drug/alcohol testing records documentation that may have been generated it is uploaded into OAKS and/or OH Grievance System",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition_method": "Electronic: Permanent ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2019-02-20",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AUD",
+      "schedule_type": "specific",
+      "schedule_id": "10700190",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/24239"
+    },
+    "series_metadata": {
+      "series_id": "LE-05",
+      "series_title": "Public Record Requests",
+      "series_description": "Records related to public requests, including but not limited to the original request, correspondence between staff and requestor, redacted and un-redacted responsive records.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: fron date Auditor of State responds public records request ; Paper: electronic version has been created, or no longer of administrative value, whichever first occurs",
+      "duration_years": 10,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2023-03-20",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "WDA",
+      "schedule_type": "specific",
+      "schedule_id": "50250001",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/18193"
+    },
+    "series_metadata": {
+      "series_id": "730-0013",
+      "series_title": "Repaid Loan Application Files",
+      "series_description": "Records with applications for loans completed by local governments including local government resolutions, contracts and meeting minutes.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: loan is repaid",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2002-10-22",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

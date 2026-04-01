@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TAX",
+      "schedule_type": "specific",
+      "schedule_id": "110-0037",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35994"
+    },
+    "series_metadata": {
+      "series_id": "IT-4970",
+      "series_title": "Trust Accumulation Distribution Worksheet",
+      "series_description": "This form is attached to the IT-1040 and indicates the amoutn of accumulation distribution income to be included in Ohio Adjusted Gross Income. That amount is placed on line 20 of the IT-1040.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: records in office files IT-1040 which IT-4970 is applicable is destroyed and ; Electronic: records in office files IT-1040 which IT-4970 is applicable is deleted and",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2019-02-14",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DHS",
+      "schedule_type": "specific",
+      "schedule_id": "17601253",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/20102"
+    },
+    "series_metadata": {
+      "series_id": "B079-6",
+      "series_title": "Title Inspection Stations and Forms",
+      "series_description": "The Title Section enters into the system inspection form control numbers to assign blank forms into the Ohio Out of State Inspection Stations throughout Ohio. The system also stores the station number assigned to the station, plus the address and persons designated to perform the inspection.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: date of issuance",
+      "duration_years": 7,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2003-11-10",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

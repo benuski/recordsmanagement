@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DRC",
+      "schedule_type": "specific",
+      "schedule_id": "501-0338",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/24327"
+    },
+    "series_metadata": {
+      "series_id": "MED-0017",
+      "series_title": "Laboratory Quality Control Records",
+      "series_description": "Test systems QC records which helps Lab know if results are valid.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: in office two years, off-site storage one year ; Electronic: three years",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2006-10-25",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

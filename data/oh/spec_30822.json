@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TOS",
+      "schedule_type": "specific",
+      "schedule_id": "10900571",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/30822"
+    },
+    "series_metadata": {
+      "series_id": "ACC-84",
+      "series_title": "Account Analysis materials",
+      "series_description": "Statements that provide details on the monthly bank fees assessed on each bank account holding state funds or funds for which the Treasurer of State acts as custodian. These statements provide details on the types of banking services used by each account, the quantity of services purchased, and the fees assessed for each service. Records in this series may also include documents and spreadsheets created by the Treasurer''s office to analyze these statements. Please note that this record series does not include the monthly bank statements that provide details on each individual transaction. Monthly bank statements are retained pursuant to TOS retention schedule ACC-07 (series authorization number 10900539).",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: later of following: duration of current banking services agreement two additional fiscal years, or annual audit of Treasurer corresponding fiscal year by Auditor of State is complete and final audit report has been published. ; Paper: later of following: duration of current banking services agreement two additional fiscal years, or annual audit of Treasurer corresponding fiscal year by Auditor of State is complete and final audit report has been published",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2022-10-27",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

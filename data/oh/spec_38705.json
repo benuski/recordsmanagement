@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "ODM",
+      "schedule_type": "specific",
+      "schedule_id": "50750268",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/38705"
+    },
+    "series_metadata": {
+      "series_id": "505-00-05",
+      "series_title": "Systems Integrator Records Retention (Data)",
+      "series_description": "The Systems Integrator (SI) data is the data generated or recorded as part of the mechanism (techniques and technology) used by Ohio Medicaid Enterprise Systems (OMES) business modules to communicate data securely by receiving and transmitting transactions. The SI system data shall include, but is not limited to, system log information, and any other system information generated or recorded to support SI module.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: transactional data from all modules, and any other system records, EDW. system logs in SI from date information was logged",
+      "duration_years": null,
+      "duration_months": 13,
+      "disposition_method": "Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2024-12-04",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

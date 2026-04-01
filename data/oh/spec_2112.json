@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "SOS",
+      "schedule_type": "specific",
+      "schedule_id": "050-0063",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/2112"
+    },
+    "series_metadata": {
+      "series_id": "CBE-31",
+      "series_title": "Change of Name, Deaths, & Disenfranchised Voter Reports",
+      "series_description": "Original reports issued by Probate Court, Clerk of Courts & Health Dept.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: filing",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Paper: Wastepaper",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "1983-04-13",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

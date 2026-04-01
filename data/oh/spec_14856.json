@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DOH",
+      "schedule_type": "specific",
+      "schedule_id": "440-0044",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/14856"
+    },
+    "series_metadata": {
+      "series_id": "STD-33-04",
+      "series_title": "Ohio Venereal Disease Register Card (1238-01D and 1238-05D)",
+      "series_description": "Report maintain information on sysphilis cases (confirmed cases)",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: patient is: A) or older without up-date in 5 years. B) 40-49 years or older without update in 10 years. C) no age without up-date in 10 years. D) entered as \"no name\"",
+      "duration_years": 50,
+      "duration_months": null,
+      "disposition_method": "Paper: Wastepaper",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "1986-05-12",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

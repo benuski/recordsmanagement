@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DOT",
+      "schedule_type": "specific",
+      "schedule_id": "770-2678",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39552"
+    },
+    "series_metadata": {
+      "series_id": "770-2476",
+      "series_title": "Highway Infrastructure Section LiDAR Data",
+      "series_description": "Light Detection and Ranging (LiDAR) data collected on state roadway network and assets. The data is collected with the pavement condition data on the state roadway network. Interstates are collected annually. US and State routes are collected on a two-year cycle, half of the state each year.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: permanently",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition_method": "Electronic: Permanent",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2024-09-23",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "855-1141",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/31182"
+    },
+    "series_metadata": {
+      "series_id": "ALLS - 33",
+      "series_title": "Physician Verification Slip",
+      "series_description": "The Physician Verification Slip is a record verifying the employee was seen by the physician. Employees submit a verification slip to the supervisor to meet requirements of a physician verification direct order.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: 30 days per BWC Employee Handbook rule ; Electronic: 30 days per BWC Employee Handbook rule",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2013-03-27",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551686",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35067"
+    },
+    "series_metadata": {
+      "series_id": "FIN-13",
+      "series_title": "Court Order Settlement Funds",
+      "series_description": "Records concerning settlement funds held outside of State Treasury Fund by Ohio Attorney General''s Office (AGO) and any relating transactions concerning these funds per ORC 109.111. Records include, but are not limited to, reconciliations between funds of office, payments from funds, agreements concerning the funds received, and copy of check(s).",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: settlement fund depleted, provided audited",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2018-06-21",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

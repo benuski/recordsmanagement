@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TTA",
+      "schedule_type": "specific",
+      "schedule_id": "50230065",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/19033"
+    },
+    "series_metadata": {
+      "series_id": "OP-28",
+      "series_title": "Automatic Contribution Bank Returns",
+      "series_description": "A report listing all Automatic Contribution Transactions returned for a particular day. Considered Confidential - Ohio Revised Code 3334.11.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Keep audit",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2003-03-11",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

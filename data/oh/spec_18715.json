@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGR",
+      "schedule_type": "specific",
+      "schedule_id": "17000207",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/18715"
+    },
+    "series_metadata": {
+      "series_id": "AGR-7004",
+      "series_title": "Amusement Ride Accident Investigations",
+      "series_description": "The Enforcement department does accident investigations and produces a report. Enforcement keeps the original accident report and sends Ride Safety a copy. Ride Safety produces a file by adding to their copy of the accident report their ride inspections, correspondence, and notes.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Keep date of accident ; Paper: scanned and verified as readable",
+      "duration_years": 10,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2022-10-13",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

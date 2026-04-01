@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "EXP",
+      "schedule_type": "specific",
+      "schedule_id": "723-0023",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/38751"
+    },
+    "series_metadata": {
+      "series_id": "FIS-11",
+      "series_title": "Requisition Request Forms prior to approval",
+      "series_description": "Statement of need, signed by Managing officer, justifying purchases.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Delete immediately upon denial or upon approval, voucher file. ; Electronic: Delete immediately upon denial or upon approval, voucher file",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2020-03-05",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

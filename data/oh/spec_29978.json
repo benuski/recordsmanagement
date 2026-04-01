@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DOT",
+      "schedule_type": "specific",
+      "schedule_id": "770-1718",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/29978"
+    },
+    "series_metadata": {
+      "series_id": "PERS-02",
+      "series_title": "Disability Leave Claim File",
+      "series_description": "This record series contains all of the pertinent information concerning the disability claims filed by employees of the Department of Transportation.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: scanned images two years separation. ; Paper: in active area employee seperates from ODOT",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2012-01-18",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

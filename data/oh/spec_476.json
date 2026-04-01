@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "WDA",
+      "schedule_type": "specific",
+      "schedule_id": "730-0002",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/476"
+    },
+    "series_metadata": {
+      "series_id": "OWDA-02",
+      "series_title": "Billing & Loan Files",
+      "series_description": "These are records of the loans for water development systems made to local government authority. These include technical specifications, contracts with contractors, payment made & repayment schedule.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: loan is paid off",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Wastepaper",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2000-09-01",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

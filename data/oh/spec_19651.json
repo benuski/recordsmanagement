@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DHS",
+      "schedule_type": "specific",
+      "schedule_id": "760-0852",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/19651"
+    },
+    "series_metadata": {
+      "series_id": "1163",
+      "series_title": "LEADS Audit Reports",
+      "series_description": "Reports created by LEADS auditors after conducting an audit into the LEADS/CJIS/NLETS/BCI operations of an agency.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: current and previous LEADS audit cycle",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2025-02-05",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

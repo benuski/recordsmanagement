@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TAX",
+      "schedule_type": "specific",
+      "schedule_id": "110-0050",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/28415"
+    },
+    "series_metadata": {
+      "series_id": "IT 501",
+      "series_title": "Employers Payment of Income Tax Withheld",
+      "series_description": "This form replaced the IT-941 (Old) in 1975. The purpose of this form and due dates are the same as for the IT-941 (Old). This is a one part form.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: scanned ; Electronic: Record is maintained via ODT Info Image System",
+      "duration_years": 10,
+      "duration_months": 6,
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2010-03-09",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

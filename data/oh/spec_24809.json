@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OTC",
+      "schedule_type": "specific",
+      "schedule_id": "50580394",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/24809"
+    },
+    "series_metadata": {
+      "series_id": "OTC-706-08",
+      "series_title": "Customer Correspondence",
+      "series_description": "Documentation responding to customer communications, whether positive or negative, which outlines follow-up on the part of the Commission as well as the contractor.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: . If referencing a particular contractor, a months contract expiration ; Electronic: . If referencing a particular contractor, contract expiration",
+      "duration_years": null,
+      "duration_months": 6,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2008-06-07",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

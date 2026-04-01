@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "MED",
+      "schedule_type": "specific",
+      "schedule_id": "883-0136",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35131"
+    },
+    "series_metadata": {
+      "series_id": "INE-0005",
+      "series_title": "Limited Branch Schools Files",
+      "series_description": "Contain information pertaining to limited branch school, including applications, curriculm information, documents of approval, correspondence, etc.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: school ceases be in existence. ; Paper: scanned electronic medium storage and scan is checked accuracy",
+      "duration_years": 75,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2021-12-01",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

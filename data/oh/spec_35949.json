@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TAX",
+      "schedule_type": "specific",
+      "schedule_id": "11100742",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35949"
+    },
+    "series_metadata": {
+      "series_id": "2401-0001",
+      "series_title": "Employer Internal Audit Files",
+      "series_description": "Files pulled by Taxation employers for additional auditing purposes. These files contain information on returns, amended returns, I-Filing, tax summaries and so forth.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: ; Electronic",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2019-02-11",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

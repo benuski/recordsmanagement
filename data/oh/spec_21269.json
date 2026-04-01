@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "ETH",
+      "schedule_type": "specific",
+      "schedule_id": "50100008",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/21269"
+    },
+    "series_metadata": {
+      "series_id": "ADM-05",
+      "series_title": "Vehicles Operations File",
+      "series_description": "Service records, maintenance reports, warranty statements, operation manuals, accident reports, and related documents",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: during agency ownership of vehicle",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Wastepaper",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2005-01-31",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

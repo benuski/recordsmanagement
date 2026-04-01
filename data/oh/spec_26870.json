@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AUD",
+      "schedule_type": "specific",
+      "schedule_id": "10700227",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/26870"
+    },
+    "series_metadata": {
+      "series_id": "GS-02",
+      "series_title": "Vehicle Operations File",
+      "series_description": "Includes service records, operation maintenance reports, warranty and guarantee statements, operating manual, shop-work orders, accident reports and repair records.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: during ownership of vehicle ; Electronic: during ownership of vehicle",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Recycle ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2008-11-20",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AUD",
+      "schedule_type": "specific",
+      "schedule_id": "10700209",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/26605"
+    },
+    "series_metadata": {
+      "series_id": "070-GR-01",
+      "series_title": "Graphics Print Job Requests",
+      "series_description": "Printing requests received and processed by Graphics Services. These requests are received from all Auditor of State departments and include the printing of audit reports, training materials, office manuals, and special projects. These requests include name and department of the requester, the date the request is received and the date the print job is completed.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: scanned ; Electronic",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "Paper: Recycle ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2008-08-27",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

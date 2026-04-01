@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TOS",
+      "schedule_type": "specific",
+      "schedule_id": "10900642",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/33190"
+    },
+    "series_metadata": {
+      "series_id": "SEC-610",
+      "series_title": "Daily statements for repurchase agreements",
+      "series_description": "A packet of documents used to monitor the collateral sufficiency of delivery versus payment (DVP) and tri-party repurchase agreements. A report is generated in the investment inventory software for DVP repurchase agreements. A spreadsheet is created for tri-party repurchase agreements using the trade ticket information and the daily market value of collateral provided by the custodian. Such reports are stored in IT's Data Warehouse/SQL database.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: conclusion of current fiscal year, and an additional 6 fiscal years. ; Electronic: conclusion of current fiscal year, and an additional 6 fiscal years",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2022-10-28",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

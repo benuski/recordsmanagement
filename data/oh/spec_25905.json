@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "INS",
+      "schedule_type": "specific",
+      "schedule_id": "820-0815",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/25905"
+    },
+    "series_metadata": {
+      "series_id": "180-05",
+      "series_title": "Imprest Fund Records",
+      "series_description": "Fraud/Enforcement advanced funding records. Includes policies and procedures, check register, bank account information, imprest requests, expenditure records, monthly reconcilliation reports, requests for reimbursement, deposit records, bank statements, and quarterly reports.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: account id closed by agency and final audit and report released by OBM ; Electronic: account is closed by agency and final audit and report released by OBM",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2008-03-04",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

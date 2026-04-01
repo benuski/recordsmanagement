@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DHS",
+      "schedule_type": "specific",
+      "schedule_id": "760-1219",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/23641"
+    },
+    "series_metadata": {
+      "series_id": "B084-68",
+      "series_title": "Agency Reject Reports",
+      "series_description": "Daily report listing vehicle registration applications that were not issued due to various errors made by Deputy Registrar agencies.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2006-05-30",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

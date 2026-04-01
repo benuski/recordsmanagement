@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OBD",
+      "schedule_type": "specific",
+      "schedule_id": "860-0075",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/34623"
+    },
+    "series_metadata": {
+      "series_id": "OBD-01",
+      "series_title": "Licensed Dietitians/Limited Permits File",
+      "series_description": "All documents relating to expired or inactive license applications and grant or denial of an administrative license or permit. Retain in office for 1 year then transfer all paper documents to a record storage facility for 10 years. After 10 years, shred/destroy documents. Contains all original applications for license or permit, supporting documentation, address, phone numbers and Board correspondence to and from licensee. Also, copies of adjudication orders, consent agreements.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Maintain in office one year",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2017-08-11",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

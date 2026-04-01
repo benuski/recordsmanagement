@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "855-0766",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/26430"
+    },
+    "series_metadata": {
+      "series_id": "ADR-01",
+      "series_title": "Alternative Dispute Resolution (ADR) Files",
+      "series_description": "The Alternative Dispute Resolution (ADR) Files are medical treatment dispute packets received from Managed Care Organizations (MCO) that can be processed. The Alternative Dispute Resolution (ADR) Files contain the ADR Information Guide, peer to peer file review or independent medical examination report, MCO or BWC appeal, appropriate peer to peer review, appropriate C-9 or treatment request, initial C-9 review, initial MCO Decision, MCO ADR Summary Report, Provider of Record (POR) Medical Diagnostics and Consultations along with V-3 notes on the left side of file. The ADR Files are scanned into the Universal Document Service (UDS). The Universal Document Service (UDS) is an imaging concept that stores any type of electronic file, such as Microsoft Office documents, Adobe Acrobat, audio/video, Computer Aided Design (CAD), etc. as well as scanned images.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Scan ADR Files into UDS, original ADR Files in ADR Unit 120 days, verify quality assurance, send Mafil, and ; Electronic: machine readable information will be reviewed every ensure that files can still be accessed. Scan original Portable Document Format (PDF) of ADR Files into Medical Claims and ADR Files 20 years, and",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2008-08-06",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

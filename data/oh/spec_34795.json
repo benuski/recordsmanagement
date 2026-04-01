@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGR",
+      "schedule_type": "specific",
+      "schedule_id": "700-0236",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/34795"
+    },
+    "series_metadata": {
+      "series_id": "0619",
+      "series_title": "NPDES Final Permits",
+      "series_description": "Records inlucd Final National Pollutant Discharge Elimination System Permits",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Keep permit expiration or facility closure unless a licensee or permittee is involved in litigation with Division. In which case, keep 2 years add administrative, civil, or criminal action is complete. ; Electronic: Keep permit expiration or facility closure unless a licensee or permittee is involved in litigation with Division. In which case, keep 2 years add administrative, civil, or criminal action is complete",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Paper: Trash ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2017-11-02",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

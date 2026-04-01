@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DCY",
+      "schedule_type": "specific",
+      "schedule_id": "50930021",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39788"
+    },
+    "series_metadata": {
+      "series_id": "DCY- PFR",
+      "series_title": "Putative Fathers Registry",
+      "series_description": "Record of potential fathers filed by mothers in adoption cases to search the system to see if the father is registered. Files may include the Registration form, JFS-01694 (Father’s form that is filed if he wants to prevent the adoption), letter of receipt, Search Request form, JFS-01695 (Mother’s form that is filed to look for a system match), and the Preliminary Certification Notice, JFS-01696, which contains names, birth dates, SS#’s, and addresses for the mother, father and child. Information is available on the Internet.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Maintain data in Putative Father’s Registry system permanently. A copy will be retained off-site by MMIS disaster recovery purposes. ; Paper: in office final certification is issued",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition_method": "Electronic: Permanent ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2025-05-30",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

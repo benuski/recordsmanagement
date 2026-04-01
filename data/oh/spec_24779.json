@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OTC",
+      "schedule_type": "specific",
+      "schedule_id": "50580555",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/24779"
+    },
+    "series_metadata": {
+      "series_id": "OTC-801-08",
+      "series_title": "Vendor Contract Correspondence",
+      "series_description": "Correspondence relating to specific contracts maintained by the Safety Department, including price adjustments, customer complaints and invoicing.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: from contract end date",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2010-04-29",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

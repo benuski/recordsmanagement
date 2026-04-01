@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DHS",
+      "schedule_type": "specific",
+      "schedule_id": "760-0073",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/24020"
+    },
+    "series_metadata": {
+      "series_id": "B054-01",
+      "series_title": "Duplicate Registrations",
+      "series_description": "When an original covert, fictitious, disabled veteran (DV), former prisoner of war (POW) or public owned vehicle registration is lost, damaged or stolen, the owner can apply for a duplicate registration. The registration consists of: License number, owners name, address, co-owners name/code, address, vehicle year, make, type, serial number, title number, odometer reading, purchase date, issuance date, expiration date, tax district, county code, previous application number, new application number, deputy name, agency number and location. Distribution: Original copy - DV, POW and public owned registrations are filed by application number in Gratis Unit; covert and fictitious registrations are filed separately by plate number. 1st carbon copy - mailed to applicant. 2nd carbon copy - DV and POW registrations are shredded in Gratis Unit; public owned, covert and fictitious registrations are mailed with the 1st carbon copy.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: issuance",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2006-10-03",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

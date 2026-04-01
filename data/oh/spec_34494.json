@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "PRX",
+      "schedule_type": "specific",
+      "schedule_id": "887-0079",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/34494"
+    },
+    "series_metadata": {
+      "series_id": "887-0008",
+      "series_title": "Returned Check History",
+      "series_description": "A continuous ledger of customer checks returned to the Board of Pharmacy as unprocessable.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: continuous ledger be retained indefinitely",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition_method": "Electronic: Permanent",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2022-12-21",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

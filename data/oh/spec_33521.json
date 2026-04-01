@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "855-0816",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/33521"
+    },
+    "series_metadata": {
+      "series_id": "ARCO-10",
+      "series_title": "Recovery Files",
+      "series_description": "The Recovery Files include initial contact, payment options, final demand, paid in full notices to debtor and/or representative(s) and general interoffice correspondence from Special Investigations Unit offices, other BWC departments and federal, state and local offices, statewide, Version 3 (claim payment system), Oracle (the financial application use by account units to enter and monitor payments connected with overpayments of compensation) and Workers Compensation Insurance System (WCIS) print outs. Additionally, copies of all payments are maintained for collection integrity.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: 90 days file has been stored electronically. Verify records quality assurance, and ; Electronic: Review machine readable information every ensure that files can still be accessed. electronic versions of Recovery Files all monies are collected and no further litigation is pending, and",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2016-05-18",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

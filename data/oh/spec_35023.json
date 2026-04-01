@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "855-0297",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35023"
+    },
+    "series_metadata": {
+      "series_id": "Fleet-10",
+      "series_title": "Vehicle Operations File",
+      "series_description": "The Vehicle Operation Files includes service records, compilation sheets, operation maintenance reports of licensed vehicles, warranty and guaranty statements, operating manual, reports and shop-work invoices, accident reports, vehicle release records, repair records, receipts, mileage and usage logs etc. The receipts, invoices are scanned into the vehicle operation files using the Fleet Management SharePoint site.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: If confidential, scanned and verified. as Machine Readable media during ownership of vehicle, and ; Electronic: machine readable information Fleet Management will be reviewed every ensure that files can still be accessed. during ownership of vehicle, and",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2018-04-26",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

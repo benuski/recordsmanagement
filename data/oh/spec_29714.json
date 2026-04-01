@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "855-1038",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/29714"
+    },
+    "series_metadata": {
+      "series_id": "LEGL/SUBRO",
+      "series_title": "Subrogation Escrow Account Files",
+      "series_description": "The Subrogation Escrow Account Files are for accounts that are still being collected based on an escrow agreement including copies of checks for amount collected to date, collection correspondence, requests to bill, billing records, and subrogation settlement agreements. The Subrogation Escrow Account Files are scanned into a secure online repository. The secured online repository is an imaging concept that stores any type of electronic file, such as Microsoft Office documents, Adobe Acrobat, audio/video, Computer Aided Design (CAD), etc. as well as scanned images.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: subrogation file has closed, and ; Paper: account is collected",
+      "duration_years": 10,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2023-11-17",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

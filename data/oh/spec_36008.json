@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TAX",
+      "schedule_type": "specific",
+      "schedule_id": "110-0180",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/36008"
+    },
+    "series_metadata": {
+      "series_id": "110-124-10",
+      "series_title": "MONTHLY INDICIA SALES AND INVENTORY",
+      "series_description": "This report and all associated documentation is initially provided by the Treasurer of State''s office and later verified by he Department of Taxation through generation of an electronic version of the cigarette stamp inventory report.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: end of calendar year forms received during calendar year or such time as diligent enforcement inquiry is resolved a particular yera. ; Electronic: 3 yrs end of calendar year forms received during calendar year or such time as diligent enforcement inquiry is resolved a particular year",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2019-02-14",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551645",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/34224"
+    },
+    "series_metadata": {
+      "series_id": "066-OAG-53",
+      "series_title": "Arbitration Board Certification Documents",
+      "series_description": "Arbitration program materials from auto manufacturers and dispute resolution boards, acting on behalf of manufacturers, seeking certification for handling and resolution of new motor vehicle warranty disputes per Ohio Lemon Law. (ORC 1345.77). Records include, but are not limited to, application, manufacturer warranty documents, consumer education materials, general qualifications and duties of the board and its members, independent review, staff reports, correspondence, and documents gathered or created related to revocation of a previously-issued certification.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: certification is revoked. ; Paper: certification is revoked, unless scanned and saved electronically",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2017-04-08",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

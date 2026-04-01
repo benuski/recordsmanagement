@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OTC",
+      "schedule_type": "specific",
+      "schedule_id": "50580318",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/34897"
+    },
+    "series_metadata": {
+      "series_id": "OTC-705-20",
+      "series_title": "Recordings - Video Monitoring",
+      "series_description": "Recorded motion video of toll plazas, Automated Toll Payment Machine (ATPM) transactions, video surveillance of administration complex, and service plazas.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: thirty (30) days",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2022-10-11",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

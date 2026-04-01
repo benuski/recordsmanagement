@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "JFS",
+      "schedule_type": "specific",
+      "schedule_id": "795-1082",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39521"
+    },
+    "series_metadata": {
+      "series_id": "CS-CPR01",
+      "series_title": "Central Paternity Registry Paternity Records",
+      "series_description": "Paternity records maintained within the birth registry required under section 3111.64 of the Reviseed Code; information comes from orders and acknowledgments of paternity, which determine parent and child relationships.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: within 7 business days of paternity recorded, quality controled as valid documents ; Electronic: Permanently",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition_method": "Paper: Permanent ; Electronic: Permanent",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2024-07-02",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

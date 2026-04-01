@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OIC",
+      "schedule_type": "specific",
+      "schedule_id": "845-0444",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/34880"
+    },
+    "series_metadata": {
+      "series_id": "IC-MED-02",
+      "series_title": "I.C. Fee Bills",
+      "series_description": "I.C. Fee Bills are forms originated by the Industrial Commission to pay physicians for medical evaluations. Payment of the fee bills is handled by the Bureau of Workers Compensation.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2023-02-24",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

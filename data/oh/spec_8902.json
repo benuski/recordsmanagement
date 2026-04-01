@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DOH",
+      "schedule_type": "specific",
+      "schedule_id": "440-0071",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/8902"
+    },
+    "series_metadata": {
+      "series_id": "17-04",
+      "series_title": "Annual Hospital & Registration Planning",
+      "series_description": "Utilization data for all hospitals in the state, the plant evaluation survey and registration documentation.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: ; Paper: 5 years, review by state archives historical value; if none, dispose",
+      "duration_years": 15,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase ; Paper: Wastepaper",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "1994-06-29",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

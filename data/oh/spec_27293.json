@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OIC",
+      "schedule_type": "specific",
+      "schedule_id": "845-0278",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/27293"
+    },
+    "series_metadata": {
+      "series_id": "IC-FIS-01",
+      "series_title": "INVOICE",
+      "series_description": "Request from vendor for payment of goods or services provided. Original to OBM, State Accounting. Copy filed with voucher. Original returned to agency with original voucher effective 10/1/85.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: audit report by State Auditor/auditing firm is released ; Electronic: with voucher 10 years",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Paper: Wastepaper ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2009-02-24",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

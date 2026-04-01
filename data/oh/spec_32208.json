@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TAX",
+      "schedule_type": "specific",
+      "schedule_id": "11100707",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/32208"
+    },
+    "series_metadata": {
+      "series_id": "Trans Doc",
+      "series_title": "Transient Documents",
+      "series_description": "Includes telephone messages, post-it-notes, drafts and other limited documents which serve to convey information of temporary importance in lieu of oral communication.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: longer of administrative value ; Electronic: longer of administrative value",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2014-04-18",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

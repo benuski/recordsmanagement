@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TOS",
+      "schedule_type": "specific",
+      "schedule_id": "10900675",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39192"
+    },
+    "series_metadata": {
+      "series_id": "CPIM-8",
+      "series_title": "Mail Payment Batch Reports and Pay-in Forms",
+      "series_description": "Reports that list and document revenue received by the CPIM program as payment for certification and program registration fees. Such revenue is delivered to and deposited through the Treasurer of State''s Revenue Management department, and is accompanied by a pay-in form. The pay-in form is stored digitally via the OAKS System. Checks are processed through Revenue Management and digitized via the Bank Service Agreement. Check stubs (paper) and CPIM Invoice Forms (paper) are sent to CPIM to be entered into myCPIM.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Digitize and checks in accordance with applicable Banking Service Agreement. Check stubs and CPIM Invoice forms may be destroyed at end of their administrative value. ; Electronic: Digitize and checks in accordance with applicable Banking Service Agreement. Check stubs and CPIM Invoice forms may be destroyed at end of their administrative value",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2022-10-26",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

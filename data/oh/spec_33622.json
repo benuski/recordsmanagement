@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGR",
+      "schedule_type": "specific",
+      "schedule_id": "700-0160",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/33622"
+    },
+    "series_metadata": {
+      "series_id": "Auct-003",
+      "series_title": "Auctioneer Program Licensee Database",
+      "series_description": "Electronic database and license program record may include but is not limited to, name, SSN, date of birth, address, licensure date, license number, effective date, expiration date, date of renewal, license status, fees paid, bonding information, disciplinary actions, auction school, phone number, corporate officers or members of the LLC, license type, current license, email and web address.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: license goes inactive",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2016-08-10",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

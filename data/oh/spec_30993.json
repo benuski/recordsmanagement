@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "JFS",
+      "schedule_type": "specific",
+      "schedule_id": "6000129",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/30993"
+    },
+    "series_metadata": {
+      "series_id": "UC-RED-002",
+      "series_title": "Payment Card Transaction Log",
+      "series_description": "Record of credit card transactions. May include invoices, receipts, and payment card log which lists the purchase date, vendor name, item description, section or unit head, dollar amount, date received and date entered into the central accounting system. Also included in these files is e-mail correspondence related to the expenditures.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: in office 1 fiscal year ; Paper: in office 1 fiscal year",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2013-02-13",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

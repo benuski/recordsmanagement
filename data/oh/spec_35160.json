@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "18550774",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35160"
+    },
+    "series_metadata": {
+      "series_id": "Mail-4",
+      "series_title": "Firm Book for Certified Mail",
+      "series_description": "The Firm book for Certified Mail is a printout from the Pitney Bowes software of all the outgoing certified letters for a particular day. The book is stamped by the US Post Office as receipt of being received at the post office.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper",
+      "duration_years": null,
+      "duration_months": 6,
+      "disposition_method": "Paper: Recycle",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2018-09-10",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

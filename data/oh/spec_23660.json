@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AUD",
+      "schedule_type": "specific",
+      "schedule_id": "10700181",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/23660"
+    },
+    "series_metadata": {
+      "series_id": "070-IT-01",
+      "series_title": "Help Desk Detail Info.",
+      "series_description": "IT Help Desk tickets or incidents contain information relating to employee requests for computer assistance. Details the callers profile, call category info., technician info., and progress notes associated with each incident. E-mails sent to all AOS staff regarding significant IT impact. Daily activity info. from CCMIS (telephone routing system) detailing when calls are received, how many calls are received for each technician.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: ; Paper: while needed",
+      "duration_years": null,
+      "duration_months": 18,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2021-10-19",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

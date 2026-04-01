@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DHS",
+      "schedule_type": "specific",
+      "schedule_id": "760-0097",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/23902"
+    },
+    "series_metadata": {
+      "series_id": "B063-29",
+      "series_title": "MODIFICATION ORDERS",
+      "series_description": "Court journal entries (Modification Orders) are submitted by Ohio courts of record. Documents are used to delete, modify, add and change information on an individuals driving record pertaining to suspensions, revocations, license cancellations, narratives, point assessment and grant limited driving privilege. The journal entry contains the name, address, social security number, date of birth, drivers license number, court name court case number and the reason for the adjustment to the driving record. All documents are scanned and stored in the image system.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: All paper documents are placed in a recycle bin 30 days they are scanned. ; Electronic: IT should scan file, if all cases relative order have been closed delete records. All cases generated on/or October 2004 are stored in image, from close date",
+      "duration_years": 7,
+      "duration_months": null,
+      "disposition_method": "Paper: Recycle ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2006-09-27",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

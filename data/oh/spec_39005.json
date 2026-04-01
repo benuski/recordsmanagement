@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "PRX",
+      "schedule_type": "specific",
+      "schedule_id": "887-0110",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39005"
+    },
+    "series_metadata": {
+      "series_id": "887-0051",
+      "series_title": "Hard Copy (Pre-Matrix Inspector) Inspection Reports",
+      "series_description": "Routine inspections of licensed facilities, conducted prior to rollout of Matrix Inspector.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Paper: in agency scanned, unless a lapse, failed renew or discontinuation of business ; Electronic: Electronic: on server lapse, failed renew or discontinuation of business",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2021-04-08",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

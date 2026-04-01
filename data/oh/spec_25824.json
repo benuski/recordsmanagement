@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "855-0762",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/25824"
+    },
+    "series_metadata": {
+      "series_id": "PE-01",
+      "series_title": "Provider Folders",
+      "series_description": "Providers applying to be enrolled and/or certified to treat injured workers have an electronic provider file containing documents relative to that provider. These include all various historical and miscellaneous documents related to that provider’s enrollment/certification and qualifications. Examples of file contents may include: enrollment application form, license/credential/requirement information, Liability Insurance, BWC provider agreement, Form W9 (lists the Tax Identification Numbers (Tax ID) and the legal name of the party receiving payment from BWC), curriculum Vitae (schooling), internal emails regarding the provider, decertification information, compliance information, returned mail, record updates, or other related information. The Provider Files information is scanned into the provider Universal Document Service (UDS) imaging repository system for electronic storage. There is an enrollment department intake box where email/faxed and mailed applications are sent, and those records are assigned to a worklist where, when processed, a new UDS file is created, or the information is placed into an existing provider UDS file",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: • Hardcopy/mailed applications/updates – destroyed faxing into enrollment intake box • intake fax box serves as main intake and scanned received images are held in case they need be referenced a period of ; Paper: • Hardcopy (mailed in) applications/updates are destroyed faxed intake enrollment box via confidential trash bin on floor that is shredded. • information in intake enrollment fax box is retained a 6-month period",
+      "duration_years": null,
+      "duration_months": 6,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2022-01-10",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

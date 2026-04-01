@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551460",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/29825"
+    },
+    "series_metadata": {
+      "series_id": "CON-AGO-01",
+      "series_title": "Constituent Inquiries",
+      "series_description": "Correspondence of a general nature from individuals, companies and organizations seeking direction, assistance or referral to appropriate entities, most often outside the Attorney General''s Office. The Constituent Inquiries Database (CID) tracks incoming communications and actions taken upon those inquiries by the AGO.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: (CID and content manager) ; Paper: , provided scanned",
+      "duration_years": 4,
+      "duration_months": 6,
+      "disposition_method": "Electronic: Delete ; Paper: Recycle",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2011-10-18",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

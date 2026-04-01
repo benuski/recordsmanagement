@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGE",
+      "schedule_type": "specific",
+      "schedule_id": "490-0202",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/32537"
+    },
+    "series_metadata": {
+      "series_id": "BELTS-0001",
+      "series_title": "Inactive Licensed Nursing Home Administrator Files",
+      "series_description": "If BELTSS receives official notification that an LNHA is deceased, that inactive file may be destroyed immediately. Regardless of the format in which they are stored, records will be destroyed 75 years after the date of licensure.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Stored records will be destroyed date of licensure",
+      "duration_years": 75,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2022-11-21",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

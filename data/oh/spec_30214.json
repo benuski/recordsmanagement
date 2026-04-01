@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DOT",
+      "schedule_type": "specific",
+      "schedule_id": "770-2594",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/30214"
+    },
+    "series_metadata": {
+      "series_id": "SPPM-03",
+      "series_title": "Local Public Agency (LPA) Project Reimbursement Invoices",
+      "series_description": "This record series contains invoice forms submitted by local governments along with cost support documentation (i.e. invoices, work orders, purchase orders, material listings, etc.) provide by contractors and vendors for processing reimbursement of Federal and State dollars. These invoices are submitted to the ODOT District for approval and execution by signature. These records are necessary in the appropriate tracking and reimbursement of Federal and State dollars on statewide transportation infrastructure improvements.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: project has been closed in Federal Financial Management System (FMIS)",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2012-05-15",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

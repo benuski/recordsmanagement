@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DCY",
+      "schedule_type": "specific",
+      "schedule_id": "50930008",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39814"
+    },
+    "series_metadata": {
+      "series_id": "DCY-CENREG",
+      "series_title": "Central Registry on Child Abuse/Neglect",
+      "series_description": "Registry of cases from the counties that tracks incidents of child abuse and neglect. Information is entered into FACSIS, Sacwis Families and Children Services Information System. Registry includes principals involved in the cases, e.g. alleged perpetrators, victims and caretakers, SS#, driver’s license information, and protective service alerts.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: in office",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2025-05-27",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

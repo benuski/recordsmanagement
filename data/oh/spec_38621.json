@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OIC",
+      "schedule_type": "specific",
+      "schedule_id": "845-0545",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/38621"
+    },
+    "series_metadata": {
+      "series_id": "IC-LGL-01",
+      "series_title": "Court Decisions",
+      "series_description": "A written opinion of a magistrate issued after a hearing or trial, which includes findings of fact and conclusion of law. If an objection is filed to the decision, the jury or judges overseeing the magistrate will review the magistrate decision to determine whether it contains any errors of law.Supreme Court Appeals---Final decision from the 10th District court of appeals on requests for mandamus.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: from date of court decision. ; Electronic: from date of court decision",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2023-01-11",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

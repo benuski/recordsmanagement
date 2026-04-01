@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DOT",
+      "schedule_type": "specific",
+      "schedule_id": "770-2620",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/36348"
+    },
+    "series_metadata": {
+      "series_id": "LTAP-3",
+      "series_title": "LTAP Workshop Management System",
+      "series_description": "The Local Technical Assistance Program Enrollment System is used to manage all registration and attendance records for all individuals that attend any LTAP training. Registration forms are received in the LTAP office and information from these forms along with attendance records for each class is input into the LTAP Enrollment System.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: information has been input into LTAP Enrollment System, information has been verified. ; Electronic: information in LTAP Enrollment System thirty-two (32) years",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Recycle ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2019-05-21",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

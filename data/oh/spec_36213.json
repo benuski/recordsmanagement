@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DOT",
+      "schedule_type": "specific",
+      "schedule_id": "770-1789",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/36213"
+    },
+    "series_metadata": {
+      "series_id": "TS-38",
+      "series_title": "Digital Right of Way Photolog Image Files",
+      "series_description": "Digital Right of Way photolog files are in jpeg format and 3D highway surface imagery in proprietary *.3dc electronic format. Digital ROW still camera images of all state routes and local NHS routes. A cycle is currently every 2 years for mainline and 10 years for interchanges and ramps. A new cycle begins when the previous cycle ends. This is the same for electronic 3D downward highway surface images.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: or 7 cycles of mainline frames. 20 years or 2 cycles of interchange and ramp files",
+      "duration_years": 15,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2019-04-01",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TAX",
+      "schedule_type": "specific",
+      "schedule_id": "11100670",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/29111"
+    },
+    "series_metadata": {
+      "series_id": "Fleet-0001",
+      "series_title": "Vehicle Mileage Log Sheet",
+      "series_description": "This form is for the departments state vehicles. It shows who is using the vehicle, the date it was used from, where it was going and what the mileage of the vehicle.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Keep",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2011-02-05",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551751",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/38644"
+    },
+    "series_metadata": {
+      "series_id": "78-OAG-46",
+      "series_title": "Sexual Assault Kit Tracking System Notifications",
+      "series_description": "Notification messages sent to users who have updated the chain-of-custody of sexual assault forensic evidence kits in the sexual assault kit tracking system. Automated message confirms that their informational update as been made to the system, such as change in storage location and transfer date information if applicable.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: 30 days from notification being sent",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2020-01-22",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

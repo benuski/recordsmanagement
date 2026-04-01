@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "855-1149",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/30263"
+    },
+    "series_metadata": {
+      "series_id": "ALLS-64",
+      "series_title": "Analytical Trending and Forecasting Reports",
+      "series_description": "The Analytical Trending and Forecasting Reports are ad hoc reports created in response to specific requests for business information. Reports are used to assist in decision making and may contain long or short term trending or forecasting requiring years worth of information. Examples include, but are not limited to; trending and forecasting of diagnosis, medical procedures, duration of disability, compensation payments, premium receipts, injury and policy demographics, and geographical profiles. These analyses require the ability to retain data that is no longer needed for ongoing operational purposes.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: there is no longer an operational need, and",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2012-05-24",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

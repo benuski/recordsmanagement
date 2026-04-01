@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OIC",
+      "schedule_type": "specific",
+      "schedule_id": "845-0494",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/31919"
+    },
+    "series_metadata": {
+      "series_id": "IC-IT-04",
+      "series_title": "Confidential Personal Information (CPI) Access Log.",
+      "series_description": "The Confidential Personal Information (CPI) Access Log keeps track of who has accessed confidential personal information (CPI) pursuant to ORC 1347.15 and includes the provisions set forth in ORC 4123.88 pertaining to false representation and or solicitation of authority. OAC 109-4-05 applies with the rule being promulgated under 119.03 with the statutory authority and amplification residing in ORC 1347.15. May contain confidential information such as Injured Workers’ names and addresses, claim numbers, social security numbers, and any other identifiable information about the Injured Worker.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: in active production environment",
+      "duration_years": null,
+      "duration_months": 12,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2023-01-11",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

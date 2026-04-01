@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "MHC",
+      "schedule_type": "specific",
+      "schedule_id": "50690024",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/30458"
+    },
+    "series_metadata": {
+      "series_id": "I-05",
+      "series_title": "Complaints, Inspectors, Installers",
+      "series_description": "Written complaints to the Commission against licensees",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: if no action pending",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2012-10-03",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

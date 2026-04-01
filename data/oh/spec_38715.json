@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "LSC",
+      "schedule_type": "specific",
+      "schedule_id": "10350059",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/38715"
+    },
+    "series_metadata": {
+      "series_id": "LSC-FIS-97",
+      "series_title": "Warrant-Related Documents",
+      "series_description": "Use Warrant Cancellation or Erroneous EFT Transmittal form when a non-payroll warrant is issued in error and the agency has the warrant or when a non-payroll EFT payment is made in error. Use a Stop Payment of Warrants form when a non-payroll warrant was issued in error and the agency does not have the warrant. Use a Claim for Reissuance of Voided Warrant Due to Age form when a warrant has voided for age (not cashed during three-month period after issue date). Use a Voided Warrant Certification when a new warrant for the same obligation needs to be issued.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: official audit report has been received from Auditor of State. ; Electronic: official audit report has been received from Auditor of State",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "Paper: Recycle ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2020-02-18",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

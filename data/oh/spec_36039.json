@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TAX",
+      "schedule_type": "specific",
+      "schedule_id": "11100427",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/36039"
+    },
+    "series_metadata": {
+      "series_id": "CIG-40",
+      "series_title": "Application for Retail Cigarette Dealers License",
+      "series_description": "This form is used by retail cigarette dealers to apply to the county auditor for a retail cigarette license.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: end of calendar year. If scanned, . ; Electronic: end of calendar year",
+      "duration_years": 3,
+      "duration_months": 6,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2019-02-20",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

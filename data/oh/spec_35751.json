@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TAX",
+      "schedule_type": "specific",
+      "schedule_id": "11100481",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35751"
+    },
+    "series_metadata": {
+      "series_id": "AC2",
+      "series_title": "AC2 Schedule",
+      "series_description": "Daily reports that compare revenue of current year to revenue of prior year.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: 2 yrs or audit is complete, whichever is greater. If scanned, . ; Electronic: or audit it complete, whichever is greater",
+      "duration_years": 2,
+      "duration_months": 6,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2019-01-30",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

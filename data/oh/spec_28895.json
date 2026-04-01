@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "855-0962",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/28895"
+    },
+    "series_metadata": {
+      "series_id": "MSAD-1",
+      "series_title": "Medical Provider Complaint Files",
+      "series_description": "The Medical Provider Complaint Files contain complaints and correspondence concerning the medical providers. The Medical Provider Complaint Files are scanned into the Universal Document Service (UDS). The Universal Document Service (UDS) is an imaging concept that stores any type of electronic file, such as Microsoft Office documents, Adobe Acrobat, audio/video, Computer Aided Design (CAD), etc. as well as scanned images. The Disability Evaluators Panel (DEP) recruit, credential, and maintain the DEP physician network that provide independent medical exams and medical file reviews for BWC statewide. The DEP provides resolutions on all DEP inquiries including billing and exam complaints.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Medical Provider Complaint Files are located on DEP SharePoint site/DEP Complaint Tracker in an Excel spreadsheet. provider is terminated from Disability Evaluators Panel (DEP) an additional . Medical Provider Complaint Files are scanned and maintained in UDS Doctor File. Provider Complaint Files in UDS provider is terminated from Disability Evaluators Panel (DEP) an additional . machine readable information will be reviewed every 3 years ensure Medical Provider Complaint Files can still be accessed. ; Paper: Digitally image Medical Provider Complaint Files. scanned versions of Medical Provider Complaint Files have been verified quality assurance, send Mafil, and",
+      "duration_years": 7,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2010-10-28",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

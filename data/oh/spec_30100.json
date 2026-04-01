@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TOS",
+      "schedule_type": "specific",
+      "schedule_id": "10900532",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/30100"
+    },
+    "series_metadata": {
+      "series_id": "ACC-03",
+      "series_title": "Regular Account Bank Advices",
+      "series_description": "Advices are letters sent by a bank to its customer that document and explain adjustments that a bank makes to a customer''s account. The Accounting department maintains advices received on behalf of the State Regular Account. Such advices include, but are not limited to: bank charge slips, returns, confirmations of transactions, records of receipts and disbursements, and monthly account statements.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: current fiscal year. ; Electronic: current fiscal year",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2022-10-26",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

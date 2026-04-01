@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OCC",
+      "schedule_type": "specific",
+      "schedule_id": "10530313",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/20801"
+    },
+    "series_metadata": {
+      "series_id": "OCC-SD-01",
+      "series_title": "Data Systems Specifications",
+      "series_description": "Records necessary forusing the system: user guides, system or sub-system definitions, system flowcharts, program descriptions and documentation, job control or work flow records, system specifications, and input and output specifications",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: discontinuance of system and all system data is destroyed or transferred new operating environment ; Paper: discontinuance of system and all system data is destroyed or transferred new operating environment",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase ; Paper: Trash",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2004-09-23",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

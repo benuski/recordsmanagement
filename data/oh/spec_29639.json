@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DAS",
+      "schedule_type": "specific",
+      "schedule_id": "11001585",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/29639"
+    },
+    "series_metadata": {
+      "series_id": "ITP-12",
+      "series_title": "Filed Agency IT Resource Use Policies",
+      "series_description": "Copies of IT resource use policies submitted to the Office of Information Technology by state agencies as required in Ohio IT Policy, ITP-E.8, \"Use of Internet, E-mail and Other IT Resources\"",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: in office area it is superseded or rescinded ; Electronic: Keep in operating system it is superseded or rescinded",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2011-07-29",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

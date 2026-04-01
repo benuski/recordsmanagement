@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TAX",
+      "schedule_type": "specific",
+      "schedule_id": "11100469",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/28417"
+    },
+    "series_metadata": {
+      "series_id": "IT-3",
+      "series_title": "Transmittal of Wage and Tax Statements",
+      "series_description": "This form is filed by employers with the State accompanied by a copy of every W-2 or IT-2 wage and tax statement they have issued to employees.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Keep scanned ; Electronic: An electronic record is maintained via ODT Info System",
+      "duration_years": 10,
+      "duration_months": 6,
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2010-03-09",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

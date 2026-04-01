@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DRC",
+      "schedule_type": "specific",
+      "schedule_id": "501-0358",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/24396"
+    },
+    "series_metadata": {
+      "series_id": "MED-0022",
+      "series_title": "Residential Treatment Unit Offender Database",
+      "series_description": "Electronic database tracks residential treatment unit admissions and changes, medication changes, Oakwood Correctional Facility admissions, diagnosis, discharges, treatment form schedules, clinic and labs, MHL''s database for tracking of releases of information.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: three years offender is no longer in residential treatment unit",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2006-10-26",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

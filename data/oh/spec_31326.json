@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TOS",
+      "schedule_type": "specific",
+      "schedule_id": "10900606",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/31326"
+    },
+    "series_metadata": {
+      "series_id": "SEC-230",
+      "series_title": "Securities Lending Income - Invoices & Reconciliations",
+      "series_description": "The securities lending agent sends an invoice each month to the Trust department that lists the income that the state earned from securities lending. The Trust department reconciles this invoice to collateral and borrower information maintained by the Trust department so as to verify the accuracy of the respective invoice. Supporting documentation is also included when necessary.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: conclusion of current fiscal year, and an additional 6 fiscal years. ; Electronic: conclusion of current fiscal year, and an additional 6 fiscal years",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2013-05-08",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

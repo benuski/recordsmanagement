@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DDD",
+      "schedule_type": "specific",
+      "schedule_id": "50740019",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39113"
+    },
+    "series_metadata": {
+      "series_id": "DDDFISC-3",
+      "series_title": "Payment Card Holder Documents",
+      "series_description": "Payment card application packets and cancellation packets.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: one year purchasing authority cancelled. ; Paper: one year purchasing authority cancelled or scanned and saved electronically",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2021-12-14",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

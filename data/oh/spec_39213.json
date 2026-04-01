@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OTC",
+      "schedule_type": "specific",
+      "schedule_id": "50580653",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39213"
+    },
+    "series_metadata": {
+      "series_id": "16",
+      "series_title": "System Files for Data Exchanges",
+      "series_description": "Any files that the backoffice system either sends or receives through interfaces with other entities including, but not limited to, the Toll Collection System, Bureau of Motor Vehicles/Department of Motor Vehicles, Print and Mail House, Lockbox, and Collections",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Available online . , files are archived offline storage 3 years. Purged 3 years",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2022-06-21",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

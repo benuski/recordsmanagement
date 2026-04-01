@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TOS",
+      "schedule_type": "specific",
+      "schedule_id": "10900694",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39954"
+    },
+    "series_metadata": {
+      "series_id": "IT-23",
+      "series_title": "AI Staff Meeting Transcriptions and Summaries",
+      "series_description": "Staff meetings that are held online through video conferencing software and an AI powered note taking tool is utilized during the meeting. After the meeting, the AI tool provides a detailed transcript of what was discussed during the meeting and/or provides a detailed summary of the transcript.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: AI summary of meeting six months date of meeting, unless meeting topic is subject ongoing litigation, audit, or regulatory hold. ; Electronic: AI transcription of meeting one month date of meeting, unless meeting topic is subject ongoing litigation, audit, or regulatory hold",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2026-02-18",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

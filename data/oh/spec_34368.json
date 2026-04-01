@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "CIV",
+      "schedule_type": "specific",
+      "schedule_id": "876-0122",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/34368"
+    },
+    "series_metadata": {
+      "series_id": "REGL",
+      "series_title": "Phone, Visitor & Mail Logs",
+      "series_description": "Phone and visitor logs that reflecting date, time, visitor, reason for call/visit, and staff member spoken with; mail log reflecting date and staff receiving incoming mail",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: from date ; Paper: from date",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2017-07-20",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

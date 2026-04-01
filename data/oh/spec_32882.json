@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DAS",
+      "schedule_type": "specific",
+      "schedule_id": "100-0668",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/32882"
+    },
+    "series_metadata": {
+      "series_id": "SS-3",
+      "series_title": "State Agency Personnel Action Signature Authorizations",
+      "series_description": "This series consists of signature authorization forms with name of persons who have authorization to sign Personnel Actions (ePAR) for appointing authority for each Agency, Board & Commission.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: new appointing authority is designated ; Paper: new appointing authority is designated",
+      "duration_years": 8,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Recycle",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2025-11-18",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

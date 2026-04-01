@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "CRB",
+      "schedule_type": "specific",
+      "schedule_id": "50800002",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39424"
+    },
+    "series_metadata": {
+      "series_id": "CRB-007",
+      "series_title": "Public Record Request",
+      "series_description": "Documents pertaining to public requests, including but not limited to the original request, correspondence between staff and requestor, redacted and un-redacted responsive records. Maintained to document compliance with public records law obligations (ORC 149.43).",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: ; Paper",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2024-04-29",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

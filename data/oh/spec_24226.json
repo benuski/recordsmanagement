@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DRC",
+      "schedule_type": "specific",
+      "schedule_id": "501-0324",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/24226"
+    },
+    "series_metadata": {
+      "series_id": "LEG-0009",
+      "series_title": "Workers Compensation Files",
+      "series_description": "Electronic and paper copy case files of administrative claims assigned to special counsel, permanent total disability claims, fraud claims, violation of safety requirements, high dollar claims, and miscellaneous claims monitored in-house.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: two years claim activity ends ; Electronic: two years claim activity ends",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2006-10-24",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

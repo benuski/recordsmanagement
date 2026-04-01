@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "INS",
+      "schedule_type": "specific",
+      "schedule_id": "820-0535",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/21658"
+    },
+    "series_metadata": {
+      "series_id": "GAR-OES-01",
+      "series_title": "Telephone Service Requests",
+      "series_description": "Used to request installation or modificattion of telephone equipment.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: In office ; ; Electronic: In office",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Paper: Wastepaper ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2005-04-27",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

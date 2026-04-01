@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DHS",
+      "schedule_type": "specific",
+      "schedule_id": "760-1385",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/32550"
+    },
+    "series_metadata": {
+      "series_id": "8112",
+      "series_title": "Electronic Benefit Transfer (EBT) Card Summary Report",
+      "series_description": "This report is used by the Ohio Investigative Unit's Food Stamp Agents and is submitted to the Food Stamp Administrator on a monthly basis to track all transactions occurring on covert Electronic Benefit Transfer (EBT) cards during the month. The Food Stamp Administrator checks the report against Job and Family Services’ Electronic Payment Processing Information Control (EPPIC) program as verification that all information entered by the Agents is correct. Once the information is verified, the report is filed for future reference.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: in Central Ohio files five (5) years or audited by Supplemental Nutrition Assistance Program (SNAP) or its designee and report is released. ; Electronic: in Ohio Agent Secure Information System database files five (5) years or audited by SNAP or its designee and report is released",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2023-05-23",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

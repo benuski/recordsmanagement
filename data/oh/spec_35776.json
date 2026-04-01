@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TAX",
+      "schedule_type": "specific",
+      "schedule_id": "11100832",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35776"
+    },
+    "series_metadata": {
+      "series_id": "GF-M-09",
+      "series_title": "Custodial Account Documentation",
+      "series_description": "Records include bank deposit slips ledgers, bank statements, cancelled checks and related documents for various cutodial bank accounts administered and monitored by the Department.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: next audit by Auditor of State and audit report is released and all discrepancies are resolved ; Electronic: next audit by Auditor of State and audit report is released and all discrepancies are resolved",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2019-01-30",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

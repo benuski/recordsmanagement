@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "JFS",
+      "schedule_type": "specific",
+      "schedule_id": "795-0794",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/30839"
+    },
+    "series_metadata": {
+      "series_id": "CI-SEC-CAM",
+      "series_title": "Security Camera Footage",
+      "series_description": "Each ODJFS owned security camera(installed in or around ODJFS owned/leased office buildings)is wired to a Digital Video Recorder(DVR). The footage produced by the cameras for security purpose will be maintained on the DVR. The footage will not be reproduced after it is erased from the DVR. If needed/requested, the footage may be burned to a disk to saved for additional time as long as notification is made during the retention period. Footage burned to a disk will be distributed to the requestor, and will be retained by the requester, not by ODJFS Security.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: in office 30 day",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2024-01-19",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

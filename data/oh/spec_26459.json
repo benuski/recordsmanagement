@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "855-1098",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/26459"
+    },
+    "series_metadata": {
+      "series_id": "ALLS-26",
+      "series_title": "External Audit Information",
+      "series_description": "The External Audit Information are records (e.g. data warehouse reports, emails, financial, investment information, legal, and medical) generated and used to ensure the internal controls currently in place at BWC are effective and valid. The External Audit Information is also used to make sample selections that BWC sends to the external auditors for preparation of the Auditor of State Audit Report.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: provided audited by Auditor of State and audit report is released and all discrepancies are resolved, and ; Paper: provided audited by Auditor of State and audit report is released and all discrepancies are resolved, and",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2009-02-03",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "SOA",
+      "schedule_type": "specific",
+      "schedule_id": "50550105",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/27811"
+    },
+    "series_metadata": {
+      "series_id": "50550059",
+      "series_title": "SOACDF Internal Audit Data",
+      "series_description": "Monthly Series approved by SOA''''''''s Board along with work papers created by SOACDF in preparation for annual Audit by State of Ohio. SOA data not stored in OAKS or COGNOS",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: audited by Auditor of State and audit report is released and all discrepancies are resolved, move agency acrhive nolonger of agency value",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2009-09-18",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TAX",
+      "schedule_type": "specific",
+      "schedule_id": "11100732",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/31112"
+    },
+    "series_metadata": {
+      "series_id": "GAR-LL-06",
+      "series_title": "Licenses, Permits, Certifications",
+      "series_description": "All documents relating to application and grant or denial of an administrative license, permit, etc.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: 1 yr final expiration, including all renewals, or 1 yr denial",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2013-03-01",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "INS",
+      "schedule_type": "specific",
+      "schedule_id": "820-0014",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/23293"
+    },
+    "series_metadata": {
+      "series_id": "250-01",
+      "series_title": "Securities File",
+      "series_description": "Sales prospectus, disclosures and other financial documents of insurance companies that issue/sell stocks.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: In office ; 3 years; ; Paper: In office ; 3 years",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase ; Paper: Wastepaper",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2006-04-04",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

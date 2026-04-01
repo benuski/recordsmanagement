@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DAS",
+      "schedule_type": "specific",
+      "schedule_id": "100-0597",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/6776"
+    },
+    "series_metadata": {
+      "series_id": "PRT-027",
+      "series_title": "Copy Center Log Book",
+      "series_description": "Consists of log sheet information entered into Avanti program from Print Request Order containing agency name and job number of printed material produced in the Copy Center.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: scanned SFTP server, paper documents can be destroyed. ; Electronic: 3 fiscal years scanned SFTP server",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Recycle ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2025-07-18",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

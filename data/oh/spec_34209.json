@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "855-0298",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/34209"
+    },
+    "series_metadata": {
+      "series_id": "OS-13",
+      "series_title": "VEHICLE RECORDS - MONTHLY REPORTS",
+      "series_description": "Vehicle Records – Monthly Reports lists the cars owned by BWC. The information tracked in the reports are gas purchases, miles drive and related purchases.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: electronic files are uploaded Fleet Sharepoint site and also updated DAS Fleet Ohio system. electronic records one full fiscal year (FY). Once annual DAS Fleet Plan is created and approved prior FY – delete records",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2017-04-20",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

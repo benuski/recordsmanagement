@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TOS",
+      "schedule_type": "specific",
+      "schedule_id": "10900580",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/30870"
+    },
+    "series_metadata": {
+      "series_id": "SEC-108",
+      "series_title": "Reconciliations of FTP files against downloads from bank websites",
+      "series_description": "These reconciliations are performed for internal departmental audit purposes, so as to validate the integrity of the FTP files that the Trust Dept. receives from the custodial banks for custodial accounts and state treasury investment accounts. The reconciliation is performed by comparing data within the FTP file against corresponding statements that Treasurer personnel affirmatively download from the websites of the respective custodial banks. Documents within this record series include, but are not limited to, spreadsheets that show whether the reconciliation process generated any outages or other exceptions, and the cost roll forward and asset reviews.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: conclusion of current fiscal year, and an additional 2 fiscal years. ; Paper: conclusion of current fiscal year, and an additional 2 fiscal years",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2013-01-15",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

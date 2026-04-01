@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TAX",
+      "schedule_type": "specific",
+      "schedule_id": "11100531",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/32186"
+    },
+    "series_metadata": {
+      "series_id": "ENF-0004",
+      "series_title": "Case Updates",
+      "series_description": "Contains information of the progress of criminal cases, subjects names and personal information.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: - if scanned, from scanning date. ; Electronic: from receipt/creation",
+      "duration_years": 15,
+      "duration_months": 6,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2022-02-10",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551662",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/34602"
+    },
+    "series_metadata": {
+      "series_id": "058-OAG-31",
+      "series_title": "Enforcement Action Tracking Files",
+      "series_description": "Records used to track settlement payments and other terms of settlement pursuant to the settlement agreement or enforcement action. Contains spreadsheet tracking organization name, date and amount of settlement, fund settlement paid into, and notations of if and when payments are made. May also include financial monitoring reports.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: from completing terms. ; Paper: from completing terms, unless scanned and saved electronically",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2017-08-07",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

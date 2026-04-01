@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DAS",
+      "schedule_type": "specific",
+      "schedule_id": "11001639",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/33123"
+    },
+    "series_metadata": {
+      "series_id": "SEC-7",
+      "series_title": "Visitor Database to DAS Controlled Buildings",
+      "series_description": "Electronic files containing dates and times when visitors enter select points of DAS owned or leased buildings, restricted floors and/or offices controlled by building access security system. Such files may contain visitor’s name and picture as retrieved from government-issued identification. Such files may also contain security risk information, some of which may be of long-term concern.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Visitor Information in system 30 days",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2025-12-16",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

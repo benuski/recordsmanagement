@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OIC",
+      "schedule_type": "specific",
+      "schedule_id": "845-0490",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/30693"
+    },
+    "series_metadata": {
+      "series_id": "IC-COMM-04",
+      "series_title": "Social Media Postings",
+      "series_description": "Posts made by the Communications Director on Facebook, Twitter, or other social media Web sites that serve to market and inform customers about relevant activities within the agency. Social media sites will be used as a supplemental, not primary, marketing and informational resource for the Industrial Commission.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: from date posted",
+      "duration_years": null,
+      "duration_months": 2,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2012-10-23",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

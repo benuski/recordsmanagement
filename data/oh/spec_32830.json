@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DAS",
+      "schedule_type": "specific",
+      "schedule_id": "100-0666",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/32830"
+    },
+    "series_metadata": {
+      "series_id": "CC-4",
+      "series_title": "Centralized PD approvals",
+      "series_description": "Record log of approved centralized Agency Position Descriptions.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: seven years from approval date ; Paper: seven years from approval date",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Recycle",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2025-10-30",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

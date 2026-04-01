@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "855-1004",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/26153"
+    },
+    "series_metadata": {
+      "series_id": "MIAD-35",
+      "series_title": "Tape Library Control Records",
+      "series_description": "Tape Library Control Records are used to control the location, maintenance, and disposition of magnetic media in the BWC automated Tape Management Control Library including a list of holdings, control logs, scratch reports and offsite inventories. Reference general schedule IT-OP-14.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Tape Library Control Records superseded, and",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2008-05-07",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

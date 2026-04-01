@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "855-1143",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/29324"
+    },
+    "series_metadata": {
+      "series_id": "MIAD-66",
+      "series_title": "Confidential Personal Information (CPI) System Access Logs",
+      "series_description": "The Confidential Personal (CPI) System Access Logs keeps track of who has accessed confidential personal information (CPI) pursuant to ORC 1347.15 Access rules for confidential personal information.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: CPI System Access Logs a rolling () basis. When a record reaches 61st month from time it was entered into log, delete it from log file",
+      "duration_years": 5,
+      "duration_months": 60,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2011-03-10",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

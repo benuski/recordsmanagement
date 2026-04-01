@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "JFS",
+      "schedule_type": "specific",
+      "schedule_id": "795-0669",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/30990"
+    },
+    "series_metadata": {
+      "series_id": "UC-TSV-001",
+      "series_title": "Employee Buyout Files",
+      "series_description": "Contains information on packages employers give to employees as incentive to leave their jobs, such as bonus and severance pay packages. The Unemployment Compensation Division makes a ruling on packages offered and maintains files of information received from employers. These records are used to determine the workers'' eligibility for Unemployment benefits.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Maintain benefit entitlement period is exhausted ; Paper: Maintain benefit entitlement period is exhausted",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2013-02-15",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

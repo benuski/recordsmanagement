@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551550",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/32521"
+    },
+    "series_metadata": {
+      "series_id": "567-OAG-67",
+      "series_title": "Background Files",
+      "series_description": "Records collected to verify background information for a new employee during their hiring process. Records include, but are not limited to, internal checklist or summary sheet, Civil Service Applications, background information form completed by applicant, tax waiver, web check results, and driving record. Other documents, if applicable, may include emailed polygraph results, polygraph reports, college transcripts, credit check release, pre-employment drug test documentation, field investigation results, results from physical and psychological exams, military service discharge papers, and polygraph and field investigation form.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: from hiring decision if employed up . If employed longer than , 1 year separation. ; Paper: from hiring decision if employed up . If employed longer than , 1 year separation. If scanned and saved electronically, paper",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2021-06-30",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

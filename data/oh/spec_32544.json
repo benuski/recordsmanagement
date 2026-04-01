@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "855-1007",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/32544"
+    },
+    "series_metadata": {
+      "series_id": "SELF02",
+      "series_title": "Qualified Health Plan Application",
+      "series_description": "The Qualified Health Plan (QHP) application includes the Self Insured (SI) employer’s information to plan for the medical management of it’s claims. The information in the QHP application includes written information detailing the QHP contract information, organization, health care provider network, medical case and utilization management.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: file is cancelled or files bankruptcy ; Paper: file is cancelled or files bankruptcy, , and",
+      "duration_years": 17,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2016-04-20",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

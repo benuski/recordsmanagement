@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OTC",
+      "schedule_type": "specific",
+      "schedule_id": "50580017",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/33274"
+    },
+    "series_metadata": {
+      "series_id": "OTC-300-26",
+      "series_title": "Workers' Compensation Claim Files",
+      "series_description": "Claim files containing medical records, correspondence, claim applications and authorizations.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: \"lost time\" and/or \"medical only\" claims prior August 25, 2006 shall be disposed of ten (10) years from date of last activity. \"lost time\" and/or \"medical only\" claims August 25, 2006 should be deleted/destroyed five (5) years from date of last activity. ; Paper: \"lost time\" and/or \"medical only\" claims prior August 25, 2006 shall be disposed of ten (10) years from date of last activity. \"lost time\" and/or \"medical only\" claims August 25, 2006 should be deleted/destroyed five (5) years from date of last activity",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2022-10-11",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

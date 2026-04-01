@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DAS",
+      "schedule_type": "specific",
+      "schedule_id": "11001314",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/17992"
+    },
+    "series_metadata": {
+      "series_id": "SEC - 1",
+      "series_title": "Visitor Logs",
+      "series_description": "Visitor sign in sheets containing date, visitor name, sign-in time, person/section destination, and sign-out time for all facilities except SOCC. Used to monitor non-building personnel.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Keep in operating system 30 days (except SOCC )",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2025-12-16",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

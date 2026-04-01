@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "COM",
+      "schedule_type": "specific",
+      "schedule_id": "800-0603",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/4541"
+    },
+    "series_metadata": {
+      "series_id": "837-06",
+      "series_title": "Inspector's Daily Itineraries",
+      "series_description": "Retain hard copy records until informatin is entered onto a computer data base system, then destroy hard copy records. Maintain machine readable records until information is superseded by new information or until records series is no longer created, then",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Maintain machine readable records information is superseded by new information or records series is no longer created ; Paper: hard copy records information is entered onto a computer data base system",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "1998-02-20",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

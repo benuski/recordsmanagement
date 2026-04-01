@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TAX",
+      "schedule_type": "specific",
+      "schedule_id": "11100656",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/33558"
+    },
+    "series_metadata": {
+      "series_id": "Budget 09",
+      "series_title": "Direct Purchase Orders, Requisitons/Other Documentation Related to Purchases of Goods and Services",
+      "series_description": "Copies of records created to initiate the purchasing process, authorize and provide for, satisfy clams and expedited payments for private services providers including copies of purchase orders, invoice requests, receipts, agency vouchers, service reports and other supporting documentation.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: curernt fiscal year ; Paper: current fiscal year",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2016-06-23",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

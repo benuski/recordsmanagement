@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "855-1126",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/28067"
+    },
+    "series_metadata": {
+      "series_id": "MSAD - 55",
+      "series_title": "C 17 – Outpatient Medication Reimbursement Request Form",
+      "series_description": "The C 17 – Outpatient Medication Reimbursement Request Form is completed by the Pharmacy that dispensed the medication and is submitted by the injured worker to the Pharmacy Benefits Manager contracted by BWC. Injured workers only use this form for reimbursement of outpatient medication. The C 17 is scanned into the injured worker’s claim file and is to be retained for the retention period of the claim file.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Digitally image into claim files, hold original documents 120 days quality control, send Mafil, and ; Electronic: electronic images of claim files/documentation life of claim , and",
+      "duration_years": 20,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2009-12-09",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

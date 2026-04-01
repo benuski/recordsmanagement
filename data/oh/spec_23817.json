@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "LOT",
+      "schedule_type": "specific",
+      "schedule_id": "950-0565",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/23817"
+    },
+    "series_metadata": {
+      "series_id": "12-01-00",
+      "series_title": "Stolen Ticket Database",
+      "series_description": "Contains information pertaining to stolen ticket reports. Information includes the theft date, case number, agent's name, agent's number, region, lot number and sequence of tickets stolen, total number of tickets stolen.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: any hard copies received in Operating area one (1) year ; Electronic: digital copy in system (on disk/server) five (5) years",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2024-10-02",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

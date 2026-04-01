@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DOT",
+      "schedule_type": "specific",
+      "schedule_id": "770-1767",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/36381"
+    },
+    "series_metadata": {
+      "series_id": "ProgMgmt-3",
+      "series_title": "Hot Spot - High Crash Frequency Location Listing",
+      "series_description": "This record series contains listings of identified high crash frequency sections. Summary crash information used to develop the listing is also contained in the file. Last year produced was 2010. Therefore, as of January 2020, this schedule will be obsolete.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: in active area from current, completed crash data year",
+      "duration_years": 10,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2019-05-23",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

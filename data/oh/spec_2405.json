@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DAS",
+      "schedule_type": "specific",
+      "schedule_id": "100-1011",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/2405"
+    },
+    "series_metadata": {
+      "series_id": "FLT-01",
+      "series_title": "DAS/Credit Card Request & Receipt File",
+      "series_description": "DAS / Credit Card request & receipt files consisting of Credit Card Request and Credit Card Receipt Forms (ADM-3908).",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: stored electronically ; Electronic: in office cancellation of account",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Paper: Recycle ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2025-08-25",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

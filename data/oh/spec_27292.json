@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OIC",
+      "schedule_type": "specific",
+      "schedule_id": "18450446",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/27292"
+    },
+    "series_metadata": {
+      "series_id": "IC-FIS-03",
+      "series_title": "Electronic Data Interface (EDI) Payments",
+      "series_description": "Printout of Central Accounting System screen detailing an electronic payment to a vendor for a purchase or service. May include invoice and receiving.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: auduted by Auditor and audit report is released and all discrepancies are resolved ; Electronic: Fiscal Department scans all vouchers, payments, etc. under OAKS",
+      "duration_years": 10,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2009-02-24",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

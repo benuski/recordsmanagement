@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551678",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35016"
+    },
+    "series_metadata": {
+      "series_id": "IA-OAG-06",
+      "series_title": "Outside Audit Reports and Office Responses",
+      "series_description": "Documents audit findings issued by external entities like the Auditor of State and Federal Government regarding Ohio Attorney General (AGO) operations. Records include, but are not limited to, audit report summarizing findings and recommendations for corrective action as well as responses by the AGO on what their corrective action plans are.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: . ; Paper: , unless scanned and saved electronically",
+      "duration_years": 10,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2018-03-22",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

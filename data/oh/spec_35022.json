@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "68550019",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35022"
+    },
+    "series_metadata": {
+      "series_id": "FLEE-3",
+      "series_title": "Driver File",
+      "series_description": "The vehicle driver file contains information related directly to the assigned driver of a state vehicle. Information includes: OS58 (vehicle assignment form), OS55 (vehicle release form), commuting policy, texting pledge, violations (speeding, parking, etc.), defensive driving certificate, accidents, complaints, disciplines, gratis (driving record checks), picture of license, acknowledgement letters (Voyager cards, keys, etc.) and vehicle inspiration forms.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Scan into Driver File on Fleet SharePoint, verify quality assurance, and ; Electronic: Keep all information on assigned drivers regarding their history – once they no longer have an assigned vehicle, delete (records needed if they are reassigned a vehicle within that timeframe)",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2018-04-26",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551657",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/34563"
+    },
+    "series_metadata": {
+      "series_id": "058-OAG-30",
+      "series_title": "Charity Financial Reporting",
+      "series_description": "Financial reports received from charities to fulfill mandate in ORC 109 and 1716. Records include, but are not limited to, financial reports received from charities as well as any attachments regarding tax information, extension requests, and registrations/renewals.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: . ; Paper: , unless scanned and saved electronically",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2017-08-03",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

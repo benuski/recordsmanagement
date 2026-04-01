@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "FCC",
+      "schedule_type": "specific",
+      "schedule_id": "50730032",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/32428"
+    },
+    "series_metadata": {
+      "series_id": "12",
+      "series_title": "Litigation or Claims Records",
+      "series_description": "Records which document any active, pending, or potential legal cases to which OFCC is a party or which arise as a result of an OFCC project, including court records, research materials, reports, memoranda, correspondence, attorney notes, and any other attorney work product, records, or information.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: case is closed and no further appeals can be filed ; Electronic: case is closed and no further appeals can be filed",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2023-12-14",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

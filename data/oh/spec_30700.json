@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551517",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/30700"
+    },
+    "series_metadata": {
+      "series_id": "OW-AGO-16",
+      "series_title": "Check Tracking Logs",
+      "series_description": "Tracks checks received by the office and delivered to another section or client. These logs show evidence of receipt and delivery. Information that the logs capture can include, but may not be limited to: date check received, payer, check number, payment amount, date delivered to client or section, and person signing for delivery.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: 1 calendar year, provided audited",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2012-10-31",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

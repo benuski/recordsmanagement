@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551801",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39327"
+    },
+    "series_metadata": {
+      "series_id": "GAR-VT-03",
+      "series_title": "Vehicle Operation Files",
+      "series_description": "Files concerning the ownership and maintenance of Ohio Attorney General vehicles. Records include, but are not limited to, service records, compilation sheets, operation maintenance reports of licensed vehicles, warranty and guaranty statements, operating manuals, reports and work orders, accident reports, repair records, and mileage and usage logs.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: if concerning maintenance, service, expired registration, or usage log records. All other documents, such as title and current registration, should be retained vehicle is salvaged or sold ; Paper: if concerning maintenance, service, expired registration, or usage log records. All other documents, such as title and current registration, should be retained vehicle is salvaged or sold",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2023-01-23",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

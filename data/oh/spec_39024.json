@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DNR",
+      "schedule_type": "specific",
+      "schedule_id": "725-1020",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39024"
+    },
+    "series_metadata": {
+      "series_id": "732-001",
+      "series_title": "Security and Video Footage",
+      "series_description": "Security and Video Logs are used to maintain security of Department of Natural Resources facilities and buildings, as well as assist in any investigative action that may need to be conducted. The security video system captures movement in certain areas of Department of Natural Resources facilities by floor, door, and/or area. The running date, time, and locations are logged in the video system. Files may include, but are not limited to video, screen captured photos from video, and transaction logs from the video system; but does not include body camera, dashboard camera, or other video footage captured as part of an investigation.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Video automatically overwritten a minimum of 21 days",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2021-06-04",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

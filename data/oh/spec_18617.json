@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DAS",
+      "schedule_type": "specific",
+      "schedule_id": "11001344",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/18617"
+    },
+    "series_metadata": {
+      "series_id": "NS-TO-03",
+      "series_title": "Trouble Ticketing Reporting System",
+      "series_description": "This series consists of reports of phone line problems, feature problems, CCMIS system problems, voicemail problems, auto attendant problems and all other voice problems that need to be tracked.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: phone line problems , all others length of contract",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2003-01-16",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

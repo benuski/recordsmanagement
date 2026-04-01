@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "INS",
+      "schedule_type": "specific",
+      "schedule_id": "820-0538",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/21662"
+    },
+    "series_metadata": {
+      "series_id": "GAR-RPM-10",
+      "series_title": "Front Desk Logs",
+      "series_description": "Daily log of activities at the receptionist desk; sign-in sheets for entry and departure of visitors, contractors, and special hearings or meetings; delivery log; weekend sign in logs.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: In office ; ; Electronic: In office",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Paper: Wastepaper ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2005-05-19",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

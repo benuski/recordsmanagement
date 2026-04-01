@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OTC",
+      "schedule_type": "specific",
+      "schedule_id": "50580441",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/24870"
+    },
+    "series_metadata": {
+      "series_id": "OTC-503-06",
+      "series_title": "Post Audit Exception Tickets",
+      "series_description": "Includes end of shift slips, special use cards, lost tickets, unauthorized u-turn tickets, vehicle breakdown special receipts. Tour of Duty Maintenance toll tickets and any toll ticket that was not handled in a normal fashion. Also includes closed lane treadle cards.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: and audited",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "Paper: Recycle",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2008-09-09",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

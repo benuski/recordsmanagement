@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "ODM",
+      "schedule_type": "specific",
+      "schedule_id": "50750114",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35908"
+    },
+    "series_metadata": {
+      "series_id": "503-01-00",
+      "series_title": "ProWatch Identification Badge Transactions",
+      "series_description": "Records of access to/or in the ODM suite associated with a card holder''s (employee, contractor, etc.) authorized badge.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: records two (2) years",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2023-05-15",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

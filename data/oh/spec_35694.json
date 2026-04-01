@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "855-0265",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35694"
+    },
+    "series_metadata": {
+      "series_id": "C-18",
+      "series_title": "Medical Only claim files",
+      "series_description": "The medical only claim file contains information pertaining to a claimant’s claim for workers’ compensation benefits, such as, but not limited to: medical records, requests for treatment, and orders issued by BWC or the Industrial Commission. A medical only claim is a claim in which only medical benefits have been paid, or requested, by the claimant, and no compensation has been paid. The statute of limitations for medical only claims is as follows: •For claims with DOI prior to 12/11/67, the claim expires ten (10) years from the last medical bill payment, or ten (10) years from the date of injury if no medical bill payment(s). •For claims with DOI from 12/11/67 to 8/24/06, the claim expires six (6) years from the last medical bill payment, or six (6) years from the date of injury if no medical bill payment(s). •For claims with DOI from 8/25/06 to 9/14/20, the claim expires five (5) years from the last medical bill payment, or five (5) years from the date of injury if no medical bill payment(s). •For claims with DOI on or after 9/15/2020, the claim expires five (5) years from the date of the last medical service rendered, or five (5) years from the date of injury if no medical benefits are provided.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: medical only claim file claim has reached appropriate statute of limitations (i.e. expiration date) according date of injury (DOI) year. Follow appropriate statute and add 6 (six) years retention business purposes. ; Paper: medical only claim file claim has reached appropriate statute of limitations (i.e. expiration date) according date of injury (DOI) year. Digitally image claim file mail, 30 days quality control, and ; Microform: medical only claim file claim has reached appropriate statute of limitations (i.e. expiration date) according date of injury (DOI) year. Follow appropriate statute and add 6 (six) years retention business purposes",
+      "duration_years": 6,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred ; Microform: Burn",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2024-01-30",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

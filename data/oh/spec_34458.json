@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "CCC",
+      "schedule_type": "specific",
+      "schedule_id": "50670158",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/34458"
+    },
+    "series_metadata": {
+      "series_id": "CCC-026",
+      "series_title": "Felony Investigation Files",
+      "series_description": "Files created in the investigation of a felony case.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: six years offense is committed, when case has exhausted all legal remedies, no longer determined be of evidentiary value, or otherwise required by law, whichever is longer ; Electronic: six years offense is committed, when case has exhausted all legal remedies, no longer determined be of evidentiary value, or otherwise required by law, whichever is longer",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2024-10-18",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DYS",
+      "schedule_type": "specific",
+      "schedule_id": "14700114",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/16947"
+    },
+    "series_metadata": {
+      "series_id": "ADM-B0001",
+      "series_title": "Video Surveillance Recordings",
+      "series_description": "Video Surveillance electronic recordings created at DYS facilities",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: three (3) months",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2001-08-14",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

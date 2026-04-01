@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TOS",
+      "schedule_type": "specific",
+      "schedule_id": "10900575",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/30868"
+    },
+    "series_metadata": {
+      "series_id": "SEC-106",
+      "series_title": "Confirmed Reconciliations of Assets",
+      "series_description": "Electronic files that are sent to the Trust department by either a custodial bank or a custodial fund. Depending on the fund and portfolio type, such reconciliations are performed on either a weekly or monthly basis. In these files, the custodial banks and custodial funds are reconciling their records against each other and identifying any discrepancies.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: conclusion of current fiscal year, and an additional 6 fiscal years",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2013-01-08",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

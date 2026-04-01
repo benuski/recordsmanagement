@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "COM",
+      "schedule_type": "specific",
+      "schedule_id": "18000643",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/25456"
+    },
+    "series_metadata": {
+      "series_id": "BW-48",
+      "series_title": "Out of State Supplier Files",
+      "series_description": "This file contains the original application pertaining to the supplier receiving a permit to supply their products within the state of Ohio. The permit is renewed yearly and the renewal application and the copy of the renewal is included in the file.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Paper files are kept ; Electronic: Out of State Supplier Applications are processed",
+      "duration_years": 999,
+      "duration_months": 6,
+      "disposition_method": "Paper: Recycle ; Electronic: Permanent",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2010-06-15",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

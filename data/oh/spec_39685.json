@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OSB",
+      "schedule_type": "specific",
+      "schedule_id": "51030044",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39685"
+    },
+    "series_metadata": {
+      "series_id": "OSB-341",
+      "series_title": "Special Needs Records (Student Not Eligible)",
+      "series_description": "Referrals, evaluations, evaluation reports, and notices for students determined not to be eligible for the special education program",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: student determined be ineligible ; Electronic: student determined be ineligible",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2024-12-19",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

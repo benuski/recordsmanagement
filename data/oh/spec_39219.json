@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DAS",
+      "schedule_type": "specific",
+      "schedule_id": "11001659",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39219"
+    },
+    "series_metadata": {
+      "series_id": "PUR-07",
+      "series_title": "OAKS Retired Asset Transactions and Backup Documentation",
+      "series_description": "Details of retired asset transactions and documents authorizing disposal investigation results and disposal records. Follow GF-WV-07",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: scanned in OAKS or audited by State Auditor, audit report is released, and all discrepancies resolved. Electronic",
+      "duration_years": 6,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2022-06-02",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

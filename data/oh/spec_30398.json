@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OTC",
+      "schedule_type": "specific",
+      "schedule_id": "50580590",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/30398"
+    },
+    "series_metadata": {
+      "series_id": "OTC501-161",
+      "series_title": "Interagency Group (IAG) Credit Card Equity Settlement Statements",
+      "series_description": "Credit card equity is settled quarterly with other Interagency Group (IAG)members. This file includes electronic credit card equity calculations and electronic files from other IAG members.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2012-06-01",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

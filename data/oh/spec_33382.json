@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AUD",
+      "schedule_type": "specific",
+      "schedule_id": "10700278",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/33382"
+    },
+    "series_metadata": {
+      "series_id": "070-IT-06",
+      "series_title": "Security Video and Logs",
+      "series_description": "Security Video and Logs are used to maintain security within the State Auditors office as well as assist in any investigative action that may need to be conducted. The security video system captures movement in certain areas within the AOS facilities per floor, door, and/or area. The running date, time and locations are logged into the video system. Screen shots can be grabbed from the video. Files may include, but are not limited to, video, screen captured photos from video and transaction logs from the video system.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Video automatically overwritten a minimum of 21 days",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2016-01-26",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

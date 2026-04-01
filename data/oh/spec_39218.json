@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DAS",
+      "schedule_type": "specific",
+      "schedule_id": "11001664",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39218"
+    },
+    "series_metadata": {
+      "series_id": "PUR-06",
+      "series_title": "Surplus Property Disposition Files",
+      "series_description": "Documents pertaining to surplus property, including, but not limited to: Turn-In form which documents asset and serial numbers, agency contact, description of items and condition of asset. Follows GAR-OES-11",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Retained in Salesforce life of application ; Paper: property is disposed of",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase ; Paper: Recycle",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2022-06-02",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

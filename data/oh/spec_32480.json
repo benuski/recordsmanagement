@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551549",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/32480"
+    },
+    "series_metadata": {
+      "series_id": "RM-AGO-03",
+      "series_title": "Records Management Work Order Requests",
+      "series_description": "Requests between AGO employees and Records Management concerning, but not limited to, the use and maintenance of off-site records storage, the office's document management/case management systems, or confidential shredding services. Series does not concern records disposal requests which are retained under RM-AGO-02.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2023-10-19",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

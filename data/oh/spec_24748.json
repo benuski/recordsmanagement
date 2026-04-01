@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OTC",
+      "schedule_type": "specific",
+      "schedule_id": "50580178",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/24748"
+    },
+    "series_metadata": {
+      "series_id": "OTC-504-21",
+      "series_title": "System Backup Files for Systems With Confidential Information",
+      "series_description": "Copies of master files or databases, application software, logs, directories, and other records needed to restore a system in case of a disaster or inadvertent destruction.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: per following schedule: Daily Backups 30 days; Month end backups ; and Year end backups 5 years",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2007-08-07",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

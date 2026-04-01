@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DHS",
+      "schedule_type": "specific",
+      "schedule_id": "760-1594",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/38485"
+    },
+    "series_metadata": {
+      "series_id": "4019",
+      "series_title": "Returned driver license and state identification (DL/ID) cards",
+      "series_description": "This series contains all driver license and state identification (DL/ID) cards which are returned for a second time to the Ohio Bureau of Motor Vehicles (BMV) as undeliverable. As a result, electronic files are generated in the Business Application Services System during the scanning process.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: ninety (90) days from second time card is returned BMV as undeliverable. ; Electronic: ninety (90) days from second time card is returned BMV as undeliverable",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2019-08-08",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

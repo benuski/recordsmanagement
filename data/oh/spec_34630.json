@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OIC",
+      "schedule_type": "specific",
+      "schedule_id": "845-0507",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/34630"
+    },
+    "series_metadata": {
+      "series_id": "IC-COMM-08",
+      "series_title": "Comment Cards",
+      "series_description": "Comment Cards are used to assess customer satisfaction and or service concerns that may arise within the agency. They can be received in either a paper or electronic format. The comments are reviewed, compiled and used to upgrade, monitor, or improve existing services within the agency. At times, they may contain some personal and confidential information.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: from date on card ; Electronic: from date on card",
+      "duration_years": null,
+      "duration_months": 3,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2017-08-17",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

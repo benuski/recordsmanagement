@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TAX",
+      "schedule_type": "specific",
+      "schedule_id": "110-0193",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/31482"
+    },
+    "series_metadata": {
+      "series_id": "110-124-29",
+      "series_title": "EXCISE & ENERGY TAX TAX REFUND JOURNALS",
+      "series_description": "The refund journals for cigarette, beer, wine, severance, kilowatt,motor fuel, other tobacco products, tire fee,horse-racing tax, casino and and highway use tax refunds include the journal entry, the OAKS disbursement information, the auditors warrant journal & any related documentation.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: end of calendar year in which refund was processsed. ; Electronic: 4 year end of calendar year in which refund was processed",
+      "duration_years": 4,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2013-06-27",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

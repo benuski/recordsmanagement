@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551805",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39360"
+    },
+    "series_metadata": {
+      "series_id": "BCI-OLG-09",
+      "series_title": "BMV-Offender Watch Reporting",
+      "series_description": "Daily comparison report ran between information found in Ohio Bureau of Motor Vehicle (BMV) drivers license information with sex offender registry information found in Offender Watch to notify of potential information on offenders that may need to be updated by local law enforcement. Records include, but are not limited to, information on individuals such as social security numbers, driver's license information, and sex offender information.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: daily report 30 days",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2023-08-11",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

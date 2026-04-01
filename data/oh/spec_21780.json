@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "ETH",
+      "schedule_type": "specific",
+      "schedule_id": "146-0008",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/21780"
+    },
+    "series_metadata": {
+      "series_id": "PER-02",
+      "series_title": "Payroll Records",
+      "series_description": "Payroll files from the Ethics Commission; warrant & disbursement records related to payroll; time logs, leave requests, pay period information and related documents contained in payroll files maintained by the agency.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: applicable fiscal period has been audited by Auditor of State and audit report is released and all discrepancies are resolved (at least )",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2005-06-08",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

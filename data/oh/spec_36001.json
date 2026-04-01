@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TAX",
+      "schedule_type": "specific",
+      "schedule_id": "11100701",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/36001"
+    },
+    "series_metadata": {
+      "series_id": "GP-M-01",
+      "series_title": "REQUEST FOR INVESTIGATIONS",
+      "series_description": "REQUESTS FOR OUTSIDE AGENCY (EX. HIGHWAY PATROL, AUDITOR, EOD...) TO INVESTIGATE AN EMPLOYEE. INCLUDES REQUEST, REFERRAL, AND ANY ATTACHED DOCUMENTATION INCLUDING PRELIMINARY INVESTIGATION BEFORE THE REFERRAL.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: compleation of investigation or decision not investigate ; Electronic: 1 years completion of investigation or decision not investigate",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2019-02-14",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

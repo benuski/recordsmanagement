@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TAX",
+      "schedule_type": "specific",
+      "schedule_id": "11100836",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/38540"
+    },
+    "series_metadata": {
+      "series_id": "DTE 70",
+      "series_title": "District Tax Rates",
+      "series_description": "District tax rate reports are sent to each county each year for confirmation prior to calculation of tax reduction factors. County verification and approval is necessary before TRFs are calculated.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Ten years date DTE 70 report is run. ; Electronic: Ten years date DTE 70 report is run",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Trash ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2019-09-05",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

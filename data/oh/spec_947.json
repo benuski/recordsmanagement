@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGE",
+      "schedule_type": "specific",
+      "schedule_id": "490-0078",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/947"
+    },
+    "series_metadata": {
+      "series_id": "MIS-04",
+      "series_title": "Title V Program Data",
+      "series_description": "Raw data on Title-V programs.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: in office",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "1991-03-23",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

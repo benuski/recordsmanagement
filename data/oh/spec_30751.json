@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "JFS",
+      "schedule_type": "specific",
+      "schedule_id": "795-0836",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/30751"
+    },
+    "series_metadata": {
+      "series_id": "UC-RC-006",
+      "series_title": "Court Open & Closed Case Files",
+      "series_description": "Files contain appeals from higher authority decisions. Includes, but may not be limited to notice of appeal to court, copy of appellants appeal, demand for transcript, copy of the director’s file, transcript of hearing officer and commission hearings, decisions of the hearing officer and the commission, applicant to institute further appeal, notice of hearings, correspondence relevant to the case, decisions of the courts.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: in office case is closed ; Electronic: 5 years",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2024-05-24",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

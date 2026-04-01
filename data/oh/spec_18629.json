@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "UST",
+      "schedule_type": "specific",
+      "schedule_id": "50530001",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/18629"
+    },
+    "series_metadata": {
+      "series_id": "ADM-6",
+      "series_title": "Incomplete Applications",
+      "series_description": "Includes any application (linked deposit or hardship) received by the Board for which additional information is required to be able to make a determination and has been requested but not received by the Board.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: date request additional information document and complete application has been requested",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "Paper: Wastepaper",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2003-01-13",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

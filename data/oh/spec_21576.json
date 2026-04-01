@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "INS",
+      "schedule_type": "specific",
+      "schedule_id": "820-0078",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/21576"
+    },
+    "series_metadata": {
+      "series_id": "GF-M-07",
+      "series_title": "Control Ledger on Income",
+      "series_description": "Records of all income received by ODI.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: audited, report released'' ; Paper: audited, report released''",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition_method": "Electronic: Permanent ; Paper: Permanent",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2005-07-14",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

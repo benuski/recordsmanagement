@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DAS",
+      "schedule_type": "specific",
+      "schedule_id": "11001537",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/25821"
+    },
+    "series_metadata": {
+      "series_id": "ITP-8",
+      "series_title": "Electronic Transaction Report Waivers",
+      "series_description": "OIT may waive strict compliance with administrative rule 123:3-1-01 for a given electronic transaction under certain conditions. This report is a list of state agencies granted permission to waive compliance with the administrative rule.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: in office area it has been superseded or rescinded ; Paper: in office area it has been superseded or rescinded",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2008-03-11",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

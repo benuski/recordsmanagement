@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "LOT",
+      "schedule_type": "specific",
+      "schedule_id": "950-0522",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/29228"
+    },
+    "series_metadata": {
+      "series_id": "4-01-01",
+      "series_title": "Disk File Storage Records",
+      "series_description": "Disk File Storage Records comprise all records stored on magnetic disks packs or storage units that store a high volume of data on metal platters, i.e. plates. Disks pack storage facilities quick record retrieval and high-volume storage.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: discs audit cycle, review administrative value",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2024-09-30",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

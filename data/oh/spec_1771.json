@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TAX",
+      "schedule_type": "specific",
+      "schedule_id": "110-0220",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/1771"
+    },
+    "series_metadata": {
+      "series_id": "110/304-24",
+      "series_title": "TREASURER OF STATE ACTIVITY REPORTS",
+      "series_description": "Computer generated reports reflecting monthly Treasurer's activity.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: and current, 1 year audit by auditor",
+      "duration_years": 4,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "1989-03-09",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

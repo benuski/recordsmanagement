@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "INS",
+      "schedule_type": "specific",
+      "schedule_id": "68200044",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/25817"
+    },
+    "series_metadata": {
+      "series_id": "120-85",
+      "series_title": "Deposit/Revenue Reports",
+      "series_description": "Daily and monthly report of deposits made. Includes report listing all checks deposited and which funds were deposited to.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: audited by state and report released ; Electronic: audited by state and report released",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2008-03-04",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

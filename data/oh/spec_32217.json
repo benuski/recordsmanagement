@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "855-0637",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/32217"
+    },
+    "series_metadata": {
+      "series_id": "PERS-7",
+      "series_title": "Proficiency and Civil Service Testing",
+      "series_description": "These testing forms and demographic sheets contain proficiency tests and results of prospective employees.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: completed Applicant test . ; Electronic: in Access Database , and",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2014-04-18",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551768",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/38874"
+    },
+    "series_metadata": {
+      "series_id": "GAR-OES-13",
+      "series_title": "Postal and Registered Mail Records",
+      "series_description": "Records used to track mail received or sent from the Ohio Attorney General's Office (AGO) from overnight or ground shipping services. Records include, but are not limited to, mailing slips, return receipts, reports, tracking logs, and other tracking records received when mail is sent.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: . ; Paper: , unless scanned and saved electronically",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2020-07-15",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

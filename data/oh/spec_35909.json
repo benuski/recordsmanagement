@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "ODM",
+      "schedule_type": "specific",
+      "schedule_id": "50750112",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35909"
+    },
+    "series_metadata": {
+      "series_id": "504-01-00",
+      "series_title": "ODM Lobby Security Footage",
+      "series_description": "Video camera footage of the lobby of the ODM suite wired to a digital video recorder (DVR). Footage retention varies, but routinely covers a 14 day period. Footage will not be reproduced after being recorded over on the DVR.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: available period; typically 14 days",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2023-05-15",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

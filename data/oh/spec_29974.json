@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OCC",
+      "schedule_type": "specific",
+      "schedule_id": "10530321",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/29974"
+    },
+    "series_metadata": {
+      "series_id": "OCC-LEG-10",
+      "series_title": "Proprietary or Trade Secret Information in Litigation Case Files",
+      "series_description": "Documents in OCC’s litigation case files that contain information that is claimed (generally by third parties) to be proprietary or trade secret and is subject to a protective order or agreement.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Save on OCC Z-drive in a folder with restricted access. and maintain on any system that replaces OCC Z-drive. Maintain permanently in a machine readable form. ; Paper: paper documents in a locked storage area within OCC with restricted access. Scan and store documents on OCC Z-drive in a folder with restricted access. paper document is scanned, it can be disposed of once it is no longer of administrative value. Documents are shreded or disposed of in accordance with applicable protectie order, agreement or other protocol",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition_method": "Electronic: Permanent ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2011-12-30",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

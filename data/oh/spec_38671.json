@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "COM",
+      "schedule_type": "specific",
+      "schedule_id": "800-0305",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/38671"
+    },
+    "series_metadata": {
+      "series_id": "GEN-0305",
+      "series_title": "GAF-12 Bank Deposit Slip",
+      "series_description": "Bank receipt verifying then amount deposited into a bank account.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: paper bank deposit records in form of paper deposit slips cash and check deposits and a paper Deposit Detail Report from depository bank which records electronic deposits and identifies date and amount of deposit into Division bank account(s) audited by Auditor of State and audit report released and any discrepancies are resolved or, if not noticed audit or under audit, two fiscal years following date issued",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2026-01-05",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

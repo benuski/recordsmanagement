@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TOS",
+      "schedule_type": "specific",
+      "schedule_id": "10900660",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35413"
+    },
+    "series_metadata": {
+      "series_id": "SEC-306",
+      "series_title": "Confirmations of collateral pledged by depository banks to trustees",
+      "series_description": "The Ohio Pooled Collateral System banks pledge required collateral to the Treasurer at a qualified trustees pursuant to R.C. Chapter 135. Trustees then send a confirmation of the receipt of such pledge directly to the Treasurer. The confirmation generally includes a description of the pledged security, the amount of the security, maturity date, interest rate, and names of the pledgor and pledgee.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: duration that collateral remains pledged and active. Further, conclusion of fiscal year in which collateral is released, an additional 4 fiscal years",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2018-12-13",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

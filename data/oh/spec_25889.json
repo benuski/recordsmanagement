@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OTC",
+      "schedule_type": "specific",
+      "schedule_id": "50580371",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/25889"
+    },
+    "series_metadata": {
+      "series_id": "OTC-501-89",
+      "series_title": "Accounts to be Embossed/New Year Cards Printout",
+      "series_description": "Computer list of charge account customers showing plastic cards to be made.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: ; cards will have expired ; Electronic: ; cards will have expired",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2008-06-07",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

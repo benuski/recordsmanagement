@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "JFS",
+      "schedule_type": "specific",
+      "schedule_id": "6000168",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/21373"
+    },
+    "series_metadata": {
+      "series_id": "UC-106",
+      "series_title": "&#65279;Failed Direct Deposit Warrant Transactions",
+      "series_description": "&#65279;Direct deposit warrant transactions that have failed due to on-line entry of incorrect or incomplete account information from claimants who have elected to have their UC benefits directly deposited into their bank account. Benefits Finance issues a Notice of Eligibility Issue form alerting the claimant of the error and requesting they send in a voided personal check to verify the correct account information. Once the correct data has been entered into the Ohio Job Insurance (OJI) system, the voided checks are put into a locked pouch and sent to Records Management for shredding. The pouch is then returned to Benefits Finance for future use.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: &#65279; audited by Auditor of State, report is released and all discrepancies are resolved ; Paper: &#65279; in office information is entered into OJI",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase ; Paper: Recycle",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2005-03-16",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

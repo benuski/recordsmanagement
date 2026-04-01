@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "INS",
+      "schedule_type": "specific",
+      "schedule_id": "820-0092",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/26011"
+    },
+    "series_metadata": {
+      "series_id": "210-04",
+      "series_title": "Statistical Data",
+      "series_description": "Statistical data obtained from rating organizations, statistical agents, and insurance companies and any ODI produced reports generated from said data (Paper/Electronic)",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: a minimum of of data and reports created from said data ; Electronic: a minimum of of data and reports created from said data",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2026-03-12",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

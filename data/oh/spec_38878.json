@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AUD",
+      "schedule_type": "specific",
+      "schedule_id": "10700281",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/38878"
+    },
+    "series_metadata": {
+      "series_id": "SIU-07",
+      "series_title": "Fraud Log",
+      "series_description": "A listing of reports of fraud received by the Auditor of State. These include the reporting of fraud, misuse and misappropriation of public money by any public office or public official. This log includes the date that the complaint was received, a general description of the nature of the complaint, the name of the public office or agency with regard to which the complaint is directed, and a general description of the status of the review by the Auditor of State.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2020-07-28",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "RAC",
+      "schedule_type": "specific",
+      "schedule_id": "875-0002",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/32859"
+    },
+    "series_metadata": {
+      "series_id": "RC-02",
+      "series_title": "CHEMIST''S DAILY REPORTS - NEGATIVE",
+      "series_description": "Chemist''s daily reports shows whether the urine, blood, or saliva samples were negative.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: current and previous year ; Electronic: current year and previous year",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Recycle ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2022-05-16",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

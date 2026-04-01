@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TOS",
+      "schedule_type": "specific",
+      "schedule_id": "10900525",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/33370"
+    },
+    "series_metadata": {
+      "series_id": "IT-15",
+      "series_title": "Data from calls and payments placed through the Ohio Electronic Funds Transfer System",
+      "series_description": "Recordings of conversations between taxpayers and operators or the voicemail account at the Ohio Electronic Funds Transfer System telephone number. This system is also known as IVR (Interactive Voice Recognition). This record series also includes a log of recorded calls, as well as payment information entered by those tendering electronic payments to the Treasurer''s office by telephone. Recordings are retrievable if requestor provides date and approximate time of call, phone number that call was placed from, whether caller spoke with an operator or left a message, and if applicable, the name of the operator with whom the caller spoke. Tax payment data is stored in this record series, but also copied at the end of each day into files archived pursuant to other retention schedules.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: one year from date of recording",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2022-05-03",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

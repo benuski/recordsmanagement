@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGR",
+      "schedule_type": "specific",
+      "schedule_id": "17000189",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/19211"
+    },
+    "series_metadata": {
+      "series_id": "AGR-0107",
+      "series_title": "External Investigations & Confidential Court Cases",
+      "series_description": "These are investigations of agency rules, administrative rules, or the Ohio Revised Code for divisions that include, for example, Plant Industries (e.g. incorrect, illegal use of pesticides), Amusement Ride Safety (e.g. accidents on amusement rides), Meat Inspection, Dairy, and Auctioneers. These records include, but are not limited to, case transcripts, photographs, video recordings, audio recordings, and other court documents.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Keep case is closed. records need be held all matters in case have been resolved and all appeals have been exhausted. ; Paper: paper file during open, active investigation. Once case becomes dormant or closed, electronic storage",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2021-12-17",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

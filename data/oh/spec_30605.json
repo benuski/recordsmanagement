@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TOS",
+      "schedule_type": "specific",
+      "schedule_id": "10900543",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/30605"
+    },
+    "series_metadata": {
+      "series_id": "SEC-704",
+      "series_title": "Transaction Reports (Agency Collateral)",
+      "series_description": "Monthly reports generated from Treasurer''s computer system that list all agency collateral transactions and activity within a given month. This report lists information for all pledges, releases, increases or decreases in pledge amounts, and updates to records resulting from submission of Account Verification Request Forms.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: conclusion of fiscal year in which report was generated, an additional 4 fiscal years",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2012-10-03",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

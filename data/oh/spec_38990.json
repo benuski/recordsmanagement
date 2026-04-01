@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "PUC",
+      "schedule_type": "specific",
+      "schedule_id": "870-0575",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/38990"
+    },
+    "series_metadata": {
+      "series_id": "78.7",
+      "series_title": "Provisional medical certification records",
+      "series_description": "Provisional medical certifications for applicants to determine if applicant meets the program qualifications. Files may include applicant’s personal information, medical history, driving records, physician reports, driver’s license numbers, social security numbers, applicant’s work history and related correspondence.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Maintain two years inactive date (withdrawn)",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2021-03-01",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

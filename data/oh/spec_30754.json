@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DMR",
+      "schedule_type": "specific",
+      "schedule_id": "15900214",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/30754"
+    },
+    "series_metadata": {
+      "series_id": "DMR-LS-11",
+      "series_title": "DODD Claims",
+      "series_description": "Files regarding claims for monies owed to DODD which are referred to Attorney General - Revenue Recovery.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: ; Paper",
+      "duration_years": 7,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Trash",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2018-11-09",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TAX",
+      "schedule_type": "specific",
+      "schedule_id": "11100535",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/28416"
+    },
+    "series_metadata": {
+      "series_id": "IT-1140ES",
+      "series_title": "Ohio Estimated W/H Tax Payment Coupon for Pass-Through Entities/Trust",
+      "series_description": "This form is used by Pass-Through Entities and trusts to make estimated payments on a quarterly basis.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Keep scanned. If not scanned, keep retention. ; Electronic: An electronic record is maintained via ODT Info System 10 years",
+      "duration_years": 4,
+      "duration_months": 6,
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2010-03-09",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

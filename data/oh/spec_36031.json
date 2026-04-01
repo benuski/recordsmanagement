@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TAX",
+      "schedule_type": "specific",
+      "schedule_id": "110-0166",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/36031"
+    },
+    "series_metadata": {
+      "series_id": "110-123-11",
+      "series_title": "FUEL DEALER''S ACCOUNT FILES",
+      "series_description": "Files of all active licensed and registered dealers containing information pertaining to licensing and bonding.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Four years expiration of calendar year in which account is cancelled. ; Electronic: Four years expiration of calendar year in which account is cancelled",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2019-02-20",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

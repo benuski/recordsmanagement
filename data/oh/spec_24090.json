@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DRC",
+      "schedule_type": "specific",
+      "schedule_id": "501-0015",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/24090"
+    },
+    "series_metadata": {
+      "series_id": "REC-0031",
+      "series_title": "Incarcerated Person Visiting Records",
+      "series_description": "A file that contains documentation regarding an incarcerated person's visitors and visiting record.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: This file will be merged with incarcerated person master file upon incarcerated person's release from custody. ten (10) years final release, maximum expiration, death, definite expiration, etc. ; Electronic: This file will be merged with incarcerated person master file upon incarcerated person's release from custody. ten (10) years final release, maximum expiration, death, definite expiration, etc",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2024-10-28",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

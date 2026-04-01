@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGR",
+      "schedule_type": "specific",
+      "schedule_id": "700-0155",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/33600"
+    },
+    "series_metadata": {
+      "series_id": "700-156",
+      "series_title": "Administrative Hearing Files",
+      "series_description": "Administrative Hearing Files may include, but are not limited to, notice of opportunity for hearing, letters of warning / instruction, request for hearing, hearing notifications, scheduling information, case summons, court record, continuances, file sent by client (gathered during investigation), legal research, evidentiary materials, pleadings, exhibits, correspondence, attorney work product, report and recommendation from hearing officer, settlement and negotiation documents, and final adjudication order. (Includes 119 hearings).",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: date of final appealable order, settlement agreement, dismissal, or saved electronically. ; Electronic: date of final appealable order, settlement agreement, or dismissal",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2016-07-14",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

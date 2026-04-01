@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AUD",
+      "schedule_type": "specific",
+      "schedule_id": "10700235",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/27552"
+    },
+    "series_metadata": {
+      "series_id": "070-IT-04",
+      "series_title": "Workpaper Review Logs",
+      "series_description": "Used to track and monitor employee access to PDF audit workpaper files. These logs are used by information Technology departmental personnel to monitor who accesses the GP (Great Plains) system to view audit workpapers that have been imaged. These logs include which audit project and workpaper section is viewed including the date and time accessed.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2009-06-03",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

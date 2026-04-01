@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "INS",
+      "schedule_type": "specific",
+      "schedule_id": "820-0119",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/21560"
+    },
+    "series_metadata": {
+      "series_id": "120-66",
+      "series_title": "Payroll Posting",
+      "series_description": "Overtime and other documents that change an employee''s pay-check.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Added employee personnel file posted. ; Electronic: Added employee personnel file posted",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Other ; Electronic: Other",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2005-06-29",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

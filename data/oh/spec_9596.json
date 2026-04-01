@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "SLC",
+      "schedule_type": "specific",
+      "schedule_id": "13730443",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/9596"
+    },
+    "series_metadata": {
+      "series_id": "13730443",
+      "series_title": "Closed School Loan Discharge Files",
+      "series_description": "Files for each student whose loan(s) were discharged in accordance with federal regulations due to the closure of the school the borrower/student attended. Files contain the OSAC Certification Statement/Application for Loan Discharge, lender claim form (",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: from date loans are discharged or dissolution of Agency",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Paper: Recycle",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2001-06-30",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

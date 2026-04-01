@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "855-1034",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/26358"
+    },
+    "series_metadata": {
+      "series_id": "MIAD-36",
+      "series_title": "Computer Systems Configuration",
+      "series_description": "The Computer Systems Configuration covers the identification, recording, tracking and reporting of components in the computer system environment. Some examples include servers, operating systems, application software, local and wide area network configurations, other hardware and software configurations, diagrams and other documentation.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Keep configuration item is retired, and",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2008-07-16",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

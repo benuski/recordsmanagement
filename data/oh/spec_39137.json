@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DDD",
+      "schedule_type": "specific",
+      "schedule_id": "50740028",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39137"
+    },
+    "series_metadata": {
+      "series_id": "DDDRESR-3",
+      "series_title": "Intermediate Care Facilities Cost Reports",
+      "series_description": "Documentation required for Intermediate Care Facility cost reports, including communications, supporting documents, clarifications, and resubmission of cost reports.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: later of either or completion of an initiated audit",
+      "duration_years": 10,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2022-02-24",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

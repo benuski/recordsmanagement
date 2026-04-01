@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DHS",
+      "schedule_type": "specific",
+      "schedule_id": "760-1397",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/28240"
+    },
+    "series_metadata": {
+      "series_id": "IT-01",
+      "series_title": "Prowatch Security Logs",
+      "series_description": "Prowatch is a security management software used to create access cards (or badges) for all ODPS and ODOT employees as well consultants working for either agency to access ODPS and ODOT buildings. Examples of ODPS buildings include Shipley, Alum Creek, Patrol Academy and Centre School. Each time an employee or consultant swipes their badge at an external card reader used to gain access to a building or an internal card reader used a to gain access to a secure area within a building, the record of the ''swipe'' is recorded in the Prowatch system. Specific data recorded each time the card is swiped includes who swiped, when it occurred, which door was swiped and if the swipe was success (not all individuals have access to all doors or during all times). No personal or confidential data is recorded as part of the swipe. The data that is stored is used mostly during internal investigations dealing with attendance or employees/consultants tardiness issues. The system does not track visitors to any physical location or their movement throughout the building. Currently, a record retention schedule has not been established for this data. After conferring with ODPS Legal, I.T., the Security Operations Group (IT) and the Ohio State Highway Patrol, it is the belief that this data should be retained for the current year plus one historical year.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: One year Current",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2010-01-11",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

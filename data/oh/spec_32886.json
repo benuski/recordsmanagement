@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551565",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/32886"
+    },
+    "series_metadata": {
+      "series_id": "566-OAG-8",
+      "series_title": "Section Library Requests",
+      "series_description": "Research requests from AGO sections to the AGO library for assistance on research, citations, bibliographic instruction, library setup, or advice. These files include, but are not limited to, the initial section request, the library''s response, and any research or information gathered to answer a request. [If research rises to the level of having continuing value as a resource for the office, then the research will be maintained in the PDF library under a different retention schedule. If a request is related to a long term project, the responses and research collected for the project will be maintained with the project file under a different retention schedule.]",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: completion of request",
+      "duration_years": null,
+      "duration_months": 6,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2015-04-01",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TAX",
+      "schedule_type": "specific",
+      "schedule_id": "11100713",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/31090"
+    },
+    "series_metadata": {
+      "series_id": "IT-AS-01",
+      "series_title": "Site/Equipment Support Files",
+      "series_description": "Records documenting support services provided to specific data processing equipment or installations including site visit reports, program & equipment service reports, service histories & correspondence & memoranda.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: site visit reports, problem & equipment service reports & routine correspondence & memoranda warranty or guarantee of service has expired",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2013-03-01",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

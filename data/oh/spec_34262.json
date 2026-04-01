@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGR",
+      "schedule_type": "specific",
+      "schedule_id": "17000154",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/34262"
+    },
+    "series_metadata": {
+      "series_id": "AGR-3001",
+      "series_title": "Milk Hauler's License",
+      "series_description": "This is a license issued to a business or individual that owns, leases, or controls a milk tank truck or conveyance. The license is perpetual and remains active until the hauler goes out of business or the license is revoked.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Keep license is inactive. ; Electronic: Keep license is inactive",
+      "duration_years": 4,
+      "duration_months": null,
+      "disposition_method": "Paper: Wastepaper ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2021-01-07",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

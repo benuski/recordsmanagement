@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "PUC",
+      "schedule_type": "specific",
+      "schedule_id": "70000083",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/33249"
+    },
+    "series_metadata": {
+      "series_id": "1.7.3",
+      "series_title": "Apples to Apples Charts",
+      "series_description": "Online comparison charts of electric and natural gas supplier offers, which include prices, contract terms, cancellation fees and promotional offer details. The Apples to Apples comparison charts are electronically updated daily.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2015-12-03",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

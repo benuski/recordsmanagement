@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "PUC",
+      "schedule_type": "specific",
+      "schedule_id": "870-0473",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/26641"
+    },
+    "series_metadata": {
+      "series_id": "62.6",
+      "series_title": "Gas Pipeline Company Annual Reports",
+      "series_description": "1) DOT Federal Reports 2) US DOT MIS data collection forms 3) Annual Important Additions Report 4) Annual Incident and Service Failures Report",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2008-10-07",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

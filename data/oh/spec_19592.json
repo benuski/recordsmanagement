@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "INS",
+      "schedule_type": "specific",
+      "schedule_id": "820-0381",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/19592"
+    },
+    "series_metadata": {
+      "series_id": "320-24",
+      "series_title": "Service Pin Report",
+      "series_description": "Report indicating employees due to receive service pins, including notes, emails, and memos.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: In office ; ; Electronic: In office",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Paper: Wastepaper ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2003-09-22",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DHS",
+      "schedule_type": "specific",
+      "schedule_id": "760-1556",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/32810"
+    },
+    "series_metadata": {
+      "series_id": "1295",
+      "series_title": "Skywatch Tower Video Captures",
+      "series_description": "The Ohio State Highway Patrol''s (OSHP) Skywatch Tower video recording equipment is used by Ohio law enforcement agencies to support security efforts during events within the agencies'' respective jurisdictions. In accordance with OSHP''s Skywatch Tower deployment agreement, all agencies that use Skywatch Tower equipment are responsible for downloading video captured during deployment and retaining the video per their respective agencies'' retention policies. Upon completion of each deployment, OSHP technology communication technicians shall immediately delete all video captured during the event from the Skywatch Tower equipment hard-drives, which will be immediately reformatted and readied for the next deployment. OSHP Technology Communications Services will not retain any video prior to deleting and reformatting. If OSHP or the Department of Public Safety''s Ohio Investigative Unit uses the Skywatch Tower equipment, downloaded video that is routine will be retained in accordance with schedule 760-0826 (Audio and Video Recordings) for thirty days, while downloaded video that leads to investigative action will be retained with the investigation in accordance with schedule 760-0431 (Criminal Investigations).",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: At end of each deployment, Skywatch Tower video captures will be immediately deleted from Skywatch Tower video equipment hard-drives, and hard-drives will be reformatted next deployment",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2015-02-19",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

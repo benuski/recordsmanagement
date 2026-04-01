@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "JFS",
+      "schedule_type": "specific",
+      "schedule_id": "6000142",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/31024"
+    },
+    "series_metadata": {
+      "series_id": "UC-PSF-014",
+      "series_title": "Benefit Bankruptcies/Proof of Claims Records",
+      "series_description": "Record contains copies of Proof of Claim (POC) documentation received from the federal bankruptcy courts/attorneys where a claimant has filed for bankruptcy. Documentation includes claimant’s name, social security number, amount of payment and interest, if applicable, and the name of the court in which the bankruptcy was filed.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: in office or paid in full and no debt exists",
+      "duration_years": 6,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2013-03-13",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

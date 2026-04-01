@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGR",
+      "schedule_type": "specific",
+      "schedule_id": "17000157",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/34267"
+    },
+    "series_metadata": {
+      "series_id": "AGR-3002",
+      "series_title": "Milk Producer License",
+      "series_description": "This is a license issued to a milk producer i.e. a dairy farmer. Licenses are perpetual, and they are active as long as the producer is in business and the license has not been revoked.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Keep year in which license went inactive. ; Electronic: Keep year in which license went inactive",
+      "duration_years": 4,
+      "duration_months": null,
+      "disposition_method": "Paper: Wastepaper ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2021-01-07",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

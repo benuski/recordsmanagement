@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551445",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/29593"
+    },
+    "series_metadata": {
+      "series_id": "567-OAG-55",
+      "series_title": "Medical Records",
+      "series_description": "Medical records can include disability application, doctor notes, medical reports, supplemental information, childbirth leave records, and doctor''s notes for accomodating temporary medical circumstances. Utilized to track medical leave approval, status and hours, to establish patterns of abuse, and to prove that the AGO is fulfilling its legal requirements in giving access to disability and FMLA benefits (does not include ADA or Workers Compensation records).",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: from last instance. ; Paper: from last instance",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2022-08-25",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

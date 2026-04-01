@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DBH",
+      "schedule_type": "specific",
+      "schedule_id": "51130030",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39884"
+    },
+    "series_metadata": {
+      "series_id": "1590002",
+      "series_title": "Biennial Inventory of Controlled Substance",
+      "series_description": "Inventory of controlled substances taken every 2 years as required by the Drug Enforcement Agency.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: from date of inventory ; Electronic: from date of inventory",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2025-12-01",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

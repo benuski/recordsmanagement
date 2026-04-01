@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "JFS",
+      "schedule_type": "specific",
+      "schedule_id": "795-1074",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39399"
+    },
+    "series_metadata": {
+      "series_id": "DCY-APS-1",
+      "series_title": "Adult Protective Services Program Records",
+      "series_description": "Ohio Database for Adult Protective Services (ODAPS) contains reports of elder abuse, investigative records, data and reporting.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: in office ; Paper: in office 4 years and 1 year in records center",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2024-01-03",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "855-0665",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/30122"
+    },
+    "series_metadata": {
+      "series_id": "S&H-04",
+      "series_title": "Class Rosters for Outside Businesses",
+      "series_description": "The Class Rosters for Outside Businesses contains the student’s name, the name of the student’s company, the address of the student’s company, and the name of the class being taken by the student at the BWC. The Class Rosters are scanned into the Universal Document Service (UDS). The Universal Document Service (UDS) is an imaging concept that stores any type of electronic file, such as Microsoft Office documents, Adobe Acrobat, audio/video, Computer Aided Design (CAD), etc. as well as scanned images.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: in UDS , and ; Paper: 5 years, and",
+      "duration_years": 10,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2012-05-24",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

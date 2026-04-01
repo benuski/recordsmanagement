@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AUD",
+      "schedule_type": "specific",
+      "schedule_id": "10700298",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39087"
+    },
+    "series_metadata": {
+      "series_id": "070-IT-08",
+      "series_title": "Dynamics GP (Great Plaines)",
+      "series_description": "Dynamics GP is the office’s payroll, billing, and general ledger application. All AOS employees use this application to report their time and this information is sent to OAKS for payroll purposes. This application is also used to produce statements for our audit clients by identifying AOS employees who have charged time for billing. Information is broken down by district and employee as to how many hours each employee charges back to the audited entity and how many hours they have charged to administrative time for each pay period. This application also provides a listing of all entities that are active for auditing by the Auditor of State along with budgeted hours, audit cost, and activity schedules.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic",
+      "duration_years": 8,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2021-10-19",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

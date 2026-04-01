@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TOS",
+      "schedule_type": "specific",
+      "schedule_id": "10900578",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/30883"
+    },
+    "series_metadata": {
+      "series_id": "SEC-201",
+      "series_title": "Securities Lending Reports",
+      "series_description": "Electronic files downloaded from bank website that show which securities have been loaned, to whom the securities were lent, and the amount of money earned from loaning the securities. Statement also shows the assets into which the cash received from the borrowers is invested.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: conclusion of current fiscal year, and an additional 6 fiscal years",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2013-01-08",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

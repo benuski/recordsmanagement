@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DOT",
+      "schedule_type": "specific",
+      "schedule_id": "770-2644",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/36332"
+    },
+    "series_metadata": {
+      "series_id": "MaintAd-7",
+      "series_title": "Global Positioning System/Automatic Vehicle Location Snow and Ice Fleet Dashboard Camera Video",
+      "series_description": "This record series consists of video recordings from dashboard cameras mounted on ODOT''s snow and ice fleet. The video will be used for training, operational analysis, and studies. The video is saved for three consecutive days on a moving three day period. On day four, day one is erased.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Video from each dashboard camera will be saved three consecutive days. On day four, day one will be erased",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2019-05-21",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

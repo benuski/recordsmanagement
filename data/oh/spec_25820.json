@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DAS",
+      "schedule_type": "specific",
+      "schedule_id": "11001539",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/25820"
+    },
+    "series_metadata": {
+      "series_id": "ITP-7",
+      "series_title": "Electronic Transaction Reports",
+      "series_description": "This report is used by State agencies using electronic signatures for high or very high risk transactions. They must file with OIT an electronic transaction report that describes the risk and security technologies and procedures to be implemented and show that the electronic transaction is in compliance with administrative rule 123:3-1-01 on electronic signatures.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: in office area it has been superseded or recinded ; Paper: in office area it has been superseded or recinded",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2008-03-11",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DBH",
+      "schedule_type": "specific",
+      "schedule_id": "51130012",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39902"
+    },
+    "series_metadata": {
+      "series_id": "1590018",
+      "series_title": "MH Inventory Guide & Inventory Addenda",
+      "series_description": "Pre-printed listing of PSC items which is used to inventory drugs in all medication holding area throughout the pharmacy area.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: totals are verified against Institutional Inventory Dollar values Detail Report ; Paper: totals are verified against Institutional Inventory Dollar values Detail Report",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2025-11-28",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

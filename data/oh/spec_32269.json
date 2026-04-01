@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "855-1077",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/32269"
+    },
+    "series_metadata": {
+      "series_id": "SELF01",
+      "series_title": "Self Insured Risk Files",
+      "series_description": "The Self Insured (SI) Risk Files contain all employer related information pertaining to the policy. Once the SI Risk File has been received it is then scanned into the (UDS) Universal Document Service. The Universal Document Service (UDS) is an imaging concept that stores any type of electronic file, such as Microsoft Office documents, Adobe Acrobat, audio/video, Computer Aided Design (CAD), etc. as well as scanned images. The information included in the SI risk files is the employers initial application for self insurance, assessment information, all risk related correspondence, renewal applications and other related documents.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Scan original document into UDS, verify scanned image is readable, and ; Electronic: in UDS employer cancels coverage, and",
+      "duration_years": 18,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2014-10-16",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

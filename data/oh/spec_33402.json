@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TAX",
+      "schedule_type": "specific",
+      "schedule_id": "11100793",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/33402"
+    },
+    "series_metadata": {
+      "series_id": "TAX1103",
+      "series_title": "Tax Modeling Data Sets Containing Federal Tax Information",
+      "series_description": "Records are electronic data including text files that can be manipulated by statistical software that contain any individual income, withholding, or electronic tax return data provided by the Internal Revenue Service to the Department of Taxation. Does not include program output/statistical reports (memoranda, reports, emails) that cannot be associated with, or otherwise identify, directly or indirectly, a particular taxpayer and that also meet the guidelines set forth in IRS publication 1075 Section 12.1.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: records no longer of administrative value, but no longer that from date of creation",
+      "duration_years": 10,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2016-03-11",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

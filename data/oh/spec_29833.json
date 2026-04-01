@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TOS",
+      "schedule_type": "specific",
+      "schedule_id": "10900512",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/29833"
+    },
+    "series_metadata": {
+      "series_id": "IT-05",
+      "series_title": "Daily .xml warrant file for ODJFS",
+      "series_description": "An .xml file that contains data on warrants presented to the Treasurer of State for payment, and which were originally issued on behalf of the Ohio Department of Jobs and Family Services (ODJFS). This file is sent daily from the Treasurer of State to ODJFS through File Transfer Protocol (FTP). The individual warrants that comprise this file are retained separately pursuant to agency series number ACC-73; series authorization number 090-0309. Retention schedule reflects preference of ODJFS as communicated to Treasurer of State.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: 1 day",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Recycle",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2011-10-18",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

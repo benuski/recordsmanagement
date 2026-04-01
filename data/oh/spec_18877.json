@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGR",
+      "schedule_type": "specific",
+      "schedule_id": "700-0069",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/18877"
+    },
+    "series_metadata": {
+      "series_id": "AGR-6508",
+      "series_title": "County Certificates",
+      "series_description": "These are records that document that weighing devices in different counties (called jurisdictions) are calibrated correctly.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Keep end of year they were created",
+      "duration_years": 10,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2004-05-28",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

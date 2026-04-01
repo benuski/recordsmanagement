@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "NUR",
+      "schedule_type": "specific",
+      "schedule_id": "884-0089",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/27592"
+    },
+    "series_metadata": {
+      "series_id": "COMP-04",
+      "series_title": "AP MONITORING RECORDS",
+      "series_description": "Records monitoring an individual''s compliance with Alternative Program requirements imposed by Board.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: from date Board takes action releasing monitored individual from Board requirements, or from date individual is terminated failure comply with requirements, unless record is needed longer period of time based on legal or administrative significance. ; Electronic: from date Board takes action releasing monitored individual from Board requirements, or from date individual is terminated failure comply with requirements, unless record is needed longer period of time based on legal or administrative significance",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2009-05-15",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

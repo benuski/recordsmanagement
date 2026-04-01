@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TAX",
+      "schedule_type": "specific",
+      "schedule_id": "11100743",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/31064"
+    },
+    "series_metadata": {
+      "series_id": "IT-SD-02",
+      "series_title": "Data Documentation/Data Dictonary Records",
+      "series_description": "Records generally created during development or modification & necessary to access, retrieve, manipulate and interpret data in an automated system including data element dictionary, file layout, code book or table & other records that explain the meaning, purpose, structure, logical relationships & orgin of the data elements.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: 3 yrs. discontinuance of system or application & systems or applications data is destroyed or trnasferred a new structure or format ; Electronic: 3 yrs. discontinuance of system or application & systems or applications data is destroyed or trnasferred a new structure or format",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2013-04-23",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

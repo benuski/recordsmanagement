@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DHS",
+      "schedule_type": "specific",
+      "schedule_id": "760-0499",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/28198"
+    },
+    "series_metadata": {
+      "series_id": "B062-29",
+      "series_title": "Uniform Traffic Tickets (Seat Belt Tickets)",
+      "series_description": "Under section 4513.263 of the Ohio Revised Code, tickets are received from courts of record and/or mayors courts resulting from a licensed driver and/or a front seat passenger not wearing a restraining device (seat belt) when picked up for a traffic violation. NOTE: The traffic tickets (for seat belts) are keyed into the data computer and no points are charged against the persons driving record. Tickets are keyed only for the driver.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: hard copies of records are destroyed being scanned on Optic Image System. ; Electronic: Seat belt tickets are mainatined on Optic Image System five years",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2010-01-11",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

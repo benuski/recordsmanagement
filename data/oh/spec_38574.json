@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGO",
+      "schedule_type": "specific",
+      "schedule_id": "10551743",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/38574"
+    },
+    "series_metadata": {
+      "series_id": "BCI-ADM-28",
+      "series_title": "Criminal Justice Information System (CJIS) Audit Logs",
+      "series_description": "Logs that track the auditing capabilities of an information system holding CJIS-related information such as login records, permission and password changes, administrator commands, modifications or deletion of information, and remote network access; identify audit-related information that establish what type of events occurred, when the event occurred, where the event occurred, the source of the event, the outcome of the event, and identification of those associated with the event that occurred within the system; and retains information that will help reconstruct events in the event of unauthorized activity or malfunctions within the information system.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic",
+      "duration_years": 8,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2019-10-07",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DOT",
+      "schedule_type": "specific",
+      "schedule_id": "770-2510",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/36287"
+    },
+    "series_metadata": {
+      "series_id": "SPR-12",
+      "series_title": "Automatic Travel Data Collection",
+      "series_description": "This record series consist of computer files that contain vehicle license plate data or photographs collected from automatic camera systems for the purpose of studying traffic flows. The data is post processed to summarize it in various ways depending on the purpose of the traffic study. The summaries do not contain photos of license plate information.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: data collected summarized. Once summarized electronic data should be erased",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2019-04-18",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "855-1056",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/34856"
+    },
+    "series_metadata": {
+      "series_id": "SELF/SIDN",
+      "series_title": "Self Insured Identification Number (SIDN) Application File",
+      "series_description": "The SIDN (Self Insured Identification Number) is a number assigned to a new application used by employers applying for new self insured coverage. Then a file is created which includes the application. Then the Self Insured department reviews the file for approval for self insurance coverage. If the file is approved it is assigned a BWC policy number. The information contained in the file are as follows: SI-6 Application, SI-6 page 2, SI-38 Unconditional Contract Guaranty, SI-8 Rehab Opt Out form, SI-41 Handicap Opt Out form, SI-44 Claims Reimbursement Opt Out form, SI-16 Buyout Agreement, Medical Management Questionaire, Financial statements, Secretary of State Certificate and a Safety Manual.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: a policy number is created SIDN Application file ; Electronic: in UDS (Universal Document Service) file is cancelled or files bankruptcy",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2018-03-12",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

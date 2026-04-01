@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "PUB",
+      "schedule_type": "specific",
+      "schedule_id": "019-0032",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/2307"
+    },
+    "series_metadata": {
+      "series_id": "MAN-06",
+      "series_title": "Equipment Inventory",
+      "series_description": "This database is a complete list of all equipment in the possession of the Ohio Public Defender Commission. The list describes the dollar amount of each item (shows only items over $300.00 in value), the state ID number and a brief description of the ite",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: information in database equipment is retired and audit conducted by Auditor of State and audit report is released",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "1998-07-09",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

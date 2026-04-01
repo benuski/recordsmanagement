@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TOS",
+      "schedule_type": "specific",
+      "schedule_id": "10900588",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/30876"
+    },
+    "series_metadata": {
+      "series_id": "SEC-130",
+      "series_title": "Fee Invoices for Custodial Funds",
+      "series_description": "Invoices for custodial bank fees, investment manager fees, and consultant fees incurred by custodial funds. Invoices are stored by custodial fund and fiscal year. Invoices are accompanied by letters from the respective custodial fund requesting payment. Custodial bank fee invoices are analyzed by the Trust department and any supporting documentation of this analysis is attached to the bank fee invoice.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: conclusion of current fiscal year, and an additional 6 fiscal years. ; Electronic: conclusion of current fiscal year, and an additional 6 fiscal years",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2013-01-15",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGR",
+      "schedule_type": "specific",
+      "schedule_id": "17000171",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/18876"
+    },
+    "series_metadata": {
+      "series_id": "AGR-6505",
+      "series_title": "County Training & Registered Service Program Records",
+      "series_description": "The Registered Service Program includes both Registered Servicepersons, as well as, Registered Service Agencies. Documents associated with both categories include but are not limited to: applications, placed-in-service forms, equipment calibration certificates, test reports, payment receipts, and exam documents.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Keep . ; Paper: Keep",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2021-03-19",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

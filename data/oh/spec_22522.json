@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OTC",
+      "schedule_type": "specific",
+      "schedule_id": "50580006",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/22522"
+    },
+    "series_metadata": {
+      "series_id": "OTC-300-02",
+      "series_title": "Litigation Case Files",
+      "series_description": "Pleadings and correspondence files for litigation matters in which the OTC is a party.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: case closed or deadline by which an appeal may be filed. ; Paper: case is closed or deadline by which an appeal may be filed. Paper copies can be disposed prior or deadline by which an appeal may be filed if and only if electronic copies are available",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Trash",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2021-07-16",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

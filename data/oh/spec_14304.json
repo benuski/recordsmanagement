@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "COM",
+      "schedule_type": "specific",
+      "schedule_id": "800-0278",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/14304"
+    },
+    "series_metadata": {
+      "series_id": "03-04",
+      "series_title": "Officevision User Documents",
+      "series_description": "File contains the Department of Commerce's division's documents and correspondence. These records are maintained on the AS/400 Office computer system.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: online divisions documents and correspondence on AS/400 Office system, they are determined be no longer needed online by division. that is determined, every six months those records will be purged from AS/400 system and transferred magnetic tape. on magnetic tape",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "1994-03-07",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

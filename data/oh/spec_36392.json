@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DOT",
+      "schedule_type": "specific",
+      "schedule_id": "770-2360",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/36392"
+    },
+    "series_metadata": {
+      "series_id": "OSE06",
+      "series_title": "Current Load Rating Analysis Reports",
+      "series_description": "Current bridge load rating analysis reports on bridges. These are required by FHWA and the Ohio Revised Code.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: analysis is superceded or bridge is retired or no longer of administrative value ; Paper: electronically scanned or entered",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Recycle",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2019-05-30",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

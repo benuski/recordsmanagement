@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "LOT",
+      "schedule_type": "specific",
+      "schedule_id": "950-0911",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/34524"
+    },
+    "series_metadata": {
+      "series_id": "17-01-04",
+      "series_title": "End of Day Accounting Report (Excel)",
+      "series_description": "Daily VLT accounting report generated from the CMS. Includes VLT meter adjustment calculations.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Maintain digital copy two (2) years, review administrative value",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2026-03-09",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

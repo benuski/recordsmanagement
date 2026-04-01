@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TAX",
+      "schedule_type": "specific",
+      "schedule_id": "110-0161",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/36230"
+    },
+    "series_metadata": {
+      "series_id": "110-123-06",
+      "series_title": "Electronic Document Archive",
+      "series_description": "These are digital folders on the Legal N:Drive in which attorneys save electronic case-related correspondence and documents received from taxpayers or authorized representatives as well as electronic work papers used by attorneys for reviewing cases.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: case is closed",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2019-04-02",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

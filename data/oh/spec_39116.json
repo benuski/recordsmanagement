@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DDD",
+      "schedule_type": "specific",
+      "schedule_id": "50740017",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39116"
+    },
+    "series_metadata": {
+      "series_id": "DDDFISC-6",
+      "series_title": "Payment Documents",
+      "series_description": "Vouchers, ISTVs, Payment Card Logs, Reports, Batch Voucher Ledgers, EDI payment documentation, Payment Journal Adjustments, etc.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: scanned and saved electronically ; Electronic: seven years or completion of an initiated audit",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2021-12-14",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

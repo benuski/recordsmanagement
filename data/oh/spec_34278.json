@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "AGR",
+      "schedule_type": "specific",
+      "schedule_id": "17000156",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/34278"
+    },
+    "series_metadata": {
+      "series_id": "AGR-3004",
+      "series_title": "Weigher, Sampler, Tester License",
+      "series_description": "This record is a license allowing an individual to weigh, sample, and test milk. Department of Agriculture inspectors administer the test for the license. These licenses are perpetual and remain active as long as the individual is in business and the license has not been revoked.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Keep year in which license went inactive. ; Paper: Keep year in which license went inactive",
+      "duration_years": 4,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Wastepaper",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2021-01-07",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

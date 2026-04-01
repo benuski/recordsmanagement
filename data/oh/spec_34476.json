@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "PRX",
+      "schedule_type": "specific",
+      "schedule_id": "887-0096",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/34476"
+    },
+    "series_metadata": {
+      "series_id": "887-0070",
+      "series_title": "Hearing Audio & Video/Board Meetings (Server)",
+      "series_description": "Audio/Video recording of Administrative Hearings and Board Meetings.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Audio/Video recording of Administrative Hearings must be maintained on server and kept a period of one year final adjudication decision",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2022-12-28",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DAS",
+      "schedule_type": "specific",
+      "schedule_id": "11001672",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39380"
+    },
+    "series_metadata": {
+      "series_id": "FIN-05",
+      "series_title": "Vouchers, Invoices, Receipts & Attachments",
+      "series_description": "Details of accounts payable transactions including: documents authorizing payment of invoice for goods and/or services received; information regarding payments made, supplier, agency, goods/services, backup documentation. All documentation contained in the OAKS Financial System",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Maintain in OAKS , per OAKS retention schedule. ; Paper: stored electronically",
+      "duration_years": 8,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase ; Paper: Recycle",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2025-08-25",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

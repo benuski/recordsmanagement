@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "855-1159",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35441"
+    },
+    "series_metadata": {
+      "series_id": "Payroll15",
+      "series_title": "Employee Payroll Records",
+      "series_description": "The Employee Payroll Records contain payroll information for BWC employees to be retained as part of their personnel records (i.e., retirement breakdowns, tax withholdings, payroll deductions, address changes, etc).",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: Scan into UDS – personnel files under payroll forms – verify scanned image is readable, and ; Electronic: in UDS – personnel files under payroll forms employee’s date of separation from BWC, and",
+      "duration_years": 7,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2018-11-19",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

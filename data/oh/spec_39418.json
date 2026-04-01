@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "CRB",
+      "schedule_type": "specific",
+      "schedule_id": "50800007",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39418"
+    },
+    "series_metadata": {
+      "series_id": "CRB-001",
+      "series_title": "Investigative Proceedings",
+      "series_description": "Investigative Proceedings are files that document the activities of the Board staff in investigating complaints and possible disciplinary actions against registrants, including: public complaint forms and attached documentation, correspondence to and from the complainant and/or respondent, referral notices from external agencies, court proceedings and outcomes, licensing information, notice of opportunity for hearing letters, hearing scheduling letters, interview and phone notes, hearing exhibits, hearing outcome letters, adjudication orders, court filings, subpoenas, and requests for information/documents.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: If proceedings result in board action, scanned, or five years. If investigation does not result in board action, scanned, or two years. ; Paper: If proceedings result in board action, scanned, or five years. If investigation does not result in board action, scanned, or two years",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2024-04-29",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

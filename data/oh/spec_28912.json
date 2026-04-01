@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "JFS",
+      "schedule_type": "specific",
+      "schedule_id": "795-0139",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/28912"
+    },
+    "series_metadata": {
+      "series_id": "CON-02",
+      "series_title": "UC Tax 422 Log",
+      "series_description": "&#65279;Log of employer account activity initiated on form 422, Claimant’s Statement, when filing for unemployment compensation. Log details the date of the claim, claimant’s name and SS#, date assigned to compliance field auditor and assignment number, benefit determination, employer name, field audit completion date, examiner review date, and date completed and routed to determination. For tracking purposes, the log contains all information on assignments pertinent to a specific employer.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: &#65279; superseded, obsolete or replaced",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2010-12-23",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

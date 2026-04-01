@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "PRX",
+      "schedule_type": "specific",
+      "schedule_id": "887-0100",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/34549"
+    },
+    "series_metadata": {
+      "series_id": "887-0067",
+      "series_title": "Public Record Requests & Responses",
+      "series_description": "Requests for public records/freedom of information requests received from the public and the associated responses.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Requests and responses are be scanned and maintained on Board''s server a period of",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2021-04-09",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

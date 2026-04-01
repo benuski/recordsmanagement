@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OCC",
+      "schedule_type": "specific",
+      "schedule_id": "10530296",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/20730"
+    },
+    "series_metadata": {
+      "series_id": "OCC-LL-04",
+      "series_title": "Claims and Litigation Records",
+      "series_description": "Records of claims and litigations by and/or against an agency",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: permanently ; Paper: paper case is closed and no further appeals can be filed. If case is dismissed without prejudice, 1 year statute of limitations runs. Scan electronic form permanent retention",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition_method": "Electronic: Permanent ; Paper: Trash",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2004-09-20",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

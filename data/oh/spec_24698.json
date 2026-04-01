@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OTC",
+      "schedule_type": "specific",
+      "schedule_id": "50580392",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/24698"
+    },
+    "series_metadata": {
+      "series_id": "OTC-705-23",
+      "series_title": "Document Imaging Log",
+      "series_description": "Log of documents sent to Information Systems Department for document imaging including Contractor Zones, Daily Emergency Services Log, Daily Radio Logs (7-3-60/rev9-95), Disabled Vehicle Services Log, Distribution List, Maintenance Check Up Log, Emergency Phone Problems, High Wind Ban Advisory and High Wind Cancellation, PCMB Status, Hazardous Load Movements, Emergency Power Report, Employee Sign-In Log, Contractor Sign-In Log, Unusual Incident Reports, Weather Recording Worksheet, Caution Sign Log, Signal 18 Advisories, Skidder Report, Traffic Back-Up Summary, Weather, Pavement & Bridge Condition Report, Burke Weather Forecast, Military Convoy Notification, Over dimensional & Overweight Load Notification.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2008-06-07",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "TOS",
+      "schedule_type": "specific",
+      "schedule_id": "10900483",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/32662"
+    },
+    "series_metadata": {
+      "series_id": "DEBT-3",
+      "series_title": "Bond issuance transcripts",
+      "series_description": "Bond files of state issuances administered by the Commissioners of the Sinking Fund. Such files may include, but are not limited to: transcripts of the bond proceedings, official statements, bond orders, trust agreements, pricing books, and other supporting documentation. Records in this series are stored together in one file that corresponds to each separate issuance.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: paper version earlier of (a) final maturity of original bond or corresponding refunding or restructuring of that bond, or (b) an electronic copy of transcript is created. ; Electronic: final maturity of original bond or corresponding refunding or restructuring of that bond",
+      "duration_years": 20,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2014-09-26",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

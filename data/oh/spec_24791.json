@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "OTC",
+      "schedule_type": "specific",
+      "schedule_id": "50580182",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/24791"
+    },
+    "series_metadata": {
+      "series_id": "OTC-801-20",
+      "series_title": "Disabled Vehicle Services Records",
+      "series_description": "Contracts, complaint letters, invoices, memoranda and communications for Disabled Vehicle Service providers, Fire and EMS.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: while contract is in effect",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2007-08-07",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

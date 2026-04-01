@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DOT",
+      "schedule_type": "specific",
+      "schedule_id": "770-2651",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/38936"
+    },
+    "series_metadata": {
+      "series_id": "REVE03",
+      "series_title": "Revenue Voucher Files",
+      "series_description": "This series contains all reports and revenue documents for the deposit to the State Treasurer showing the receipt source or debtor, quantity and dollar amount being paid as well as the fund to be credited.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: three years close of fiscal year. ; Electronic: three years close of fiscal year",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Recycle ; Electronic: Erase",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2021-04-28",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

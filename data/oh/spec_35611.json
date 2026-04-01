@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "BWC",
+      "schedule_type": "specific",
+      "schedule_id": "855-1119",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/35611"
+    },
+    "series_metadata": {
+      "series_id": "SELF/SIBF",
+      "series_title": "Self Insured (SI) Bankrupt Claims File",
+      "series_description": "These claims are the injured worker claim files generated from the SI employer who has defaulted on their claim obligations. These hard copy files are turned over to the Bureau of Workers Compensation for claims management. Open files are considered within the statute of limitations and closed files are considered out of the statute of limitations.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: a minimum of from date of last medical and or compensation paid if there is no activity ; Paper: open claim files scanned into UDS (Universal Document Service), and",
+      "duration_years": 10,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2018-12-06",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

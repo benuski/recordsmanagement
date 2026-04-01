@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DHS",
+      "schedule_type": "specific",
+      "schedule_id": "760-1506",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/31342"
+    },
+    "series_metadata": {
+      "series_id": "ALL-04",
+      "series_title": "Subpoenas",
+      "series_description": "This record series contains orders from a court, an attorney, or other authoritative entity that commands appearance and/or testimony in court, at hearing, or at deposition, or commands production of documents or other items; transaction histories of agency''s receipt/response (if any); and if the subpoena commands production of documents or items, a copy of the agency''s response is retained as evidence of compliance. NOTE: Subpoenas that command production of records or evidence and requests for discovery that are related to an active ODPS investigation, administrative action, or other active case, shall be retained pursuant to the records retention schedule applicable to the case.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Paper: subpoenas that command appearance fulfilled. all other subpoenas and responsive records 90 days from date of compliance. ; Electronic: subpoenas that command appearance fulfilled. all other subpoenas and responsive records 90 days from date of compliance",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2013-06-07",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]
