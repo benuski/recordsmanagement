@@ -56,7 +56,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Extract data from state records retention schedules.")
     parser.add_argument("--input-directory", type=Path, default=None, help="Path to the directory containing source PDFs or to save/read HTML files (default: processing/<state-code>/src/)")
     parser.add_argument("--output-directory", type=Path, default=None, help="Path to save the resulting JSON files (default: data/<state-code>/)")
-    parser.add_argument("--state-code", required=True, type=str, choices=["va", "oh", "tx", "nc"], help="The two-letter state code (e.g., va, oh, tx, nc)")
+    parser.add_argument("--state-code", required=True, type=str, choices=["va", "oh", "tx", "nc", "al"], help="The two-letter state code (e.g., va, oh, tx, nc, al)")
     parser.add_argument("--task", type=str, choices=["harvest", "parse", "all"], default="all", help="The task to perform: harvest (download), parse (extract), or all")
     parser.add_argument("--schema-path", type=Path, default=Path("processing/output_template_clean.json"), help="Path to the output JSON schema")
     parser.add_argument("--agency-csv", type=Path, default=Path("agencies.csv"), help="Path to the agency mapping CSV")
