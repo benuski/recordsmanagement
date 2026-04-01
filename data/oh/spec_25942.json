@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DAS",
+      "schedule_type": "specific",
+      "schedule_id": "100-0550",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/25942"
+    },
+    "series_metadata": {
+      "series_id": "CC-7",
+      "series_title": "Cancelled Job Audits",
+      "series_description": "Documentation provided in a job audit (such as employee request for job audit, employee request to cancel job audit, completed employee section, completed supervisor section, completed agency coordinator section, PD, technician's report & recommendation, payroll & data sheet, notification letters to employee and appointing authority, letter requesting copy of audit) before the audit is canceled or withdrawn.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: in office area from date audit was cancelled ; Paper: in office area from date audit was cancelled",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2026-03-09",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]

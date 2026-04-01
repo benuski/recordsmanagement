@@ -1,0 +1,33 @@
+[
+  {
+    "schedule_metadata": {
+      "state": "oh",
+      "agency_name": "DAS",
+      "schedule_type": "specific",
+      "schedule_id": "11001732",
+      "url": "https://rims.das.ohio.gov/Schedule/Details/39966"
+    },
+    "series_metadata": {
+      "series_id": "SERV-02",
+      "series_title": "ServiceNow – GRC Approval Workflow Records",
+      "series_description": "Records documenting approvals and attestations within the ServiceNow GRC modules, including approvals related to policies, risks, controls, assessments, exceptions, certifications, and associated evidence attachments. Used by DAS Enterprise Service Management (ESM), risk and compliance teams, control owners, executives, and auditors to document governance decisions, validate control execution, and support compliance and assurance activities.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "Electronic: Maintain in ServiceNow cloud environment process completion",
+      "duration_years": 4,
+      "duration_months": null,
+      "disposition_method": "Electronic: Delete",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-03-31",
+      "last_updated_by_state": "2026-03-11",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]
