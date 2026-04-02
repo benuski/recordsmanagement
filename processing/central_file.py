@@ -25,11 +25,10 @@ SCHEMA_MAP = {
     'series_description': ('series_metadata', 'series_description'),
     'legal_citation': ('series_metadata', 'legal_citation'),
     
-    'retention_statement': ('retention_rules', 'trigger_desc'),
     'trigger_event': ('retention_rules', 'trigger_event'),
     'retention_years': ('retention_rules', 'duration_years'),
     'retention_months': ('retention_rules', 'duration_months'),
-    'disposition': ('retention_rules', 'disposition_method'),
+    'disposition': ('retention_rules', 'disposition'),
     'confidential': ('retention_rules', 'confidential_flag'),
     
     'last_checked': ('tracking_data', 'last_checked'),
@@ -87,65 +86,51 @@ def clean_record_fields(record: dict, config: StateScheduleConfig) -> dict:
     """Universal cleaning logic for nested records."""
     title = re.sub(r'\s+', ' ', str(get_nested_val(record, 'series_title') or '')).strip()
     desc = re.sub(r'\s+', ' ', str(get_nested_val(record, 'series_description') or '')).strip()
-    raw_ret = re.sub(r'\s+', ' ', str(get_nested_val(record, 'retention_statement') or '')).strip()
-    disposition = re.sub(r'\s+', ' ', str(get_nested_val(record, 'disposition') or '')).strip()
+    
+    # Raw components might be in root (retention_statement) or nested (disposition)
+    raw_ret = str(record.pop('retention_statement', '')).strip()
+    raw_disp = str(get_nested_val(record, 'disposition') or '').strip()
 
-    # Common typos
-    raw_ret = re.sub(r'(?i)\bPermanen\b', 'Permanent', raw_ret)
-    disposition = re.sub(r'(?i)\bPermanen\b', 'Permanent', disposition)
-
-    # 1. Extract Disposition if missing from the retention string
-    if not disposition:
-        # Handle "then [disposition]" pattern
-        then_match = re.search(r'(?i)(?:,\s*)?then\s+([^;.]+)', raw_ret)
-        if then_match:
-            disposition = then_match.group(1).strip().title()
-            raw_ret = raw_ret[:then_match.start()].strip()
+    # Combine into a single disposition statement
+    full_disposition = raw_ret
+    if raw_disp:
+        if full_disposition:
+            # Avoid duplicating if they are the same
+            if raw_disp.lower() not in full_disposition.lower():
+                full_disposition = f"{full_disposition}, {raw_disp}"
         else:
-            # Handle end-of-string keywords
-            disp_match = re.search(
-                r'(?i)(Non-confidential Destruction|Confidential Destruction|Permanent, Archives|Permanent, In Agency|Archives|Destruction)$',
-                raw_ret
-            )
-            if disp_match:
-                disposition = disp_match.group(1).title()
-                raw_ret = raw_ret[:disp_match.start()].strip()
+            full_disposition = raw_disp
+    
+    full_disposition = re.sub(r'\s+', ' ', full_disposition).strip()
+    
+    # Common typos
+    full_disposition = re.sub(r'(?i)\bPermanen\b', 'Permanent', full_disposition)
 
-    # Confidential flag
-    is_confidential = (
-        "confidential" in disposition.lower()
-        and "non-confidential" not in disposition.lower()
-    )
-
-    # 2. Extract Years/Months
+    # 1. Extract Years/Months (kept for metadata richness)
     retention_years = get_nested_val(record, 'retention_years')
     retention_months = get_nested_val(record, 'retention_months')
     
-    clean_trigger = raw_ret
-    
     if retention_years is None:
-        years_match = re.search(r'(\d+)\s*years?', raw_ret, re.IGNORECASE)
+        years_match = re.search(r'(\d+)\s*years?', full_disposition, re.IGNORECASE)
         if years_match:
             retention_years = int(years_match.group(1))
-            clean_trigger = re.sub(rf'\b{years_match.group(0)}\b', '', clean_trigger, flags=re.IGNORECASE)
         
     if retention_months is None:
-        months_match = re.search(r'(\d+)\s*months?', raw_ret, re.IGNORECASE)
+        months_match = re.search(r'(\d+)\s*months?', full_disposition, re.IGNORECASE)
         if months_match:
             retention_months = int(months_match.group(1))
-            clean_trigger = re.sub(rf'\b{months_match.group(0)}\b', '', clean_trigger, flags=re.IGNORECASE)
 
-    # 3. Clean up the trigger narrative
-    clean_trigger = re.sub(r'(?i)\b(Retain|then|destroy|transfer|to|the|State Records Center|on-site|in compliance with No\. \d+ on cover sheet|Total retention period)\b', '', clean_trigger)
-    clean_trigger = re.sub(r'\b(plus|after|for|until)\b', '', clean_trigger, flags=re.IGNORECASE)
-    clean_trigger = re.sub(r'\s+', ' ', clean_trigger).strip()
-    clean_trigger = re.sub(r'^[,\.;\s:]+|[,\.;\s:]+$', '', clean_trigger)
+    # 2. Confidential flag
+    is_confidential = (
+        "confidential" in full_disposition.lower()
+        and "non-confidential" not in full_disposition.lower()
+    )
 
-    # 4. Infer Standardized Trigger Code
+    # 3. Infer Standardized Trigger Code
     trigger_code = get_nested_val(record, 'trigger_event')
     if not trigger_code:
-        text_for_code = (clean_trigger or raw_ret).lower()
-        if 'permanent' in text_for_code or 'permanent' in disposition.lower():
+        text_for_code = full_disposition.lower()
+        if 'permanent' in text_for_code:
             trigger_code = "PM"
             retention_years = 999
         elif 'useful life' in text_for_code or 'administratively valuable' in text_for_code:
@@ -163,10 +148,10 @@ def clean_record_fields(record: dict, config: StateScheduleConfig) -> dict:
         else:
             trigger_code = "AV" # Default fallback
 
-    # 5. Legal Citation extraction
+    # 4. Legal Citation extraction
     legal_citation = get_nested_val(record, 'legal_citation')
     if not legal_citation and config.legal_citation_pattern:
-        cit_match = config.legal_citation_pattern.search(desc) or config.legal_citation_pattern.search(raw_ret)
+        cit_match = config.legal_citation_pattern.search(desc) or config.legal_citation_pattern.search(full_disposition)
         if cit_match:
             legal_citation = cit_match.group(0).strip()
 
@@ -174,11 +159,10 @@ def clean_record_fields(record: dict, config: StateScheduleConfig) -> dict:
     set_nested_val(record, 'series_title', title)
     set_nested_val(record, 'series_description', desc)
     set_nested_val(record, 'legal_citation', legal_citation)
-    set_nested_val(record, 'retention_statement', clean_trigger if clean_trigger else raw_ret)
     set_nested_val(record, 'trigger_event', trigger_code)
     set_nested_val(record, 'retention_years', retention_years)
     set_nested_val(record, 'retention_months', retention_months)
-    set_nested_val(record, 'disposition', disposition)
+    set_nested_val(record, 'disposition', full_disposition)
     set_nested_val(record, 'confidential', is_confidential)
     set_nested_val(record, 'last_checked', str(date.today()))
 
@@ -193,7 +177,7 @@ def score_records(records: list[dict], config: StateScheduleConfig) -> int:
     for r in records:
         title = (get_nested_val(r, 'series_title') or '').strip()
         sid = (get_nested_val(r, 'series_id') or '')
-        ret = (get_nested_val(r, 'retention_statement') or '').strip()
+        ret = (get_nested_val(r, 'disposition') or '').strip()
         if sid in seen_ids: score -= 20
         seen_ids.add(sid)
         if not title: score -= 15

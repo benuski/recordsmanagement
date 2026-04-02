@@ -23,7 +23,7 @@ def test():
     for r in records:
         print(f"Title: {r['series_metadata']['series_title']}")
         print(f"  Desc: {r['series_metadata']['series_description'][:100]}...")
-        print(f"  Disp: {r['retention_rules']['disposition_method']}")
+        print(f"  Disp: {r['retention_rules']['disposition']}")
         print(f"  Ret: {r['retention_rules']['duration_years']} years")
         print(f"  Cit: {r['series_metadata']['legal_citation']}")
         print("-" * 20)

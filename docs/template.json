@@ -1,31 +1,31 @@
 {
   "schedule_metadata": {
-    "state": "va",
-    "agency_name": "Virginia State Bar",
+    "state": "VA",
+    "agency_name": "Department of Example",
     "schedule_type": "specific",
-    "schedule_id": "117-001",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/117-001.pdf"
+    "schedule_id": "123-456",
+    "url": "https://example.gov/schedules/123-456.pdf"
   },
   "series_metadata": {
-    "series_id": "100181",
-    "series_title": "Accredited Sponsor Files",
-    "series_description": "Documents the application and renewal of Mandatory Continuing Legal Education (MCLE) sponsors.",
+    "series_id": "001234",
+    "series_title": "Example Records",
+    "series_description": "Records related to examples.",
     "legal_citation": "COV 42.1-76"
   },
   "retention_rules": {
-    "trigger_event": "Approval",
-    "duration_years": 25,
-    "duration_months": null,
-    "disposition_method": "Confidential Destruction",
+    "trigger_event": "AC",
+    "duration_years": 3,
+    "duration_months": 0,
+    "disposition": "Retain 3 years after closed, then Confidential Destruction",
     "confidential_flag": true
   },
   "tracking_data": {
-    "last_checked": "2026-03-30",
-    "last_updated_by_state": "2025-01-15",
+    "last_checked": "2026-04-02",
+    "last_updated_by_state": "2025-01-01",
     "next_update_due": null,
-    "comments": "Note: 'Final Disposition' means after final voucher acceptance."
+    "comments": null
   },
   "state_specific_attributes": {
-    "rsin": null
+    "rsin": "DE001"
   }
 }
