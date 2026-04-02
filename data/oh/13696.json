@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "Electronic: four complete fiscal years and ; Paper: four complete fiscal years and",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Archives ; Paper: Archives",
+      "disposition": "Electronic: Retain for four complete fiscal years and then transfer to State Archives. If of no historical value to State Archives, destroy. ; Paper: Retain for four complete fiscal years and then transfer to State Archives. If of no historical value to State Archives, destroy., Electronic: Archives ; Paper: Archives",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2022-04-06",
       "next_update_due": null,
       "comments": null

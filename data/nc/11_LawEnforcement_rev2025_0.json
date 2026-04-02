@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Release and conclusion of supervision : ΩTHEN",
       "duration_years": 10,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "RETAIN UNTIL: Release and conclusion of supervision PLUS: 10 years ΩTHEN: Destroy",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": "Transfer to the State Records Center after 3 years (see below for more specific triggers). Records will be held for agency 7 additional years and then destroyed."
@@ -47,14 +46,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Complete",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "RETAIN UNTIL: Complete PLUS: 3 years THEN: Destroy",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": ""
@@ -79,14 +77,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Complete : : *",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "RETAIN UNTIL: Complete PLUS: 3 years THEN: Destroy*",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": ""
@@ -111,14 +108,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Separation : : * NOTE: If a minor is involved in incident, records should be retained minor reaches age 30",
       "duration_years": 6,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "RETAIN UNTIL: Separation PLUS: 6 years THEN: Destroy* NOTE: If a minor is involved in the incident, records should be retained until the minor reaches age 30",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": ""
@@ -143,14 +139,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Complete",
       "duration_years": 10,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "RETAIN UNTIL: Complete PLUS: 10 years THEN: Destroy",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": ""
@@ -175,14 +170,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "RETAIN UNTIL: Closed PLUS: 2 years THEN: Destroy",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": ""
@@ -207,14 +201,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Release or",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "RETAIN UNTIL: Release or transfer PLUS: 3 years THEN: Destroy",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": ""
@@ -239,14 +232,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "PERMANENT (archival) ∞",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "PERMANENT (archival) ∞",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": "Transfer to the State Records Center when reference value ends for immediate transfer to the custody of the Archives."
@@ -271,14 +263,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Superseded/Obsolete",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "RETAIN UNTIL: Superseded/Obsolete PLUS: 5 years THEN: Destroy",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": ""
@@ -303,14 +294,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Superseded/Obsolete",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "RETAIN UNTIL: Superseded/Obsolete THEN: Destroy",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": ""
@@ -335,14 +325,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "PERMANENT",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "PERMANENT",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": ""
@@ -367,14 +356,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Complete",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "RETAIN UNTIL: Complete PLUS: 2 years THEN: Destroy",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": ""
@@ -399,14 +387,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "PERMANENT",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "PERMANENT",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": ""
@@ -431,14 +418,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Complete : : *",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "RETAIN UNTIL: Complete PLUS: 3 years THEN: Destroy*",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": ""
@@ -463,14 +449,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Final disposition of property",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "RETAIN UNTIL: Final disposition of property PLUS: 3 years THEN: Destroy",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": ""
@@ -495,14 +480,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Reference value ends ± : Agency Policy: ______________",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "RETAIN UNTIL: Reference value ends ± THEN: Destroy Agency Policy: ______________",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": ""
@@ -527,14 +511,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "PERMANENT",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "PERMANENT",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": ""
@@ -559,14 +542,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Disposition of relevant case or property",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "RETAIN UNTIL: Disposition of relevant case or property PLUS: 5 years THEN: Destroy",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": ""
@@ -591,14 +573,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "PERMANENT",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "PERMANENT",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": ""
@@ -623,14 +604,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Disposition of case and exhaustion of any appeals : ΩTHEN",
       "duration_years": 20,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "RETAIN UNTIL: Disposition of case and exhaustion of any appeals PLUS: 20 years ΩTHEN: Destroy",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": "Transfer to the State Records Center 3 years after case is closed. Records will be held for agency 17 additional years and then destroyed."
@@ -655,14 +635,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Disposition of case and exhaustion of any appeals",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "RETAIN UNTIL: Disposition of case and exhaustion of any appeals PLUS: 5 years THEN: Destroy",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": ""
@@ -687,14 +666,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Disposition of case and exhaustion of any appeals",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "RETAIN UNTIL: Disposition of case and exhaustion of any appeals PLUS: 3 years THEN: Destroy",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": ""
@@ -719,14 +697,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Complete",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "RETAIN UNTIL: Complete PLUS: 1 year THEN: Destroy",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": ""
@@ -751,14 +728,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Complete",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "RETAIN UNTIL: Complete PLUS: 1 year THEN: Destroy",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": ""
@@ -783,14 +759,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Reference value ends ± : Agency Policy: _______________",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "RETAIN UNTIL: Reference value ends ± THEN: Destroy Agency Policy: _______________",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": ""
@@ -815,14 +790,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Complete : : * NOTE: Records that become part of a case file should be handled according those disposition instructions",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "RETAIN UNTIL: Complete PLUS: 5 years THEN: Destroy* NOTE: Records that become part of a case file should be handled according to those disposition instructions",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": ""
@@ -847,14 +821,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Resolution",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "RETAIN UNTIL: Resolution PLUS: 5 years THEN: Destroy",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": ""
@@ -879,14 +852,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Resolution",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "RETAIN UNTIL: Resolution PLUS: 3 years THEN: Destroy",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": ""
@@ -911,14 +883,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Resolution : : *",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "RETAIN UNTIL: Resolution PLUS: 5 years THEN: Destroy*",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": ""
@@ -943,14 +914,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Complete",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "RETAIN UNTIL: Complete PLUS: 1 year THEN: Destroy",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": ""
@@ -975,14 +945,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Complete",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "RETAIN UNTIL: Complete PLUS: 2 years THEN: Destroy",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": ""
@@ -1007,14 +976,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "SEE FUNCTIONAL SCHEDULE",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "SEE FUNCTIONAL SCHEDULE",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": "Legacy Item Number mapped to Functional Schedule chapter 11."
@@ -1039,14 +1007,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "SEE FUNCTIONAL SCHEDULE",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "SEE FUNCTIONAL SCHEDULE",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": "Legacy Item Number mapped to Functional Schedule chapter 11."
@@ -1071,14 +1038,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "SEE FUNCTIONAL SCHEDULE",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "SEE FUNCTIONAL SCHEDULE",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": "Legacy Item Number mapped to Functional Schedule chapter 11."
@@ -1103,14 +1069,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "SEE FUNCTIONAL SCHEDULE",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "SEE FUNCTIONAL SCHEDULE",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": "Legacy Item Number mapped to Functional Schedule chapter 11."
@@ -1135,14 +1100,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "SEE FUNCTIONAL SCHEDULE",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "SEE FUNCTIONAL SCHEDULE",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": "Legacy Item Number mapped to Functional Schedule chapter 11."
@@ -1167,14 +1131,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "SEE FUNCTIONAL SCHEDULE",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "SEE FUNCTIONAL SCHEDULE",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": "Legacy Item Number mapped to Functional Schedule chapter 11."
@@ -1199,14 +1162,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "SEE FUNCTIONAL SCHEDULE",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "SEE FUNCTIONAL SCHEDULE",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": "Legacy Item Number mapped to Functional Schedule chapter 11."
@@ -1231,14 +1193,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "SEE FUNCTIONAL SCHEDULE",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "SEE FUNCTIONAL SCHEDULE",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": "Legacy Item Number mapped to Functional Schedule chapter 11."
@@ -1263,14 +1224,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "SEE FUNCTIONAL SCHEDULE",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "SEE FUNCTIONAL SCHEDULE",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": "Legacy Item Number mapped to Functional Schedule chapter 11."

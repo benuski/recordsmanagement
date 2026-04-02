@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Electronic: State Archives no longer needed in office",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Electronic: Permanent",
+      "disposition": "Electronic: Transfer to State Archives after no longer needed in office., Electronic: Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2005-10-05",
       "next_update_due": null,
       "comments": null

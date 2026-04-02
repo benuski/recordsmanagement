@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: and all items are cleared & audited by Auditor of State and audit report is released",
       "duration_years": 6,
       "duration_months": null,
-      "disposition_method": "Paper: Wastepaper",
+      "disposition": "Paper: Retain 6 years and until all items are cleared & audited by Auditor of State and audit report is released; then destroy, Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "1983-04-13",
       "next_update_due": null,
       "comments": null

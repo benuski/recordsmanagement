@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Electronic: Rertain message has been read",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase",
+      "disposition": "Electronic: Rertain until the message has been read, then destroy no longer than 30 days after receipt. If there is a need to retain the message longer, print message will include all header information (i.e. to, from, date, electronic address, cc, forwarded from, etc.). The printed message will assume the retention period of other similar paper documents (i.e. General Correspondence, Routine Correspondence, etc.), Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2001-10-19",
       "next_update_due": null,
       "comments": null

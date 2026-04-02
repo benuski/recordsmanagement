@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Electronic: four years or audited by Auditor of State ; Paper: four years or audited by Auditor of State",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Wastepaper",
+      "disposition": "Electronic: Retain for four years or until audited by the Auditor of State, then destroy. ; Paper: Retain for four years or until audited by the Auditor of State, then destroy., Electronic: Delete ; Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2022-04-04",
       "next_update_due": null,
       "comments": null
