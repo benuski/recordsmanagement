@@ -1,0 +1,37 @@
+% Custom ConTeXt Styling for VA Retention Schedules
+
+% 1. Layout and Margins
+\setuplayout
+  [backspace=1.0in,
+   width=6.5in,
+   topspace=0.75in,
+   height=9.5in,
+   header=0.5in,
+   footer=0.5in]
+
+% 2. Header and Footer
+\setupheadertexts[{\getvariable{metadata}{agency}}] [{\getvariable{metadata}{id}}]
+\setupfootertexts[{Retention Schedule}][{Page \userpagenumber\ of \lastpagenumber}]
+
+% 3. Body Font Setup (Using Roboto)
+\definefontfamily[mainface][rm][Roboto]
+\definefontfamily[mainface][ss][Roboto]
+\definefontfamily[mainface][tt][Roboto Mono][features=none]
+\setupbodyfont[mainface, 11pt]
+
+% 4. Section Styling
+\setuphead[section]   [style=\tfc\bf, color=darkblue, before={\blank[big]}, after={\blank[medium]}]
+\setuphead[subsection][style=\tfb\bf, color=darkblue, before={\blank[medium]}, after={\blank[small]}]
+
+% 5. Whitespace and Indenting
+\setupwhitespace[medium]
+\setupindenting[no]
+
+% 6. Itemize/Lists
+\setupitemize[1][packed][symbol=bullet]
+
+% 7. Table/xtable styling
+\setupxtable[frame=off, split=yes, header=repeat]
+\setupxtable[head][topframe=on, bottomframe=on, foregroundstyle=bold]
+\setupxtable[body][bottomframe=on]
+\setupxtable[lastrow][bottomframe=on]
