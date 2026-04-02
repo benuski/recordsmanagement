@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 4 years",
       "duration_years": "4",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": ""
@@ -47,14 +46,13 @@
     },
     "retention_rules": {
       "trigger_event": "LA",
-      "trigger_desc": "Life of Asset 4 years",
       "duration_years": "4",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Life of Asset plus 4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": "TCDRS LA + 4 retention period\nexceeds TSL LA + 3 for internal\nbusiness practices."
@@ -79,14 +77,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "Fiscal Year End 4 years",
       "duration_years": "4",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Fiscal Year End plus 4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": ""
@@ -111,14 +108,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "Fiscal Year End 4 years",
       "duration_years": "4",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Fiscal Year End plus 4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": ""
@@ -143,14 +139,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "Fiscal Year End 4 years",
       "duration_years": "4",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Fiscal Year End plus 4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": "Property Code 74.103 does not\napply to TCDRS."
@@ -175,14 +170,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "Fiscal Year End 4 years",
       "duration_years": "4",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Fiscal Year End plus 4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": "TCDRS FE + 4 retention period\nexceeds TSL FE + 3 for internal\nbusiness practices."
@@ -207,14 +201,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Superseded 1 year",
       "duration_years": "1",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Until Superseded plus 1 year",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": ""
@@ -239,14 +232,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 3 years",
       "duration_years": "3",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": "ARCHIVES NOTE: Data processing\nplanning records are not archival.\nSee 1.1.027 for Proposed\nLegislation."
@@ -271,14 +263,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "Fiscal Year End 3 years",
       "duration_years": "3",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Fiscal Year End plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": ""
@@ -303,14 +294,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 2 years",
       "duration_years": "2",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": "Vital Record"
@@ -335,14 +325,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 3 years",
       "duration_years": "3",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": "Note: These records are necessary\nonly in regards to an accident."
@@ -367,14 +356,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 7 years",
       "duration_years": "7",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 7 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": "Note: The State Auditor's Office\nretains any copies of its audits\nperformed on Texas state agencies."
@@ -399,14 +387,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 7 years",
       "duration_years": "7",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 7 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": ""
@@ -431,14 +418,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 4 years",
       "duration_years": "4",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": ""
@@ -463,14 +449,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 4 years",
       "duration_years": "4",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": ""
@@ -495,14 +480,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 75 years",
       "duration_years": "75",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 75 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": "See BEN1140 for Member File -\nActive/Inactive. See BEN1160 for\nMember File - Disability Retirement\nMedical Records. See BEN1200 for\nMembers - Retirement Processing.\nSee BEN1220 for Members -\nTransaction Processing. See\nBEN1240 for Members -\nWithdrawal Processing."
@@ -527,14 +511,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "Fiscal Year End 75 years",
       "duration_years": "75",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Fiscal Year End plus 75 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": "See BEN1120 for Employers -\nPayroll Processing."
@@ -559,14 +542,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 4 years",
       "duration_years": "4",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": "See BEN1300 for Rates and\nCalculation factors; BEN1060 and\nBEN1120 for employer payroll;\nBEN1040 and BEN1140 for\nMember and Annuitant records."
@@ -591,14 +573,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "Fiscal Year End 4 years",
       "duration_years": "4",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Fiscal Year End plus 4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": "See BEN1060 for Employers -\nEmployer Payroll."
@@ -623,14 +604,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 75 years",
       "duration_years": "75",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 75 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": "See BEN1040 for Annuitant File.\nSee BEN1160 for Member File -\nDisability Retirement Medical\nRecords. See BEN1200 for\nMembers - Retirement Processing.\nSee BEN1220 for Members -\nTransaction Processing. See\nBEN1240 for Members -\nWithdrawal Processing."
@@ -655,14 +635,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 4 years",
       "duration_years": "4",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": ""
@@ -687,14 +666,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "4 years",
       "duration_years": "4",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": ""
@@ -719,14 +697,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 4 years",
       "duration_years": "4",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": "See BEN1040 for Annuitant File."
@@ -751,14 +728,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "4 years",
       "duration_years": "4",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": ""
@@ -783,14 +759,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 75 years",
       "duration_years": "75",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 75 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": ""
@@ -815,14 +790,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "As Long as Administratively Valuable",
       "duration_years": "",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "As Long as Administratively Valuable",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": "AV to be determined by Director of\nMember Services"
@@ -847,14 +821,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "6 years",
       "duration_years": "6",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "6 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": "See BEN1100 for Employers -\nOriginal Orders and Resolutions."
@@ -879,14 +852,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 4 years",
       "duration_years": "4",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": ""
@@ -911,14 +883,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "4 years",
       "duration_years": "4",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": ""
@@ -943,14 +914,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "As Long as Administratively Valuable",
       "duration_years": "",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "As Long as Administratively Valuable",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": "AV to be determined by Director of\nActuarial Services"
@@ -975,14 +945,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "8 years",
       "duration_years": "8",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "8 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": "See BEN1140 for Member File -\nActive and Inactive."
@@ -1007,14 +976,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "4 years",
       "duration_years": "4",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": "See BEN1140 for Member File -\nActive and Inactive."
@@ -1039,14 +1007,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 2 years",
       "duration_years": "2",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": "CAUTION: Many state publications\nmust be submitted to the Texas\nState Publications Depository\nProgram, Texas State Library and\nArchives Commission. The Texas\nState Library and Archives\nCommission will retain a copy of all\nstate publications submitted to it\non a continuing basis, subject to\nperiodic evaluation to determine if\nthe publication merits further\nretention. Also see EXE1080 for\nComprehensive Annual Financial\nStatements and ADM1320 for\nStrategic Plans. See 2.1.007 for\ninteractive functions of website\nsuch as Benefits Calculator."
@@ -1071,14 +1038,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 3 years",
       "duration_years": "3",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": "TCDRS AC + 3 retention period\nexceeds TSL US + 1 for internal\nbusiness practices."
@@ -1103,14 +1069,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Superseded",
       "duration_years": "",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Until Superseded",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": ""
@@ -1135,14 +1100,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Permanent",
       "duration_years": "",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": ""
@@ -1167,14 +1131,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Superseded 3 years",
       "duration_years": "3",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Until Superseded plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": "Vital Record"
@@ -1199,14 +1162,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Permanent",
       "duration_years": "",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": "ARCHIVES NOTE: In the event that\nthe agency will no longer retain the\nrecords of this series permanently,\nafter retention is met those records\nwill be transferred to the Archives\nand Information Services Division,\nTexas State Library and Archives\nCommission."
@@ -1231,14 +1193,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 5 years",
       "duration_years": "5",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": ""
@@ -1263,14 +1224,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 3 years",
       "duration_years": "3",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": "CAUTION: Does not include\ninspection reports of building\nconstruction. See item number\n5.2.028."
@@ -1295,14 +1255,13 @@
     },
     "retention_rules": {
       "trigger_event": "LA",
-      "trigger_desc": "Life of Asset 10 years",
       "duration_years": "10",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Life of Asset plus 10 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": "See also item number 5.1.001,\nFAC1100A for Contracts and Leases\n- Tenant Leasing Proposals and\n5.1.001, LEG1060B for Contracts\nand Leases - Real Estate Leases and\n5.2.028 for Building Construction\nContracts and Inspections Records\nVital Record"
@@ -1327,14 +1286,13 @@
     },
     "retention_rules": {
       "trigger_event": "LA",
-      "trigger_desc": "Life of Asset",
       "duration_years": "",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Life of Asset",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": ""
@@ -1359,14 +1317,13 @@
     },
     "retention_rules": {
       "trigger_event": "LA",
-      "trigger_desc": "Life of Asset 3 years",
       "duration_years": "3",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Life of Asset plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": "For service agreements or\ncontracts related to equipment\nmaintenance, repairs and service,\nretain in accordance with item\nnumber 5.1.001."
@@ -1391,14 +1348,13 @@
     },
     "retention_rules": {
       "trigger_event": "LA",
-      "trigger_desc": "Life of Asset 10 years",
       "duration_years": "10",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Life of Asset plus 10 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": "See also item number 5.1.001,\nFAC1100A for Contracts and Leases\n- Tenant Leasing Proposals and\n5.1.001, LEG1060B for Contracts\nand Leases - Real Estate Leases and\n5.2.002 for Building Construction\nProject Files Vital Record"
@@ -1423,14 +1379,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 4 years",
       "duration_years": "4",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": "TCDRS AC + 4 retention period\nexceeds TSL AV for internal\nbusiness practices. See 4.7.004 for\nContracts and Agreements - Real\nEstate Purchase and Sale. Vital\nRecord"
@@ -1455,14 +1410,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 4 years",
       "duration_years": "4",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": ""
@@ -1487,14 +1441,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Superseded 1 year",
       "duration_years": "1",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Until Superseded plus 1 year",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": "TCDRS US + 1 retention period\nexceeds TSL US for internal\nbusiness practices."
@@ -1519,14 +1472,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 4 years",
       "duration_years": "4",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": "CAUTION: Documents that serve as\npayroll deduction authorizations\nmust maintained for the retention\nperiod prescribed for item number\n3.2.001. TCDRS AC + 4 retention\nperiod exceeds TSL AC for internal\nbusiness practices. See HRB1160\nfor Employee Disability Insurance\nBenefits - Medical Records,\nBEN1160 for Member File -\nDisability Retirement Medical\nRecords."
@@ -1551,14 +1503,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 4 years",
       "duration_years": "4",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": "CAUTION: Documents that serve as\npayroll deduction authorizations\nmust maintained for the retention\nperiod prescribed for item number\n3.2.001. TCDRS AC + 4 retention\nperiod exceeds TSL AC for internal\nbusiness practices. See HRB1060\nfor Benefit Enrollment and\nParticipation - Loan Applications,\nHRB1080 for Benefit Enrollment\nand Participation - Pension\nSummary Records."
@@ -1583,14 +1534,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 4 years",
       "duration_years": "4",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": "CAUTION: Documents that serve as\npayroll deduction authorizations\nmust be maintained for the\nretention period prescribed for\nitem number 3.2.001 TCDRS AC + 4\nretention period exceeds TSL AC\nfor internal business practices. Vital\nRecord"
@@ -1615,14 +1565,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 75 years",
       "duration_years": "75",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 75 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": "CAUTION: Documents that serve as\npayroll deduction authorizations\nmust be maintained for the\nretention period prescribed for\nitem number 3.2.001.TCDRS AC +\n75 retention period exceeds TSL AC\n+ 2 for internal business practices.\nVital Record"
@@ -1647,14 +1596,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 5 years",
       "duration_years": "5",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": "CAUTION: Documents that serve as\npayroll deduction authorizations\nmust be maintained for the\nretention period prescribed for\nitem number 3.2.001 TCDRS AC + 5\nretention period exceeds TSL AC\nfor internal business practices. See\nBEN1160 for Member File -\nDisability Retirement Medical\nRecords."
@@ -1679,14 +1627,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 5 years",
       "duration_years": "5",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": "CAUTION: Documents that serve as\npayroll deduction authorization\nmust be maintained for the\nretention period prescribed for\nitem number 3.2.001. TCDRS AC + 5\nretention period exceeds TSL AC +\n2 for internal business practices.\nThis is not insurance. Vital Record"
@@ -1711,14 +1658,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 5 years",
       "duration_years": "5",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": ""
@@ -1743,14 +1689,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "3 years",
       "duration_years": "3",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": ""
@@ -1775,14 +1720,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "3 years",
       "duration_years": "3",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": "TCDRS 3 yr retention period\nexceeds TSL 2 yr for internal\nbusiness practices."
@@ -1807,14 +1751,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "3 years",
       "duration_years": "3",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": "TCDRS 3 yr retention period\nexceeds TSL 2 for internal business\npractices. See 3.1.014 HRE1060B"
@@ -1839,14 +1782,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "3 years",
       "duration_years": "3",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": "TCDRS 3 yr retention period\nexceeds TSL 2 for internal business\npractices. See 3.1.012 HRE1060A\nContains records found within\nrecords series 3.1.026 Criminal\nHistory Checks Vital Record"
@@ -1871,14 +1813,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 5 years",
       "duration_years": "5",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": "CAUTION: If during the retention\nperiod of this records series, any\npart of this series issued to\ndocument and support personnel\ndisciplinary action under item\nnumber 3.1.021, all documentation\nfrom this series used to support\ndisciplinary action must be retained\nfor the minimum retention period\ndescribed by item number 3.1.021.\nSee 3.1.018 HRE1080A, 3.1.021\nHRE1080C"
@@ -1903,14 +1844,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 5 years",
       "duration_years": "5",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": "See 3.1.08 HRE1080A, 3.1.020\nHRE1080B Vital Record"
@@ -1935,14 +1875,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "6 years",
       "duration_years": "6",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "6 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": "See 1.1.070, 1.2.005, 3.3.024,\n4.7.001 for Policies, Programs, and\nProcedures. TCDRS 6 yr retention\nperiod exceeds TSL 3 for internal\nbusiness practices."
@@ -1967,14 +1906,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 6 years",
       "duration_years": "6",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 6 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": "TCDRS AC + 6 retention period\nexceeds TSL AC + 4 for internal\nbusiness practices. Vital Record"
@@ -1999,14 +1937,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 5 years",
       "duration_years": "5",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": "CAUTION: Does not include\ncriminal history checks. TCDRS AC +\n5 retention period exceeds TSL 2 yr\nfor internal business practices. See\n3.1.019 for Performance\nEvaluation, 3.1.024 for Medical\nReports, 3.4.007 for Medical\nLeaves of Absence, 3.4.007 for Non-\nMedical Leaves of Absence. See\n3.1.013 HRE1220B, 3.1.038\nHRE1220D, 3.3.011 HRE1220E Vital\nRecord"
@@ -2031,14 +1968,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 5 years",
       "duration_years": "5",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": "TCDRS AC + 5 retention period\nexceeds TSL FE + 3 for internal\nbusiness practices. Contains\nrecords found within records series\n3.4.002 Leave Status Reports"
@@ -2063,14 +1999,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 5 years",
       "duration_years": "5",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": "CAUTION: Does not include pre-\nemployment physical\nexaminations. See item number\n3.1.014 See BEN1160 for Member\nFile - Disability Retirement Medical\nRecords. See HRB1160 for\nEmployee Disability Insurance\nBenefits - Medical Records. See\n5.4.001 for Injuries and Accidents\nTCDRS AC + 5 retention period\nexceeds TSL AC + 2 for internal\nbusiness practices."
@@ -2095,14 +2030,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 5 years",
       "duration_years": "5",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": "TCDRS AC + 5 retention period\nexceeds TSL FE + 3 for internal\nbusiness practices. Contains\nrecords found within records series\n3.4.002 Leave Status Reports"
@@ -2127,14 +2061,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 5 years",
       "duration_years": "5",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": "TCDRS AC + 5 retention period\nexceeds TSL 2 for internal business\npractices."
@@ -2159,14 +2092,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 4 years",
       "duration_years": "4",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": "Vital Record"
@@ -2191,14 +2123,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "Fiscal Year End 5 years",
       "duration_years": "5",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Fiscal Year End plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": "TCDRS FE + 5 retention period\nexceeds TSL AC + 5 for internal\nbusiness practices."
@@ -2223,14 +2154,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 5 years",
       "duration_years": "5",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": ""
@@ -2255,14 +2185,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Permanent",
       "duration_years": "",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": "See 1.1.048 for Hearings and\nLitigation - Litigation"
@@ -2287,14 +2216,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 5 years",
       "duration_years": "5",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": ""
@@ -2319,14 +2247,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 4 years",
       "duration_years": "4",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": ""
@@ -2351,14 +2278,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Superseded 1 year",
       "duration_years": "1",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Until Superseded plus 1 year",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": ""
@@ -2383,14 +2309,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "As Long as Administratively Valuable",
       "duration_years": "",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "As Long as Administratively Valuable",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": ""
@@ -2415,14 +2340,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "3 years",
       "duration_years": "3",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": "TCDRS 3 yr retention period\nexceeds TSL AV for internal\nbusiness practices."
@@ -2447,14 +2371,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 6 years",
       "duration_years": "6",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 6 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": ""
@@ -2479,14 +2402,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 6 years",
       "duration_years": "6",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 6 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": "ARCHIVES NOTE Cases that set\nlegal precedent or exhibit historical\nvalue will be evaluated by the\nArchives and Information Services\nDivision of the Texas State Library\nand Archives Commission for\narchival preservation. TCDRS AC + 6\nretention period exceeds TSL AC+ 1\nfor internal business practices."
@@ -2511,14 +2433,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 10 years",
       "duration_years": "10",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 10 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": "See 1.1.048 for Hearings and\nLitigation - Litigation See 1.1.027\nfor Proposed Legislation - Legal\nProjects and Analysis - Proposed\nLegislation and 1.1.014 for Legal\nProjects and Analysis - Legal\nOpinions."
@@ -2543,14 +2464,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 1 year",
       "duration_years": "1",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 1 year",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": ""
@@ -2575,14 +2495,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "5 years",
       "duration_years": "5",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": "See 1.1.000 for Legal Projects and\nAnalysis - General and 1.1.014 for\nLegal Projects and Analysis - Legal\nOpinions. TCDRS 5 yr. retention\nperiod exceeds TSL AV for internal\nbusiness practices."
@@ -2607,14 +2526,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "Fiscal Year End 4 years",
       "duration_years": "4",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Fiscal Year End plus 4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": "Contains records found within\nrecords series 3.2.004 Income\nadjustment Authorizations and\n3.2.005 W-4 Forms and 3.2.008\nDirect Deposit Authorizations and\nTCDRS FE + 4 retention period\nexceeds TSL AC + 4 for internal\nbusiness practices. Vital Record"
@@ -2639,14 +2557,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "As Long as Administratively Valuable",
       "duration_years": "",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "As Long as Administratively Valuable",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": "AV to be determined by the\nDirector of Communications or the\nowner of the Copy of Record See\nPUB1040 for Public Relations,\nCOM1060 for State Publications"
@@ -2671,14 +2588,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "As Long as Administratively Valuable",
       "duration_years": "",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "As Long as Administratively Valuable",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": "AV to be determined by Director of\nAdministrative Services"
@@ -2703,14 +2619,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 15 years",
       "duration_years": "15",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 15 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": ""
@@ -2735,14 +2650,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 15 years",
       "duration_years": "15",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 15 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": "See 5.4.001 for Insurance Claims -\nWorkers' Compensation Claims."
@@ -2767,14 +2681,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 6 years",
       "duration_years": "6",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 6 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": "TCDRS AC + 6 retention period\nexceeds TSL AC + 4 for internal\nbusiness practices. Vital Record"
@@ -2799,14 +2712,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 6 years",
       "duration_years": "6",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 6 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": "TCDRS AC + 6 retention period\nexceeds TSL AC + 4 for internal\nbusiness practices. Vital Record"
@@ -2831,14 +2743,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 6 years",
       "duration_years": "6",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 6 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-03",
       "next_update_due": "2025-06",
       "comments": "TCDRS AC + 6 retention period\nexceeds TSL AC + 4 for internal\nbusiness practices. Vital Record"

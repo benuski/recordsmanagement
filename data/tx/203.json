@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "As Long as Administratively Valuable",
       "duration_years": "",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "As Long as Administratively Valuable",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "Considered confidential, electronic\nrecord."
@@ -47,14 +46,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "2 years",
       "duration_years": "2",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": ""
@@ -79,14 +77,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "50 years",
       "duration_years": "50",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "50 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "Considered confidential."
@@ -111,14 +108,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Permanent",
       "duration_years": "",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": ""
@@ -143,14 +139,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "50 years",
       "duration_years": "50",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "50 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "Considered confidential. Not fitting\nto 1.1.043."
@@ -175,14 +170,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 1 year",
       "duration_years": "1",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 1 year",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "Considered confidential. Not fitting\nto 1.1.043."
@@ -207,14 +201,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 5 years",
       "duration_years": "5",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "Considered confidential."
@@ -239,14 +232,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 5 years",
       "duration_years": "5",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "Considered confidential."
@@ -271,14 +263,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 5 years",
       "duration_years": "5",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "Considered confidential."
@@ -303,14 +294,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 10 years",
       "duration_years": "10",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 10 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "Considered confidential."
@@ -335,14 +325,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 10 years",
       "duration_years": "10",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 10 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "Considered confidential."
@@ -367,14 +356,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 5 years",
       "duration_years": "5",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "Considered confidential."
@@ -399,14 +387,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "As Long as Administratively Valuable",
       "duration_years": "",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "As Long as Administratively Valuable",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "Considered confidential."
@@ -431,14 +418,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "As Long as Administratively Valuable",
       "duration_years": "",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "As Long as Administratively Valuable",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "Accessed monthly, electronic\nrecord."
@@ -463,14 +449,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "50 years",
       "duration_years": "50",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "50 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": ""
@@ -495,14 +480,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "15 years",
       "duration_years": "15",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "15 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": ""
@@ -527,14 +511,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "5 years",
       "duration_years": "5",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "Electronic record, considered\nconfidential."
@@ -559,14 +542,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "6 years",
       "duration_years": "6",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "6 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "Electronic record, considered\nconfidential."
@@ -591,14 +573,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "50 years",
       "duration_years": "50",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "50 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "Historical and statistical\nsignificance. Consider confidential."
@@ -623,14 +604,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "75 years",
       "duration_years": "75",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "75 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "Historical significance."
@@ -655,14 +635,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "75 years",
       "duration_years": "75",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "75 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "Some information considered\nconfidential. Not fitting for 1.1.043."
@@ -687,14 +666,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "As Long as Administratively Valuable",
       "duration_years": "",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "As Long as Administratively Valuable",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": ""
@@ -719,14 +697,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "2 years",
       "duration_years": "2",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "Electronic Record."
@@ -751,14 +728,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "15 years",
       "duration_years": "15",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "15 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": ""
@@ -783,14 +759,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "3 years",
       "duration_years": "3",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "Considered confidential. ARCHIVES\nNOTE: This series was appraised as\nnon-archival for this agency by the\nState Archivist on October 21,\n2024. Records of this series may be\ndisposed of at the expiration of the\nretention period."
@@ -815,14 +790,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 5 years",
       "duration_years": "5",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "ARCHIVES NOTE: Working files and\nrelated documentation used in\ncreating the final rules, policies,\nand procedures, are not subject to\narchival requirement and may be\ndisposed of at the expiration of the\nretention period."
@@ -847,14 +821,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "50 years",
       "duration_years": "50",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "50 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "Historical and statistical\nsignificance. Consider confidential."
@@ -879,14 +852,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "As Long as Administratively Valuable",
       "duration_years": "",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "As Long as Administratively Valuable",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "Considered confidential."
@@ -911,14 +883,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "Fiscal Year End 3 years",
       "duration_years": "3",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Fiscal Year End plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": ""
@@ -943,14 +914,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 2 years",
       "duration_years": "2",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "CAUTION: If a complaint becomes\nthe subject of litigation, it must be\nincluded in and is subject to the\nminimum retention period of item\nnumber 1.1.048."
@@ -975,14 +945,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "2 years",
       "duration_years": "2",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "General correspondence received\nby all staff."
@@ -1007,14 +976,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 2 years",
       "duration_years": "2",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": ""
@@ -1039,14 +1007,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "15 years",
       "duration_years": "15",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "15 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "Considered confidential."
@@ -1071,14 +1038,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "4 years",
       "duration_years": "4",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "Considered confidential. ARCHIVES\nNOTE: This series was appraised as\nnon-archival for this agency by the\nState Archivist on October 21,\n2024. Records of this series may be\ndisposed of at the expiration of the\nretention period."
@@ -1103,14 +1069,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 5 years",
       "duration_years": "5",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": ""
@@ -1135,14 +1100,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "10 years",
       "duration_years": "10",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "10 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": ""
@@ -1167,14 +1131,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 3 years",
       "duration_years": "3",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "Some information may be\nconfidential."
@@ -1199,14 +1162,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "As Long as Administratively Valuable",
       "duration_years": "",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "As Long as Administratively Valuable",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": ""
@@ -1231,14 +1193,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 1 year",
       "duration_years": "1",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 1 year",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": ""
@@ -1263,14 +1224,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 5 years",
       "duration_years": "5",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": ""
@@ -1295,14 +1255,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 2 years",
       "duration_years": "2",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": ""
@@ -1327,14 +1286,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 3 years",
       "duration_years": "3",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "ARCHIVES NOTE: This series was\nappraised as non-archival for this\nagency by the State Archivist on\nOctober 21, 2024. Records of this\nseries may be disposed of at the\nexpiration of the retention period."
@@ -1359,14 +1317,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 1 year",
       "duration_years": "1",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 1 year",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": ""
@@ -1391,14 +1348,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "6 years",
       "duration_years": "6",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "6 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": ""
@@ -1423,14 +1379,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 2 years",
       "duration_years": "2",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "ARCHIVES NOTE: Cases that set\nlegal precedent or exhibit historical\nvalue will be evaluated by the\nArchives and Information Services\nDivision of the Texas State Library\nand Archives Commission for\narchival preservation. See page ix\nfor more information."
@@ -1455,14 +1410,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "20 years",
       "duration_years": "20",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "20 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "Considered confidential."
@@ -1487,14 +1441,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Permanent",
       "duration_years": "",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "ARCHIVES NOTE: Agency retains\npermanent record copy. The\narchival requirement will be met by\nsending a copy to the Archives &\nInformation Services Division,\nTexas State Library and Archives\nCommission."
@@ -1519,14 +1472,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Permanent",
       "duration_years": "",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "ARCHIVES NOTE: Agency retains\npermanent record copy. The\narchival requirement will be met by\nsending a copy to the Archives &\nInformation Services Division,\nTexas State Library & Archives\nCommission. Considered vital."
@@ -1551,14 +1503,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Permanent",
       "duration_years": "",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "Considered vital & confidential."
@@ -1583,14 +1534,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "1 year",
       "duration_years": "1",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "1 year",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": ""
@@ -1615,14 +1565,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "50 years",
       "duration_years": "50",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "50 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "CAUTION: Does not include source\ndocumentation used for\ninformation or data included in or\ndirectly related to another record\nseries related to documentation of\nagency performance measures.\nConsidered vital & confidential."
@@ -1647,14 +1596,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Permanent",
       "duration_years": "",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "CAUTION: Does not include source\ndocumentation used for\ninformation or data included in or\ndirectly related to documentation\nof agency performance measures.\nConsidered vital & confidential."
@@ -1679,14 +1627,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Permanent",
       "duration_years": "",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "CAUTION: Does not include source\ndocumentation used for\ninformation or data included in or\ndirectly related to documentation\nof agency performance measures.\nConsidered vital."
@@ -1711,14 +1658,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 6 years",
       "duration_years": "6",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 6 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "ARCHIVES NOTE: The final version\nof these agency reports must be\nsubmitted to the Texas State\nPublications Depository Program\nper 13 TAC 3.3. The requirement is\nmet by sending the required copies\nof the reports to the Texas State\nPublications Depository Program,\nTexas State Library and Archives\nCommission. Working files and\nrelated documentation used in\ncreating the final report may be\ndisposed of at the expiration of the\nretention period."
@@ -1743,14 +1689,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "10 years",
       "duration_years": "10",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "10 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "Series includes records fitting to\n1.1.067 and 5.4.001. ARCHIVES\nNOTE: Reports are archival when\nthey deal with significant aspects of\nthe agency's programs. For\nagencies that have had an archival\nappraisal, separate this records\nseries by each type of archival\ncoding, A, R, or E. See page ix for\nmore information."
@@ -1775,14 +1720,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "75 years",
       "duration_years": "75",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "75 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "Considered vital. ARCHIVES NOTE:\nReports are archival when they\ndeal with significant aspects of the\nagency's programs. For agencies\nthat have had an archival appraisal,\nseparate this records series by each\ntype of archival coding, A, R, or E.\nSee page ix for more information."
@@ -1807,14 +1751,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 3 years",
       "duration_years": "3",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "Considered vital. ARCHIVES NOTE:\nWorking files and related\ndocumentation used in creating the\nfinal rules, policies, and\nprocedures, are not subject to\narchival requirement and may be\ndisposed of at the expiration of the\nretention period."
@@ -1839,14 +1782,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Superseded 3 years",
       "duration_years": "3",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Until Superseded plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "Used daily. Amended frequently.\nConsidered vital. ARCHIVES NOTE:\nWorking files and related\ndocumentation used in creating the\nfinal rules, policies, and\nprocedures, are not subject to\narchival requirement and may be\ndisposed of at the expiration of the\nretention period."
@@ -1871,14 +1813,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Superseded 3 years",
       "duration_years": "3",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Until Superseded plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "Considered vital."
@@ -1903,14 +1844,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "Fiscal Year End 3 years",
       "duration_years": "3",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Fiscal Year End plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": ""
@@ -1935,14 +1875,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Superseded",
       "duration_years": "",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Until Superseded",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "Agency copy."
@@ -1967,14 +1906,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 2 years",
       "duration_years": "2",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "Agency copy."
@@ -1999,14 +1937,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "Fiscal Year End 3 years",
       "duration_years": "3",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Fiscal Year End plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "Original is retained by the State and\nLocal Records Management\nDivision, Texas State Library &\nArchives Commission."
@@ -2031,14 +1968,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "20 years",
       "duration_years": "20",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "20 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "Historical significance."
@@ -2063,14 +1999,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Permanent",
       "duration_years": "",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": ""
@@ -2095,14 +2030,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed",
       "duration_years": "",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "Considered vital."
@@ -2127,14 +2061,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed",
       "duration_years": "",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "Considered vital."
@@ -2159,14 +2092,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 5 years",
       "duration_years": "5",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "Considered vital. 3.1.002 3.1.014\n3.2.005 3.1.019"
@@ -2191,14 +2123,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 2 years",
       "duration_years": "2",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": ""
@@ -2223,14 +2154,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed",
       "duration_years": "",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "CAUTION: Documents that serve as\npayroll deduction authorizations\nmust be maintained for the\nretention period prescribed for\nitem number 3.2.001."
@@ -2255,14 +2185,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "2 years",
       "duration_years": "2",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": ""
@@ -2287,14 +2216,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "7 years",
       "duration_years": "7",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "7 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "Considered vital."
@@ -2319,14 +2247,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "4 years",
       "duration_years": "4",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "Considered vital."
@@ -2351,14 +2278,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 4 years",
       "duration_years": "4",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "Considered vital."
@@ -2383,14 +2309,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 5 years",
       "duration_years": "5",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": ""
@@ -2415,14 +2340,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 1 year",
       "duration_years": "1",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 1 year",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "Considered vital."
@@ -2447,14 +2371,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 7 years",
       "duration_years": "7",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 7 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "Considered vital."
@@ -2479,14 +2402,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 7 years",
       "duration_years": "7",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 7 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "Considered vital."
@@ -2511,14 +2433,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "4 years",
       "duration_years": "4",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "Considered vital. ARCHIVES NOTE:\nThis series was appraised as non-\narchival for this agency by the State\nArchivist on October 21, 2024.\nRecords of this series may be\ndisposed of at the expiration of the\nretention period."
@@ -2543,14 +2464,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 75 years",
       "duration_years": "75",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 75 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": ""
@@ -2575,14 +2495,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Superseded 3 years",
       "duration_years": "3",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Until Superseded plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "Considered vital."
@@ -2607,14 +2526,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Superseded 5 years",
       "duration_years": "5",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Until Superseded plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "Considered vital. CAUTION: Does\nnot include hazardous material\ntraining records."
@@ -2639,14 +2557,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "3 years",
       "duration_years": "3",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "Considered vital."
@@ -2671,14 +2588,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "Fiscal Year End 3 years",
       "duration_years": "3",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Fiscal Year End plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": ""
@@ -2703,14 +2619,13 @@
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "trigger_desc": "Calendar Year End 4 years",
       "duration_years": "4",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Calendar Year End plus 4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "Timesheets/timecards contain\ninformation pertaining to length\nand type of leave taken and leave\nbalances by type."
@@ -2735,14 +2650,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "Fiscal Year End 3 years",
       "duration_years": "3",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Fiscal Year End plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": ""
@@ -2767,14 +2681,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Permanent",
       "duration_years": "",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": ""
@@ -2799,14 +2712,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "Fiscal Year End 6 years",
       "duration_years": "6",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Fiscal Year End plus 6 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": ""
@@ -2831,14 +2743,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "Fiscal Year End 5 years",
       "duration_years": "5",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Fiscal Year End plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "Considered vital."
@@ -2863,14 +2774,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "Fiscal Year End 6 years",
       "duration_years": "6",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Fiscal Year End plus 6 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "Considered vital."
@@ -2895,14 +2805,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "Fiscal Year End 6 years",
       "duration_years": "6",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Fiscal Year End plus 6 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": ""
@@ -2927,14 +2836,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "Fiscal Year End 6 years",
       "duration_years": "6",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Fiscal Year End plus 6 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": ""
@@ -2959,14 +2867,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "Fiscal Year End 6 years",
       "duration_years": "6",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Fiscal Year End plus 6 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "Considered vital."
@@ -2991,14 +2898,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "Fiscal Year End 6 years",
       "duration_years": "6",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Fiscal Year End plus 6 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": ""
@@ -3023,14 +2929,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Superseded 3 years",
       "duration_years": "3",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Until Superseded plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "Considered vital."
@@ -3055,14 +2960,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "Fiscal Year End 6 years",
       "duration_years": "6",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Fiscal Year End plus 6 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "Considered vital."
@@ -3087,14 +2991,13 @@
     },
     "retention_rules": {
       "trigger_event": "LA",
-      "trigger_desc": "Life of Asset 3 years",
       "duration_years": "3",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Life of Asset plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": ""
@@ -3119,14 +3022,13 @@
     },
     "retention_rules": {
       "trigger_event": "LA",
-      "trigger_desc": "Life of Asset 3 years",
       "duration_years": "3",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Life of Asset plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": ""
@@ -3151,14 +3053,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "Fiscal Year End 3 years",
       "duration_years": "3",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Fiscal Year End plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": ""
@@ -3183,14 +3084,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 6 years",
       "duration_years": "6",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 6 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": ""
@@ -3215,14 +3115,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 6 years",
       "duration_years": "6",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 6 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": ""
@@ -3247,14 +3146,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Superseded",
       "duration_years": "",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Until Superseded",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "Considered confidential."
@@ -3279,14 +3177,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "Fiscal Year End 6 years",
       "duration_years": "6",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Fiscal Year End plus 6 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": ""
@@ -3311,14 +3208,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 7 years",
       "duration_years": "7",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 7 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "Considered vital."
@@ -3343,14 +3239,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 4 years",
       "duration_years": "4",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "Considered vital."
@@ -3375,14 +3270,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Superseded 1 year",
       "duration_years": "1",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Until Superseded plus 1 year",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": ""
@@ -3407,14 +3301,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "1 year",
       "duration_years": "1",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "1 year",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "Considered confidential."
@@ -3439,14 +3332,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "1 year",
       "duration_years": "1",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "1 year",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "Electronic record."
@@ -3471,14 +3363,13 @@
     },
     "retention_rules": {
       "trigger_event": "LA",
-      "trigger_desc": "Life of Asset 3 years",
       "duration_years": "3",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Life of Asset plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "For service agreements or\ncontracts related to equipment\nrepairs and services, retain in\naccordance with item number\n5.1.001."
@@ -3503,14 +3394,13 @@
     },
     "retention_rules": {
       "trigger_event": "LA",
-      "trigger_desc": "Life of Asset 3 years",
       "duration_years": "3",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Life of Asset plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "For service agreements or\ncontracts related to equipment\nrepairs and service, retain in\naccordance with item number\n5.1.001."
@@ -3535,14 +3425,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "Fiscal Year End 3 years",
       "duration_years": "3",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Fiscal Year End plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": ""
@@ -3567,14 +3456,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 7 years",
       "duration_years": "7",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 7 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": ""
@@ -3599,14 +3487,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "Fiscal Year End 3 years",
       "duration_years": "3",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Fiscal Year End plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": ""
@@ -3631,14 +3518,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 2 years",
       "duration_years": "2",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": ""
@@ -3663,14 +3549,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "Fiscal Year End 3 years",
       "duration_years": "3",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Fiscal Year End plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": ""
@@ -3695,14 +3580,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed",
       "duration_years": "",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "CAUTION: If the request for\ninformation leads to request for\nproposal or bid, the request for\ninformation should be retained in\naccordance with item number\n5.3.007."
@@ -3727,14 +3611,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 2 years",
       "duration_years": "2",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "Considered vital."
@@ -3759,14 +3642,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Superseded",
       "duration_years": "",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Until Superseded",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "Considered vital."
@@ -3791,14 +3673,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "As Long as Administratively Valuable",
       "duration_years": "",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "As Long as Administratively Valuable",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": ""
@@ -3823,14 +3704,13 @@
     },
     "retention_rules": {
       "trigger_event": "LA",
-      "trigger_desc": "Life of Asset 1 year",
       "duration_years": "1",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Life of Asset plus 1 year",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": ""
@@ -3855,14 +3735,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 7 years",
       "duration_years": "7",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 7 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "The State Auditor's Office retains\nany copies of its audits performed\non Texas state agencies."
@@ -3887,14 +3766,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 3 years",
       "duration_years": "3",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "ARCHIVES NOTE: Related\ndocumentation includes the agency\nresponse to the commission's draft\nreport and documentation of the\nagency's implementation of the\ncommission's final\nrecommendations. The final\nversion of the agency self-\nevaluation report must be\nsubmitted to the Texas State\nPublications Depository Program\nper 13 TAC 3.3(a)(1)."
@@ -3919,14 +3797,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 7 years",
       "duration_years": "7",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 7 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "Considered vital."
@@ -3951,14 +3828,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Superseded",
       "duration_years": "",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Until Superseded",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": ""
@@ -3983,14 +3859,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Permanent",
       "duration_years": "2",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "SEE caution comment at item\nnumber 1.1.058."
@@ -4015,14 +3890,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 3 years",
       "duration_years": "3",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": ""
@@ -4047,14 +3921,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 2 years",
       "duration_years": "2",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "CAUTION: Many state publications\nmust be submitted to the Texas\nState Publications Depository\nProgram, Texas State Library and\nArchives Commission, by law\n(Government Code 441.101-\n441.106). The Texas State Library\nand Archives Commission will\nretain a copy of all state\npublications submitted to it on a\ncontinuing basis, subject to\nperiodic evaluation to determine if\nthe publication merits further\nretention. For additional\ninformation and requirements\nconcerning state publications made\navailable to the public through the\nInternet, consult the administrative\nrules of the Texas State\nPublications Depository Program of\nthe Texas State Library and\nArchives Commission (13 TAC §§3.1-\n3.16)"
@@ -4079,14 +3952,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 2 years",
       "duration_years": "2",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "CAUTION: Does not include formal\ncomplaints filed by an agency\nemployee with the Equal\nEmployment Office (EEO) of the U.\nS. Department of Labor. SEE item\nnumber 1.1.048."
@@ -4111,14 +3983,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed",
       "duration_years": "",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "CAUTION: An agency that is\nauthorized to obtain a criminal\nhistory record information from\nDPS must refer to its agency's\nlegislation or see Subchapter F,\nChapter 411, Government Code for\nappropriate retention and use of\nthis information."
@@ -4143,14 +4014,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 4 years",
       "duration_years": "4",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": ""
@@ -4175,14 +4045,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Superseded",
       "duration_years": "",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Until Superseded",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": ""
@@ -4207,14 +4076,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 5 years",
       "duration_years": "5",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "For instructions regarding the\ndetermination of the closure of\naccounts and for additional\ninformation regarding the retention\nperiod see the most current edition\nof the Benefits Coordinator\nReference Manual issued by the\nEmployees Retirement System of\nTexas."
@@ -4239,14 +4107,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "Fiscal Year End 3 years",
       "duration_years": "3",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Fiscal Year End plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": ""
@@ -4271,14 +4138,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "2 years",
       "duration_years": "2",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": ""
@@ -4303,14 +4169,13 @@
     },
     "retention_rules": {
       "trigger_event": "LA",
-      "trigger_desc": "Life of Asset 3 years",
       "duration_years": "3",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Life of Asset plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": ""
@@ -4335,14 +4200,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "Fiscal Year End 3 years",
       "duration_years": "3",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Fiscal Year End plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": ""
@@ -4367,14 +4231,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "Fiscal Year End 3 years",
       "duration_years": "3",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Fiscal Year End plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": ""
@@ -4399,14 +4262,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "Fiscal Year End 3 years",
       "duration_years": "3",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Fiscal Year End plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": ""
@@ -4431,14 +4293,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "Fiscal Year End 3 years",
       "duration_years": "3",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Fiscal Year End plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": ""
@@ -4463,14 +4324,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 7 years",
       "duration_years": "7",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 7 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "SEE related item numbers 3.1.035\nPerformance Bonds and 5.3.007\nBid Documentation. SEE item\nnumber 5.2.028 for building\nconstruction contracts and item\nnumber 5.1.017 for contract logs."
@@ -4495,14 +4355,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "As Long as Administratively Valuable",
       "duration_years": "",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "As Long as Administratively Valuable",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": ""
@@ -4527,14 +4386,13 @@
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "trigger_desc": "Calendar Year End 1 year",
       "duration_years": "1",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Calendar Year End plus 1 year",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": "ARCHIVES NOTE: Only the\ncalendars, appointment, and\nitinerary records of elected\nofficials, agency heads, and board\nor commission members require\narchival review. Contact the State\nArchives when these records have\nmet their retention periods.\nCAUTION: A record of this type\npurchased with personal funds but\nused by a state official or employee\nto document his or her work\nactivities may be a state record and\nsubject to this retention period.\nSee Open Records Decision 635\nissued in December 1995 by the\nAttorney General."
@@ -4559,14 +4417,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "2 years",
       "duration_years": "2",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": ""
@@ -4591,14 +4448,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 2 years",
       "duration_years": "2",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": ""
@@ -4623,14 +4479,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed",
       "duration_years": "",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": ""
@@ -4655,14 +4510,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 5 years",
       "duration_years": "5",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": ""
@@ -4687,14 +4541,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 2 years",
       "duration_years": "2",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": ""
@@ -4719,14 +4572,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "2 years",
       "duration_years": "2",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": ""
@@ -4751,14 +4603,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 5 years",
       "duration_years": "5",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": ""
@@ -4783,14 +4634,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "Fiscal Year End 3 years",
       "duration_years": "3",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Fiscal Year End plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-03",
       "next_update_due": "2030-04",
       "comments": ""

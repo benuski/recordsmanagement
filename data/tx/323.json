@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 6 years",
       "duration_years": "6",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 6 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": ""
@@ -47,14 +46,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "As Long as Administratively Valuable",
       "duration_years": "",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "As Long as Administratively Valuable",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": "See AIN OPS9000 for classification of\nmaterials that are weeded out (as\nunusable, almost-duplicates, etc.)"
@@ -79,14 +77,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 3 years",
       "duration_years": "3",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": ""
@@ -111,14 +108,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "4 years",
       "duration_years": "4",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": ""
@@ -143,14 +139,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "4 years",
       "duration_years": "4",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": "CAUTION: This records series should be\nused only for correspondence that is\nnot included in or directly related to\nanother records series on the agency's\napproved schedule. For example, a\nmemorandum that documents an\nappropriations request must be\nretained for the minimum retention\nperiod prescribed by item number\nFIN1000 Appropriations and Budget\nRequests; a letter concerning an audit\nfor that prescribed by item number\nAGY6000 Audit Reports, etc. ARCHIVES\nNOTE: Only the administrative\ncorrespondence of executive staff,\nboard or commission members,\ndivision directors and program heads\nrequire archival review. Contact the\nState Archives when these records\nhave met their retention periods."
@@ -175,14 +170,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 2 years",
       "duration_years": "2",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": "ARCHIVES NOTE: Only speeches,\npapers, and presentations given by or\non behalf of executive staff, board or\ncommission members, division\ndirectors and program heads require\narchival review."
@@ -207,14 +201,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 4 years",
       "duration_years": "4",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": ""
@@ -239,14 +232,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Permanent",
       "duration_years": "",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": ""
@@ -271,14 +263,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Superseded",
       "duration_years": "",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Until Superseded",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": "ARCHIVES NOTE: Only charts showing\nthe overall arrangement and\nadministrative structure of the state\nagency need to be transferred to the\nArchives and Information Services\nDivision, Texas State Library and\nArchives Commission. Organizational\ncharts showing division/department\nlevel detail are not considered archival.\nMaintained in conjunction with\nExecutive Management, Accounting,\nand Communications."
@@ -303,14 +294,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "20 years",
       "duration_years": "20",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "20 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": "NOTE: Documents related to proposed\ninvestments and documents for\naccepted investments are retained in\nInvestment Management (IMD) record\nseries. SEE ALSO: For agency strategic\nplanning, see AGY4010 Strategic Plan\nand Operating Reports. For\ndepartmental planning, see OPS1000\nRoutine Administration. ARCHIVES\nNOTE: Data processing planning\nrecords are not archival."
@@ -335,14 +325,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 4 years",
       "duration_years": "4",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": ""
@@ -367,14 +356,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "3 years",
       "duration_years": "3",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": "ARCHIVES NOTE: Reports are archival\nwhen they deal with significant aspects\nof the agency's programs. For agencies\nthat have had an archival appraisal,\nseparate this records series by each\ntype of archival coding, A, R, or E. See\npage ix of the Texas State Records\nRetention Schedule for more\ninformation. SEE ALSO: For reporting\nkey performance measures to the\nlegislature, see AGY4020 Agency\nReporting - Performance Measures.\nFor records related to annual\nappropriations requests, see FIN1000\nAppropriations and Budget Requests.\nFor records of annual end of fiscal year\nfinancial reporting, see FIN1020 Annual\nFinancial Reporting and Actuarial\nEvaluations."
@@ -399,14 +387,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 10 years",
       "duration_years": "10",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 10 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": "ARCHIVES NOTE: Working files and\nrelated documentation used in\ncreating the final rules, policies, and\nprocedures, are not subject to archival\nrequirement and may be disposed of\nat the expiration of the retention\nperiod. TRS is required by statute to\nprescribe and maintain certain forms\n(e.g. beneficiary designation pursuant\nto Tex. Gov't Code 824.101; and refund\napplications pursuant to Tex. Gov't\nCode 822.005). The forms must be\nmaintained permanently because\nbenefits determination may involve an\nevaluation of the validity of forms\nsubmitted by previous generations of\nTRS participants. MEDIA NOTES:\nElectronic versions of a form are\nsuperseded (e.g. disposed of) by\nsubsequent revisions. Original SLR\n105C (formerly RMD 105C) is retained\nby the State and Local Records\nManagement Division, Texas State\nLibrary and Archives Commission. SEE\nALSO: For files that demonstrate the\nformulation, planning, modification,\nand implementation of rules, policies,\nguidelines, and procedures unique to\nthe agency, see AGY5010 Policies and\nProcedures Development - Agency"
@@ -431,14 +418,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 3 years",
       "duration_years": "3",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": "ARCHIVES NOTE: Working files and\nrelated documentation used in\ncreating the final rules, policies, and\nprocedures, are not subject to archival\nrequirement and may be disposed of\nat the expiration of the retention\nperiod. SEE ALSO: For final rules,\npolicies, guidelines, and procedures\nproviding governance and direction for\nthe unique programs of the agency,\nsee AGY5000 Policies and Procedures -\nAgency Programs."
@@ -463,14 +449,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Superseded 6 years",
       "duration_years": "6",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Until Superseded plus 6 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": "Includes RSI: 5.4.013. CAUTION: Does\nnot include technical documentation of\nprocedures necessary for reading or\nprocessing of electronic records. SEE\nALSO: For technical documentation of\nprocedures necessary for reading or\nprocessing of electronic records, see\nIT1000 Information Systems - Design\nand Configuration. Retention to\ncoincide with the Health Insurance\nPortability and Accountability Act of\n1996 (Public Law 104-191 and 45 C.F.R\nParts 160 and 164). Records may\ncontain both confidential and public\ninformation (e.g., Tex. Gov't Code §§\n552.024, 552.101, 552.102, and\n552.117; 42 U.S.C. § 405(c)(2) (C-vii)\nregarding Social Security numbers; and\nthe Americans with Disabilities Act of\n1990, 42 U.S.C. § 12101 et seq. and 29\nC.F.R 1630.14(b-1) and (c-1)."
@@ -495,14 +480,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 7 years",
       "duration_years": "7",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 7 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": "SEE ALSO: For final audit reports, see\nAGY6000 Final Audit Case Files."
@@ -527,14 +511,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Permanent",
       "duration_years": "",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": "ARCHIVES NOTE: Archival code\nremoved subsequent to appraisal by\nthe Archives and Information Services\nDivision, Texas State Library and\nArchives Commission, November 2009."
@@ -559,14 +542,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "8 years",
       "duration_years": "8",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "8 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": ""
@@ -591,14 +573,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "2 years",
       "duration_years": "2",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": ""
@@ -623,14 +604,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 3 years",
       "duration_years": "3",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": "ARCHIVES NOTE: Related\ndocumentation includes the agency\nresponse to the commission’s draft\nreport and documentation of the\nagency’s implementation of the\ncommission’s final recommendations.\nThe final version of the agency self-\nevaluation report must be submitted\nto the Texas State Publications\nDepository Program per 13 TAC\n3.3(a)(1)."
@@ -655,14 +635,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "5 years",
       "duration_years": "5",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": "SEE ALSO: For relations with the\nlegislature, elected officials, and other\ngovernmental bodies at state, local and\nfederal levels, see AGY7000\nGovernment Affairs; For public\ninformation requests, see LEG6000\nPublic Information Requests and"
@@ -687,14 +666,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "10 years",
       "duration_years": "10",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "10 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": "Reporting"
@@ -719,14 +697,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 30 years",
       "duration_years": "30",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 30 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": ""
@@ -751,14 +728,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 75 years",
       "duration_years": "75",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 75 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": ""
@@ -783,14 +759,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "30 years",
       "duration_years": "30",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "30 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": "Records required to ascertain effects of\nhistorical changes related to the core\nmission of TRS."
@@ -815,14 +790,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "7 years",
       "duration_years": "7",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "7 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": ""
@@ -847,14 +821,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "30 years",
       "duration_years": "30",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "30 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": "MEDIA NOTES: Calendars for years\n1970-1983 are kept on microfilm."
@@ -879,14 +852,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "10 years",
       "duration_years": "10",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "10 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": "MEDIA DESCRIPTION: Monetary\ninformation contained in District\nReports is ultimately recorded and\nstored in BEN1000 Member Accounts\n(MDS001 \"Member Benefit Records\" in\nthe imaging system, and /or BAC034\n\"Member Benefit Records\" in the TRS\nmainframe). District reports have been\nmaintained in the following media:\n1.1985-1998 are on microfilm. 2.1998-\n2003 are on paper. 3.2003-Present are\nmaintained electronically on TRAQS.\nEXCEPTION TO RETENTION PERIOD:\nInformation in reports dated 1937-\n1985 may not have been transferred or\nrecorded to another media, and,\ntherefore must be retained\npermanently to comply with agency\nitem number BEN1000 Member\nAccounts (formerly MDS001 and\nBAC034 for \"Member Benefit\nRecords\"). These records are only on\nmicrofilm."
@@ -911,14 +883,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "75 years",
       "duration_years": "75",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "75 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": "See guidelines in 29 U.S.C. § 1059 and\nin Health Insurance Portability and\nAccountability Act. Records may\ncontain both confidential and public\ninformation (e.g., Tex. Gov't Code §\n825.507; Texas Insurance Code\n§1579.005; Texas Occupations Code\nTitle 3, Subtitle B, Medical Practice Act;\nand Health Insurance Portability and\nAccountability Act of 1996 (Public Law\n104-191) and 45 C.F.R. Parts 160 and\n164)."
@@ -943,14 +914,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "10 years",
       "duration_years": "10",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "10 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": "NOTE: TRS does not have any meeting\nbriefing materials prior to 01/01/2021\ndue to the prior disposition of meeting\nbriefing materials before the retention\nperiod was increased to 10 years. See\nguidelines in 29 U.S.C. § 1059 and in\nHealth Insurance Portability and\nAccountability Act. Records may\ncontain both confidential and public\ninformation (e.g., Tex. Gov't Code §\n825.507; Texas Insurance Code\n§1579.005; Texas Occupations Code\nTitle 3, Subtitle B, Medical Practice Act;\nand Health Insurance Portability and\nAccountability Act of 1996 (Public Law\n104-191) and 45 C.F.R. Parts 160 and\n164)."
@@ -975,14 +945,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 6 years",
       "duration_years": "6",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 6 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": "NOTE: Incoming / Outgoing\ncorrespondence records are imaged\nunder agency item number BEN1000\nMember Accounts. SEE ALSO: For final\ndeterminations and decisions, see\nBEN1000 Member Accounts. See\nguidelines in 29 U.S.C. § 1059 and in\nHealth Insurance Portability and\nAccountability Act. Records may\ncontain both confidential and public\ninformation (e.g., Tex. Gov't Code §\n825.507; Texas Insurance Code\n§1579.005; Texas Occupations Code\nTitle 3, Subtitle B, Medical Practice Act;\nand Health Insurance Portability and\nAccountability Act of 1996 (Public Law\n104-191) and 45 C.F.R. Parts 160 and\n164)."
@@ -1007,14 +976,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "100 years",
       "duration_years": "100",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "100 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": "RECORD COPY: Agency retains\npermanent record copy. Records may\ncontain both confidential and public\ninformation (e.g., Tex. Gov't Code §\n825.507; Texas Occupations Code Title\n3, Subtitle B, Medical Practice Act).\nRecords may contain information\npertaining to disability retirees (Health\nInsurance Portability and\nAccountability Act of 1996 (Public Law\n104-191) and 45 C.F.R. Parts 160 and\n164)."
@@ -1039,14 +1007,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "100 years",
       "duration_years": "100",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "100 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": ""
@@ -1071,14 +1038,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "10 years",
       "duration_years": "10",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "10 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": "NOTE: TRS does not have any meeting\nbriefing materials prior to 01/01/2021\ndue to the prior disposition of meeting\nbriefing materials before the retention\nperiod was increased to 10 years."
@@ -1103,14 +1069,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "10 years",
       "duration_years": "10",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "10 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": ""
@@ -1135,14 +1100,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 7 years",
       "duration_years": "7",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 7 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": ""
@@ -1167,14 +1131,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "8 years",
       "duration_years": "8",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "8 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": "ARCHIVES NOTE: The final version of\nLegislative Appropriation Requests\nmust be submitted to the Texas State\nPublications Depository Program per\n13 TAC 3.3(a)(3)(A). Working files and\nrelated documentation used in\ncreating the final plan are not subject\nto archival review and may be disposed\nof at the expiration of the retention\nperiod."
@@ -1199,14 +1162,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 5 years",
       "duration_years": "5",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": "Records may contain both confidential\nand public information (e.g., Tex. Gov't\nCode §§ 552.024, 552.101, 552.102,\n552.117, 552.130, and 552.147; Texas\nOccupations Code Title 3, Subtitle B,\nMedical Practice Act; 42 U.S.C.\n405(c)(2)(C)(viii) [regarding Social\nSecurity numbers]; and the Americans\nwith Disabilities Act of 1990, 42 U.S.C. §\n12101 et seq. and 29 C.F.R\n1630.14(b)(1) and (c)(1).)."
@@ -1231,14 +1193,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 5 years",
       "duration_years": "5",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": "CAUTION: Does not include safety and\nsecurity training records. SEE ALSO: For\nindividual (employee-specific)\ndevelopment plans, certifications, and\ntraining attendance records, see\nHRS1000 Employees - Personnel File.\nFor safety and security training\nrecords, see OPS4065 Security Officer\nCertification and Training. For\ndesigning and developing training\nmaterial, see OPS2000 Training\nMaterials."
@@ -1263,14 +1224,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 2 years",
       "duration_years": "2",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": ""
@@ -1295,14 +1255,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed",
       "duration_years": "",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": "CAUTION: An agency that is\nauthorized to obtain a criminal history\nrecord information from DPS must\nrefer to its agency's legislation or see\nSubchapter F, Chapter 411,\nGovernment Code for appropriate\nretention and use of this information."
@@ -1327,14 +1286,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "5 years",
       "duration_years": "5",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": "SEE ALSO: For individual (employee-\nspecific) development plans, awards\nand recognition, and training\nattendance records, see HRS1000\nEmployees - Personnel Files. For\nadministering HR-managed training\nprograms, see HRS2000 Employees -\nTraining Administration. For program\nreporting, see HRS5000 Labor and\nEmployment Compliance and\nReporting."
@@ -1359,14 +1317,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 4 years",
       "duration_years": "4",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": ""
@@ -1391,14 +1348,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "3 years",
       "duration_years": "3",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": "Employee lists and emergency contact\nforms are vital records. Other records\nin this series are not vital. 29 C.F.R\n1602.30, 1602.32, 1602.48, and\n1602.50. Records may contain both\nconfidential and public information\n(e.g., Tex. Gov't Code §§ 552.024,\n552.101, 552.117, and 552.147; and 42\nU.S.C. 405(c)(2)(C)(viii) [regarding\nSocial Security numbers])."
@@ -1423,14 +1379,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 5 years",
       "duration_years": "5",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": ""
@@ -1455,14 +1410,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 75 years",
       "duration_years": "75",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 75 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": "MEDIA NOTES: Records from 1937-84\nare on microfilm. Records from 1985 to\npresent are in paper. Records from\n1994 to present are available thru\nComptroller's database."
@@ -1487,14 +1441,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed",
       "duration_years": "",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": "RECORD COPY: ERS maintains the\nrecord copy of some records.\nCAUTION: Documents that serve as\npayroll deduction authorizations are\nincluded in FIN3000 (AC+5) SEE ALSO:\nFor TRS Employees Retirement\nRecords, see BEN1000 Member\nAccounts. For employee deduction\nauthorizations, see FIN3000 Employee\nPayroll Input. Records may contain\nboth confidential and public\ninformation (e.g., Tex. Gov't Code §§\n552.024, 552.101, 552.102, 552.117,\nand 552.130; Texas Occupations Code\nTitle 3, Subtitle B, Medical Practice Act;\n42 U.S.C. § 405(c)(2)(C)(viii) [regarding\nSocial Security numbers]; and the\nAmericans with Disabilities Act of 1990,\n42 U.S.C. § 12101 et seq. and 29 C.F.R\n1630.14(b)(1) and (c)(1).)."
@@ -1519,14 +1472,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "50 years",
       "duration_years": "50",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "50 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": ""
@@ -1551,14 +1503,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "20 years",
       "duration_years": "20",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "20 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": ""
@@ -1583,14 +1534,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 20 years",
       "duration_years": "20",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 20 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": ""
@@ -1615,14 +1565,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 20 years",
       "duration_years": "20",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 20 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": ""
@@ -1647,14 +1596,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "20 years",
       "duration_years": "20",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "20 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": ""
@@ -1679,14 +1627,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "6 years",
       "duration_years": "6",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "6 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": ""
@@ -1711,14 +1658,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "3 years",
       "duration_years": "3",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": ""
@@ -1743,14 +1689,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "50 years",
       "duration_years": "50",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "50 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": ""
@@ -1775,14 +1720,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "As Long as Administratively Valuable",
       "duration_years": "",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "As Long as Administratively Valuable",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": ""
@@ -1807,14 +1751,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed",
       "duration_years": "",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": ""
@@ -1839,14 +1782,13 @@
     },
     "retention_rules": {
       "trigger_event": "LA",
-      "trigger_desc": "Life of Asset 3 years",
       "duration_years": "3",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Life of Asset plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": ""
@@ -1871,14 +1813,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 6 years",
       "duration_years": "6",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 6 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": ""
@@ -1903,14 +1844,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "7 years",
       "duration_years": "7",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "7 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": ""
@@ -1935,14 +1875,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 7 years",
       "duration_years": "7",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 7 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": "CAUTION: If a complaint becomes a\nmatter of litigation, see item 1.1.048.\nARCHIVES NOTE: Archival code\nremoved per Archival Review August\n2002. SEE ALSO: For records relevant\nto litigation or adjudication, see\nLEG3000 Litigation and Adjudicative\nHearings. CAUTION: Does not include\nformal complaints filed by an agency\nemployee with the Equal Employment\nOffice (EEO) of the U. S. Department of\nLabor (DOL). See HRS5010 if a\ncomplaint is filed with EEO. Records\nmay contain both confidential and\npublic information (e.g., Tex. Gov't\nCode §§ 552.024, 552.101, 552.102,\n552.117, and 552.130, and\nconstitutional and common law\nprivacy; Texas Occupations Code Title\n3, Subtitle B, Medical Practice Act; Tex.\nGov't Code 552.147; 42 U.S.C.\n405(c)(2)(C)(viii) [regarding Social\nSecurity numbers]; and the Americans\nwith Disabilities Act of 1990, 42 U.S.C. §\n12101 et seq. and 29 C.F.R\n1630.14(b)(1) and (c)(1); See also,\nMorales v. Ellen, 840 S.W.2d 519\n(Texas App.-El Paso 1992, writ denied)\ninterpreting common law privacy\ndoctrine.)."
@@ -1967,14 +1906,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 7 years",
       "duration_years": "7",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 7 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": "SEE ALSO: For infringement\ninvestigations, see LEG2000\nComplaints, Claims and Investigations.\nFor licenses related to the use of\nintellectual property, see FIN6000\nContracts and Agreements - General."
@@ -1999,14 +1937,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "As Long as Administratively Valuable",
       "duration_years": "",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "As Long as Administratively Valuable",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": "CAUTION: Does not include legal\nopinions or advice rendered on a\nmatter in litigation, or with regard to\npending litigation. ARCHIVES NOTE:\nOpinions and advice that set legal\nprecedent or exhibit historical value\nwill be evaluated by the Archives and\nInformation Services Division of the\nTexas State Library and Archives\nCommission for archival preservation.\nSee page ix of the Texas State Records\nRetention Schedule for more\ninformation. SEE ALSO: For legal\nopinions or advice rendered on a\nmatter in litigation, or with regard to\npending litigation, see LEG3000\nLitigation and Adjudicative Hearings."
@@ -2031,14 +1968,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "2 years",
       "duration_years": "2",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": "CAUTION: A record of this type\npurchased with personal funds, but\nused by a state official or employee to\ndocument his or her work activities\nmay be a state record and subject to\nthis retention period. See Open\nRecords Decision 635 issued in\nDecember 1995 by the Attorney\nGeneral. ARCHIVES NOTE: Only the\ncalendars, appointment, and itinerary\nrecords of elected officials, agency\nheads, and board or commission\nmembers require archival review.\nContact the State Archives when these\nrecords have met their retention\nperiods. Archival code for all other\ndepartments removed subsequent to\nappraisal by the Archives and\nInformation Services Division, Texas\nState Library and Archives Commission,\nNovember 2009."
@@ -2063,14 +1999,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Superseded 1 year",
       "duration_years": "1",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Until Superseded plus 1 year",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": "SEE ALSO: For policies, procedures,\nand guidelines unique to the agency,\nsee AGY5000 Policies and Procedures -\nAgency Programs."
@@ -2095,14 +2030,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Superseded 2 years",
       "duration_years": "2",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Until Superseded plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": ""
@@ -2127,14 +2061,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 7 years",
       "duration_years": "7",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 7 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": ""
@@ -2159,14 +2092,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 20 years",
       "duration_years": "20",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 20 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": "Note: Final design records should be\nclassified under OPS4010 upon\ncompletion of project. ARCHIVES\nNOTE: Archival review designation is\nfor state-owned buildings only."
@@ -2191,14 +2123,13 @@
     },
     "retention_rules": {
       "trigger_event": "LA",
-      "trigger_desc": "Life of Asset 1 year",
       "duration_years": "1",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "Life of Asset plus 1 year",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": ""
@@ -2223,14 +2154,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 2 years",
       "duration_years": "2",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": ""
@@ -2255,14 +2185,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 3 years",
       "duration_years": "3",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": "CAUTION: Does not include inspection\nreports of building construction. SEE\nALSO: For a history of maintenance\nperformed or deficiencies noted, but\nnot corrected, see OPS4030 Facilities -\nVehicle Maintenance. For building\nconstruction projects, including\ninspection reports, see OPS4000\nFacilities - Design and Construction."
@@ -2287,14 +2216,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "10 years",
       "duration_years": "10",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "10 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": "NOTE: Life Safety Code requires fire\ninspections to be maintained every\nyear, fire damper testing reports every\nfour years, and Standpipe testing every\n6 years. OPS4055 will be kept for 10\nyears to ensure these requirements"
@@ -2319,14 +2247,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed",
       "duration_years": "",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": "are met"
@@ -2351,14 +2278,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 2 years",
       "duration_years": "2",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": ""
@@ -2383,14 +2309,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "As Long as Administratively Valuable",
       "duration_years": "",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "As Long as Administratively Valuable",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": "NOTE: TRS currently has two systems\nfor disposing of surveillance footage,\none that is 90 days and one that is 120\ndays. TRS anticipates having one\nsystem by FY2026."
@@ -2415,14 +2340,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Closed 6 years",
       "duration_years": "6",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "After Closed plus 6 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": "Some documents may be duplicated in\nGeneral Accounting. SEE ALSO: For\nbuilding construction projects, see\nOPS4000 Facilities - Design and\nConstruction."
@@ -2447,14 +2371,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "3 years",
       "duration_years": "3",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": ""
@@ -2479,14 +2402,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "50 years",
       "duration_years": "50",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "50 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": "CAUTION: Many state publications\nmust be submitted to the Texas State\nPublications Depository Program,\nTexas State Library and Archives\nCommission, by law (Government\nCode, 441.103-441.105). The Texas\nState Library and Archives Commission\nwill retain a copy of all state\npublications submitted to it on a\ncontinuing basis, subject to periodic\nevaluation to determine if the\npublication merits further retention.\nFor additional information and\nrequirements concerning state\npublications made available to the\npublic through the internet, consult\nthe administrative rules of the Texas\nState Publications Depository Program\nof the Texas State Library and Archives\nCommission (13 TAC §§3.1-3.8)."
@@ -2511,14 +2433,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "As Long as Administratively Valuable",
       "duration_years": "",
       "duration_months": "",
-      "disposition_method": "",
+      "disposition": "As Long as Administratively Valuable",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": "2030-02",
       "comments": "ARCHIVES NOTE: Archival code\nremoved subsequent to appraisal by\nthe Archives and Information Services\nDivision, Texas State Library and\nArchives Commission, November 2009.\nSEE ALSO: For trademarks and\ncopyrights, see LEG4000 Intellectual\nProperty. For branding guidelines, see\nAGY5020 Policies and Procedures -\nBusiness Operations."
