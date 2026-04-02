@@ -14,14 +14,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "event",
+      "trigger_event": "CR",
+      "trigger_desc": "event",
       "duration_years": 10,
       "duration_months": null,
       "disposition_method": "Non-confidential Destruction",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2022-10-18",
       "next_update_due": null,
       "comments": null
@@ -45,14 +46,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "issuance",
+      "trigger_event": "CR",
+      "trigger_desc": "issuance",
       "duration_years": 12,
       "duration_months": null,
       "disposition_method": "Non-confidential Destruction",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2022-10-18",
       "next_update_due": null,
       "comments": null
@@ -76,14 +78,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "issuance",
+      "trigger_event": "CR",
+      "trigger_desc": "issuance",
       "duration_years": 20,
       "duration_months": null,
       "disposition_method": "Non-confidential Destruction",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2022-10-18",
       "next_update_due": null,
       "comments": null
@@ -107,14 +110,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "issuance",
+      "trigger_event": "CR",
+      "trigger_desc": "issuance",
       "duration_years": 3,
       "duration_months": null,
       "disposition_method": "Non-confidential Destruction",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2022-10-18",
       "next_update_due": null,
       "comments": null
@@ -135,17 +139,18 @@
       "series_id": "000444",
       "series_title": "Environmental Review: Other",
       "series_description": "This series documents contribution to environmental reviews done for groups such as State Environmental Review Process (SERP), Department of Environmental Quality (DEQ), towns, municipalities, cities, and land trusts. This series may include, but is not limited to: comment letters, relevant documents from the application, and maps. COV 10.1-1188",
-      "legal_citation": null
+      "legal_citation": "COV 10.1-1188"
     },
     "retention_rules": {
-      "trigger_event": "issuance",
+      "trigger_event": "CR",
+      "trigger_desc": "issuance",
       "duration_years": 5,
       "duration_months": null,
       "disposition_method": "Non-confidential Destruction",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2022-10-18",
       "next_update_due": null,
       "comments": null
@@ -166,17 +171,18 @@
       "series_id": "200748",
       "series_title": "Financial and Construction Assistance Programs (FCAP): Leveraged Projects",
       "series_description": "This series documents bonds and projects funded by those bonds associated with the Financial Construction Assistance Programs (FCAP) and Drinking Water State Revolving Fund (DWSRF) Program. This series may include, but is not limited to: bond information, applications, expenditure reports, certification documents, program design manuals, project schedules, cash flow documents, final project evaluations, drawings, maps, operating agreements, intended use plans, and annual audited financial statements. COV 32.1-171.2; 2 CFR 200.334",
-      "legal_citation": null
+      "legal_citation": "2 CFR 200.334"
     },
     "retention_rules": {
-      "trigger_event": "project completion",
+      "trigger_event": "AC",
+      "trigger_desc": "project completion",
       "duration_years": 30,
       "duration_months": null,
       "disposition_method": "Non-confidential Destruction",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2022-10-18",
       "next_update_due": null,
       "comments": null
@@ -197,17 +203,18 @@
       "series_id": "000446",
       "series_title": "Financial and Construction Assistance Programs (FCAP): NonLeveraged Projects",
       "series_description": "This series documents management of multiple funding sources under the Drinking Water State Revolving Fund (DWSRF) Program, including but not limited to the the Financial and Construction Assistance Programs (FCAP) and Training and Capacity Development Program. This series may include, but is not limited to: applications, expenditure reports, certification documents, program design manuals, project schedules, cash flow documents, final project evaluations, drawings, maps, operating agreements, task orders, business plans, planning documents, intended use plans, and annual audited financial statements. COV 32.1-171.2; 2 CFR 200.334",
-      "legal_citation": null
+      "legal_citation": "2 CFR 200.334"
     },
     "retention_rules": {
-      "trigger_event": "project completion",
+      "trigger_event": "AC",
+      "trigger_desc": "project completion",
       "duration_years": 3,
       "duration_months": null,
       "disposition_method": "Non-confidential Destruction",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2022-10-18",
       "next_update_due": null,
       "comments": null
@@ -231,14 +238,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "event",
+      "trigger_event": "CR",
+      "trigger_desc": "event",
       "duration_years": 40,
       "duration_months": null,
       "disposition_method": "Non-confidential Destruction",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2022-10-18",
       "next_update_due": null,
       "comments": null
@@ -262,14 +270,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "issuance",
+      "trigger_event": "CR",
+      "trigger_desc": "issuance",
       "duration_years": 12,
       "duration_months": null,
       "disposition_method": "Non-confidential Destruction",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2022-10-18",
       "next_update_due": null,
       "comments": null
@@ -293,14 +302,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "closed",
+      "trigger_event": "AC",
+      "trigger_desc": "closed",
       "duration_years": 5,
       "duration_months": null,
       "disposition_method": "Non-confidential Destruction",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2022-10-18",
       "next_update_due": null,
       "comments": null
@@ -324,14 +334,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "event",
+      "trigger_event": "CR",
+      "trigger_desc": "event",
       "duration_years": 0,
       "duration_months": null,
       "disposition_method": "Non-confidential Destruction",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2022-10-18",
       "next_update_due": null,
       "comments": null
@@ -355,14 +366,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "issuance",
+      "trigger_event": "CR",
+      "trigger_desc": "issuance",
       "duration_years": 10,
       "duration_months": null,
       "disposition_method": "Non-confidential Destruction",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2022-10-18",
       "next_update_due": null,
       "comments": null
@@ -386,14 +398,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "creation",
+      "trigger_event": "CR",
+      "trigger_desc": "creation",
       "duration_years": 15,
       "duration_months": null,
       "disposition_method": "Non-confidential Destruction",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2022-10-18",
       "next_update_due": null,
       "comments": null
@@ -417,14 +430,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "superseded, obsolete, rescinded",
+      "trigger_event": "US",
+      "trigger_desc": "superseded, obsolete, rescinded",
       "duration_years": 5,
       "duration_months": null,
       "disposition_method": "or Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2022-10-18",
       "next_update_due": null,
       "comments": null
@@ -448,14 +462,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "event",
+      "trigger_event": "CR",
+      "trigger_desc": "event",
       "duration_years": 10,
       "duration_months": null,
       "disposition_method": "Non-confidential Destruction",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2022-10-18",
       "next_update_due": null,
       "comments": null
@@ -479,14 +494,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "last action",
+      "trigger_event": "CR",
+      "trigger_desc": "last action",
       "duration_years": 10,
       "duration_months": null,
       "disposition_method": "Non-confidential Destruction",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2022-10-18",
       "next_update_due": null,
       "comments": null
@@ -510,14 +526,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "issuance",
+      "trigger_event": "CR",
+      "trigger_desc": "issuance",
       "duration_years": 5,
       "duration_months": null,
       "disposition_method": "Non-confidential Destruction",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2022-10-18",
       "next_update_due": null,
       "comments": null
@@ -538,17 +555,18 @@
       "series_id": "000445",
       "series_title": "Reports: Federal Reports and Requests",
       "series_description": "This series documents interaction with federal agencies regarding technical issues required to establish primacy in Virginia and operate a public water system program for the commonwealth. This series may include, but is not limited to: inventory; violation and enforcement data to the Safe Drinking Water Information System / Federal System (SDWIS/FED); Surface Water Treatment Rule (SWTR) data; Operator Certification Program annual reports; and annual capacity development implementation reports for new and existing systems. 40 CFR 142.16",
-      "legal_citation": null
+      "legal_citation": "40 CFR 142.16"
     },
     "retention_rules": {
-      "trigger_event": "receipt",
+      "trigger_event": "CR",
+      "trigger_desc": "receipt",
       "duration_years": 5,
       "duration_months": null,
       "disposition_method": "Non-confidential Destruction",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2022-10-18",
       "next_update_due": null,
       "comments": null
@@ -572,14 +590,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "last action",
+      "trigger_event": "CR",
+      "trigger_desc": "last action",
       "duration_years": 20,
       "duration_months": null,
       "disposition_method": "Non-confidential Destruction",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2022-10-18",
       "next_update_due": null,
       "comments": null
@@ -600,17 +619,18 @@
       "series_id": "000462",
       "series_title": "Reports: Operation Reports",
       "series_description": "This series documents the operational reporting and monitoring of waterworks' samples to ensure the waterworks facility is in compliance with the Virginia Waterworks Regulations and National Primary Drinking Water (NPDW) regulations. This series may include, but is not limited to: reports detailing monthly, daily, and average water production; population and number of connections served; and daily chlorine residuals from distribution systems. 12VAC5-590-330; 40 CFR 142.14",
-      "legal_citation": null
+      "legal_citation": "40 CFR 142.14"
     },
     "retention_rules": {
-      "trigger_event": "receipt",
+      "trigger_event": "CR",
+      "trigger_desc": "receipt",
       "duration_years": 5,
       "duration_months": null,
       "disposition_method": "Non-confidential Destruction",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2022-10-18",
       "next_update_due": null,
       "comments": null
@@ -631,17 +651,18 @@
       "series_id": "000453",
       "series_title": "Safe Drinking Water Act (SDWA): Facility Closed or Records Superseded",
       "series_description": "This series documents approved monitoring plans, regulatory determinations, special evaluations, and vulnerability determinations. These records are retained until they are either superseded or the facility closes. This series may include, but is not limited to: approval letters, monitoring plans, waivers, reports, drawings, supporting data, monitoring decisions, Total Coliform Rule (TCR) monitoring decisions, maps, Lead and Copper Rule (LCR) material survey and sample pool reports, cross connection control plans, waterworks business operation plans, Groundwater Under the Direct Influence of Surface Water (GUDI) evaluations, and review notes. 12VAC5-590-370 B; 40 CFR 142.14",
-      "legal_citation": null
+      "legal_citation": "40 CFR 142.14"
     },
     "retention_rules": {
-      "trigger_event": "issuance",
+      "trigger_event": "CR",
+      "trigger_desc": "issuance",
       "duration_years": 12,
       "duration_months": null,
       "disposition_method": "Non-confidential Destruction",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2022-10-18",
       "next_update_due": null,
       "comments": null
@@ -662,17 +683,18 @@
       "series_id": "000454",
       "series_title": "Safe Drinking Water Information System (SDWIS) State",
       "series_description": "This series documents the tracking of waterworks facilities through the Safe Drinking Water Information System (SDWIS). This series may include, but is not limited to: sampling data, compliance status, violations, inspection schedules, and Safe Drinking Water Act (SDWA) dates. This series does not include sample results, compliance schedules, or legal entities, which are covered by other series in this retention schedule. 40 CFR 142.15; 40 CFR 142.14",
-      "legal_citation": null
+      "legal_citation": "40 CFR 142.14"
     },
     "retention_rules": {
-      "trigger_event": "Permanent",
+      "trigger_event": "PM",
+      "trigger_desc": "",
       "duration_years": 999,
       "duration_months": null,
       "disposition_method": "Permanent, In Agency",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2022-10-18",
       "next_update_due": null,
       "comments": null
@@ -696,14 +718,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "event",
+      "trigger_event": "CR",
+      "trigger_desc": "event",
       "duration_years": 20,
       "duration_months": null,
       "disposition_method": "Non-confidential Destruction",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2022-10-18",
       "next_update_due": null,
       "comments": null
@@ -727,14 +750,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "superseded, obsolete, rescinded",
+      "trigger_event": "US",
+      "trigger_desc": "superseded, obsolete, rescinded",
       "duration_years": 0,
       "duration_months": null,
       "disposition_method": "or Non-confidential Destruction",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2022-10-18",
       "next_update_due": null,
       "comments": null
@@ -758,14 +782,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "superseded, obsolete, rescinded",
+      "trigger_event": "US",
+      "trigger_desc": "superseded, obsolete, rescinded",
       "duration_years": 0,
       "duration_months": null,
       "disposition_method": "or Non-confidential Destruction",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2022-10-18",
       "next_update_due": null,
       "comments": null

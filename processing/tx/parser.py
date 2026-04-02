@@ -43,7 +43,7 @@ def parse_agencies_html(html_path: Path) -> dict:
                 continue
 
             agency_cell = cells[0].get_text(strip=True)
-            match = re.match(r'(.+?)\((\d{3,4})\)', agency_cell)
+            match = re.search(r'(.+?)\s*\(\s*(\d{3,4})\s*\)', agency_cell)
             if match:
                 agency_name = match.group(1).strip()
                 schedule_id = match.group(2)
@@ -139,35 +139,35 @@ def extract_metadata_from_pdf(pdf_path: Path) -> dict:
 def parse_retention_field(retention_text: str, retention_codes: dict) -> dict:
     """Parse retention code and periods from a raw retention string."""
     result = {
-        'retention_code': '',
+        'trigger_event': '',
         'retention_years': '',
         'retention_months': '',
-        'retention_weeks': '',
-        'retention_days': '',
         'retention_statement': ''
     }
     if not retention_text: return result
 
     retention_text = retention_text.strip()
     code_match = re.match(r'^([A-Z]{2,3})\b', retention_text)
-    if code_match: result['retention_code'] = code_match.group(1)
+    if code_match: result['trigger_event'] = code_match.group(1)
         
-    for unit in ['year', 'month', 'week', 'day']:
+    for unit in ['year', 'month']:
         m = re.search(fr'(\d+(?:\.\d+)?)\s*(?:{unit})', retention_text, re.IGNORECASE)
         if m: result[f'retention_{unit}s'] = m.group(1)
     
-    if not any([result['retention_years'], result['retention_months'], result['retention_weeks'], result['retention_days']]):
+    if not any([result['retention_years'], result['retention_months']]):
         num_match = re.search(r'\+\s*(\d+(?:\.\d+)?)', retention_text)
         if num_match: result['retention_years'] = num_match.group(1)
 
     parts = []
-    for unit in ['year', 'month', 'week', 'day']:
+    for unit in ['year', 'month']:
         val = result[f'retention_{unit}s']
         if val: parts.append(f"{val} {unit}{'s' if val != '1' else ''}")
 
-    if result['retention_code'] and result['retention_code'] in retention_codes:
-        title = retention_codes[result['retention_code']]['title']
-        result['retention_statement'] = f"{title} plus {' and '.join(parts)}" if parts else title
+    if result['trigger_event'] and result['trigger_event'] in retention_codes:
+        title = retention_codes[result['trigger_event']]['title']
+        # Clean title - remove definitions in parentheses
+        clean_title = re.sub(r'\(.*\)', '', title).strip()
+        result['retention_statement'] = f"{clean_title} plus {' and '.join(parts)}" if parts else clean_title
     elif parts:
         result['retention_statement'] = " and ".join(parts)
 
@@ -179,11 +179,6 @@ def parse_using_vertical_silo_tx(
 ) -> list[dict]:
     """Custom silo parser for Texas landscape/tagged PDFs."""
     all_records = []
-    # g1: end of RSIN column (~100)
-    # g2: end of Title column (~240)
-    # g3: end of Description column (~440)
-    # g4: end of Retention Code column (~530)
-    # g5: end of Retention Period columns (~700)
     g1, g2, g3, g4, g5 = config.default_walls
     
     with pdfplumber.open(pdf_path) as pdf:
@@ -191,10 +186,8 @@ def parse_using_vertical_silo_tx(
             words = page.extract_words()
             if not words: continue
 
-            # Filter out headers/footers
             valid_words = [w for w in words if 150 < w['top'] < page.height - 50]
             
-            # Anchors are in the RSIN column (between 50 and g1)
             anchors = [w for w in valid_words if 50 < w['x0'] < g1 and config.series_id_pattern.match(w['text'].strip())]
             anchors.sort(key=lambda x: x['top'])
 
@@ -251,7 +244,6 @@ def parse_using_vertical_silo_tx(
                     last_checked=str(date.today())
                 )
                 
-                # Parse retention
                 parsed = parse_retention_field(f"{ret_code} + {ret_period}", retention_codes)
                 update_record(raw_record, **parsed)
                 
@@ -265,11 +257,12 @@ def process_texas_pdf(pdf_path: Path, schema: dict, retention_codes_path: Path, 
     retention_codes = load_retention_codes(retention_codes_path)
     metadata = extract_metadata_from_pdf(pdf_path)
 
-    if agency_mapping and metadata['schedule_id'] in agency_mapping:
-        agency_info = agency_mapping[metadata['schedule_id']]
-        metadata['agency_name'] = agency_info['name']
-        if not metadata['last_updated']: metadata['last_updated'] = agency_info['last_updated']
-        if not metadata['next_update']: metadata['next_update'] = agency_info['next_update']
+    if agency_mapping:
+        if metadata['schedule_id'] in agency_mapping:
+            agency_info = agency_mapping[metadata['schedule_id']]
+            metadata['agency_name'] = agency_info['name']
+            if not metadata['last_updated']: metadata['last_updated'] = agency_info['last_updated']
+            if not metadata['next_update']: metadata['next_update'] = agency_info['next_update']
 
     records = []
     current_col_map = None
@@ -325,7 +318,6 @@ def process_texas_pdf(pdf_path: Path, schema: dict, retention_codes_path: Path, 
                         series_id = str(row[col_map.get('series_id', 0)] or '').strip() if len(row) > col_map.get('series_id', 0) else ''
                         series_title = str(row[col_map.get('series_title', 1)] or '').strip() if len(row) > col_map.get('series_title', 1) else ''
                         
-                        # Skip if no series_id, no title, or if series_id doesn't match the pattern (e.g., TOC entries)
                         if not series_id or not series_title or not texas_config.series_id_pattern.match(series_id):
                             continue
 
@@ -341,7 +333,6 @@ def process_texas_pdf(pdf_path: Path, schema: dict, retention_codes_path: Path, 
                         )
 
                         ret_code = str(row[col_map['retention_code']] or '').strip() if 'retention_code' in col_map and len(row) > col_map['retention_code'] else ''
-                        # Handle mirrored text
                         ret_code = "".join(reversed(ret_code)) if ret_code in ["CA", "VA", "EC", "EF", "AL", "MP", "SU"] else ret_code
                         
                         period_text = " ".join([f"{str(row[col_map[k]] or '').strip()} {k.split('_')[1]}" for k in ['retention_years', 'retention_months', 'retention_days'] if k in col_map and len(row) > col_map[k] and str(row[col_map[k]] or '').strip()])
@@ -349,9 +340,9 @@ def process_texas_pdf(pdf_path: Path, schema: dict, retention_codes_path: Path, 
                         parsed = parse_retention_field(f"{ret_code} + {period_text}", retention_codes)
                         update_record(raw_record, **parsed)
 
-                        if not get_nested_val(raw_record, 'retention_code') and 'archival' in col_map and len(row) > col_map['archival']:
+                        if not get_nested_val(raw_record, 'trigger_event') and 'archival' in col_map and len(row) > col_map['archival']:
                             if 'A' in str(row[col_map['archival']]).upper():
-                                update_record(raw_record, retention_code='PM', retention_statement='Permanent')
+                                update_record(raw_record, trigger_event='PM', retention_statement='Permanent')
 
                         records.append(clean_record_fields(raw_record, texas_config))
 

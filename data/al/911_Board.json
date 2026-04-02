@@ -9,15 +9,16 @@
     },
     "series_metadata": {
       "series_id": "",
-      "series_title": "BOARD ADMINISTRATIVE POLICIES AND PROCEDURES",
-      "series_description": "",
-      "legal_citation": ""
+      "series_title": "REMITTANCE REPORTS FROM CARRIERS",
+      "series_description": "This is an itemized list of the monthly charges the wireless service providers are collecting from their customers. These reports outline the collection of the CMRS Service Charge and what the wireless service providers are entitled to deduct for their expenses before sending the funds to be deposited in the CMRS Fund. Because these reports contain detailed proprietary information about the wireless service providers, their connections, and their customer base, the plans are restricted from public access as outlined in Code of Alabama 1975 \u00a7 11-98-9. **II. [Permanent Records.]{.underline}** The Government Records Division recommends the following records as permanent.",
+      "legal_citation": "Code of Alabama 1975 \u00a7 11-98-9"
     },
     "retention_rules": {
-      "trigger_event": "PM",
-      "duration_years": 999,
+      "trigger_event": "AC",
+      "trigger_desc": "Temporary Record. 3 years end of fiscal year in which records were created",
+      "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "PERMANENT RECORD.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -28,9 +29,39 @@
     },
     "state_specific_attributes": {
       "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "al",
+      "agency_name": "Alabama 911 Board",
+      "schedule_type": "specific",
+      "schedule_id": "911_Board",
+      "url": null
     },
-    "trigger_event": "PM",
-    "duration_years": 999
+    "series_metadata": {
+      "series_id": "",
+      "series_title": "BOARD ADMINISTRATIVE POLICIES AND PROCEDURES",
+      "series_description": "These contain rules and regulations governing operating procedures for the board and provide instructions for completing the various forms and documents the board requires. Additions and deletions are reviewed by the board. This series documents the board's role in prescribing standards and procedures for its programs.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "PM",
+      "trigger_desc": "PERMANENT RECORD",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-01",
+      "last_updated_by_state": "2002-04-26",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
     "schedule_metadata": {
@@ -43,14 +74,15 @@
     "series_metadata": {
       "series_id": "",
       "series_title": "BOARD MEETING MINUTES",
-      "series_description": "",
-      "legal_citation": ""
+      "series_description": "The minutes of the board document actions of the board as voted on during the meetings. They document policy and rulemaking as well as procedural and organizational changes made within the board to accomplish board goals.",
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "PM",
+      "trigger_desc": "PERMANENT RECORD",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "PERMANENT RECORD.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -61,9 +93,167 @@
     },
     "state_specific_attributes": {
       "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "al",
+      "agency_name": "Alabama 911 Board",
+      "schedule_type": "specific",
+      "schedule_id": "911_Board",
+      "url": null
     },
-    "trigger_event": "PM",
-    "duration_years": 999
+    "series_metadata": {
+      "series_id": "",
+      "series_title": "AUDITED YEAR-END STATEMENTS",
+      "series_description": "The year-end statement provides a detailed accounting of the money taken into the CMRS Fund and what has been remitted back to the carriers and the ECDs. This record serves as an annual report for the board.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "PM",
+      "trigger_desc": "PERMANENT RECORD",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-01",
+      "last_updated_by_state": "2002-04-26",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "al",
+      "agency_name": "Alabama 911 Board",
+      "schedule_type": "specific",
+      "schedule_id": "911_Board",
+      "url": null
+    },
+    "series_metadata": {
+      "series_id": "",
+      "series_title": "RECEIPT SUMMARIES",
+      "series_description": "A cumulative monthly record of the total number of wireless communication customers in the state maintained as a running record throughout the current fiscal year. At the end of the fiscal year the summary is filed, along with a summary of the two previous fiscal years. The number of customers determines the amount of CMRS service charges collected into the CMRS Fund and therefore sets the level of disbursement for the year.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "PM",
+      "trigger_desc": "PERMANENT RECORD",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-01",
+      "last_updated_by_state": "2002-04-26",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "al",
+      "agency_name": "Alabama 911 Board",
+      "schedule_type": "specific",
+      "schedule_id": "911_Board",
+      "url": null
+    },
+    "series_metadata": {
+      "series_id": "",
+      "series_title": "MASTER AGREEMENTS",
+      "series_description": "Every wireless carrier is required to sign an agreement that outlines how it uses the money it receives from the CMRS Fund and how it will implement the E-911 system in its area. These agreements summarize the information in the Carrier Cost Recovery Plan but do not contain the detailed proprietary information that would restrict their access.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "PM",
+      "trigger_desc": "PERMANENT RECORD",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-01",
+      "last_updated_by_state": "2002-04-26",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "al",
+      "agency_name": "Alabama 911 Board",
+      "schedule_type": "specific",
+      "schedule_id": "911_Board",
+      "url": null
+    },
+    "series_metadata": {
+      "series_id": "",
+      "series_title": "ADMINISTRATIVE CORRESPONDENCE",
+      "series_description": "This correspondence consists of letters to and from the board members. The files contain information on state agencies, projects, meetings, and non-state agencies. The board members set policies and procedures for the agency. The correspondence files document the activities and decisions of the board members and/or the board itself.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "PM",
+      "trigger_desc": "PERMANENT RECORD",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-01",
+      "last_updated_by_state": "2002-04-26",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "al",
+      "agency_name": "Alabama 911 Board",
+      "schedule_type": "specific",
+      "schedule_id": "911_Board",
+      "url": null
+    },
+    "series_metadata": {
+      "series_id": "",
+      "series_title": "INFORMATIONAL AND PROMOTIONAL MATERIALS",
+      "series_description": "These records are created to build public awareness about a variety of issues and board related activities. The publications are necessary to document what the board tells the public about its actions and how the board views itself. ## Permanent Records List 1. Board Administrative Policies and Procedures 2. Board Meeting Minutes 3. Audited Year-End Statements 1. Receipt Summaries 1. Master Agreements 1. Administrative Correspondence 2. Informational and Promotional Materials",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "PM",
+      "trigger_desc": "PERMANENT RECORD",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-01",
+      "last_updated_by_state": "2002-04-26",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
     "schedule_metadata": {
@@ -81,9 +271,10 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
+      "trigger_desc": "Temporary Record. official minutes are adopted and signed",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain until official minutes are adopted and signed.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -94,108 +285,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AV",
-    "duration_years": null
-  },
-  {
-    "schedule_metadata": {
-      "state": "al",
-      "agency_name": "Alabama 911 Board",
-      "schedule_type": "specific",
-      "schedule_id": "911_Board",
-      "url": null
-    },
-    "series_metadata": {
-      "series_id": "",
-      "series_title": "AUDITED YEAR-END STATEMENTS",
-      "series_description": "",
-      "legal_citation": ""
-    },
-    "retention_rules": {
-      "trigger_event": "PM",
-      "duration_years": 999,
-      "duration_months": null,
-      "disposition_method": "PERMANENT RECORD.",
-      "confidential_flag": false
-    },
-    "tracking_data": {
-      "last_checked": "2026-04-01",
-      "last_updated_by_state": "2002-04-26",
-      "next_update_due": null,
-      "comments": null
-    },
-    "state_specific_attributes": {
-      "rsin": null
-    },
-    "trigger_event": "PM",
-    "duration_years": 999
-  },
-  {
-    "schedule_metadata": {
-      "state": "al",
-      "agency_name": "Alabama 911 Board",
-      "schedule_type": "specific",
-      "schedule_id": "911_Board",
-      "url": null
-    },
-    "series_metadata": {
-      "series_id": "",
-      "series_title": "RECEIPT SUMMARIES",
-      "series_description": "",
-      "legal_citation": ""
-    },
-    "retention_rules": {
-      "trigger_event": "PM",
-      "duration_years": 999,
-      "duration_months": null,
-      "disposition_method": "PERMANENT RECORD.",
-      "confidential_flag": false
-    },
-    "tracking_data": {
-      "last_checked": "2026-04-01",
-      "last_updated_by_state": "2002-04-26",
-      "next_update_due": null,
-      "comments": null
-    },
-    "state_specific_attributes": {
-      "rsin": null
-    },
-    "trigger_event": "PM",
-    "duration_years": 999
-  },
-  {
-    "schedule_metadata": {
-      "state": "al",
-      "agency_name": "Alabama 911 Board",
-      "schedule_type": "specific",
-      "schedule_id": "911_Board",
-      "url": null
-    },
-    "series_metadata": {
-      "series_id": "",
-      "series_title": "REMITTANCE REPORTS FROM CARRIERS",
-      "series_description": "",
-      "legal_citation": ""
-    },
-    "retention_rules": {
-      "trigger_event": "AC",
-      "duration_years": 3,
-      "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 3 years after the end of the fiscal year in which the records were created.",
-      "confidential_flag": false
-    },
-    "tracking_data": {
-      "last_checked": "2026-04-01",
-      "last_updated_by_state": "2002-04-26",
-      "next_update_due": null,
-      "comments": null
-    },
-    "state_specific_attributes": {
-      "rsin": null
-    },
-    "trigger_event": "AC",
-    "duration_years": 3
+    }
   },
   {
     "schedule_metadata": {
@@ -213,9 +303,10 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
+      "trigger_desc": "Temporary Record. 3 years end of fiscal year in which records were created",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 3 years after the end of the fiscal year in which the records were created.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -226,42 +317,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AC",
-    "duration_years": 3
-  },
-  {
-    "schedule_metadata": {
-      "state": "al",
-      "agency_name": "Alabama 911 Board",
-      "schedule_type": "specific",
-      "schedule_id": "911_Board",
-      "url": null
-    },
-    "series_metadata": {
-      "series_id": "",
-      "series_title": "MASTER AGREEMENTS",
-      "series_description": "",
-      "legal_citation": ""
-    },
-    "retention_rules": {
-      "trigger_event": "PM",
-      "duration_years": 999,
-      "duration_months": null,
-      "disposition_method": "PERMANENT RECORD.",
-      "confidential_flag": false
-    },
-    "tracking_data": {
-      "last_checked": "2026-04-01",
-      "last_updated_by_state": "2002-04-26",
-      "next_update_due": null,
-      "comments": null
-    },
-    "state_specific_attributes": {
-      "rsin": null
-    },
-    "trigger_event": "PM",
-    "duration_years": 999
+    }
   },
   {
     "schedule_metadata": {
@@ -279,9 +335,10 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
+      "trigger_desc": "Temporary Record. 15 years",
       "duration_years": 15,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 15 years.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -292,9 +349,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "CR",
-    "duration_years": 15
+    }
   },
   {
     "schedule_metadata": {
@@ -312,9 +367,10 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
+      "trigger_desc": "Temporary Record. 3 years end of fiscal year in which records were created",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 3 years after the end of the fiscal year in which the records were created.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -325,9 +381,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AC",
-    "duration_years": 3
+    }
   },
   {
     "schedule_metadata": {
@@ -345,9 +399,10 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
+      "trigger_desc": "Temporary Record. 3 years end of fiscal year in which records were created",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 3 years after the end of the fiscal year in which the records were created.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -358,9 +413,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AC",
-    "duration_years": 3
+    }
   },
   {
     "schedule_metadata": {
@@ -378,9 +431,10 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
+      "trigger_desc": "Temporary Record. 3 years end of fiscal year in which records were created",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 3 years after the end of the fiscal year in which the records were created.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -391,9 +445,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AC",
-    "duration_years": 3
+    }
   },
   {
     "schedule_metadata": {
@@ -411,9 +463,10 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
+      "trigger_desc": "Temporary Record. useful life",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain for useful life.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -424,9 +477,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AV",
-    "duration_years": null
+    }
   },
   {
     "schedule_metadata": {
@@ -444,9 +495,10 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
+      "trigger_desc": "Temporary Record. 3 years end of fiscal year in which records were created",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 3 years after the end of the fiscal year in which the records were created.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -457,42 +509,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AC",
-    "duration_years": 3
-  },
-  {
-    "schedule_metadata": {
-      "state": "al",
-      "agency_name": "Alabama 911 Board",
-      "schedule_type": "specific",
-      "schedule_id": "911_Board",
-      "url": null
-    },
-    "series_metadata": {
-      "series_id": "",
-      "series_title": "ADMINISTRATIVE CORRESPONDENCE",
-      "series_description": "",
-      "legal_citation": ""
-    },
-    "retention_rules": {
-      "trigger_event": "PM",
-      "duration_years": 999,
-      "duration_months": null,
-      "disposition_method": "PERMANENT RECORD.",
-      "confidential_flag": false
-    },
-    "tracking_data": {
-      "last_checked": "2026-04-01",
-      "last_updated_by_state": "2002-04-26",
-      "next_update_due": null,
-      "comments": null
-    },
-    "state_specific_attributes": {
-      "rsin": null
-    },
-    "trigger_event": "PM",
-    "duration_years": 999
+    }
   },
   {
     "schedule_metadata": {
@@ -510,9 +527,10 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
+      "trigger_desc": "Temporary Record. 3 years end of fiscal year in which records were created",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 3 years after the end of the fiscal year in which the records were created.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -523,9 +541,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AC",
-    "duration_years": 3
+    }
   },
   {
     "schedule_metadata": {
@@ -543,9 +559,10 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
+      "trigger_desc": "Temporary Record. 3 years end of fiscal year in which records were created",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 3 years after the end of the fiscal year in which the records were created.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -556,9 +573,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AC",
-    "duration_years": 3
+    }
   },
   {
     "schedule_metadata": {
@@ -576,9 +591,10 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
+      "trigger_desc": "Temporary Record. useful life",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain for useful life.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -589,9 +605,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AV",
-    "duration_years": null
+    }
   },
   {
     "schedule_metadata": {
@@ -609,9 +623,10 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
+      "trigger_desc": "Temporary Record. 3 years end of fiscal year in which term expires",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 3 years after the end of the fiscal year in which the term expires.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -622,9 +637,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AC",
-    "duration_years": 3
+    }
   },
   {
     "schedule_metadata": {
@@ -642,9 +655,10 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
+      "trigger_desc": "Temporary Record. duration of office-holder's tenure",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain for duration of office-holder's tenure.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -655,9 +669,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AV",
-    "duration_years": null
+    }
   },
   {
     "schedule_metadata": {
@@ -675,9 +687,10 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
+      "trigger_desc": "Temporary Record. 3 years end of fiscal year in which records were created",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 3 years after the end of the fiscal year in which the records were created.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -688,42 +701,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AC",
-    "duration_years": 3
-  },
-  {
-    "schedule_metadata": {
-      "state": "al",
-      "agency_name": "Alabama 911 Board",
-      "schedule_type": "specific",
-      "schedule_id": "911_Board",
-      "url": null
-    },
-    "series_metadata": {
-      "series_id": "",
-      "series_title": "INFORMATIONAL AND PROMOTIONAL MATERIALS",
-      "series_description": "",
-      "legal_citation": ""
-    },
-    "retention_rules": {
-      "trigger_event": "PM",
-      "duration_years": 999,
-      "duration_months": null,
-      "disposition_method": "PERMANENT RECORD.",
-      "confidential_flag": false
-    },
-    "tracking_data": {
-      "last_checked": "2026-04-01",
-      "last_updated_by_state": "2002-04-26",
-      "next_update_due": null,
-      "comments": null
-    },
-    "state_specific_attributes": {
-      "rsin": null
-    },
-    "trigger_event": "PM",
-    "duration_years": 999
+    }
   },
   {
     "schedule_metadata": {
@@ -741,9 +719,10 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
+      "trigger_desc": "Temporary Record. 3 years end of fiscal year in which records were created",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 3 years after the end of the fiscal year in which the records were created.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -754,9 +733,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AC",
-    "duration_years": 3
+    }
   },
   {
     "schedule_metadata": {
@@ -774,9 +751,10 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
+      "trigger_desc": "Temporary Record. 3 years",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 3 years.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -787,9 +765,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "CR",
-    "duration_years": 3
+    }
   },
   {
     "schedule_metadata": {
@@ -807,9 +783,10 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
+      "trigger_desc": "Temporary Record. 6 years expiration of contract",
       "duration_years": 6,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 6 years after expiration of the contract.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -820,9 +797,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AC",
-    "duration_years": 6
+    }
   },
   {
     "schedule_metadata": {
@@ -840,9 +815,10 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
+      "trigger_desc": "Temporary Record. 6 years end of fiscal year in which records were created. **Records documenting bid process, including requests proposals and unsuccessful responses**",
       "duration_years": 6,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 6 years after the end of the fiscal year in which the records were created. **Records documenting the bid process, including requests for proposals and unsuccessful responses**",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -853,9 +829,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AC",
-    "duration_years": 6
+    }
   },
   {
     "schedule_metadata": {
@@ -873,9 +847,10 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
+      "trigger_desc": "Temporary Record. 7 years end of fiscal year in which bids were opened",
       "duration_years": 7,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 7 years after the end of the fiscal year in which the bids were opened.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -886,9 +861,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AC",
-    "duration_years": 7
+    }
   },
   {
     "schedule_metadata": {
@@ -906,9 +879,10 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
+      "trigger_desc": "Temporary Record. 3 years end of fiscal year in which bids were opened. ## Approval of Records Disposition Authority By signing this agreement, Alabama Commercial Mobile Radio Service Emergency Telephone Services Board acknowledges its responsibilities proper management of its records and agrees abide by implementation guidelines listed below: - Alabama Commercial Mobile Radio Service Emergency Telephone Services Board will designate a managerial position as agency records officer. This position is responsible : ensuring development of quality record keeping systems that meet business and legal needs of commission, coordinating and destruction of records, ensuring that permanent records held on alternative storage media (such as microforms and digital imaging systems) are maintained in compliance with national and state standards, submitting an annual report on records management activities State Records Commission in April of each year, and ensuring regular implementation of commission's approved",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 3 years after the end of the fiscal year in which the bids were opened. ## Approval of Records Disposition Authority By signing this agreement, the Alabama Commercial Mobile Radio Service Emergency Telephone Services Board acknowledges its responsibilities for the proper management of its records and agrees to abide by the implementation guidelines listed below: - The Alabama Commercial Mobile Radio Service Emergency Telephone Services Board will designate a managerial position as the agency records officer. This position is responsible for: ensuring the development of quality record keeping systems that meet the business and legal needs of the commission, for coordinating the transfer and destruction of records, for ensuring that permanent records held on alternative storage media (such as microforms and digital imaging systems) are maintained in compliance with national and state standards, for submitting an annual report on records management activities to the State Records Commission in April of each year, and for ensuring the regular implementation of the commission's approved",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -919,8 +893,6 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "PM",
-    "duration_years": 999
+    }
   }
 ]

@@ -14,14 +14,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Electronic: - conditional dismissals, electronic medium a period of from date of dismissal; , delete electronic medium. (This does not apply a conditional dismissal that is reopened.) ; Paper: - conditional dismissals, physical file, if it was not scanned, a period of from date of dismissal; , shred physical file. (This does not apply a conditional dismissal that is reopened.)",
+      "trigger_event": "CR",
+      "trigger_desc": "Electronic: - conditional dismissals, electronic medium a period of from date of dismissal; , delete electronic medium. (This does not apply a conditional dismissal that is reopened.) ; Paper: - conditional dismissals, physical file, if it was not scanned, a period of from date of dismissal; , shred physical file. (This does not apply a conditional dismissal that is reopened.)",
       "duration_years": 5,
       "duration_months": null,
       "disposition_method": "Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-31",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2025-02-26",
       "next_update_due": null,
       "comments": null

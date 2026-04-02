@@ -14,14 +14,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Electronic: Peer Review has been completed or no longer of Administrative Value. ; Paper: Peer Review has been completed or no longer Administrative Value. If scanned",
+      "trigger_event": "AV",
+      "trigger_desc": "Electronic: Peer Review has been completed or no longer of Administrative Value. ; Paper: Peer Review has been completed or no longer Administrative Value. If scanned",
       "duration_years": null,
       "duration_months": 6,
       "disposition_method": "Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-31",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2019-08-31",
       "next_update_due": null,
       "comments": null

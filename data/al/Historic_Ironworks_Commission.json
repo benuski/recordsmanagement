@@ -9,15 +9,16 @@
     },
     "series_metadata": {
       "series_id": "",
-      "series_title": "COMMISSION MEETING MINUTES, AGENDAS, AND PACKETS\\",
-      "series_description": "",
-      "legal_citation": ""
+      "series_title": "RESEARCHER REGISTRATION FILES",
+      "series_description": "These records contain more detailed information on researchers using collections at the Iron and Steel Museum of Alabama. Information available may include researchers' names and addresses, driver's license numbers, assigned researcher numbers, and types of research being conducted. The files may also contain call slips or other information about specific collections or items used by researchers. They are assigned a lengthy (15-year) retention period in case theft or damage to collections is discovered only after the researcher has departed.",
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "PM",
-      "duration_years": 999,
+      "trigger_event": "CR",
+      "trigger_desc": "Temporary Record. 15 years",
+      "duration_years": 15,
       "duration_months": null,
-      "disposition_method": "PERMANENT RECORD.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -28,9 +29,359 @@
     },
     "state_specific_attributes": {
       "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "al",
+      "agency_name": "Alabama Historic Ironworks Commission",
+      "schedule_type": "specific",
+      "schedule_id": "Historic_Ironworks_Commission",
+      "url": null
     },
-    "trigger_event": "PM",
-    "duration_years": 999
+    "series_metadata": {
+      "series_id": "",
+      "series_title": "INCIDENT/OFFENSE REPORTS",
+      "series_description": "According to the commission's parks administrator, the only records kept by its police (ranger) department are Incident/Offense Reports. These cover only minor incidents at Tannehill or Brierfield, as any incidents involving felonies are referred to Tuscaloosa County law enforcement. The 10-year retention period for adult files is therefore based on that for misdemeanor I/O Reports in the local law enforcement RDA. Juvenile files are likewise assigned the corresponding disposition: \"Retain until subject's age of majority.\"",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "CR",
+      "trigger_desc": "Temporary Record. records of adults 10 years. records of juveniles subject reaches age of majority",
+      "duration_years": 10,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-01",
+      "last_updated_by_state": "2015-10-21",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "al",
+      "agency_name": "Alabama Historic Ironworks Commission",
+      "schedule_type": "specific",
+      "schedule_id": "Historic_Ironworks_Commission",
+      "url": null
+    },
+    "series_metadata": {
+      "series_id": "",
+      "series_title": "INFORMATIONAL AND PROMOTIONAL PUBLICATIONS",
+      "series_description": "Commission staff may create promotional brochures and pamphlets, programs, exhibit catalogs, or other publications promoting exhibits, special events, or other activities at the parks or museum. These records provide primary documentation of the commission's promotional and educational activities.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "PM",
+      "trigger_desc": "PERMANENT RECORD",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-01",
+      "last_updated_by_state": "2015-10-21",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "al",
+      "agency_name": "Alabama Historic Ironworks Commission",
+      "schedule_type": "specific",
+      "schedule_id": "Historic_Ironworks_Commission",
+      "url": null
+    },
+    "series_metadata": {
+      "series_id": "",
+      "series_title": "ACCESSION/DEACCESSION LOGS OR FILES",
+      "series_description": "These records describe items added to, or removed from, the museum's permanent collection. Besides providing a description of each item, these records document the reasons for accessioning or deaccessioning it. They are useful in proving ownership for legal or insurance purposes and in contacts with donors or members of the public. Disposition calls for them to be retained in office.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "PM",
+      "trigger_desc": "PERMANENT RECORD. in office",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-01",
+      "last_updated_by_state": "2015-10-21",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "al",
+      "agency_name": "Alabama Historic Ironworks Commission",
+      "schedule_type": "specific",
+      "schedule_id": "Historic_Ironworks_Commission",
+      "url": null
+    },
+    "series_metadata": {
+      "series_id": "",
+      "series_title": "ARCHIVAL CONTROL FILES",
+      "series_description": "These records document all arrangement, description, cataloging, and preservation actions taken on a particular group or series of records. The files contain copies of transmittals, finding aids, bibliographical information, preservation activities, and location information. As a virtual \"history-in-progress\" of each item, these records provide essential documentation for archival collections held by the museum. Disposition calls for them to be retained in office.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "PM",
+      "trigger_desc": "PERMANENT RECORD. in office",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-01",
+      "last_updated_by_state": "2015-10-21",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "al",
+      "agency_name": "Alabama Historic Ironworks Commission",
+      "schedule_type": "specific",
+      "schedule_id": "Historic_Ironworks_Commission",
+      "url": null
+    },
+    "series_metadata": {
+      "series_id": "",
+      "series_title": "CURATORIAL OBJECTS FILES",
+      "series_description": "These records document provenance, acquisition, identification, cataloging, maintenance, and repair work on objects or artifacts in the museum's collections. They also provide a visual description of each item and may contain photographs of objects. Disposition calls for them to be retained in office. - **Exhibit Files -- Planning Documentation and Sample Copies of Exhibit Catalog.** These records document the planning, research, and creation or staging of exhibits at the museum or as traveling exhibits. They may include planning documentation, descriptions of items, exhibit catalogs, loan agreements for borrowed items, certificates of insurance, and shipping receipts. Only planning documentation and one copy of the exhibit catalog are appraised as permanent. The disposition calls for them to be retained in office. Disposition is also provided for temporary records. **B. [Educational Programs Records Pertaining to the Commission's Parks and/or Museum.]{.underline}**",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "PM",
+      "trigger_desc": "PERMANENT RECORD. in office",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-01",
+      "last_updated_by_state": "2015-10-21",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "al",
+      "agency_name": "Alabama Historic Ironworks Commission",
+      "schedule_type": "specific",
+      "schedule_id": "Historic_Ironworks_Commission",
+      "url": null
+    },
+    "series_metadata": {
+      "series_id": "",
+      "series_title": "ADMINISTRATIVE CORRESPONDENCE",
+      "series_description": "These records consist of policy-related correspondence, and related files, by commission members or senior administrative staff. They reflect decisions or deliberations on policies and procedures related to the commission and its museum and parks, as well as broader questions of administration.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "PM",
+      "trigger_desc": "PERMANENT RECORD",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-01",
+      "last_updated_by_state": "2015-10-21",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "al",
+      "agency_name": "Alabama Historic Ironworks Commission",
+      "schedule_type": "specific",
+      "schedule_id": "Historic_Ironworks_Commission",
+      "url": null
+    },
+    "series_metadata": {
+      "series_id": "",
+      "series_title": "ANNUAL REPORTS",
+      "series_description": "The commission creates an annual narrative and financial report describing its activities, and those of its parks and museum, during the calendar or fiscal year. The report pro-vide summary documentation of the commission's functions, projects, and activities during the year, as well as an ongoing agency history. They offer primary documentation of the commission's fulfillment of its statutory mandates.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "PM",
+      "trigger_desc": "PERMANENT RECORD",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-01",
+      "last_updated_by_state": "2015-10-21",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "al",
+      "agency_name": "Alabama Historic Ironworks Commission",
+      "schedule_type": "specific",
+      "schedule_id": "Historic_Ironworks_Commission",
+      "url": null
+    },
+    "series_metadata": {
+      "series_id": "",
+      "series_title": "HISTORICAL FILES",
+      "series_description": "These records are maintained by the commission to document its history. They may include newspaper clipping files, scrapbooks, photographs, films, audio or video tapes, copies of speeches, or other materials pertaining to important events affecting the commission, its parks, or the Iron and Steel Museum of Alabama.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "PM",
+      "trigger_desc": "PERMANENT RECORD",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-01",
+      "last_updated_by_state": "2015-10-21",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "al",
+      "agency_name": "Alabama Historic Ironworks Commission",
+      "schedule_type": "specific",
+      "schedule_id": "Historic_Ironworks_Commission",
+      "url": null
+    },
+    "series_metadata": {
+      "series_id": "",
+      "series_title": "PUBLICITY FILES",
+      "series_description": "These records may include press releases, newsletters, informational brochures, and announcements designed to publicize events or programs of the commission or its parks and museum. They document the commission's promotional activities.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "PM",
+      "trigger_desc": "PERMANENT RECORD",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-01",
+      "last_updated_by_state": "2015-10-21",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "al",
+      "agency_name": "Alabama Historic Ironworks Commission",
+      "schedule_type": "specific",
+      "schedule_id": "Historic_Ironworks_Commission",
+      "url": null
+    },
+    "series_metadata": {
+      "series_id": "",
+      "series_title": "WEBSITE AND SOCIAL MEDIA SITE(S)",
+      "series_description": "The Alabama Historic Ironworks Commission maintains a website at www.alaironworks.com. Tannehill and Brierfield parks have websites at www.tannehill.org and www.brierfieldironworks.com, respectively. Tannehill's website includes the Iron and Steel Museum of Alabama, which also has a blog. ADAH archivists capture and preserve agency websites, and other social media sites, through a service offered by the Internet Archive (Archive It). This series documents the office's functions and interaction with the public.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "PM",
+      "trigger_desc": "PERMANENT RECORD. *(ADAH staff captures and preserves agency's website and other social media sites via a service offered by Internet Archive \\[Archive It\\]. Check with ADAH website at www.archive-it.org/ organizations/62 ensure your agency website and social media site(s) are captured and preserved. If your agency's website and social media site(s) are not captured by service, please contact Government Services Division at 334-242-4452 get them included.)*",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-01",
+      "last_updated_by_state": "2015-10-21",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "al",
+      "agency_name": "Alabama Historic Ironworks Commission",
+      "schedule_type": "specific",
+      "schedule_id": "Historic_Ironworks_Commission",
+      "url": null
+    },
+    "series_metadata": {
+      "series_id": "",
+      "series_title": "COMMISSION MEETING MINUTES, AGENDAS, AND PACKETS\\",
+      "series_description": "",
+      "legal_citation": ""
+    },
+    "retention_rules": {
+      "trigger_event": "PM",
+      "trigger_desc": "PERMANENT RECORD",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-01",
+      "last_updated_by_state": "2015-10-21",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
     "schedule_metadata": {
@@ -48,9 +399,10 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
+      "trigger_desc": "Temporary Record. official minutes are adopted and signed",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain until the official minutes are adopted and signed.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -61,9 +413,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AV",
-    "duration_years": null
+    }
   },
   {
     "schedule_metadata": {
@@ -81,9 +431,10 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
+      "trigger_desc": "Temporary Record. 5 years",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 5 years.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -94,9 +445,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "CR",
-    "duration_years": 5
+    }
   },
   {
     "schedule_metadata": {
@@ -114,9 +463,10 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
+      "trigger_desc": "Temporary Record. 5 years term is expired",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 5 years after the term is expired.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -127,9 +477,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AC",
-    "duration_years": 5
+    }
   },
   {
     "schedule_metadata": {
@@ -147,9 +495,10 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
+      "trigger_desc": "Temporary Record. property is no longer owned by commission",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain until property is no longer owned by the commission.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -160,42 +509,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AV",
-    "duration_years": null
-  },
-  {
-    "schedule_metadata": {
-      "state": "al",
-      "agency_name": "Alabama Historic Ironworks Commission",
-      "schedule_type": "specific",
-      "schedule_id": "Historic_Ironworks_Commission",
-      "url": null
-    },
-    "series_metadata": {
-      "series_id": "",
-      "series_title": "INFORMATIONAL AND PROMOTIONAL PUBLICATIONS",
-      "series_description": "",
-      "legal_citation": ""
-    },
-    "retention_rules": {
-      "trigger_event": "PM",
-      "duration_years": 999,
-      "duration_months": null,
-      "disposition_method": "PERMANENT RECORD.",
-      "confidential_flag": false
-    },
-    "tracking_data": {
-      "last_checked": "2026-04-01",
-      "last_updated_by_state": "2015-10-21",
-      "next_update_due": null,
-      "comments": null
-    },
-    "state_specific_attributes": {
-      "rsin": null
-    },
-    "trigger_event": "PM",
-    "duration_years": 999
+    }
   },
   {
     "schedule_metadata": {
@@ -208,14 +522,15 @@
     "series_metadata": {
       "series_id": "",
       "series_title": "FINANCIAL DONATION FILES - FILES OF FINANCIAL DONATIONS\\*",
-      "series_description": "",
-      "legal_citation": ""
+      "series_description": "These records document monetary gifts to the commission's parks or museum that result from fundraising or memorials, tributes, or gifts from private individuals or corporations. Also included are files relating to prospective donors and declined donations. Information in the records may include the names of donors, reasons for the donations and their acceptance or rejection, conditions or restrictions on the gifts, and correspondence with the donors and their families. Only the files of actual donations are appraised as permanent. Disposition calls for them to be retained in office.",
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "PM",
+      "trigger_desc": "PERMANENT RECORD. in office",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "PERMANENT RECORD. Retain in office.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -226,9 +541,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "PM",
-    "duration_years": 999
+    }
   },
   {
     "schedule_metadata": {
@@ -241,14 +554,15 @@
     "series_metadata": {
       "series_id": "",
       "series_title": "FINANCIAL DONATION FILES - FILES THAT RESULT IN DONATIONS",
-      "series_description": "",
-      "legal_citation": ""
+      "series_description": "These records document monetary gifts to the commission's parks or museum that result from fundraising or memorials, tributes, or gifts from private individuals or corporations. Also included are files relating to prospective donors and declined donations. Information in the records may include the names of donors, reasons for the donations and their acceptance or rejection, conditions or restrictions on the gifts, and correspondence with the donors and their families. Only the files of actual donations are appraised as permanent. Disposition calls for them to be retained in office.",
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "PM",
+      "trigger_desc": "PERMANENT RECORD. Donor Files. ii. Files that do not result in donations",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "PERMANENT RECORD. Transfer to Donor Files. ii. Files that do not result in donations",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -259,9 +573,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "PM",
-    "duration_years": 999
+    }
   },
   {
     "schedule_metadata": {
@@ -274,14 +586,15 @@
     "series_metadata": {
       "series_id": "",
       "series_title": ">",
-      "series_description": "",
-      "legal_citation": ""
+      "series_description": "These records document monetary gifts to the commission's parks or museum that result from fundraising or memorials, tributes, or gifts from private individuals or corporations. Also included are files relating to prospective donors and declined donations. Information in the records may include the names of donors, reasons for the donations and their acceptance or rejection, conditions or restrictions on the gifts, and correspondence with the donors and their families. Only the files of actual donations are appraised as permanent. Disposition calls for them to be retained in office.",
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AV",
+      "trigger_desc": "Temporary Record. useful life",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain for useful life.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -292,9 +605,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AV",
-    "duration_years": null
+    }
   },
   {
     "schedule_metadata": {
@@ -307,14 +618,15 @@
     "series_metadata": {
       "series_id": "",
       "series_title": "FINANCIAL DONATION FILES - FILES OF DECLINED FINANCIAL DONATIONS",
-      "series_description": "",
-      "legal_citation": ""
+      "series_description": "These records document monetary gifts to the commission's parks or museum that result from fundraising or memorials, tributes, or gifts from private individuals or corporations. Also included are files relating to prospective donors and declined donations. Information in the records may include the names of donors, reasons for the donations and their acceptance or rejection, conditions or restrictions on the gifts, and correspondence with the donors and their families. Only the files of actual donations are appraised as permanent. Disposition calls for them to be retained in office.",
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
+      "trigger_desc": "Temporary Record. 5 years last contact with potential donor",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 5 years after last contact with potential donor.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -325,9 +637,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AC",
-    "duration_years": 5
+    }
   },
   {
     "schedule_metadata": {
@@ -340,14 +650,15 @@
     "series_metadata": {
       "series_id": "",
       "series_title": "ATTENDANCE/USAGE RECORDS - ATTENDANCE LOGS AND SIGN-IN SHEETS",
-      "series_description": "",
-      "legal_citation": ""
+      "series_description": "These records document public use of the commission's sites and facilities, such as its parks and historical museum, as well as attendance at special activities or functions. Such records may include attendance logs and sign-in sheets, admission tickets, and statistics and reports. They may be used to monitor patron and visitor trends; assess the success of events, programs, and activities; and identify patrons who had access to facilities and collections. Attendance records and related statistics may also be used for planning purposes and in preparing reports to funding agencies.",
+      "legal_citation": "Code of Alabama 1975 \u00a7 6-2-34)"
     },
     "retention_rules": {
       "trigger_event": "CR",
+      "trigger_desc": "Temporary Record. 6 years or any resulting litigation is concluded (Code of Alabama 1975 \u00a7 6-2-34)",
       "duration_years": 6,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 6 years or until any resulting litigation is concluded (Code of Alabama 1975 \u00a7 6-2-34).",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -358,9 +669,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "CR",
-    "duration_years": 6
+    }
   },
   {
     "schedule_metadata": {
@@ -373,14 +682,15 @@
     "series_metadata": {
       "series_id": "",
       "series_title": "ATTENDANCE/USAGE RECORDS - ATTENDANCE STATISTICS AND REPORTS",
-      "series_description": "",
-      "legal_citation": ""
+      "series_description": "These records document public use of the commission's sites and facilities, such as its parks and historical museum, as well as attendance at special activities or functions. Such records may include attendance logs and sign-in sheets, admission tickets, and statistics and reports. They may be used to monitor patron and visitor trends; assess the success of events, programs, and activities; and identify patrons who had access to facilities and collections. Attendance records and related statistics may also be used for planning purposes and in preparing reports to funding agencies.",
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AV",
+      "trigger_desc": "Temporary Record. useful life",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain for useful life.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -391,9 +701,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AV",
-    "duration_years": null
+    }
   },
   {
     "schedule_metadata": {
@@ -406,14 +714,15 @@
     "series_metadata": {
       "series_id": "",
       "series_title": "ATTENDANCE/USAGE RECORDS - ADMISSION TICKETS TO SITES, FACILITIES, AND EVENTS",
-      "series_description": "",
-      "legal_citation": ""
+      "series_description": "These records document public use of the commission's sites and facilities, such as its parks and historical museum, as well as attendance at special activities or functions. Such records may include attendance logs and sign-in sheets, admission tickets, and statistics and reports. They may be used to monitor patron and visitor trends; assess the success of events, programs, and activities; and identify patrons who had access to facilities and collections. Attendance records and related statistics may also be used for planning purposes and in preparing reports to funding agencies.",
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
+      "trigger_desc": "Temporary Record. 1 year audit",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 1 year after audit.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -424,9 +733,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AC",
-    "duration_years": 1
+    }
   },
   {
     "schedule_metadata": {
@@ -444,9 +751,10 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
+      "trigger_desc": "PERMANENT RECORD. in office",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "PERMANENT RECORD. Retain in office.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -457,9 +765,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "PM",
-    "duration_years": 999
+    }
   },
   {
     "schedule_metadata": {
@@ -477,9 +783,10 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
+      "trigger_desc": "Temporary Record. completion of final narrative report. If no report is required, useful life",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain until completion of final narrative report. If no report is required, retain for useful life.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -490,9 +797,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AV",
-    "duration_years": null
+    }
   },
   {
     "schedule_metadata": {
@@ -510,9 +815,10 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
+      "trigger_desc": "Temporary Record. 1 year audit",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 1 year after audit.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -523,9 +829,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AC",
-    "duration_years": 1
+    }
   },
   {
     "schedule_metadata": {
@@ -543,9 +847,10 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
+      "trigger_desc": "Temporary Record. useful life",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain for useful life.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -556,9 +861,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AV",
-    "duration_years": null
+    }
   },
   {
     "schedule_metadata": {
@@ -576,9 +879,10 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
+      "trigger_desc": "Temporary Record. 6 years last contact with > volunteer",
       "duration_years": 6,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 6 years after last contact with > volunteer.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -589,9 +893,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AC",
-    "duration_years": 6
+    }
   },
   {
     "schedule_metadata": {
@@ -609,9 +911,10 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
+      "trigger_desc": "PERMANENT RECORD. in office",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "PERMANENT RECORD. Retain in office.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -622,9 +925,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "PM",
-    "duration_years": 999
+    }
   },
   {
     "schedule_metadata": {
@@ -642,9 +943,10 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
+      "trigger_desc": "PERMANENT RECORD",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "PERMANENT RECORD.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -655,42 +957,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "PM",
-    "duration_years": 999
-  },
-  {
-    "schedule_metadata": {
-      "state": "al",
-      "agency_name": "Alabama Historic Ironworks Commission",
-      "schedule_type": "specific",
-      "schedule_id": "Historic_Ironworks_Commission",
-      "url": null
-    },
-    "series_metadata": {
-      "series_id": "",
-      "series_title": "ACCESSION/DEACCESSION LOGS OR FILES",
-      "series_description": "",
-      "legal_citation": ""
-    },
-    "retention_rules": {
-      "trigger_event": "PM",
-      "duration_years": 999,
-      "duration_months": null,
-      "disposition_method": "PERMANENT RECORD. Retain in office.",
-      "confidential_flag": false
-    },
-    "tracking_data": {
-      "last_checked": "2026-04-01",
-      "last_updated_by_state": "2015-10-21",
-      "next_update_due": null,
-      "comments": null
-    },
-    "state_specific_attributes": {
-      "rsin": null
-    },
-    "trigger_event": "PM",
-    "duration_years": 999
+    }
   },
   {
     "schedule_metadata": {
@@ -708,9 +975,10 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
+      "trigger_desc": "PERMANENT RECORD. in office",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "PERMANENT RECORD. Retain in office.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -721,9 +989,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "PM",
-    "duration_years": 999
+    }
   },
   {
     "schedule_metadata": {
@@ -741,9 +1007,10 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
+      "trigger_desc": "PERMANENT RECORD. Donor Files. ii. Files that do not result in donations",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "PERMANENT RECORD. Transfer to Donor Files. ii. Files that do not result in donations",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -754,9 +1021,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "PM",
-    "duration_years": 999
+    }
   },
   {
     "schedule_metadata": {
@@ -774,9 +1039,10 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
+      "trigger_desc": "Temporary Record. 5 years last contact with potential donor",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 5 years after last contact with potential donor.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -787,9 +1053,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AC",
-    "duration_years": 5
+    }
   },
   {
     "schedule_metadata": {
@@ -807,9 +1071,10 @@
     },
     "retention_rules": {
       "trigger_event": "US",
+      "trigger_desc": "Temporary Record. superseded or no longer useful",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain until superseded or no longer useful.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -820,9 +1085,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "US",
-    "duration_years": null
+    }
   },
   {
     "schedule_metadata": {
@@ -840,9 +1103,10 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
+      "trigger_desc": "Temporary Record. verification of all data in cataloging database. Once data has been verified, card files useful life",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain until verification of all data in cataloging database. Once data has been verified, retain card files for useful life.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -853,9 +1117,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AV",
-    "duration_years": null
+    }
   },
   {
     "schedule_metadata": {
@@ -873,9 +1135,10 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
+      "trigger_desc": "Temporary Record. item is deaccessioned",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain until item is deaccessioned.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -886,9 +1149,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AV",
-    "duration_years": null
+    }
   },
   {
     "schedule_metadata": {
@@ -906,9 +1167,10 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
+      "trigger_desc": "Temporary Record. verification of data in cataloging database",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain until verification of data in cataloging database.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -919,9 +1181,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AV",
-    "duration_years": null
+    }
   },
   {
     "schedule_metadata": {
@@ -939,9 +1199,10 @@
     },
     "retention_rules": {
       "trigger_event": "US",
+      "trigger_desc": "Temporary Record. superseded or no longer useful",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain until superseded or no longer useful.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -952,9 +1213,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "US",
-    "duration_years": null
+    }
   },
   {
     "schedule_metadata": {
@@ -972,9 +1231,10 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
+      "trigger_desc": "PERMANENT RECORD. in office",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "PERMANENT RECORD. Retain in office.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -985,9 +1245,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "PM",
-    "duration_years": 999
+    }
   },
   {
     "schedule_metadata": {
@@ -1005,9 +1263,10 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
+      "trigger_desc": "PERMANENT RECORD. in office",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "PERMANENT RECORD. Retain in office.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -1018,75 +1277,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "PM",
-    "duration_years": 999
-  },
-  {
-    "schedule_metadata": {
-      "state": "al",
-      "agency_name": "Alabama Historic Ironworks Commission",
-      "schedule_type": "specific",
-      "schedule_id": "Historic_Ironworks_Commission",
-      "url": null
-    },
-    "series_metadata": {
-      "series_id": "",
-      "series_title": "ARCHIVAL CONTROL FILES",
-      "series_description": "",
-      "legal_citation": ""
-    },
-    "retention_rules": {
-      "trigger_event": "PM",
-      "duration_years": 999,
-      "duration_months": null,
-      "disposition_method": "PERMANENT RECORD. Retain in office.",
-      "confidential_flag": false
-    },
-    "tracking_data": {
-      "last_checked": "2026-04-01",
-      "last_updated_by_state": "2015-10-21",
-      "next_update_due": null,
-      "comments": null
-    },
-    "state_specific_attributes": {
-      "rsin": null
-    },
-    "trigger_event": "PM",
-    "duration_years": 999
-  },
-  {
-    "schedule_metadata": {
-      "state": "al",
-      "agency_name": "Alabama Historic Ironworks Commission",
-      "schedule_type": "specific",
-      "schedule_id": "Historic_Ironworks_Commission",
-      "url": null
-    },
-    "series_metadata": {
-      "series_id": "",
-      "series_title": "CURATORIAL OBJECTS FILES",
-      "series_description": "",
-      "legal_citation": ""
-    },
-    "retention_rules": {
-      "trigger_event": "PM",
-      "duration_years": 999,
-      "duration_months": null,
-      "disposition_method": "PERMANENT RECORD. Retain in office.",
-      "confidential_flag": false
-    },
-    "tracking_data": {
-      "last_checked": "2026-04-01",
-      "last_updated_by_state": "2015-10-21",
-      "next_update_due": null,
-      "comments": null
-    },
-    "state_specific_attributes": {
-      "rsin": null
-    },
-    "trigger_event": "PM",
-    "duration_years": 999
+    }
   },
   {
     "schedule_metadata": {
@@ -1104,9 +1295,10 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
+      "trigger_desc": "Temporary Record. useful life",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain for useful life.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -1117,42 +1309,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AV",
-    "duration_years": null
-  },
-  {
-    "schedule_metadata": {
-      "state": "al",
-      "agency_name": "Alabama Historic Ironworks Commission",
-      "schedule_type": "specific",
-      "schedule_id": "Historic_Ironworks_Commission",
-      "url": null
-    },
-    "series_metadata": {
-      "series_id": "",
-      "series_title": "RESEARCHER REGISTRATION FILES",
-      "series_description": "",
-      "legal_citation": ""
-    },
-    "retention_rules": {
-      "trigger_event": "CR",
-      "duration_years": 15,
-      "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 15 years.",
-      "confidential_flag": false
-    },
-    "tracking_data": {
-      "last_checked": "2026-04-01",
-      "last_updated_by_state": "2015-10-21",
-      "next_update_due": null,
-      "comments": null
-    },
-    "state_specific_attributes": {
-      "rsin": null
-    },
-    "trigger_event": "CR",
-    "duration_years": 15
+    }
   },
   {
     "schedule_metadata": {
@@ -1170,9 +1327,10 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
+      "trigger_desc": "PERMANENT RECORD. in office",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "PERMANENT RECORD. Retain in office.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -1183,9 +1341,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "PM",
-    "duration_years": 999
+    }
   },
   {
     "schedule_metadata": {
@@ -1203,9 +1359,10 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
+      "trigger_desc": "Temporary Record. 10 years return of borrowed item",
       "duration_years": 10,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 10 years after return of borrowed item.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -1216,9 +1373,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AC",
-    "duration_years": 10
+    }
   },
   {
     "schedule_metadata": {
@@ -1236,9 +1391,10 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
+      "trigger_desc": "Temporary Record. correspondence 3 years; shipping receipts and other routine financial records 1 year audit",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain correspondence 3 years; retain shipping receipts and other routine financial records 1 year after audit.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -1249,9 +1405,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AC",
-    "duration_years": 3
+    }
   },
   {
     "schedule_metadata": {
@@ -1269,9 +1423,10 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
+      "trigger_desc": "Temporary Record. 1 year",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 1 year.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -1282,9 +1437,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "CR",
-    "duration_years": 1
+    }
   },
   {
     "schedule_metadata": {
@@ -1302,9 +1455,10 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
+      "trigger_desc": "Temporary Record. 1 year property's return",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 1 year after property's return.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -1315,9 +1469,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AC",
-    "duration_years": 1
+    }
   },
   {
     "schedule_metadata": {
@@ -1335,9 +1487,10 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
+      "trigger_desc": "Temporary Record. 2 years",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 2 years.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -1348,9 +1501,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "CR",
-    "duration_years": 2
+    }
   },
   {
     "schedule_metadata": {
@@ -1368,9 +1519,10 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
+      "trigger_desc": "Temporary Record. 3 years",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 3 years.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -1381,9 +1533,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "CR",
-    "duration_years": 3
+    }
   },
   {
     "schedule_metadata": {
@@ -1401,9 +1551,10 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
+      "trigger_desc": "Temporary record. 30 days, or final disposition/resolution of any criminal cases, litigation, or other incidents which recordings provide evidence",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Temporary record. Retain 30 days, or until final disposition/resolution of any criminal cases, litigation, or other incidents for which recordings provide evidence.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -1414,9 +1565,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AV",
-    "duration_years": null
+    }
   },
   {
     "schedule_metadata": {
@@ -1434,9 +1583,10 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
+      "trigger_desc": "Temporary Record. 6 years final disposition/resolution of event or any resulting criminal cases, litigation, or claims due",
       "duration_years": 6,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 6 years after final disposition/resolution of event or any resulting criminal cases, litigation, or claims due.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -1447,9 +1597,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AC",
-    "duration_years": 6
+    }
   },
   {
     "schedule_metadata": {
@@ -1467,9 +1615,10 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
+      "trigger_desc": "Temporary Record. 2 years",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 2 years.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -1480,9 +1629,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "CR",
-    "duration_years": 2
+    }
   },
   {
     "schedule_metadata": {
@@ -1500,9 +1647,10 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
+      "trigger_desc": "Temporary Record. 2 years",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 2 years.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -1513,9 +1661,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "CR",
-    "duration_years": 2
+    }
   },
   {
     "schedule_metadata": {
@@ -1533,9 +1679,10 @@
     },
     "retention_rules": {
       "trigger_event": "US",
+      "trigger_desc": "Temporary Record. superseded. **[Educational Program Records Pertaining Commission's Parks and/or Museum]{.underline}** **Educational Program Administrative Files (historical reenactments, lectures, workshops, field trips, etc., including \"Side Trails History\" and \"Creek Kids\" programs)**",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain until superseded. **[Educational Program Records Pertaining to the Commission's Parks and/or Museum]{.underline}** **Educational Program Administrative Files (historical reenactments, lectures, workshops, field trips, etc., including the \"Side Trails to History\" and \"Creek Kids\" programs)**",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -1546,9 +1693,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "US",
-    "duration_years": null
+    }
   },
   {
     "schedule_metadata": {
@@ -1566,9 +1711,10 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
+      "trigger_desc": "PERMANENT RECORD",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "PERMANENT RECORD.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -1579,9 +1725,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "PM",
-    "duration_years": 999
+    }
   },
   {
     "schedule_metadata": {
@@ -1599,9 +1743,10 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
+      "trigger_desc": "Temporary Record. completion of final narrative report. If no report is required, useful life",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain until completion of final narrative report. If no report is required, retain for useful life.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -1612,9 +1757,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AV",
-    "duration_years": null
+    }
   },
   {
     "schedule_metadata": {
@@ -1632,9 +1775,10 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
+      "trigger_desc": "Temporary Record. 1 year audit",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 1 year after audit.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -1645,42 +1789,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AC",
-    "duration_years": 1
-  },
-  {
-    "schedule_metadata": {
-      "state": "al",
-      "agency_name": "Alabama Historic Ironworks Commission",
-      "schedule_type": "specific",
-      "schedule_id": "Historic_Ironworks_Commission",
-      "url": null
-    },
-    "series_metadata": {
-      "series_id": "",
-      "series_title": "INCIDENT/OFFENSE REPORTS",
-      "series_description": "",
-      "legal_citation": ""
-    },
-    "retention_rules": {
-      "trigger_event": "CR",
-      "duration_years": 10,
-      "duration_months": null,
-      "disposition_method": "Temporary Record. Retain records of adults 10 years. Retain records of juveniles until the subject reaches the age of majority.",
-      "confidential_flag": false
-    },
-    "tracking_data": {
-      "last_checked": "2026-04-01",
-      "last_updated_by_state": "2015-10-21",
-      "next_update_due": null,
-      "comments": null
-    },
-    "state_specific_attributes": {
-      "rsin": null
-    },
-    "trigger_event": "CR",
-    "duration_years": 10
+    }
   },
   {
     "schedule_metadata": {
@@ -1698,9 +1807,10 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
+      "trigger_desc": "PERMANENT RECORD",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "PERMANENT RECORD.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -1711,141 +1821,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "PM",
-    "duration_years": 999
-  },
-  {
-    "schedule_metadata": {
-      "state": "al",
-      "agency_name": "Alabama Historic Ironworks Commission",
-      "schedule_type": "specific",
-      "schedule_id": "Historic_Ironworks_Commission",
-      "url": null
-    },
-    "series_metadata": {
-      "series_id": "",
-      "series_title": "ADMINISTRATIVE CORRESPONDENCE",
-      "series_description": "",
-      "legal_citation": ""
-    },
-    "retention_rules": {
-      "trigger_event": "PM",
-      "duration_years": 999,
-      "duration_months": null,
-      "disposition_method": "PERMANENT RECORD.",
-      "confidential_flag": false
-    },
-    "tracking_data": {
-      "last_checked": "2026-04-01",
-      "last_updated_by_state": "2015-10-21",
-      "next_update_due": null,
-      "comments": null
-    },
-    "state_specific_attributes": {
-      "rsin": null
-    },
-    "trigger_event": "PM",
-    "duration_years": 999
-  },
-  {
-    "schedule_metadata": {
-      "state": "al",
-      "agency_name": "Alabama Historic Ironworks Commission",
-      "schedule_type": "specific",
-      "schedule_id": "Historic_Ironworks_Commission",
-      "url": null
-    },
-    "series_metadata": {
-      "series_id": "",
-      "series_title": "ANNUAL REPORTS",
-      "series_description": "",
-      "legal_citation": ""
-    },
-    "retention_rules": {
-      "trigger_event": "PM",
-      "duration_years": 999,
-      "duration_months": null,
-      "disposition_method": "PERMANENT RECORD.",
-      "confidential_flag": false
-    },
-    "tracking_data": {
-      "last_checked": "2026-04-01",
-      "last_updated_by_state": "2015-10-21",
-      "next_update_due": null,
-      "comments": null
-    },
-    "state_specific_attributes": {
-      "rsin": null
-    },
-    "trigger_event": "PM",
-    "duration_years": 999
-  },
-  {
-    "schedule_metadata": {
-      "state": "al",
-      "agency_name": "Alabama Historic Ironworks Commission",
-      "schedule_type": "specific",
-      "schedule_id": "Historic_Ironworks_Commission",
-      "url": null
-    },
-    "series_metadata": {
-      "series_id": "",
-      "series_title": "HISTORICAL FILES",
-      "series_description": "",
-      "legal_citation": ""
-    },
-    "retention_rules": {
-      "trigger_event": "PM",
-      "duration_years": 999,
-      "duration_months": null,
-      "disposition_method": "PERMANENT RECORD.",
-      "confidential_flag": false
-    },
-    "tracking_data": {
-      "last_checked": "2026-04-01",
-      "last_updated_by_state": "2015-10-21",
-      "next_update_due": null,
-      "comments": null
-    },
-    "state_specific_attributes": {
-      "rsin": null
-    },
-    "trigger_event": "PM",
-    "duration_years": 999
-  },
-  {
-    "schedule_metadata": {
-      "state": "al",
-      "agency_name": "Alabama Historic Ironworks Commission",
-      "schedule_type": "specific",
-      "schedule_id": "Historic_Ironworks_Commission",
-      "url": null
-    },
-    "series_metadata": {
-      "series_id": "",
-      "series_title": "PUBLICITY FILES",
-      "series_description": "",
-      "legal_citation": ""
-    },
-    "retention_rules": {
-      "trigger_event": "PM",
-      "duration_years": 999,
-      "duration_months": null,
-      "disposition_method": "PERMANENT RECORD.",
-      "confidential_flag": false
-    },
-    "tracking_data": {
-      "last_checked": "2026-04-01",
-      "last_updated_by_state": "2015-10-21",
-      "next_update_due": null,
-      "comments": null
-    },
-    "state_specific_attributes": {
-      "rsin": null
-    },
-    "trigger_event": "PM",
-    "duration_years": 999
+    }
   },
   {
     "schedule_metadata": {
@@ -1863,9 +1839,10 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
+      "trigger_desc": "Temporary Record. 3 years",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 3 years.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -1876,9 +1853,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "CR",
-    "duration_years": 3
+    }
   },
   {
     "schedule_metadata": {
@@ -1896,9 +1871,10 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
+      "trigger_desc": "Temporary Record. useful life",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain for useful life.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -1909,9 +1885,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AV",
-    "duration_years": null
+    }
   },
   {
     "schedule_metadata": {
@@ -1929,9 +1903,10 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
+      "trigger_desc": "Temporary Record. useful life",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain for useful life.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -1942,9 +1917,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AV",
-    "duration_years": null
+    }
   },
   {
     "schedule_metadata": {
@@ -1962,9 +1935,10 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
+      "trigger_desc": "Temporary Record. 1 year following audit",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 1 year following audit.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -1975,9 +1949,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "CR",
-    "duration_years": 1
+    }
   },
   {
     "schedule_metadata": {
@@ -1995,9 +1967,10 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
+      "trigger_desc": "Temporary Record. documentation of former system 1 year audit fiscal year in which former hardware and software no longer exists anywhere in board and all permanent records have been migrated into a new system",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain documentation of former system 1 year after audit for the fiscal year in which the former hardware and software no longer exists anywhere in the board and all permanent records have been migrated into a new system.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -2008,42 +1981,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "PM",
-    "duration_years": 999
-  },
-  {
-    "schedule_metadata": {
-      "state": "al",
-      "agency_name": "Alabama Historic Ironworks Commission",
-      "schedule_type": "specific",
-      "schedule_id": "Historic_Ironworks_Commission",
-      "url": null
-    },
-    "series_metadata": {
-      "series_id": "",
-      "series_title": "WEBSITE AND SOCIAL MEDIA SITE(S)",
-      "series_description": "",
-      "legal_citation": ""
-    },
-    "retention_rules": {
-      "trigger_event": "PM",
-      "duration_years": 999,
-      "duration_months": null,
-      "disposition_method": "PERMANENT RECORD. *(ADAH staff captures and preserves the agency's website and other social media sites via a service offered by the Internet Archive \\[Archive It\\]. Check with ADAH website at www.archive-it.org/ organizations/62 to ensure your agency website and social media site(s) are captured and preserved. If your agency's website and social media site(s) are not captured by the service, please contact the Government Services Division at 334-242-4452 to get them included.)*",
-      "confidential_flag": false
-    },
-    "tracking_data": {
-      "last_checked": "2026-04-01",
-      "last_updated_by_state": "2015-10-21",
-      "next_update_due": null,
-      "comments": null
-    },
-    "state_specific_attributes": {
-      "rsin": null
-    },
-    "trigger_event": "PM",
-    "duration_years": 999
+    }
   },
   {
     "schedule_metadata": {
@@ -2061,9 +1999,10 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
+      "trigger_desc": "Temporary Record. 1 year following audit",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 1 year following audit.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -2074,9 +2013,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "CR",
-    "duration_years": 1
+    }
   },
   {
     "schedule_metadata": {
@@ -2094,9 +2031,10 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
+      "trigger_desc": "PERMANENT RECORD. in office",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "PERMANENT RECORD. Retain in office.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -2107,9 +2045,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "PM",
-    "duration_years": 999
+    }
   },
   {
     "schedule_metadata": {
@@ -2127,9 +2063,10 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
+      "trigger_desc": "Temporary Record: 6 years",
       "duration_years": 6,
       "duration_months": null,
-      "disposition_method": "Temporary Record: Retain 6 years.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -2140,9 +2077,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "CR",
-    "duration_years": 6
+    }
   },
   {
     "schedule_metadata": {
@@ -2160,9 +2095,10 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
+      "trigger_desc": "Temporary Record. 3 years or audited, whichever is longer",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 3 years or until audited, whichever is longer.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -2173,9 +2109,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "CR",
-    "duration_years": 3
+    }
   },
   {
     "schedule_metadata": {
@@ -2193,9 +2127,10 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
+      "trigger_desc": "Temporary Record. 6 years end of fiscal year in which records were created. **Records documenting bid process, including requests proposals and unsuccessful responses**",
       "duration_years": 6,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 6 years after the end of the fiscal year in which the records were created. **Records documenting the bid process, including requests for proposals and unsuccessful responses**",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -2206,9 +2141,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AC",
-    "duration_years": 6
+    }
   },
   {
     "schedule_metadata": {
@@ -2226,9 +2159,10 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
+      "trigger_desc": "Temporary Record. 7 years end of > fiscal year in which bids were opened",
       "duration_years": 7,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 7 years after the end of the > fiscal year in which the bids were opened.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -2239,9 +2173,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AC",
-    "duration_years": 7
+    }
   },
   {
     "schedule_metadata": {
@@ -2259,9 +2191,10 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
+      "trigger_desc": "Temporary Record. 3 years end of fiscal year in which bids were opened. **Contractual records established purpose of services or personal property**",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 3 years after the end of the fiscal year in which the bids were opened. **Contractual records established for the purpose of services or personal property**",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -2272,9 +2205,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AC",
-    "duration_years": 3
+    }
   },
   {
     "schedule_metadata": {
@@ -2292,9 +2223,10 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
+      "trigger_desc": "Temporary Record. 4 years reclassification of position",
       "duration_years": 4,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 4 years after reclassification of the position.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -2305,9 +2237,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AC",
-    "duration_years": 4
+    }
   },
   {
     "schedule_metadata": {
@@ -2325,9 +2255,10 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
+      "trigger_desc": "Temporary Record. 6 years separation of employee from agency",
       "duration_years": 6,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 6 years after separation of the employee from the agency.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -2338,9 +2269,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AC",
-    "duration_years": 6
+    }
   },
   {
     "schedule_metadata": {
@@ -2358,9 +2287,10 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
+      "trigger_desc": "Temporary Record. 1 year audit",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 1 year after audit.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -2371,9 +2301,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AC",
-    "duration_years": 1
+    }
   },
   {
     "schedule_metadata": {
@@ -2391,9 +2319,10 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
+      "trigger_desc": "Temporary Record. 1 year audit",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 1 year after audit.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -2404,9 +2333,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AC",
-    "duration_years": 1
+    }
   },
   {
     "schedule_metadata": {
@@ -2424,9 +2351,10 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
+      "trigger_desc": "Temporary Record. 1 year audit",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 1 year after audit.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -2437,9 +2365,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AC",
-    "duration_years": 1
+    }
   },
   {
     "schedule_metadata": {
@@ -2457,9 +2383,10 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
+      "trigger_desc": "Temporary Record. 6 years separation of employee from agency. **Records documenting Equal Employment Opportunity (Code of Federal Regulations, Title 29)**",
       "duration_years": 6,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 6 years after separation of the employee from the agency. **Records documenting Equal Employment Opportunity (Code of Federal Regulations, Title 29)**",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -2470,9 +2397,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AC",
-    "duration_years": 6
+    }
   },
   {
     "schedule_metadata": {
@@ -2490,9 +2415,10 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
+      "trigger_desc": "Temporary Record. 3 years close of program year",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 3 years after the close of the program year.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -2503,9 +2429,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AC",
-    "duration_years": 3
+    }
   },
   {
     "schedule_metadata": {
@@ -2523,9 +2447,10 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
+      "trigger_desc": "Temporary Record. 3 years from date of resolution of complaint. **Employee Flexible Benefits Plan Files (applications and correspondence)**",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 3 years from the date of resolution of the complaint. **Employee Flexible Benefits Plan Files (applications and correspondence)**",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -2536,9 +2461,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "CR",
-    "duration_years": 3
+    }
   },
   {
     "schedule_metadata": {
@@ -2556,9 +2479,10 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
+      "trigger_desc": "Temporary Record. 6 years separation of employee from agency",
       "duration_years": 6,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 6 years after separation of the employee from the agency.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -2569,9 +2493,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AC",
-    "duration_years": 6
+    }
   },
   {
     "schedule_metadata": {
@@ -2589,9 +2511,10 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
+      "trigger_desc": "Temporary Record. useful life",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain for useful life.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -2602,9 +2525,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AV",
-    "duration_years": null
+    }
   },
   {
     "schedule_metadata": {
@@ -2622,9 +2543,10 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
+      "trigger_desc": "PERMANENT RECORD. in office",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "PERMANENT RECORD. Retain in office.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -2635,9 +2557,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "PM",
-    "duration_years": 999
+    }
   },
   {
     "schedule_metadata": {
@@ -2655,9 +2575,10 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
+      "trigger_desc": "Temporary Record. useful life",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain for useful life.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -2668,9 +2589,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AV",
-    "duration_years": null
+    }
   },
   {
     "schedule_metadata": {
@@ -2688,9 +2607,10 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
+      "trigger_desc": "PERMANENT RECORD",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "PERMANENT RECORD.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -2701,9 +2621,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "PM",
-    "duration_years": 999
+    }
   },
   {
     "schedule_metadata": {
@@ -2721,9 +2639,10 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
+      "trigger_desc": "Temporary Record. 1 year audit",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 1 year after audit.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -2734,9 +2653,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AC",
-    "duration_years": 1
+    }
   },
   {
     "schedule_metadata": {
@@ -2754,9 +2671,10 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
+      "trigger_desc": "Temporary Record. 1 year audit",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 1 year after audit.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -2767,9 +2685,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AC",
-    "duration_years": 1
+    }
   },
   {
     "schedule_metadata": {
@@ -2787,9 +2703,10 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
+      "trigger_desc": "Temporary Record. return of item property manager",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain until return of item to property manager.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -2800,9 +2717,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AV",
-    "duration_years": null
+    }
   },
   {
     "schedule_metadata": {
@@ -2820,9 +2735,10 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
+      "trigger_desc": "Temporary Record. 3 years end of fiscal year in which vehicle was removed from property inventory. ## Requirement and Recommendations Implementing Records Disposition Authority (RDA)",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 3 years after end of the fiscal year in which the vehicle was removed from the property inventory. ## Requirement and Recommendations for Implementing the Records Disposition Authority (RDA)",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -2833,8 +2749,6 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AC",
-    "duration_years": 3
+    }
   }
 ]

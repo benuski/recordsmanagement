@@ -14,14 +14,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Paper: 30 days date record is transmitted Requester. ; Electronic: on ODPS network two (2) years, current",
+      "trigger_event": "AV",
+      "trigger_desc": "Paper: 30 days date record is transmitted Requester. ; Electronic: on ODPS network two (2) years, current",
       "duration_years": null,
       "duration_months": null,
       "disposition_method": "Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-31",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2017-01-10",
       "next_update_due": null,
       "comments": null

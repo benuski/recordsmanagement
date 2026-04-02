@@ -14,14 +14,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "receipt",
+      "trigger_event": "CR",
+      "trigger_desc": "receipt",
       "duration_years": 10,
       "duration_months": null,
       "disposition_method": "Non-confidential Destruction",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2024-06-13",
       "next_update_due": null,
       "comments": null
@@ -42,17 +43,18 @@
       "series_id": "005024",
       "series_title": "Annual Audited Financial Statements: Foreign and Alien",
       "series_description": "This series documents the annual audits conducted by Certified Public Accountants for foreign and alien insurers. This series may include, but is not limited to, audited annual financial statements and reports. COV 38.2-1306",
-      "legal_citation": null
+      "legal_citation": "COV 38.2-1306"
     },
     "retention_rules": {
-      "trigger_event": "receipt",
+      "trigger_event": "CR",
+      "trigger_desc": "receipt",
       "duration_years": 3,
       "duration_months": null,
       "disposition_method": "Non-confidential Destruction",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2024-06-13",
       "next_update_due": null,
       "comments": null
@@ -73,17 +75,18 @@
       "series_id": "005025",
       "series_title": "Annual Financial Statements: Domestic",
       "series_description": "This series documents the annual financial statements prepared by regulated domestic insurers. This series may include, but is not limited to, annual financial statements. COV 38.2-1320.5",
-      "legal_citation": null
+      "legal_citation": "COV 38.2-1320.5"
     },
     "retention_rules": {
-      "trigger_event": "receipt",
+      "trigger_event": "CR",
+      "trigger_desc": "receipt",
       "duration_years": 10,
       "duration_months": null,
       "disposition_method": "Non-confidential Destruction",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2024-06-13",
       "next_update_due": null,
       "comments": null
@@ -104,17 +107,18 @@
       "series_id": "005026",
       "series_title": "Annual Financial Statements: Foreign and Alien",
       "series_description": "This series documents the annual financial statements prepared by regulated foreign and alien insurers. This series may include, but is not limited to, annual financial statements. COV 38.2-200; COV 38.2-221.3",
-      "legal_citation": null
+      "legal_citation": "COV 38.2-221.3"
     },
     "retention_rules": {
-      "trigger_event": "receipt",
+      "trigger_event": "CR",
+      "trigger_desc": "receipt",
       "duration_years": 3,
       "duration_months": null,
       "disposition_method": "Non-confidential Destruction",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2024-06-13",
       "next_update_due": null,
       "comments": null
@@ -135,17 +139,18 @@
       "series_id": "005027",
       "series_title": "Audit Files",
       "series_description": "This series documents the ongoing review of regulated companies in accordance with Commission authority. This series may include, but is not limited to: Bureau analysis of companies, internal controls reports, correspondence, and required follow-up documents. COV 38.2-1320.5; COV 38.2221.3",
-      "legal_citation": null
+      "legal_citation": "COV 38.2221.3"
     },
     "retention_rules": {
-      "trigger_event": "end of calendar year",
+      "trigger_event": "CE",
+      "trigger_desc": "end of calendar year",
       "duration_years": 6,
       "duration_months": null,
       "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2024-06-13",
       "next_update_due": null,
       "comments": null
@@ -166,17 +171,18 @@
       "series_id": "005028",
       "series_title": "Case Inquiries",
       "series_description": "This series documents inquiries about practices of insurers and other entities. This series may include, but is not limited to, investigation files of unlicensed activity in Virginia and any corresponding resolutions. COV 38.2-4902; COV 38.2-4901; COV 38.2-4904",
-      "legal_citation": null
+      "legal_citation": "COV 38.2-4904"
     },
     "retention_rules": {
-      "trigger_event": "closed",
+      "trigger_event": "AC",
+      "trigger_desc": "closed",
       "duration_years": 10,
       "duration_months": null,
       "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2024-06-13",
       "next_update_due": null,
       "comments": null
@@ -197,17 +203,18 @@
       "series_id": "005029",
       "series_title": "Closed, Denied, or Withdrawn License Applications",
       "series_description": "This series documents the receipt and closure, denial, or withdrawal of an application to operate as an insurer in Virginia. This series may include, but is not limited to, license applications. COV 38.2-1040; COV 65.2-802",
-      "legal_citation": null
+      "legal_citation": "COV 65.2-802"
     },
     "retention_rules": {
-      "trigger_event": "last action",
+      "trigger_event": "CR",
+      "trigger_desc": "last action",
       "duration_years": 6,
       "duration_months": null,
       "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2024-06-13",
       "next_update_due": null,
       "comments": null
@@ -228,17 +235,18 @@
       "series_id": "005035",
       "series_title": "Company Files: Domestic",
       "series_description": "This series documents the historic documentation necessary to regulate domestic insurers conducting business in the Commonwealth. This series may include, but is not limited to: affiliated contracts, holding company registration statements, financial projections, plan of operation, questionnaires, applications, application approvals and supporting documents, and correspondence. COV 38.2-1321",
-      "legal_citation": null
+      "legal_citation": "COV 38.2-1321"
     },
     "retention_rules": {
-      "trigger_event": "Permanent",
+      "trigger_event": "PM",
+      "trigger_desc": "",
       "duration_years": 999,
       "duration_months": null,
       "disposition_method": "Permanent, In Agency",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2024-06-13",
       "next_update_due": null,
       "comments": null
@@ -262,14 +270,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "event",
+      "trigger_event": "CR",
+      "trigger_desc": "event",
       "duration_years": 10,
       "duration_months": null,
       "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2024-06-13",
       "next_update_due": null,
       "comments": null
@@ -290,17 +299,18 @@
       "series_id": "005030",
       "series_title": "Continuing Care Retirement Communities: Disclosure Statements",
       "series_description": "This series documents the filing of a disclosure statement by retirement communities. This series may include, but is not limited to, documents required to register a Continuing Care Retirement Community (CCRC) and the annual disclosure statements required to be filed by each CCRC. COV 38.2-4901; COV 38.2-4904",
-      "legal_citation": null
+      "legal_citation": "COV 38.2-4904"
     },
     "retention_rules": {
-      "trigger_event": "end of calendar year",
+      "trigger_event": "CE",
+      "trigger_desc": "end of calendar year",
       "duration_years": 10,
       "duration_months": null,
       "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2024-06-13",
       "next_update_due": null,
       "comments": null
@@ -324,14 +334,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "event",
+      "trigger_event": "CR",
+      "trigger_desc": "event",
       "duration_years": 11,
       "duration_months": null,
       "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2024-06-13",
       "next_update_due": null,
       "comments": null
@@ -352,17 +363,18 @@
       "series_id": "005588",
       "series_title": "Group Self Insurance Associations (GSIA): Indemnity Agreements",
       "series_description": "This series documents the receipt of indemnity agreements from Group Self-Insurance Associations (GSIA) and their acceptance by the commission. This series may include, but is not limited to, indemnity agreements from GSIA, correspondence, and supporting documents. 14VAC5-370-120; COV 65.2-802",
-      "legal_citation": null
+      "legal_citation": "COV 65.2-802"
     },
     "retention_rules": {
-      "trigger_event": "event",
+      "trigger_event": "CR",
+      "trigger_desc": "event",
       "duration_years": 10,
       "duration_months": null,
       "disposition_method": "Non-confidential Destruction",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2024-06-13",
       "next_update_due": null,
       "comments": null
@@ -386,14 +398,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "end of calendar year",
+      "trigger_event": "CE",
+      "trigger_desc": "end of calendar year",
       "duration_years": 10,
       "duration_months": null,
       "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2024-06-13",
       "next_update_due": null,
       "comments": null
@@ -417,14 +430,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "receipt",
+      "trigger_event": "CR",
+      "trigger_desc": "receipt",
       "duration_years": 3,
       "duration_months": null,
       "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2024-06-13",
       "next_update_due": null,
       "comments": null
@@ -445,17 +459,18 @@
       "series_id": "005036",
       "series_title": "Quarterly Financial Statements",
       "series_description": "This series documents the filing of quarterly financial statements by insurers. This series may include, but is not limited to, financial statements. COV 38.2-1301; COV 38.2-1306",
-      "legal_citation": null
+      "legal_citation": "COV 38.2-1306"
     },
     "retention_rules": {
-      "trigger_event": "end of calendar year",
+      "trigger_event": "CE",
+      "trigger_desc": "end of calendar year",
       "duration_years": 3,
       "duration_months": null,
       "disposition_method": "Non-confidential Destruction",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2024-06-13",
       "next_update_due": null,
       "comments": null
@@ -476,17 +491,18 @@
       "series_id": "005037",
       "series_title": "Reports of Examinations: Domestic",
       "series_description": "This series documents the examination of domestic insurers' financial condition. This series may include, but is not limited to, reports. COV 38.2-1321; COV 38.2-1317",
-      "legal_citation": null
+      "legal_citation": "COV 38.2-1317"
     },
     "retention_rules": {
-      "trigger_event": "Permanent",
+      "trigger_event": "PM",
+      "trigger_desc": "",
       "duration_years": 999,
       "duration_months": null,
       "disposition_method": "Permanent, In Agency",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2024-06-13",
       "next_update_due": null,
       "comments": null
@@ -507,17 +523,18 @@
       "series_id": "005038",
       "series_title": "Reports of Examinations: Foreign and Alien",
       "series_description": "This series documents the examination of foreign and alien insurers' financial condition. This series may include, but is not limited to, reports. COV 38.2-1317",
-      "legal_citation": null
+      "legal_citation": "COV 38.2-1317"
     },
     "retention_rules": {
-      "trigger_event": "event",
+      "trigger_event": "CR",
+      "trigger_desc": "event",
       "duration_years": 0,
       "duration_months": null,
       "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2024-06-13",
       "next_update_due": null,
       "comments": null
@@ -538,17 +555,18 @@
       "series_id": "005039",
       "series_title": "Risked Based Capital (RBC) Reports",
       "series_description": "This series documents the Commission's receipt of Risk Based Capital reports (a standard measure of solvency) required of insurers. This series may include, but is not limited to, reports. COV 38.2-5502; COV 38.2-5508",
-      "legal_citation": null
+      "legal_citation": "COV 38.2-5508"
     },
     "retention_rules": {
-      "trigger_event": "end of calendar year",
+      "trigger_event": "CE",
+      "trigger_desc": "end of calendar year",
       "duration_years": 5,
       "duration_months": null,
       "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2024-06-13",
       "next_update_due": null,
       "comments": null
@@ -569,17 +587,18 @@
       "series_id": "005040",
       "series_title": "Schedule of Securities on Deposit with State Treasurer",
       "series_description": "This series documents the market value of financial securities deposited with the State Treasurer by insurers. This series may include, but is not limited to, schedule of securities. COV 38.21045",
-      "legal_citation": null
+      "legal_citation": "COV 38.21045"
     },
     "retention_rules": {
-      "trigger_event": "end of calendar year",
+      "trigger_event": "CE",
+      "trigger_desc": "end of calendar year",
       "duration_years": 2,
       "duration_months": null,
       "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2024-06-13",
       "next_update_due": null,
       "comments": null
@@ -600,17 +619,18 @@
       "series_id": "005122",
       "series_title": "Valuations of Legal Reserves",
       "series_description": "This series documents that required legal reserves are maintained by licensed domestic insurers. This series may include, but is not limited to, valuations. COV 38.2-1311",
-      "legal_citation": null
+      "legal_citation": "COV 38.2-1311"
     },
     "retention_rules": {
-      "trigger_event": "end of state fiscal year",
+      "trigger_event": "FE",
+      "trigger_desc": "end of state fiscal year",
       "duration_years": 2,
       "duration_months": null,
       "disposition_method": "Non-confidential Destruction",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2024-06-13",
       "next_update_due": null,
       "comments": null

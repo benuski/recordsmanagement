@@ -14,14 +14,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "last action",
+      "trigger_event": "AV",
+      "trigger_desc": "last action",
       "duration_years": null,
       "duration_months": 6,
       "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2013-12-12",
       "next_update_due": null,
       "comments": null
@@ -45,14 +46,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "superseded, obsolete, rescinded",
+      "trigger_event": "US",
+      "trigger_desc": "superseded, obsolete, rescinded",
       "duration_years": 0,
       "duration_months": null,
       "disposition_method": "or Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2013-12-12",
       "next_update_due": null,
       "comments": null
@@ -76,14 +78,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "last action",
+      "trigger_event": "CR",
+      "trigger_desc": "last action",
       "duration_years": 5,
       "duration_months": null,
       "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2013-12-12",
       "next_update_due": null,
       "comments": null
@@ -107,14 +110,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "last action",
+      "trigger_event": "AV",
+      "trigger_desc": "last action",
       "duration_years": null,
       "duration_months": 6,
       "disposition_method": "Non-confidential Destruction",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2013-12-12",
       "next_update_due": null,
       "comments": null
@@ -138,14 +142,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "superseded, obsolete, rescinded",
+      "trigger_event": "US",
+      "trigger_desc": "superseded, obsolete, rescinded",
       "duration_years": 0,
       "duration_months": null,
       "disposition_method": "or Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2013-12-12",
       "next_update_due": null,
       "comments": null
@@ -169,14 +174,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "superseded, obsolete, rescinded",
+      "trigger_event": "US",
+      "trigger_desc": "superseded, obsolete, rescinded",
       "duration_years": 0,
       "duration_months": null,
       "disposition_method": "or Non-confidential Destruction",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2013-12-12",
       "next_update_due": null,
       "comments": null
@@ -200,14 +206,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "end of calendar year",
+      "trigger_event": "CE",
+      "trigger_desc": "end of calendar year",
       "duration_years": 5,
       "duration_months": null,
       "disposition_method": "Non-confidential Destruction",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2013-12-12",
       "next_update_due": null,
       "comments": null
@@ -231,14 +238,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "end of calendar year",
+      "trigger_event": "CE",
+      "trigger_desc": "end of calendar year",
       "duration_years": 2,
       "duration_months": null,
       "disposition_method": "Non-confidential Destruction",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2013-12-12",
       "next_update_due": null,
       "comments": null
@@ -262,14 +270,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "end of calendar year",
+      "trigger_event": "CE",
+      "trigger_desc": "end of calendar year",
       "duration_years": 1,
       "duration_months": null,
       "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2013-12-12",
       "next_update_due": null,
       "comments": null
@@ -293,14 +302,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "last action",
+      "trigger_event": "CR",
+      "trigger_desc": "last action",
       "duration_years": 3,
       "duration_months": null,
       "disposition_method": "Non-confidential Destruction",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2013-12-12",
       "next_update_due": null,
       "comments": null
@@ -324,14 +334,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "30 Days creation",
+      "trigger_event": "AV",
+      "trigger_desc": "30 Days creation",
       "duration_years": null,
       "duration_months": null,
       "disposition_method": "Non-confidential Destruction",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2013-12-12",
       "next_update_due": null,
       "comments": null

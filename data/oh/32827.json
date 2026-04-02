@@ -14,14 +14,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Electronic: scanned copy present year ; Paper: scanned electronically. Once scanned, dispose of paper copy. scanned copy present year",
+      "trigger_event": "CR",
+      "trigger_desc": "Electronic: scanned copy present year ; Paper: scanned electronically. Once scanned, dispose of paper copy. scanned copy present year",
       "duration_years": 2,
       "duration_months": null,
       "disposition_method": "Electronic: Delete ; Paper: Trash",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-31",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2021-06-16",
       "next_update_due": null,
       "comments": null

@@ -14,14 +14,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Paper: end of calendar year in which report was filed. If scanned, . ; Electronic: end of calendar year in which report was filed",
+      "trigger_event": "CE",
+      "trigger_desc": "Paper: end of calendar year in which report was filed. If scanned, . ; Electronic: end of calendar year in which report was filed",
       "duration_years": 5,
       "duration_months": 6,
       "disposition_method": "Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-31",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2019-08-31",
       "next_update_due": null,
       "comments": null

@@ -14,14 +14,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "case is closed in compliance with No. 8 on schedule cover page",
+      "trigger_event": "AC",
+      "trigger_desc": "case is closed",
       "duration_years": 6,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition_method": "Destroy In Compliance With No",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -42,17 +43,18 @@
       "series_id": "000348",
       "series_title": "Pipeline Safety Inspection Reports and Enforcement Orders",
       "series_description": "This series consists of the findings, citations, and follow-up actions to correct any violations or issues that are discovered as part of State Corporation Commission's (SCC) gas and hazardous liquid pipeline safety inspections. This series may include, but is not limited to: inspection reports, photographs, company correspondence, and federal grant program documentation. Code of Virginia § 56-257.2.",
-      "legal_citation": null
+      "legal_citation": "Code of Virginia § 56-257.2."
     },
     "retention_rules": {
-      "trigger_event": "inspection is closed in compliance with No. 8 on schedule cover page",
+      "trigger_event": "AC",
+      "trigger_desc": "inspection is closed",
       "duration_years": 6,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition_method": "Destroy In Compliance With No",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null

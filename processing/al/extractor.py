@@ -128,17 +128,20 @@ class AlabamaNarrativeExtractor:
             line_strip = line.strip()
             if not line_strip: continue
 
+            # STOP if we hit the Disposition Authority or Requirements section
             if (line_strip.startswith('# ') or line_strip.startswith('## ')):
-                if "Records Appraisal" not in line_strip:
+                if "Disposition Authority" in line_strip or "Disposition Requirements" in line_strip:
                     save_current()
                     return
 
+            # Detect Subfunction
             if line_strip.startswith('###') or (line_strip.startswith('**') and line_strip.endswith('**') and len(line_strip) < 100):
                 new_sub = line_strip.strip('#').strip('*').strip()
                 if "TEMPORARY RECORDS" not in new_sub.upper() and "PERMANENT RECORDS" not in new_sub.upper():
                     current_subfunction = new_sub
                 continue
 
+            # Detect Series Title (support optional trailing period)
             title_match = re.match(r'^(?:- )?\*\*([^*.]+?)\.?\*\*\.?\s*(.*)', line_strip)
             if title_match:
                 save_current()
@@ -262,18 +265,14 @@ class AlabamaNarrativeExtractor:
                 series_title=title,
                 series_description=data.get('description', ''),
                 trigger_event=data.get('trigger', ''),
-                duration_years=data.get('duration'),
-                disposition=data.get('disposition_full', ''),
+                retention_years=data.get('duration'),
+                retention_statement=data.get('disposition_full', ''),
                 legal_citation=data.get('citation', ''),
                 agency_name=self.agency_name,
                 last_updated=self.effective_date,
                 last_checked=str(date.today())
             )
-            processed_rec = clean_record_fields(raw_record, self.config)
-            processed_rec['retention_rules']['trigger_event'] = data.get('trigger', '')
-            processed_rec['retention_rules']['duration_years'] = data.get('duration')
-            
-            processed.append(processed_rec)
+            processed.append(clean_record_fields(raw_record, self.config))
         return processed
 
 def parse_alabama_docx(docx_path: Path, schedule_id: str, schema: Dict[str, Any], config: StateScheduleConfig) -> List[Dict[str, Any]]:

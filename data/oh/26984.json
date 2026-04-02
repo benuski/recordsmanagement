@@ -14,14 +14,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Electronic: At time application is made obtain a drivers license, information, including signatures, shall be captured and stored electronically. Electronic files shall be retained a period of eight (8) years, and ; Microform: Applications issued a temporary instruction permit prior implementation of Print On Demand (POD) shall be retained a period of seven (7) years ; Paper: paper records that are not microfilmed",
+      "trigger_event": "CR",
+      "trigger_desc": "Electronic: At time application is made obtain a drivers license, information, including signatures, shall be captured and stored electronically. Electronic files shall be retained a period of eight (8) years, and ; Microform: Applications issued a temporary instruction permit prior implementation of Print On Demand (POD) shall be retained a period of seven (7) years ; Paper: paper records that are not microfilmed",
       "duration_years": 7,
       "duration_months": null,
       "disposition_method": "Electronic: Delete ; Microform: Shred ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-31",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2008-12-23",
       "next_update_due": null,
       "comments": null

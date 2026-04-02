@@ -14,14 +14,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "1Yearafterlastaction",
+      "trigger_event": "AC",
+      "trigger_desc": "1Yearafterlastaction",
       "duration_years": 1,
       "duration_months": null,
       "disposition_method": "ConfidentialDestruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2024-05-09",
       "next_update_due": null,
       "comments": null
@@ -45,14 +46,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "1Yearafterclosed",
+      "trigger_event": "AC",
+      "trigger_desc": "1Yearafterclosed",
       "duration_years": 1,
       "duration_months": null,
       "disposition_method": "ConfidentialDestruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2024-05-09",
       "next_update_due": null,
       "comments": null
@@ -76,14 +78,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "3Yearsafterendofstatefiscalyear",
+      "trigger_event": "AC",
+      "trigger_desc": "3Yearsafterendofstatefiscalyear",
       "duration_years": 3,
       "duration_months": null,
       "disposition_method": "ConfidentialDestruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2024-05-09",
       "next_update_due": null,
       "comments": null
@@ -107,14 +110,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "5Yearsafterclosed",
+      "trigger_event": "AC",
+      "trigger_desc": "5Yearsafterclosed",
       "duration_years": 5,
       "duration_months": null,
       "disposition_method": "ConfidentialDestruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2024-05-09",
       "next_update_due": null,
       "comments": null

@@ -14,14 +14,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Electronic: system is a re-write loop. Recordings are overwritten continuously. Recordings are retained a minimum of (twenty) 20 days. re-write period may be longer than (twenty) 20 days depending on length of each motion activated recording",
+      "trigger_event": "AV",
+      "trigger_desc": "Electronic: system is a re-write loop. Recordings are overwritten continuously. Recordings are retained a minimum of (twenty) 20 days. re-write period may be longer than (twenty) 20 days depending on length of each motion activated recording",
       "duration_years": null,
       "duration_months": null,
       "disposition_method": "Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-31",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2014-04-01",
       "next_update_due": null,
       "comments": null

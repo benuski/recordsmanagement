@@ -14,14 +14,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "completion of final report",
+      "trigger_event": "AC",
+      "trigger_desc": "completion of final report",
       "duration_years": 15,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition_method": "Destroy",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -45,14 +46,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "superseded or obsolete",
+      "trigger_event": "US",
+      "trigger_desc": "superseded or obsolete",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition_method": "Destroy",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -76,14 +78,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "review period end date in compliance with No. 8 on schedule cover page",
+      "trigger_event": "CR",
+      "trigger_desc": "review period end date",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition_method": "Destroy In Compliance With No",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -107,14 +110,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "superseded or obsolete",
+      "trigger_event": "US",
+      "trigger_desc": "superseded or obsolete",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition_method": "Destroy",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null

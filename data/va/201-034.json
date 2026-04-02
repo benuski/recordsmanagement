@@ -14,14 +14,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "approval",
+      "trigger_event": "CR",
+      "trigger_desc": "approval",
       "duration_years": 10,
       "duration_months": null,
       "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2017-07-18",
       "next_update_due": null,
       "comments": null
@@ -42,17 +43,18 @@
       "series_id": "008235",
       "series_title": "School Building Project",
       "series_description": "Documents & Plans This series consists of records submitted to the Superintendent of Public Instruction in compliance with Code of Virginia §22.1140 pertaining to the building of, addition to, or alteration of a public school building. This series may include, but is not limited to: public school division superintendent approval, architect or engineer statement, and a copy of the final plans. COV 22.1140",
-      "legal_citation": null
+      "legal_citation": "COV 22.1140"
     },
     "retention_rules": {
-      "trigger_event": "equipment, facility, property sold or no longer in use",
+      "trigger_event": "CR",
+      "trigger_desc": "equipment, facility, property sold or no longer in use",
       "duration_years": 0,
       "duration_months": null,
       "disposition_method": "or Non-confidential Destruction",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2017-07-18",
       "next_update_due": null,
       "comments": null
@@ -73,17 +75,18 @@
       "series_id": "008237",
       "series_title": "School Building Project Specifications",
       "series_description": "This series documents compliance with Code of Virginia §22.1140, which requires that construction be approved by the division superintendent and accompanied by a statement from an architect or engineer that the plans are in accordance with building code and DOE regulations. This series may include, but is not limited to: building project specifications. COV 22.1140",
-      "legal_citation": null
+      "legal_citation": "COV 22.1140"
     },
     "retention_rules": {
-      "trigger_event": "event",
+      "trigger_event": "CR",
+      "trigger_desc": "event",
       "duration_years": 2,
       "duration_months": null,
       "disposition_method": "Non-confidential Destruction",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2017-07-18",
       "next_update_due": null,
       "comments": null

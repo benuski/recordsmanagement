@@ -11,17 +11,18 @@
       "series_id": "000326",
       "series_title": "Background Investigations: Criminal Background Investigation Request",
       "series_description": "This series documents the request for criminal background investigations conducted on individuals seeking to provide services or care in Child Placing Agencies (CPA) or Children's Residential Facilities (CRF). This series may include but is not limited to: requests for criminal history record request and report, reprint of findings or discontinuance, fingerprint cards, results, and authorization for release of information COV 63.2901.1; COV 63.2-1726",
-      "legal_citation": null
+      "legal_citation": "COV 63.2-1726"
     },
     "retention_rules": {
-      "trigger_event": "90 Days closed",
+      "trigger_event": "AC",
+      "trigger_desc": "90 Days closed",
       "duration_years": null,
       "duration_months": null,
       "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -45,14 +46,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "closed",
+      "trigger_event": "AC",
+      "trigger_desc": "closed",
       "duration_years": 3,
       "duration_months": null,
       "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -76,14 +78,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "closed",
+      "trigger_event": "AC",
+      "trigger_desc": "closed",
       "duration_years": 3,
       "duration_months": null,
       "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -107,14 +110,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "birthday",
+      "trigger_event": "CR",
+      "trigger_desc": "birthday",
       "duration_years": 100,
       "duration_months": null,
       "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -138,14 +142,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "expiration",
+      "trigger_event": "CR",
+      "trigger_desc": "expiration",
       "duration_years": 7,
       "duration_months": null,
       "disposition_method": "Non-confidential Destruction",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -169,14 +174,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "superseded, obsolete, rescinded",
+      "trigger_event": "US",
+      "trigger_desc": "superseded, obsolete, rescinded",
       "duration_years": 0,
       "duration_months": null,
       "disposition_method": "or Non-confidential Destruction",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -197,17 +203,18 @@
       "series_id": "000097",
       "series_title": "Family Services: Adoption Records",
       "series_description": "This series documents the adoption case of a particular child, adult, or a group of siblings. This may include but is not limited to: court orders, petitions, consents, adoption home studies, investigation reports pertaining to a child or adult adoption, and the adoptee's foster care record. COV 63.2-1245; COV 63.21246",
-      "legal_citation": null
+      "legal_citation": "COV 63.21246"
     },
     "retention_rules": {
-      "trigger_event": "Permanent",
+      "trigger_event": "PM",
+      "trigger_desc": "",
       "duration_years": 999,
       "duration_months": null,
       "disposition_method": "Permanent, In Agency",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -231,14 +238,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "final payment",
+      "trigger_event": "CR",
+      "trigger_desc": "final payment",
       "duration_years": 5,
       "duration_months": null,
       "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -262,14 +270,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "closed",
+      "trigger_event": "AC",
+      "trigger_desc": "closed",
       "duration_years": 5,
       "duration_months": null,
       "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -290,17 +299,18 @@
       "series_id": "000100",
       "series_title": "Family Services: Child Custody and Visitation Report Requests",
       "series_description": "This series documents court-ordered requests for an out-ofstate child custody and visitation report, also referred to as a home study. The process is initiated after receipt of the Interstate Compact on the Placement of Children (ICPC) transmittal letter is received. This series may include, but is not limited to: copies of the request letter, the court order, and the ICPC office transmittal. COV 63.2-1000",
-      "legal_citation": null
+      "legal_citation": "COV 63.2-1000"
     },
     "retention_rules": {
-      "trigger_event": "receipt",
+      "trigger_event": "AV",
+      "trigger_desc": "receipt",
       "duration_years": null,
       "duration_months": 6,
       "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -324,14 +334,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "final payment",
+      "trigger_event": "CR",
+      "trigger_desc": "final payment",
       "duration_years": 7,
       "duration_months": null,
       "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -355,14 +366,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "birth",
+      "trigger_event": "CR",
+      "trigger_desc": "birth",
       "duration_years": 22,
       "duration_months": null,
       "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -383,17 +395,18 @@
       "series_id": "000102",
       "series_title": "Family Services: Interstate Compact on Adoption and Medical Assistance Services (ICAMA) Case Files",
       "series_description": "This series documents requests for Medicaid for foster, pre,and post-adopted children having a signed adoption subsidy assistance agreement and when the sending state is a member of Interstate Compact on Adoption and Medical Assistance Services (ICAMA). These records are for children being adopted from out-of-state and coming into Virginia and for children from Virginia adopted and moved out-of-state. This series may include, but is not limited to: ICAMA forms, adoption subsidy agreements, and correspondence. COV 63.2-1000",
-      "legal_citation": null
+      "legal_citation": "COV 63.2-1000"
     },
     "retention_rules": {
-      "trigger_event": "closed",
+      "trigger_event": "AC",
+      "trigger_desc": "closed",
       "duration_years": 1,
       "duration_months": null,
       "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -414,17 +427,18 @@
       "series_id": "000103",
       "series_title": "Family Services: Interstate Compact on the Placement of Children (ICPC) Case Files",
       "series_description": "This series documents requests to approve inand out-ofstate/country child placements, as well as requests to support children in approved placements. This series may include, but is not limited to: adoption reports, resource information data, custody orders, child summaries, medical information, correspondence, placement information, and school reports. COV 63.2-1000",
-      "legal_citation": null
+      "legal_citation": "COV 63.2-1000"
     },
     "retention_rules": {
-      "trigger_event": "closed",
+      "trigger_event": "AC",
+      "trigger_desc": "closed",
       "duration_years": 1,
       "duration_months": null,
       "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -448,14 +462,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Permanent",
+      "trigger_event": "PM",
+      "trigger_desc": "",
       "duration_years": 999,
       "duration_months": null,
       "disposition_method": "Permanent, In Agency",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -479,14 +494,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "last action",
+      "trigger_event": "CR",
+      "trigger_desc": "last action",
       "duration_years": 5,
       "duration_months": null,
       "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -510,14 +526,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "submission",
+      "trigger_event": "CR",
+      "trigger_desc": "submission",
       "duration_years": 5,
       "duration_months": null,
       "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null

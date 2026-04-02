@@ -14,14 +14,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Permanent",
+      "trigger_event": "PM",
+      "trigger_desc": "",
       "duration_years": 999,
       "duration_months": null,
       "disposition_method": "Permanent, In Agency",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2017-09-01",
       "next_update_due": null,
       "comments": null
@@ -45,14 +46,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "project completion",
+      "trigger_event": "AC",
+      "trigger_desc": "project completion",
       "duration_years": 6,
       "duration_months": null,
       "disposition_method": "Non-confidential Destruction",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2017-09-01",
       "next_update_due": null,
       "comments": null
@@ -76,14 +78,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "last action",
+      "trigger_event": "CR",
+      "trigger_desc": "last action",
       "duration_years": 1,
       "duration_months": null,
       "disposition_method": "Non-confidential Destruction",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2017-09-01",
       "next_update_due": null,
       "comments": null
@@ -107,14 +110,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "final payment",
+      "trigger_event": "CR",
+      "trigger_desc": "final payment",
       "duration_years": 3,
       "duration_months": null,
       "disposition_method": "Non-confidential Destruction",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2017-09-01",
       "next_update_due": null,
       "comments": null
@@ -138,14 +142,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "last action",
+      "trigger_event": "CR",
+      "trigger_desc": "last action",
       "duration_years": 1,
       "duration_months": null,
       "disposition_method": "Non-confidential Destruction",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2017-09-01",
       "next_update_due": null,
       "comments": null
@@ -169,14 +174,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "last action",
+      "trigger_event": "CR",
+      "trigger_desc": "last action",
       "duration_years": 1,
       "duration_months": null,
       "disposition_method": "Non-confidential Destruction",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2017-09-01",
       "next_update_due": null,
       "comments": null
@@ -197,17 +203,18 @@
       "series_id": "005116",
       "series_title": "Enforcement Files",
       "series_description": "This series documents routine actions and activities of the enforcement staff such as site visits. This series may include, but is not limited to: inspector frequency sheets, reports, oversight records, grant materials, logs, inspector monthly diaries, and correspondence. COV 45.1-244",
-      "legal_citation": null
+      "legal_citation": "COV 45.1-244"
     },
     "retention_rules": {
-      "trigger_event": "end of calendar year",
+      "trigger_event": "CE",
+      "trigger_desc": "end of calendar year",
       "duration_years": 3,
       "duration_months": null,
       "disposition_method": "Non-confidential Destruction",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2017-09-01",
       "next_update_due": null,
       "comments": null
@@ -228,17 +235,18 @@
       "series_id": "005119",
       "series_title": "Map Files",
       "series_description": "This series documents activities associated with mining and reclamation such as surface water hydrology, geologic, engineering, ecology, agronomy, land use and water supply inventory. This series may include but is not limited to: maps. COV 45.1-244",
-      "legal_citation": null
+      "legal_citation": "COV 45.1-244"
     },
     "retention_rules": {
-      "trigger_event": "Permanent",
+      "trigger_event": "PM",
+      "trigger_desc": "",
       "duration_years": 999,
       "duration_months": null,
       "disposition_method": "Permanent, In Agency",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2017-09-01",
       "next_update_due": null,
       "comments": null
@@ -262,14 +270,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Permanent",
+      "trigger_event": "PM",
+      "trigger_desc": "",
       "duration_years": 999,
       "duration_months": null,
       "disposition_method": "Permanent, In Agency",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2017-09-01",
       "next_update_due": null,
       "comments": null
@@ -290,17 +299,18 @@
       "series_id": "005281",
       "series_title": "Mining Permit Application Packets: Disapproved",
       "series_description": "This series documents mining permit applications packets that have not been approved. This series may include, but is not limited to: applications and correspondence. COV 45.1-234",
-      "legal_citation": null
+      "legal_citation": "COV 45.1-234"
     },
     "retention_rules": {
-      "trigger_event": "last action",
+      "trigger_event": "CR",
+      "trigger_desc": "last action",
       "duration_years": 1,
       "duration_months": null,
       "disposition_method": "Non-confidential Destruction",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2017-09-01",
       "next_update_due": null,
       "comments": null
@@ -321,17 +331,18 @@
       "series_id": "005279",
       "series_title": "Mining Permits",
       "series_description": "This series documents the issuance of mining permits. This series may include, but is not limited to: permits, enforcement complaints, and permit inspection and violation reports. COV 45.1-234",
-      "legal_citation": null
+      "legal_citation": "COV 45.1-234"
     },
     "retention_rules": {
-      "trigger_event": "event",
+      "trigger_event": "CR",
+      "trigger_desc": "event",
       "duration_years": 1,
       "duration_months": null,
       "disposition_method": "Non-confidential Destruction",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2017-09-01",
       "next_update_due": null,
       "comments": null
@@ -355,14 +366,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "event",
+      "trigger_event": "CR",
+      "trigger_desc": "event",
       "duration_years": 3,
       "duration_months": null,
       "disposition_method": "Non-confidential Destruction",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2017-09-01",
       "next_update_due": null,
       "comments": null
@@ -386,14 +398,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "event",
+      "trigger_event": "CR",
+      "trigger_desc": "event",
       "duration_years": 1,
       "duration_months": null,
       "disposition_method": "Non-confidential Destruction",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2017-09-01",
       "next_update_due": null,
       "comments": null
@@ -414,17 +427,18 @@
       "series_id": "005121",
       "series_title": "Violation Notices:10 Day",
       "series_description": "This series documents receipt of a Ten Day Notice of violation from the Federal Office of Surface Mining (OSM) and subsequent department actions in response to the notice. This series may include, but is not limited to: Notices of Violation. COV 45.1-245",
-      "legal_citation": null
+      "legal_citation": "COV 45.1-245"
     },
     "retention_rules": {
-      "trigger_event": "last action",
+      "trigger_event": "CR",
+      "trigger_desc": "last action",
       "duration_years": 2,
       "duration_months": null,
       "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2017-09-01",
       "next_update_due": null,
       "comments": null
@@ -448,14 +462,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "expiration",
+      "trigger_event": "CR",
+      "trigger_desc": "expiration",
       "duration_years": 3,
       "duration_months": null,
       "disposition_method": "Non-confidential Destruction",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2017-09-01",
       "next_update_due": null,
       "comments": null

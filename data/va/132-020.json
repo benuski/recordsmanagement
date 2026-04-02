@@ -14,14 +14,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "event",
+      "trigger_event": "CR",
+      "trigger_desc": "event",
       "duration_years": 2,
       "duration_months": null,
       "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2013-11-06",
       "next_update_due": null,
       "comments": null
@@ -42,17 +43,18 @@
       "series_id": "005496",
       "series_title": "COV 24.2-612; 42 USC 1971ff-1 Abstract of Votes",
       "series_description": "This series documents the certified record of election results as sent to the State Board of Elections by the local electoral board. These abstracts are used to tabulate offical election results and consist of preprinted forms filled in to show the name of the locality, title of the elective office and district, names of the candidates, total vote each received, statement of certification and date, the signatures of the local electoral board, and the seal of the board. This series may include, but is not limited to: abstracts of votes. COV 24.2-675",
-      "legal_citation": null
+      "legal_citation": "COV 24.2-675"
     },
     "retention_rules": {
-      "trigger_event": "Permanent",
+      "trigger_event": "PM",
+      "trigger_desc": "",
       "duration_years": 999,
       "duration_months": null,
       "disposition_method": "Permanent, Archives",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2013-11-06",
       "next_update_due": null,
       "comments": null
@@ -76,14 +78,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Permanent",
+      "trigger_event": "PM",
+      "trigger_desc": "",
       "duration_years": 999,
       "duration_months": null,
       "disposition_method": "Permanent, Archives",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2013-11-06",
       "next_update_due": null,
       "comments": null
@@ -107,14 +110,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Permanent",
+      "trigger_event": "PM",
+      "trigger_desc": "",
       "duration_years": 999,
       "duration_months": null,
       "disposition_method": "Permanent, Archives",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2013-11-06",
       "next_update_due": null,
       "comments": null
@@ -138,14 +142,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Permanent",
+      "trigger_event": "PM",
+      "trigger_desc": "",
       "duration_years": 999,
       "duration_months": null,
       "disposition_method": "Permanent, Archives",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2013-11-06",
       "next_update_due": null,
       "comments": null
@@ -169,14 +174,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Permanent",
+      "trigger_event": "PM",
+      "trigger_desc": "",
       "duration_years": 999,
       "duration_months": null,
       "disposition_method": "Permanent, Archives",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2013-11-06",
       "next_update_due": null,
       "comments": null
@@ -197,17 +203,18 @@
       "series_id": "200168",
       "series_title": "Electoral College Records",
       "series_description": "This series documents the meeting of the electoral college after a Presidential election. This series may include, but is not limited to: minutes, program, Certificate of Vote, and Certificate of Ascertainment signed by the Governor. COV 24.2-202; COV 24.2-203; COV 24.2-204",
-      "legal_citation": null
+      "legal_citation": "COV 24.2-204"
     },
     "retention_rules": {
-      "trigger_event": "Permanent",
+      "trigger_event": "PM",
+      "trigger_desc": "",
       "duration_years": 999,
       "duration_months": null,
       "disposition_method": "Permanent, Archives",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2013-11-06",
       "next_update_due": null,
       "comments": null
@@ -231,14 +238,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Permanent",
+      "trigger_event": "PM",
+      "trigger_desc": "",
       "duration_years": 999,
       "duration_months": null,
       "disposition_method": "Permanent, In Agency",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2013-11-06",
       "next_update_due": null,
       "comments": null
@@ -259,17 +267,18 @@
       "series_id": "200169",
       "series_title": "Voting Equipment Certification Records",
       "series_description": "This series documents the certification of voting equipment by the State Board of Elections. This series may include, but is not limited to: certifications of equipment filed by local electoral boards. COV 24.2-669; COV 24.2-668; 42 USC 1974 ; COV 24.2-629; cov 24.2-625.1",
-      "legal_citation": null
+      "legal_citation": "cov 24.2-625.1"
     },
     "retention_rules": {
-      "trigger_event": "equipment, facility, property sold or no longer in use",
+      "trigger_event": "CR",
+      "trigger_desc": "equipment, facility, property sold or no longer in use",
       "duration_years": 2,
       "duration_months": null,
       "disposition_method": "or Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2013-11-06",
       "next_update_due": null,
       "comments": null
@@ -290,17 +299,18 @@
       "series_id": "200170",
       "series_title": "Voting Equipment Security Plans",
       "series_description": "This series documents local electoral board voting equipment security plan requirements and administration. This series may include, but is not limited to: security plans. COV 24.2-669; COV 24.2-668; 42 USC 1974 ; COV 24.2-629; COV 24.2-625.1",
-      "legal_citation": null
+      "legal_citation": "COV 24.2-625.1"
     },
     "retention_rules": {
-      "trigger_event": "event",
+      "trigger_event": "CR",
+      "trigger_desc": "event",
       "duration_years": 2,
       "duration_months": null,
       "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2013-11-06",
       "next_update_due": null,
       "comments": null

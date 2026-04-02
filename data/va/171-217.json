@@ -11,17 +11,18 @@
       "series_id": "005021",
       "series_title": "Annual Report of Medical Malpractice Claims",
       "series_description": "This series documents the reporting of medical malpractice liability claims. This series may include, but is not limited to: reports. COV 38.2-2228.1",
-      "legal_citation": null
+      "legal_citation": "COV 38.2-2228.1"
     },
     "retention_rules": {
-      "trigger_event": "end of calendar year",
+      "trigger_event": "CE",
+      "trigger_desc": "end of calendar year",
       "duration_years": 5,
       "duration_months": null,
       "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2017-10-12",
       "next_update_due": null,
       "comments": null

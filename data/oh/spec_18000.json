@@ -14,14 +14,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Electronic: last payment of medical or 10 years payment of compensation, addditional 2 years ; Paper: Send location of Self-insure file in SI section, last payment of medical or 10 years payment of compensation, addditional 2 years",
+      "trigger_event": "CR",
+      "trigger_desc": "Electronic: last payment of medical or 10 years payment of compensation, addditional 2 years ; Paper: Send location of Self-insure file in SI section, last payment of medical or 10 years payment of compensation, addditional 2 years",
       "duration_years": 6,
       "duration_months": null,
       "disposition_method": "Electronic: Erase ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-31",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2002-08-23",
       "next_update_due": null,
       "comments": null

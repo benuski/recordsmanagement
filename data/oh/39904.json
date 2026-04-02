@@ -14,14 +14,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Electronic: dispensing pharmacist checks against patient profile ; Paper: dispensing pharmacist checks against patient profile",
+      "trigger_event": "AV",
+      "trigger_desc": "Electronic: dispensing pharmacist checks against patient profile ; Paper: dispensing pharmacist checks against patient profile",
       "duration_years": null,
       "duration_months": null,
       "disposition_method": "Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-31",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2025-11-28",
       "next_update_due": null,
       "comments": null

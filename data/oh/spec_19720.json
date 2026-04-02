@@ -14,14 +14,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Paper: request is completed ; Electronic: request is completed ; Microform: request is completed",
+      "trigger_event": "AV",
+      "trigger_desc": "Paper: request is completed ; Electronic: request is completed ; Microform: request is completed",
       "duration_years": null,
       "duration_months": 6,
       "disposition_method": "Paper: Recycle ; Electronic: Trash ; Microform: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-31",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2003-06-26",
       "next_update_due": null,
       "comments": null

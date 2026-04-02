@@ -11,17 +11,18 @@
       "series_id": "100438",
       "series_title": "Boiler Safety Compliance: Boiler and Pressure Vessel Certificates of Inspection and Inspection Reports",
       "series_description": "This series documents the inspection of boilers and pressure vessel equipment by contract fee inspectors and inspectors from various insurance companies to ensure compliance with the Boiler and Pressure Vessel Safety Act governing the construction, installation, operation, maintenance and repair of this type of equipment, and includes the issuance or denial of certificates of inspection. This series may include, but is not limited to: certificates of inspection and inspection reports. COV 40.1-51.10",
-      "legal_citation": null
+      "legal_citation": "COV 40.1-51.10"
     },
     "retention_rules": {
-      "trigger_event": "equipment, facility, property sold or no longer in use",
+      "trigger_event": "CR",
+      "trigger_desc": "equipment, facility, property sold or no longer in use",
       "duration_years": 15,
       "duration_months": null,
       "disposition_method": "or Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2024-08-29",
       "next_update_due": null,
       "comments": null
@@ -42,17 +43,18 @@
       "series_id": "100441",
       "series_title": "Boiler Safety Compliance: Inspector Certification Records",
       "series_description": "This series documents the certification of boiler and pressure vessel safety inspectors employed by insurance companies, contract fee companies, and owner-user inspection companies. This series may include, but is not limited to: inspector and employer information, and date of issuance and expiration. COV 40.1-51.9",
-      "legal_citation": null
+      "legal_citation": "COV 40.1-51.9"
     },
     "retention_rules": {
-      "trigger_event": "expiration",
+      "trigger_event": "CR",
+      "trigger_desc": "expiration",
       "duration_years": 3,
       "duration_months": null,
       "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2024-08-29",
       "next_update_due": null,
       "comments": null
@@ -76,14 +78,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "last action",
+      "trigger_event": "CR",
+      "trigger_desc": "last action",
       "duration_years": 2,
       "duration_months": null,
       "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2024-08-29",
       "next_update_due": null,
       "comments": null
@@ -107,14 +110,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "project completion",
+      "trigger_event": "AC",
+      "trigger_desc": "project completion",
       "duration_years": 3,
       "duration_months": null,
       "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2024-08-29",
       "next_update_due": null,
       "comments": null
@@ -135,17 +139,18 @@
       "series_id": "100447",
       "series_title": "Labor and Employment Law: Age Certificates",
       "series_description": "This series documents conclusive evidence of the age of the person (16 and older) for whom a certificate has been issued. This series includes age certificates. COV 40.1-104; COV 40.194",
-      "legal_citation": null
+      "legal_citation": "COV 40.194"
     },
     "retention_rules": {
-      "trigger_event": "birth",
+      "trigger_event": "CR",
+      "trigger_desc": "birth",
       "duration_years": 21,
       "duration_months": null,
       "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2024-08-29",
       "next_update_due": null,
       "comments": null
@@ -166,17 +171,18 @@
       "series_id": "100448",
       "series_title": "Labor and Employment Law: Child Labor Civil Money Penalties",
       "series_description": "This series documents the assessment of civil penalties against employers who are found to be in violation of the child Labor Laws of Virginia, as well as written warnings that such penalties may be assessed in the future if the employer violates the child Labor Laws of Virginia. This series may include, but is not limited to: documentation of penalties issued and correspondence documenting the possible issuance of penalties for future noncompliance. COV 40.1-113",
-      "legal_citation": null
+      "legal_citation": "COV 40.1-113"
     },
     "retention_rules": {
-      "trigger_event": "creation",
+      "trigger_event": "CR",
+      "trigger_desc": "creation",
       "duration_years": 2,
       "duration_months": null,
       "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2024-08-29",
       "next_update_due": null,
       "comments": null
@@ -200,14 +206,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "closed",
+      "trigger_event": "AC",
+      "trigger_desc": "closed",
       "duration_years": 2,
       "duration_months": null,
       "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2024-08-29",
       "next_update_due": null,
       "comments": null
@@ -228,17 +235,18 @@
       "series_id": "100450",
       "series_title": "Labor and Employment Law: Employment Certificates (Work Permits)",
       "series_description": "This series documents the issuance of employment certificates to persons 14 and 15 years of age. This series may include, but is not limited to: employment certificates. COV 40.1-84",
-      "legal_citation": null
+      "legal_citation": "COV 40.1-84"
     },
     "retention_rules": {
-      "trigger_event": "issuance",
+      "trigger_event": "CR",
+      "trigger_desc": "issuance",
       "duration_years": 3,
       "duration_months": null,
       "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2024-08-29",
       "next_update_due": null,
       "comments": null
@@ -262,14 +270,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "inspection",
+      "trigger_event": "CR",
+      "trigger_desc": "inspection",
       "duration_years": 2,
       "duration_months": null,
       "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2024-08-29",
       "next_update_due": null,
       "comments": null
@@ -290,17 +299,18 @@
       "series_id": "100452",
       "series_title": "Labor and Employment Law: Magazine Solicitation Permits",
       "series_description": "This series documents the issuance of permits to any person, firm, or corporation engaged in the solicitation, sale, or obtaining of subscription contracts for books, magazines, or other periodicals other than newspapers. This series may include, but is not limited to: Magazine Solicitation Permits. COV 40.1112",
-      "legal_citation": null
+      "legal_citation": "COV 40.1112"
     },
     "retention_rules": {
-      "trigger_event": "end of state fiscal year",
+      "trigger_event": "FE",
+      "trigger_desc": "end of state fiscal year",
       "duration_years": 3,
       "duration_months": null,
       "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2024-08-29",
       "next_update_due": null,
       "comments": null
@@ -321,17 +331,18 @@
       "series_id": "100453",
       "series_title": "Labor and Employment Law: Payment of Wages Case Records",
       "series_description": "This series documents the receipt of payment of wage complaints from employees, the investigation of complaints, and the results of the investigation, including any penalties or legal action, as well as any other agency involvement in the enforcement of Code of Virginia § 40.1-29. This series may include, but is not limited to: complaints received and investigation results, including issuance of any penalties or other legal action taken. COV 40.1-29",
-      "legal_citation": null
+      "legal_citation": "COV 40.1-29"
     },
     "retention_rules": {
-      "trigger_event": "closed",
+      "trigger_event": "AC",
+      "trigger_desc": "closed",
       "duration_years": 2,
       "duration_months": null,
       "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2024-08-29",
       "next_update_due": null,
       "comments": null
@@ -355,14 +366,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Permanent",
+      "trigger_event": "PM",
+      "trigger_desc": "",
       "duration_years": 999,
       "duration_months": null,
       "disposition_method": "Permanent, In Agency",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2024-08-29",
       "next_update_due": null,
       "comments": null
@@ -386,14 +398,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "notification",
+      "trigger_event": "CR",
+      "trigger_desc": "notification",
       "duration_years": 3,
       "duration_months": null,
       "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2024-08-29",
       "next_update_due": null,
       "comments": null
@@ -414,17 +427,18 @@
       "series_id": "100456",
       "series_title": "Labor and Employment Law: Uncollectible Payment of Wages Case Records",
       "series_description": "This series documents the receipt of \"payment of wage\" complaints from employees, the investigation, the results, and a court order for payment for the cases in which the agency has not been able to collect the monies owed to employees. This series may include, but is not limited to: investigation documentation and court orders. COV 40.1-29",
-      "legal_citation": null
+      "legal_citation": "COV 40.1-29"
     },
     "retention_rules": {
-      "trigger_event": "event",
+      "trigger_event": "CR",
+      "trigger_desc": "event",
       "duration_years": 20,
       "duration_months": null,
       "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2024-08-29",
       "next_update_due": null,
       "comments": null
@@ -445,17 +459,18 @@
       "series_id": "100458",
       "series_title": "Occupational Health Compliance: Asbestos and Lead Notification Forms",
       "series_description": "This series documents receipt of required notification by licensed asbestos contractors and certified lead contractors concerning both asbestos and lead projects. This series also documents records of the scheduled inspection of asbestos or lead projects, and includes the agency's monitoring of licensed and certified contractors and the inspection of projects. This series may include, but is not limited to: asbestos and lead project notification forms, records of inspections of asbestos and lead projects, and records that document monitoring of licensed and certified contractors. COV 40.1-51.20 through COV 40.1-51.22; COV 40.1-51.23 through COV 40.1-51.41",
-      "legal_citation": null
+      "legal_citation": "COV 40.1-51.41"
     },
     "retention_rules": {
-      "trigger_event": "creation",
+      "trigger_event": "CR",
+      "trigger_desc": "creation",
       "duration_years": 3,
       "duration_months": null,
       "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2024-08-29",
       "next_update_due": null,
       "comments": null
@@ -476,17 +491,18 @@
       "series_id": "100457",
       "series_title": "Occupational Health Compliance: Asbestos and Lead Programs Database",
       "series_description": "This series documents the receipt of required notifications and applicable fees submitted by licensed asbestos contractors and certified lead contractors for asbestos and lead abatement projects. This series may include, but is not limited to: notification forms for specific asbestos and lead abatement projects, permits issued, and monitoring inspection reports. COV 40.1-51.20 through COV 40.1-51.22; COV 40.1-51.23 through COV 40.1-51.41.",
-      "legal_citation": null
+      "legal_citation": "COV 40.1-51.41."
     },
     "retention_rules": {
-      "trigger_event": "Permanent",
+      "trigger_event": "PM",
+      "trigger_desc": "",
       "duration_years": 999,
       "duration_months": null,
       "disposition_method": "Permanent, In Agency",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2024-08-29",
       "next_update_due": null,
       "comments": null
@@ -510,14 +526,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "project completion",
+      "trigger_event": "AC",
+      "trigger_desc": "project completion",
       "duration_years": 3,
       "duration_months": null,
       "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2024-08-29",
       "next_update_due": null,
       "comments": null
@@ -541,14 +558,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "creation",
+      "trigger_event": "CR",
+      "trigger_desc": "creation",
       "duration_years": 2,
       "duration_months": null,
       "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2024-08-29",
       "next_update_due": null,
       "comments": null
@@ -569,17 +587,18 @@
       "series_id": "100468",
       "series_title": "Occupational Safety and Health Compliance: Case Records, Complaints and Contested Cases",
       "series_description": "This series documents the inspection of worksites, the issuance of citations for violations, the enforcement of Virginia Occupational Safety and Health (VOSH) regulations, the receipt and investigation of complaints, and actions taken by the agency. This series may include, but is not limited to: Notices of Alleged Safety or Health Hazard, inspection reports, Citation and Notification of Penalty records, and other occupational safety and health compliance case file documentation. COV 40.1-51.2; COV 40.1-49.4",
-      "legal_citation": null
+      "legal_citation": "COV 40.1-49.4"
     },
     "retention_rules": {
-      "trigger_event": "closed",
+      "trigger_event": "AC",
+      "trigger_desc": "closed",
       "duration_years": 3,
       "duration_months": null,
       "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2024-08-29",
       "next_update_due": null,
       "comments": null
@@ -603,14 +622,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "closed",
+      "trigger_event": "AC",
+      "trigger_desc": "closed",
       "duration_years": 2,
       "duration_months": null,
       "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2024-08-29",
       "next_update_due": null,
       "comments": null
@@ -634,14 +654,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "creation",
+      "trigger_event": "CR",
+      "trigger_desc": "creation",
       "duration_years": 3,
       "duration_months": null,
       "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2024-08-29",
       "next_update_due": null,
       "comments": null
@@ -662,17 +683,18 @@
       "series_id": "100466",
       "series_title": "State Plan for Occupational Safety and Health Program",
       "series_description": "This series documents the state plan agreement between the federal Occupational Safety and Health Administration (OSHA) and the U.S. Department of Labor (USDOL), which gives the Commonwealth authority to regulate occupational safety and health within its jurisdiction for General Industry, Construction, Agriculture, and the Public Sector. This series may include, but is not limited to: plans and contractual agreements. 29CFR1952.370 et seq.; COV 40.1-1",
-      "legal_citation": null
+      "legal_citation": "COV 40.1-1"
     },
     "retention_rules": {
-      "trigger_event": "Permanent",
+      "trigger_event": "PM",
+      "trigger_desc": "",
       "duration_years": 999,
       "duration_months": null,
       "disposition_method": "Permanent, Archives",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2024-08-29",
       "next_update_due": null,
       "comments": null
@@ -696,14 +718,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "closed",
+      "trigger_event": "AC",
+      "trigger_desc": "closed",
       "duration_years": 3,
       "duration_months": null,
       "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2024-08-29",
       "next_update_due": null,
       "comments": null

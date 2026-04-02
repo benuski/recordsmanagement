@@ -14,14 +14,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "in agency completion of project, Archives, Library of Virginia permanent retention",
+      "trigger_event": "PM",
+      "trigger_desc": "in agency completion of project",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition_method": "Transfer To The Archives, Library Of Virginia For Permanent Retention",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -45,14 +46,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Retain for 1 year then destroy.",
+      "trigger_event": "CR",
+      "trigger_desc": "Retain for 1 year",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition_method": "Destroy",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null

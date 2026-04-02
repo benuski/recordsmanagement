@@ -14,14 +14,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Paper: 90 days last order where no further appeal is filed, and ; Electronic: emails 90 days last order where no further appeal is filed, and",
+      "trigger_event": "AV",
+      "trigger_desc": "Paper: 90 days last order where no further appeal is filed, and ; Electronic: emails 90 days last order where no further appeal is filed, and",
       "duration_years": null,
       "duration_months": null,
       "disposition_method": "Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-31",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2012-05-24",
       "next_update_due": null,
       "comments": null

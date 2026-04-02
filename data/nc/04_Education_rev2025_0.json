@@ -14,14 +14,15 @@
       "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "Complete",
+      "trigger_event": "CR",
+      "trigger_desc": "Complete",
       "duration_years": 3,
       "duration_months": null,
       "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": ""
@@ -45,14 +46,15 @@
       "legal_citation": "Confidentiality 20 USC 1232g"
     },
     "retention_rules": {
-      "trigger_event": "when issued Cumulative Record",
+      "trigger_event": "AV",
+      "trigger_desc": "when issued Cumulative Record",
       "duration_years": null,
       "duration_months": null,
       "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": ""
@@ -76,14 +78,15 @@
       "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "End of academic year",
+      "trigger_event": "CR",
+      "trigger_desc": "End of academic year",
       "duration_years": 5,
       "duration_months": null,
       "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": ""
@@ -107,14 +110,15 @@
       "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "Complete",
+      "trigger_event": "CR",
+      "trigger_desc": "Complete",
       "duration_years": 1,
       "duration_months": null,
       "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": ""
@@ -138,14 +142,15 @@
       "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "Reference value ends ± : Agency Policy: _______________",
+      "trigger_event": "AV",
+      "trigger_desc": "Reference value ends ± : Agency Policy: _______________",
       "duration_years": null,
       "duration_months": null,
       "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": ""
@@ -169,14 +174,15 @@
       "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "Complete",
+      "trigger_event": "CR",
+      "trigger_desc": "Complete",
       "duration_years": 5,
       "duration_months": null,
       "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": ""
@@ -200,14 +206,15 @@
       "legal_citation": "Confidentiality 20 USC 1232g"
     },
     "retention_rules": {
-      "trigger_event": "Student graduates or separates from program",
+      "trigger_event": "CR",
+      "trigger_desc": "Student graduates or separates from program",
       "duration_years": 2,
       "duration_months": null,
       "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": ""
@@ -231,14 +238,15 @@
       "legal_citation": "NOTE: Abide by any confidentiality restrictions relevant to the agency"
     },
     "retention_rules": {
-      "trigger_event": "PERMANENT (archival) ∞",
+      "trigger_event": "PM",
+      "trigger_desc": "PERMANENT (archival) ∞",
       "duration_years": 999,
       "duration_months": null,
       "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": "Transfer to the State Records Center when reference value ends for immediate transfer to the custody of the Archives."
@@ -262,14 +270,15 @@
       "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "Permanent",
+      "trigger_event": "PM",
+      "trigger_desc": "PERMANENT",
       "duration_years": 999,
       "duration_months": null,
       "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": ""
@@ -293,14 +302,15 @@
       "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "Superseded/Obsolete",
+      "trigger_event": "US",
+      "trigger_desc": "Superseded/Obsolete",
       "duration_years": null,
       "duration_months": null,
       "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": ""
@@ -324,14 +334,15 @@
       "legal_citation": "Confidentiality G.S. § 132-1.10 NOTE: Abide by any additional confidentiality restrictions relevant to the agency"
     },
     "retention_rules": {
-      "trigger_event": "Complete : ΩTHEN",
+      "trigger_event": "CR",
+      "trigger_desc": "Complete : ΩTHEN",
       "duration_years": 5,
       "duration_months": null,
       "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": "Transfer to the State Records Center after examination results are completed. Records will be held for agency 5 additional years and then destroyed."
@@ -355,14 +366,15 @@
       "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "Superseded/Obsolete",
+      "trigger_event": "US",
+      "trigger_desc": "Superseded/Obsolete",
       "duration_years": null,
       "duration_months": null,
       "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": ""
@@ -386,14 +398,15 @@
       "legal_citation": "Confidentiality G.S. § 115C-174.13(a)"
     },
     "retention_rules": {
-      "trigger_event": "Permanent",
+      "trigger_event": "PM",
+      "trigger_desc": "PERMANENT",
       "duration_years": 999,
       "duration_months": null,
       "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": ""
@@ -417,14 +430,15 @@
       "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "Superseded/Obsolete",
+      "trigger_event": "US",
+      "trigger_desc": "Superseded/Obsolete",
       "duration_years": null,
       "duration_months": null,
       "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": ""
@@ -448,14 +462,15 @@
       "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "Permanent",
+      "trigger_event": "PM",
+      "trigger_desc": "PERMANENT",
       "duration_years": 999,
       "duration_months": null,
       "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": ""
@@ -479,14 +494,15 @@
       "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "Superseded/Obsolete",
+      "trigger_event": "US",
+      "trigger_desc": "Superseded/Obsolete",
       "duration_years": null,
       "duration_months": null,
       "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": ""
@@ -510,14 +526,15 @@
       "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "Permanent",
+      "trigger_event": "PM",
+      "trigger_desc": "PERMANENT",
       "duration_years": 999,
       "duration_months": null,
       "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": ""
@@ -541,14 +558,15 @@
       "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "Superseded/Obsolete",
+      "trigger_event": "US",
+      "trigger_desc": "Superseded/Obsolete",
       "duration_years": null,
       "duration_months": null,
       "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": ""
@@ -572,14 +590,15 @@
       "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "Complete",
+      "trigger_event": "CR",
+      "trigger_desc": "Complete",
       "duration_years": 2,
       "duration_months": null,
       "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": ""
@@ -603,14 +622,15 @@
       "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "Complete",
+      "trigger_event": "CR",
+      "trigger_desc": "Complete",
       "duration_years": 3,
       "duration_months": null,
       "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": ""
@@ -634,14 +654,15 @@
       "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "Complete",
+      "trigger_event": "CR",
+      "trigger_desc": "Complete",
       "duration_years": 5,
       "duration_months": null,
       "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": ""
@@ -665,14 +686,15 @@
       "legal_citation": "Confidentiality 20 USC 1232g"
     },
     "retention_rules": {
-      "trigger_event": "Student graduates or withdraws",
+      "trigger_event": "CR",
+      "trigger_desc": "Student graduates or withdraws",
       "duration_years": 2,
       "duration_months": null,
       "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": ""
@@ -696,14 +718,15 @@
       "legal_citation": "Confidentiality 20 USC 1232g"
     },
     "retention_rules": {
-      "trigger_event": "End of academic year",
+      "trigger_event": "CR",
+      "trigger_desc": "End of academic year",
       "duration_years": 1,
       "duration_months": null,
       "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": ""
@@ -727,14 +750,15 @@
       "legal_citation": "Confidentiality/ Retention G.S. § 115C-402 Goble v. Bounds (13 N.C. App. 579)"
     },
     "retention_rules": {
-      "trigger_event": "PERMANENT ©",
+      "trigger_event": "PM",
+      "trigger_desc": "PERMANENT ©",
       "duration_years": 999,
       "duration_months": null,
       "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": "Transfer records to the State Records Center when juvenile turns 18 years old, except for violent offenders whose commitments have been extended to 19 or 21 years old, to be microfilmed for permanent security storage."
@@ -758,14 +782,15 @@
       "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "Student graduates or withdraws",
+      "trigger_event": "CR",
+      "trigger_desc": "Student graduates or withdraws",
       "duration_years": 2,
       "duration_months": null,
       "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": ""
@@ -789,14 +814,15 @@
       "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "when issued Cumulative Record",
+      "trigger_event": "AV",
+      "trigger_desc": "when issued Cumulative Record",
       "duration_years": null,
       "duration_months": null,
       "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": ""
@@ -820,14 +846,15 @@
       "legal_citation": "Confidentiality G.S. § 115C-174.13(b)"
     },
     "retention_rules": {
-      "trigger_event": "End of academic year",
+      "trigger_event": "CR",
+      "trigger_desc": "End of academic year",
       "duration_years": 1,
       "duration_months": null,
       "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": ""
@@ -851,14 +878,15 @@
       "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "PERMANENT (archival) ∞",
+      "trigger_event": "PM",
+      "trigger_desc": "PERMANENT (archival) ∞",
       "duration_years": 999,
       "duration_months": null,
       "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": "Transfer records annually to the State Records Center upon certification by the State Board of Education for immediate transfer to the custody of the Archives."
@@ -882,14 +910,15 @@
       "legal_citation": "Confidentiality 20 USC 1232g"
     },
     "retention_rules": {
-      "trigger_event": "End of academic year",
+      "trigger_event": "CR",
+      "trigger_desc": "End of academic year",
       "duration_years": 1,
       "duration_months": null,
       "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": ""
@@ -913,14 +942,15 @@
       "legal_citation": "Confidentiality G.S. § 115C-402 Goble v. Bounds (13 N.C. App 579)"
     },
     "retention_rules": {
-      "trigger_event": "Student separates from program : : * NOTE: parent, guardian, surrogate parent, or eligible student must be notified prior destruction of personally identifiable information so copies of records can be provided if desired. Information must be destroyed at request of parents if no longer needed provide educational services child (34 CFR 300.573)",
+      "trigger_event": "CR",
+      "trigger_desc": "Student separates from program : : * NOTE: parent, guardian, surrogate parent, or eligible student must be notified prior destruction of personally identifiable information so copies of records can be provided if desired. Information must be destroyed at request of parents if no longer needed provide educational services child (34 CFR 300.573)",
       "duration_years": 5,
       "duration_months": null,
       "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": ""
@@ -944,14 +974,15 @@
       "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "Complete",
+      "trigger_event": "CR",
+      "trigger_desc": "Complete",
       "duration_years": 1,
       "duration_months": null,
       "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": ""
@@ -975,14 +1006,15 @@
       "legal_citation": "Confidentiality Goble v. Bounds (13 N.C. App 579)"
     },
     "retention_rules": {
-      "trigger_event": "Release : individual",
+      "trigger_event": "AV",
+      "trigger_desc": "Release : individual",
       "duration_years": null,
       "duration_months": null,
       "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": ""
@@ -1006,14 +1038,15 @@
       "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "SEE FUNCTIONAL SCHEDULE",
+      "trigger_event": "AV",
+      "trigger_desc": "SEE FUNCTIONAL SCHEDULE",
       "duration_years": null,
       "duration_months": null,
       "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": "Legacy Item Number mapped to Functional Schedule chapter 04."
@@ -1037,14 +1070,15 @@
       "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "SEE FUNCTIONAL SCHEDULE",
+      "trigger_event": "AV",
+      "trigger_desc": "SEE FUNCTIONAL SCHEDULE",
       "duration_years": null,
       "duration_months": null,
       "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": "Legacy Item Number mapped to Functional Schedule chapter 04."
@@ -1068,14 +1102,15 @@
       "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "SEE FUNCTIONAL SCHEDULE",
+      "trigger_event": "AV",
+      "trigger_desc": "SEE FUNCTIONAL SCHEDULE",
       "duration_years": null,
       "duration_months": null,
       "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": "Legacy Item Number mapped to Functional Schedule chapter 04."
@@ -1099,14 +1134,15 @@
       "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "SEE FUNCTIONAL SCHEDULE",
+      "trigger_event": "AV",
+      "trigger_desc": "SEE FUNCTIONAL SCHEDULE",
       "duration_years": null,
       "duration_months": null,
       "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": "Legacy Item Number mapped to Functional Schedule chapter 04."
@@ -1130,14 +1166,15 @@
       "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "SEE FUNCTIONAL SCHEDULE",
+      "trigger_event": "AV",
+      "trigger_desc": "SEE FUNCTIONAL SCHEDULE",
       "duration_years": null,
       "duration_months": null,
       "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": "Legacy Item Number mapped to Functional Schedule chapter 04."
@@ -1161,14 +1198,15 @@
       "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "SEE FUNCTIONAL SCHEDULE",
+      "trigger_event": "AV",
+      "trigger_desc": "SEE FUNCTIONAL SCHEDULE",
       "duration_years": null,
       "duration_months": null,
       "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": "Legacy Item Number mapped to Functional Schedule chapter 04."
@@ -1192,14 +1230,15 @@
       "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "SEE FUNCTIONAL SCHEDULE",
+      "trigger_event": "AV",
+      "trigger_desc": "SEE FUNCTIONAL SCHEDULE",
       "duration_years": null,
       "duration_months": null,
       "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": "Legacy Item Number mapped to Functional Schedule chapter 04."
@@ -1223,14 +1262,15 @@
       "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "SEE FUNCTIONAL SCHEDULE",
+      "trigger_event": "AV",
+      "trigger_desc": "SEE FUNCTIONAL SCHEDULE",
       "duration_years": null,
       "duration_months": null,
       "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": "Legacy Item Number mapped to Functional Schedule chapter 04."
@@ -1254,14 +1294,15 @@
       "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "SEE FUNCTIONAL SCHEDULE",
+      "trigger_event": "AV",
+      "trigger_desc": "SEE FUNCTIONAL SCHEDULE",
       "duration_years": null,
       "duration_months": null,
       "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": "Legacy Item Number mapped to Functional Schedule chapter 04."
@@ -1285,14 +1326,15 @@
       "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "SEE FUNCTIONAL SCHEDULE",
+      "trigger_event": "AV",
+      "trigger_desc": "SEE FUNCTIONAL SCHEDULE",
       "duration_years": null,
       "duration_months": null,
       "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": "Legacy Item Number mapped to Functional Schedule chapter 04."
@@ -1316,14 +1358,15 @@
       "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "SEE FUNCTIONAL SCHEDULE",
+      "trigger_event": "AV",
+      "trigger_desc": "SEE FUNCTIONAL SCHEDULE",
       "duration_years": null,
       "duration_months": null,
       "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": "Legacy Item Number mapped to Functional Schedule chapter 04."
@@ -1347,14 +1390,15 @@
       "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "SEE FUNCTIONAL SCHEDULE",
+      "trigger_event": "AV",
+      "trigger_desc": "SEE FUNCTIONAL SCHEDULE",
       "duration_years": null,
       "duration_months": null,
       "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": "Legacy Item Number mapped to Functional Schedule chapter 04."
@@ -1378,14 +1422,15 @@
       "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "SEE FUNCTIONAL SCHEDULE",
+      "trigger_event": "AV",
+      "trigger_desc": "SEE FUNCTIONAL SCHEDULE",
       "duration_years": null,
       "duration_months": null,
       "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": "Legacy Item Number mapped to Functional Schedule chapter 04."
@@ -1409,14 +1454,15 @@
       "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "SEE FUNCTIONAL SCHEDULE",
+      "trigger_event": "AV",
+      "trigger_desc": "SEE FUNCTIONAL SCHEDULE",
       "duration_years": null,
       "duration_months": null,
       "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": "Legacy Item Number mapped to Functional Schedule chapter 04."
@@ -1440,14 +1486,15 @@
       "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "SEE FUNCTIONAL SCHEDULE",
+      "trigger_event": "AV",
+      "trigger_desc": "SEE FUNCTIONAL SCHEDULE",
       "duration_years": null,
       "duration_months": null,
       "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": "Legacy Item Number mapped to Functional Schedule chapter 04."
@@ -1471,14 +1518,15 @@
       "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "SEE FUNCTIONAL SCHEDULE",
+      "trigger_event": "AV",
+      "trigger_desc": "SEE FUNCTIONAL SCHEDULE",
       "duration_years": null,
       "duration_months": null,
       "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": "Legacy Item Number mapped to Functional Schedule chapter 04."
@@ -1502,14 +1550,15 @@
       "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "SEE FUNCTIONAL SCHEDULE",
+      "trigger_event": "AV",
+      "trigger_desc": "SEE FUNCTIONAL SCHEDULE",
       "duration_years": null,
       "duration_months": null,
       "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": "Legacy Item Number mapped to Functional Schedule chapter 04."
@@ -1533,14 +1582,15 @@
       "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "SEE FUNCTIONAL SCHEDULE",
+      "trigger_event": "AV",
+      "trigger_desc": "SEE FUNCTIONAL SCHEDULE",
       "duration_years": null,
       "duration_months": null,
       "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": "Legacy Item Number mapped to Functional Schedule chapter 04."
@@ -1564,14 +1614,15 @@
       "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "SEE FUNCTIONAL SCHEDULE",
+      "trigger_event": "AV",
+      "trigger_desc": "SEE FUNCTIONAL SCHEDULE",
       "duration_years": null,
       "duration_months": null,
       "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": "Legacy Item Number mapped to Functional Schedule chapter 04."
@@ -1595,14 +1646,15 @@
       "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "SEE FUNCTIONAL SCHEDULE",
+      "trigger_event": "AV",
+      "trigger_desc": "SEE FUNCTIONAL SCHEDULE",
       "duration_years": null,
       "duration_months": null,
       "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": "Legacy Item Number mapped to Functional Schedule chapter 04."
@@ -1626,14 +1678,15 @@
       "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "SEE FUNCTIONAL SCHEDULE",
+      "trigger_event": "AV",
+      "trigger_desc": "SEE FUNCTIONAL SCHEDULE",
       "duration_years": null,
       "duration_months": null,
       "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": "Legacy Item Number mapped to Functional Schedule chapter 04."

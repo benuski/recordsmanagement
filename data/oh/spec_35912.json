@@ -14,14 +14,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Electronic: deposits, destructions, and returns, [although GAR-RR-03 and GAR-RR-04, on which this schedule is premised, permit a 2-year retention, BWC RIM expanded period business need]. retrievals only, transaction is complete (return storage) ; Paper: deposits, destructions, and returns, if scanned, verify image, and",
+      "trigger_event": "CR",
+      "trigger_desc": "Electronic: deposits, destructions, and returns, [although GAR-RR-03 and GAR-RR-04, on which this schedule is premised, permit a 2-year retention, BWC RIM expanded period business need]. retrievals only, transaction is complete (return storage) ; Paper: deposits, destructions, and returns, if scanned, verify image, and",
       "duration_years": 5,
       "duration_months": null,
       "disposition_method": "Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-31",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2023-08-30",
       "next_update_due": null,
       "comments": null

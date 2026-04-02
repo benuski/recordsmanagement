@@ -14,14 +14,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "receipt of payment, microfilm or scan records according Library of Virginia's standards/guidelines; records in new format permanently. original camera negative Imaging Services Branch of Library of Virginia. originals quality control inspection verifies information was successfully transferred new format. Document destruction of original records reformatting onCertificate of Records Disposal(RM-3 form)",
-      "duration_years": 999,
+      "trigger_event": "CR",
+      "trigger_desc": "receipt of payment",
+      "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition_method": "Microfilm Or Scan Records According To Library Of Virginia'S Standards/Guidelines",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -45,14 +46,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "end of fiscal year in which grant closed or submission of final expenditure report or audited, whichever is greater",
+      "trigger_event": "FE",
+      "trigger_desc": "end of fiscal year in which grant closed or submission of final expenditure report or audited, whichever is greater",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition_method": "Destroy",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -76,14 +78,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "expiration of grant or audited, whichever is greater",
+      "trigger_event": "CR",
+      "trigger_desc": "expiration of grant or audited, whichever is greater",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition_method": "Destroy",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -107,14 +110,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "report submission or audited, whichever is greater",
+      "trigger_event": "CR",
+      "trigger_desc": "report submission or audited, whichever is greater",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition_method": "Destroy",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -138,14 +142,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "report submission or audited, whichever is greater",
+      "trigger_event": "CR",
+      "trigger_desc": "report submission or audited, whichever is greater",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition_method": "Destroy",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -169,14 +174,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "closeout of bond forfeiture",
+      "trigger_event": "CR",
+      "trigger_desc": "closeout of bond forfeiture",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition_method": "Destroy",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -200,14 +206,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "request submission or audited, whichever is greater",
+      "trigger_event": "CR",
+      "trigger_desc": "request submission or audited, whichever is greater",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition_method": "Destroy",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -231,14 +238,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "reimbursement or audited, whichever is greater",
+      "trigger_event": "CR",
+      "trigger_desc": "reimbursement or audited, whichever is greater",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition_method": "Destroy",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null

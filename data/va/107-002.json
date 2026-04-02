@@ -14,14 +14,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "file is closed",
+      "trigger_event": "AC",
+      "trigger_desc": "file is closed",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition_method": "Destroy",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -45,14 +46,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "file is closed",
+      "trigger_event": "AC",
+      "trigger_desc": "file is closed",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition_method": "Destroy",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -76,14 +78,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "and in accordance with terms of grant. If grant becomes inactive (silent), records can be transferred Series 005727 or 005728",
+      "trigger_event": "AV",
+      "trigger_desc": "and in accordance with terms of grant. If grant becomes inactive (silent)",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition_method": "Records Can Be Transferred To Series 005727 Or 005728",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -107,14 +110,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "permanently",
+      "trigger_event": "PM",
+      "trigger_desc": "permanently",
       "duration_years": 999,
       "duration_months": null,
       "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -138,14 +142,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Retain 2 years, then destroy.",
+      "trigger_event": "CR",
+      "trigger_desc": "Retain 2 years",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition_method": "Destroy",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -169,14 +174,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Permanently",
+      "trigger_event": "PM",
+      "trigger_desc": "Permanently",
       "duration_years": 999,
       "duration_months": null,
       "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -200,14 +206,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Permanently",
+      "trigger_event": "PM",
+      "trigger_desc": "Permanently",
       "duration_years": 999,
       "duration_months": null,
       "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null

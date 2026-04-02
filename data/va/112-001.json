@@ -11,17 +11,18 @@
       "series_id": "200318",
       "series_title": "Case Management Information",
       "series_description": "This series documents the confidential allegations and complaints concerning judicial conduct that the Commission determines do not require inquiries or charges. This series also documents communications, research, and statistics. This series may include, but is not limited to: correspondence, investigative memoranda, and databases. COV 17.1-913",
-      "legal_citation": null
+      "legal_citation": "COV 17.1-913"
     },
     "retention_rules": {
-      "trigger_event": "creation",
+      "trigger_event": "CR",
+      "trigger_desc": "creation",
       "duration_years": 100,
       "duration_months": null,
       "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2015-01-09",
       "next_update_due": null,
       "comments": null
@@ -42,17 +43,18 @@
       "series_id": "200319",
       "series_title": "Judicial Files",
       "series_description": "This series documents the personal history, service information, and Commission interaction with each judge, as well as the Commission’s investigation and disposition of any complaints, inquiries and charges alleging judicial misconduct, as defined by Commission Rule 2. This series may include, but is not limited to: correspondence, investigative memoranda, transcripts, audio and/or video recordings, draft and final legal notices, charging documents, memoranda, briefs, orders, physical exhibits, and databases. COV 17.1-913",
-      "legal_citation": null
+      "legal_citation": "COV 17.1-913"
     },
     "retention_rules": {
-      "trigger_event": "separation",
+      "trigger_event": "CR",
+      "trigger_desc": "separation",
       "duration_years": 0,
       "duration_months": null,
       "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2015-01-09",
       "next_update_due": null,
       "comments": null

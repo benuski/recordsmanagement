@@ -2,7 +2,7 @@
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Supreme Court",
       "schedule_type": "specific",
       "schedule_id": "201",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/201.pdf"
@@ -14,29 +14,27 @@
       "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
-      "duration_years": 2,
-      "duration_months": null,
+      "trigger_event": "AC",
+      "trigger_desc": "Closed 2 years",
+      "duration_years": "2",
+      "duration_months": "",
       "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
+      "last_checked": "2026-04-01",
+      "last_updated_by_state": "2020-05-05",
+      "next_update_due": "2025-05",
       "comments": "CAUTION: If a complaint becomes\nthe subject of litigation, it must be\nincluded in and is subject to the\nminimum retention period of item\nnumber 1.1.048."
     },
     "state_specific_attributes": {
       "rsin": "1.1.006"
-    },
-    "retention_code": "AC",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Supreme Court",
       "schedule_type": "specific",
       "schedule_id": "201",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/201.pdf"
@@ -48,29 +46,27 @@
       "legal_citation": "Tex. Gov’t Code, Sec.\n51.204(b)(2)"
     },
     "retention_rules": {
-      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
-      "duration_years": 3,
-      "duration_months": null,
+      "trigger_event": "AC",
+      "trigger_desc": "Closed 3 years",
+      "duration_years": "3",
+      "duration_months": "",
       "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
+      "last_checked": "2026-04-01",
+      "last_updated_by_state": "2020-05-05",
+      "next_update_due": "2025-05",
       "comments": ""
     },
     "state_specific_attributes": {
       "rsin": "1.1"
-    },
-    "retention_code": "AC",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Supreme Court",
       "schedule_type": "specific",
       "schedule_id": "201",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/201.pdf"
@@ -82,29 +78,27 @@
       "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "Permanent",
-      "duration_years": 999,
-      "duration_months": null,
+      "trigger_event": "PM",
+      "trigger_desc": "Permanent",
+      "duration_years": "",
+      "duration_months": "",
       "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
+      "last_checked": "2026-04-01",
+      "last_updated_by_state": "2020-05-05",
+      "next_update_due": "2025-05",
       "comments": "CAUTION: Does not include legal\nopinions or advice rendered on a\ncase in litigation or with regard to\npending litigation."
     },
     "state_specific_attributes": {
       "rsin": "1.1"
-    },
-    "retention_code": "PM",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Supreme Court",
       "schedule_type": "specific",
       "schedule_id": "201",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/201.pdf"
@@ -116,23 +110,21 @@
       "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
-      "duration_years": 2,
-      "duration_months": null,
+      "trigger_event": "AC",
+      "trigger_desc": "Closed 2 years",
+      "duration_years": "2",
+      "duration_months": "",
       "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
+      "last_checked": "2026-04-01",
+      "last_updated_by_state": "2020-05-05",
+      "next_update_due": "2025-05",
       "comments": "SEE ALSO item numbers 5.2.002\nand 5.2.028. ARCHIVES NOTE:\nArchival Review designation is for\nstate-owned building only."
     },
     "state_specific_attributes": {
       "rsin": "5.2.003"
-    },
-    "retention_code": "AC",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   }
 ]

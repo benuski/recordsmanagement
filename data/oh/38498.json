@@ -14,14 +14,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Electronic: from receipt of complaint. ; Paper: from receipt of complaint. If scanned and saved electronically, dispose of paper immediately. Material received from complainant will be returned if not needed",
+      "trigger_event": "CR",
+      "trigger_desc": "Electronic: from receipt of complaint. ; Paper: from receipt of complaint. If scanned and saved electronically, dispose of paper immediately. Material received from complainant will be returned if not needed",
       "duration_years": 5,
       "duration_months": null,
       "disposition_method": "Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-31",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2024-08-28",
       "next_update_due": null,
       "comments": null

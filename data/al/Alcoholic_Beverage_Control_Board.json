@@ -9,15 +9,16 @@
     },
     "series_metadata": {
       "series_id": "",
-      "series_title": "CREDIT CARD SLIPS/TOTALS/REPORTS",
-      "series_description": "",
-      "legal_citation": ""
+      "series_title": "MERCHANDISE TRANSFER ORDERS",
+      "series_description": "Copies of the orders are sent to the Data Processing Division where information on the form is keyed into store inventory files, resulting in the creation of the Daily Merchandise Transfer Reports (series S-54-31). The reports should be retained until completion of one audit and the release of the audit report.",
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "duration_years": 3,
+      "trigger_event": "AC",
+      "trigger_desc": "Temporary Record. 1 year audit",
+      "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 3 years.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -28,9 +29,103 @@
     },
     "state_specific_attributes": {
       "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "al",
+      "agency_name": "Alcoholic Beverage Control Board",
+      "schedule_type": "specific",
+      "schedule_id": "Alcoholic_Beverage_Control_Board",
+      "url": null
     },
-    "trigger_event": "CR",
-    "duration_years": 3
+    "series_metadata": {
+      "series_id": "",
+      "series_title": "CONFISCATED MERCHANDISE FILES",
+      "series_description": "All board stores are authorized to accept delivery of confiscated liquor and/or wine for temporary storage until cleared by the court. This series consists of confiscated liquor and wine forms used by each store manager to document the receipt of the seized merchandise brought by the enforcement agent. The form provides the date, defendant\\'s name, charges, court, and all information pertaining to the number of bottles, size, code, brand, age, and proof. Copies of this form are distributed to the central office, the Accounting Division, the Enforcement Division, the agent turning in the merchandise when it is released to the ABC Board by the court. In the event that confiscated merchandise is less than the equivalent of one case of liquor/wine, it will be destroyed by the enforcement personnel, resulting in the creation of Affidavits of Destroyed Seized Beverages (series S-54-88). These files should be kept for five years after the final disposition of the confiscated merchandise.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "AC",
+      "trigger_desc": "Temporary Record. 5 years final disposition of confiscated merchandise",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-01",
+      "last_updated_by_state": "2003-10-24",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "al",
+      "agency_name": "Alcoholic Beverage Control Board",
+      "schedule_type": "specific",
+      "schedule_id": "Alcoholic_Beverage_Control_Board",
+      "url": null
+    },
+    "series_metadata": {
+      "series_id": "",
+      "series_title": "CHECK GUARANTEE FILES",
+      "series_description": "Guaranteed checks by a commercial bank are primarily used by licensees to make purchases at an ABC wholesale outlet. This series is composed of Check Guarantee Forms used by banks to guarantee that checks drawn on an indicated account will be paid up to a stated amount and tenure (usually one year). Information found on the form includes ABC store number, customer\\'s name and account number, amount guaranteed, beginning date and ending date of guarantee, authorized signature, name and location of the bank, and bank official\\'s name and signature. Also included are cover letters sent by the Director of the Stores Operations Division to authorize the individual ABC store manager to accept checks from the customer based on the guarantee. The files are recommended for retention for one year after the effective date of guarantee. - **Alcohol License Applications and Tobacco Permit Applications/Renewal Files.** A license renewal file is created for all licensees every year to document the renewal process. Each file may include the following documents: renewal applications, copy of license, and other related materials. In the case of a new licensee, the file may also include initial application forms, lease/property ownership forms, neighborhood sketch > Sheets, investigation reports, and information about the owner\\'s > financial situation. These files retain administrative value for ten > years after closure of the file.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "AC",
+      "trigger_desc": "Temporary Record. 1 year effective date of guarantee",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-01",
+      "last_updated_by_state": "2003-10-24",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "al",
+      "agency_name": "Alcoholic Beverage Control Board",
+      "schedule_type": "specific",
+      "schedule_id": "Alcoholic_Beverage_Control_Board",
+      "url": null
+    },
+    "series_metadata": {
+      "series_id": "",
+      "series_title": "CREDIT CARD SLIPS/TOTALS/REPORTS",
+      "series_description": "",
+      "legal_citation": ""
+    },
+    "retention_rules": {
+      "trigger_event": "CR",
+      "trigger_desc": "Temporary Record. 3 years",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-01",
+      "last_updated_by_state": "2003-10-24",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
     "schedule_metadata": {
@@ -48,9 +143,10 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
+      "trigger_desc": "Temporary Record. 1 year audit",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 1 year after audit.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -61,9 +157,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AC",
-    "duration_years": 1
+    }
   },
   {
     "schedule_metadata": {
@@ -81,9 +175,10 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
+      "trigger_desc": "Temporary Record. 1 year audit",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 1 year after audit.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -94,9 +189,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AC",
-    "duration_years": 1
+    }
   },
   {
     "schedule_metadata": {
@@ -114,9 +207,10 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
+      "trigger_desc": "Temporary Record. 1 year audit",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 1 year after audit.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -127,9 +221,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AC",
-    "duration_years": 1
+    }
   },
   {
     "schedule_metadata": {
@@ -147,9 +239,10 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
+      "trigger_desc": "Temporary Record. 1 year audit",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 1 year after audit.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -160,42 +253,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AC",
-    "duration_years": 1
-  },
-  {
-    "schedule_metadata": {
-      "state": "al",
-      "agency_name": "Alcoholic Beverage Control Board",
-      "schedule_type": "specific",
-      "schedule_id": "Alcoholic_Beverage_Control_Board",
-      "url": null
-    },
-    "series_metadata": {
-      "series_id": "",
-      "series_title": "MERCHANDISE TRANSFER ORDERS",
-      "series_description": "",
-      "legal_citation": ""
-    },
-    "retention_rules": {
-      "trigger_event": "AC",
-      "duration_years": 1,
-      "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 1 year after audit.",
-      "confidential_flag": false
-    },
-    "tracking_data": {
-      "last_checked": "2026-04-01",
-      "last_updated_by_state": "2003-10-24",
-      "next_update_due": null,
-      "comments": null
-    },
-    "state_specific_attributes": {
-      "rsin": null
-    },
-    "trigger_event": "AC",
-    "duration_years": 1
+    }
   },
   {
     "schedule_metadata": {
@@ -213,9 +271,10 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
+      "trigger_desc": "Temporary Record. 1 year audit",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 1 year after audit.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -226,75 +285,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AC",
-    "duration_years": 1
-  },
-  {
-    "schedule_metadata": {
-      "state": "al",
-      "agency_name": "Alcoholic Beverage Control Board",
-      "schedule_type": "specific",
-      "schedule_id": "Alcoholic_Beverage_Control_Board",
-      "url": null
-    },
-    "series_metadata": {
-      "series_id": "",
-      "series_title": "CONFISCATED MERCHANDISE FILES",
-      "series_description": "",
-      "legal_citation": ""
-    },
-    "retention_rules": {
-      "trigger_event": "AC",
-      "duration_years": 5,
-      "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 5 years after final disposition of confiscated merchandise.",
-      "confidential_flag": false
-    },
-    "tracking_data": {
-      "last_checked": "2026-04-01",
-      "last_updated_by_state": "2003-10-24",
-      "next_update_due": null,
-      "comments": null
-    },
-    "state_specific_attributes": {
-      "rsin": null
-    },
-    "trigger_event": "AC",
-    "duration_years": 5
-  },
-  {
-    "schedule_metadata": {
-      "state": "al",
-      "agency_name": "Alcoholic Beverage Control Board",
-      "schedule_type": "specific",
-      "schedule_id": "Alcoholic_Beverage_Control_Board",
-      "url": null
-    },
-    "series_metadata": {
-      "series_id": "",
-      "series_title": "CHECK GUARANTEE FILES",
-      "series_description": "",
-      "legal_citation": ""
-    },
-    "retention_rules": {
-      "trigger_event": "AC",
-      "duration_years": 1,
-      "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 1 year after the effective date of guarantee.",
-      "confidential_flag": false
-    },
-    "tracking_data": {
-      "last_checked": "2026-04-01",
-      "last_updated_by_state": "2003-10-24",
-      "next_update_due": null,
-      "comments": null
-    },
-    "state_specific_attributes": {
-      "rsin": null
-    },
-    "trigger_event": "AC",
-    "duration_years": 1
+    }
   },
   {
     "schedule_metadata": {
@@ -312,9 +303,10 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
+      "trigger_desc": "Temporary Record. 3 years end of fiscal year in which contracts, leases, or agreements were terminated",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 3 years after the end of the fiscal year in which the contracts, leases, or agreements were terminated.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -325,9 +317,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AC",
-    "duration_years": 3
+    }
   },
   {
     "schedule_metadata": {
@@ -345,9 +335,10 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
+      "trigger_desc": "Temporary Record. 1 year audit",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 1 year after audit.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -358,9 +349,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AC",
-    "duration_years": 1
+    }
   },
   {
     "schedule_metadata": {
@@ -378,9 +367,10 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
+      "trigger_desc": "Temporary Record. 4 years",
       "duration_years": 4,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 4 years.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -391,9 +381,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "CR",
-    "duration_years": 4
+    }
   },
   {
     "schedule_metadata": {
@@ -411,9 +399,10 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
+      "trigger_desc": "Temporary Record. 1 year audit",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 1 year after audit.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -424,9 +413,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AC",
-    "duration_years": 1
+    }
   },
   {
     "schedule_metadata": {
@@ -444,9 +431,10 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
+      "trigger_desc": "Temporary Record. 1 year audit",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 1 year after audit.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -457,9 +445,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AC",
-    "duration_years": 1
+    }
   },
   {
     "schedule_metadata": {
@@ -477,9 +463,10 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
+      "trigger_desc": "Temporary Record. 1 year audit. **[Administering Internal Operations: Managing Human Resources: Compensating]{.underline}**",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 1 year after audit. **[Administering Internal Operations: Managing Human Resources: Compensating]{.underline}**",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -490,9 +477,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AC",
-    "duration_years": 1
+    }
   },
   {
     "schedule_metadata": {
@@ -510,9 +495,10 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
+      "trigger_desc": "Temporary Record. 1 year audit",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 1 year after audit.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -523,9 +509,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AC",
-    "duration_years": 1
+    }
   },
   {
     "schedule_metadata": {
@@ -543,9 +527,10 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
+      "trigger_desc": "Temporary Record. 1 year audit",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 1 year after audit.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -556,9 +541,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AC",
-    "duration_years": 1
+    }
   },
   {
     "schedule_metadata": {
@@ -576,9 +559,10 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
+      "trigger_desc": "Temporary Record. 5 years following decision of Personnel Board",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 5 years following decision of Personnel Board.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -589,9 +573,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "CR",
-    "duration_years": 5
+    }
   },
   {
     "schedule_metadata": {
@@ -609,9 +591,10 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "duration_years": null,
+      "trigger_desc": "Temporary Record. end of fiscal year record is superseded",
+      "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 3 years after the end of the fiscal year after the record is superseded.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -622,9 +605,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "US",
-    "duration_years": null
+    }
   },
   {
     "schedule_metadata": {
@@ -642,9 +623,10 @@
     },
     "retention_rules": {
       "trigger_event": "US",
+      "trigger_desc": "Temporary Record. superseded or separation of employee",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain until superseded or separation of employee.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -655,9 +637,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "US",
-    "duration_years": null
+    }
   },
   {
     "schedule_metadata": {
@@ -675,9 +655,10 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
+      "trigger_desc": "PERMANENT RECORD. in office. (Code of Alabama 1975 \u00a7 36-16-8\\[1\\])",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "PERMANENT RECORD. Retain in office. (Code of Alabama 1975 \u00a7 36-16-8\\[1\\])",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -688,9 +669,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "PM",
-    "duration_years": 999
+    }
   },
   {
     "schedule_metadata": {
@@ -708,9 +687,10 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
+      "trigger_desc": "Temporary Record. 1 year audit",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 1 year after audit.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -721,9 +701,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AC",
-    "duration_years": 1
+    }
   },
   {
     "schedule_metadata": {
@@ -741,9 +719,10 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
+      "trigger_desc": "Temporary Record. 1 year audit",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 1 year after audit.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -754,9 +733,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AC",
-    "duration_years": 1
+    }
   },
   {
     "schedule_metadata": {
@@ -774,9 +751,10 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
+      "trigger_desc": "Temporary Record. 1 year audit",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 1 year after audit.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -787,9 +765,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AC",
-    "duration_years": 1
+    }
   },
   {
     "schedule_metadata": {
@@ -807,9 +783,10 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
+      "trigger_desc": "Temporary Record. return of item property manager. ## Approval of Records Disposition Authority By signing this agreement, Alcoholic Beverage Control Board acknowledges its responsibilities in proper management of its records and agrees abide by implementation guidelines listed below: Alcoholic Beverage Control Board will designate a managerial position as agency records officer. position is responsible ensuring development of quality record keeping systems that meet business and legal needs of department, coordinating and destruction of records, and ensuring regular implementation of agency's approved RDA. Alcoholic Beverage Control Board agrees develop procedures regular implementation, document destruction of records, and submit a report on its records management activities State Records Commission in July of each year. Despite provisions of this authorization, no records may be destroyed that are necessary agency compliance with requirements of state Sunset Act, agency audit, and any legal notice, or subpoena. Alcoholic Beverage Control Board will make every effort maintain permanent records in a secure environment, in a usable order, and under environmental conditions that will ensure their continued preservation, while in custody of board. Alcoholic Beverage Control Board agrees allow State Records Commission, its staff, and Examiners of Public Accounts examine condition of permanent records maintained in custody of board and inspect documentation on destruction of public records. By: \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ Date: \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ Randall C. Smith, Administrator > Alcoholic Beverage Control Board By: \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ Date: \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ Edwin C. Bridges, Chairman > State Records Commission",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain until return of item to property manager. ## Approval of Records Disposition Authority By signing this agreement, the Alcoholic Beverage Control Board acknowledges its responsibilities in the proper management of its records and agrees to abide by the implementation guidelines listed below: The Alcoholic Beverage Control Board will designate a managerial position as the agency records officer. The position is responsible for ensuring the development of quality record keeping systems that meet the business and legal needs of the department, for coordinating the transfer and destruction of records, and for ensuring the regular implementation of the agency's approved RDA. The Alcoholic Beverage Control Board agrees to develop procedures for regular implementation, to document the destruction of the records, and to submit a report on its records management activities to the State Records Commission in July of each year. Despite the provisions of this authorization, no records may be destroyed that are necessary for agency compliance with requirements of the state Sunset Act, agency audit, and any legal notice, or subpoena. The Alcoholic Beverage Control Board will make every effort to maintain permanent records in a secure environment, in a usable order, and under environmental conditions that will ensure their continued preservation, while in the custody of the board. The Alcoholic Beverage Control Board agrees to allow the State Records Commission, its staff, and the Examiners of Public Accounts to examine the condition of the permanent records maintained in the custody of the board and to inspect documentation on the destruction of public records. By: \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ Date: \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ Randall C. Smith, Administrator > Alcoholic Beverage Control Board By: \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ Date: \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ Edwin C. Bridges, Chairman > State Records Commission",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -820,8 +797,6 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "PM",
-    "duration_years": 999
+    }
   }
 ]

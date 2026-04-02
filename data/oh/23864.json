@@ -14,14 +14,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Paper: All paper documents are placed in recycle bin 30 days they are scanned. ; Microform: IT should scan file, if case has been closed , delete records. All cases generated on/or May 2001 are stored in imaging. from close date. ; Electronic: In accordance with section 4510.037 of ORC above suspensions are established and should be maintained under compliance",
+      "trigger_event": "AC",
+      "trigger_desc": "Paper: All paper documents are placed in recycle bin 30 days they are scanned. ; Microform: IT should scan file, if case has been closed , delete records. All cases generated on/or May 2001 are stored in imaging. from close date. ; Electronic: In accordance with section 4510.037 of ORC above suspensions are established and should be maintained under compliance",
       "duration_years": 7,
       "duration_months": null,
       "disposition_method": "Paper: Recycle ; Microform: Delete ; Electronic: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-31",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2006-09-27",
       "next_update_due": null,
       "comments": null

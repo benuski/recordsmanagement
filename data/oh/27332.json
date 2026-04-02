@@ -14,14 +14,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Electronic: being created or State-wide financial statement audit and Agency/Department-wide audit are conducted by State Auditor, whichever is later ; Paper: being created or State-wide financial statement audit and Agency/Department-wide audit are conducted by State Auditor, whichever is later, unless paper records are converted and saved in an electronic format. these documents are saved in an electronic format, paper copy may be shredded",
+      "trigger_event": "CR",
+      "trigger_desc": "Electronic: being created or State-wide financial statement audit and Agency/Department-wide audit are conducted by State Auditor, whichever is later ; Paper: being created or State-wide financial statement audit and Agency/Department-wide audit are conducted by State Auditor, whichever is later, unless paper records are converted and saved in an electronic format. these documents are saved in an electronic format, paper copy may be shredded",
       "duration_years": 2,
       "duration_months": null,
       "disposition_method": "Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-31",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2021-01-05",
       "next_update_due": null,
       "comments": null

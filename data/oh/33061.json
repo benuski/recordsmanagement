@@ -14,14 +14,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Electronic: images and associated metadata viewing on redeemed warrant database seven years from date that warrant image was transmitted Treasurer''s office. Automatic script will run on a daily basis which will automatically delete all warrant images and associated metadata that are older than seven years",
+      "trigger_event": "AV",
+      "trigger_desc": "Electronic: images and associated metadata viewing on redeemed warrant database seven years from date that warrant image was transmitted Treasurer''s office. Automatic script will run on a daily basis which will automatically delete all warrant images and associated metadata that are older than seven years",
       "duration_years": null,
       "duration_months": null,
       "disposition_method": "Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-31",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2015-07-23",
       "next_update_due": null,
       "comments": null

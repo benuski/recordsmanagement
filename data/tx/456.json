@@ -2,7 +2,7 @@
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Plumbing Examiners",
       "schedule_type": "specific",
       "schedule_id": "456",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/456.pdf"
@@ -14,23 +14,21 @@
       "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "100 years",
-      "duration_years": 100,
-      "duration_months": null,
+      "trigger_event": "CR",
+      "trigger_desc": "100 years",
+      "duration_years": "100",
+      "duration_months": "",
       "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
+      "last_checked": "2026-04-01",
+      "last_updated_by_state": "2022-10-20",
+      "next_update_due": "2027-10",
       "comments": "RMD #91‐456‐001, Master‐ SRC;\nduplicate agency. NOTE: These\nfiles consist of older files from\nprevious data conversions."
     },
     "state_specific_attributes": {
       "rsin": ""
-    },
-    "retention_code": "",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   }
 ]

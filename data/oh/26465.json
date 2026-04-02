@@ -14,14 +14,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Electronic: daily backups 4 days onsite all test environments except performance test environment external website. daily backups 14 days onsite performance test environment external website",
+      "trigger_event": "AV",
+      "trigger_desc": "Electronic: daily backups 4 days onsite all test environments except performance test environment external website. daily backups 14 days onsite performance test environment external website",
       "duration_years": null,
       "duration_months": null,
       "disposition_method": "Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-31",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2008-08-06",
       "next_update_due": null,
       "comments": null

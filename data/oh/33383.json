@@ -14,14 +14,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Paper: Scan original document into UDS, verify scanned image is readable, and ; Electronic: bankruptcy files are scanned into Universal Document Service (UDS). electronic version of bankruptcy files in UDS bankruptcy case closes. electronic version information will be reviewed every 3 years ensure that files can still be accessed",
+      "trigger_event": "CR",
+      "trigger_desc": "Paper: Scan original document into UDS, verify scanned image is readable, and ; Electronic: bankruptcy files are scanned into Universal Document Service (UDS). electronic version of bankruptcy files in UDS bankruptcy case closes. electronic version information will be reviewed every 3 years ensure that files can still be accessed",
       "duration_years": 30,
       "duration_months": null,
       "disposition_method": "Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-31",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2016-02-11",
       "next_update_due": null,
       "comments": null

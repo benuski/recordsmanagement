@@ -14,14 +14,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Paper: applications that are approved, paper records related samples are be retained approval of application. ; Electronic: applications that are approved, machine readable records related samples are be retained approval of application. ; Microform: applications that are approved, microform records related samples are be retained approval of application. samples are be retained application is denied, denial is reversed or expiration of appeals, whichever is later. microform record is destroyed",
+      "trigger_event": "AV",
+      "trigger_desc": "Paper: applications that are approved, paper records related samples are be retained approval of application. ; Electronic: applications that are approved, machine readable records related samples are be retained approval of application. ; Microform: applications that are approved, microform records related samples are be retained approval of application. samples are be retained application is denied, denial is reversed or expiration of appeals, whichever is later. microform record is destroyed",
       "duration_years": null,
       "duration_months": null,
       "disposition_method": "Paper: Shred ; Electronic: Erase ; Microform: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-31",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2016-02-12",
       "next_update_due": null,
       "comments": null

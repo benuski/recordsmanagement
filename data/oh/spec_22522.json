@@ -14,14 +14,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Electronic: case closed or deadline by which an appeal may be filed. ; Paper: case is closed or deadline by which an appeal may be filed. Paper copies can be disposed prior or deadline by which an appeal may be filed if and only if electronic copies are available",
+      "trigger_event": "AC",
+      "trigger_desc": "Electronic: case closed or deadline by which an appeal may be filed. ; Paper: case is closed or deadline by which an appeal may be filed. Paper copies can be disposed prior or deadline by which an appeal may be filed if and only if electronic copies are available",
       "duration_years": 2,
       "duration_months": null,
       "disposition_method": "Electronic: Delete ; Paper: Trash",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-31",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2021-07-16",
       "next_update_due": null,
       "comments": null

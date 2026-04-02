@@ -9,15 +9,16 @@
     },
     "series_metadata": {
       "series_id": "",
-      "series_title": "PUBLISHED RULES AND REGULATIONS",
-      "series_description": "",
-      "legal_citation": ""
+      "series_title": "LICENSURE FILES",
+      "series_description": "Included in these records are applications and written notifications that applicants were licensed. The application contains important information on the massage therapists. Also included is a photograph of the licensee sent when s/he applied for the license. The recommended retention for these records is five years after the license has become inactive.",
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "PM",
-      "duration_years": 999,
+      "trigger_event": "AC",
+      "trigger_desc": "Temporary Record. 5 years license has become inactive",
+      "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "PERMANENT RECORD.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -28,9 +29,103 @@
     },
     "state_specific_attributes": {
       "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "al",
+      "agency_name": "Board of Massage Therapy",
+      "schedule_type": "specific",
+      "schedule_id": "Massage_Therapy_Board_of",
+      "url": null
     },
-    "trigger_event": "PM",
-    "duration_years": 999
+    "series_metadata": {
+      "series_id": "",
+      "series_title": "RENEWAL FILES",
+      "series_description": "These are records created when a licensee renews his/her license. Licenses are renewed every two years. The board uses these files to keep track of renewals but also to see if the licensee is following the rules and regulations of the board. The recommended retention is five years after the record has been created.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "AC",
+      "trigger_desc": "Temporary Record. 5 years records were created",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-01",
+      "last_updated_by_state": "2002-10-23",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "al",
+      "agency_name": "Board of Massage Therapy",
+      "schedule_type": "specific",
+      "schedule_id": "Massage_Therapy_Board_of",
+      "url": null
+    },
+    "series_metadata": {
+      "series_id": "",
+      "series_title": "INVESTIGATION FILES",
+      "series_description": "When a complaint is filed and the board has reason to believe that a licensee is failing to comply with the law, the board conducts an investigation. When the investigation indicates that a licensee is not complying with rules and regulations, then the board may conduct a hearing. If a licensee is not in compliance, the board may suspend, revoke, or refuse to renew the license. The recommended retention is five years after the license becomes inactive.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "AC",
+      "trigger_desc": "Temporary Record. 5 years license has become inactive",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-01",
+      "last_updated_by_state": "2002-10-23",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "al",
+      "agency_name": "Board of Massage Therapy",
+      "schedule_type": "specific",
+      "schedule_id": "Massage_Therapy_Board_of",
+      "url": null
+    },
+    "series_metadata": {
+      "series_id": "",
+      "series_title": "PUBLISHED RULES AND REGULATIONS",
+      "series_description": "The board publishes a booklet for public distribution. Included are excerpts from the Code of Alabama and the board's administrative code. This publication should be retained because it documents all professional rules and procedures governing massage therapists in Alabama.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "PM",
+      "trigger_desc": "PERMANENT RECORD",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-01",
+      "last_updated_by_state": "2002-10-23",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
     "schedule_metadata": {
@@ -43,14 +138,15 @@
     "series_metadata": {
       "series_id": "",
       "series_title": "MEETING MINUTES AND ORDERS OF THE BOARD",
-      "series_description": "",
-      "legal_citation": ""
+      "series_description": "These records document decisions of the board. They provide important information and documentation of the board's actions that may not be found elsewhere.",
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "PM",
+      "trigger_desc": "PERMANENT RECORD",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "PERMANENT RECORD.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -61,9 +157,103 @@
     },
     "state_specific_attributes": {
       "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "al",
+      "agency_name": "Board of Massage Therapy",
+      "schedule_type": "specific",
+      "schedule_id": "Massage_Therapy_Board_of",
+      "url": null
     },
-    "trigger_event": "PM",
-    "duration_years": 999
+    "series_metadata": {
+      "series_id": "",
+      "series_title": "ROSTER OF LICENSEES",
+      "series_description": "The board maintains a roster of licensees. The board publishes the roster annually. This roster includes names and addresses of the licensees. The roster should be maintained permanently due to the documentation of the profession of massage therapists. This board currently creates no permanent records under this subfunction.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "PM",
+      "trigger_desc": "PERMANENT RECORD",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-01",
+      "last_updated_by_state": "2002-10-23",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "al",
+      "agency_name": "Board of Massage Therapy",
+      "schedule_type": "specific",
+      "schedule_id": "Massage_Therapy_Board_of",
+      "url": null
+    },
+    "series_metadata": {
+      "series_id": "",
+      "series_title": "WEBSITE",
+      "series_description": "The board has a website at www.almtbd.state.al.us. Information on the web includes a list of board members, rules and regulations, and application forms. The disposition statement calls for retaining a \"snapshot\" of all website information annually, or as often as significant changes are made to the site. **(Bibliographic Title:)**",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "PM",
+      "trigger_desc": "PERMANENT RECORD. a \"snapshot\" of complete website annually or as often as significant changes are made site",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-01",
+      "last_updated_by_state": "2002-10-23",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "al",
+      "agency_name": "Board of Massage Therapy",
+      "schedule_type": "specific",
+      "schedule_id": "Massage_Therapy_Board_of",
+      "url": null
+    },
+    "series_metadata": {
+      "series_id": "",
+      "series_title": "NEWSLETTERS",
+      "series_description": "The board publishes newsletters to serve as a communication tool. The newsletter contains information about the board. The newsletter is available on the board's website.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "PM",
+      "trigger_desc": "PERMANENT RECORD",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition_method": "",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-01",
+      "last_updated_by_state": "2002-10-23",
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
     "schedule_metadata": {
@@ -77,13 +267,14 @@
       "series_id": "",
       "series_title": "REGISTER OF ADMINISTRATIVE RULES",
       "series_description": "",
-      "legal_citation": ""
+      "legal_citation": "Code of Alabama 1975 \u00a7 41-22-6)"
     },
     "retention_rules": {
       "trigger_event": "PM",
+      "trigger_desc": "PERMANENT RECORD. in office (Code of Alabama 1975 \u00a7 41-22-6)",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "PERMANENT RECORD. Retain in office (Code of Alabama 1975 \u00a7 41-22-6).",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -94,42 +285,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "PM",
-    "duration_years": 999
-  },
-  {
-    "schedule_metadata": {
-      "state": "al",
-      "agency_name": "Board of Massage Therapy",
-      "schedule_type": "specific",
-      "schedule_id": "Massage_Therapy_Board_of",
-      "url": null
-    },
-    "series_metadata": {
-      "series_id": "",
-      "series_title": "ROSTER OF LICENSEES",
-      "series_description": "",
-      "legal_citation": ""
-    },
-    "retention_rules": {
-      "trigger_event": "PM",
-      "duration_years": 999,
-      "duration_months": null,
-      "disposition_method": "PERMANENT RECORD.",
-      "confidential_flag": false
-    },
-    "tracking_data": {
-      "last_checked": "2026-04-01",
-      "last_updated_by_state": "2002-10-23",
-      "next_update_due": null,
-      "comments": null
-    },
-    "state_specific_attributes": {
-      "rsin": null
-    },
-    "trigger_event": "PM",
-    "duration_years": 999
+    }
   },
   {
     "schedule_metadata": {
@@ -147,9 +303,10 @@
     },
     "retention_rules": {
       "trigger_event": "US",
+      "trigger_desc": "Temporary Record. superseded",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain until superseded.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -160,75 +317,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "US",
-    "duration_years": null
-  },
-  {
-    "schedule_metadata": {
-      "state": "al",
-      "agency_name": "Board of Massage Therapy",
-      "schedule_type": "specific",
-      "schedule_id": "Massage_Therapy_Board_of",
-      "url": null
-    },
-    "series_metadata": {
-      "series_id": "",
-      "series_title": "LICENSURE FILES",
-      "series_description": "",
-      "legal_citation": ""
-    },
-    "retention_rules": {
-      "trigger_event": "AC",
-      "duration_years": 5,
-      "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 5 years after the license has become inactive.",
-      "confidential_flag": false
-    },
-    "tracking_data": {
-      "last_checked": "2026-04-01",
-      "last_updated_by_state": "2002-10-23",
-      "next_update_due": null,
-      "comments": null
-    },
-    "state_specific_attributes": {
-      "rsin": null
-    },
-    "trigger_event": "AC",
-    "duration_years": 5
-  },
-  {
-    "schedule_metadata": {
-      "state": "al",
-      "agency_name": "Board of Massage Therapy",
-      "schedule_type": "specific",
-      "schedule_id": "Massage_Therapy_Board_of",
-      "url": null
-    },
-    "series_metadata": {
-      "series_id": "",
-      "series_title": "RENEWAL FILES",
-      "series_description": "",
-      "legal_citation": ""
-    },
-    "retention_rules": {
-      "trigger_event": "AC",
-      "duration_years": 5,
-      "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 5 years after the records were created.",
-      "confidential_flag": false
-    },
-    "tracking_data": {
-      "last_checked": "2026-04-01",
-      "last_updated_by_state": "2002-10-23",
-      "next_update_due": null,
-      "comments": null
-    },
-    "state_specific_attributes": {
-      "rsin": null
-    },
-    "trigger_event": "AC",
-    "duration_years": 5
+    }
   },
   {
     "schedule_metadata": {
@@ -246,9 +335,10 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
+      "trigger_desc": "Temporary Record. 5 years license has become inactive",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 5 years after the license has become inactive.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -259,9 +349,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AC",
-    "duration_years": 5
+    }
   },
   {
     "schedule_metadata": {
@@ -279,9 +367,10 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
+      "trigger_desc": "Temporary Record. 5 years inspection",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain for 5 years after inspection.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -292,108 +381,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AC",
-    "duration_years": 5
-  },
-  {
-    "schedule_metadata": {
-      "state": "al",
-      "agency_name": "Board of Massage Therapy",
-      "schedule_type": "specific",
-      "schedule_id": "Massage_Therapy_Board_of",
-      "url": null
-    },
-    "series_metadata": {
-      "series_id": "",
-      "series_title": "INVESTIGATION FILES",
-      "series_description": "",
-      "legal_citation": ""
-    },
-    "retention_rules": {
-      "trigger_event": "AC",
-      "duration_years": 5,
-      "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 5 years after license has become inactive.",
-      "confidential_flag": false
-    },
-    "tracking_data": {
-      "last_checked": "2026-04-01",
-      "last_updated_by_state": "2002-10-23",
-      "next_update_due": null,
-      "comments": null
-    },
-    "state_specific_attributes": {
-      "rsin": null
-    },
-    "trigger_event": "AC",
-    "duration_years": 5
-  },
-  {
-    "schedule_metadata": {
-      "state": "al",
-      "agency_name": "Board of Massage Therapy",
-      "schedule_type": "specific",
-      "schedule_id": "Massage_Therapy_Board_of",
-      "url": null
-    },
-    "series_metadata": {
-      "series_id": "",
-      "series_title": "WEBSITE",
-      "series_description": "",
-      "legal_citation": ""
-    },
-    "retention_rules": {
-      "trigger_event": "PM",
-      "duration_years": 999,
-      "duration_months": null,
-      "disposition_method": "PERMANENT RECORD. Retain a \"snapshot\" of complete website annually or as often as significant changes are made to the site.",
-      "confidential_flag": false
-    },
-    "tracking_data": {
-      "last_checked": "2026-04-01",
-      "last_updated_by_state": "2002-10-23",
-      "next_update_due": null,
-      "comments": null
-    },
-    "state_specific_attributes": {
-      "rsin": null
-    },
-    "trigger_event": "PM",
-    "duration_years": 999
-  },
-  {
-    "schedule_metadata": {
-      "state": "al",
-      "agency_name": "Board of Massage Therapy",
-      "schedule_type": "specific",
-      "schedule_id": "Massage_Therapy_Board_of",
-      "url": null
-    },
-    "series_metadata": {
-      "series_id": "",
-      "series_title": "NEWSLETTERS",
-      "series_description": "",
-      "legal_citation": ""
-    },
-    "retention_rules": {
-      "trigger_event": "PM",
-      "duration_years": 999,
-      "duration_months": null,
-      "disposition_method": "PERMANENT RECORD",
-      "confidential_flag": false
-    },
-    "tracking_data": {
-      "last_checked": "2026-04-01",
-      "last_updated_by_state": "2002-10-23",
-      "next_update_due": null,
-      "comments": null
-    },
-    "state_specific_attributes": {
-      "rsin": null
-    },
-    "trigger_event": "PM",
-    "duration_years": 999
+    }
   },
   {
     "schedule_metadata": {
@@ -411,9 +399,10 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
+      "trigger_desc": "Temporary Record. 3 years end of fiscal year in which records were created",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 3 years after end of the fiscal year in which the records were created.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -424,9 +413,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AC",
-    "duration_years": 3
+    }
   },
   {
     "schedule_metadata": {
@@ -444,9 +431,10 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
+      "trigger_desc": "Temporary Record. 3 years end of fiscal year in which records were created",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 3 years after end of the fiscal year in which the records were created.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -457,9 +445,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AC",
-    "duration_years": 3
+    }
   },
   {
     "schedule_metadata": {
@@ -477,9 +463,10 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
+      "trigger_desc": "Temporary Record. documentation of former system 3 years end of fiscal year in which former hardware and software no longer exists anywhere in agency and all permanent records have been migrated a new system",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain documentation of former system 3 years after the end of the fiscal year in which the former hardware and software no longer exists anywhere in the agency and all permanent records have been migrated to a new system.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -490,9 +477,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "PM",
-    "duration_years": 999
+    }
   },
   {
     "schedule_metadata": {
@@ -510,9 +495,10 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
+      "trigger_desc": "Temporary Record. 3 years",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 3 years.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -523,9 +509,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "CR",
-    "duration_years": 3
+    }
   },
   {
     "schedule_metadata": {
@@ -543,9 +527,10 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
+      "trigger_desc": "Temporary Record. 6 years expiration of contract. **Records documenting bid process, including requests proposals and unsuccessful responses** Agency Contracts over \\$7500",
       "duration_years": 6,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 6 years after expiration of the contract. **Records documenting the bid process, including requests for proposals and unsuccessful responses** Agency for Contracts over \\$7500",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -556,9 +541,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AC",
-    "duration_years": 6
+    }
   },
   {
     "schedule_metadata": {
@@ -576,9 +559,10 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
+      "trigger_desc": "Temporary Record. 7 years end of > fiscal year in which bids were opened",
       "duration_years": 7,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 7 years after the end of the > fiscal year in which the bids were opened.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -589,9 +573,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AC",
-    "duration_years": 7
+    }
   },
   {
     "schedule_metadata": {
@@ -609,9 +591,10 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
+      "trigger_desc": "Temporary Record. 3 years end of fiscal year in which bids were opened",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 3 years after the end of the fiscal year in which the bids were opened.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -622,9 +605,7 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "AC",
-    "duration_years": 3
+    }
   },
   {
     "schedule_metadata": {
@@ -642,9 +623,10 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
+      "trigger_desc": "Temporary Record. 6 years end of fiscal year in which records were created. ## Requirement and Recommendations Implementing Records Disposition Authority (RDA) Under Code of Alabama 1975 \u00a7 41-13-21, \"no state officer or agency head shall cause any state record be destroyed or otherwise disposed of without first obtaining approval of State Records Commission.\" This Records Disposition Authority constitutes authorization by State Records Commission disposition of records of Board of Massage Therapy (hereafter referred as agency) as stipulated in this document. One condition of this authorization is that agency submit an annual Records Disposition Authority (RDA) Implementation Report on agency records management activities, including documentation of records destruction, State Records Commission in October of each year. In addition, agency should make every effort establish and maintain a quality record-keeping program through following activities: - agency should designate a records liaison, who is responsible : ensuring development of quality record keeping systems that meet business and legal needs of agency, coordinating and destruction of records, ensuring that permanent records held on alternative storage media (such as microforms and digital imaging systems) are maintained in compliance with national and state standards, and ensuring regular implementation of agency=s approved RDA. - Permanent records in agency's custody should be maintained under proper intellectual control and in an environment that will ensure their physical order and preservation. - Destruction of temporary records, as authorized in this RDA, should occur agency-wide on a regular basis -- example, successful completion of an audit, at end of an administration, or at end of a fiscal year. Despite RDA's provisions, no record should be destroyed that is necessary comply with requirements of state Sunset Act, audit requirements, or any legal notice or subpoena. - agency should maintain full documentation of any computerized record-keeping system it employs. It should develop procedures : (1) backing up all permanent records held in electronic format; (2) storing a back-up copy off-site; and (3) migrating all permanent records when system is upgraded or replaced. If agency chooses maintain permanent records solely in electronic format, it is committed funding any system upgrades and migration strategies necessary ensure records= permanent preservation and accessibility. staff of State Records Commission or Examiners of Public Accounts may examine condition of permanent records maintained in custody of agency and inspect records destruction documentation. Government Records Division archivists are available instruct agency staff in RDA implementation and otherwise assist agency in implementing its records management program. State Records Commission adopted this Records Disposition Authority on October 23, 2002. \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ Edwin C. Bridges, Chairman Date > State Records Commission Receipt acknowledged: \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ Keith Warren, Executive Secretary Date Board of Massage Therapy",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Temporary Record. Retain 6 years after end of the fiscal year in which the records were created. ## Requirement and Recommendations for Implementing the Records Disposition Authority (RDA) Under the Code of Alabama 1975 \u00a7 41-13-21, \"no state officer or agency head shall cause any state record to be destroyed or otherwise disposed of without first obtaining approval of the State Records Commission.\" This Records Disposition Authority constitutes authorization by the State Records Commission for the disposition of the records of the Board of Massage Therapy (hereafter referred to as the agency) as stipulated in this document. One condition of this authorization is that the agency submit an annual Records Disposition Authority (RDA) Implementation Report on agency records management activities, including documentation of records destruction, to the State Records Commission in October of each year. In addition, the agency should make every effort to establish and maintain a quality record-keeping program through the following activities: - The agency should designate a records liaison, who is responsible for: ensuring the development of quality record keeping systems that meet the business and legal needs of the agency, coordinating the transfer and destruction of records, ensuring that permanent records held on alternative storage media (such as microforms and digital imaging systems) are maintained in compliance with national and state standards, and ensuring the regular implementation of the agency=s approved RDA. - Permanent records in the agency's custody should be maintained under proper intellectual control and in an environment that will ensure their physical order and preservation. - Destruction of temporary records, as authorized in this RDA, should occur agency-wide on a regular basis -- for example, after the successful completion of an audit, at the end of an administration, or at the end of a fiscal year. Despite the RDA's provisions, no record should be destroyed that is necessary to comply with requirements of the state Sunset Act, audit requirements, or any legal notice or subpoena. - The agency should maintain full documentation of any computerized record-keeping system it employs. It should develop procedures for: (1) backing up all permanent records held in electronic format; (2) storing a back-up copy off-site; and (3) migrating all permanent records when the system is upgraded or replaced. If the agency chooses to maintain permanent records solely in electronic format, it is committed to funding any system upgrades and migration strategies necessary to ensure the records= permanent preservation and accessibility. The staff of the State Records Commission or the Examiners of Public Accounts may examine the condition of the permanent records maintained in the custody of the agency and inspect records destruction documentation. Government Records Division archivists are available to instruct the agency staff in RDA implementation and otherwise assist the agency in implementing its records management program. The State Records Commission adopted this Records Disposition Authority on October 23, 2002. \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ Edwin C. Bridges, Chairman Date > State Records Commission Receipt acknowledged: \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ Keith Warren, Executive Secretary Date Board of Massage Therapy",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
@@ -655,8 +637,6 @@
     },
     "state_specific_attributes": {
       "rsin": null
-    },
-    "trigger_event": "PM",
-    "duration_years": 999
+    }
   }
 ]

@@ -14,14 +14,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "end of calendar year",
+      "trigger_event": "CE",
+      "trigger_desc": "end of calendar year",
       "duration_years": 3,
       "duration_months": null,
       "disposition_method": "Non-confidential Destruction",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2020-12-23",
       "next_update_due": null,
       "comments": null
@@ -45,14 +46,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "birth",
+      "trigger_event": "CR",
+      "trigger_desc": "birth",
       "duration_years": 120,
       "duration_months": null,
       "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2020-12-23",
       "next_update_due": null,
       "comments": null
@@ -73,17 +75,18 @@
       "series_id": "008272",
       "series_title": "Expungements",
       "series_description": "This series documents the process by which the VSP directs an agency or agencies to expunge and seal all of an individual’s criminal history information related to a charge or charges in which the appropriate court rendered a disposition of not guilty, dismissed, or nolle prosequi; or the individual received an absolute pardon, and a petition to expunge their record was granted from the appropriate court. This series may include, but is not limited to: circuit court orders, petitions and other supporting documentation. 6VAC20-120-80; COV 19.2-392.2-3",
-      "legal_citation": null
+      "legal_citation": "COV 19.2-392.2-3"
     },
     "retention_rules": {
-      "trigger_event": "birth",
+      "trigger_event": "CR",
+      "trigger_desc": "birth",
       "duration_years": 120,
       "duration_months": null,
       "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2020-12-23",
       "next_update_due": null,
       "comments": null
@@ -107,14 +110,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "birth",
+      "trigger_event": "CR",
+      "trigger_desc": "birth",
       "duration_years": 120,
       "duration_months": null,
       "disposition_method": "Non-confidential Destruction",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2020-12-23",
       "next_update_due": null,
       "comments": null
@@ -138,14 +142,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "closed",
+      "trigger_event": "AC",
+      "trigger_desc": "closed",
       "duration_years": 0,
       "duration_months": null,
       "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2020-12-23",
       "next_update_due": null,
       "comments": null
@@ -169,14 +174,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "30 Days approval",
+      "trigger_event": "AV",
+      "trigger_desc": "30 Days approval",
       "duration_years": null,
       "duration_months": null,
       "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2020-12-23",
       "next_update_due": null,
       "comments": null
@@ -200,14 +206,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "decision",
+      "trigger_event": "CR",
+      "trigger_desc": "decision",
       "duration_years": 2,
       "duration_months": null,
       "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2020-12-23",
       "next_update_due": null,
       "comments": null
@@ -231,14 +238,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "decision",
+      "trigger_event": "CR",
+      "trigger_desc": "decision",
       "duration_years": 1,
       "duration_months": null,
       "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2020-12-23",
       "next_update_due": null,
       "comments": null
@@ -262,14 +270,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "decision",
+      "trigger_event": "CR",
+      "trigger_desc": "decision",
       "duration_years": 0,
       "duration_months": null,
       "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2020-12-23",
       "next_update_due": null,
       "comments": null
@@ -290,17 +299,18 @@
       "series_id": "008280",
       "series_title": "Investigation Case Files",
       "series_description": "This series documents all administrative, incident, and criminal investigations conducted by the Virginia State Police. This series may include, but is not limited to: Preliminary Investigative Report form (SP-102), Law Enforcement Activity Management System (LEAMS) report, investigative notes, correspondence, autopsy reports, photographs, negatives, evidence storage and tracking reports, accident reports, and other supporting documentation. COV 2.2-3706(F)(1); COV 528.3",
-      "legal_citation": null
+      "legal_citation": "COV 528.3"
     },
     "retention_rules": {
-      "trigger_event": "closed",
+      "trigger_event": "AC",
+      "trigger_desc": "closed",
       "duration_years": 120,
       "duration_months": null,
       "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2020-12-23",
       "next_update_due": null,
       "comments": null
@@ -321,17 +331,18 @@
       "series_id": "200682",
       "series_title": "Machine Guns",
       "series_description": "This series documents the registration of acquired, purchased, or transferred machine guns and/or semi-automatic weapons that are converted, modified or otherwise altered to become machine guns. This series may include, but is not limited to: registries, notarized applications, and correspondence. COV 18.2-295",
-      "legal_citation": null
+      "legal_citation": "COV 18.2-295"
     },
     "retention_rules": {
-      "trigger_event": "creation",
+      "trigger_event": "CR",
+      "trigger_desc": "creation",
       "duration_years": 120,
       "duration_months": null,
       "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2020-12-23",
       "next_update_due": null,
       "comments": null
@@ -352,17 +363,18 @@
       "series_id": "008275",
       "series_title": "Sex Offender and Crimes Against Minors Registry",
       "series_description": "This series documents sex offenders and crimes against minors, as well as offenders' entries into the child pornography registry. This series may include, but is not limited to: databases and supporting documentation. COV 19.2-390.1",
-      "legal_citation": null
+      "legal_citation": "COV 19.2-390.1"
     },
     "retention_rules": {
-      "trigger_event": "birth",
+      "trigger_event": "CR",
+      "trigger_desc": "birth",
       "duration_years": 120,
       "duration_months": null,
       "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2020-12-23",
       "next_update_due": null,
       "comments": null
@@ -386,14 +398,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "superseded, obsolete, rescinded",
+      "trigger_event": "US",
+      "trigger_desc": "superseded, obsolete, rescinded",
       "duration_years": 1,
       "duration_months": null,
       "disposition_method": "or Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2020-12-23",
       "next_update_due": null,
       "comments": null

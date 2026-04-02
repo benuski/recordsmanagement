@@ -11,17 +11,18 @@
       "series_id": "005131",
       "series_title": "License Applications Routine",
       "series_description": "This series documents routine licensing applications. This series may include, but is not limited to: applications. COV 38.2 -1814; COV 38.2-1815",
-      "legal_citation": null
+      "legal_citation": "COV 38.2-1815"
     },
     "retention_rules": {
-      "trigger_event": "end of state fiscal",
+      "trigger_event": "CR",
+      "trigger_desc": "end of state fiscal",
       "duration_years": 10,
       "duration_months": null,
       "disposition_method": "year Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2017-08-10",
       "next_update_due": null,
       "comments": null
@@ -42,17 +43,18 @@
       "series_id": "005494",
       "series_title": "License Applications With Criminal History",
       "series_description": "This series documents insurance agent licensing applications for persons with prior criminal history. Approval of licensee by Commissioner and General Counsel is required before licensure. This series may include, but is not limited to: applications. COV 38.2-1814; COV 38.2-1815",
-      "legal_citation": null
+      "legal_citation": "COV 38.2-1815"
     },
     "retention_rules": {
-      "trigger_event": "receipt",
+      "trigger_event": "CR",
+      "trigger_desc": "receipt",
       "duration_years": 20,
       "duration_months": null,
       "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2017-08-10",
       "next_update_due": null,
       "comments": null
@@ -76,14 +78,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "receipt",
+      "trigger_event": "CR",
+      "trigger_desc": "receipt",
       "duration_years": 10,
       "duration_months": null,
       "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2017-08-10",
       "next_update_due": null,
       "comments": null
@@ -107,14 +110,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "receipt",
+      "trigger_event": "CR",
+      "trigger_desc": "receipt",
       "duration_years": 20,
       "duration_months": null,
       "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2017-08-10",
       "next_update_due": null,
       "comments": null

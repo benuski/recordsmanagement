@@ -14,14 +14,15 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Electronic: medical only claim file claim has reached appropriate statute of limitations (i.e. expiration date) according date of injury (DOI) year. Follow appropriate statute and add 6 (six) years retention business purposes. ; Paper: medical only claim file claim has reached appropriate statute of limitations (i.e. expiration date) according date of injury (DOI) year. Digitally image claim file mail, 30 days quality control, and ; Microform: medical only claim file claim has reached appropriate statute of limitations (i.e. expiration date) according date of injury (DOI) year. Follow appropriate statute and add 6 (six) years retention business purposes",
+      "trigger_event": "CR",
+      "trigger_desc": "Electronic: medical only claim file claim has reached appropriate statute of limitations (i.e. expiration date) according date of injury (DOI) year. Follow appropriate statute and add 6 (six) years retention business purposes. ; Paper: medical only claim file claim has reached appropriate statute of limitations (i.e. expiration date) according date of injury (DOI) year. Digitally image claim file mail, 30 days quality control, and ; Microform: medical only claim file claim has reached appropriate statute of limitations (i.e. expiration date) according date of injury (DOI) year. Follow appropriate statute and add 6 (six) years retention business purposes",
       "duration_years": 6,
       "duration_months": null,
       "disposition_method": "Electronic: Delete ; Paper: Shred ; Microform: Burn",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-31",
+      "last_checked": "2026-04-01",
       "last_updated_by_state": "2024-01-30",
       "next_update_due": null,
       "comments": null
