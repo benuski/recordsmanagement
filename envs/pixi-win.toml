@@ -17,10 +17,7 @@ requests = ">=2.32.5,<3"
 sodapy = ">=2.2.0,<3"
 word2number = ">=1.1"
 regex = { version = "<2025", channel = "conda-forge" }
-
-# Windows utils 
-shell = ">=0.2.0,<0.3"
-uutils-coreutils = "*"
+pillow = ">=10.1.0,<11.0.0"
 
 [pypi-dependencies]
 marker-pdf = ">=1.10"
