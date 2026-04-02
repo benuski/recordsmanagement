@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: paper copy in operating area, enter statistical data, and scan additional documents into case file. original paper file deemed obsolete or of no evidentiary value. ; Electronic: electronic records deemed obsolete or of no evidentiary value. ; Microform: microfilm deemed obsolete or of no evidentiary value",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete ; Microform: Shred",
+      "disposition": "Paper: Retain paper copy in operating area, enter statistical data, and scan additional documents into case file. Retain original paper file until deemed obsolete or of no evidentiary value. ; Electronic: Retain electronic records until deemed obsolete or of no evidentiary value. ; Microform: Retain microfilm until deemed obsolete or of no evidentiary value., Paper: Shred ; Electronic: Delete ; Microform: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2024-07-16",
       "next_update_due": null,
       "comments": null

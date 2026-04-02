@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: - physical file, if it was not scanned, a period of from date of final appeal; , shred physical file. ; Electronic: - electronic medium a period of from date of final appeal; , delete electronic medium",
       "duration_years": 10,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: 10 years - Retain physical file, if it was not scanned, for a period of 10 years from the date of final appeal; then, shred physical file. ; Electronic: 10 years - Retain electronic medium for a period of 10 years from the date of final appeal; then, delete electronic medium., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-26",
       "next_update_due": null,
       "comments": null

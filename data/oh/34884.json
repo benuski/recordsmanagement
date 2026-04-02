@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Paper: all relevant/related materials three years from date that complaint was closed ; Electronic: all relevant/related materials three years from date that complaint was closed",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Delete",
+      "disposition": "Paper: Retain all relevant/related materials three years from the date that the complaint was closed, then delete and destroy. ; Electronic: Retain all relevant/related materials three years from the date that the complaint was closed, then delete and destroy., Paper: Recycle ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2018-01-17",
       "next_update_due": null,
       "comments": null

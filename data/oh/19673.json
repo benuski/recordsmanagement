@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: instructed by Fiscal Services Office. Fiscal Services Office will three years current",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred",
+      "disposition": "Paper: Retain until instructed to destroy by the Fiscal Services Office. Fiscal Services Office will retain three years plus current then destroy., Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2003-06-12",
       "next_update_due": null,
       "comments": null

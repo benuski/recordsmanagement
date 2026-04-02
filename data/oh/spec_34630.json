@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: from date on card ; Electronic: from date on card",
       "duration_years": null,
       "duration_months": 3,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain for 3 months from the date on the card then recycle / destroy. ; Electronic: Retain for 3 months from the date on the card then recycle / destroy., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-08-17",
       "next_update_due": null,
       "comments": null

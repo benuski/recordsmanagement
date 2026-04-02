@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Electronic: Information is sorted on diskette with a retention of . ; Paper: in office area superseded by next list",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase ; Paper: Recycle",
+      "disposition": "Electronic: Information is sorted on diskette with a retention of 5 years. ; Paper: Retain in the office area 5 years after superseded by the next list, then destroy. Statute dictated by county to keep superseded informatio for 5 years., Electronic: Erase ; Paper: Recycle",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2003-02-21",
       "next_update_due": null,
       "comments": null

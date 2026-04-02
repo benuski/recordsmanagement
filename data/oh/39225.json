@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "trigger_desc": "Electronic: end of calendar year in which settlement was finalized or refund was processed. ; Paper: end of calendar year in which settlement was finalized or refund was processed",
       "duration_years": 4,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "disposition": "Electronic: Destroy 4 years after the end of the calendar year in which the settlement was finalized or the refund was processed. ; Paper: Destroy 4 years after the end of the calendar year in which the settlement was finalized or the refund was processed., Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2022-06-21",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: current, seven years from date of separation in HR/Benefits and Medical Office files. Record may be imaged. If record is imaged and retained electronically, paper may be destroyed as soon as scan is confirmed and validated. ; Electronic: current, seven years from date of separation in HR/Intellinetics System",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain current, plus seven years from date of separation in HR/Benefits and Medical Office files. Record may be imaged. If record is imaged and retained electronically, paper may be destroyed as soon as scan is confirmed and validated. ; Electronic: Retain current, plus seven years from date of separation in HR/Intellinetics System., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2014-09-18",
       "next_update_due": null,
       "comments": null

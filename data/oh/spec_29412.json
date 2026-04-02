@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: Background check results are noted as having been received/reviewed via a checkmark in application file. FBI and BCII results receipt in office",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": 12,
-      "disposition_method": "Paper: Shred",
+      "disposition": "Paper: Background check results are noted as having been received/reviewed via a checkmark in the application file. Retain FBI and BCII results 12 months after receipt in the office, then destroy, unless the results require to referral to enforcement, in which case the papers are retained according to enforcement file retention schedules., Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2011-04-22",
       "next_update_due": null,
       "comments": null

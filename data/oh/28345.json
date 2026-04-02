@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Paper: applications and correspondence from awardees and Attorney General''s Office in office final payment made by student. audit by Auditor of State is completed and released and Federal Government audit, if any, . ; Electronic: data entry SSN and payment history from Attorney General''s Office (including interest paid) final payment made by student. audit by Auditor of State is completed and released and Federal Government audit, if any",
+      "trigger_event": "AC",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Retain applications and correspondence from awardees and Attorney General''s Office in office for 5 years after final payment made by student. After audit by Auditor of State is completed and released and Federal Government audit, if any, destroy. ; Electronic: Retain data entry SSN and payment history from Attorney General''s Office (including interest paid) 5 years after final payment made by student. After audit by Auditor of State is completed and released and Federal Government audit, if any, destroy., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2010-03-09",
       "next_update_due": null,
       "comments": null

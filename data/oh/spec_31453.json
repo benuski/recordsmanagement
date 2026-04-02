@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Electronic: Maintain machine readable format on approved database permanently. ; Paper: paper copy in operating area converted machine readable format. Upon confirmation machine readable format has been checked quality and completeness, paper copy",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Electronic: Permanent ; Paper: Shred",
+      "disposition": "Electronic: Maintain machine readable format on approved database permanently. ; Paper: Retain paper copy in operating area until converted to machine readable format. Upon confirmation machine readable format has been checked for quality and completeness, destroy paper copy., Electronic: Permanent ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2013-06-25",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Paper: in office and 4 years in records center ; Electronic: superseded, obsolete or replaced",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Retain in office 2 years and 4 years in the records center, then destroy provided state audit has been completed and released, and all discrepancies are resolved. ; Electronic: Retain until superseded, obsolete or replaced, then destroy., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2023-12-19",
       "next_update_due": null,
       "comments": null

@@ -11,18 +11,17 @@
       "series_id": "BB-05",
       "series_title": "Financial Responsibility Security Deposit Document",
       "series_description": "Consists of documents related to the financial responsibility security deposit process (in accordance with ORC 4509.12), i.e. correspondence, reports, documentation, etc.",
-      "legal_citation": null
+      "legal_citation": "ORC 4509.12"
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: case is resolved and all money has been distributed or refunded. ; Microform: case is resolved and all money has been distributed or refunded. Effective July 2006, these records are no longer being microfilmed. Eventually all microfilmed records will be destroyed. ; Electronic: case is resolved and all money has been distributed or refunded",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Microform: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain until case is resolved and all money has been distributed or refunded. ; Microform: Retain until case is resolved and all money has been distributed or refunded. Effective July 2006, these records are no longer being microfilmed. Eventually all microfilmed records will be destroyed. ; Electronic: Retain until case is resolved and all money has been distributed or refunded., Paper: Shred ; Microform: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2011-06-29",
       "next_update_due": null,
       "comments": null

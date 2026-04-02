@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Paper: in office , payment, State Record Center 5 years",
+      "trigger_event": "AC",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Paper: Shred",
+      "disposition": "Paper: Retain in office for 2 years, after payment, transfer to State Record Center for 5 years, then destroy, providing no litigation is pending., Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "1992-04-30",
       "next_update_due": null,
       "comments": null

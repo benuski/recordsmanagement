@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: records seven (7) years from date a determination accommodation is made ; Electronic: records on local network in P: drive seven (7) years from date a determination accommodation is made",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain records for seven (7) years from the date a determination for accommodation is made, then destroy. Begin in early 2019, records received as paper documents have been converted to a machine-readable format saved on the local network in the P: drive and retained as machine readable records. ; Electronic: Retain records on the local network in the P: drive for seven (7) years from the date a determination for accommodation is made, then destroy., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2022-12-28",
       "next_update_due": null,
       "comments": null

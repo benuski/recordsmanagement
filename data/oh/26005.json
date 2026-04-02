@@ -11,18 +11,17 @@
       "series_id": "210-14",
       "series_title": "Surplus Lines Quarterly/Annual Reports",
       "series_description": "Reporting of data by surplus lines brokers, agencies, risk retention groups, and risk purchasing groups that use surplus lines companies with respect to business transacted in Ohio per ORC 3905.36,3960.03, and 3960.09.",
-      "legal_citation": null
+      "legal_citation": "ORC 3905.36"
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: ; Electronic",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Retain 5 years, then destroy. ; Electronic: Retain 5 years, then destroy., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2008-03-18",
       "next_update_due": null,
       "comments": null

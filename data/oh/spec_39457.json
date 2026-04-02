@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Electronic: from date of receiving Ohio BMV Record(s). BMV Registrar needs be notified of destruction of any Ohio BMV records. Contacts BMV Register can be found at https://publicsafety.ohio.gov/local-office or by calling 614-443-5100. ; Paper: from date of receiving Ohio BMV Record(s). BMV Registrar needs be notified of destruction of any Ohio BMV records. Contacts BMV Register can be found at https://publicsafety.ohio.gov/local-office or by calling 614-443-5100",
       "duration_years": 80,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "disposition": "Electronic: 80 years from the date of receiving Ohio BMV Record(s). The BMV Registrar needs to be notified of the destruction of any Ohio BMV records. Contacts for the BMV Register can be found at https://publicsafety.ohio.gov/local-office or by calling 614-443-5100. ; Paper: 80 years from the date of receiving Ohio BMV Record(s). The BMV Registrar needs to be notified of the destruction of any Ohio BMV records. Contacts for the BMV Register can be found at https://publicsafety.ohio.gov/local-office or by calling 614-443-5100., Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2024-07-11",
       "next_update_due": null,
       "comments": null

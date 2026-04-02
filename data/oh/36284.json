@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Paper: paper , or 2 years project completion. If scanned, paper can be recycled. ; Electronic: , or 2 years project completion",
       "duration_years": 10,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Erase",
+      "disposition": "Paper: Retain paper 10 years, or 2 years after project completion. If scanned, paper can be recycled. ; Electronic: 10 years, or 2 years after project completion, Paper: Recycle ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2019-04-18",
       "next_update_due": null,
       "comments": null

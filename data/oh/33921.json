@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Paper: originals in department permanently. Send copy State Archives each meeting",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Paper: Archives",
+      "disposition": "Paper: Retain originals in department permanently. Send copy to State Archives after each meeting., Paper: Archives",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-01-10",
       "next_update_due": null,
       "comments": null

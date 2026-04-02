@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Electronic: electronic annual report permanently ; Paper: Upon publication, fulfill requirements of O.R.C. 4744.24",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Electronic: Permanent ; Paper: Delete",
+      "disposition": "Electronic: Retain electronic annual report permanently ; Paper: Upon publication, fulfill the requirements of O.R.C. 4744.24, then destroy excess copies when no longer of administrative value., Electronic: Permanent ; Paper: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-07-02",
       "next_update_due": null,
       "comments": null

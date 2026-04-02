@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: scanned and saved electronically, or person is removed from Abuser Registry. ; Electronic: person is removed from Abuser Registry",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain until scanned and saved electronically, or until person is removed from the Abuser Registry. ; Electronic: Retain until person is removed from the Abuser Registry., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2023-01-06",
       "next_update_due": null,
       "comments": null

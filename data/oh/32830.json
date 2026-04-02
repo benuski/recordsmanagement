@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Electronic: seven years from approval date ; Paper: seven years from approval date",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Recycle",
+      "disposition": "Electronic: Retain for seven years from approval date then destroy. ; Paper: Retain for seven years from approval date then destroy., Electronic: Delete ; Paper: Recycle",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-10-30",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Paper: in active areas facility returns compliance and enforcement action is closed",
-      "duration_years": null,
+      "duration_years": 10,
       "duration_months": null,
-      "disposition_method": "Paper: Shred",
+      "disposition": "Paper: Retain in active areas until the facility returns to compliance and the enforcement action is closed, then retain in dead files for 10 years before destroying, Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "1998-01-21",
       "next_update_due": null,
       "comments": null

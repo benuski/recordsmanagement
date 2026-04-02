@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Paper: these records in Group Rating unit . has passed, send Group Applications storage an additional , and ; Electronic: If not stored in employer’s file, save electronically in a shared drive 10 years, and",
+      "trigger_event": "AC",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain these records in the Group Rating unit for 5 years. After the 5 years has passed, send the Group Applications to storage for an additional 5 years, and then destroy. ; Electronic: If not stored in the employer’s file, save electronically in a shared drive for 10 years, and then delete. If stored in the employer’s file then it takes on the retention schedule of the Employer Policy File – State Fund., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2012-03-20",
       "next_update_due": null,
       "comments": null

@@ -11,18 +11,17 @@
       "series_id": "Z08-05",
       "series_title": "Applications for Instructor Certification",
       "series_description": "In accordance with ORC 4765.11 the State Board of Emergency Medical Services via Division of EMS) issues a certificate to teach EMS courses to applicants who successfully complete an approved course of instruction and the issuance of Special Topic instructor certification for applicants who have a demonstrated expertise in specified topic areas. ORC 4765.55 provides for the issuance of certificates to teach to Firefighter and Fire Safety Inspector instructors who have completed an approved course of instruction. Also Fire Assistant Instructor certificates to experienced firefighters who will assist with the hands-on portions of the course. The certifcate to teach allows the certificate holder to teach EMS / Fire courses under the auspice of an aproved institution for a period of two years. The application includes personal information on the applicant, including home address and social security number, the level of training completed, and verification of training from an approved institution. Every two years the certificate holder must apply to renew for an additional two years, demonstrating compliance with renewal requirements established in the O.A.C. Data collected from the applications is entered into a database and a certificate issued.",
-      "legal_citation": null
+      "legal_citation": "ORC 4765.11"
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Microform: applicant is deceased. ; Paper: hard copy ; Electronic: applicant is deceased",
       "duration_years": 6,
       "duration_months": null,
-      "disposition_method": "Microform: Shred ; Paper: Recycle ; Electronic: Erase",
+      "disposition": "Microform: Retain until applicant is deceased. ; Paper: Retain hard copy for 6 years, then destroy by shredding. Original is converted to microfiche (documents up to 1999) or imaged (documents 1999 to present) document which is maintained until applicant is deceased. ; Electronic: Retain until applicant is deceased., Microform: Shred ; Paper: Recycle ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2004-10-18",
       "next_update_due": null,
       "comments": null

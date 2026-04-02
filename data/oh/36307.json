@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: paper scanned ; Electronic: electronically scanned records as long as products are in use by ODOT",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Other",
+      "disposition": "Paper: Retain paper until scanned, then destroy paper. ; Electronic: Retain electronically scanned records as long as products are in use by ODOT., Paper: Recycle ; Electronic: Other",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2019-04-25",
       "next_update_due": null,
       "comments": null

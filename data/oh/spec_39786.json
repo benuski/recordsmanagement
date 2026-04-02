@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Electronic: one year in office, four years Records Center. Review by State Archives possible trans- fer. if of no historical value State Archives",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase",
+      "disposition": "Electronic: Retain one year in office, four years Records Center. Review by State Archives for possible trans- fer. Destroy if of no historical value to State Archives., Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-09-05",
       "next_update_due": null,
       "comments": null

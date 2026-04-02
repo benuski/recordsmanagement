@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "Paper: two (2) years onsite two (2) years offsite audit and fiscal close of fiscal year in which created. An exception is created construction manager payments, which are retained onsite during active period of project ; Electronic: four (4) years, except construction manager payments, which are retained during active period fo project",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Retain two (2) years onsite plus two (2) years offsite after audit and fiscal close of fiscal year in which created. An exception is created for for construction manager payments, which are retained onsite during the active period of the project then four (four) years after audit and fiscal close of project ; Electronic: Retain four (4) years, except for construction manager payments, which are retained during the active period fo the project then four (4) years after audit and fiscal close of project, Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2014-05-28",
       "next_update_due": null,
       "comments": null

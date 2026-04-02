@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Electronic: Three years past date of expiration of contract. ; Paper: Three years past date of expiration of contract",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "disposition": "Electronic: Three years past the date of the expiration of the contract. ; Paper: Three years past the date of the expiration of the contract., Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-11-19",
       "next_update_due": null,
       "comments": null

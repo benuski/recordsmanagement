@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: audited by Auditor of State and audit report released ; Electronic: audited by Auditor of State and audit report released ; Microform: microfiche is generated from State of Ohio Computer Center. It is duplicated and verified - original is transferred ODPS Record Center off-site storage, and a copy retained in section. audited by Auditor of State and audit report released",
-      "duration_years": null,
+      "trigger_event": "AC",
+      "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Delete ; Microform: Shred",
+      "disposition": "Paper: Retain until audited by Auditor of State and audit report released, then destroy 5 years thereafter. These records are no longer created as of November 2005. ; Electronic: Retain until audited by Auditor of State and audit report released, then destroy 5 years thereafter. These records are no longer created as of November 2005. ; Microform: The microfiche is generated from the State of Ohio Computer Center. It is duplicated and verified - the original is transferred to the ODPS Record Center for off-site storage, and a copy retained in the section. Retain until audited by Auditor of State and audit report released, then destroy 5 years thereafter. These records are no longer created as of November 2005., Paper: Recycle ; Electronic: Delete ; Microform: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2006-04-26",
       "next_update_due": null,
       "comments": null

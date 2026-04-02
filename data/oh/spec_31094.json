@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Paper: in agency five years end of term, or obsolete, superseded and replaced. ; Electronic: in agency five years end of term, or obsolete, superseded and replaced",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Wastepaper ; Electronic: Delete",
+      "disposition": "Paper: Retain in agency for five years after end of term, or until obsolete, superseded and replaced. ; Electronic: Retain in agency for five years after end of term, or until obsolete, superseded and replaced., Paper: Wastepaper ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2013-02-21",
       "next_update_due": null,
       "comments": null

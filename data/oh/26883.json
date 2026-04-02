@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: site visit reports, problem and equipment service reports, and routine correspondence and memoranda warranty or guarantee of service has expired, and ; Electronic: site visit reports, problem and equipment service reports, and routine correspondence and memoranda warranty or guarantee of service has expired, and",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Delete",
+      "disposition": "Paper: Retain site visit reports, problem and equipment service reports, and routine correspondence and memoranda until warranty or guarantee of service has expired, and then destroy. Retain service histories and other summary records until the related equipment is no longer in use, and then destroy. ; Electronic: Retain site visit reports, problem and equipment service reports, and routine correspondence and memoranda until warranty or guarantee of service has expired, and then destroy. Retain service histories and other summary records until the related equipment is no longer in use, and then destroy., Paper: Recycle ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2009-02-03",
       "next_update_due": null,
       "comments": null

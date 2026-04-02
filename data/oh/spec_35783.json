@@ -11,18 +11,17 @@
       "series_id": "GAR-BLM-01",
       "series_title": "Lease Records of Lands or Buildings",
       "series_description": "Documents stating descriptions of lease payments and other pertinent information on buildings or land rented by agency.",
-      "legal_citation": null
+      "legal_citation": "ORC 117.49"
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: Fulfill requirements of ORC 117.49. 2 yrs expiration of lease ; Electronic: Fulfill requirements of ORC 117.49. 2 yrs expiration of lease",
+      "trigger_event": "AC",
       "duration_years": null,
-      "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "duration_months": 6,
+      "disposition": "Paper: Fulfill the requirements of ORC 117.49. Retain 2 yrs after expiration of lease, then destroy. If scanned, retain for 6 months. ; Electronic: Fulfill the requirements of ORC 117.49. Retain 2 yrs after expiration of lease, then delete., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2019-01-31",
       "next_update_due": null,
       "comments": null

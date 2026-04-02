@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Microform: Maintain microform four years ; Electronic: Maintain machine readable records ten years ; Paper: Maintain paper reports one year",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Microform: Shred ; Electronic: Delete ; Paper: Shred",
+      "disposition": "Microform: Maintain microform for four years, then destroy. ; Electronic: Maintain machine readable records for ten years, then delete. ; Paper: Maintain paper reports for one year, then destroy., Microform: Shred ; Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2018-11-06",
       "next_update_due": null,
       "comments": null

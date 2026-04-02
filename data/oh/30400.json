@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: in office area two years ; Electronic: in operating system area two years",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Retain in office area for two years, then transfer to records storage for ten years after the end date of the contract, then destroy. ; Electronic: Retain in operating system area for two years, then transfer to current applicable storage format for ten years after the end date of the contract, then erase., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2012-06-01",
       "next_update_due": null,
       "comments": null

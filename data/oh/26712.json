@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: appropriate Assistant Attorney General or special counsel, keep it 90 days",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred",
-      "confidential_flag": false
+      "disposition": "Paper: Transfer to the appropriate Assistant Attorney General or special counsel, keep it for 90 days, then destroy as confidential., Paper: Shred",
+      "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2024-05-24",
       "next_update_due": null,
       "comments": null

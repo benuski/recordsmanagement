@@ -11,18 +11,17 @@
       "series_id": "B063-31",
       "series_title": "Next of Kin Emergency Contact Information Database",
       "series_description": "This record series contains next of kin contact information for individuals who are issued an Ohio driver’s license, commercial driver’s license, temporary instruction permit, or identification card in accordance with ORC 4501.81. The information is provided voluntarily by the individual. It is only to be used if the individual is involved in a motor vehicle accident or emergency situation and the individual dies or is seriously injured or rendered unconscious and is unable to communicate. Information is collected at deputy registrar agencies and through Next of Kin Emergeny Contact Information form (BMV 2437).",
-      "legal_citation": null
+      "legal_citation": "ORC 4501.81"
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Paper: 30 days information has been entered into database. ; Electronic",
+      "trigger_event": "AC",
       "duration_years": 7,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: 30 days after information has been entered into database. ; Electronic: 7 years, Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2008-09-24",
       "next_update_due": null,
       "comments": null

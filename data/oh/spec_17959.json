@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Electronic: reference material. This database is constantly being added and never removed from database",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Electronic: Permanent",
+      "disposition": "Electronic: Retain for reference material. This database is constantly being added to and never removed from database, Electronic: Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2002-08-20",
       "next_update_due": null,
       "comments": null

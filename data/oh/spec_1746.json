@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: ten (10) years termination of employment",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred",
+      "disposition": "Paper: Retain ten (10) years after termination of employment then destroy., Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "1989-03-27",
       "next_update_due": null,
       "comments": null

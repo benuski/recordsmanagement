@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Electronic: Transactional data associated with provisioning and management of providers as well as other provider related system data should be retained beyond provider agreement termination",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Electronic: Permanent",
+      "disposition": "Electronic: Transactional data associated with the provisioning and management of providers as well as other provider related system data should be retained for 10 years beyond provider agreement termination., Electronic: Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-03-05",
       "next_update_due": null,
       "comments": null

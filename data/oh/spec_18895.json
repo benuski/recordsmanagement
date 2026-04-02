@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: in office area",
-      "duration_years": null,
+      "trigger_event": "CR",
+      "duration_years": 2,
       "duration_months": 3,
-      "disposition_method": "Paper: Recycle",
+      "disposition": "Paper: Retain in the office area for for 3 months, then send to on site storage. Retain in storage for 2 years then destroy, provided audited by the Auditor of State, and the audit report is released., Paper: Recycle",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2003-02-13",
       "next_update_due": null,
       "comments": null

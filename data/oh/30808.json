@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Electronic: all purchase requisitions directly related a contract six (6) years and one (1) day termination of contract, review administrative value ; Electronic: digital copy in system four (4) years, Auditor of State issues audit report, review administrative value",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Electronic: Delete",
+      "disposition": "Electronic: Retain all purchase requisitions directly related to a contract for six (6) years and one (1) day after termination of the contract, review for administrative value, then destroy. ; Electronic: Retain digital copy in the system for four (4) years, after the Auditor of State issues audit report, review for administrative value, then destroy., Electronic: Delete ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2024-10-09",
       "next_update_due": null,
       "comments": null

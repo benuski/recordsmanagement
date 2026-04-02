@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Electronic: information permanently on ODOT Learn electronic database. ; Paper: paper document uploaded into ODOT Learn electronic database",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Electronic: Permanent ; Paper: Recycle",
+      "disposition": "Electronic: Retain information permanently on the ODOT Learn electronic database. ; Paper: Retain paper document until uploaded into ODOT Learn electronic database then destroy., Electronic: Permanent ; Paper: Recycle",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2019-03-07",
       "next_update_due": null,
       "comments": null

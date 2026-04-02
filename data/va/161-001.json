@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Retain 4 years",
       "duration_years": 4,
       "duration_months": null,
-      "disposition_method": "Destroy In Compliance With No",
+      "disposition": "Retain 4 years, then destroy in compliance with No. 8 on schedule cover page.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -47,14 +46,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "or listed in series 008XXX, \"Income Tax Returns: Individual - Annual Purge Book\", whichever is longer",
       "duration_years": 4,
       "duration_months": null,
-      "disposition_method": "Destroy In Compliance With No",
+      "disposition": "Retain 4 years or until listed in series 008XXX, \"Income Tax Returns: Individual - Annual Purge Book\", whichever is longer, then destroy in compliance with No. 8 on schedule cover page. Destroy all additional versions, regardless of media, in compliance with No. 8 on schedule cover page when no longer administratively necessary.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -79,14 +77,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Retain 4 years",
       "duration_years": 4,
       "duration_months": null,
-      "disposition_method": "Destroy In Compliance With No",
+      "disposition": "Retain 4 years, then destroy in compliance with No. 8 on schedule cover page.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -111,14 +108,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "accumulation in compliance with No. 8 on schedule cover page",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Destroy accumulation in compliance with No. 8 on schedule cover page.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -142,15 +138,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "information STARS database. paper originals quality control inspection verifies information was successfully transferred new format. Document destruction of original paper records reformatting on Certificate of Records Disposal (RM-3 form)",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Transfer information to STARS database. Destroy paper originals after quality control inspection verifies information was successfully transferred to new format. Document destruction of original paper records after reformatting on Certificate of Records Disposal (RM-3 form).",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null

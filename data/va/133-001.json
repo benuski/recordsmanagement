@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "in agency",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Transfer To Archives, Library Of Virginia For Permanent Retention",
+      "disposition": "Retain 10 years in agency, then transfer to Archives, Library of Virginia for permanent retention.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -47,14 +46,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "in agency",
       "duration_years": 4,
       "duration_months": null,
-      "disposition_method": "Transfer To Staterecords Center, Library Of Virginia",
+      "disposition": "Retain 4 years in agency, then transfer to StateRecords Center, Library of Virginia. Retain in RecordsCenter 4 years. Total retention 8 years.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -79,14 +77,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "five copies permanently in agency. one copy Archives, Library of Virginia. Send 20 copies State Documents Receiving, Library of Virginia, per Code of Virginia, § 2.1-467.2",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Retain five copies permanently in agency. Transfer one copy to Archives, Library of Virginia. Send 20 copies to State Documents Receiving, Library of Virginia, per Code of Virginia, § 2.1-467.2.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -111,14 +108,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Retain 4 years",
       "duration_years": 4,
       "duration_months": null,
-      "disposition_method": "Destroy",
+      "disposition": "Retain 4 years, then destroy.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null

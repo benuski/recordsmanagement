@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: Paper records be retained five years expiration of period during which mining operation is active or is covered by any portion of a reclamation bond and ; Electronic: Electronic records retained five years expiration of period during which mining operation is active or is covered by any portion of a reclamation bond and",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Paper records to be retained until five years after expiration of the period during which the mining operation is active or is covered by any portion of a reclamation bond and then shredded. If scanned and saved in an electronic format the paper copy may be destroyed at that time. ; Electronic: Electronic records retained until five years after expiration of the period during which the mining operation is active or is covered by any portion of a reclamation bond and then then deleted., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-07-21",
       "next_update_due": null,
       "comments": null

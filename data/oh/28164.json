@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Paper: Discard rule is canceled or superseded if there are no pending grievances alleging work rule violations",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Paper: Wastepaper",
+      "disposition": "Paper: Discard 2 years after rule is canceled or superseded if there are no pending grievances alleging work rule violations., Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2009-12-09",
       "next_update_due": null,
       "comments": null

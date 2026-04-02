@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: in office agreement is canceled, and",
-      "duration_years": null,
+      "trigger_event": "CR",
+      "duration_years": 7,
       "duration_months": null,
-      "disposition_method": "Paper: Shred",
+      "disposition": "Paper: Retain in office until agreement is canceled, and then send all documents except provider agreement to State Records Center for 7 years. Then destroy provided all agency, state and federal requirements have been met., Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2023-12-28",
       "next_update_due": null,
       "comments": null

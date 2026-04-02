@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Electronic: current ; Paper: two years current",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase ; Paper: Wastepaper",
+      "disposition": "Electronic: Retain 5years plus current, then destroy ; Paper: Retain two years plus current, then destroy. May destroy sooner if facility commander deems necessary, Electronic: Erase ; Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2003-04-28",
       "next_update_due": null,
       "comments": null

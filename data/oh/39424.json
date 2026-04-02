@@ -11,18 +11,17 @@
       "series_id": "CRB-007",
       "series_title": "Public Record Request",
       "series_description": "Documents pertaining to public requests, including but not limited to the original request, correspondence between staff and requestor, redacted and un-redacted responsive records. Maintained to document compliance with public records law obligations (ORC 149.43).",
-      "legal_citation": null
+      "legal_citation": "ORC 149.43"
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Electronic: ; Paper",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase ; Paper: Shred",
+      "disposition": "Electronic: Retain for 3 years, then destroy. ; Paper: Retain for 3 years, then destroy., Electronic: Erase ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2024-04-29",
       "next_update_due": null,
       "comments": null

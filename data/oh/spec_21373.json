@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Electronic: &#65279; audited by Auditor of State, report is released and all discrepancies are resolved ; Paper: &#65279; in office information is entered into OJI",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase ; Paper: Recycle",
+      "disposition": "Electronic: &#65279;Retain until audited by Auditor of State, report is released and all discrepancies are resolved, then destroy. ; Paper: &#65279;Retain in office until information is entered into OJI, then send to the records center for shredding., Electronic: Erase ; Paper: Recycle",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2005-03-16",
       "next_update_due": null,
       "comments": null

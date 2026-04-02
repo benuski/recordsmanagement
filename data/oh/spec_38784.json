@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Paper: portions used verify employment, retirement, or OPERS contributions separation employees prior 2012. Purge all other records seven years separation ; Electronic: portions used verify employment, retirement, or OPERS contributions separation employees prior 2012. Purge all other records seven years separation",
-      "duration_years": 50,
+      "trigger_event": "PM",
+      "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain portions used to verify employment, retirement, or OPERS contributions 50 years after separation for employees prior to 2012. Purge all other records seven years after separation then transfer to Ohio Department of Administrative Services to retain permanently. ; Electronic: Retain portions used to verify employment, retirement, or OPERS contributions 50 years after separation for employees prior to 2012. Purge all other records seven years after separation then transfer to Ohio Department of Administrative Services to retain permanently., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-03-05",
       "next_update_due": null,
       "comments": null

@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Electronic: audits are completed, reports released and all discrepancies are resolved. ; Paper: in office internal review is completed and 4 years in records center and all discrepancies are resolved",
+      "trigger_event": "AC",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase ; Paper: Shred",
+      "disposition": "Electronic: Retain until audits are completed, reports released and all discrepancies are resolved. ; Paper: Retain in office 1 year after internal review is completed and 4 years in records center, then destroy provided audits are completed, reports released and all discrepancies are resolved., Electronic: Erase ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2019-02-15",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: information is no longer currrent, and no longer of administrative value. ; Electronic: information is not longer current, and no longer of administrative value",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Trash ; Electronic: Erase",
+      "disposition": "Paper: Retain until the information is no longer currrent, and until no longer of administrative value. ; Electronic: Retain until the information is not longer current, and until no longer of administrative value., Paper: Trash ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2009-08-07",
       "next_update_due": null,
       "comments": null

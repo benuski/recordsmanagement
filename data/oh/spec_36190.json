@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: paper documents converted into scanned electronic form ; Electronic: electronic documents (e.g. emails, scanned images, etc.) life of completed construction project but not less than eight (8) years project has been finalized",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain paper documents until converted into scanned electronic form, then destroy paper. ; Electronic: Retain electronic documents (e.g. emails, scanned images, etc.) for the life of the completed construction project but not less than eight (8) years after the project has been finalized., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2019-04-01",
       "next_update_due": null,
       "comments": null

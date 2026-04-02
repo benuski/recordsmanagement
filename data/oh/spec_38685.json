@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: paper application and all supporting documentation is properly imaged and indexed. once images are confirmed as complete and legible paper can be shredded. ; Electronic: Electronic images are be retained as long as Certificate of Finder Registration is valid. Scanned images are be retained ten years final expiration date of registration, withdrawal of an application or denial of an application",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Retain paper until application and all supporting documentation is properly imaged and indexed. once images are confirmed as complete and legible paper can be shredded. ; Electronic: Electronic images are to be retained as long as the Certificate of Finder Registration is valid. Scanned images are to be retained for ten years after the final expiration date of the registration, withdrawal of an application or denial of an application., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-02-25",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "Paper: one (1) federal fiscal year from date agreement becomes inactive. ; Electronic: one (1) federal fiscal year from date agreement becomes inactive",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Trash ; Electronic: Delete",
+      "disposition": "Paper: Retain one (1) federal fiscal year from the date the agreement becomes inactive. ; Electronic: Retain one (1) federal fiscal year from the date the agreement becomes inactive., Paper: Trash ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2014-09-04",
       "next_update_due": null,
       "comments": null

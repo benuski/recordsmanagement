@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Paper: investigation is complete or scanned machine-readable format, whichever occurs first, unless matter goes hearing. ; Electronic: investigation is complete and case is closed, including all appeals",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Retain for 3 years after investigation is complete or until scanned to machine-readable format, whichever occurs first, unless matter goes to hearing. ; Electronic: Retain for 3 years after investigation is complete and case is closed, including all appeals., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-08-02",
       "next_update_due": null,
       "comments": null

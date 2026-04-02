@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Paper: All paper documents are held 30 days and ; Electronic: IT should scan file, if case has been closed three years",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Delete",
+      "disposition": "Paper: All paper documents are held for 30 days and then placed in the recycle bin to be destroyed. ; Electronic: IT should scan file, if case has been closed for three years, then delete record., Paper: Recycle ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2006-08-23",
       "next_update_due": null,
       "comments": null

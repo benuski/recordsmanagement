@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "Paper: Maintain three (3) state fiscal years following date of receipt of inquiry. when no longer of administrative value. An RC-3 is required when destroying these records. ; Electronic: Maintain three (3) state fiscal years following date of receipt of inquiry. when no longer of administrative value. An RC-3 is required when destroying these records",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Maintain for three (3) state fiscal years following the date of receipt of the inquiry. Destroy when no longer of administrative value. An RC-3 is required when destroying these records. ; Electronic: Maintain for three (3) state fiscal years following the date of receipt of the inquiry. Destroy when no longer of administrative value. An RC-3 is required when destroying these records., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2014-01-02",
       "next_update_due": null,
       "comments": null

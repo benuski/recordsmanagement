@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: in active files one year",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Wastepaper",
+      "disposition": "Paper: Retain in active files for one year, then destroy., Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2003-09-22",
       "next_update_due": null,
       "comments": null

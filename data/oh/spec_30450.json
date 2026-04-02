@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: , confidential inofrmation redacted",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Paper: Shred",
-      "confidential_flag": false
+      "disposition": "Paper: 5 years, confidential inofrmation redacted, Paper: Shred",
+      "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2012-10-30",
       "next_update_due": null,
       "comments": null

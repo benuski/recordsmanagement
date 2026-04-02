@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: Maintain while inmate is assigned operation. three years following reclass out of operation",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred",
+      "disposition": "Paper: Maintain while inmate is assigned to operation. Retain three years following reclass out of operation, then destroy., Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2006-10-19",
       "next_update_due": null,
       "comments": null

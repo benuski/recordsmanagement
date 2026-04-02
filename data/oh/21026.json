@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: Onsite while project is active",
-      "duration_years": null,
+      "trigger_event": "CR",
+      "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle",
+      "disposition": "Paper: Onsite while project is active; then 5 years storage., Paper: Recycle",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2008-11-03",
       "next_update_due": null,
       "comments": null

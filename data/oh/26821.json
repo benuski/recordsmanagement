@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: in confidential status Motion Protective Order is granted, or designated period expires, whichever is greater",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": 18,
-      "disposition_method": "Paper: Other",
-      "confidential_flag": false
+      "disposition": "Paper: Retain in confidential status until 18 months after Motion for Protective Order is granted, or until designated period expires, whichever is greater, then release to formal case files., Paper: Other",
+      "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2008-11-10",
       "next_update_due": null,
       "comments": null

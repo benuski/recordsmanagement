@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: current, two (2) years following execution of operation and closing of file. Records are retained in Office of Field Operations – MFF. Paper files may be destroyed once scanned and saved file. ; Electronic: current, two (2) years following execution of operation and closing of file. Records are retained in Office of Field Operations – MFF",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain current, plus two (2) years following execution of the operation and closing of the file. Records are retained in the Office of Field Operations – MFF. Paper files may be destroyed once scanned and saved to file. ; Electronic: Retain current, plus two (2) years following execution of the operation and closing of the file. Records are retained in the Office of Field Operations – MFF., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-01-14",
       "next_update_due": null,
       "comments": null

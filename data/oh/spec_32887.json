@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: from issuing of Final Audit Report. If scanned and saved electronically, dispose of paper immediately. Any source documentation received from AGO sections, units, or special counsel should be retained no longer of value ; Electronic: from issuing of Final Audit Report. Any source documentation received from AGO sections, units, or special counsel should be retained no longer of value",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain 5 years from issuing of the Final Audit Report. If scanned and saved electronically, dispose of paper immediately. Any source documentation received from AGO sections, units, or special counsel should be retained until no longer of value, then disposed. ; Electronic: Retain 5 years from issuing of the Final Audit Report. Any source documentation received from AGO sections, units, or special counsel should be retained until no longer of value, then disposed., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2024-08-13",
       "next_update_due": null,
       "comments": null

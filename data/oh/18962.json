@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Electronic: 8 generation data group generations",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase",
+      "disposition": "Electronic: Retain for 8 generation data group generations, then destroy by re-using cartridge., Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2003-02-21",
       "next_update_due": null,
       "comments": null

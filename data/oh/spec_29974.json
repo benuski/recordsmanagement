@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Electronic: Save on OCC Z-drive in a folder with restricted access. and maintain on any system that replaces OCC Z-drive. Maintain permanently in a machine readable form. ; Paper: paper documents in a locked storage area within OCC with restricted access. Scan and store documents on OCC Z-drive in a folder with restricted access. paper document is scanned, it can be disposed of once it is no longer of administrative value. Documents are shreded or disposed of in accordance with applicable protectie order, agreement or other protocol",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Electronic: Permanent ; Paper: Shred",
+      "disposition": "Electronic: Save on the OCC Z-drive in a folder with restricted access. Transfer to and maintain on any system that replaces the OCC Z-drive. Maintain permanently in a machine readable form. ; Paper: Retain paper documents in a locked storage area within OCC with restricted access. Scan and store the documents on the OCC Z-drive in a folder with restricted access. After the paper document is scanned, it can be disposed of once it is no longer of administrative value. Documents are shreded or disposed of in accordance with the applicable protectie order, agreement or other protocol., Electronic: Permanent ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2011-12-30",
       "next_update_due": null,
       "comments": null

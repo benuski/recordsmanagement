@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Paper: three years completion of treatment, or longer if needed due administrative reasons",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred",
+      "disposition": "Paper: Retain for three years after completion of treatment, or longer if needed due to administrative reasons., Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2006-10-03",
       "next_update_due": null,
       "comments": null

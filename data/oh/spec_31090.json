@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: site visit reports, problem & equipment service reports & routine correspondence & memoranda warranty or guarantee of service has expired",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred",
+      "disposition": "Paper: Retain site visit reports, problem & equipment service reports & routine correspondence & memoranda until warranty or guarantee of service has expired, then destroy. Retain service histories & other summary records until the related equipment is no longer in use., Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2013-03-01",
       "next_update_due": null,
       "comments": null

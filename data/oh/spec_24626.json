@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "Paper: in current file area 1 full fiscal year current year. in storage 1 additional year",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Wastepaper",
+      "disposition": "Paper: Retain in current file area 1 full fiscal year plus current year. Retain in storage 1 additional year then destroy., Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2008-03-12",
       "next_update_due": null,
       "comments": null

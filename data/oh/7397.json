@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Electronic: Information is retained",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase",
+      "disposition": "Electronic: Information is retained for 5 years, then destroyed by reusing the tape, Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "1999-03-17",
       "next_update_due": null,
       "comments": null

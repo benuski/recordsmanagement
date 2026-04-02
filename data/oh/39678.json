@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Electronic: student graduates or would have normally graduated ; Paper: student graduates or would have normally graduated",
+      "trigger_event": "AC",
       "duration_years": 6,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "disposition": "Electronic: 6 years after the student graduates or would have normally graduated ; Paper: 6 years after the student graduates or would have normally graduated, Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2024-12-23",
       "next_update_due": null,
       "comments": null

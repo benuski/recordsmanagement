@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Electronic: Upon receipt of electronic submission of these forms from law enforcement agency OCJS, these records are retained five (5) years",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete",
+      "disposition": "Electronic: Upon receipt of electronic submission of these forms from the law enforcement agency to OCJS, these records are retained five (5) years, then deleted from database., Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-10-08",
       "next_update_due": null,
       "comments": null

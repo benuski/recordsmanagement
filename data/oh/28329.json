@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Paper: correspondence and applications in office . audit by Auditor of State is completed and released, . ; Electronic: student names, Social Security Numbers and award amounts . audit by Auditor of State is completed and released, . Board minutes shall be scanned and retained permanently",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Retain correspondence and applications in office 5 years. After audit by Auditor of State is completed and released, destroy. ; Electronic: Retain student names, Social Security Numbers and award amounts for 5 years. After audit by Auditor of State is completed and released, destroy. Board minutes shall be scanned and retained permanently., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2010-03-03",
       "next_update_due": null,
       "comments": null

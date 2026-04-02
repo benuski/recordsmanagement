@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: no longer of value LITIGATION HOLD: Any records subject a litigation hold must be retained hold is lifted by Legal Office, regardless of whether specified retention period has elapsed. ; Electronic: no longer of value LITIGATION HOLD: Any records subject a litigation hold must be retained hold is lifted by Legal Office, regardless of whether specified retention period has elapsed",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Retain until no longer of value, then destroy. LITIGATION HOLD: Any records subject to a litigation hold must be retained until the hold is lifted by the Legal Office, regardless of whether the specified retention period has elapsed. ; Electronic: Retain until no longer of value, then destroy. LITIGATION HOLD: Any records subject to a litigation hold must be retained until the hold is lifted by the Legal Office, regardless of whether the specified retention period has elapsed., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2016-06-23",
       "next_update_due": null,
       "comments": null

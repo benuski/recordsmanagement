@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: in office ; Record Center 5 years or state/federal audit has been performed and audit report released",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Paper: Wastepaper",
+      "disposition": "Paper: Retain in office 2 years; Record Center 5 years or until state/federal audit has been performed and audit report released, then destroy, Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "1986-07-10",
       "next_update_due": null,
       "comments": null

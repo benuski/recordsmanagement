@@ -11,18 +11,17 @@
       "series_id": "BCI-ID-017",
       "series_title": "Court and Law Enforcement Compliance Files",
       "series_description": "Reports that help determine compliance of local law enforcement in the submission of arrest data per ORC 109.59 and 109.60 and compliance of courts in the submission of disposition data per ORC 1905.033 and 109.57. Reports use data from the Computerized Criminal History (CCH) database, which can include, but may not be limited to, Originating Agency Identification Number (ORI), submitting agency, date of submission or number of submissions, and correspondence with courts and local law enforcement.",
-      "legal_citation": null
+      "legal_citation": "ORC 109.59"
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Electronic: . ; Paper",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "disposition": "Electronic: Retain 2 years. ; Paper: Retain 2 years., Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2016-02-11",
       "next_update_due": null,
       "comments": null

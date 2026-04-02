@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: in office . If complaints are unsubstantiated",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Paper: Shred",
+      "disposition": "Paper: Retain in office for 5 years. If complaints are unsubstantiated, then destroy. For complaints which require disciplinary action, retain in office until hearing is conducted and all appeals have been exhausted. Retain in office for additional 5 years, then destroy, Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2000-05-24",
       "next_update_due": null,
       "comments": null

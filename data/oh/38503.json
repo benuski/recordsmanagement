@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Electronic: two years ; Paper: scanned",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase ; Paper: Shred",
+      "disposition": "Electronic: Retain for two years, then contact State Archives for review and possible transfer. Dispose if not transferred. ; Paper: Retain until scanned, Electronic: Erase ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2024-06-14",
       "next_update_due": null,
       "comments": null

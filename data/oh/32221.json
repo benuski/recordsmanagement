@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: life of service, from employee''''''''s date of separation. Record may be retained electronically. If record is imaged and retained electronically, paper may be destroyed as soon as scan is confirmed and validated. ; Electronic: Personnel Actions are retained in Electronic Personnel Action Request (EPAR) system. Remaining records, if retained electronically, are retained in HR''''''''s Intellinetics System, PeopleSoft, and ERIS. life of service, from employee''''''''s date of separation",
       "duration_years": 50,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain for life of service, plus 50 years from employee''''''''s date of separation. Record may be retained electronically. If record is imaged and retained electronically, paper may be destroyed as soon as scan is confirmed and validated. ; Electronic: Personnel Actions are retained in the Electronic Personnel Action Request (EPAR) system. Remaining records, if retained electronically, are retained in HR''''''''s Intellinetics System, PeopleSoft, and ERIS. Retain for life of service, plus 50 years from employee''''''''s date of separation., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2014-04-18",
       "next_update_due": null,
       "comments": null

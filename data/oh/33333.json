@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: Paper records may be imaged and indexed a machine readable format. Upon confirmation that paper copy was imaged and indexed properly destroyed. Any paper records that can not be imaged and indexed a machine readable format shall be maintained three years from date of approval, denial by Division or expiration of appeals, whichever is later. these records shall be destroyed. ; Electronic: any records maintained in machine readable format, records shall be maintained three years from date of approval, denial by Division or expiration of appeals, whichever is later. ; Microform: any records maintained in microfiche, records shall be maintained three years from date of approval, denial by Division or expiration of appeals, whichever is later",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase ; Microform: Shred",
+      "disposition": "Paper: Paper records may be imaged and indexed to a machine readable format. Upon confirmation that the paper copy was imaged and indexed properly, then paper record shall be destroyed. Any paper records that can not be imaged and indexed to a machine readable format shall be maintained on-site for three years from the date of approval, denial by the Division or the expiration of appeals, whichever is later. Then these records shall be destroyed. ; Electronic: For any records maintained in machine readable format, the records shall be maintained for three years from the date of approval, denial by the Division or the expiration of appeals, whichever is later. Then the machine readable record shall be destroyed. ; Microform: For any records maintained in microfiche, the records shall be maintained for three years from the date of approval, denial by the Division or the expiration of appeals, whichever is later. Then the microform shall be destroyed., Paper: Shred ; Electronic: Erase ; Microform: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2016-02-12",
       "next_update_due": null,
       "comments": null

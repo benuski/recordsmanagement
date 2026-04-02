@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Electronic: LAN: employee separtates from Board ; Paper: Paper: Original filed with Joint Legislative and Ethics Commission. one paper copy scanned LAN and LAN checked accuracy",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase ; Paper: Shred",
+      "disposition": "Electronic: LAN: Retain until the employee separtates from the Board ; Paper: Paper: Original filed with the Joint Legislative and Ethics Commission. Retain one paper copy until scanned to LAN and LAN checked for accuracy, then destroy; however, if not scanned to LAN, retain until the employee separates from the Board, Electronic: Erase ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-12-03",
       "next_update_due": null,
       "comments": null

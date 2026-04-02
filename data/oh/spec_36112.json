@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Electronic: originals owner as mandated by statute or court order. If evidence is not claimed but consists of copies of original documents, which are maintained by original source, . If evidence consists of originals and is either not claimed or was created internally, from case closing. If evidence was created internally and a copy of materials is already being retained as part of a case file, . ; Paper: originals owner as mandated by statute or court order. If evidence is not claimed but consists of copies of original documents, which are maintained by original source, . If evidence consists of originals and is either not claimed or was created internally, from case closing. If evidence was created internally and a copy of materials is already being retained as part of a case file",
       "duration_years": 4,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "disposition": "Electronic: Transfer originals to owner as mandated by statute or court order. If evidence is not claimed but consists of copies of original documents, which are maintained by the original source, destroy. If the evidence consists of originals and is either not claimed or was created internally, retain 4 years from case closing. If evidence was created internally and a copy of materials is already being retained as part of a case file, destroy. ; Paper: Transfer originals to owner as mandated by statute or court order. If evidence is not claimed but consists of copies of original documents, which are maintained by the original source, destroy. If the evidence consists of originals and is either not claimed or was created internally, retain 4 years from case closing. If evidence was created internally and a copy of materials is already being retained as part of a case file, destroy., Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2019-03-05",
       "next_update_due": null,
       "comments": null

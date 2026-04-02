@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Paper: ten years in operating area or business or supply is closed. Dead file closed entities five years",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Wastepaper",
+      "disposition": "Paper: Retain ten years in operating area or until the business or supply is closed. Dead file the closed entities for five years, then destroy., Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "1988-11-09",
       "next_update_due": null,
       "comments": null

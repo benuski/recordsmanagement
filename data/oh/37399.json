@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Electronic: in file at Aviation Section five (5) years current year ; Paper: in file at Aviation Section five (5) years current year",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Wastepaper",
+      "disposition": "Electronic: Retain in file at Aviation Section for five (5) years plus current year, then delete. ; Paper: Retain in file at Aviation Section for five (5) years plus current year, then dispose as waste paper., Electronic: Delete ; Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-11-10",
       "next_update_due": null,
       "comments": null

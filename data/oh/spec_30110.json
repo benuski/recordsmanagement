@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: hard copy imaged or entered into database ; Electronic: hard copy imaged or entered into database",
-      "duration_years": null,
+      "trigger_event": "AC",
+      "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Paper: Wastepaper ; Electronic: Erase",
+      "disposition": "Paper: Retain hard copy until imaged or entered into database, then destroy. Retain image/database 3 years after inactive, then destroy. ; Electronic: Retain hard copy until imaged or entered into database, then destroy. Retain image/database 3 years after inactive, then destroy., Paper: Wastepaper ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2012-04-05",
       "next_update_due": null,
       "comments": null

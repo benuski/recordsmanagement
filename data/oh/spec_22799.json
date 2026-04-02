@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Electronic: electronic documents at least six (6) years from administration date",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete",
+      "disposition": "Electronic: Retain electronic documents for at least six (6) years from administration date. Then destroy/delete unless litigation is pending (consult Personnel or Chief Legal)., Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2006-01-03",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Electronic: Information is be retained on BWC (LMS) Learning Management System BWC employee no longer an active employee with BWC. ; Paper: Once record is scanned into (LMS) Learning Management System, hold 30 days quality assurance",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Recycle",
+      "disposition": "Electronic: The Information is to be retained on the BWC (LMS) Learning Management System until the BWC employee no longer an active employee with BWC. ; Paper: Once the record is scanned into the (LMS) Learning Management System, hold for 30 days for quality assurance then destroy., Electronic: Delete ; Paper: Recycle",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2011-02-05",
       "next_update_due": null,
       "comments": null

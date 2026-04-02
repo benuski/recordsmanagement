@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Electronic: Keep five years from date of expiration ; Paper: Keep five years from date of expiration",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Recycle",
+      "disposition": "Electronic: Keep for five years from date of expiration, then destroy. ; Paper: Keep for five years from date of expiration, then destroy. If scanned and saved in an electronic format, the paper copy may be destroyed at that time., Electronic: Delete ; Paper: Recycle",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-12-10",
       "next_update_due": null,
       "comments": null

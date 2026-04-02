@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "expiration, termination, rescission or replacement of regulation, or end of hearings if no regulation is issued",
+      "trigger_event": "AC",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Destroy",
+      "disposition": "Retain 5 years after expiration, termination, rescission or replacement of regulation, or end of hearings if no regulation is issued, then destroy. (Authority: General Schedule 101).",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -46,15 +45,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "five years resolution",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Destroy",
+      "disposition": "Retain five years after resolution then destroy.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -79,14 +77,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "as long as administratively necessary",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Destroy In Accordance With No",
+      "disposition": "Retain as long as administratively necessary then destroy in accordance with No. 8 on the schedule cover page. (Authority: General Schedule 102).",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -110,15 +107,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "resolution",
+      "trigger_event": "AC",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Destroy",
+      "disposition": "Retain 5 years after resolution then destroy.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -142,15 +138,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "individual is no longer certified/qualified conduct due process hearings",
+      "trigger_event": "AC",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "Destroy In Compliance With No",
+      "disposition": "Retain for 1 year after the individual is no longer certified/qualified to conduct due process hearings then destroy in compliance with No. 8 on the schedule cover page.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -175,14 +170,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "five years",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Destroy",
+      "disposition": "Retain five years, then destroy.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -206,15 +200,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "final action",
+      "trigger_event": "AC",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Destroy",
+      "disposition": "Retain 3 years after final action then destroy. (Authority: General Schedule 101).",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -238,15 +231,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "last action",
+      "trigger_event": "AC",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Destroy",
+      "disposition": "Retain 5 years after last action then destroy.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -271,14 +263,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Retain 3 years",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Destroy",
+      "disposition": "Retain 3 years then destroy.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -303,14 +294,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "permanently. (Authority: General Schedule 101)",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Retain permanently. (Authority: General Schedule 101).",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -335,14 +325,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "as long as administratively necessary",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Destroy",
+      "disposition": "Retain as long as administratively necessary then destroy. These are non-records per Virginia Public Records Act, and disposal reporting on Certificate of Records Disposal (RM-3 form) is not required. (Authority: General Schedule 101).",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -366,15 +355,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "final disposition of case",
+      "trigger_event": "AC",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Destroy",
+      "disposition": "Retain 5 years after final disposition of the case, then destroy. (Authority: General Schedule 101).",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -399,14 +387,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "as long as administratively necessary",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Destroy",
+      "disposition": "Retain as long as administratively necessary then destroy. (Authoriity: General Schedule 101).",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -431,14 +418,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "five years",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Destroy",
+      "disposition": "Retain five years, then destroy.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -463,14 +449,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "superseded, obsolete or rescinded",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Destroy",
+      "disposition": "Retain until superseded, obsolete or rescinded then destroy. (Authority: General Schedule 101).",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -495,14 +480,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "as long as administratively necessary",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Destroy",
+      "disposition": "Retain as long as administratively necessary then destroy. (Authority: General Schedule 101).",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -527,14 +511,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "as long as administratively necessary",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Destroy",
+      "disposition": "Retain as long as administratively necessary then destroy. (Authority: General Schedule 102).",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -559,14 +542,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "or superseded, whichever is longer",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Destroy",
+      "disposition": "Retain 5 years or until superseded, whichever is longer, then destroy.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -591,14 +573,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "as long as administratively necessary",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Destroy",
+      "disposition": "Retain as long as administratively necessary then destroy. (Authority: General Schedule 101).",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -622,15 +603,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "last entry",
+      "trigger_event": "AC",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "Destroy",
+      "disposition": "Retain 1 year after last entry then destroy. (Authority: General Schedule 101).",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -655,14 +635,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Retain 1 year",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "Destroy",
+      "disposition": "Retain 1 year then destroy. (Authority: General Schedule 101).",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: in BWC storage facility , microfilm ; Microform: microfilm 20 years",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Microform: Burn",
+      "disposition": "Paper: Retain in BWC storage facility for 5 years, microfilm, then destroy hard copy ; Microform: Retain microfilm for 20 years, then destroy, Paper: Shred ; Microform: Burn",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2001-04-20",
       "next_update_due": null,
       "comments": null

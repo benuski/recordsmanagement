@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Electronic: project is approved, project work is complete, and disbursement of approved funds is complete and audited ; Paper: project is approved, project work is complete, and disbursement of approved funds is complete and audited",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Wastepaper",
+      "disposition": "Electronic: Retain until the project is approved, project work is complete, and the disbursement of approved funds is complete and audited, then destroy. ; Paper: Retain until the project is approved, project work is complete, and the disbursement of approved funds is complete and audited, then destroy., Electronic: Delete ; Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2010-07-28",
       "next_update_due": null,
       "comments": null

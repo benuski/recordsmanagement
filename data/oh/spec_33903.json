@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Paper: Recommended Retention PeriodAfter final review, all records shall be stored at Ohio Department of Education (central office) remainder of retention period. six (6) years final review conducted by Area Coordinators ; Electronic: Recommended Retention PeriodAfter final review, all records shall be stored at Ohio Department of Education (central office) remainder of retention period. six (6) years final review conducted by Area Coordinators",
-      "duration_years": null,
+      "duration_years": 6,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Recommended Retention PeriodAfter final review, all records shall be stored at the Ohio Department of Education (central office) for the remainder of the retention period. Retain six (6) years after final review conducted by Area Coordinators, then destroy.Paper copies-6 years - then destroy. ; Electronic: Recommended Retention PeriodAfter final review, all records shall be stored at the Ohio Department of Education (central office) for the remainder of the retention period. Retain six (6) years after final review conducted by Area Coordinators, then destroy.Electronic- 6 years - then delete., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-09-01",
       "next_update_due": null,
       "comments": null

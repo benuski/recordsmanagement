@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: Retained by inspector entered into computer ; Electronic: five years",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Wastepaper ; Electronic: Erase",
+      "disposition": "Paper: Retained by the inspector until entered into the computer, then destroy. ; Electronic: Retain for five years then destroy., Paper: Wastepaper ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2002-10-23",
       "next_update_due": null,
       "comments": null

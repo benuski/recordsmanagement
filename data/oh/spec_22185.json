@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: permit is issued final unless an appeal has been filed. In appeal cases, appeal is finally resolved",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": 6,
-      "disposition_method": "Paper: Recycle",
+      "disposition": "Paper: Retain for 6 months after permit is issued final unless an appeal has been filed. In appeal cases, retain until 6 months after the appeal is finally resolved, then destroy., Paper: Recycle",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2005-11-29",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Electronic: superseded or information is replaced with new, updated information ; Paper: information is entered into computer",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase ; Paper: Shred",
+      "disposition": "Electronic: Retain until superseded or information is replaced with new, updated information ; Paper: Retain until the information is entered into the computer, then destroy, Electronic: Erase ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "1992-09-03",
       "next_update_due": null,
       "comments": null

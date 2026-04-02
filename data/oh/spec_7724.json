@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Paper: case is closed or request assistance is handled",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Trash",
+      "disposition": "Paper: Retain until case is closed or request for assistance is handled, then transfer to Client Information Sheets - Closed (CCF-3, Paper: Trash",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "1982-02-24",
       "next_update_due": null,
       "comments": null

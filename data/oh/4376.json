@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Electronic: in operating area superseded ; Paper: in office area",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase ; Paper: Recycle",
+      "disposition": "Electronic: Retain in operating area until superseded, then erase ; Paper: Retain in office area 1 year, then destroy, Electronic: Erase ; Paper: Recycle",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "1993-06-29",
       "next_update_due": null,
       "comments": null

@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: Paper copy shall be retained such time that information is recorded in appropriate electronic database, at which time paper documents can be destroyed ; Electronic: electronic information shall be retained three years from date of work. this period concludes, records will be deleted from relevant electronic database. OSIS database will reside in Central Office",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Delete",
+      "disposition": "Paper: Paper copy shall be retained until such time that the information is recorded in the appropriate electronic database, at which time the paper documents can be destroyed ; Electronic: The electronic information shall be retained for three years from date of work. After this period concludes, the records will be deleted from the relevant electronic database. The OSIS database will reside in Central Office, Paper: Recycle ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2019-06-10",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: current contract period one year. Records may be imaged. If imaged, paper record may be destroyed, once electronic record is validated. ; Electronic: current contract period one year. These records are retained in BMV/IRP section''s shared drive folders",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain for current contract period plus one year. Records may be imaged. If imaged, paper record may be destroyed, once the electronic record is validated. ; Electronic: Retain for current contract period plus one year. These records are retained in the BMV/IRP section''s shared drive folders., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2013-07-08",
       "next_update_due": null,
       "comments": null

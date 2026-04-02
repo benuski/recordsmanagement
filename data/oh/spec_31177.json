@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Microform: original in office permanently or file is converted a machine readable format ; Electronic: Maintain machine readable records permanently. ; Paper: paper copy in operating area converted into machine readable format. Upon confirmation machine readable records have been checked quality and completeness, paper copy",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Microform: Shred ; Electronic: Permanent ; Paper: Shred",
+      "disposition": "Microform: Retain original in office permanently or until file is converted to a machine readable format, then destroy. ; Electronic: Maintain machine readable records permanently. ; Paper: Retain paper copy in operating area until converted into machine readable format. Upon confirmation machine readable records have been checked for quality and completeness, destroy paper copy., Microform: Shred ; Electronic: Permanent ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2013-03-13",
       "next_update_due": null,
       "comments": null

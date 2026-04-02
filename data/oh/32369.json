@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Electronic: Non-hired candidates - five years. Hired candidates - following employee''s separation. ; Paper: Non-hired candidates - five years. Hired candidates, two years following separation",
       "duration_years": 50,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase ; Paper: Shred",
+      "disposition": "Electronic: Non-hired candidates - retain for five years. Hired candidates - retain for 50 years following employee''s separation. ; Paper: Non-hired candidates - retain for five years. Hired candidates, retain for two years following separation, then convert to machine readable and retain for 50 years following employee''s separation., Electronic: Erase ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2014-05-28",
       "next_update_due": null,
       "comments": null

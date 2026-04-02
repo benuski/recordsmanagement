@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Electronic: one year or during probationary period, whichever is longer, individuals who are hired one year individuals not hired ; Paper: Unless converted into electronic format that has been verified as an accurate copy, maintain paper format one year or during probationary period, whichever is longer, individuals who are hired Unless converted into electronic format that has been verified as an accurate copy, maintain paper format one year individuals not hired Once converted into verified machine-readable format, if at all, shred paper copies",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "disposition": "Electronic: Retain for one year or during the probationary period, whichever is longer, for individuals who are hired, then destroy. Retain for one year for individuals not hired, then destroy. ; Paper: Unless converted into electronic format that has been verified as an accurate copy, maintain paper format for one year or during the probationary period, whichever is longer, for individuals who are hired, then destroy. Unless converted into electronic format that has been verified as an accurate copy, maintain paper format for one year for individuals not hired, then destroy. Once converted into verified machine-readable format, if at all, shred paper copies., Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2019-03-21",
       "next_update_due": null,
       "comments": null

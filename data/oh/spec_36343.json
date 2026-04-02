@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: Paper records are imaged and indexed into a machine readable format. Upon confirmation that paper record was imaged and indexed properly ; Electronic: Any records maintained in machine readable format are be retained from date final accounting report is filed with Division. , any machine readable records are be deleted. ; Microform: Any records maintained in microform are be retained from date final accounting report is filed with Division. , any microform records are be shredded",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete ; Microform: Shred",
+      "disposition": "Paper: Paper records are imaged and indexed into a machine readable format. Upon confirmation that the paper record was imaged and indexed properly, then the paper record is shredded. ; Electronic: Any records maintained in machine readable format are to be retained 3 years from the date the final accounting report is filed with the Division. Then, any machine readable records are to be deleted. ; Microform: Any records maintained in microform are to be retained 3 years from the date the final accounting report is filed with the Division. Then, any microform records are to be shredded., Paper: Shred ; Electronic: Delete ; Microform: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2019-05-23",
       "next_update_due": null,
       "comments": null

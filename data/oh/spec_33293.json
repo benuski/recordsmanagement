@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: Following redaction of any priviledged information, seven (7) years from approval of application or converted electronic format. ; Electronic: Following redaction of any priviledged information,seven (7) years from approval of application",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Following redaction of any priviledged information, seven (7) years from approval of application or until converted to electronic format. ; Electronic: Following redaction of any priviledged information,seven (7) years from approval of application, Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2016-01-13",
       "next_update_due": null,
       "comments": null

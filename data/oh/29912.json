@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Paper: if documents are not scanned into UDS. If scanned into UDS, destroyed it has been verified that a readable copy has been stored electronically, and ; Electronic: in UDS , and",
+      "trigger_event": "AC",
       "duration_years": 12,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain 12 years if documents are not scanned into UDS. If scanned into UDS, destroyed after it has been verified that a readable copy has been stored electronically, and then destroy. ; Electronic: Retain in UDS for 12 years, and then destroy., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2012-04-05",
       "next_update_due": null,
       "comments": null

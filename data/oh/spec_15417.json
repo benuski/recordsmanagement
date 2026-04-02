@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Microform: Microfilm is ; Paper: Hard copy be microfilmed. Hard copy",
-      "duration_years": null,
+      "trigger_event": "CR",
+      "duration_years": 20,
       "duration_months": null,
-      "disposition_method": "Microform: Shred ; Paper: Shred",
+      "disposition": "Microform: Microfilm is then sent to the State Records Center Film Vault for 20 years then destroyed ; Paper: Hard copy to be microfilmed. Hard copy then destroyed, Microform: Shred ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "1991-07-16",
       "next_update_due": null,
       "comments": null

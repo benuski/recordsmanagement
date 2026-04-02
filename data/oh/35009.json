@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Paper: in files ; Electronic",
+      "trigger_event": "AC",
       "duration_years": 4,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain in files for 4 years, then destroy. If scanned, retain 6 mos. after scanning, then shred. ; Electronic: Retain 4 years, then delete., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2018-04-26",
       "next_update_due": null,
       "comments": null

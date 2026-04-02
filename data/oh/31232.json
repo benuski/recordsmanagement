@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Electronic: etain",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase",
+      "disposition": "Electronic: etain 5 years, then destroy provided all state and federal audits are complete and findings are resolved., Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2024-06-14",
       "next_update_due": null,
       "comments": null

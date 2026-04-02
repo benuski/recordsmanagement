@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: in office 60 days ; Electronic: in office 60 days",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Burn ; Electronic: Delete",
+      "disposition": "Paper: Retain in office for 60 days, then contact the State Archives to review the records for sampling. Records not selected by State Archives to be transferred to the Archives can then be destroyed. ; Electronic: Retain in office for 60 days, then contact the State Archives to review the records for sampling. Records not selected by State Archives to be transferred to the Archives can then be destroyed., Paper: Burn ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2010-03-09",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "trigger_desc": "Paper: Maintain 2 calendar years, current year ; Electronic: Shipping database (Clippership) information is maintained a \"rolling\" 3 calendar year cycle. Shipping database (MS Access) information is maintained 3 calendar years and no longer of administrative value",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Delete",
+      "disposition": "Paper: Maintain for 2 calendar years, plus the current year, then destroy; or destroy upon authorization resulting from the completion of an audit. ; Electronic: Shipping database (Clippership) information is maintained for a \"rolling\" 3 calendar year cycle. Shipping database (MS Access) information is maintained for 3 calendar years and until no longer of administrative value., Paper: Recycle ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2011-06-20",
       "next_update_due": null,
       "comments": null

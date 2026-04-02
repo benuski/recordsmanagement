@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: closure has been certified and agency has accepted closure certification",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle",
+      "disposition": "Paper: Retain until closure has been certified and the agency has accepted the closure certification, then destroy., Paper: Recycle",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2006-02-16",
       "next_update_due": null,
       "comments": null

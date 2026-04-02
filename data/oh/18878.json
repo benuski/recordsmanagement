@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Electronic: Keep unless record is needed future use",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase",
+      "disposition": "Electronic: Keep 2 years unless the record is needed for future use., Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2003-02-13",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: from claim being declared inactive, dismissed, or settled, unless scanned and saved electronically. ; Electronic: from claim being declared inactive, dismissed, or settled",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain 2 years from claim being declared inactive, dismissed, or settled, unless scanned and saved electronically. ; Electronic: Retain 2 years from claim being declared inactive, dismissed, or settled., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2016-03-18",
       "next_update_due": null,
       "comments": null

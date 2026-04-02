@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Paper: Records be retained ten (10) years from final completion of project ; Electronic: Electronic records will be retained ten (10) years from final completion of project",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Records to be retained for ten (10) years from final completion of project, then destroyed. Once these records are scanned and saved in an electronic format, the paper copy may be destroyed. ; Electronic: Electronic records will be retained for ten (10) years from final completion of project, then destroyed., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-11-30",
       "next_update_due": null,
       "comments": null

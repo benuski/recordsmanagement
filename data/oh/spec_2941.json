@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: Maintain in office current year; storage area ; off-site storage area 10 years",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Paper: Wastepaper",
+      "disposition": "Paper: Maintain in office 2 years plus current year; on-site storage area for 2 years; off-site storage area for 10 years; then destroy, Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "1998-11-06",
       "next_update_due": null,
       "comments": null

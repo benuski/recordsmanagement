@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "Paper: proof of purchase and payment current fiscal year",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Wastepaper",
+      "disposition": "Paper: Retain proof of purchase and payment for current fiscal year then 1 fiscal year beyond final payment, Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "1977-12-14",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Paper: all records transferred electronic format ; Microform: permanently. ; Electronic: system is determined obsolete",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Microform: Permanent ; Electronic: Delete",
+      "disposition": "Paper: Retain until all records transferred to electronic format, then destroy. ; Microform: Retain permanently. ; Electronic: Retain until system is determined obsolete, then transfer to new system., Paper: Shred ; Microform: Permanent ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2024-07-02",
       "next_update_due": null,
       "comments": null

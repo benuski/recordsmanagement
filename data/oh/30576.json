@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Microform: Digitally image claim mail into claim file, verify a clear copy and ; Electronic: Digitally image into appropriate claims file, hold according appropriate statutory time frame (listed in description above); and ; Paper: Digitally image into appropriate claims file, hold according appropriate statutory time frame (listed in description above); and",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Microform: Burn ; Electronic: Delete ; Paper: Shred",
-      "confidential_flag": false
+      "disposition": "Microform: Digitally image the claim mail into the claim file, verify a clear copy and then dispose of as confidential. Follow the appropriate statute and add 6 (six) years retention for business purposes. ; Electronic: Digitally image into the appropriate claims file, hold according to the appropriate statutory time frame (listed in the description above); and then dispose remainder of claim as confidential. Follow the appropriate statute and add 6 (six) years retention for business purposes. ; Paper: Digitally image into the appropriate claims file, hold according to the appropriate statutory time frame (listed in the description above); and then dispose remainder of claim as confidential. Follow the appropriate statute and add 6 (six) years retention for business purposes if not scanned and stored online., Microform: Burn ; Electronic: Delete ; Paper: Shred",
+      "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2024-01-30",
       "next_update_due": null,
       "comments": null

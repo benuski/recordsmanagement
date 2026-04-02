@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: documents pertaining bond issue or any renewals thereof life of bond or renewal. Upon expiration of bond or renewal, applicable documents are be purged and destroyed. If scanned, . ; Electronic: documents pertaining bond issue or any renewals thereof life of bond or renewal. Upon expiration of bond or renewal, applicable documents are be purged and deleted",
       "duration_years": null,
       "duration_months": 6,
-      "disposition_method": "Paper: Wastepaper ; Electronic: Delete",
+      "disposition": "Paper: Retain documents pertaining to the bond issue or any renewals thereof for the life of the bond or renewal. Upon expiration of the bond or renewal, applicable documents are to be purged and destroyed. If scanned, retain for 6 months. ; Electronic: Retain documents pertaining to the bond issue or any renewals thereof for the life of the bond or renewal. Upon expiration of the bond or renewal, applicable documents are to be purged and deleted., Paper: Wastepaper ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2019-01-30",
       "next_update_due": null,
       "comments": null

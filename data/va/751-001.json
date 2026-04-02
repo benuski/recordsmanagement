@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Retain 1 year",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "Transfer To The State Records Center,Library Of Virginia",
+      "disposition": "Retain 1 year, then transfer to the State Records Center,Library of Virginia. Retain in Records Center 2 years, thendestroy in compliance with No. 8 on schedule cover page.Total retention 3 years.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -47,14 +46,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Retain 4 years",
       "duration_years": 4,
       "duration_months": null,
-      "disposition_method": "Transfer To The State Records Center, Library Of Virginia",
+      "disposition": "Retain 4 years, then transfer to the State Records Center, Library of Virginia. Retain in Records Center 1 year, then destroy in compliance with No. 8 on schedule cover page. Total retention 5 years.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -78,15 +76,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Retain 18 months",
-      "duration_years": null,
+      "trigger_event": "CR",
+      "duration_years": 4,
       "duration_months": 18,
-      "disposition_method": "Transfer To The State Records Center, Library Of Virginia",
+      "disposition": "Retain 18 months, then transfer to the State Records Center, Library of Virginia. Retain in Records Center 30 months, then destroy in compliance with No. 8 on schedule cover page. Total retention 4 years.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null

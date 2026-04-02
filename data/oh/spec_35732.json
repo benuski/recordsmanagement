@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Electronic: Sales ratio reports prepared sexennial reappraisals are be maintained by Ohio Department of Taxation June 1 of year following next sexennial reappraisal ; Paper: Sales ratio reports prepared sexennial reappraisals are be maintained by Ohio Department of Taxation June 1 of year following next sexennial reappraisal",
+      "trigger_event": "AC",
       "duration_years": null,
-      "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Wastepaper",
+      "duration_months": 6,
+      "disposition": "Electronic: Sales ratio reports prepared for sexennial reappraisals are to be maintained by the Ohio Department of Taxation until June 1 of the year following the next sexennial reappraisal, then deleted Sales ratio reports prepared for triennial updates are to be maintained until June 1 of the year following the next triennial update, then deleted. ; Paper: Sales ratio reports prepared for sexennial reappraisals are to be maintained by the Ohio Department of Taxation until June 1 of the year following the next sexennial reappraisal, then destroyed. Sales ratio reports prepared for triennial updates are to be maintained until June 1 of the year following the next triennial update, then destroyed. Retain for 6 months after scanned., Electronic: Delete ; Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2019-01-30",
       "next_update_due": null,
       "comments": null

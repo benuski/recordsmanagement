@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: awardees, correspondence, applications and copies of checks from institutions and Office of Attorney General in office cancellation/forgiveness or payment in full ; Electronic: awardees, names, Social Security Numbers and award amounts cancellation/forgiveness or payment in full",
-      "duration_years": null,
+      "trigger_event": "CR",
+      "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: For awardees, retain correspondence, applications and copies of checks from institutions and Office of the Attorney General in office until cancellation/forgiveness or payment in full, then destroy. For non-awardees, retain correspondence and applications in office for 1 year, then destroy. For all administrative files, retain in office for 5 years, then destroy. ; Electronic: For awardees, retain names, Social Security Numbers and award amounts until cancellation/forgiveness or payment in full, then destroy. For non-awardees, retain names and Social Security Numbers for 1 year, then destroy., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2010-02-16",
       "next_update_due": null,
       "comments": null

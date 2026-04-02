@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Microform: master in off site storage ; Paper: class completion",
       "duration_years": 10,
       "duration_months": 6,
-      "disposition_method": "Microform: Shred ; Paper: Shred",
+      "disposition": "Microform: Retain master in off site storage 10 years, then destroy microfilm. Retain diazo in operating area for 10 years then destroy ; Paper: Retain 6 months after class completion, then microfilm. After microfilm has been checked for quality & completeness destroy hard copy, Microform: Shred ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2008-11-07",
       "next_update_due": null,
       "comments": null

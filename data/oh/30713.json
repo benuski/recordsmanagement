@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Paper: superseded, obsolete, or replaced, or deemed non-vital ; Electronic: superseded, obsolete, or replaced, or deemed non-vital",
-      "duration_years": null,
+      "duration_years": 10,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain until superseded, obsolete, or replaced, or deemed non-vital, then destroy. Retain department sponsored instructor training records on-site for one year, then 10 years at warehouse. ; Electronic: Retain until superseded, obsolete, or replaced, or deemed non-vital, then destroy. Retain department sponsored instructor training records, current year plus 10 on the database., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2023-03-15",
       "next_update_due": null,
       "comments": null

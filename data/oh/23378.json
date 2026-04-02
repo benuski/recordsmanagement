@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Electronic: Maintain . ; Paper: Maintain in paper form from date of inquiry or application. Document image",
+      "trigger_event": "AC",
       "duration_years": 6,
       "duration_months": 6,
-      "disposition_method": "Electronic: Trash ; Paper: Trash",
+      "disposition": "Electronic: Maintain for 6 years. ; Paper: Maintain in paper form for 6 months from date of inquiry or application. Document image after 6 months., Electronic: Trash ; Paper: Trash",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2006-04-12",
       "next_update_due": null,
       "comments": null

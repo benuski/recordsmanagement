@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "trigger_desc": "Paper: one (1) year maximum end of calendar year in which created/received ; Electronic: one (1) year maximum end of calendar year in which created/received",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Wastepaper ; Electronic: Erase",
+      "disposition": "Paper: Retain one (1) year maximum after the end of the calendar year in which created/received, then destroy. ; Electronic: Retain one (1) year maximum after the end of the calendar year in which created/received, then destroy, Paper: Wastepaper ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2019-03-22",
       "next_update_due": null,
       "comments": null

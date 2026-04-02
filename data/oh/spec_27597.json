@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: next Board meeting following receipt of dissatisfaction form, at which program''s approval status is reviewed and acted upon by Board. ; Electronic: next Board meeting following receipt of dissatisfaction form, at which program''s approval status is reviewed and acted upon by Board",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Delete",
+      "disposition": "Paper: Retain until next Board meeting following receipt of the dissatisfaction form, at which the program''s approval status is reviewed and acted upon by the Board. ; Electronic: Retain until next Board meeting following receipt of the dissatisfaction form, at which the program''s approval status is reviewed and acted upon by the Board., Paper: Recycle ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2009-05-15",
       "next_update_due": null,
       "comments": null

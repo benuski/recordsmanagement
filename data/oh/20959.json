@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: from response date ; Electronic: from response date",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Paper: Trash ; Electronic: Erase",
+      "disposition": "Paper: Retain 3 years from response date, then destroy ; Electronic: Retain 3 years from response date, then destroy, Paper: Trash ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2004-09-20",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Electronic: Maintain digital copy in system no longer of value. Prior deletion, check with State Archivist historical value, if none",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete",
+      "disposition": "Electronic: Maintain digital copy in the system until no longer of value. Prior to deletion, check with State Archivist for historical value, if none, destroy., Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-12-12",
       "next_update_due": null,
       "comments": null

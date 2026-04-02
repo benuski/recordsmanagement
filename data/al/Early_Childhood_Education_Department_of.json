@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Temporary Record. 10 years",
       "duration_years": 10,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 10 years.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -47,14 +46,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Temporary Record. 6 years expiration or cancellation",
       "duration_years": 6,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 6 years after expiration or cancellation.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -79,14 +77,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Temporary Record. 3 years",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 3 years.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -111,14 +108,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Temporary Record. 6 years submission of final report, conclusion of grant, or rejection of application",
       "duration_years": 6,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 6 years after submission of final report, conclusion of the grant, or rejection of application.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -143,14 +139,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Temporary Record. 6 years submission of final report, conclusion of grant, or rejection of application",
       "duration_years": 6,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 6 years after submission of final report, conclusion of the grant, or rejection of application.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -175,14 +170,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Temporary Record. superseded",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain until superseded.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -207,14 +201,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Temporary Record. superseded",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain until superseded.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -239,14 +232,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Temporary Record. 3 years",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 3 years.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -271,14 +263,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "PERMANENT RECORD",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "PERMANENT RECORD.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -303,14 +294,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Temporary Record. 1 year compliance or financial audit by Examiners of Public Accounts or an equivalent auditing firm or one year end of fiscal year audit covers, whichever is later",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 1 year after compliance or financial audit by the Examiners of Public Accounts or an equivalent auditing firm or one year after the end of the fiscal year the audit covers, whichever is later.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -335,14 +325,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "PERMANENT RECORD",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "PERMANENT RECORD.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -367,14 +356,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "PERMANENT RECORD",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "PERMANENT RECORD.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -399,14 +387,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "PERMANENT RECORD",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "PERMANENT RECORD.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -431,14 +418,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "PERMANENT RECORD. in office",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "PERMANENT RECORD. Retain in office.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -463,14 +449,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "PERMANENT RECORD",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "PERMANENT RECORD.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -495,14 +480,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "PERMANENT RECORD",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "PERMANENT RECORD.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -527,14 +511,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "PERMANENT RECORD",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "PERMANENT RECORD.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -559,14 +542,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "PERMANENT RECORD",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "PERMANENT RECORD.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -591,14 +573,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Temporary Record. length of council term",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain the length of the council term.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -623,14 +604,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Temporary Record. useful life. **Annual Children's Policy Council Conference Attendee Lists and Correspondence**",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain for useful life. **Annual Children's Policy Council Conference Attendee Lists and Correspondence**",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -655,14 +635,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Temporary Record. 3 years",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 3 years.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -687,14 +666,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "PERMANENT RECORD",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "PERMANENT RECORD.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -719,14 +697,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "PERMANENT RECORD",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "PERMANENT RECORD.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -751,14 +728,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "PERMANENT RECORD",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "PERMANENT RECORD.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -783,14 +759,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "PERMANENT RECORD",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "PERMANENT RECORD.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -815,14 +790,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Temporary Record. length of council term",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain the length of the council term.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -847,14 +821,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Temporary Record. useful life",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain for useful life.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -879,14 +852,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "PERMANENT RECORD",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "PERMANENT RECORD.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -911,14 +883,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Temporary Record. 3 years",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 3 years.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -943,14 +914,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Temporary Record. 6 years submission of > final report, conclusion of grant, or rejection of application",
       "duration_years": 6,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 6 years after submission of > final report, conclusion of the grant, or rejection of application.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -975,14 +945,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "PERMANENT RECORD",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "PERMANENT RECORD.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -1007,14 +976,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "PERMANENT RECORD",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "PERMANENT RECORD.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -1039,14 +1007,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "PERMANENT RECORD",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "PERMANENT RECORD.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -1071,14 +1038,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Temporary Record. 6 years submission of final report, conclusion of grant, or rejection of application",
       "duration_years": 6,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 6 years after submission of final report, conclusion of the grant, or rejection of application.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -1103,14 +1069,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Temporary Record. 6 years submission of final report or conclusion of grant, or two years audit, whichever is longer",
       "duration_years": 6,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 6 years after submission of final report or conclusion of the grant, or two years after audit, whichever is longer.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -1135,14 +1100,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Temporary Record. 6 years submission of final report or conclusion of grant, or two years audit, whichever is longer",
       "duration_years": 6,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 6 years after submission of final report or conclusion of the grant, or two years after audit, whichever is longer.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -1167,14 +1131,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "PERMANENT RECORD. projects associated with grants, see \"Grant Records\" under \"Managing and Administering Funds.\"",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "PERMANENT RECORD. For projects associated with grants, see \"Grant Records\" under \"Managing and Administering Funds.\"",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -1199,14 +1162,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Temporary Record. completion of final report",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain until completion of final report.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -1231,14 +1193,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Temporary Record. completion of final report",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain until completion of final report.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -1263,14 +1224,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "PERMANENT RECORD",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "PERMANENT RECORD.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -1295,14 +1255,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Temporary Record. useful life",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain for useful life.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -1327,14 +1286,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "PERMANENT RECORD",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "PERMANENT RECORD.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -1359,14 +1317,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Temporary Record. useful life",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain for useful life.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -1391,14 +1348,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "life of photograph",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Retain for life of photograph.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -1423,14 +1379,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Temporary Record. useful life",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain for useful life.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -1455,14 +1410,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "PERMANENT RECORD",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "PERMANENT RECORD.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -1487,14 +1441,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Temporary Record. useful life",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain for useful life.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -1519,14 +1472,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "life of recording",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Retain for life of recording.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -1551,14 +1503,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Temporary Record. useful life",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain for useful life.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -1583,14 +1534,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Temporary Record. 1 year compliance or financial audit by Examiners of Public Accounts or an equivalent auditing firm or one year end of fiscal year audit covers, whichever is later",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 1 year after compliance or financial audit by the Examiners of Public Accounts or an equivalent auditing firm or one year after the end of the fiscal year the audit covers, whichever is later.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -1615,14 +1565,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Temporary Record. audit end of fiscal year in which RDA was superseded",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 1 year after audit after the end of the fiscal year in which the RDA was superseded.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -1647,14 +1596,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Temporary Record. 3 years",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 3 years.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -1679,14 +1627,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Temporary Record. useful life",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain for useful life.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -1711,14 +1658,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Temporary Record. documentation of former system 1 year audit fiscal year in which former hardware and software no longer exists anywhere in agency and all permanent records have been migrated a new system",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain documentation of former system 1 year after audit for the fiscal year in which the former hardware and software no longer exists anywhere in the agency and all permanent records have been migrated to a new system.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -1743,14 +1689,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Temporary Record. 1 year compliance or financial audit by Examiners of Public Accounts or an equivalent auditing firm or one year end of fiscal year audit covers, whichever is later",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 1 year after compliance or financial audit by the Examiners of Public Accounts or an equivalent auditing firm or one year after the end of the fiscal year the audit covers, whichever is later.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -1775,14 +1720,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Temporary Record. 10 years award of contract",
       "duration_years": 10,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain for 10 years after the award of the contract.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -1807,14 +1751,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Temporary Record. 6 years end of fiscal year in which records were created",
       "duration_years": 6,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 6 years after the end of the fiscal year in which the records were created.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -1839,14 +1782,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Temporary Record. 1 year audit",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 1 year after audit.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -1871,14 +1813,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Temporary Record. 1 year",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 1 year.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -1903,14 +1844,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Temporary Record. 1 year compliance or financial audit by Examiners of Public Accounts or an equivalent auditing firm",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 1 year after compliance or financial audit by the Examiners of Public Accounts or an equivalent auditing firm.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -1935,14 +1875,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Temporary Record. 6 years separation of employee from agency",
       "duration_years": 6,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 6 years after separation of the employee from the agency.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -1967,14 +1906,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Temporary Record. 1 year compliance or financial audit by Examiners of Public Accounts or an equivalent auditing firm or one year end of fiscal year audit covers, whichever is later",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 1 year after compliance or financial audit by the Examiners of Public Accounts or an equivalent auditing firm or one year after the end of the fiscal year the audit covers, whichever is later.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -1999,14 +1937,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Temporary Record. 1 year compliance or financial audit by Examiners of Public Accounts or an equivalent auditing firm or one year end of fiscal year audit covers, whichever is later",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 1 year after compliance or financial audit by the Examiners of Public Accounts or an equivalent auditing firm or one year after the end of the fiscal year the audit covers, whichever is later.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -2031,14 +1968,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Temporary Record. 6 years final dispensation",
       "duration_years": 6,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 6 years after final dispensation.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -2063,14 +1999,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Temporary Record. 3 years",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 3 years.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -2095,14 +2030,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Temporary Record. 6 years separation of employee from agency",
       "duration_years": 6,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 6 years after separation of the employee from the agency.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -2127,14 +2061,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Temporary Record. 6 years conclusion of eligibility",
       "duration_years": 6,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 6 years after conclusion of eligibility.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -2159,14 +2092,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Temporary Record. useful life",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain for useful life.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -2191,14 +2123,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Temporary Record. 12 years end of fiscal year in which transaction occurred. (Code of Alabama 1975 \u00a7 25-5-4)",
       "duration_years": 12,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 12 years after the end of the fiscal year in which the transaction occurred. (Code of Alabama 1975 \u00a7 25-5-4).",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -2223,14 +2154,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Temporary Record. 2 years. (Code of Alabama 1975 \u00a7 36-16-8\\[1\\])",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 2 years. (Code of Alabama 1975 \u00a7 36-16-8\\[1\\]).",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -2255,14 +2185,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Temporary Record. 1 year property audit",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 1 year after property audit.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -2287,14 +2216,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Temporary Record. 1 year property audit",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 1 year after property audit.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -2319,14 +2247,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Temporary Record. 1 year property audit",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 1 year after property audit.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -2351,14 +2278,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Temporary Record. return of item property manager. ## Requirement and Recommendations Implementing Records Disposition Authority (RDA)",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain until return of item to property manager. ## Requirement and Recommendations for Implementing the Records Disposition Authority (RDA)",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -2383,14 +2309,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Temporary Record. 6 years termination of lease or rental agreement or agency is audited and audit report is released, whichever is longer",
       "duration_years": 6,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 6 years after the termination of lease or rental agreement or until agency is audited and audit report is released, whichever is longer.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -2415,14 +2340,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Temporary Record. 1 year",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 1 year.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -2447,14 +2371,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Temporary Record. 1 year compliance or financial audit by Examiners of Public Accounts or an equivalent auditing firm or one year end of fiscal year audit covers, whichever is later",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 1 year after compliance or financial audit by the Examiners of Public Accounts or an equivalent auditing firm or one year after the end of the fiscal year the audit covers, whichever is later.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -2479,14 +2402,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Temporary Record. 6 years termination of policy or membership",
       "duration_years": 6,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 6 years after termination of policy or membership.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -2511,14 +2433,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Temporary Record. 1 year",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 1 year.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -2543,14 +2464,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Temporary Record. 1 year",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 1 year.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null
@@ -2575,14 +2495,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Temporary Record. 1 year compliance or financial audit by Examiners of Public Accounts or an equivalent auditing firm or one year end of fiscal year audit covers, whichever is later",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 1 year after compliance or financial audit by the Examiners of Public Accounts or an equivalent auditing firm or one year after the end of the fiscal year the audit covers, whichever is later.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-28",
       "next_update_due": null,
       "comments": null

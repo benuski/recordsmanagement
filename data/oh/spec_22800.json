@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: documents at least one (1) year administration date. one (1) year of retention of hard copy /scan documents into electronic format. paper document electronic file(s) has been checked quality & completeness. ; Electronic: electronic documentation six (6) years from administration date",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain documents for at least one (1) year after administration date. After one (1) year of retention of hard copy transfer/scan documents into electronic format. Destroy paper document after electronic file(s) has been checked for quality & completeness. ; Electronic: Retain electronic documentation for six (6) years from the administration date then destroy/delete unless litigation is pending. Consult with Personnel or Chief Legal Counsel., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2006-01-04",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Electronic: case is closed or no longer than 20 years if case remains open/unresolved. ; Paper: date case is closed, and in event case remains open/unresolved, records shall be retained no longer than 20 years. Records may be imaged",
       "duration_years": 7,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "disposition": "Electronic: 7 years after the case is closed or no longer than 20 years if case remains open/unresolved. ; Paper: 7 years after the date the case is closed, and in the event the case remains open/unresolved, records shall be retained no longer than 20 years. Records may be imaged., Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2015-06-22",
       "next_update_due": null,
       "comments": null

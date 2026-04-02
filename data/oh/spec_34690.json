@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: scanned or period of time specified in lease - maintain next agreement has been issued ; Electronic: period of time specified in lease or next agreement has been issued, and auditor has released final audit report",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Retain until scanned or for period of time specified in lease - maintain until next agreement has been issued, then destroy. ; Electronic: Retain for period of time specified in lease or until next agreement has been issued, and auditor has released final audit report., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-10-16",
       "next_update_due": null,
       "comments": null

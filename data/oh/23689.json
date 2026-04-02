@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Paper: currently operating and closed facilities: all associated files facility closure date",
       "duration_years": 30,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle",
+      "disposition": "Paper: For currently operating and closed facilities: Retain all associated files for 30 years after the facility closure date., Paper: Recycle",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2006-06-07",
       "next_update_due": null,
       "comments": null

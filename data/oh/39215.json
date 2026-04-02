@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "trigger_desc": "Electronic: On network drive or in OhioBuys 1 calendar year cancellation ; Paper: Destroyed once solicitation is cancelled and all documents scanned network drive",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase ; Paper: Recycle",
+      "disposition": "Electronic: On network drive or in OhioBuys for 1 calendar year after cancellation, then destroyed ; Paper: Destroyed once solicitation is cancelled and all documents scanned to network drive., Electronic: Erase ; Paper: Recycle",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2022-06-02",
       "next_update_due": null,
       "comments": null

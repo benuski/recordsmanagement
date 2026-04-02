@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: scanned, indexed and verified. ; Electronic: Records approved deputy registrars are retained period of approved contract (three years), four years. Records those deputy registrar applicants who were not approved, are retained period of contract which they applied (three years), one year",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain until scanned, indexed and verified. ; Electronic: Records for approved deputy registrars are retained for the period of approved contract (three years), plus four years. Records for those deputy registrar applicants who were not approved, are retained for the period of contract for which they applied (three years), plus one year., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2012-06-01",
       "next_update_due": null,
       "comments": null

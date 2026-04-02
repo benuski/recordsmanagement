@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Electronic: Imaged files are kept permanently ; Paper: Keep , image",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Electronic: Permanent ; Paper: Shred",
+      "disposition": "Electronic: Imaged files are kept permanently ; Paper: Keep on-site for 1 year, image, then store original off-site for 6 years, then destroy. Older records that have not been imaged will be retained for the life of the contract, Electronic: Permanent ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2000-12-11",
       "next_update_due": null,
       "comments": null

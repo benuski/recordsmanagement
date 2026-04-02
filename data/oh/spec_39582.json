@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Electronic: digital copy in system three (3) years; move cold storage four (4) years",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete",
+      "disposition": "Electronic: Retain digital copy in system for three (3) years; move to cold storage for four (4) years, then destroy., Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2024-10-07",
       "next_update_due": null,
       "comments": null

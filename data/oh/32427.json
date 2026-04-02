@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: Convert electronic format. Archive copy be forwarded State Archives. Fulfill requirements of O.R.C. 149.11. excess copies when no longer of administrative value. ; Electronic: Fulfill requirements of O.R.C. 149.11",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Convert to electronic format. Archive copy to be forwarded to State Archives. Fulfill requirements of O.R.C. 149.11. Destroy excess copies when no longer of administrative value. ; Electronic: Fulfill requirements of O.R.C. 149.11, Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2016-01-13",
       "next_update_due": null,
       "comments": null

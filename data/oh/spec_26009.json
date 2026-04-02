@@ -11,18 +11,17 @@
       "series_id": "210-02",
       "series_title": "Medical Liability Closed Claims Data",
       "series_description": "Medical liability closed claims data that is provided to the Department pursuant to ORC 3929.302. Data reported by authorized insurer, surplus lines insurer, risk retention group, self-insurer, captive insurer, or any entity that provides medical malpractice insurance with regards to their closed claims. (Electronic)",
-      "legal_citation": null
+      "legal_citation": "ORC 3929.302"
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "trigger_desc": "Paper: Annually on October 1st, data from 3 calendar years prior. ; Electronic: Annually on October 1st , data from 3 calendar years prior",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Annually on October 1st, destroy data from 3 calendar years prior. ; Electronic: Annually on October 1st , destroy data from 3 calendar years prior., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2026-03-12",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: in office one year",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Wastepaper",
+      "disposition": "Paper: Retain in office for one year, then transfer to the State Records Ctr. Retain in the State Records Center for two years, then destroy pro- vided that information is not included as part of a court case and has been released by all related audits., Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "1992-02-11",
       "next_update_due": null,
       "comments": null

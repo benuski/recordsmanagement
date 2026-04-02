@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Paper: in office claims are paid under policy ; Electronic: in office policy is superseded and audits are completed, reports are released and all discrepancies are resolved",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Erase",
+      "disposition": "Paper: Retain in office until claims are paid under the policy, then transfer to the records center to retain until the policy is superseded and audits are completed, reports are released and all discrepancies are resolved, then destroy. ; Electronic: Retain in office until the policy is superseded and audits are completed, reports are released and all discrepancies are resolved, then destroy., Paper: Recycle ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2019-02-14",
       "next_update_due": null,
       "comments": null

@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Paper: deposits, destructions and returns, transaction is complete",
+      "trigger_event": "AC",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Paper: Wastepaper",
+      "disposition": "Paper: For deposits, destructions and returns, retain 2 years after transaction is complete then destroy. For retrievals only, retain until transaction is completed (return to storage), then destroy, Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2000-05-01",
       "next_update_due": null,
       "comments": null

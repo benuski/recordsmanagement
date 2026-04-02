@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: Maintain this transient record one (1) month they are compilated into a final report. Maintain final report five (5) years. ; Electronic: Maintain this transient record one (1) month they are compilated into a final report. Maintain final report five (5) years",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Delete",
+      "disposition": "Paper: Maintain this transient record one (1) month after they are compilated into a final report. Maintain final report for five (5) years. ; Electronic: Maintain this transient record one (1) month after they are compilated into a final report. Maintain final report for five (5) years., Paper: Recycle ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2009-07-08",
       "next_update_due": null,
       "comments": null

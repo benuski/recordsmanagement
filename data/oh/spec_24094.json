@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: in office is complete ; Electronic: in office is complete ten years following offender''''''''s final release or maximum expiration of sentence",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain in office until transfer is complete then scan into OnBase and retain for ten years following the offender''''''''s final release or maximum expiration of sentence. ; Electronic: Retain in office until transfer is complete then scan into OnBase and retain for ten years following the offender''''''''s final release or maximum expiration of sentence., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2006-11-08",
       "next_update_due": null,
       "comments": null

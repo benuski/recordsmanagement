@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: as long as project, as constructed is in existence",
-      "duration_years": null,
+      "trigger_event": "CR",
+      "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Paper: Archives",
+      "disposition": "Paper: Retain as long as project, as constructed is in existence, then review by Archives Staff for possible transfer, destroy remainder. *Broadcast Licenses are renewed every 5 years. **Monthly review for disposal of obsolete and outdated logs so that logs are no older than 2 years at any given time in accordance with FCC Rules and Regulations., Paper: Archives",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "1978-04-19",
       "next_update_due": null,
       "comments": null

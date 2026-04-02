@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: from date delivered record center. If scanned, . ; Electronic: from date delivered record center",
       "duration_years": 4,
       "duration_months": 6,
-      "disposition_method": "Paper: Burn ; Electronic: Delete",
+      "disposition": "Paper: 4 years from date delivered to record center. If scanned, retain for 6 months. ; Electronic: 4 years from date delivered to record center., Paper: Burn ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2019-01-31",
       "next_update_due": null,
       "comments": null

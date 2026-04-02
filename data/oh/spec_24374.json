@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: term of contract and",
-      "duration_years": null,
+      "trigger_event": "CR",
+      "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Paper: Trash",
+      "disposition": "Paper: Retain for term of contract and then 2 years, Paper: Trash",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2008-06-07",
       "next_update_due": null,
       "comments": null

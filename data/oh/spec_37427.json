@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "trigger_desc": "Electronic: HP-106, Vehicle Identity Inspection – Source documentation be retained five (5) years, current ; Paper: Upon purchase from customer, BASS system produces HP-105, Receipt Salvage Inspection. calendar year current and",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase ; Paper: Wastepaper",
+      "disposition": "Electronic: HP-106, Vehicle Identity Inspection – Source documentation to be retained five (5) years, plus current, then deleted from computer system.HP-106F – Deleted by system after printed document presented to applicant, documenting failure of inspection. ; Paper: Upon purchase from customer, the BASS system produces the HP-105, Receipt for Salvage Inspection. Retain for calendar year plus current and then destroy., Electronic: Erase ; Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-11-10",
       "next_update_due": null,
       "comments": null

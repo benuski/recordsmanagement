@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Electronic: in BMV database two years current year and ; Paper: completed document verification of imaged documents",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "disposition": "Electronic: Retain in the BMV database for two years plus current year and then destroy. ; Paper: Retain completed document until after verification of imaged documents, then destroy., Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2024-03-12",
       "next_update_due": null,
       "comments": null

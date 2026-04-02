@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: audited by St. Auditor, and report is released ; Electronic: audited by St. Auditor, and report is released",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Wastepaper ; Electronic: Delete",
+      "disposition": "Paper: Retain until audited by the St. Auditor, and after report is released, then destroy. ; Electronic: Retain until audited by the St. Auditor, and after report is released, then destroy., Paper: Wastepaper ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2012-05-09",
       "next_update_due": null,
       "comments": null

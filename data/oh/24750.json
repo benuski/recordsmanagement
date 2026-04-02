@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: 3 yeqars discontinuance of system and all system data is destroyed or transferred a new operating environment ; Electronic: 3 yeqars discontinuance of system and all system data is destroyed or transferred a new operating environment",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Delete",
+      "disposition": "Paper: Retain for 3 yeqars after discontinuance of system and until all system data is destroyed or transferred to a new operating environment, then destroy. ; Electronic: Retain for 3 yeqars after discontinuance of system and until all system data is destroyed or transferred to a new operating environment, then destroy., Paper: Recycle ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2008-05-07",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Paper: paper superseded. current chart will be audited by Auditor of State. ; Electronic: permanently",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Paper: Trash ; Electronic: Permanent",
+      "disposition": "Paper: Retain paper until superseded. The current chart will be audited by Auditor of State. Then scan to electronic form for permanent retention. Then review by State Archives prior to disposal. ; Electronic: Retain permanently, Paper: Trash ; Electronic: Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2004-09-20",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: audited, audit report is released, and all discrepancies resolved. ; Electronic: audited, audit report is released, and all discrepancies resolved",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Retain until audited, audit report is released, and all discrepancies resolved. ; Electronic: Retain until audited, audit report is released, and all discrepancies resolved., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2014-05-28",
       "next_update_due": null,
       "comments": null

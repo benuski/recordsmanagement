@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: period specified electronic format. If also stored in electronic/digital format, or if converted electronic/digital format, paper records may be destroyed verification of successful conversion and if no longer of value in paper form. ; Electronic: in office or offsite storage during current administration LITIGATION HOLD: Any records subject a litigation hold must be retained hold is lifted by Legal Office, regardless of whether specified retention period has elapsed",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Archives ; Electronic: Archives",
+      "disposition": "Paper: Retain for period specified for electronic format. If also stored in electronic/digital format, or if converted to electronic/digital format, paper records may be destroyed after verification of successful conversion and if no longer of value in paper form. ; Electronic: Retain in office or offsite storage during current administration, then transfer to State Archives. LITIGATION HOLD: Any records subject to a litigation hold must be retained until the hold is lifted by the Legal Office, regardless of whether the specified retention period has elapsed., Paper: Archives ; Electronic: Archives",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2016-06-23",
       "next_update_due": null,
       "comments": null

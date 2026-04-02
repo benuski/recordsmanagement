@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: Indefinitely logged electronically",
-      "duration_years": null,
+      "trigger_event": "AC",
+      "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "Paper: Shred",
+      "disposition": "Paper: Indefinitely until logged electronically then dispose 1 year after the date of the request. Regardless of whether they are scanned, any paper record three years old or older can be disposed of., Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-01-22",
       "next_update_due": null,
       "comments": null

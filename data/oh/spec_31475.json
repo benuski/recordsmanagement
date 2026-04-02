@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "trigger_desc": "Paper: expiration of calendar year in which received",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Paper: Shred",
+      "disposition": "Paper: Destroy 5 years after expiration of calendar year in which received., Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2013-06-24",
       "next_update_due": null,
       "comments": null

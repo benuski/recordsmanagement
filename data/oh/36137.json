@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Paper: Scan paper into electronic format immediately upon receipt. paper in active area two years sale of highway project ; Electronic: electronic images permanently",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Permanent",
+      "disposition": "Paper: Scan paper into electronic format immediately upon receipt. Retain paper in active area for two years after the sale of the highway project, then destroy. ; Electronic: Retain electronic images permanently., Paper: Recycle ; Electronic: Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2019-03-11",
       "next_update_due": null,
       "comments": null

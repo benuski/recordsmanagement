@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Electronic: Continue maintain and update computer data base superseded or record series is no longer created ; Paper: hard copy in operating area information is transferred into AS400 computer system",
-      "duration_years": null,
+      "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase ; Paper: Shred",
+      "disposition": "Electronic: Continue to maintain and update computer data base until superseded or until record series is no longer created, then destroy by erasure. ; Paper: Retain hard copy in operating area until the information is transferred into the AS400 computer system, then retain retain hard copy for 1 year, then destroy., Electronic: Erase ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2003-09-02",
       "next_update_due": null,
       "comments": null

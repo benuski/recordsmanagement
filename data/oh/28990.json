@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: AC-3 forms are be retained one week they are scanned into Universal Document Service quality assurance ; Electronic: AC-3 forms are be retained in Universal Document Service (UDS) one year",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Delete",
+      "disposition": "Paper: The AC-3 forms are to be retained for one week after they are scanned into the Universal Document Service for quality assurance then destroy. ; Electronic: The AC-3 forms are to be retained in the Universal Document Service (UDS) for one year then destroy., Paper: Recycle ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2011-01-20",
       "next_update_due": null,
       "comments": null

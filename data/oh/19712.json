@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Electronic: Maintain machine-readable records on computer database superseded or record series is no longer created, and ; Paper: Maintain hard copy in operting area entered into database and",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase ; Paper: Shred",
+      "disposition": "Electronic: Maintain machine-readable records on the computer database until superseded or until record series is no longer created, and then destroy by erasure. ; Paper: Maintain hard copy in the operting area until entered into the database and then destroy., Electronic: Erase ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2003-06-26",
       "next_update_due": null,
       "comments": null

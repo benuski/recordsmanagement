@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: in office following end of year in which tax credit is claimed ; Electronic: in office following end of year in which tax credit is claimed",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Retain in office 5 years following the end of the year in which the tax credit is claimed, then destroy provided audits are complete, reports are released and all discrepancies are resolved. ; Electronic: Retain in office 5 years following the end of the year in which the tax credit is claimed, then destroy provided audits are complete, reports are released and all discrepancies are resolved., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2023-12-19",
       "next_update_due": null,
       "comments": null

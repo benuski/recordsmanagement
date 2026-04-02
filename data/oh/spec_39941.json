@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Paper: returned item has been paid in full and cleared through office of Attorney General. thereafter providing audited by Auditor of State and audit report released. If unpaid, 60 years from date entered into Returned Payment System",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Paper: Shred",
+      "disposition": "Paper: Retain until the returned item has been paid in full and cleared through the office of the Attorney General. Destroy 2 years thereafter providing audited by Auditor of the State and audit report released. If unpaid, retain for 60 years from the date entered into the Returned Payment System, then destroy., Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2026-01-05",
       "next_update_due": null,
       "comments": null

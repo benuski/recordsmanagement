@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Paper: related hardware is no longer used and all data is transferred and made useable in new hardware environment ; Electronic: related hardware is no longer used and all data is transferred and made useable in new hardware environment",
+      "trigger_event": "AC",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Delete",
+      "disposition": "Paper: Retain 1 year after related hardware is no longer used and all data is transferred to and made useable in new hardware environment ; Electronic: Retain 1 year after related hardware is no longer used and all data is transferred to and made useable in new hardware environment, Paper: Recycle ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2007-08-07",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Paper: Maintain in operating area duration of contract and three years following expiration of contract. ; Electronic: Permanent",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Paper: Trash ; Electronic: Permanent",
+      "disposition": "Paper: Maintain in operating area for duration of the contract and three years following the expiration of the contract. ; Electronic: Permanent, Paper: Trash ; Electronic: Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2019-09-12",
       "next_update_due": null,
       "comments": null

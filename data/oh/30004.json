@@ -11,18 +11,17 @@
       "series_id": "PTA-PRO-13",
       "series_title": "Concealed Carry Licensure Statistical Reports",
       "series_description": "ORC 2923.129 requires that each county sheriff submit to the Attorney General''s Office a quarterly report of the number of new conceal carry permits issued, renewed or denied in that quarter.",
-      "legal_citation": null
+      "legal_citation": "ORC 2923.129"
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: annual report published",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred",
+      "disposition": "Paper: After annual report published, Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2012-01-24",
       "next_update_due": null,
       "comments": null

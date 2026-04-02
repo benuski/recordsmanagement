@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "in division",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Transfer To Staterecords Center For 2 Years, Then Destroy In Compliancewith No",
+      "disposition": "Retain 3 years in division, then transfer to StateRecords Center for 2 years, then destroy in compliancewith No. 8 on schedule cover page. Total retention 5years.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -47,14 +46,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "one copy permanently in agency, one copy Archives. Send 20 copies State Documents Receiving, Library of Virginia, perCode of Virginia, §2.1-467.2",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Retain one copy permanently in agency, transfer one copy to Archives. Send 20 copies to State Documents Receiving, Library of Virginia, perCode of Virginia, §2.1-467.2.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -79,14 +77,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "in division",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Transfer To Staterecords Center For 2 Years, Then Destroy",
+      "disposition": "Retain 3 years in division, then transfer to StateRecords Center for 2 years, then destroy. Totalretention 5 years.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -110,15 +107,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "expiration or rejection",
+      "trigger_event": "AC",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Destroy",
+      "disposition": "Retain 5 years after expiration or rejection, then destroy.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -143,14 +139,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Retain 5 years",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Destroy",
+      "disposition": "Retain 5 years, then destroy.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -174,15 +169,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "expiration",
+      "trigger_event": "AC",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Delete",
+      "disposition": "Retain 5 years after expiration, then delete.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -207,14 +201,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "in division",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "Transfer To State Records Center For 4 Years, Then Destroy",
+      "disposition": "Retain 1 year in division, then transfer to State Records Center for 4 years, then destroy. Total retention 5 years.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -238,15 +231,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "in division participant's attendance",
+      "trigger_event": "AC",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Transfer To State Records Center For 2 Years, Then Destroy",
+      "disposition": "Retain 3 years in division after participant's attendance, then transfer to State Records Center for 2 years, then destroy. Total retention 5 years.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -271,14 +263,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "in division issuance of board's decision or completion of judicial review (as applicable)",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Transfer To State Records Center For 2 Years",
+      "disposition": "Retain 3 years in division after issuance of board's decision or completion of judicial review (as applicable), then transfer to State Records Center for 2 years; then destroy. Total retention 5 years.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -302,15 +293,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "application",
+      "trigger_event": "AC",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Destroy",
+      "disposition": "Retain 5 years after application, then destroy.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -335,14 +325,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Retain 5 years",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Destroy",
+      "disposition": "Retain 5 years, then destroy.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -367,14 +356,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Retain 5 years",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Destroy",
+      "disposition": "Retain 5 years, then destroy.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -399,14 +387,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Retain 5 years",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Destroy",
+      "disposition": "Retain 5 years, then destroy.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -430,15 +417,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "in division contract is ended or completed",
+      "trigger_event": "AC",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Transfer To State Records Center For 1 Year",
+      "disposition": "Retain 2 years in division after contract is ended or completed, then transfer to State Records Center for 1 year; then destroy. Total retention 3 years.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -462,15 +448,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "close of complaint",
+      "trigger_event": "AC",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Destroy",
+      "disposition": "Retain 3 years after close of complaint, then destroy.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -495,14 +480,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "in division",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Transfer To State Records Center For 2 Years",
+      "disposition": "Retain 3 years in division, then transfer to State Records Center for 2 years; then destroy. Total retention 5 years.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -527,14 +511,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "in agency",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Transfer To State Records Center For 2 Years",
+      "disposition": "Retain 3 years in agency, then transfer to State Records Center for 2 years; then destroy. Total retention 5 years.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -558,15 +541,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "in division contract is ended or completed",
+      "trigger_event": "AC",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Transfer To State Records Center For 3 Year",
+      "disposition": "Retain 2 years in division after contract is ended or completed, then transfer to State Records Center for 3 year; then destroy. Total retention 5 years.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -591,14 +573,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Retain 5 years",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Destroy",
+      "disposition": "Retain 5 years, then destroy.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -623,14 +604,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "or superseded, whichever is longer",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Destroy",
+      "disposition": "Retain 5 years or until superseded, whichever is longer, then destroy.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -655,14 +635,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "one copy permanently in agency. Send 20 copies State Documents Receiving, Library of Virginia, perCode of Virginia, §2.1-467.2",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Retain one copy permanently in agency. Send 20 copies to State Documents Receiving, Library of Virginia, perCode of Virginia, §2.1-467.2.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -687,14 +666,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Retain 10 years",
       "duration_years": 10,
       "duration_months": null,
-      "disposition_method": "Destroy",
+      "disposition": "Retain 10 years, then destroy.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -719,14 +697,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "one copy permanently in agency. Send 20 copies State Documents Receiving, Library of Virginia, perCode of Virginia, §2.1-467.2",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Retain one copy permanently in agency. Send 20 copies to State Documents Receiving, Library of Virginia, perCode of Virginia, §2.1-467.2.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -750,15 +727,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "approval of disposition",
+      "trigger_event": "AC",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Destroy",
+      "disposition": "Retain 5 years after approval of disposition, then destroy.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -783,14 +759,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Retain 5 years",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Destroy",
+      "disposition": "Retain 5 years, then destroy.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -815,14 +790,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Retain 5 years",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Destroy",
+      "disposition": "Retain 5 years, then destroy.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -846,15 +820,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "end of contract",
+      "trigger_event": "AC",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Destroy",
+      "disposition": "Retain 5 years after end of contract, then destroy.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null

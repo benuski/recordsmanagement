@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "trigger_desc": "Paper: Materials in file close of calendar year in which created, be transferred Archives",
       "duration_years": 10,
       "duration_months": null,
-      "disposition_method": "Paper: Archives",
+      "disposition": "Paper: Materials in file 10 years after the close of the calendar year in which created, to be transferred to Archives., Paper: Archives",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "1986-06-27",
       "next_update_due": null,
       "comments": null

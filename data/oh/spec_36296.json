@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: paper scanned ; Electronic: on electronic database project site is no longer utilized by ODOT",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Other",
+      "disposition": "Paper: Retain paper until scanned, then destroy paper ; Electronic: Retain on electronic database until the project site is no longer utilized by ODOT., Paper: Recycle ; Electronic: Other",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2019-04-29",
       "next_update_due": null,
       "comments": null

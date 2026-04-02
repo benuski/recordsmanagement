@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: applications, contracts and correspondence from awardees and institutions in office service commitment is met and full award is disbursed ; Electronic: Data entry of payment history and any refunds awardees, service commitment is met and full award is disbursed",
-      "duration_years": null,
+      "trigger_event": "CR",
+      "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Retain applications, contracts and correspondence from awardees and institutions in office until service commitment is met and full award is disbursed, then destroy. Retain applications, contracts and correspondence from non-awardees and institutions in office for 3 years, then destroy. ; Electronic: Data entry of payment history and any refunds for awardees, retain until service commitment is met and full award is disbursed, then destroy. Data entry for non-awardees, retain for 3 years, then destroy., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2010-03-09",
       "next_update_due": null,
       "comments": null

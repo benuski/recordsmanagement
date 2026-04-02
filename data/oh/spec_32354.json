@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: during operation of vehicle by agency. Operating manuals and warranty information goes with vehicle State Salvage and all other records may be destroyed. A Certificate of Disposal is required when destroying these records. ; Electronic: during operation of vehicle by agency. Operating manuals and warranty information goes with vehicle State Salvage and all other records may be destroyed. A Certificate of Disposal is required when destroying these records",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Trash ; Electronic: Delete",
+      "disposition": "Paper: Retain during operation of the vehicle by the agency. Operating manuals and warranty information goes with the vehicle to State Salvage and all other records may be destroyed. A Certificate of Disposal is required when destroying these records. ; Electronic: Retain during operation of the vehicle by the agency. Operating manuals and warranty information goes with the vehicle to State Salvage and all other records may be destroyed. A Certificate of Disposal is required when destroying these records., Paper: Trash ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2014-05-13",
       "next_update_due": null,
       "comments": null

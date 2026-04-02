@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Paper: most current log is maintained on a permanent basis. old log when information is updated, superceded or becomes obsolete. ; Electronic: most current log is maintained on a permanent basis. old log when information is updated, superceded or becomes obsolete",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: The most current log is maintained on a permanent basis. Destroy old log when information is updated, superceded or becomes obsolete. ; Electronic: The most current log is maintained on a permanent basis. Destroy old log when information is updated, superceded or becomes obsolete., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2014-07-15",
       "next_update_due": null,
       "comments": null

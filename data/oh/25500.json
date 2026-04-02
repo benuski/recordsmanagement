@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: 90 days from time application is considered incomplete, withdrawn or denied ; Electronic: 90 days from time application is considered incomplete, withdrawn or denied",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Retain 90 days from time application is considered incomplete, withdrawn or denied, then destroy. ; Electronic: Retain 90 days from time application is considered incomplete, withdrawn or denied, then destroy., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2007-10-30",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Electronic: Imaged files are retained permanently ; Paper: records of electronid funds transfers imaged and image is verified quality and completeness",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Electronic: Permanent ; Paper: Shred",
+      "disposition": "Electronic: Imaged files are retained permanently ; Paper: Retain records of electronid funds transfers until imaged and image is verified for quality and completeness then destroy. Older records not imaged will be retained for the life of the contract, Electronic: Permanent ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2000-12-11",
       "next_update_due": null,
       "comments": null

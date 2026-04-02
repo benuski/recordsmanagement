@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Paper: account is closed and transponder is returned and audited",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle",
+      "disposition": "Paper: Retain until account is closed and transponder is returned and audited, Paper: Recycle",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2018-09-20",
       "next_update_due": null,
       "comments": null

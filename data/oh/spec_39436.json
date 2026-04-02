@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Paper: If an electronic version of record exists, paper copy shall be destroyed. If an electronic version of record does not exist ; Electronic: record shall be retained one year referenced manufactured home park is closed, plans are superseded by approved development plans same manufactured home park, approval of such plans expires, or plan approval is denied, whichever is later",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: If an electronic version of the record exists, the paper copy shall be destroyed. If an electronic version of the record does not exist, then the paper record shall be retained until one year after the referenced manufactured home park is closed, the plans are superseded by approved development plans for the same manufactured home park, the approval of such plans expires, or the plan approval is denied, whichever is later. ; Electronic: The record shall be retained until one year after the referenced manufactured home park is closed, the plans are superseded by approved development plans for the same manufactured home park, the approval of such plans expires, or the plan approval is denied, whichever is later., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2024-04-30",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: Original applications are retained one month, imaged (.pdf) ; Microform: ; Electronic",
       "duration_years": 35,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Microform: Shred ; Electronic: Erase",
+      "disposition": "Paper: Original applications are retained for one month, imaged (.pdf), then shred. ; Microform: 35 years then shred. ; Electronic: 35 years then erased, Paper: Shred ; Microform: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2015-04-01",
       "next_update_due": null,
       "comments": null

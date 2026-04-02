@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Paper: If an electronic version of record exists, paper copy shall be destroyed. If an electronic version of record does not exist ; Electronic: record shall be retained one year relevant manufactured home park is closed or one year record is superseded",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Erase",
+      "disposition": "Paper: If an electronic version of the record exists, the paper copy shall be destroyed. If an electronic version of the record does not exist, then the paper record shall be retained until one year after the relevant manufactured home park is closed or until one year after the record is superseded. ; Electronic: The record shall be retained until one year after the relevant manufactured home park is closed or until one year after the record is superseded., Paper: Recycle ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2024-04-30",
       "next_update_due": null,
       "comments": null

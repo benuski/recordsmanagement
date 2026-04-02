@@ -11,18 +11,17 @@
       "series_id": "567-OAG-60",
       "series_title": "Grievance Records",
       "series_description": "Per ORC 4117.03, documents process when an employee believes that a violation of a collective bargaining agreement between the labor union and the Ohio Attorney General's Office (AGO) has occurred. Records include, but are not limited to, grievance forms, responses, settlement agreements, arbitration awards, and memos of understanding.",
-      "legal_citation": null
+      "legal_citation": "ORC 4117.03"
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Electronic: settlement. ; Paper: settlement. If scanned and saved electronically, dispose of paper immediately",
+      "trigger_event": "AC",
       "duration_years": 7,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "disposition": "Electronic: Retain 7 years after settlement. ; Paper: Retain 7 years after settlement. If scanned and saved electronically, dispose of paper immediately., Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-09-10",
       "next_update_due": null,
       "comments": null

@@ -11,18 +11,17 @@
       "series_id": "LEG-06",
       "series_title": "Confidential Personal Information (CPI) System Access Logs",
       "series_description": "Electronic logs documenting employee access to confidential personal information (CPI) pursuant to ORC 1347.15 and OAC 113-25-01.",
-      "legal_citation": null
+      "legal_citation": "ORC 1347.15"
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Electronic: log has been generated",
+      "trigger_event": "AC",
       "duration_years": 7,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete",
+      "disposition": "Electronic: 7 years after the log has been generated., Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2022-10-27",
       "next_update_due": null,
       "comments": null

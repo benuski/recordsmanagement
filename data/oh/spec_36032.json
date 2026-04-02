@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "trigger_desc": "Paper: by shredding. Documents will be destroyed five years end of calendar year forms received during calendar year. If scanned, . ; Electronic: Delete documents five years end of calendar year forms received during calendar year",
       "duration_years": null,
       "duration_months": 6,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Destroy by shredding. Documents will be destroyed five years after the end of the calendar year for forms received during the calendar year. If scanned, retain for 6 months. ; Electronic: Delete documents five years after the end of the calendar year for forms received during the calendar year., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2019-02-20",
       "next_update_due": null,
       "comments": null

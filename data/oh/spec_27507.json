@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: hard copy records in opeating area information is effectively replaced, record series is no longer maintained or material is scanned and verified ; Electronic: Maintain securities machine readable records on database information is effectively replaced or record series is no longer maintained",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Trash ; Electronic: Erase",
+      "disposition": "Paper: Retain hard copy records in opeating area until the information is effectively replaced, the record series is no longer maintained or material is scanned and verified then destroy. ; Electronic: Maintain securities machine readable records on database until information is effectively replaced or the record series is no longer maintained, then destroy by erasure., Paper: Trash ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2009-07-16",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: be retained in fiscal office a period of (1) year ; Electronic: Electronic records be retained on fiscal server",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: To be retained in the fiscal office for a period of (1) year then transferred offsite for (1) year then shred. ; Electronic: Electronic records to be retained for 2 years on fiscal server then deleted., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2015-09-14",
       "next_update_due": null,
       "comments": null

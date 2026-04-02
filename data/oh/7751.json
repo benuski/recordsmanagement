@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: in office area six month",
-      "duration_years": null,
+      "trigger_event": "CR",
+      "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Paper: Shred",
+      "disposition": "Paper: Retain in office area for six month then transfer to the State Records Center. Maintain at the State Records Center for 1.5 years, then destroy., Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "1992-02-11",
       "next_update_due": null,
       "comments": null

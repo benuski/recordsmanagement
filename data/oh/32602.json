@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Paper: superseded or no longer of use agency. when no longer of administrative value. ; Electronic: superseded or no longer of use agency. when no longer of administrative value",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Trash ; Electronic: Delete",
+      "disposition": "Paper: Retain until superseded or no longer of use to the agency. Destroy when no longer of administrative value. ; Electronic: Retain until superseded or no longer of use to the agency. Destroy when no longer of administrative value., Paper: Trash ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2014-09-04",
       "next_update_due": null,
       "comments": null

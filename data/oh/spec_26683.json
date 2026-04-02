@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Paper: Image paper copy and quality check on imaging system. audit ; Electronic: imaged document a minimum of , even if audit occurs within",
+      "trigger_event": "AC",
       "duration_years": 4,
       "duration_months": null,
-      "disposition_method": "Paper: Wastepaper ; Electronic: Delete",
+      "disposition": "Paper: Image paper copy and quality check on imaging system. Retain until after audit, then destroy. ; Electronic: Retain imaged document a minimum of 4 years, even if audit occurs within 4 years, then destroy. If audit occurs after 4 years, retain until audit, then destroy., Paper: Wastepaper ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2008-09-10",
       "next_update_due": null,
       "comments": null

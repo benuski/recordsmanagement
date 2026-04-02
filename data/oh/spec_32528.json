@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: duration of employment two (2) months. A Certificate of Disposal is required when destroying this record. ; Electronic: duration of employment two (2) months. A Certificate of Disposal is required when destroying this record",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Trash ; Electronic: Delete",
+      "disposition": "Paper: Retain for duration of employment plus two (2) months. A Certificate of Disposal is required when destroying this record. ; Electronic: Retain for duration of employment plus two (2) months. A Certificate of Disposal is required when destroying this record., Paper: Trash ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2014-07-01",
       "next_update_due": null,
       "comments": null

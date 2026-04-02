@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Electronic: ; Paper: case is closed",
       "duration_years": 3,
       "duration_months": 3,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
-      "confidential_flag": false
+      "disposition": "Electronic: Retain 3 years then destroy. Summary data is retained for an additional 3 years then destroyed. ; Paper: Retain for 3 months after case is closed, then destroy. Confidential information (e.g. consumer social security numbers) will be shredded in accordance with established procedures., Electronic: Delete ; Paper: Shred",
+      "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2008-08-25",
       "next_update_due": null,
       "comments": null

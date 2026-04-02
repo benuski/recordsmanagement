@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: in Central Ohio files five (5) years or audited by Supplemental Nutrition Assistance Program (SNAP) or its designee and report is released. ; Electronic: in Ohio Agent Secure Information System database files five (5) years or audited by SNAP or its designee and report is released",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain in Central Ohio files for five (5) years or until audited by the Supplemental Nutrition Assistance Program (SNAP) or its designee and the report is released. ; Electronic: Retain in Ohio Agent Secure Information System database files for five (5) years or until audited by the SNAP or its designee and the report is released., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2023-05-23",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: in office and 1 year in records center ; Electronic: in office 5 years",
       "duration_years": 4,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Retain in office 4 years and 1 year in records center, then review by State Archives for possible retention or disposal. ; Electronic: Retain in office 5 years then erase., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2023-12-28",
       "next_update_due": null,
       "comments": null

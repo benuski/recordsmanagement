@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: sale of goods, five years contract expires",
-      "duration_years": null,
+      "trigger_event": "AC",
+      "duration_years": 16,
       "duration_months": null,
-      "disposition_method": "Paper: Wastepaper",
+      "disposition": "Paper: For sale of goods, retain five years after contract expires, then destroy. For services, retain 16 years, then destroy, Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2000-08-12",
       "next_update_due": null,
       "comments": null

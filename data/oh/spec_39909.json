@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Electronic: order has been checked in or any delivery problem has been resolved ; Paper: order has been checked in or any delivery problem has been resolved",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Trash",
+      "disposition": "Electronic: Retain until order has been checked in or until any delivery problem has been resolved, then destroy. ; Paper: Retain until order has been checked in or until any delivery problem has been resolved, then destroy., Electronic: Delete ; Paper: Trash",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-11-28",
       "next_update_due": null,
       "comments": null

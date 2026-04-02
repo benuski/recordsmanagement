@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Paper: Paper: minutes are approved by appropriate committee and signed by committee chairperson; and minutes are scanned LAN [Journal], and scan is reviewed accuracy and completeness, review by State Archives ; Electronic: Audiotapes and Other Electronic [Digital recording]: minutes are transcribed and reviewed accuracy and completeness, and transferred LAN and LAN checked accuracy",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Paper: Archives ; Electronic: Permanent",
+      "disposition": "Paper: Paper: Retain until minutes are approved by the appropriate committee and signed by the committee chairperson; and until the minutes are scanned to the LAN [Journal], and the scan is reviewed for accuracy and completeness, review by State Archives,then destroy; however, if not scanned to LAN, retain permanently ; Electronic: Audiotapes and Other Electronic [Digital recording]: Retain until minutes are transcribed and reviewed for accuracy and completeness, and until transferred to LAN and LAN checked for accuracy; then erase; however, if not transferred to LAN, retain permanently. LAN: Retain permanently as part of the Journal. [See EXE-0006], Paper: Archives ; Electronic: Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-12-14",
       "next_update_due": null,
       "comments": null

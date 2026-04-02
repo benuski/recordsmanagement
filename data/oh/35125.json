@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: scanned electronic medium storage and scan is checked accuracy or ; ; Electronic: electronic version 25 years",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Paper: Archives ; Electronic: Erase",
+      "disposition": "Paper: Retain until scanned to electronic medium for storage and scan is checked for accuracy or 3 years; then forward to State Archives. ; Electronic: Retain electronic version for 25 years, then reviewed by State Archives., Paper: Archives ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-12-03",
       "next_update_due": null,
       "comments": null

@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Paper: expiration of lease",
+      "trigger_event": "AC",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle",
+      "disposition": "Paper: Retain 5 years after expiration of lease, then destroy., Paper: Recycle",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-06-22",
       "next_update_due": null,
       "comments": null

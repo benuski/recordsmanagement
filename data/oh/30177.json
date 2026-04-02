@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: paper documents in active area two (2) years or action plans are completed",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle",
+      "disposition": "Paper: Retain paper documents in active area for two (2) years or until action plans are completed, then destroy., Paper: Recycle",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2012-04-18",
       "next_update_due": null,
       "comments": null

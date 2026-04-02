@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Electronic: In office close of investigation or a finding of probable cause with hearing schedule; ; Paper: In office close of investigation or a finding of probable cause with hearing schedule;hen",
+      "trigger_event": "AC",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase ; Paper: Shred",
+      "disposition": "Electronic: In office 2 years after the close of the investigation or a finding of probable cause with transfer to the hearing schedule; then destroy ; Paper: In office 2 years after the close of the investigation or a finding of probable cause with transfer to hearing schedule;hen destroy, Electronic: Erase ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2002-11-15",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: in operating area one year, storage in off-site location four years",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Burn",
+      "disposition": "Paper: Retain in operating area one year, storage in off-site location for four years, then destroy., Paper: Burn",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "1988-03-11",
       "next_update_due": null,
       "comments": null

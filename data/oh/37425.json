@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: all activities are entered into CAD system and ; Electronic: two (2) years, current",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Retain until all activities are entered into the CAD system and then destroy the paper version ; Electronic: Retain for two (2) years, plus current, then delete., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2024-10-21",
       "next_update_due": null,
       "comments": null

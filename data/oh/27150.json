@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Microform: determined obsolete ; Paper: in office , storage facility 10 years",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Microform: Trash ; Paper: Wastepaper",
+      "disposition": "Microform: Retain until determined obsolete, then destroy. ; Paper: Retain in office 2 years, transfer to storage facility for 10 years, then destroy., Microform: Trash ; Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2009-04-21",
       "next_update_due": null,
       "comments": null

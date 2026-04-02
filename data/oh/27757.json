@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: paper copy of verification letters ; Electronic: Information from IGR Invoices and Final Assessment Invoices are added OCC''''''''s yearly Calculation of Utility Assessments and retained in OCC electronic system 7 years",
       "duration_years": 4,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Erase",
+      "disposition": "Paper: Retain paper copy of verification letters for 4 years then destroy. ; Electronic: Information from the IGR Invoices and Final Assessment Invoices are added to the OCC''''''''s yearly Calculation of Utility Assessments and retained in the OCC electronic system for 7 years., Paper: Recycle ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2009-07-17",
       "next_update_due": null,
       "comments": null

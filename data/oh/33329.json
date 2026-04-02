@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: Records maintained in paper form shall be maintained four years from date referral was sent by Division. ; Electronic: any records maintained in machine readable format, records shall be maintained four years from date referral was sent by Division. ; Microform: any records maintained in microform, records shall be maintained four years from date referral was sent by Division",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase ; Microform: Shred",
+      "disposition": "Paper: Records maintained in paper form shall be maintained on-site for four years from the date the referral was sent by the Division. Then paper records shall be destroyed. ; Electronic: For any records maintained in machine readable format, the records shall be maintained on-site for four years from the date the referral was sent by the Division. Then the machine readable record shall be destroyed. ; Microform: For any records maintained in microform, the records shall be maintained on-site for four years from the date the referral was sent by the Division. Then the microform shall be destroyed., Paper: Shred ; Electronic: Erase ; Microform: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2016-02-11",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Electronic: All records used during hearing process are maintained in paper file and are transferred SSA upon final determination. file copies no longer of administrative value and ; Paper: All records used during hearing process are maintained in paper file and are transferred SSA upon final determination. file copies no longer of administrative value and",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "disposition": "Electronic: All records used during the hearing process are maintained in the paper file and are transferred to SSA upon final determination. Retain file copies until no longer of administrative value and then destroy. ; Paper: All records used during the hearing process are maintained in the paper file and are transferred to SSA upon final determination. Retain file copies until no longer of administrative value and then destroy., Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2014-07-01",
       "next_update_due": null,
       "comments": null

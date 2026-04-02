@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Electronic: in office area/ phone system or file share ; Paper: in office area/ phone system or file share",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase ; Paper: Trash",
+      "disposition": "Electronic: Retain in office area/ phone system or file share for 1 year, then destroy/erase (State Archives to receive a copy of agency blue pages once a year). ; Paper: Retain in office area/ phone system or file share for 1 year, then destroy/erase (State Archives to receive a copy of agency blue pages once a year)., Electronic: Erase ; Paper: Trash",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2013-06-07",
       "next_update_due": null,
       "comments": null

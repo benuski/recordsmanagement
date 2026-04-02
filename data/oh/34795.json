@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Paper: Keep permit expiration or facility closure unless a licensee or permittee is involved in litigation with Division. In which case, keep 2 years add administrative, civil, or criminal action is complete. ; Electronic: Keep permit expiration or facility closure unless a licensee or permittee is involved in litigation with Division. In which case, keep 2 years add administrative, civil, or criminal action is complete",
+      "trigger_event": "AC",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Paper: Trash ; Electronic: Delete",
+      "disposition": "Paper: Keep for 5 years after permit expiration or facility closure unless a licensee or permittee is involved in litigation with the Division. In which case, keep for 2 years after add administrative, civil, or criminal action is complete. Then destroy ; Electronic: Keep for 5 years after permit expiration or facility closure unless a licensee or permittee is involved in litigation with the Division. In which case, keep for 2 years after add administrative, civil, or criminal action is complete. Then destroy, Paper: Trash ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-11-02",
       "next_update_due": null,
       "comments": null

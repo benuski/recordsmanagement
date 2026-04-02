@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "trigger_desc": "Paper: affected officer''s driving record has been updated with an \"L1\" indicator. verification or one calendar year.. ; Electronic: affected officer''s driving record has been updated with an \"L1\" indicator. verification or one calendar year",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain until the affected officer''s driving record has been updated with an \"L1\" indicator. Destroy after verification or one calendar year.. ; Electronic: Retain until the affected officer''s driving record has been updated with an \"L1\" indicator. Destroy after verification or one calendar year., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2016-09-22",
       "next_update_due": null,
       "comments": null

@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Paper: being scanned into Universal Document Service (UDS), 30 days quality assurance ; Electronic",
+      "trigger_event": "AC",
       "duration_years": 10,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: After being scanned into the Universal Document Service (UDS), retain for 30 days for quality assurance then destroy. ; Electronic: Retain for 10 years then destroy., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2013-04-23",
       "next_update_due": null,
       "comments": null

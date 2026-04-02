@@ -11,18 +11,17 @@
       "series_id": "062-OAG-04",
       "series_title": "Debt Certification Cards (a.k.a Certs/White Certs)",
       "series_description": "Cards forwarded to Attorney General''s Office listing debts for collection. Information includes claim and serial numbers, judgment information, county filed, debtor contact information at time of debt, type of claim, period of debt, amount due, penalty and total, date lien occurred and date certified debt sent to Attorney General for collection.",
-      "legal_citation": null
+      "legal_citation": "ORC 131.02"
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: (per ORC 131.02(F)(2))",
       "duration_years": 40,
       "duration_months": null,
-      "disposition_method": "Paper: Shred",
+      "disposition": "Paper: 40 years (per ORC 131.02(F)(2)), Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2010-04-07",
       "next_update_due": null,
       "comments": null

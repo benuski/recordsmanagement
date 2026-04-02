@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "in agency data entry",
+      "trigger_event": "AC",
       "duration_years": 50,
       "duration_months": null,
-      "disposition_method": "Destroy",
+      "disposition": "Retain in agency 50 years after data entry, then destroy.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -47,14 +46,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "item permanently removed from inventory",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Delete Entry",
+      "disposition": "Retain until item permanently removed from inventory, then delete entry. Disposal reporting onCertificate of Records Disposal(RM-3 form) not required.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -78,15 +76,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "expiration of contract",
+      "trigger_event": "AC",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Destroy",
+      "disposition": "Retain 3 years after expiration of contract, then destroy.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -111,14 +108,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "end of fiscal year",
       "duration_years": 10,
       "duration_months": null,
-      "disposition_method": "Purge And Destroy",
+      "disposition": "Retain 10 years after end of fiscal year, then purge and destroy.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -142,15 +138,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "disposal of records",
+      "trigger_event": "AC",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Purge And Transfer Internally For Records Center Storage",
+      "disposition": "After 5 years after disposal of records, then purge and transfer internally for Records Center storage. Retain in Records Center for 45 years. Total retention 50 years, then destroy.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -174,15 +169,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "disposal of equipment",
+      "trigger_event": "AC",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Destroy",
+      "disposition": "Retain 3 years after disposal of equipment, then destroy.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -206,15 +200,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "last action",
+      "trigger_event": "AC",
       "duration_years": 25,
       "duration_months": null,
-      "disposition_method": "Destroy In Compliance With No",
+      "disposition": "Retain 25 years after last action, then destroy in compliance with No. 8 on schedule cover page.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -239,14 +232,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Upon refilling of record, related request records series 005412, \"File Retrieval Requests – Closed\"",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Upon refilling of record, transfer the related request to records series 005412, \"File Retrieval Requests – Closed\".",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -271,14 +263,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "permanent removal or disposal of related hazardous material",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Destroy",
+      "disposition": "Retain until permanent removal or disposal of related hazardous material, then destroy. Disposal reporting on Certificate of Records Disposal (RM-3 form) not required.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -302,15 +293,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "employee departure",
+      "trigger_event": "AC",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Destroy",
+      "disposition": "Retain 3 years after employee departure, then destroy.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -335,14 +325,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "all items on have been destroyed and/or permanently transferred out of Records Center",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Transfer To Records Series 005410, Disposal Files With All Related Certificates Of Record Disposal And Related Documentation Attached",
+      "disposition": "Retain until all items on transfer have been destroyed and/or permanently transferred out of Records Center, then transfer to records series 005410, Disposal Files with all related Certificates of Record Disposal and related documentation attached.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -366,15 +355,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "report date",
+      "trigger_event": "AC",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "Destroy",
+      "disposition": "Retain 1 year after report date, then destroy.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -398,15 +386,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "action completed",
+      "trigger_event": "AC",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Destroy",
+      "disposition": "Retain 3 years after action completed, then destroy.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null

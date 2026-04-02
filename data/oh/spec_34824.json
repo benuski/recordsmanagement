@@ -11,18 +11,17 @@
       "series_id": "EXL-0006",
       "series_title": "Public Records Requests",
       "series_description": "Documents pertaining to requests for public records, Maintained to document compliance with ORC 149.43.",
-      "legal_citation": null
+      "legal_citation": "ORC 149.43"
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: scanned ; Electronic: electronic copy",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain until scanned, then destroy. ; Electronic: Retain electronic copy for 3 years., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2026-03-09",
       "next_update_due": null,
       "comments": null

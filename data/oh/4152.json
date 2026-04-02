@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Microform: life of facility ; Paper: in office completion of construction project",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Microform: Wastepaper ; Paper: Wastepaper",
+      "disposition": "Microform: Retain for the life of the facility, then dispose ; Paper: Retain in office 2 years after completion of construction project, then destroy, provided that the paper records have been copied to microfilm, Microform: Wastepaper ; Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "1994-06-29",
       "next_update_due": null,
       "comments": null

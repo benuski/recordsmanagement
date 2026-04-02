@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: records (Parts 3,4,5) in office files returns tax year which is being assessed are destroyed, or all payments have been resolved, whichever is later. And ; Electronic: records (Parts 3,4,5) in office files returns tax year which is being assessed are destroyed, or all payments have been resolved, whichever is later. And",
       "duration_years": null,
-      "duration_months": null,
-      "disposition_method": "Paper: Wastepaper ; Electronic: Delete",
+      "duration_months": 6,
+      "disposition": "Paper: Retain records (Parts 3,4,5) in office files until returns for tax year which is being assessed are destroyed, or until all payments have been resolved, whichever is later. And then destroy. Part one is retained by the Tax Commissioner for the same period of time. If scanned, retain for 6 months. ; Electronic: Retain records (Parts 3,4,5) in office files until returns for tax year which is being assessed are destroyed, or until all payments have been resolved, whichever is later. And then destroy. Part one is retained by the Tax Commissioner for the same period of time., Paper: Wastepaper ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2019-01-31",
       "next_update_due": null,
       "comments": null

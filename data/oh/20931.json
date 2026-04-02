@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: information is no longer current",
-      "duration_years": null,
+      "trigger_event": "CR",
+      "duration_years": 16,
       "duration_months": null,
-      "disposition_method": "Paper: Archives",
+      "disposition": "Paper: Retain until information is no longer current then review by State Archives prior to disposal. If photos document a specific construction poject, the photos shall be kept for 16 years as set forth in GAR-C-03(A)., Paper: Archives",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2004-09-16",
       "next_update_due": null,
       "comments": null

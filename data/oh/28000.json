@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Electronic: from completion. ; Paper: from completion. If scanned and saved electronically, dispose of paper immediately",
       "duration_years": 4,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "disposition": "Electronic: Retain 4 years from completion. ; Paper: Retain 4 years from completion. If scanned and saved electronically, dispose of paper immediately., Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2023-08-30",
       "next_update_due": null,
       "comments": null

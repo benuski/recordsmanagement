@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: from later of following: (a) date of receipt of resume or application or (b) date position is filled or an agency decision is made not fill position. ; Electronic: from later of following: (a) date of receipt of resume or application or (b) date position is filled or an agency decision is made not fill position",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain 2 years from the later of the following: (a) date of receipt of resume or application or (b) date position is filled or an agency decision is made not to fill the position. ; Electronic: Retain 2 years from the later of the following: (a) date of receipt of resume or application or (b) date position is filled or an agency decision is made not to fill the position., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2014-09-23",
       "next_update_due": null,
       "comments": null

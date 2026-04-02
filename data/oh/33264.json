@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: paper copy in operating area converted machine readable format. Upon confirmation machine readable records have been checked quality and completeness, paper copy. ; Microform: seven years ; Electronic: Maintain electronic data fifty years",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Microform: Shred ; Electronic: Shred",
+      "disposition": "Paper: Retain paper copy in operating area until converted to machine readable format. Upon confirmation machine readable records have been checked for quality and completeness, destroy paper copy. ; Microform: Retain for seven years, then destroy. ; Electronic: Maintain electronic data fifty years., Paper: Shred ; Microform: Shred ; Electronic: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2015-12-04",
       "next_update_due": null,
       "comments": null

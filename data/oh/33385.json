@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Paper: lost time claim file claim has reached appropriate statute of limitations (i.e. expiration date) according date of injury (DOI) year. Digitally image claim file records, 30 days quality control, and ; Electronic: lost time claim file claim has reached appropriate statute of limitations (i.e. expiration date) according date of injury (DOI) year. ; Microform: lost time claim file claim has reached appropriate statute of limitations (i.e. expiration date) according date of injury (DOI) year",
+      "trigger_event": "AC",
       "duration_years": 6,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete ; Microform: Burn",
-      "confidential_flag": false
+      "disposition": "Paper: Retain the lost time claim file for 6 years after the claim has reached the appropriate statute of limitations (i.e. expiration date) according to the date of injury (DOI) year. Digitally image claim file records, retain for 30 days for quality control, and then dispose of as confidential. ; Electronic: Retain the lost time claim file for 6 years after the claim has reached the appropriate statute of limitations (i.e. expiration date) according to the date of injury (DOI) year. ; Microform: Retain the lost time claim file for 6 years after the claim has reached the appropriate statute of limitations (i.e. expiration date) according to the date of injury (DOI) year., Paper: Shred ; Electronic: Delete ; Microform: Burn",
+      "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2024-01-30",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Paper: Paper: , and ; Electronic: LAN: superseded, obsolete, or replaced",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Paper: Archives ; Electronic: Erase",
+      "disposition": "Paper: Paper: Retain 2 years, and then review by State Archives. ; Electronic: LAN: Retain until superseded, obsolete, or replaced, then destroy, Paper: Archives ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-12-14",
       "next_update_due": null,
       "comments": null

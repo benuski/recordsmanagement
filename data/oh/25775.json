@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Paper: Paper documents scanned digital files (e.g., pdf) placement on Board server and back-up; paper may be destroyed staff determines integrity of digital file by viewing it; All paper files have been scanned and future files shall be scanned digital file as standard operating procedure and ease of storage. ; Electronic: digital file on Board server and back-up media held in secure place following death of licensee unless there is an order preserve file in excess of due pending legal action involving estate or file",
+      "trigger_event": "AC",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Erase",
+      "disposition": "Paper: Paper documents scanned to digital files (e.g., pdf) for placement on Board server and back-up; paper may be destroyed after staff determines the integrity of digital file by viewing it; All paper files have been scanned and future files shall be scanned to digital file as standard operating procedure and ease of storage. ; Electronic: Retain digital file on Board server and back-up media held in secure place for 5 years following the death of the licensee unless there is an order to preserve the file in excess of 5 years due to pending legal action involving the estate or the file., Paper: Recycle ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2008-08-14",
       "next_update_due": null,
       "comments": null

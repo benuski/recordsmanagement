@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Electronic: subrogation file has closed, and ; Paper: account is collected",
       "duration_years": 10,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
-      "confidential_flag": false
+      "disposition": "Electronic: Retain for 10 years after the subrogation file has closed, and then destroy as confidential. ; Paper: Retain after the account is collected, then scan into a secure online repository. Retain the document for one month to verify it was scanned, and then destroy., Electronic: Delete ; Paper: Shred",
+      "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2023-11-17",
       "next_update_due": null,
       "comments": null

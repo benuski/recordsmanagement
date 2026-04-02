@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: Paper: Original filed with Ethics Commission. one paper copy scanned LAN and LAN checked accuracy ; Electronic: LAN: employee separates from Board",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Paper: Original filed with the Ethics Commission. Retain one paper copy until scanned to LAN and LAN checked for accuracy then destroy; however, if not scanned to LAN, retain until the employee separates for the Board ; Electronic: LAN: Retain until the employee separates from the Board, Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-12-03",
       "next_update_due": null,
       "comments": null

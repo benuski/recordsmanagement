@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Paper: paper annual GAAP report sent OBM and any discrepancies are resolved. ; Electronic: Paper is scanned and images are saved indefinitely",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Permanent",
+      "disposition": "Paper: Retain paper until annual GAAP report sent to OBM and any discrepancies are resolved. ; Electronic: Paper is scanned and images are saved indefinitely., Paper: Shred ; Electronic: Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-02-25",
       "next_update_due": null,
       "comments": null

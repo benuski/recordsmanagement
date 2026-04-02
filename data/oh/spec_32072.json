@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Electronic: current, five years in HR/PeopleSoft and ERIS systems. Reports relating or indicating employee exposure toxic or harmful substances or physical agents shall be retained from date of employee''s separation",
       "duration_years": 30,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete",
+      "disposition": "Electronic: Retain current, plus five years in HR/PeopleSoft and ERIS systems. Reports relating to or indicating employee exposure to toxic or harmful substances or physical agents shall be retained 30 years from date of employee''s separation., Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2014-02-12",
       "next_update_due": null,
       "comments": null

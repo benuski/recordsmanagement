@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: hard copy electronic ; Electronic: hard copy electronic",
-      "duration_years": null,
+      "trigger_event": "CR",
+      "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Paper: Wastepaper ; Electronic: Erase",
+      "disposition": "Paper: Retain hard copy until electronic, then destroy hard copy. Retain electronic 5 years, then destroy. ; Electronic: Retain hard copy until electronic, then destroy hard copy. Retain electronic 5 years, then destroy., Paper: Wastepaper ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2008-03-04",
       "next_update_due": null,
       "comments": null

@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: information is electronically scanned or entered ; Electronic: bridge is retired from services or no longer of administrative value",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": 6,
-      "disposition_method": "Paper: Recycle ; Electronic: Delete",
+      "disposition": "Paper: Retain until information is electronically scanned or entered, then destroy. ; Electronic: Retain until 6 months after the bridge is retired from services or until no longer of administrative value, then destroy., Paper: Recycle ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2019-05-30",
       "next_update_due": null,
       "comments": null

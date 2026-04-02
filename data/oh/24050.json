@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: reports are retained audited by Auditor of State and audit report released",
-      "duration_years": null,
+      "trigger_event": "AC",
+      "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "Paper: Shred",
+      "disposition": "Paper: The reports are retained until audited by Auditor of State and audit report released, then destroy 1 year thereafter., Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2006-10-03",
       "next_update_due": null,
       "comments": null

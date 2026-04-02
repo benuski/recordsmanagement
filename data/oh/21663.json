@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Electronic: In office superseded or record no longer exists; ; Paper: In office superseded or record no longer exists",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase ; Paper: Wastepaper",
+      "disposition": "Electronic: In office until superseded or 2 years after record no longer exists; then destroy. ; Paper: In office until superseded or 2 years after record no longer exists; then destroy., Electronic: Erase ; Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2005-05-25",
       "next_update_due": null,
       "comments": null

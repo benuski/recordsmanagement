@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Electronic: seven (7) years from date of hire or academy class graduation, or completion date of finger-based criminal background checks, as applicable. ; Paper: seven (7) years from date of hire or academy class graduation, or date of finger-based criminal background checks, as applicable. Records may be imaged, with exception of Criminal History Check response letters unless they meet standards set forth in Section 5.10.1.2.2 “Encryption CJI at Rest” in Law Enforcement Automated Data Systems (LEADS) Security Policy. Paper records may be destroyed when electronic records are validated",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "disposition": "Electronic: Retain seven (7) years from date of hire or academy class graduation, or completion date of finger-based criminal background checks, as applicable. ; Paper: Retain seven (7) years from date of hire or academy class graduation, or date of finger-based criminal background checks, as applicable. Records may be imaged, with exception of Criminal History Check response letters unless they meet the standards set forth in Section 5.10.1.2.2 “Encryption for CJI at Rest” in the Law Enforcement Automated Data Systems (LEADS) Security Policy. Paper records may be destroyed when electronic records are validated., Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-03-11",
       "next_update_due": null,
       "comments": null

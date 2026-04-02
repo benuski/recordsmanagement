@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: related records or media are destroyed or withdrawn from tape library ; Electronic: related records or media are destroyed or withdrawn from tape library",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Delete",
+      "disposition": "Paper: Retain until related records or media are destroyed or withdrawn from the tape library, then destroy. ; Electronic: Retain until related records or media are destroyed or withdrawn from the tape library, then destroy., Paper: Recycle ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2008-05-01",
       "next_update_due": null,
       "comments": null

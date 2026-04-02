@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "Paper: ten (10) federal fiscal years, and ; Electronic: ten (10) federal fiscal years, and",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Trash ; Electronic: Delete",
+      "disposition": "Paper: Retain for ten (10) federal fiscal years, and then destroy. No RC-3 is necessary when destroying these records. ; Electronic: Retain for ten (10) federal fiscal years, and then destroy. No RC-3 is necessary when destroying these records., Paper: Trash ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2014-01-13",
       "next_update_due": null,
       "comments": null

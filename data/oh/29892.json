@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Paper: work product and schedule superseded by a revised retention schedule, or record series is no longer maintained, and ; Electronic: work product and schedule superseded by a revised retention schedule, or record series is no longer maintained, and",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Delete",
+      "disposition": "Paper: Retain the work product and schedule until superseded by a revised retention schedule, or until record series is no longer maintained, and then destroy. ; Electronic: Retain the work product and schedule until superseded by a revised retention schedule, or until record series is no longer maintained, and then destroy., Paper: Recycle ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2012-03-02",
       "next_update_due": null,
       "comments": null

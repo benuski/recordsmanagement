@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: form is attached document that is faxed and is maintained same period of time as attached document ; Microform: form is attached document that is faxed and is maintained same period of time as attached document",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Microform: Shred",
+      "disposition": "Paper: The form is attached to the document that is faxed and is maintained for the same period of time as the attached document ; Microform: The form is attached to the document that is faxed and is maintained for the same period of time as the attached document, Paper: Shred ; Microform: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2003-04-07",
       "next_update_due": null,
       "comments": null

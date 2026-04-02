@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Paper: Paper records be retained five years final determination by OSM and ; Electronic: Except final determination by OSM, which will be maintained permanently, electronic records will be retained five years final determination by OSM",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Paper records to be retained until five years after final determination by OSM and then destroyed. If scanned and saved in an electronic format, the paper copy may be destroyed at that time. ; Electronic: Except for final determination by OSM, which will be maintained permanently, electronic records will be retained until five years after the final determination by OSM, then destroyed., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-11",
       "next_update_due": null,
       "comments": null

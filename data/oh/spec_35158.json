@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: , audited and audit report has been resolved and released with no discrepancies",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Paper: Shred",
+      "disposition": "Paper: Retain for 2 years, until audited and the audit report has been resolved and released with no discrepancies, then destroy., Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2018-09-10",
       "next_update_due": null,
       "comments": null

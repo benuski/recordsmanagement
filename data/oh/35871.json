@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Paper: in office ; Microform: master and duplicate microfilm ; Electronic: master and duplicate images on compact disc",
+      "trigger_event": "AC",
       "duration_years": 7,
       "duration_months": 6,
-      "disposition_method": "Paper: Shred ; Microform: Shred ; Electronic: Erase",
+      "disposition": "Paper: Retain in office 6 months, then film or image by contract vendor. Destroy after quality review. ; Microform: Retain master and duplicate microfilm for 7 years, then destroy provided state and federal audits are complete, audit reports are released and all discrepancies have been resolved. ; Electronic: Retain master and duplicate images on compact disc for 7 years, then destroy provided state and federal audits are complete, audit reports are released and all discrepancies have been resolved., Paper: Shred ; Microform: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2019-02-14",
       "next_update_due": null,
       "comments": null

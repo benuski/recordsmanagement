@@ -11,18 +11,17 @@
       "series_id": "FIN-13",
       "series_title": "Court Order Settlement Funds",
       "series_description": "Records concerning settlement funds held outside of State Treasury Fund by Ohio Attorney General''s Office (AGO) and any relating transactions concerning these funds per ORC 109.111. Records include, but are not limited to, reconciliations between funds of office, payments from funds, agreements concerning the funds received, and copy of check(s).",
-      "legal_citation": null
+      "legal_citation": "ORC 109.111"
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Electronic: settlement fund depleted, provided audited",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete",
+      "disposition": "Electronic: Until settlement fund depleted, provided audited., Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2018-06-21",
       "next_update_due": null,
       "comments": null

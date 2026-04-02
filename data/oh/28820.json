@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: Retention Schedule BSI-SL(40-11) should be made obsolete because this record series descriptions already exist in record series in BSI-SL (40-16). ; Electronic: Retention Schedule BSI-SL(40-11) should be made obsolete because this record series descriptions already exist in record series in BSI-SL (40-16)",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Retention Schedule BSI-SL(40-11) should be made obsolete because this record series descriptions already exist in record series in BSI-SL (40-16). ; Electronic: Retention Schedule BSI-SL(40-11) should be made obsolete because this record series descriptions already exist in record series in BSI-SL (40-16)., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2013-02-13",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Electronic: in office .. ; Paper: in office",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase ; Paper: Permanent",
+      "disposition": "Electronic: Retain in office 3 years.. ; Paper: Retain in office 3 years, then transfer to records center for permanent storage., Electronic: Erase ; Paper: Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2024-05-24",
       "next_update_due": null,
       "comments": null

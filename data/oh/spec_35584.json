@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Paper: while needed ; Electronic: case is closed",
       "duration_years": 7,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain while needed, then destroy after a machine readable version has been created and verified for accuracy. ; Electronic: 7 years after the case is closed, Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2026-01-30",
       "next_update_due": null,
       "comments": null

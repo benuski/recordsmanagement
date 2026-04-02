@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Electronic: BWC receives this record as machine readable from Treasurer of State and maintains it a period of . Treasurer of State also maintains a “Redeemed Warrants” website a period of from date a warrant was presented payment",
       "duration_years": 7,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete",
+      "disposition": "Electronic: The BWC receives this record as machine readable from the Treasurer of State and maintains it for a period of 7 years. The Treasurer of State also maintains a “Redeemed Warrants” website for a period of 7 years from the date a warrant was presented for payment., Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2023-07-20",
       "next_update_due": null,
       "comments": null

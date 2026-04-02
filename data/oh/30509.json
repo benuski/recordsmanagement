@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Paper: Keep in file four years license expired. ; Microform: Electronic files will be maintained in state system continually as master file",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Microform: Permanent",
+      "disposition": "Paper: Keep in file until four years after license expired. ; Microform: Electronic files will be maintained in the state system continually as the master file., Paper: Shred ; Microform: Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2012-08-06",
       "next_update_due": null,
       "comments": null

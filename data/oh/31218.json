@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Paper: in office end of biennium and in records center 3 years ; Electronic: in office superseded, obsolete or replaced",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Retain in office 2 years after the end of the biennium and in records center 3 years, then destroy provided audits are completed, reports are released and all discrepancies are resolved, then destroy. ; Electronic: in office until superseded, obsolete or replaced, then destroy., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2024-06-14",
       "next_update_due": null,
       "comments": null

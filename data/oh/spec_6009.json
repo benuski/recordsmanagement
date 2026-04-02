@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Paper: superseded, obsolete or replaced; but no longer than",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Paper: Wastepaper",
+      "disposition": "Paper: Retain until superseded, obsolete or replaced; but no longer than 5 years, then destroy, Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "1986-05-15",
       "next_update_due": null,
       "comments": null

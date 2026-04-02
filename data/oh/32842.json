@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "Paper: 3 fiscal years ; Electronic: 3 fiscal years",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain 3 fiscal years then destroy, unless needed for longer period of time based on legal or administrative significance. ; Electronic: Retain 3 fiscal years then destroy, unless needed for longer period of time based on legal or administrative significance., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-07-10",
       "next_update_due": null,
       "comments": null

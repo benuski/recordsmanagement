@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Electronic: electronic files during company operation and five (5) years company ceases doing business as a registrant or licensee ; Paper: examination reports (including pertinent attachments and work papers) in operating area imaged and indexed. Upon confirmation that paper copy has been checked quality and completeness ; Microform: microfilm in operating area as well as off-site storage facility five (5) years company is closed",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase ; Paper: Shred ; Microform: Shred",
+      "disposition": "Electronic: Retain electronic files during company operation and for five (5) years after company ceases doing business as a registrant or licensee, then destroy. ; Paper: Retain examination reports (including pertinent attachments and work papers) in operating area until imaged and indexed. Upon confirmation that paper copy has been checked for quality and completeness, then destroy ; Microform: Retain microfilm in operating area as well as off-site storage facility for five (5) years after the company is closed, then destroy., Electronic: Erase ; Paper: Shred ; Microform: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2011-02-22",
       "next_update_due": null,
       "comments": null

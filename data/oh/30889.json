@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Paper: in office case is closed and decision if final ; Electronic: ( include federal programs) case is closed and decisions is final all appeals have been exhausted",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Retain in office 5 years after the case is closed and the decision if final then destroy (paper records no longer generated). ; Electronic: Retain for 5 years (to include federal programs) after the case is closed and the decisions is final after all appeals have been exhausted, then erase., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2024-05-24",
       "next_update_due": null,
       "comments": null

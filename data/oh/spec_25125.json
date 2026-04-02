@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Electronic: ten years death, final release, maximum expiration or definite sentence expiration ; Paper: in file pending a final action and issuance of minutes",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "disposition": "Electronic: Retain for ten years after death, final release, maximum expiration or definite sentence expiration, then destroy. ; Paper: Retain in file pending a final action and issuance of minutes, then send to Onbase., Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2007-08-20",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "completion of final report",
       "duration_years": 15,
       "duration_months": null,
-      "disposition_method": "Destroy",
+      "disposition": "Retain 15 years after completion of final report then destroy.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -47,14 +46,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "superseded or obsolete",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Destroy",
+      "disposition": "Retain until superseded or obsolete then destroy.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -78,15 +76,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "review period end date",
+      "trigger_event": "AC",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Destroy In Compliance With No",
+      "disposition": "Retain 5 years after review period end date then destroy in compliance with No. 8 on schedule cover page.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -111,14 +108,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "superseded or obsolete",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Destroy",
+      "disposition": "Retain until superseded or obsolete then destroy.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null

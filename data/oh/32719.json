@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: paper copy in operating area one year ; Electronic: Maintain records one year date of application, unless litigation has been instituted. If litigation has been instituted, records that applicant will be maintained fifteen (15) years date litigation terminates",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain paper copy in operating area for one year, then destroy. If litigation has been instituted, records for that applicant will be converted to machine readable format. Upon confirmation that machine readable format has been checked for quality and completeness, destroy paper copy. ; Electronic: Maintain records one year after date of application, unless litigation has been instituted. If litigation has been instituted, records for that applicant will be maintained for fifteen (15) years after the date the litigation terminates, then erase., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2015-02-19",
       "next_update_due": null,
       "comments": null

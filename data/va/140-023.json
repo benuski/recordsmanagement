@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "data entry into \"Sherlock\" database",
+      "trigger_event": "AC",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Destroy In Compliance With No",
+      "disposition": "Retain 2 years after data entry into \"Sherlock\" database, then destroy in compliance with No. 8 on schedule cover page.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -46,15 +45,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "receipt",
+      "trigger_event": "AC",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Destroy In Compliance With No",
+      "disposition": "Retain 5 years after receipt, then destroy in compliance with No. 8 on schedule cover page.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -78,15 +76,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "approval/denial",
+      "trigger_event": "AC",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Destroy In",
+      "disposition": "Retain 5 years after approval/denial, then destroy in",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -110,15 +107,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "notification is entered in database",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": 3,
-      "disposition_method": "Destroy",
+      "disposition": "Retain 3 months after notification is entered in database, then destroy.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null

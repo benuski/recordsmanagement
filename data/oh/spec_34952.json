@@ -11,18 +11,17 @@
       "series_id": "066-OAG-59",
       "series_title": "Data Breach Correspondence",
       "series_description": "Correspondence and/or related documents received from government agencies, businesses or the general public pertaining to data breaches of computerized systems containing personal information and potential disclosure of personal information contained in those systems. Information may be used for investigative or civil action by the Ohio Attorney General''s Office (AGO) per ORC 1347.12 and 1349.19.",
-      "legal_citation": null
+      "legal_citation": "ORC 1347.12"
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Electronic: . ; Paper: , unless scanned and saved electronically",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "disposition": "Electronic: Retain 1 year. ; Paper: Retain 1 year, unless scanned and saved electronically., Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2018-02-05",
       "next_update_due": null,
       "comments": null

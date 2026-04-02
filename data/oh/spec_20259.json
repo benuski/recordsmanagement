@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
-      "trigger_desc": "Paper: audit records seven years from date audit is successfully closed or date audit material is made available investigation ; Electronic: audit records seven years from date audit is successfully closed or date audit material is made available Investigations",
-      "duration_years": null,
+      "trigger_event": "PM",
+      "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain audit records for seven years from the date the audit is successfully closed or the date the audit material is made available to investigation, then destroy. Beginning July 2021, records received as paper documents will be uploaded and retained as machine readable records in EMS Database at the Audits lab. Records for audits that are not successfully closed are made available to the Investigations section and become part of SAN 760-0977. ; Electronic: Retain audit records for seven years from the date the audit is successfully closed or the date the audit material is made available to Investigations, then permanently delete. Records for audits that are not successfully closed are made available to the Investigations section and become part of SAN 760-0977. The Audit Excel spreadsheet is created and maintained by EMS staff as a working document to log audit information, track the progress of audits, and sort and compile information used to determine audit and record management decisions. The current Audit Excel spreadsheet supersedes previous Audit Excel spreadsheets which are maintained as records., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-08-13",
       "next_update_due": null,
       "comments": null

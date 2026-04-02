@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Paper: obsolete, superseded or no longer of adminisrtative value. ; Electronic: obsolete, superseded or no longer of adminisrtative value",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Delete",
+      "disposition": "Paper: Until obsolete, superseded or no longer of adminisrtative value. ; Electronic: Until obsolete, superseded or no longer of adminisrtative value., Paper: Recycle ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2019-03-21",
       "next_update_due": null,
       "comments": null

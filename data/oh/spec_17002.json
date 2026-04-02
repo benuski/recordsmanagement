@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Paper: Paper records are imaged or microfilmed at imaging center, checked completeness and sent off-site records storage ; Microform: Permanetly ; Electronic: Permanently",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Paper: Wastepaper ; Microform: Permanent ; Electronic: Permanent",
+      "disposition": "Paper: Paper records are imaged or microfilmed at imaging center, checked for completeness and sent to off-site records storage for 5 years, then destroy. ; Microform: Retain Permanetly ; Electronic: Retain Permanently, Paper: Wastepaper ; Microform: Permanent ; Electronic: Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2001-08-27",
       "next_update_due": null,
       "comments": null

@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Paper: paper document in active area two years court decision. ; Electronic: Scan paper document into electronic image and or determined be of no administrative value",
+      "trigger_event": "AC",
       "duration_years": 25,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Erase",
+      "disposition": "Paper: Retain paper document in active area for two years after court decision. ; Electronic: Scan paper document into electronic image and retain for 25 years or until determined to be of no administrative value, then destroy., Paper: Recycle ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2019-03-05",
       "next_update_due": null,
       "comments": null

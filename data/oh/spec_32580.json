@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Electronic: most current version of software is retained on a permanent basis. current system is updated, superseded, or becomes obsolete. outdated system",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete",
+      "disposition": "Electronic: The most current version of the software is retained on a permanent basis. Retain until the current system is updated, superseded, or becomes obsolete. Destroy outdated system., Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2014-09-04",
       "next_update_due": null,
       "comments": null

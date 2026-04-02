@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Paper: imaged historical records from received date ; Electronic: imaged historical records from received date",
+      "trigger_event": "AC",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Erase",
+      "disposition": "Paper: Retain imaged historical records 5 years from received date, then destroy. Retain data, analysis materials, and related correspondence 5 years after the applicable calendar reporting year, then destroy. ; Electronic: Retain imaged historical records 5 years from received date, then destroy. Retain data, analysis materials, and related correspondence 5 years after the applicable calendar reporting year, then destroy., Paper: Recycle ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2009-09-18",
       "next_update_due": null,
       "comments": null

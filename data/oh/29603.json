@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Electronic: Maintain in operating system project is closed or decision is made not implement. ; Paper: Maintain in office project is closed or decision is made not implement",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase ; Paper: Shred",
+      "disposition": "Electronic: Maintain in operating system for 5 years after project is closed or decision is made not to implement. ; Paper: Maintain in office for 5 years after project is closed or decision is made not to implement., Electronic: Erase ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2011-08-18",
       "next_update_due": null,
       "comments": null

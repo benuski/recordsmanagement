@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Electronic: NPM has ceased business and sales in State of Ohio or NPM no longer in business and there is no ongoing arbitration involving their business/sales, whichever is later. Records not needed in ongoing arbitration case can be destroyed when no longer of administrative value. ; Paper: NPM has ceased business and sales in State of Ohio or NPM no longer in business and there is no ongoing arbitration involving their business/sales, whichever is later. Records not needed in ongoing arbitration case can be destroyed when no longer of administrative value. If scanned and saved electronically, dispose of immediately",
+      "trigger_event": "AC",
       "duration_years": 25,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "disposition": "Electronic: Retain 25 years after NPM has ceased business and sales in the State of Ohio or until NPM no longer in business and there is no ongoing arbitration involving the their business/sales, whichever is later. Records not needed in the ongoing arbitration case can be destroyed when no longer of administrative value. ; Paper: Retain 25 years after NPM has ceased business and sales in the State of Ohio or until NPM no longer in business and there is no ongoing arbitration involving the their business/sales, whichever is later. Records not needed in the ongoing arbitration case can be destroyed when no longer of administrative value. If scanned and saved electronically, dispose of immediately., Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2024-05-09",
       "next_update_due": null,
       "comments": null

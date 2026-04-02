@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Electronic: Maintain raw data on floppy & hard drive report is received from Centers Disease Contro ; Paper: Maintain initial data entered into computer storage",
-      "duration_years": null,
+      "trigger_event": "US",
+      "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase ; Paper: Wastepaper",
+      "disposition": "Electronic: Maintain raw data on floppy & hard drive until report is received from Centers for Disease Contro ; Paper: Maintain initial data until entered into computer storage, then destroy. After final report is compiled, maintain in office 5 years, then destroy if superseded & of no historical value to State Archives, Electronic: Erase ; Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "1992-07-27",
       "next_update_due": null,
       "comments": null

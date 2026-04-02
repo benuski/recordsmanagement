@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: audited by Auditor and audit report is re;eased and all discrepancies are resolved ; Electronic",
       "duration_years": 10,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Retain until audited by Auditor and audit report is re;eased and all discrepancies are resolved, then destroy. ; Electronic: 10 years., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2009-02-24",
       "next_update_due": null,
       "comments": null

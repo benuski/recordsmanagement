@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: Paper records shall be maintained two years from date of destruction of records. ; Electronic: any records maintained in machine readable format, records shall be maintained two years from date of destruction of records. ; Microform: any records maintained in microform, records shall be maintained two years from date of destruction of records",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Erase ; Microform: Recycle",
+      "disposition": "Paper: Paper records shall be maintained on-site for two years from the date of destruction of the records. Then the paper records shall be destroyed. ; Electronic: For any records maintained in machine readable format, the records shall be maintained on-site for two years from the date of destruction of the records. Then the machine readable records shall be destroyed. ; Microform: For any records maintained in microform, the records shall be maintained on-site for two years from the date of destruction of the records. Then the microform shall be destroyed., Paper: Recycle ; Electronic: Erase ; Microform: Recycle",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2016-02-11",
       "next_update_due": null,
       "comments": null

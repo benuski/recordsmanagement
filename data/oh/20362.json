@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "Paper: CURRENT AND 3 PRIOR FISCAL YEARS",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred",
+      "disposition": "Paper: RETAIN FOR CURRENT AND 3 PRIOR FISCAL YEARS THEN DESTROY PROVIDED AUDITED BY AUDITOR OF STATE AND AUDIT REPORT IS RELEASED, Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2004-01-21",
       "next_update_due": null,
       "comments": null

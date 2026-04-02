@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "Electronic: Maintain license is surrendered or revoked three (3) federal fiscal years. A Certificate of Disposal is required when destroying these records. ; Paper: Maintain license is surrendered or revoked three (3) federal fiscal years. A Certificate of Disposal is required when destroying these records",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "disposition": "Electronic: Maintain until the license is surrendered or revoked plus three (3) federal fiscal years. A Certificate of Disposal is required when destroying these records. ; Paper: Maintain until the license is surrendered or revoked plus three (3) federal fiscal years. A Certificate of Disposal is required when destroying these records., Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2014-09-04",
       "next_update_due": null,
       "comments": null

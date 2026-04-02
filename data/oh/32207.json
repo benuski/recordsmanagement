@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: Scan into computer and . If paper records are not scanned, following end of annual conference ; Electronic: following end of annual conference",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Delete",
+      "disposition": "Paper: Scan into the computer and destroy. If paper records are not scanned, retain 3 years following the end of the annual conference, then destroy ; Electronic: Retain 3 years following the end of the annual conference, then destroy, Paper: Recycle ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2014-04-01",
       "next_update_due": null,
       "comments": null

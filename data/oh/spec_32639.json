@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: Scan original document into J: drive (Payroll), verify scanned image is readable, and ; Electronic: one (1) year, provided audited by Auditor of State, audit report is released and all discrepancies are resolved, and",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Scan the original document into J: drive (Payroll), verify the scanned image is readable, and then destroy. ; Electronic: Retain for one (1) year, provided audited by Auditor of State, audit report is released and all discrepancies are resolved, and then destroy., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2014-12-10",
       "next_update_due": null,
       "comments": null

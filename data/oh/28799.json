@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Microform: microfilm in operating area as well as off-site storage facility three (3) years ; Paper: paper copy in operating area imaged and indexed. Upon confirmation that paper copy has been checked quality and completeness, . ; Electronic: electronic files three (3) years",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Microform: Shred ; Paper: Shred ; Electronic: Erase",
+      "disposition": "Microform: Retain microfilm in operating area as well as off-site storage facility for three (3) years, then destroy. ; Paper: Retain paper copy in operating area until imaged and indexed. Upon confirmation that paper copy has been checked for quality and completeness, destroy. ; Electronic: Retain electronic files for three (3) years, then destroy., Microform: Shred ; Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2011-02-22",
       "next_update_due": null,
       "comments": null

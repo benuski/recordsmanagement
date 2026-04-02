@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Microform: microfilm records four (4) years ; Electronic: electronic records indefinitely. ; Paper: paper copy in operating area scanned into machine readable format and data is entered into computer system. Upon confirmation that imaged copy has been checked quality and completeness, paper copy",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Microform: Shred ; Electronic: Permanent ; Paper: Shred",
+      "disposition": "Microform: Retain microfilm records for four (4) years, then destroy. ; Electronic: Retain electronic records indefinitely. ; Paper: Retain paper copy in operating area until scanned into machine readable format and data is entered into computer system. Upon confirmation that imaged copy has been checked for quality and completeness, destroy paper copy., Microform: Shred ; Electronic: Permanent ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2024-08-02",
       "next_update_due": null,
       "comments": null

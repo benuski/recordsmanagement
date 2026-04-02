@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "Paper: two (2) years onsite two (2) years offsite close of fiscal year in which created ; Electronic: four years close of fiscal year in which created",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Retain two (2) years onsite plus two (2) years offsite after close of fiscal year in which created then destroy, provided all audits have been completed and all discrepancies corrected. ; Electronic: Retain four years after close of fiscal year in which created then destroy, provided all audits have been completed and all discrepancies corrected., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2014-05-28",
       "next_update_due": null,
       "comments": null

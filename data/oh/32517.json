@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: Upon termination of employment file will be merged with Personnel File and maintained according corresponding active schedule Personnel Files. ; Electronic: Upon termination of employment file will be merged with Personnel File and maintained according corresponding active schedule Personnel Files",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Upon termination of employment the file will be merged with the Personnel File and maintained according to the corresponding active schedule for Personnel Files. ; Electronic: Upon termination of employment the file will be merged with the Personnel File and maintained according to the corresponding active schedule for Personnel Files., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2014-06-30",
       "next_update_due": null,
       "comments": null

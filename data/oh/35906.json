@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Electronic: electronic requests three (3) years ; Paper: paper requests three (3) years",
+      "trigger_event": "US",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase ; Paper: Shred",
+      "disposition": "Electronic: Retain electronic requests for three (3) years then destroy. ; Paper: Retain paper requests for three (3) years then destroy. Destroy badge when superseded or obsolete., Electronic: Erase ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2023-05-15",
       "next_update_due": null,
       "comments": null

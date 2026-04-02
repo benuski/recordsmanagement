@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: scanned ; Electronic: machine readable notified that boiler has been scrapped",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": 6,
-      "disposition_method": "Paper: Recycle ; Electronic: Erase",
+      "disposition": "Paper: Retain 6 months after scanned, then destroy ; Electronic: Retain machine readable until notified that boiler has been scrapped, Paper: Recycle ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2000-02-23",
       "next_update_due": null,
       "comments": null

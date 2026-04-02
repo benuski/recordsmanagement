@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Electronic: five (5) years publication of report, and ; Paper: Convert electronic format. Once converted paper copy may be destroyed. electronic format five (5) years and",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Wastepaper",
+      "disposition": "Electronic: Retain for five (5) years after publication of report, and then destroy. ; Paper: Convert to electronic format. Once converted paper copy may be destroyed. Retain electronic format for five (5) years and then destroy., Electronic: Delete ; Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2016-04-15",
       "next_update_due": null,
       "comments": null

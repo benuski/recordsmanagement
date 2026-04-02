@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Paper: in office at case management agency case is closed and convert electronic. in office 60 days scanning. if material is released scanned material is reviewed. ; Microform: CD/DVD in warehouse and and released and all discrepancies are resolved",
       "duration_years": 7,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Microform: Shred",
+      "disposition": "Paper: Retain in office at case management agency until case is closed and convert to electronic. Retain in office for 60 days after scanning. Destroy if material is released after the scanned material is reviewed. ; Microform: CD/DVD Retain in warehouse for 7 years and then destroy provided audits are complete and released and all discrepancies are resolved., Paper: Shred ; Microform: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2019-02-28",
       "next_update_due": null,
       "comments": null

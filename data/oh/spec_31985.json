@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Paper: 60 days hardcopy is prepped, scanned (imaged), and quality control is complete ; Electronic: contract expires",
+      "trigger_event": "AC",
       "duration_years": 4,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Retain 60 days after hardcopy is prepped, scanned (imaged), and quality control is complete then destroyed. ; Electronic: Retain 4 years after contract expires, then destroy provided audited by Auditor of State, audit report is released and all discrepancies are resolved., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2014-01-07",
       "next_update_due": null,
       "comments": null

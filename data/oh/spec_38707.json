@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: in office area six years or expiration whichever is later ; Electronic: in electronic file six years or expiration whichever is later",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Delete",
+      "disposition": "Paper: Retain in office area for six years or until expiration whichever is later, then destroy. ; Electronic: Retain in electronic file for six years or until expiration whichever is later, then destroy., Paper: Recycle ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-10-21",
       "next_update_due": null,
       "comments": null

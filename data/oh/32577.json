@@ -11,18 +11,17 @@
       "series_id": "01-08",
       "series_title": "Independent Contractor Acknowledgement",
       "series_description": "A form is presented to an independent contractor performing personal services for the Department of Commerce. This form is required for the contractor to acknowledge that he is not considered a public employee and will not have deductions withheld for OPERS in accordance with ORC 145.038. This form contains the contractor''s name, social security number, start and end date of work, and other relevant information.",
-      "legal_citation": null
+      "legal_citation": "ORC 145.038"
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Paper: original form is maintained in payroll section of fiscal department and is required be held a period of date services began. ; Electronic: Images on computer are be maintained date services began",
+      "trigger_event": "AC",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: The original form is maintained in the payroll section of the fiscal department and is required to be held for a period of 5 years after the date the services began. ; Electronic: Images on the computer are to be maintained for 5 years after the date the services began., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2014-09-04",
       "next_update_due": null,
       "comments": null

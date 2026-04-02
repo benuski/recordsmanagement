@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: Dental record is maintained at institution while offender is incarcerated. Upon release, record is be maintained in storage ten (10) years",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred",
+      "disposition": "Paper: Dental record is maintained at the institution while offender is incarcerated. Upon release, record is to be maintained in storage for ten (10) years., Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2005-12-21",
       "next_update_due": null,
       "comments": null

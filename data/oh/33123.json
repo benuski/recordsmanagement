@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Electronic: Visitor Information in system 30 days",
-      "duration_years": null,
+      "trigger_event": "CR",
+      "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase",
+      "disposition": "Electronic: Visitor Information Retain in system for 30 days, then erase. Visitor Security Risk information Retain in system for 3 years then review and purge or retain for an additional 3 years, Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-12-16",
       "next_update_due": null,
       "comments": null

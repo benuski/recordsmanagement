@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: Held in Department files one year final action ; Electronic: Held in Department files one year final action",
-      "duration_years": null,
-      "duration_months": null,
-      "disposition_method": "Paper: Wastepaper ; Electronic: Delete",
+      "trigger_event": "AC",
+      "duration_years": 6,
+      "duration_months": 6,
+      "disposition": "Paper: Held in Department files for one year after final action then to records 6 years after final action on the appeal or 6 years after final court action under pertinent provisions of R.C. 5715.02, then destroy. If scanned, retain for 6 months. ; Electronic: Held in Department files for one year after final action then to records 6 years after final action on the appeal or 6 years after final court action under pertinent provisions of R.C. 5715.02, then delete., Paper: Wastepaper ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2019-02-11",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: reimbursements are received and receipts are balanced daily against fund accounts ; Electronic: in office audited by Auditor of State, audit report is released and all discrepancies are resolved",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Retain until reimbursements are received and receipts are balanced daily against fund accounts, then destroy. ; Electronic: Retain in office until audited by Auditor of State, audit report is released and all discrepancies are resolved, then destroy., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2013-02-13",
       "next_update_due": null,
       "comments": null

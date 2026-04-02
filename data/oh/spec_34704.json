@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Paper: Paper: superseded, obsolete, or replaced ; Electronic: superseded, obsolete, or replaced",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Paper: retain until superseded, obsolete, or replaced, then destroy. Machine readable copy will be maintained internally on Board server pursuant to this records retention schedule. ; Electronic: Retain until superseded, obsolete, or replaced,, Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2024-06-14",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: paper records that are not microfilmed ; Microform: ID card applications issued prior implementation of Print On Demand (POD) shall be retained seven (7) years. As POD process progresses all microfilm will eventually be destroyed. ; Electronic: At time application is made obtain a drivers license, using print on demand, information, including signatures, shall be captured and stored electronically. Electronic files shall be retained a period of eight (8) years, and",
       "duration_years": 7,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Microform: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain paper records that are not microfilmed for 7 years, then destroy. Retain paper records that are microfilmed for 2 years, then destroy. ; Microform: ID card applications issued prior to implementation of Print On Demand (POD) shall be retained for seven (7) years. As POD process progresses all microfilm will eventually be destroyed. ; Electronic: At the time application is made to obtain a drivers license, using print on demand, the information, including signatures, shall be captured and stored electronically. Electronic files shall be retained for a period of eight (8) years, and then purged., Paper: Shred ; Microform: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2008-12-23",
       "next_update_due": null,
       "comments": null

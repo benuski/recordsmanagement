@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: applications that are approved, paper records related samples are be retained approval of application. ; Electronic: applications that are approved, machine readable records related samples are be retained approval of application. ; Microform: applications that are approved, microform records related samples are be retained approval of application. samples are be retained application is denied, denial is reversed or expiration of appeals, whichever is later. microform record is destroyed",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase ; Microform: Shred",
+      "disposition": "Paper: For applications that are approved, paper records related to the samples are to be retained until the approval of the application. Then the paper records shall be destroyed. For applications that are denied, paper records related to the samples are to be retained until the application is denied, the denial is reversed or the expiration of appeals, whichever is later. Then the paper record is destroyed. ; Electronic: For applications that are approved, machine readable records related to the samples are to be retained until the approval of the application. Then the machine readable records shall be destroyed. For applications that are denied, machine readable records related to the samples are to be retained until the application is denied, the denial is reversed or the expiration of appeals, whichever is later. Then the machine readable record is destroyed. ; Microform: For applications that are approved, microform records related to the samples are to be retained until the approval of the application. Then the microform records shall be destroyed. For applications that are denied, microform records related to the samples are to be retained until the application is denied, the denial is reversed or the expiration of appeals, whichever is later. Then the microform record is destroyed., Paper: Shred ; Electronic: Erase ; Microform: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2016-02-12",
       "next_update_due": null,
       "comments": null

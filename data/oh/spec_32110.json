@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: twenty-five (25) years from date of application. Records may be transferred ODPS Record Center. ; Electronic: Correspondence received via email shall be printed. Digital artwork received via email or other electronic medium shall be saved and retained electronically on office network. twenty-five years from date of application. original emails in Microsoft Outlook one year digital files are saved and correspondence is printed",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain for twenty-five (25) years from date of application. Records may be transferred to ODPS Record Center. ; Electronic: Correspondence received via email shall be printed. Digital artwork received via email or other electronic medium shall be saved and retained electronically on the office network. Retain for twenty-five years from date of application. Retain original emails in Microsoft Outlook for one year after digital files are saved and correspondence is printed., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2014-02-12",
       "next_update_due": null,
       "comments": null

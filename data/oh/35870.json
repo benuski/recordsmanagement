@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Microform: systems generated microfiche , and ; Electronic: and ; Paper: Printed reports in office 1 year",
       "duration_years": 7,
       "duration_months": null,
-      "disposition_method": "Microform: Shred ; Electronic: Erase ; Paper: Shred",
+      "disposition": "Microform: Retain systems generated microfiche 7 years, and then destroy. ; Electronic: Retain 7 years and then download to reel tape by MIS until no longer of administrative value. ; Paper: Printed reports in office 1 year, then destroy., Microform: Shred ; Electronic: Erase ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2019-02-14",
       "next_update_due": null,
       "comments": null

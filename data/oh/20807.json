@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Electronic: agency no longer uses related hardware and all data is transferred and made useable in new hardware environment ; Paper: agency no longer uses related hardware and all data is transferred and made useable in new hardware environment",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase ; Paper: Trash",
+      "disposition": "Electronic: Retain until the agency no longer uses related hardware and all data is transferred to and made useable in new hardware environment, then destroy ; Paper: Retain until the agency no longer uses related hardware and all data is transferred to and made useable in new hardware environment, then destroy, Electronic: Erase ; Paper: Trash",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2004-08-14",
       "next_update_due": null,
       "comments": null

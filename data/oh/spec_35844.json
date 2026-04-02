@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Paper: in office scanned and ; Electronic: case is closed and no further appeals can be filed",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Retain in office until scanned and then destroy. ; Electronic: Retain 2 years after case is closed and no further appeals can be filed, then destroy. If case is dismissed without prejudice, retain one year after statute of limitations runs, and then destroy., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2019-02-15",
       "next_update_due": null,
       "comments": null

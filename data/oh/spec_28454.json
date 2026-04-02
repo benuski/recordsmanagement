@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Electronic: Maintain one month compulated into a final report. Maintain final report one (1) year. ; Paper: while needed",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "disposition": "Electronic: Maintain one month after compulated into a final report. Maintain final report for one (1) year. ; Paper: Retain while needed, then destroy after an electronic version has been created and verified for accuracy, Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-09-14",
       "next_update_due": null,
       "comments": null

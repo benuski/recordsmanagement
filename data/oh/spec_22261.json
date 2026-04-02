@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Paper: In office case closed; 4 years; ; Electronic: In office case closed; 4 years",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Shred",
+      "disposition": "Paper: In office 1 year after case closed; on-site 4 years; then shred. ; Electronic: In office 1 year after case closed; on-site 4 years; then shred., Paper: Shred ; Electronic: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2005-07-19",
       "next_update_due": null,
       "comments": null

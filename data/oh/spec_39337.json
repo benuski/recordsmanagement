@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Paper: when old or when superseded or obsolete, whichever is later. Duplicates: obsolete, superseded or administrative value is lost. ; Electronic: when old or when superseded or obsolete, whichever is later. Duplicates: obsolete, superseded or administrative value is lost",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Destroy when 3 years old or when superseded or obsolete, whichever is later. Duplicates: retain until obsolete, superseded or administrative value is lost. ; Electronic: Destroy when 3 years old or when superseded or obsolete, whichever is later. Duplicates: retain until obsolete, superseded or administrative value is lost., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2023-02-14",
       "next_update_due": null,
       "comments": null

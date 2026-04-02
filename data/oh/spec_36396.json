@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Paper: paper acceptance of final invoice, scan files into electronic format ; Electronic: electronic documents permanently",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Permanent",
+      "disposition": "Paper: Retain paper until acceptance of final invoice, scan files into electronic format, then destroy paper. Retain paper that does not get scanned for 3 years after payment of final invoice. ; Electronic: Retain electronic documents permanently., Paper: Recycle ; Electronic: Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2019-05-30",
       "next_update_due": null,
       "comments": null

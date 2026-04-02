@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: Retained these originals in Division ownership is transferred ; Electronic: Maintain these originals ownership is transferred",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Wastepaper ; Electronic: Delete",
+      "disposition": "Paper: Retained these originals in Division until ownership is transferred, then send to storage for eight (8) years, then dispose. ; Electronic: Maintain these originals until ownership is transferred, then retain for eight years., Paper: Wastepaper ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-11-06",
       "next_update_due": null,
       "comments": null

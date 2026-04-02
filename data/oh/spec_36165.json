@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: paper copy converted electronic format. Once machine-readable version is verified as an accurate copy, shred paper copies. ; Electronic: one year an individual''s removal from agency''s or statewide voluntary exclusion program",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain paper copy until converted to electronic format. Once machine-readable version is verified as an accurate copy, shred paper copies. ; Electronic: Retain for one year after an individual''s removal from the agency''s or statewide voluntary exclusion program, then destroy., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2019-03-21",
       "next_update_due": null,
       "comments": null

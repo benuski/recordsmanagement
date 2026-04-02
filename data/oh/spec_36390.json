@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Electronic: Inspection data will be kept permanently. Inventory data will be updated as necessary be current",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Electronic: Permanent",
+      "disposition": "Electronic: Inspection data will be kept permanently. Inventory data will be updated as necessary to be current, then destroyed when determined to be of no administrative value., Electronic: Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2019-05-30",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: hard copy in operating area one (I) year ; Electronic: information in Drawing Information System five (5) years",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Retain hard copy in the operating area for one (I) year, then enter information into system; Unless the information was not entered into the online system, then retain hard copy for six (6) years, then destroy. ; Electronic: Retain information in the Drawing Information System for five (5) years; then erase., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2024-10-02",
       "next_update_due": null,
       "comments": null

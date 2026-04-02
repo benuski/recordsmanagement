@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Electronic: one year purchasing authority cancelled. ; Paper: one year purchasing authority cancelled or scanned and saved electronically",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "disposition": "Electronic: Retain for one year after purchasing authority cancelled. ; Paper: Retain for one year after purchasing authority cancelled or until scanned and saved electronically, then destroy., Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-12-14",
       "next_update_due": null,
       "comments": null

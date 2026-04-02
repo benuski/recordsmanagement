@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: current, seven years. Current records are retained in HR/EEO office files and transferred ODPS Record Center retention",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred",
+      "disposition": "Paper: Retain current, plus seven years. Current records are retained in HR/EEO office files and transferred to ODPS Record Center for retention., Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2014-04-01",
       "next_update_due": null,
       "comments": null

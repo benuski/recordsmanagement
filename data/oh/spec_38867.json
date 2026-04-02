@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Electronic: Once case is solved, per applicable investigative records retention schedule. Otherwise, permanently. ; Paper: Once case is solved, per applicable investigative records retention schedule. Otherwise, permanently, unless scanned and saved electronically",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "disposition": "Electronic: Once case is solved, retain per applicable investigative records retention schedule. Otherwise, retain permanently. ; Paper: Once case is solved, retain per applicable investigative records retention schedule. Otherwise, retain permanently, unless scanned and saved electronically., Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-24",
       "next_update_due": null,
       "comments": null

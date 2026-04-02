@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: This is a one-time disposal of obsolete records. records will be disposed of upon approval of this retention schedule",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred",
+      "disposition": "Paper: This is a one-time disposal of obsolete records. The records will be disposed of upon approval of this retention schedule., Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-08-10",
       "next_update_due": null,
       "comments": null

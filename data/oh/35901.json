@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: In office and/ or in Storage in office adjudicated and in records center",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Paper: Shred",
+      "disposition": "Paper: In office and/ or in Storage Retain in office until adjudicated and in records center 5 years, then destroy provided audits are completed, reports are released and all discrepancies are resolved., Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2019-02-15",
       "next_update_due": null,
       "comments": null

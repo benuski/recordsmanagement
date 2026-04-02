@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Electronic: Electronic records kept on fiscal server a period of (3) years",
-      "duration_years": null,
+      "trigger_event": "AC",
+      "duration_years": 10,
       "duration_months": null,
-      "disposition_method": "Electronic: Recycle",
+      "disposition": "Electronic: Electronic records kept on fiscal server for a period of (3) years then placed on disc. Recycle discs after 10 years., Electronic: Recycle",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2015-09-18",
       "next_update_due": null,
       "comments": null

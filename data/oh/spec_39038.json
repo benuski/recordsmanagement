@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: Adjudicated cases: in office area a period of three years. If complaints are non-chargeable or unfounded ; Electronic: Adjudicated cases: in office area a period of three years. If complaints are non-chargeable or unfounded",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Adjudicated cases: Retain in office area for a period of three years. If complaints are non-chargeable or unfounded, then destroy. For chargeable complaints, retain in office until a hearing is conducted and all appeals have been exhausted, or case is settled, then destroy after three years. ; Electronic: Adjudicated cases: Retain in office area for a period of three years. If complaints are non-chargeable or unfounded, then destroy. For chargeable complaints, retain in office until a hearing is conducted and all appeals have been exhausted, or case is settled, then destroy after three years., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-07-02",
       "next_update_due": null,
       "comments": null

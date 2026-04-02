@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Electronic: Permanent ; Paper: If paper copy is imaged and indexed into a machine readable format retention",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Electronic: Permanent ; Paper: Recycle",
+      "disposition": "Electronic: Permanent ; Paper: If the paper copy is imaged and indexed into a machine readable format for retention, then upon confirmation that the paper copy was imaged and indexed into a machine readable format, the paper copy shall be destroyed two years after being imaged and indexed. If the paper copy is not imaged and indexed into a machine readable format for retention, then the record shall be retained permanently., Electronic: Permanent ; Paper: Recycle",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2019-06-20",
       "next_update_due": null,
       "comments": null

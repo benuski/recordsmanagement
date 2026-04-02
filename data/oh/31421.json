@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Paper: in office final certification is issued 2 years, . ; Electronic: Maintain data in Putative Father’s Registry system permanently. A copy will be retained off-site by MMIS disaster recovery purposes",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Permanent",
+      "disposition": "Paper: Retain in office 1 year after final certification is issued, then transfer to records center for 2 years, then destroy. ; Electronic: Maintain data in Putative Father’s Registry system permanently. A copy will be retained off-site by MMIS for disaster recovery purposes., Paper: Shred ; Electronic: Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2013-06-26",
       "next_update_due": null,
       "comments": null

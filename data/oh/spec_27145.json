@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Paper: documents and reports case is closed working papers and testimony case is completed or closed",
       "duration_years": 10,
       "duration_months": null,
-      "disposition_method": "Paper: Wastepaper",
+      "disposition": "Paper: Retain documents and reports for 10 years after case is closed, then destroy. Retain working papers and testimony until case is completed or closed, then destroy., Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2009-03-26",
       "next_update_due": null,
       "comments": null

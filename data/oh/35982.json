@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Paper: paper copy converted electronic format. Once machine readable version verified as an accurate copy, shred paper copies. ; Electronic: case is closed, including all appeals exhausted, three years",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Retain paper copy until converted to electronic format. Once machine readable version verified as an accurate copy, shred paper copies. ; Electronic: After the case is closed, including all appeals exhausted, retain for three years, then destroy., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2019-02-13",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "trigger_desc": "Paper: end of calendar year in which return was filed or cross check was completed. ; Electronic: end of of calendar year in which return was filed or cross check was completed",
       "duration_years": 4,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Destroy 4 years after end of calendar year in which the return was filed or the cross check was completed. ; Electronic: Destroy 4 years after end of of calendar year in which the return was filed or the cross check was completed, then destroy., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2019-02-14",
       "next_update_due": null,
       "comments": null

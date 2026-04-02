@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Paper: system printouts in office no longer of administrative value ; Electronic: &#65279; in office superseded, obsolete or replaced",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Retain system printouts in office until no longer of administrative value, then destroy. ; Electronic: &#65279;Retain in office until superseded, obsolete or replaced, then destroy., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2013-05-28",
       "next_update_due": null,
       "comments": null

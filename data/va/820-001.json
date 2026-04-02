@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "records Archives, Library of Virginia permanent retention",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Transfer records to the Archives, Library of Virginia for permanent retention.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -47,14 +46,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "records Archives, Library of Virginia permanent retention",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Transfer records to the Archives, Library of Virginia for permanent retention.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -79,14 +77,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "in agency no longer administratively useful",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Transfer Records To The Archives, Library Of Virginia For Permanent Retention",
+      "disposition": "Retain in agency until no longer administratively useful, then transfer records to the Archives, Library of Virginia for permanent retention.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -111,14 +108,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "in agency no longer administratively useful",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Transfer Records To The Archives, Library Of Virginia For Permanent Retention",
+      "disposition": "Retain in agency until no longer administratively useful, then transfer records to the Archives, Library of Virginia for permanent retention.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -142,15 +138,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "in accordance with conditions of gifts or grants or expenditure of all related funds or last contact with donor; whichever is greater",
+      "trigger_event": "AC",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Destroy In Compliance With No",
+      "disposition": "Retain in accordance with conditions of gifts or grants or 3 years after expenditure of all related funds or 3 years after last contact with donor; whichever is greater, then destroy in compliance with No. 8 on schedule cover page.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -175,14 +170,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "records Archives, Library of Virginia permanent retention",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Transfer records to the Archives, Library of Virginia for permanent retention.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -207,14 +201,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Retain 3 years",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Destroy",
+      "disposition": "Retain 3 years, then destroy.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -238,15 +231,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "scanning and inclusion of images into records series 005290, \"Director's Research and Historical Records\", photographs custody of Picture Collection, Library of Virginia preservation, storage and management",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "After scanning and inclusion of images into records series 005290, \"Director's Research and Historical Records\", transfer photographs to the custody of the Picture Collection, Library of Virginia for preservation, storage and management.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: no longer of administrative value. If scanned, . ; Electronic: no longer of administrative value",
       "duration_years": null,
       "duration_months": 6,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain until no longer of administrative value. If scanned, retain for 6 months. ; Electronic: Retain until no longer of administrative value., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2018-12-06",
       "next_update_due": null,
       "comments": null

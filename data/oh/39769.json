@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Electronic: from last use, modification, or decommissioning of associated system or application related code",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete",
+      "disposition": "Electronic: Retain 2 years from last use, modification, or decommissioning of the associated system or application related to the code., Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-11",
       "next_update_due": null,
       "comments": null

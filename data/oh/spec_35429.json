@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "Electronic: 4 fiscal years from conclusion of fiscal year that reports or requests were generated, provided that Auditor of State has completed audit of Treasurer of State and published final report respective fiscal year",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete",
+      "disposition": "Electronic: Retain for 4 fiscal years from the conclusion of the fiscal year that the reports or requests were generated, provided that Auditor of State has completed audit of Treasurer of State and published final report for the respective fiscal year., Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2019-05-06",
       "next_update_due": null,
       "comments": null

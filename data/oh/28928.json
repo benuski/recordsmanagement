@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Paper: enforcement documents which were not used as evidence in an administrative enforcement case, litigation, or judicial appeals/action, in operating area one (1) year enforcement case is resolved or closed ; Electronic: electronically maintained enforcement files, which were not used as evidence in case administrative enforcement case, litigation, or judicial appeals/action, in operating area one (1) year enforcement case is resolved or closed",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Retain enforcement documents which were not used as evidence in an administrative enforcement case, litigation, or judicial appeals/action, in the operating area for one (1) year after the enforcement case is resolved or closed, then destroy. ; Electronic: Retain electronically maintained enforcement files, which were not used as evidence in case administrative enforcement case, litigation, or judicial appeals/action, in the operating area for one (1) year after the enforcement case is resolved or closed, then destroy., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2011-02-22",
       "next_update_due": null,
       "comments": null

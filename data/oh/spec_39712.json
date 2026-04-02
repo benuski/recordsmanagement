@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: Scan all paper documents into EIR and ; Electronic: two (2) years current",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Scan all paper documents into EIR and destroy ; Electronic: Retain for two (2) years plus current, then delete. If attached to an Administrative investigation, records in this series will assume that retention period, Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2024-12-19",
       "next_update_due": null,
       "comments": null

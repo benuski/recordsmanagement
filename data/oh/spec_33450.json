@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Paper: Medical records disposed of final court entry and all appeals exhausted. all other documents case closed, dismissed, or settled and all appeals exhausted, unless scanned and saved electronically. ; Electronic: Medical records disposed of final court entry and all appeals exhausted. all other documents case closed, dismissed, or settled and all appeals exhausted",
       "duration_years": 4,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Medical records disposed of after final court entry and all appeals exhausted. Retain all other documents for 4 years after case closed, dismissed, or settled and all appeals exhausted, unless scanned and saved electronically. ; Electronic: Medical records disposed of after final court entry and all appeals exhausted. Retain all other documents for 4 years after case closed, dismissed, or settled and all appeals exhausted., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2016-03-18",
       "next_update_due": null,
       "comments": null

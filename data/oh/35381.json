@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Paper: scanned or expiration date of license, or upon notification of death whichever occurs first. ; Electronic: Maintain expiration date of license, or upon notification of death, whichever occurs first",
+      "trigger_event": "AC",
       "duration_years": 20,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Retain until scanned or for 20 years after the expiration date of the license, or upon notification of death whichever occurs first. ; Electronic: Maintain for 20 years after the expiration date of the license, or upon notification of death, whichever occurs first., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-08-25",
       "next_update_due": null,
       "comments": null

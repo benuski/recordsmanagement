@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "trigger_desc": "Paper: end of calendar year in which created, or all audits by Auditor of State have been completed and audit reports have been released, whichever is later",
       "duration_years": 10,
       "duration_months": null,
-      "disposition_method": "Paper: Wastepaper",
+      "disposition": "Paper: Retain 10 years after the end of calendar year in which created, or until all audits by Auditor of State have been completed and audit reports have been released, whichever is later, then destroy, Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "1986-06-27",
       "next_update_due": null,
       "comments": null

@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Paper: Successful Proposals entire proposal(s) in BWC Procurement two (2) years contract begins original signed Cover Page or Cover Letter and move offsite storage two (2) years contract begins. original signed Cover Page or Cover Letter: Goods- length of contract ; Services- length of contract 9 years, shred. Non-Successful Proposals entire proposal(s) 1 year, shred. ; Electronic: Non-Successful Proposals entire proposal(s) 1 year Successful Proposals entire proposal(s) in Procurement UDS : Goods- length of contract ; Services- length of contract 9 years, delete. Non-Successful Proposals entire proposal(s) in Procurement UDS 1 year, delete",
+      "trigger_event": "AC",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Successful Proposals Retain entire proposal(s) in BWC Procurement for two (2) years after contract begins, then shred all but original signed Cover Page or Cover Letter. Retain original signed Cover Page or Cover Letter and move to offsite storage two (2) years after contract begins. Total retention period for original signed Cover Page or Cover Letter: Goods- for the length of the contract plus 5 years; Services- for the length of the contract plus 9 years, then shred. Non-Successful Proposals Retain entire proposal(s) for 1 year, then shred. ; Electronic: Non-Successful Proposals Retain entire proposal(s) for 1 year, then shred. Successful Proposals Retain entire proposal(s) in Procurement UDS for: Goods- for the length of the contract plus 5 years; Services- for the length of the contract plus 9 years, then delete. Non-Successful Proposals Retain entire proposal(s) in Procurement UDS for 1 year, then delete., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2018-03-12",
       "next_update_due": null,
       "comments": null

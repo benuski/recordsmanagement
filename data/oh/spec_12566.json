@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Electronic: digital copy six (6) years and one (1) day termination of contract, review administrative value ; Paper: hard copy in operating area six (6) years and one (1) day termination of contract, review administrative value",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "disposition": "Electronic: Retain digital copy for six (6) years and one (1) day after termination of the contract, review for administrative value, then delete. ; Paper: Retain hard copy in the operating area for six (6) years and one (1) day after termination of the contract, review for administrative value, then destroy., Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2024-10-03",
       "next_update_due": null,
       "comments": null

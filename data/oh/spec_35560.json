@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Paper: 30 days hard copy is imaged and quality review is complete, and ; Electronic: in office case is closed and 6 years in records center",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Retain 30 days after hard copy is imaged and quality review is complete, and then destroy. ; Electronic: Retain in office 1 year after case is closed and 6 years in the records center, then destroy provided state and federal audits have been completed, audit reports are released and all discrepancies have beenPaper resolved., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2024-02-06",
       "next_update_due": null,
       "comments": null

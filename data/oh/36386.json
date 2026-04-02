@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Electronic: Withinn Office 365 TOS emails have a legal hold on them prevent acidental deletion. Searches on deleted emails need be done from that module in O365",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete",
+      "disposition": "Electronic: Withinn Office 365 TOS emails have a 1 year legal hold on them to prevent acidental deletion. Searches on deleted emails need to be done from that module in O365., Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2022-12-05",
       "next_update_due": null,
       "comments": null

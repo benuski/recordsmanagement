@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Electronic: record shall be destroyed three years expiration/revocation of installation permit (including any extension periods), three years denial of an installation permit, or three years date a home passed a final inspection, whichever is later. ; Paper: If an electronic version of record exists, paper copy shall be destroyed. If an electronic version of record does not exist",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase ; Paper: Shred",
+      "disposition": "Electronic: The record shall be destroyed three years after the expiration/revocation of the installation permit (including any extension periods), three years after the denial of an installation permit, or three years after the date a home passed a final inspection, whichever is later. ; Paper: If an electronic version of the record exists, the paper copy shall be destroyed. If an electronic version of the record does not exist, then the paper record shall be destroyed three years after the expiration/revocation of the installation permit (including any extension periods), three years after the denial of an installation permit, or three years after the date a home passed a final inspection, whichever is later., Electronic: Erase ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2024-04-30",
       "next_update_due": null,
       "comments": null

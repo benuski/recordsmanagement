@@ -11,18 +11,17 @@
       "series_id": "220-18",
       "series_title": "Life Insurer Valuation Fee Filings",
       "series_description": "Supporting documentation and evidence of annual life insurance valuation fee payments received from Ohio domestic life insurers. Authority: ORC 3905.40(B) and 3905.401.",
-      "legal_citation": null
+      "legal_citation": "ORC 3905.40"
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: hard copy imaged ; Electronic: hard copy imaged",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Erase",
+      "disposition": "Paper: Retain hard copy until imaged, then destroy hard copy. Retain image until audited by state and report released, then destroy. ; Electronic: Retain hard copy until imaged, then destroy hard copy. Retain image until audited by state and report released, then destroy., Paper: Recycle ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2009-09-18",
       "next_update_due": null,
       "comments": null

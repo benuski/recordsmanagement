@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: following termination of contract, or audit is conducted and all audit discrepancies are resolved, whichever is longer ; Electronic: following termination of contract, or audit is conducted and all audit discrepancies are resolved, whichever is longer",
       "duration_years": 16,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Delete",
+      "disposition": "Paper: Retain 16 years following termination of the contract, or until audit is conducted and all audit discrepancies are resolved, whichever is longer ; Electronic: Retain 16 years following termination of the contract, or until audit is conducted and all audit discrepancies are resolved, whichever is longer., Paper: Recycle ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2014-07-15",
       "next_update_due": null,
       "comments": null

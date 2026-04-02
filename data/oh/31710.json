@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Electronic: these records five years, and ; Paper: these records five years, and",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "disposition": "Electronic: Retain these records for five years, and then review by State Archives for their retention or destruction. ; Paper: Retain these records for five years, and then review by State Archives for their retention or destruction., Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2013-08-23",
       "next_update_due": null,
       "comments": null

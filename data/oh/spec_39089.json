@@ -11,18 +11,17 @@
       "series_id": "DDDLAO- 1",
       "series_title": "Public Records Requests",
       "series_description": "Documents pertaining to public requests, including but not limited to the original request, correspondence between staff and requestor, redacted and un-redacted responsive records. Maintained to document compliance with public records law obligations (ORC 149.43).",
-      "legal_citation": null
+      "legal_citation": "ORC 149.43"
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: scanned and saved electronically ; Electronic",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain until scanned and saved electronically, then destroy. ; Electronic: Retain for 3 years, then destroy., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-11-03",
       "next_update_due": null,
       "comments": null

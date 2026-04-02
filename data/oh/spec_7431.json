@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: all current filings in Journal Room. all revised obsolete filings",
       "duration_years": 10,
       "duration_months": null,
-      "disposition_method": "Paper: Archives",
+      "disposition": "Paper: Retain all current filings in Journal Room. Transfer all revised obsolete filings to the State Records Center for 10 years, then transfer to the State Archives, Paper: Archives",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "1992-10-29",
       "next_update_due": null,
       "comments": null

@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Electronic: If policy status is any status other than Active or Reinstated, in UDS a period of inactivity. ; Paper: If policy status is: · Active or Reinstated: Original documents will be destroyed scanned into UDS, and scanned image is verified as readable. · Cancelled by Employer: Original documents will be destroyed when: · Account balance is zero, and · There has been no activity in policy a two year period cancellation date. · Any status other than Active or Reinstated, with a balance due on account: Original documents will be destroyed when there has been no activity in policy a 5 year period",
+      "trigger_event": "AC",
       "duration_years": 10,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "disposition": "Electronic: If the policy status is any status other than Active or Reinstated, retain in UDS for a 10 year period of inactivity. ; Paper: If the policy status is: · Active or Reinstated: Original documents will be destroyed after scanned into UDS, and the scanned image is verified as readable. · Cancelled by Employer: Original documents will be destroyed when: · Account balance is zero, and · There has been no activity in the policy for a two year period after cancellation date. · Any status other than Active or Reinstated, with a balance due on account: Original documents will be destroyed when there has been no activity in the policy for a 5 year period., Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-01-09",
       "next_update_due": null,
       "comments": null

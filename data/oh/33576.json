@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: period specified electronic format ; Electronic: seven (7) years employee leaves employment EXCEPTION RETENTION PERIOD: As set forth in collective bargaining agreement and Ohio Administrative Code, certain documents must be removed from official employee personnel file a specified length of time. Refer current collective bargaining agreement and applicable OAC provisions. LITIGATION HOLD: Any records subject a litigation hold must be retained hold is lifted by Legal Office, regardless of whether specified retention period has elapsed",
+      "trigger_event": "US",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Retain for period specified for electronic format, then destroy. If converted to electronic/digital format, paper records may be destroyed after verification of successful conversion. ; Electronic: Retain seven (7) years after employee leaves employment, then destroy. Records subject to audit shall be further retained until audit report is released and discrepancies addressed. Records requiring periodic updating to ensure current information, such as annual Emergency Contact Forms, should be destroyed when superseded by the updated version. EXCEPTION TO RETENTION PERIOD: As set forth in the collective bargaining agreement and the Ohio Administrative Code, certain documents must be removed from the official employee personnel file after a specified length of time. Refer to the current collective bargaining agreement and the applicable OAC provisions. LITIGATION HOLD: Any records subject to a litigation hold must be retained until the hold is lifted by the Legal Office, regardless of whether the specified retention period has elapsed., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2016-06-23",
       "next_update_due": null,
       "comments": null

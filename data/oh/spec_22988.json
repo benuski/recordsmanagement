@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Paper: drafts superseded by final document. final documents 3 bienniums",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle",
+      "disposition": "Paper: Retain drafts until superseded by final document. Retain final documents for 3 bienniums, then destroy., Paper: Recycle",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2006-03-08",
       "next_update_due": null,
       "comments": null

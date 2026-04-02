@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Electronic: \"lost time\" and/or \"medical only\" claims prior August 25, 2006 shall be disposed of ten (10) years from date of last activity. \"lost time\" and/or \"medical only\" claims August 25, 2006 should be deleted/destroyed five (5) years from date of last activity. ; Paper: \"lost time\" and/or \"medical only\" claims prior August 25, 2006 shall be disposed of ten (10) years from date of last activity. \"lost time\" and/or \"medical only\" claims August 25, 2006 should be deleted/destroyed five (5) years from date of last activity",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "disposition": "Electronic: For \"lost time\" and/or \"medical only\" claims prior to August 25, 2006 shall be disposed of ten (10) years from the date of last activity. For \"lost time\" and/or \"medical only\" claims after August 25, 2006 should be deleted/destroyed five (5) years from the date of last activity. ; Paper: For \"lost time\" and/or \"medical only\" claims prior to August 25, 2006 shall be disposed of ten (10) years from the date of last activity. For \"lost time\" and/or \"medical only\" claims after August 25, 2006 should be deleted/destroyed five (5) years from the date of last activity., Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2022-10-11",
       "next_update_due": null,
       "comments": null

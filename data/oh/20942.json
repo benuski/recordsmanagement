@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Paper: ; or superseded; ; Electronic: ; or superseded",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Erase",
+      "disposition": "Paper: Retain 2 years; or until superseded; then destroy ; Electronic: Retain 2 years; or until superseded; then destroy, Paper: Recycle ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2004-08-07",
       "next_update_due": null,
       "comments": null

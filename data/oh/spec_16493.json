@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: information is no longer current. Review by State Archives possible . if on no historical value State Archives",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Archives",
+      "disposition": "Paper: Retain until information is no longer current. Review by State Archives for possible transfer. Destroy if on no historical value to State Archives., Paper: Archives",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "1993-11-29",
       "next_update_due": null,
       "comments": null

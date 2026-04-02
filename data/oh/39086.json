@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: Maintain weekly reports and visitor logs one (1) year, current year--date. Maintain Master List of Authorized personnel one (1) year, current year--date",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Trash",
+      "disposition": "Paper: Maintain weekly reports and visitor logs for one (1) year, plus current year-to-date. Maintain Master List of Authorized personnel for one (1) year, plus current year-to-date, Paper: Trash",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2022-07-07",
       "next_update_due": null,
       "comments": null

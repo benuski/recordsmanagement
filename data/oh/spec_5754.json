@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Electronic: Image retained superseded ; Paper: Hard copy retained microfilmed or imaged ; Microform: Microfilm retained superseded",
-      "duration_years": null,
+      "duration_years": 25,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase ; Paper: Wastepaper ; Microform: Wastepaper",
+      "disposition": "Electronic: Image retained until superseded then destroy. Review remaining images after 25 years to verify that records are still active ; Paper: Hard copy retained until microfilmed or imaged then destroy provided the microfilm or image has been checked for quality and completeness ; Microform: Microfilm retained until superseded, then destroy. Review microfilm after 25 years to verify that records are still active, Electronic: Erase ; Paper: Wastepaper ; Microform: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "1999-05-12",
       "next_update_due": null,
       "comments": null

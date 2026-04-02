@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: In office ; when obsolete. ; Electronic: In office ; when obsolete",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Paper: Wastepaper ; Electronic: Erase",
+      "disposition": "Paper: In office 5 years; destroy when obsolete. ; Electronic: In office 5 years; destroy when obsolete., Paper: Wastepaper ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2006-04-04",
       "next_update_due": null,
       "comments": null

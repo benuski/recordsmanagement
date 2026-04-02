@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: in office or contract is expired and ; Electronic: in office or contract is expired and",
       "duration_years": 6,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Retain in office 6 years or until the contract is expired and then destroy provided state and federal audits are completed and released. ; Electronic: Retain in office 6 years or until the contract is expired and then destroy provided state and federal audits are completed and released., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2024-06-18",
       "next_update_due": null,
       "comments": null

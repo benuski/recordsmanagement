@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Electronic: fraud attorney preparation files are be kept through current pending fraud hearing and appeal on claim in question; ; Paper: fraud attorney preparation files are be kept through current pending fraud hearing and appeal on claim in question",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
-      "confidential_flag": false
+      "disposition": "Electronic: The fraud attorney preparation files are to be kept through the current pending fraud hearing and appeal on the claim in question; then destroy as confidential records. ; Paper: The fraud attorney preparation files are to be kept through the current pending fraud hearing and appeal on the claim in question; then destroy as confidential records., Electronic: Delete ; Paper: Shred",
+      "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2009-06-30",
       "next_update_due": null,
       "comments": null

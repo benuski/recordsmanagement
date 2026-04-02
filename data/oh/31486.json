@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: paper copy in operating area converted machine readable format. Upon confirmation that machine readable format has been checked quality and completeness, paper copy. ; Microform: microfilm four years date created ; Electronic: Maintain records ten years expiration of last one-year licensure term",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Microform: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain paper copy in operating area until converted to machine readable format. Upon confirmation that machine readable format has been checked for quality and completeness, destroy paper copy. ; Microform: Retain microfilm for four years after date created, then destroy. ; Electronic: Maintain records ten years after expiration of the last one-year licensure term, then delete, unless litigation has been instituted. If litigation has been instituted, records for that licensee shall be maintained for fifteen years after the date the litigation terminates, then delete., Paper: Shred ; Microform: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2013-06-25",
       "next_update_due": null,
       "comments": null

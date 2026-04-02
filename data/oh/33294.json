@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: In order accommodate any requested audits by U.S. Department of Treasury, all materials are be kept 3 (three) years from term of bond or converted electronic medium. ; Electronic: In order accommodate any requested audits by U.S. Department of Treasury, all materials are be kept 3 (three) years from term of bond",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: In order to accommodate any requested audits by the U.S. Department of the Treasury, all materials are to be kept 3 (three) years from term of bond or until converted to electronic medium. ; Electronic: In order to accommodate any requested audits by the U.S. Department of the Treasury, all materials are to be kept 3 (three) years from term of bond, Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2016-01-13",
       "next_update_due": null,
       "comments": null

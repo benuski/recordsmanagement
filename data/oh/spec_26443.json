@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Paper: original document in Subrogation Unit scanned in a secure online repository, and ; Electronic: in a secure online repository, keep a period of Full and Final Subrogation Agreement is received and case is closed, and",
       "duration_years": 10,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain the original document in the Subrogation Unit after scanned in a secure online repository, and then destroy. ; Electronic: Retain in a secure online repository, keep for a period of 10 years after the Full and Final Subrogation Agreement is received and case is closed, and then destroy., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2023-10-11",
       "next_update_due": null,
       "comments": null

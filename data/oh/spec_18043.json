@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Electronic: weekly backups 4 weeks, and",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase",
+      "disposition": "Electronic: Retain the weekly backups on-site for 4 weeks, and then destroy. Send copies of the weekly backups to an off-site storage facility, retain for 4 weeks, and then destroy., Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2008-05-14",
       "next_update_due": null,
       "comments": null

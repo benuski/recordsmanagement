@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Electronic: Retrievals and returns are maintained in Asset & Inventory Management System (AIMS) two (2) years disposal of records which they refer. ; Paper: Deposits are retained disposal of records which they refer. Deliveries, retrievals, and returns are retained two (2) years transaction is completed",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "disposition": "Electronic: Retrievals and returns are maintained in the Asset & Inventory Management System (AIMS) for two (2) years after the disposal of records to which they refer. ; Paper: Deposits are retained until disposal of records to which they refer. Deliveries, retrievals, and returns are retained for two (2) years after transaction is completed, then destroy.., Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2016-11-10",
       "next_update_due": null,
       "comments": null

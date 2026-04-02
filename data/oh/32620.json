@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Paper: in office component files course is superseded or obsolete. ; Electronic: in office component files course is superseded or obsolete",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain in office component files until course is superseded or obsolete. ; Electronic: Retain in office component files until course is superseded or obsolete., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2014-09-18",
       "next_update_due": null,
       "comments": null

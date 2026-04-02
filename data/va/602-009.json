@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Retain 2 years",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Transfer To The Records Center, Library Of Virginia",
+      "disposition": "Retain 2 years, then transfer to the Records Center, Library of Virginia. Retain in Records Center 3 years. Total retention 5 years, then destroy in compliance with No. 8 on schedule cover page.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -47,14 +46,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "case is closed",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Transfer To The Records Center, Library Of Virginia",
+      "disposition": "Retain 2 years after case is closed, then transfer to the Records Center, Library of Virginia. Retain in Records Center 3 years. Total retention 5 years, then destroy in compliance with No. 8 on schedule cover page.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -79,14 +77,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "case is closed",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Transfer To The Records Center, Library Of Virginia",
+      "disposition": "Retain 2 years after case is closed, then transfer to the Records Center, Library of Virginia. Retain in Records Center 3 years. Total retention 5 years, then destroy in compliance with No. 8 on schedule cover page.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -111,14 +108,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "case is closed",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Transfer To The Records Center, Library Of Virginia",
+      "disposition": "Retain 2 years after case is closed, then transfer to the Records Center, Library of Virginia. Retain in Records Center 3 years. Total retention 5 years, then destroy in compliance with No. 8 on schedule cover page.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -143,14 +139,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "case is closed",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Transfer To The Records Center, Library Of Virginia",
+      "disposition": "Retain 2 years after case is closed, then transfer to the Records Center, Library of Virginia. Retain in Records Center 3 years. Total retention 5 years, then destroy in compliance with No. 8 on schedule cover page.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -174,15 +169,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "contract is terminated",
+      "trigger_event": "AC",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Transfer To The Records Center, Library Of Virginia",
+      "disposition": "Retain 2 years after contract is terminated, then transfer to the Records Center, Library of Virginia. Retain in Records Center 3 years. Total retention 5 years, then destroy in compliance with No. 8 on schedule cover page.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -207,14 +201,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "case is closed",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Transfer To The Records Center, Library Of Virginia",
+      "disposition": "Retain 2 years after case is closed, then transfer to the Records Center, Library of Virginia. Retain in Records Center 3 years. Total retention 5 years, then destroy in compliance with No. 8 on schedule cover page.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -239,14 +232,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "case is closed",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Transfer To The Records Center, Library Of Virginia",
+      "disposition": "Retain 2 years after case is closed, then transfer to the Records Center, Library of Virginia. Retain in Records Center 3 years. Total retention 5 years, then destroy in compliance with No. 8 on schedule cover page.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -270,15 +262,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "system is approved and audited",
+      "trigger_event": "AC",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Transfer To The Records Center, Library Of Virginia",
+      "disposition": "Retain 2 years after system is approved and audited, then transfer to the Records Center, Library of Virginia. Retain in Records Center 8 years. Total retention 10 years, then destroy in compliance with No. 8 on schedule cover page.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null

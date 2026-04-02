@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Electronic: IPIRs and DOIRs will be kept permanently in agency database. ; Paper: All other supporting documentation, keep onsite from date of initial report",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Electronic: Permanent ; Paper: Recycle",
+      "disposition": "Electronic: IPIRs and DOIRs will be kept permanently in agency database. ; Paper: All other supporting documentation, keep onsite 15 years from the date of the initial report, then transfer to District Office for evaluation and destruction. Supporting documentation may be destroyed after 15 years from the date of the incident report unless otherwise indicated (e.g., history of violations or residual contamination)., Electronic: Permanent ; Paper: Recycle",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2006-04-26",
       "next_update_due": null,
       "comments": null

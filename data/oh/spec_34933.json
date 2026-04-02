@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Electronic: If settlement agreement was reached and approved, Lump Sum Settlement Dashboard claim settlement date of claim, and OR If settlement agreement was denied or never reached, Lump Sum Settlement Dashboard being; denied, disallowed, dismissed or withdrawn, and",
+      "trigger_event": "AC",
       "duration_years": 6,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete",
-      "confidential_flag": false
+      "disposition": "Electronic: If the settlement agreement was reached and approved, retain the Lump Sum Settlement Dashboard for the claim for 6 years after the settlement date of the claim, and then destroy as confidential. OR If settlement agreement was denied or never reached, retain the Lump Sum Settlement Dashboard for 6 years after being; denied, disallowed, dismissed or withdrawn, and then destroy as confidential., Electronic: Delete",
+      "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2018-01-17",
       "next_update_due": null,
       "comments": null

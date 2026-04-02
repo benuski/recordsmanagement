@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: Records listed in Records Series Description shall be kept in office five (5) years and ; Electronic: Records listed in Records Series Description shall be kept digitally a period of seven (7) years",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Records listed in the Records Series Description shall be kept in office for five (5) years and then an additional two (2) years at the Records Center. ; Electronic: Records listed in the Records Series Description shall be kept digitally for a period of seven (7) years., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-09-10",
       "next_update_due": null,
       "comments": null

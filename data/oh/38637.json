@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "trigger_desc": "Paper: end of calendar year in which created. State archives reviews all minutes of official meetings before destruction. ; Electronic: end of calendar year in which created. State archives reviews all minutes of official meetings before destruction",
       "duration_years": 20,
       "duration_months": null,
-      "disposition_method": "Paper: Archives ; Electronic: Archives",
+      "disposition": "Paper: Retain 20 years after the end of the calendar year in which created. State archives reviews all minutes of official meetings before destruction. ; Electronic: Retain 20 years after the end of the calendar year in which created. State archives reviews all minutes of official meetings before destruction., Paper: Archives ; Electronic: Archives",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-03-05",
       "next_update_due": null,
       "comments": null

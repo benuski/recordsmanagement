@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Paper: completion of work, and audited by Auditor of State and audit report is released and all discrepancies are resolved",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "Paper: Shred",
+      "disposition": "Paper: Retain 1 year after the completion of the work, and audited by Auditor of State and audit report is released and all discrepancies are resolved., Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2009-08-13",
       "next_update_due": null,
       "comments": null

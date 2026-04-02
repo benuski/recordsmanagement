@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: in office area four (4) years closing of game ; Electronic: digital record in system four (4) years closing of game, review administrative value, if none",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain in office area for four (4) years after closing of game, then review for administrative value, if none, destroy. ; Electronic: Retain digital record in system for four (4) years after the closing of the game, review for administrative value, if none, destroy., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-11-05",
       "next_update_due": null,
       "comments": null

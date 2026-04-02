@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: results with no records identified, dispose of immediately. results with criminal records identified, collect relevant information from appropriate courts and",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred",
+      "disposition": "Paper: For results with no records identified, dispose of immediately. For results with criminal records identified, collect the relevant information from the appropriate courts and then immediately dispose of the record., Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2008-03-28",
       "next_update_due": null,
       "comments": null

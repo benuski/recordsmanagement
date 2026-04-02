@@ -11,18 +11,17 @@
       "series_id": "TOB-AGO-01",
       "series_title": "Tobacco Arbitration Litigation Files",
       "series_description": "Litigation against tobacco product manufacturers seeking monetary, equitable, and injunctive relief for the State of Ohio. May relate to escrow payment violations under ORC 1346.02 or to breach of Master Settlement Agreement. Records include, but are not limited to, pleadings, memorandum, affidavits, attorney work product, legal research, motions, judgments, discovery, evidence, transcripts, correspondence, settlement and negotiation documents, and hearing and deposition materials.",
-      "legal_citation": null
+      "legal_citation": "ORC 1346.02"
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Paper: related arbitration is completed and case is close. Review possible State Archives before destruction. If scanned and saved electronically, dispose of paper immediately. ; Electronic: related arbitration is completed and case is close. Review possible State Archives before destruction",
+      "trigger_event": "AC",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain 2 years after related arbitration is completed and case is close. Review for possible transfer to State Archives before destruction. If scanned and saved electronically, dispose of paper immediately. ; Electronic: Retain 2 years after related arbitration is completed and case is close. Review for possible transfer to State Archives before destruction., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2024-05-09",
       "next_update_due": null,
       "comments": null

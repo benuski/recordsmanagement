@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Paper: Paper Statements, if received, will be kept they are verified accuracy, legibility, and completeness and scanned as an electronic copy. ; Electronic: electronic copy will be maintained indefinitely",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Permanent",
+      "disposition": "Paper: Paper Statements, if received, will be kept until they are verified for accuracy, legibility, and completeness and scanned as an electronic copy. ; Electronic: The electronic copy will be maintained indefinitely., Paper: Shred ; Electronic: Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2026-01-05",
       "next_update_due": null,
       "comments": null

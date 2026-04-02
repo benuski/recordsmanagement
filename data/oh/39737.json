@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Electronic: six (6) years a record is served, recalled, or expired",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete",
+      "disposition": "Electronic: Retain for six (6) years after a record is served, recalled, or expired, then destroy. Supplemental attachments marked as Packing/CCH/LEADS information shall be retained 31 days after a record is served, recalled. or expired, then destroyed, Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2024-12-23",
       "next_update_due": null,
       "comments": null

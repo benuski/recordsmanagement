@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: on hard copy scanned and indexed into Document Storage System. Once quality review is completed by Central Records hard copy can be destroyed. ; Electronic: reports on Document Storage System five years current year",
-      "duration_years": null,
+      "trigger_event": "PM",
+      "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain on hard copy until scanned and indexed into the Document Storage System. Once quality review is completed by Central Records the hard copy can be destroyed. ; Electronic: Retain reports on the Document Storage System for five years plus the current year then delete. Aircraft Crash Reports unique in nature or high profile will be retained permanently., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2011-04-22",
       "next_update_due": null,
       "comments": null

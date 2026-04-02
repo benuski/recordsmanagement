@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: Seven years from date of data collection year. If scanned, . ; Electronic: Seven years from date of data collection year",
       "duration_years": null,
       "duration_months": 6,
-      "disposition_method": "Paper: Recycle ; Electronic: Delete",
+      "disposition": "Paper: Seven years from the date of the data collection year. If scanned, retain for 6 months. ; Electronic: Seven years from the date of the data collection year., Paper: Recycle ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2019-02-14",
       "next_update_due": null,
       "comments": null

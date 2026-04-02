@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Electronic: life of system/related system(s) needed time convert/migrate data newer system or if project is canceled. systems be decommissioned, with longest applicable records retention schedule associated with data housed within system. ; Paper: life of system/related system(s) needed time convert/migrate data newer system or if project is canceled, unless scanned and saved electronically. systems be decommissioned, with longest applicable records retention schedule associated with data housed within system, unless scanned and saved electronically",
+      "trigger_event": "AC",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "disposition": "Electronic: Retain 2 years after life of system/related system(s) plus needed time to convert/migrate data to newer system or if project is canceled. For systems to be decommissioned, retain with the longest applicable records retention schedule associated with the data housed within the system. ; Paper: Retain 2 years after life of system/related system(s) plus needed time to convert/migrate data to newer system or if project is canceled, unless scanned and saved electronically. For systems to be decommissioned, retain with the longest applicable records retention schedule associated with the data housed within the system, unless scanned and saved electronically., Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2019-06-27",
       "next_update_due": null,
       "comments": null

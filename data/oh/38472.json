@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Electronic: investigation or case closed. ; Paper: investigation or case closed, unless scanned and saved electronically",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "disposition": "Electronic: Retain 5 years after investigation or case closed. ; Paper: Retain 5 years after investigation or case closed, unless scanned and saved electronically., Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2019-08-05",
       "next_update_due": null,
       "comments": null

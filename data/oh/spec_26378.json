@@ -11,18 +11,17 @@
       "series_id": "Z08-11",
       "series_title": "Grant applications and related materials",
       "series_description": "In accordance with ORC 4765.07 the State Board of EMS (via the Div of EMS) provides grant money to EMS organizations for training and equipment. Also, some grant money for research and injury prevention projects. These grant moneys are distributed annually, with applications being posted in January of each year. In some instances, additional specialty grants are awarded via an application process at other times during the year. These applications may be submitted in hard copy or electronically. Hard copy applications are entered into a database. Applications ask for contact information, demographic information, amount of money requested and for what purpose the money will be used.",
-      "legal_citation": null
+      "legal_citation": "ORC 4765.07"
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: priority one grant information two years grant is awarded and complete, or audits conducted and closeout documents are are received ; Electronic: five years close of grant cycle",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Delete",
+      "disposition": "Paper: Retain priority one grant information for two years after grant is awarded and complete, or audits conducted and closeout documents are are received, then destroy. Retain priotiry two, three, and four grants for five years after close of grant cycle. ; Electronic: Retain five years after close of grant cycle., Paper: Recycle ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2008-07-22",
       "next_update_due": null,
       "comments": null

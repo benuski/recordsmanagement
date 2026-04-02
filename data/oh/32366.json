@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: two (2) from date or discipline. In event of multiple disciplines within that period ; Electronic: two (2) from date or discipline. In event of multiple disciplines within that period",
-      "duration_years": null,
+      "trigger_event": "AC",
+      "duration_years": 50,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Retain two (2) from date or discipline. In the event of multiple disciplines within that period, then two (2) years from date of last discipline. If employee separates prior to the expiration of the two (2) year period, then retain for 50 years after date of separation. ; Electronic: Retain two (2) from date or discipline. In the event of multiple disciplines within that period, then two (2) years from date of last discipline. If employee separates prior to the expiration of the two (2) year period, then retain for 50 years after date of separation., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2014-06-10",
       "next_update_due": null,
       "comments": null

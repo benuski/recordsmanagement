@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: Keep five years expiration unless a licensee or permittee is involved in litigation with Division. In which case, keep two years all administrative, civil, or criminal action is complete ; Electronic: Keep five years expiration unless a licensee or permittee is involved in litigation with Division. In which case, keep two years all administrative, civil, or criminal action is complete",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Wastepaper ; Electronic: Delete",
+      "disposition": "Paper: Keep five years after expiration unless a licensee or permittee is involved in litigation with the Division. In which case, keep for two years after all administrative, civil, or criminal action is complete then destroy ; Electronic: Keep five years after expiration unless a licensee or permittee is involved in litigation with the Division. In which case, keep for two years after all administrative, civil, or criminal action is complete then destroy, Paper: Wastepaper ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-10-16",
       "next_update_due": null,
       "comments": null

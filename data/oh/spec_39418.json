@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Electronic: If proceedings result in board action, scanned, or five years. If investigation does not result in board action, scanned, or two years. ; Paper: If proceedings result in board action, scanned, or five years. If investigation does not result in board action, scanned, or two years",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase ; Paper: Shred",
+      "disposition": "Electronic: If proceedings result in board action, retain until scanned, or five years. If the investigation does not result in board action, retain until scanned, or for two years. ; Paper: If proceedings result in board action, retain until scanned, or five years. If the investigation does not result in board action, retain until scanned, or for two years., Electronic: Erase ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2024-04-29",
       "next_update_due": null,
       "comments": null

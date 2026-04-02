@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Electronic: two (2) years ; Paper: two (2) years",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Archives ; Paper: Archives",
+      "disposition": "Electronic: Retain two (2) years, then contact State Archives for review and possible transfer. Dispose of, if not transferred. ; Paper: Retain two (2) years, then contact State Archives for review and possible transfer. Dispose of, if not transferred., Electronic: Archives ; Paper: Archives",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-10-05",
       "next_update_due": null,
       "comments": null

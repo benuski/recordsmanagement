@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: All applications and supporting documents generated will be retained imaged and verified. hard copy records are ; Electronic: Imaged records are retained three (3) years date of issuance",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: All applications and supporting documents generated will be retained until imaged and verified. The hard copy records are then transferred to the ODPS Record Center for storage. They are retained for three (3) years after the date of issuance, then destroyed. ; Electronic: Imaged records are retained for three (3) years after the date of issuance, then destroyed., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2010-01-19",
       "next_update_due": null,
       "comments": null

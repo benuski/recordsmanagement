@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: last business day of year in which meeting was held",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Archives",
+      "disposition": "Paper: Retain until last business day of year in which meeting was held, then send to State Archivist for determination of historical significance, then destroy, Paper: Archives",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "1999-07-28",
       "next_update_due": null,
       "comments": null

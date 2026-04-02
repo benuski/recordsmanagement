@@ -11,18 +11,17 @@
       "series_id": "CPI-1",
       "series_title": "Confidential Personal Information (CPI) Systems Access Logs",
       "series_description": "Manual and electronic logs documenting employee access to confidential personal information (CPI) pursuant to ORC 1347.15 and OAC 3333-1-32 through 3333-1-32.4",
-      "legal_citation": null
+      "legal_citation": "ORC 1347.15"
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: ; Electronic",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Delete",
+      "disposition": "Paper: Retain 2 years, then destroy ; Electronic: Retain 2 years, then destroy, Paper: Recycle ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2014-05-13",
       "next_update_due": null,
       "comments": null

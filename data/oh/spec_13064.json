@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Microform: master microfilm in off-site storage ; Paper: in office area 2 years",
+      "trigger_event": "AC",
       "duration_years": 25,
       "duration_months": null,
-      "disposition_method": "Microform: Shred ; Paper: Shred",
+      "disposition": "Microform: Retain master microfilm in off-site storage for 25 years, then destroy. Retain diazo copy of the master in the operating area for 25 years, then destroy ; Paper: Retain in office area for 2 years, then microfilm. After microfilm has been checked for accuracy and completeness, destroy hard copy, Microform: Shred ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "1990-01-31",
       "next_update_due": null,
       "comments": null

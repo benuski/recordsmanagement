@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Paper: from date of notification by awarding agency that grant has been programmatically & fiscally closed or final single year audit report is released, whichever is later. ; Electronic: from date of notification by awarding agency that grant has been programmatically & fiscally closed or final single year audit report is released, whichever is later",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: 3 years from date of notification by awarding agency that the grant has been programmatically & fiscally closed or 3 years after final single year audit report is released, whichever is later. ; Electronic: 3 years from date of notification by awarding agency that the grant has been programmatically & fiscally closed or 3 years after final single year audit report is released, whichever is later., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-12-09",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Paper: scanned. ; Electronic: five years from receipt. ; Electronic: Permanently",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase ; Electronic: Permanent",
+      "disposition": "Paper: Retain until scanned. ; Electronic: Retain for five years from receipt. ; Electronic: Permanently retain., Paper: Shred ; Electronic: Erase ; Electronic: Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-10-15",
       "next_update_due": null,
       "comments": null

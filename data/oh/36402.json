@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: paper documents two years current year or scanned ; Electronic: scanned images two years current year, delete",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Delete",
+      "disposition": "Paper: Retain paper documents for two years plus current year or until scanned, then destroy. ; Electronic: Retain scanned images for two years plus current year, the delete., Paper: Recycle ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2019-05-30",
       "next_update_due": null,
       "comments": null

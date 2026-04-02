@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Electronic: in office . Review by State Archives prior disposal. ; Paper: in office . Review by State Archives prior disposal",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase ; Paper: Shred",
+      "disposition": "Electronic: Retain in office 5 years. Review by State Archives prior to disposal. ; Paper: Retain in office 5 years. Review by State Archives prior to disposal., Electronic: Erase ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2019-02-11",
       "next_update_due": null,
       "comments": null

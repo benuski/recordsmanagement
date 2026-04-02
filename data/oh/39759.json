@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Electronic: Contract Data Summary Sheet (CDSS) and Fact-Finding/Conciliation Data Summary Sheet are stored in Clearinghouse Database",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete",
+      "disposition": "Electronic: Contract Data Summary Sheet (CDSS) and Fact-Finding/Conciliation Data Summary Sheet are stored in the Clearinghouse Database., Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-26",
       "next_update_due": null,
       "comments": null

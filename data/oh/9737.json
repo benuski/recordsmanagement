@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Paper: Paper: scanned LAN and CD-ROM and LAN and CD-ROM are checked accuracy ; Electronic: LAN: permanently. CD-ROM: permanently, as backup LAN",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Paper: Archives ; Electronic: Permanent",
+      "disposition": "Paper: Paper: Retain until scanned to LAN and CD-ROM and until the LAN and CD-ROM are checked for accuracy, then destroy; however, if not scanned to LAN and CD-ROM, retain permanently. [Note: the Journal has not been maintained on paper since 1997.] Journal Books: Retain in Board Offices for ten years, and until scanned to LAN and LAN checked for accuracy; then transfer to State Archives for their possible retention ; Electronic: LAN: Retain permanently. CD-ROM: Retain permanently, as backup to LAN, Paper: Archives ; Electronic: Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2022-01-26",
       "next_update_due": null,
       "comments": null

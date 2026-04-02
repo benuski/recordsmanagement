@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Electronic: from decision not prosecute. If decision not made, permanently. ; Paper: from decision not prosecute, unless scanned and saved electronically. If decision not made, permanently",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "disposition": "Electronic: Retain 4 years from decision not to prosecute. If decision not made, retain permanently. ; Paper: Retain 4 years from decision not to prosecute, unless scanned and saved electronically. If decision not made, retain permanently., Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-02-14",
       "next_update_due": null,
       "comments": null

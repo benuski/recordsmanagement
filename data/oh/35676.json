@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Electronic: audited by Auditor of State, audit report is released, and all discrepancies are resolved, no longer of administrative value ; Paper: Scan electronic medium storage, check scan accuracy",
-      "duration_years": null,
+      "trigger_event": "CR",
+      "duration_years": 75,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase ; Paper: Recycle",
+      "disposition": "Electronic: Retain until audited by Auditor of State, audit report is released, and all discrepancies are resolved,retain until no longer of administrative value, then destroy. ; Paper: Scan to electronic medium for storage, check scan for accuracy, then destroy. Retain existing offsite files for 75 years, unless needed for longer period of time based upon legal or administrative significance or scanned to electronic medium for storage., Electronic: Erase ; Paper: Recycle",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2022-02-28",
       "next_update_due": null,
       "comments": null

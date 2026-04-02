@@ -11,18 +11,17 @@
       "series_id": "4001",
       "series_title": "Commercial Driver License Medical Examiner Certificate (MECERT) Files",
       "series_description": "This series consists of records pertaining to commercial driver license holders'' self-certification forms and medical examiner certificates (MECERTs) in accordance with ORC 4506.10 and 49 CFR 383.73(o)(1)(ii). Records retained in this series include MECERT cards, self-certification forms (BMV 2159), and supporting documentation; MECERT notices of update, status change, or expiration; MECERT notices and case documentation supporting the downgrade, suspension, or revocation of CDL privileges based on MECERT violations; and MECERT transaction histories.",
-      "legal_citation": null
+      "legal_citation": "ORC 4506.10"
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: three years from record''s date creation, issuance, or receipt unless imaged, validated, and retained in BMV''s Custom Processing Image Client (CPIC) web application. Paper records may be destroyed once imaged and validated in CPIC. ; Electronic: three years from date of record''s creation, issuance, or receipt. MECERT records are retained in BMV''s Custom Processing Image Client (CPIC) web application. MECERT transaction histories are retained in BMV''s Driver License System (DLS)",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain three years from record''s date creation, issuance, or receipt unless imaged, validated, and retained in BMV''s Custom Processing Image Client (CPIC) web application. Paper records may be destroyed once imaged and validated in CPIC. ; Electronic: Retain three years from date of record''s creation, issuance, or receipt. MECERT records are retained in BMV''s Custom Processing Image Client (CPIC) web application. MECERT transaction histories are retained in BMV''s Driver License System (DLS)., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2013-03-13",
       "next_update_due": null,
       "comments": null

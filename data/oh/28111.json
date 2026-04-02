@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Electronic: Attach case in OASIS and permanently. ; Paper: Scan into Ohio Agent Secure Information System (OASIS) and attach case. paper copy can be destroyed upon successful completion of scanned record into OASIS",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Electronic: Permanent ; Paper: Shred",
+      "disposition": "Electronic: Attach to the case in OASIS and retain permanently. ; Paper: Scan into the Ohio Agent Secure Information System (OASIS) and attach to case. The paper copy can be destroyed upon successful completion of the scanned record into OASIS., Electronic: Permanent ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2023-10-11",
       "next_update_due": null,
       "comments": null

@@ -11,18 +11,17 @@
       "series_id": "81-OAG-09",
       "series_title": "Interception Warrant Applications",
       "series_description": "Per ORC 2933.53(B)(9), the Ohio Attorney General's Office receives and issues a written statement agreeing or disagreeing with the issuance of an interception warrant, such as a wiretap, by county prosecuting attorney. Records include, but are not limited to, the initial application from county prosecuting attorney as well as the written response from the OAG.",
-      "legal_citation": null
+      "legal_citation": "ORC 2933.53"
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Electronic: from issuance. ; Paper: from issuance. If scanned and saved electronically",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "disposition": "Electronic: Retain 3 years from issuance. ; Paper: Retain 3 years from issuance. If scanned and saved electronically, then destroy., Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-07-16",
       "next_update_due": null,
       "comments": null

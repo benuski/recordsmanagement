@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: in Actuarial Unit , and ; Microform: Microfiche in Actuarial Unit , and ; Electronic: electronic records on (WCIS) Workers Comp Insurance System, Rates and Payments and BWC shared drives, and",
       "duration_years": 25,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Microform: Burn ; Electronic: Delete",
+      "disposition": "Paper: Retain in the Actuarial Unit for 25 years, and then destroy. ; Microform: Retain Microfiche in the Actuarial Unit for 25 years, and then destroy. ; Electronic: Retain electronic records for 25 years on the (WCIS) Workers Comp Insurance System, Rates and Payments and BWC shared drives, and then destroy., Paper: Shred ; Microform: Burn ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2014-03-06",
       "next_update_due": null,
       "comments": null

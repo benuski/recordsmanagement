@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "Paper: from non-renewal and at end of fiscal year (FY) ; Electronic: Purge inactive records at end of each fiscal year",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: 2 years from non-renewal and destroy at end of fiscal year (FY) ; Electronic: Purge inactive records at the end of each fiscal year., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2006-12-13",
       "next_update_due": null,
       "comments": null

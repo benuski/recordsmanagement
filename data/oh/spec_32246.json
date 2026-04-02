@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Microform: 14 days from time electronic file is provided board ; Paper: no paper files are retained in office. all paper transcripts are uploaded electronic system. ; Electronic: in licensing and document management system a period of one year. that period of time records may be destroyed",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Microform: Erase ; Paper: Shred ; Electronic: Delete",
+      "disposition": "Microform: 14 days from the time the electronic file is provided to the board ; Paper: no paper files are retained in the office. all paper transcripts are uploaded to the electronic system. ; Electronic: Retain in licensing and document management system for a period of one year. After that period of time the records may be destroyed., Microform: Erase ; Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-12",
       "next_update_due": null,
       "comments": null

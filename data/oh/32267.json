@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Electronic: from receipt of information",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Electronic: Recycle",
+      "disposition": "Electronic: Retain 5 years from receipt of information, the destroy, Electronic: Recycle",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2014-04-18",
       "next_update_due": null,
       "comments": null

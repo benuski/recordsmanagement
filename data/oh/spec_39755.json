@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: in office files throughout length of individual's security clearance ( max initial issuance, followed by max each renewal/Periodic Review ; Electronic: in OHS network drive throughout length of individual's security clearance ( max initial issuance, followed by max each renewal/Periodic Review)",
       "duration_years": 10,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain in office files throughout the length of the individual's security clearance (10 year max for initial issuance, followed by 10 year max for each renewal/Periodic Review, then shred once clearance is inactivated.) ; Electronic: Retain in OHS network drive throughout the length of the individual's security clearance (10 year max for initial issuance, followed by 10 year max for each renewal/Periodic Review), then delete once clearance is inactivated, Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-02-19",
       "next_update_due": null,
       "comments": null

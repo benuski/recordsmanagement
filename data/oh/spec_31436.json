@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: 3 yrs end of period covering license period or such time as diligent enforcement inquiry is resolved a particular year",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": 12,
-      "disposition_method": "Paper: Shred",
+      "disposition": "Paper: Destroy 3 yrs after the end of the 12 month period covering the license period or until such time as the diligent enforcement inquiry is resolved for a particular year., Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2013-06-25",
       "next_update_due": null,
       "comments": null

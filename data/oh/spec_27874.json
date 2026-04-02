@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: WHITE - Original - Filed with Court. BLUE- Duplicate copy Defendant. BUFF - Triplicate copy retained five (5) years current ; Electronic: Store in OTIS five years current",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: WHITE - Original - Filed with the Court. BLUE- Duplicate copy to the Defendant. BUFF - Triplicate copy retained for five (5) years plus current, then destroyed. ; Electronic: Store in OTIS for five years plus current, then deleted., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2023-01-23",
       "next_update_due": null,
       "comments": null

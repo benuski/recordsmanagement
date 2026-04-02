@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Electronic: 12 current monthly system backup cycles. 3 current years of annual backup copies",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase",
+      "disposition": "Electronic: Retain 12 current monthly system backup cycles. Retain 3 current years of the annual backup copies. Then destroy., Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2004-07-14",
       "next_update_due": null,
       "comments": null

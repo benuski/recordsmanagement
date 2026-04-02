@@ -11,18 +11,17 @@
       "series_id": "HUMA/FMLA",
       "series_title": "Employee FMLA and related correspondence",
       "series_description": "Applications for Family and Medical Leave (Records) and any information related to use of the Family and Medical Leave Act (FMLA) including: Basic payroll and identifying employee data, Dates/hours FMLA leave is taken by eligible employees, Notices of leave furnished by employee under FMLA, Notices given to employees as required by FMLA regulations, Descriptions of employee benefits and paid/unpaid leave polices and practices. Premium payments of employee benefits, Records of any dispute between employer and employee regarding designation of leave as FMLA leave.",
-      "legal_citation": null
+      "legal_citation": "29 CFR 825"
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "trigger_desc": "Paper: Hard copy FMLA records from period of 1993 1999 should be retained employee’s separation from BWC according general schedule 18550857. All records from 2000 and beyond will be scanned into FMLA SharePoint site and ; Electronic: 3 calendar years employee’s separation from BWC. This retention period is in according Family and Medical Leave Act of 1993 under Federal code 29 CFR 825.400",
       "duration_years": 7,
-      "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
-      "confidential_flag": false
+      "duration_months": 3,
+      "disposition": "Paper: Hard copy FMLA records from the period of 1993 to 1999 should be retained for 7 years after the employee’s separation from BWC according to the general schedule 18550857. All records from 2000 and beyond will be scanned into the FMLA SharePoint site and then will be held for 3 months for quality assurance. Then the records will be destroyed as confidential. ; Electronic: Retain for 3 calendar years after the employee’s separation from BWC. This retention period is in according The Family and Medical Leave Act of 1993 under the Federal code 29 CFR 825.400, Paper: Shred ; Electronic: Delete",
+      "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2012-03-28",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "trigger_desc": "Electronic: Five years from date of electronic receipt. At end of each calendar year ( example, December 31, 2021), delete electronic cancer reports received more than prior ( example, on or before December 31, 2016). ; Paper: Three years date of diagnosis listed on paper or faxed cancer reports. At end of each calendar year ( example, December 31, 2021), shred paper cancer reports and delete faxed cancer reports with a date of diagnosis more than 3 years prior ( example, on or before December 31, 2018)",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase ; Paper: Shred",
+      "disposition": "Electronic: Five years from date of electronic receipt. At the end of each calendar year (for example, December 31, 2021), delete electronic cancer reports received more than 5 years prior (for example, on or before December 31, 2016). ; Paper: Three years after the date of diagnosis listed on paper or faxed cancer reports. At the end of each calendar year (for example, December 31, 2021), shred paper cancer reports and delete faxed cancer reports with a date of diagnosis more than 3 years prior (for example, on or before December 31, 2018)., Electronic: Erase ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2022-04-29",
       "next_update_due": null,
       "comments": null

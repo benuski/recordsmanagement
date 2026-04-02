@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Electronic: and maintain in OCC Electronic Reference Library (ERL); ; Paper: Paper documents contained in case files are scanned into ERL. Paper document is scanned, it can be disposed of once it is no longer of administrative value",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Electronic: Permanent ; Paper: Recycle",
+      "disposition": "Electronic: Transfer to and maintain in the OCC Electronic Reference Library (ERL); then transfer to and maintain in any system that replaces the ERL. Maintain permanently in a machine readable form. OCC’s electronic data is also backed up. Retain in the OCC Electronic Reference Library. If system is replaced, then transfer to new system. ; Paper: Paper documents contained in case files are scanned into the ERL. After the Paper document is scanned, it can be disposed of once it is no longer of administrative value., Electronic: Permanent ; Paper: Recycle",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2012-01-03",
       "next_update_due": null,
       "comments": null

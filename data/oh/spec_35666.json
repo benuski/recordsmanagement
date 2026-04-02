@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: entire record is scanned electronic medium storage and scan is checked accuracy; ; Electronic: , unless no longer needed longer period of time based on legal or administrative significance",
       "duration_years": 75,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Erase",
+      "disposition": "Paper: Retain until entire record is scanned to electronic medium for storage and scan is checked for accuracy; then destroy. ; Electronic: Retain 75 years, unless no longer needed for longer period of time based on legal or administrative significance, Paper: Recycle ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2026-03-09",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Paper: Do not . Convert a maintenance medium and indefinitely. ; Electronic: Do not . Convert a maintenance medium and indefinitely. ; Microform: Do not . Convert a maintenance medium and indefinitely",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Paper: Permanent ; Electronic: Permanent ; Microform: Permanent",
+      "disposition": "Paper: Do not destroy. Convert to a maintenance medium and retain indefinitely. ; Electronic: Do not destroy. Convert to a maintenance medium and retain indefinitely. ; Microform: Do not destroy. Convert to a maintenance medium and retain indefinitely., Paper: Permanent ; Electronic: Permanent ; Microform: Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-02-25",
       "next_update_due": null,
       "comments": null

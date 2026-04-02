@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: working paper documents (draft lists, scoring sheets, etc.) final list has been approved ; Microform: microfilm obsolete or of no administrative value",
-      "duration_years": null,
+      "trigger_event": "CR",
+      "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Microform: Trash",
+      "disposition": "Paper: Retain working paper documents (draft lists, scoring sheets, etc.) until final list has been approved, then destroy. Retain Annual Lists for 5 years then microfilm. ; Microform: Retain microfilm until obsolete or of no administrative value., Paper: Recycle ; Microform: Trash",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2006-04-18",
       "next_update_due": null,
       "comments": null

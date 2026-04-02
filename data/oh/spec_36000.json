@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "trigger_desc": "Paper: 1 full calendar year current year. ; Electronic: 1 full calendar year current year",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Retain 1 full calendar year plus current year. Then destroy after audited by Auditor of State and report is released and all descrepancies are resolved, then destroy. ; Electronic: Retain 1 full calendar year plus current year. Then destroy after audited by Auditor of State and report is released and all descrepancies are resolved, then destroy., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2019-02-14",
       "next_update_due": null,
       "comments": null

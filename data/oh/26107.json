@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: audited by Auditor of State and audit report completed and released ; Electronic: Information is also retained in Tax Distribution Data Base Computer System three years audit is released",
-      "duration_years": null,
+      "trigger_event": "AC",
+      "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Delete",
+      "disposition": "Paper: Retain until audited by Auditor of State and audit report completed and released, then destroy 5 years thereafter. ; Electronic: Information is also retained in Tax Distribution Data Base Computer System for three years after the audit is released., Paper: Recycle ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2008-03-24",
       "next_update_due": null,
       "comments": null

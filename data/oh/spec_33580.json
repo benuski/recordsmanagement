@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Electronic: in office area two (2) years case is closed and no further appeals can be filed LITIGATION HOLD: Any records subject a litigation hold must be retained hold is lifted by Legal Office, regardless of whether specified retention period has elapsed. ; Paper: period specified electronic format",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase ; Paper: Shred",
+      "disposition": "Electronic: Retain in office area for two (2) years after case is closed and no further appeals can be filed, then destroy. If dismissed without prejudice, retain one year after statute of limitations runs, then destroy. For matters that do not result in litigation, retain records for two (2) years after matter is closed. LITIGATION HOLD: Any records subject to a litigation hold must be retained until the hold is lifted by the Legal Office, regardless of whether the specified retention period has elapsed. ; Paper: Retain for period specified for electronic format, then destroy. If converted to electronic/digital format, paper records may be destroyed after verification of successful conversion., Electronic: Erase ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2016-06-23",
       "next_update_due": null,
       "comments": null

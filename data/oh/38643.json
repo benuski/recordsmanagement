@@ -11,18 +11,17 @@
       "series_id": "78-OAG-45",
       "series_title": "Sexual Assault Kit Tracking System",
       "series_description": "Per ORC 109.68, this statewide tracking system provides a chain-of-custody tracking of sexual assault forensic evidence kits for victims to track whether their kit is being stored, reviewed, or destroyed by a medical facility, law enforcement agency, or crime laboratory such as the Bureau of Criminal Investigation (BCI) laboratory. This system does not contain any personal information about the victim or information regarding any ongoing investigation that the kit may be related to. The retention of the sexual assault forensic evidence kits and investigative work by the law enforcement jurisdiction will be retained under retention schedules separate from this one.",
-      "legal_citation": null
+      "legal_citation": "ORC 109.68"
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Electronic: permanently",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Electronic: Permanent",
+      "disposition": "Electronic: Retain permanently., Electronic: Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-01-22",
       "next_update_due": null,
       "comments": null

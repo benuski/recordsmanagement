@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: useful life of property (AGO) from receipt of certificate of registration or assignment (Client files) ; Electronic: 5 years & unless no longer of administrative value from receipt of certification of registration or assignment",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: 2 years after useful life of property (AGO) 2 years from receipt of certificate of registration or assignment (Client files) ; Electronic: 5 years & unless no longer of administrative value from receipt of certification of registration or assignment, Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2012-05-24",
       "next_update_due": null,
       "comments": null

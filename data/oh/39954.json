@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Electronic: AI summary of meeting six months date of meeting, unless meeting topic is subject ongoing litigation, audit, or regulatory hold. ; Electronic: AI transcription of meeting one month date of meeting, unless meeting topic is subject ongoing litigation, audit, or regulatory hold",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Electronic: Delete",
+      "disposition": "Electronic: Retain AI summary of meeting for six months after date of meeting, unless the meeting topic is subject to ongoing litigation, audit, or regulatory hold. ; Electronic: Retain AI transcription of meeting for one month after date of meeting, unless the meeting topic is subject to ongoing litigation, audit, or regulatory hold., Electronic: Delete ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2026-02-18",
       "next_update_due": null,
       "comments": null

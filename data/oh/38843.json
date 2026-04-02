@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: Paper records be retained five years termination of trust ; Electronic: Electronic records retained five years termination of trust",
-      "duration_years": null,
+      "trigger_event": "PM",
+      "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Paper records to be retained until five years after termination of the trust, then destroyed. If scanned and saved in an electronic format, the paper copy may be destroyed at that time. ; Electronic: Electronic records retained until five years after termination of the trust, then deleted, except for the Post Mining Water Treatment Order and Agreement, including attachments thereto, and the final release records, which are retained permanently., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-11",
       "next_update_due": null,
       "comments": null

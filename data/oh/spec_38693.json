@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Electronic: Information is maintained in PISGS system as long as record is active. Once a record becomes inactive (expired, terminated, withdrawn, or revoked), record shall be retained inactive status. ; Paper: All paper documents and photos are be disposed of scanning into PISGS system",
+      "trigger_event": "AC",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "disposition": "Electronic: Information is maintained in the PISGS system for as long as the record is active. Once a record becomes inactive (expired, terminated, withdrawn, or revoked), the record shall be retained for 5 years after inactive status. ; Paper: All paper documents and photos are to be disposed of after scanning into the PISGS system., Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-12-17",
       "next_update_due": null,
       "comments": null

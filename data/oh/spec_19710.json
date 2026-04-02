@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Paper: Current year is kept in office area ; Electronic: Maintain machine readable records on computer database superseded or record series is no longer created",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Erase",
+      "disposition": "Paper: Current year is kept in the office area, then scanned on the License Issuance Tracking System and paper is destroyed after scanning is checked for quality and completeness ; Electronic: Maintain machine readable records on computer database until superseded or until record series is no longer created, then destroy by erasure., Paper: Recycle ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2003-06-26",
       "next_update_due": null,
       "comments": null

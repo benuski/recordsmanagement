@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Paper: in office prior closing. closing, state storage , prior destroying",
+      "trigger_event": "AC",
       "duration_years": 7,
       "duration_months": null,
-      "disposition_method": "Paper: Shred",
+      "disposition": "Paper: Retain in office prior to closing. After closing, transfer to state storage for 7 years, prior to destroying., Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2008-12-22",
       "next_update_due": null,
       "comments": null

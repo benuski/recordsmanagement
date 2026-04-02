@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "file is closed",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Transfer To The Records Center, Library Of Virginia",
+      "disposition": "Retain 2 years after file is closed, then transfer to the Records Center, Library of Virginia. Retain in Records Center 2 years. Total retention 4 years then destroy.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -47,14 +46,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "in agency",
       "duration_years": 10,
       "duration_months": null,
-      "disposition_method": "Transfer To Archives, Library Of Virginia",
+      "disposition": "Retain in agency for 10 years, then transfer to Archives, Library of Virginia.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -79,14 +77,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "file is closed",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Transfer To The Records Center, Library Of Virginia",
+      "disposition": "Retain 3 years after file is closed, then transfer to the Records Center, Library of Virginia. Retain in Records Center 2 years. Total retention 5 years, then transfer to Archives, Library of Virginia.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -110,15 +107,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "study is completed",
+      "trigger_event": "AC",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Transfer To",
+      "disposition": "Retain 3 years after study is completed, then transfer to",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null

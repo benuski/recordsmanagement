@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: Paper: scanned LAN and LAN checked accuracy; and two years term of contract has expired; ; Electronic: LAN: no longer of administrative value",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Erase",
+      "disposition": "Paper: Paper: Retain until scanned to LAN and LAN checked for accuracy; and for two years after the term of contract has expired; then destroy ; Electronic: LAN: Retain until no longer of administrative value, then destroy, Paper: Recycle ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-12-03",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: all certificates and applications in operating area while each registrant maintains active registration status. non-active applications offsite",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle",
+      "disposition": "Paper: Retain all certificates and applications in operating area while each registrant maintains active registration status. Retain non-active applications 5 years offsite, then destroy., Paper: Recycle",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2006-06-07",
       "next_update_due": null,
       "comments": null

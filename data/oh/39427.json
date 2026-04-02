@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: Paper files are destroyed upon scanning. ; Electronic: in electronic files thirty (30) years from date of graduation",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Paper files are destroyed upon scanning. ; Electronic: Retain in electronic files thirty (30) years from the date of graduation then delete., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2024-04-29",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Microform: be retained in Payroll , and ; Paper: be retained in Payroll 3 years, records storage facility 4 years, and",
       "duration_years": 7,
       "duration_months": null,
-      "disposition_method": "Microform: Burn ; Paper: Shred",
+      "disposition": "Microform: To be retained in Payroll for 7 years, and then destroy. ; Paper: To be retained in Payroll for 3 years, transfer to the records storage facility for 4 years, and then destroy., Microform: Burn ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2008-07-22",
       "next_update_due": null,
       "comments": null

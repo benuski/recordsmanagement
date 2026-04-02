@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Paper: scanned and saved electronically. ; Electronic: later of either or policy is superseded or obsolete",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Delete",
+      "disposition": "Paper: Retain until scanned and saved electronically. ; Electronic: Retain for the later of either 5 years or until policy is superseded or obsolete., Paper: Recycle ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2022-12-05",
       "next_update_due": null,
       "comments": null

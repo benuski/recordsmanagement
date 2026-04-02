@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Paper: hard copy calendar year in which received ; Microform: microfilm in operating area permanently",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Microform: Permanent",
+      "disposition": "Paper: Retain hard copy for the calendar year in which received, then microfilm. After microfiche has been checked for quality and completeness, then destroy hard copy. ; Microform: Retain microfilm in operating area permanently., Paper: Recycle ; Microform: Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2008-11-10",
       "next_update_due": null,
       "comments": null

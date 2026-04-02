@@ -11,18 +11,17 @@
       "series_id": "86-OAG-58",
       "series_title": "Ballot Initiatives and Referendum Certification Letters",
       "series_description": "Certification letters for ballot initiatives and referendums related to the Ohio Attorney General's Office (OAG) responsibilities set forth in ORC 3519.01.",
-      "legal_citation": null
+      "legal_citation": "ORC 3519.01"
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: from certification, unless scanned and saved electronically. ; Electronic: from certification",
       "duration_years": 15,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain 15 years from certification, unless scanned and saved electronically. ; Electronic: Retain 15 years from certification., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-09-20",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "trigger_desc": "Paper: Awarded contracts: in office life of contract ; Electronic: Awarded contracts: six calendar years expiration of contract",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Awarded contracts: in office for life of contract, then destroyed. Cancelled solicitations: in office for one year after cancellation, then destroyed ; Electronic: Awarded contracts: six calendar years after expiration of the contract, then destroyed. Cancelled solicitations: one year after cancellation, then destroyed, Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2024-07-05",
       "next_update_due": null,
       "comments": null

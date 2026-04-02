@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Electronic: all on-going investigations are completed. only receipt of written permission from Region 5, United States Environmental Protection Agency ; Paper: all on-going investigations are completed. only receipt of written permission from Region 5, United States Environmental Protection Agency",
+      "trigger_event": "AC",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase ; Paper: Shred",
+      "disposition": "Electronic: Retain 3 years after all on-going investigations are completed. Destroy only after receipt of written permission from Region 5, United States Environmental Protection Agency ; Paper: Retain 3 years after all on-going investigations are completed. Destroy only after receipt of written permission from Region 5, United States Environmental Protection Agency, Electronic: Erase ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "1992-09-03",
       "next_update_due": null,
       "comments": null

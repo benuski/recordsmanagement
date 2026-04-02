@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: data is entered into state''''''''s electronic licensing system ; Electronic: data is entered into state''s electronic licensing system. Once authorized representative is no longer active or representative of salon, facility or school represented, electronic licensing system record may be erased",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Retain until data is entered into state''''''''s electronic licensing system ; Electronic: Retain until data is entered into state''s electronic licensing system. Once authorized representative is no longer active or the representative of the salon, facility or school represented, the electronic licensing system record may be erased., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-08-17",
       "next_update_due": null,
       "comments": null

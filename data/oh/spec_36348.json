@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: information has been input into LTAP Enrollment System, information has been verified. ; Electronic: information in LTAP Enrollment System thirty-two (32) years",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Delete",
+      "disposition": "Paper: Retain until information has been input into the LTAP Enrollment System, destroy after information has been verified. ; Electronic: Retain information in LTAP Enrollment System for thirty-two (32) years., Paper: Recycle ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2019-05-21",
       "next_update_due": null,
       "comments": null

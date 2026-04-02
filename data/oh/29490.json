@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Electronic: final agency review and sign-off, immediately . ; Paper: three most recent agency/program-specific assessments. Send older assessments secure storage facility shredding",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase ; Paper: Shred",
+      "disposition": "Electronic: After final agency review and sign-off, immediately destroy. ; Paper: Retain the three most recent agency/program-specific assessments. Send older assessments to secure storage facility for shredding., Electronic: Erase ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2011-06-02",
       "next_update_due": null,
       "comments": null

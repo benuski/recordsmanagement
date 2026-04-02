@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Microform: original in office permanently or file is converted a machine readable format ; Electronic: Maintain machine readable record permanently. ; Paper: compliance inspection files in operating area or storage files are assigned a ‘closed’ status. Upon being assigned a ‘closed’ status, file will be converted a machine readable format",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Microform: Shred ; Electronic: Permanent ; Paper: Shred",
+      "disposition": "Microform: Retain original in office permanently or until the file is converted to a machine readable format then destroy microform. ; Electronic: Maintain machine readable record permanently. ; Paper: Retain compliance inspection files in the operating area or storage until the files are assigned a ‘closed’ status. Upon being assigned a ‘closed’ status, the file will be converted to a machine readable format, then destroy paper copy., Microform: Shred ; Electronic: Permanent ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2013-03-13",
       "next_update_due": null,
       "comments": null

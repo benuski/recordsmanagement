@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Paper: Keep one year test date, in event of a positive test result keep all forms completion of testing program is complete (). If scanned, verify image and securely . ; Electronic: Keep one year test date, in event of a positive test result keep all forms completion of testing program is complete ()",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Keep for one year after the test date, in the event of a positive test result keep all forms until completion of testing program is complete (2 years). If scanned, verify image and securely destroy. ; Electronic: Keep for one year after the test date, in the event of a positive test result keep all forms until completion of testing program is complete (2 years)., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2018-09-20",
       "next_update_due": null,
       "comments": null

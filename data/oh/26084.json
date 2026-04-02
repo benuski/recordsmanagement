@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Paper: paper copy action becomes public; entire paper file scanned digital file on Board storage device and back-up device; Paper file destroyed staff determines digital file''s integrity. ; Electronic: digital file death of licensee unless under court order longer",
+      "trigger_event": "AC",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Retain paper copy after action becomes public; entire paper file scanned to digital file on Board storage device and back-up device; Paper file destroyed after staff determines digital file''s integrity. ; Electronic: Retain digital file for 5 years after death of licensee unless under court order to retain longer., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2008-03-18",
       "next_update_due": null,
       "comments": null

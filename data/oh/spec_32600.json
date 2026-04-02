@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "Electronic: Closed Vehicle Modification case files are maintained ten (10) federal fiscal years and ; Paper: Closed Vehicle Modification case files are maintained ten (10) federal fiscal years and",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "disposition": "Electronic: Closed Vehicle Modification case files are maintained for ten (10) federal fiscal years and then destroyed. A Certificate of Disposal is required when destroying these records. ; Paper: Closed Vehicle Modification case files are maintained for ten (10) federal fiscal years and then destroyed. A Certificate of Disposal is required when destroying these records., Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2022-10-11",
       "next_update_due": null,
       "comments": null

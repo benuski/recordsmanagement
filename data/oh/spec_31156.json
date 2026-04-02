@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "Paper: all pitch books remainder of current fiscal year in which book is received by Treasurer''s office and one additional fiscal year. If pitch book is submitted as part of a response an RFP, RFI or RFQ",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred",
+      "disposition": "Paper: Retain all pitch books for the remainder of the current fiscal year in which book is received by Treasurer''s office and for one additional fiscal year. If pitch book is submitted as part of a response to an RFP, RFI or RFQ, then retain with responses for duration required by applicable retention schedule (examples: DEBT-4 & LEG-03). If pitch book leads to a contract not issued pursuant to an RFP, RFI or RFQ, then retain with corresponding contract pursuant to retention schedule for the pertinent contract., Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2022-10-26",
       "next_update_due": null,
       "comments": null

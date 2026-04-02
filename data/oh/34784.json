@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Electronic: Keep in office (10) years current year",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete",
+      "disposition": "Electronic: Keep in office for (10) years plus the current year, then destroy provided audit is complete and audit report released and all State wide cost Allocation Program (SWCAP) obligations have been met if applicable., Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-11-02",
       "next_update_due": null,
       "comments": null

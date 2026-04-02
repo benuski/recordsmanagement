@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: current year three years from date of federal \"Final Financial Report\" applicable grant and State Single Audit has been completed. ; Electronic: current year three years from date of federal \"Final Financial Report\" applicable grant and State Single Audit has been completed",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain current year plus three years from the date of the federal \"Final Financial Report\" for the applicable grant and until the State Single Audit has been completed. ; Electronic: Retain current year plus three years from the date of the federal \"Final Financial Report\" for the applicable grant and until the State Single Audit has been completed., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2014-09-04",
       "next_update_due": null,
       "comments": null

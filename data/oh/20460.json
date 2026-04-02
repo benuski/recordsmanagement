@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Paper: hard copy imaged; ; Electronic: hard copy imaged",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Paper: Wastepaper ; Electronic: Permanent",
+      "disposition": "Paper: Retain hard copy until imaged; then destroy hard copy. Retain image and review after 5 years, transfer to updated media if needed at that time. ; Electronic: Retain hard copy until imaged; then destroy hard copy. Retain image and review after 5 years, transfer to updated media if needed at that time., Paper: Wastepaper ; Electronic: Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2005-01-03",
       "next_update_due": null,
       "comments": null

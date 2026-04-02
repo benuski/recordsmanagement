@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Paper: converted electronic format, or project financial close. Subject review by State Archives subject destruction. ; Electronic: project financial close. Subject review by State Archives subject destruction",
+      "trigger_event": "AC",
       "duration_years": 15,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Until converted to electronic format, or for 15 years after project financial close. Subject to review by State Archives subject to destruction. ; Electronic: 15 years after project financial close. Subject to review by State Archives subject to destruction., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2014-12-11",
       "next_update_due": null,
       "comments": null

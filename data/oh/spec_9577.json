@@ -11,18 +11,17 @@
       "series_id": "CRT/APP-01",
       "series_title": "Court Case Files",
       "series_description": "Copies of all pleadings, journal entries, dockets and paper or written exhibits, records, reports, documents and a list of non-paper evidence for each LCC case appealed to the Court of Common Pleas. In accordnace with ORC 119.12.",
-      "legal_citation": null
+      "legal_citation": "ORC 119.12"
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: Consolidate with all related files into a single case file. final disposition of all legal actions and appeals and",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Wastepaper",
+      "disposition": "Paper: Consolidate with all related files into a single case file. Retain until final disposition of all legal actions and appeals and then destroy, Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "1999-07-28",
       "next_update_due": null,
       "comments": null

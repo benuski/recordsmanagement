@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "meeting",
+      "trigger_event": "AC",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Destroy",
+      "disposition": "Retain 3 years after meeting, then destroy.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -47,14 +46,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "in agency",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Transfer Records, In Paper Or Microfilm Format, To The Archives, Library Of Virginia For Permanent Retention",
+      "disposition": "Retain in agency 5 years, then transfer records, in paper or microfilm format, to the Archives, Library of Virginia for permanent retention.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -79,14 +77,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "in agency",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Transfer Records, In Paper Or Microfilm Formats, To The Archives, Library Of Virginia For Permanent Retention",
+      "disposition": "Retain in agency 5 years, then transfer records, in paper or microfilm formats, to the Archives, Library of Virginia for permanent retention.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -111,14 +108,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "in agency",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Transfer Records, In Paper Or Microfilm Format, To The Archives, Library Of Virginia For Permanent Retention",
+      "disposition": "Retain in agency 5 years, then transfer records, in paper or microfilm format, to the Archives, Library of Virginia for permanent retention.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -143,14 +139,13 @@
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "trigger_desc": "In December of each year take an electronic snapshot of site as it exists at that time. Store snapshot off-line in a suitable format. snapshot end of related calendar year",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Destroy",
+      "disposition": "In December of each year take an electronic snapshot of the site as it exists at that time. Store snapshot off-line in a suitable format. Retain snapshot 5 years after end of related calendar year, then destroy.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Electronic: death of licensee ; Paper: uploaded into electronic system",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Archives ; Paper: Archives",
+      "disposition": "Electronic: Retain until death of licensee then transfer initial photograph and application with SSN redacted to State Archives. Destroy all remaining documents. ; Paper: Retain until uploaded into electronic system then destroy. If not uploaded, retain until death of licensee then transfer initial photograph and application with SSN redacted to State Archives. Destroy all remaining documents., Electronic: Archives ; Paper: Archives",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-12-04",
       "next_update_due": null,
       "comments": null

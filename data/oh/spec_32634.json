@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: review files three years current year or next review cycle. If an agency is terminated cause, removed from National Disqualified List or State Disqualified List (a minimum of seven years) and/or any outstanding debt is paid USDA; if an appeal is filed ; Electronic: review files three years current year or next review cycle. If an agency is terminated cause, removed from National Disqualified List or State Disqualified List (a minimum of seven years) and/or any outstanding debt is paid USDA; if an appeal is filed",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain review files for three years plus the current year or until next review cycle. If an agency is terminated for cause, retain until removed from National Disqualified List or State Disqualified List (a minimum of seven years) and/or until any outstanding debt is paid to USDA; if an appeal is filed then transfer to appeal file. ; Electronic: Retain review files for three years plus the current year or until next review cycle. If an agency is terminated for cause, retain until removed from National Disqualified List or State Disqualified List (a minimum of seven years) and/or until any outstanding debt is paid to USDA; if an appeal is filed then transfer to appeal file., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-01-05",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Paper: agency ceases exist ; Electronic: agency ceases exist",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Paper: Permanent ; Electronic: Permanent",
+      "disposition": "Paper: Retain until agency ceases to exist, then transfer to succeeding entity and send one copy to the State Archives ; Electronic: Retain until agency ceases to exist, then transfer to succeeding entity and send one copy to the State Archives, Paper: Permanent ; Electronic: Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2008-10-01",
       "next_update_due": null,
       "comments": null

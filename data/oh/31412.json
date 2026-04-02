@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Electronic: BWC Disability Relief Determination Orders are scanned into Universal Document Service (UDS) of Employer Risk File. electronic records , and",
       "duration_years": 10,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete",
+      "disposition": "Electronic: The BWC Disability Relief Determination Orders are scanned into the Universal Document Service (UDS) of the Employer Risk File. Retain the electronic records for 10 years, and then destroy. The entire Disability Relief Application with the Disability Relief Determination Order is scanned into the injured workers claim file. Retain the electronic records for 10 years, and then destroy. Review the digital information every 3 years to ensure that the files can still be accessed and are readable in assessing record migration storage., Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2023-11-28",
       "next_update_due": null,
       "comments": null

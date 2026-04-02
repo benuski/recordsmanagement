@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Electronic: Ensure all records and supporting documentation are included in case file in Case Management System. in system five (5) years from date of closure of case",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete",
+      "disposition": "Electronic: Ensure all records and supporting documentation are included in the case file in Case Management System. Retain in the system for five (5) years from the date of closure of the case, then destroy., Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2024-10-02",
       "next_update_due": null,
       "comments": null

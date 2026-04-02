@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Microform: film ; Paper: in office 5 years",
       "duration_years": 10,
       "duration_months": null,
-      "disposition_method": "Microform: Shred ; Paper: Shred",
+      "disposition": "Microform: Retain film for 10 years, then destroy ; Paper: Retain in office for 5 years, then microfilm. Destroy hard copy, Microform: Shred ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "1995-04-27",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: no longer of administrative value and , if records appear have historical value State Archives. If no historical value is perceived by agency staff, ; Electronic: no longer of administrative value and , if records appear have historical value State Archives. If no historical value is perceived by agency staff",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Delete",
+      "disposition": "Paper: Until no longer of administrative value and then, if the records appear to have historical value to State Archives. If no historical value is perceived by agency staff, destroy ; Electronic: Until no longer of administrative value and then, if the records appear to have historical value to State Archives. If no historical value is perceived by agency staff, destroy., Paper: Recycle ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2014-03-06",
       "next_update_due": null,
       "comments": null

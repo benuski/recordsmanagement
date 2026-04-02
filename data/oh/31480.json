@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "trigger_desc": "Paper: expiration of calendar year in which documents are journalized. ; Electronic: 4 yrs expiration of calendar year in which documents are journalized",
       "duration_years": 4,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Destroy 4 years after the expiration of the calendar year in which the documents are journalized. ; Electronic: Destroy 4 yrs after the expiration of the calendar year in which the documents are journalized, Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2013-06-27",
       "next_update_due": null,
       "comments": null

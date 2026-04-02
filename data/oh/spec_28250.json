@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Paper: electronically scanned and converted CDROM readable format and microfilmed per American National Standards ; Microform: Microfilm use copy unusable. Create new copy from Master copy retained by agency. ; Electronic: CDROM version permanently. Update copy as required and transition new formats as technology changes require",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Microform: Archives ; Electronic: Permanent",
+      "disposition": "Paper: Retain until electronically scanned and converted to CDROM readable format and microfilmed per American National Standards, then permanently retain diazo use master copy after reviewing for accuracy. Transfer copy to State Archives. Permanenetly retain CDROM version of record series. ; Microform: Retain Microfilm use copy until unusable. Create new copy from Master copy retained by agency. ; Electronic: Retain CDROM version permanently. Update copy as required and transition to new formats as technology changes require., Paper: Shred ; Microform: Archives ; Electronic: Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2010-03-22",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: current year and previous review by State Archives possible ' ; Electronic: current year and previous two years review by State Archives possible '",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Delete",
+      "disposition": "Paper: Retain current year and previous 2 years review by State Archives for possible transfer' ; Electronic: retain current year and previous two years review by State Archives for possible transfer', Paper: Recycle ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2022-05-16",
       "next_update_due": null,
       "comments": null

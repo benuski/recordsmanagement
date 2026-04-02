@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Electronic: twenty years, and ensure that files can still be accessed",
-      "duration_years": null,
+      "trigger_event": "CR",
+      "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete",
+      "disposition": "Electronic: Retain for twenty years, and then destroy. Review the Legal Opinions every 3 years to ensure that the files can still be accessed., Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2012-04-05",
       "next_update_due": null,
       "comments": null

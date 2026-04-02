@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Paper: in office area superseded ; Electronic: Information is continually maintained on mainframe and updated as it is superseded by new information",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Erase",
+      "disposition": "Paper: Retain in the office area until superseded, then destroy. ; Electronic: Information is continually maintained on mainframe and updated as it is superseded by new information., Paper: Recycle ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2003-02-13",
       "next_update_due": null,
       "comments": null

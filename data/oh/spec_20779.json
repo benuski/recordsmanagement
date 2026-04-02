@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Electronic: audited by Auditor of State and audit report is released and all discrepancies are resolved ; Paper: audited by Auditor of State and audit report is released and all discrepancies are resolved",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase ; Paper: Trash",
+      "disposition": "Electronic: Retain until audited by Auditor of State and audit report is released and all discrepancies are resolved, then destroy ; Paper: Retain until audited by Auditor of State and audit report is released and all discrepancies are resolved, then destroy, Electronic: Erase ; Paper: Trash",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2004-08-09",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Microform: Continually maintain and update microfilm in operating area ; Paper: 5 yers in operating area. data deemed not useful. Microfilm data that is deemed use- ful and hardcopy microfilm is checked quality and completeness",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Microform: Permanent ; Paper: Wastepaper",
+      "disposition": "Microform: Continually maintain and update microfilm in operating area ; Paper: Retain 5 yers in operating area. Destroy data deemed not useful. Microfilm data that is deemed use- ful and destroy hardcopy after microfilm is checked for quality and completeness, Microform: Permanent ; Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "1985-10-21",
       "next_update_due": null,
       "comments": null

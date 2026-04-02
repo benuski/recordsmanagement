@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Paper: Black Lung files: file death of last beneficiary ; Electronic: Black Lung files: file death of last beneficiary",
+      "trigger_event": "AC",
       "duration_years": 10,
-      "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "duration_months": 3,
+      "disposition": "Paper: For Black Lung files: Retain file for 10 years after death of last beneficiary, then destroy; retain denied claim files indefinitely. For Marine Fund (Longshore) files: Retain lost time disability cases for 20 years after case is closed, then destroy; no lost time cases retained for 5 years after case is closed, then destroy; retain cases where last possible beneficiary has died for 6 years and 3 months after the death of such beneficiary, then destroy. Legal Citations: Sections 4131.01 through 4131.06 of the Ohio Revised Code; Title IV of the “Federal Coal Mine Health and Safety Act of 1969,” 83 Stat. 742, 30 U.S.C. 801, as now or hereafter amended; 20 C.F.R. Subchapter B, parts 718, 722, 725, 726; Sections 4131.11 through 4131.16 of the Ohio Revised Code; “Longshoremen’s and Harbor Workers’ Compensation Act Amendments of 1972,” 86 Stat. 1251, 33 U.S.C. 901; 20 C.F.R. Subchapter A, parts 701, 702, 703, 704 ; Electronic: For Black Lung files: Retain file for 10 years after death of last beneficiary, then destroy; retain denied claim files indefinitely. For Marine Fund (Longshore) files: Retain lost time disability cases for 20 years after case is closed, then destroy; no lost time cases retained for 5 years after case is closed, then destroy; retain cases where last possible beneficiary has died for 6 years and 3 months after the death of such beneficiary, then destroy. Legal Citations: Sections 4131.01 through 4131.06 of the Ohio Revised Code; Title IV of the “Federal Coal Mine Health and Safety Act of 1969,” 83 Stat. 742, 30 U.S.C. 801, as now or hereafter amended; 20 C.F.R. Subchapter B, parts 718, 722, 725, 726; Sections 4131.11 through 4131.16 of the Ohio Revised Code; “Longshoremen’s and Harbor Workers’ Compensation Act Amendments of 1972,” 86 Stat. 1251, 33 U.S.C. 901; 20 C.F.R. Subchapter A, parts 701, 702, 703, 704, Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2023-03-01",
       "next_update_due": null,
       "comments": null

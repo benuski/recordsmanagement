@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "Electronic: digital copy in system seven (7) years Auditor of State issues audit report that fiscal year",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete",
+      "disposition": "Electronic: Retain digital copy in system for seven (7) years after Auditor of State issues audit report for that fiscal year, then destroy., Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2024-10-17",
       "next_update_due": null,
       "comments": null

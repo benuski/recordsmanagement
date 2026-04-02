@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Paper: in office area adjudication ; Electronic: Machine Readable copies in office date of adjudication. review by Chief of Long-term Care",
+      "trigger_event": "AC",
       "duration_years": 7,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Retain in office area until adjudication, then store in records center 7 years from the date of adjudication. Destroy after review by the Chief of Long-term Care ; Electronic: Retain Machine Readable copies in office for 7 years after the date of adjudication. Destroy after review by the Chief of Long-term Care, Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2023-05-15",
       "next_update_due": null,
       "comments": null

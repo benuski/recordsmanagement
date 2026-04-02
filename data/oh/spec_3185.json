@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: Files held in Self-Insured 120 days",
-      "duration_years": null,
+      "trigger_event": "AC",
+      "duration_years": 10,
       "duration_months": null,
-      "disposition_method": "Paper: Shred",
+      "disposition": "Paper: Files held in Self-Insured for 120 days. Then shipped to the S.R.C. According to statute of Limitations 4123.56, 4123.84, 4123.85 then destroy after 10 years of no activity., Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "1988-06-29",
       "next_update_due": null,
       "comments": null

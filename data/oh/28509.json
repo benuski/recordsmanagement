@@ -11,18 +11,17 @@
       "series_id": "BCI-OLG-01",
       "series_title": "School Emergency/Floor Plans",
       "series_description": "ORC 3313.536 mandates that Ohio schools submit to the Attorney General''s Office for posting on the Ohio Law Enforcement Gateway (or its successor) a copy of their current safety plan and floor plan. Safety plans generally contain protocol for protecting persons and property from serious threats and protocol for responding to various types of emergency events that could occur.",
-      "legal_citation": null
+      "legal_citation": "ORC 3313.536"
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: 30 days scanned ; Electronic: superceded",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: 30 days after scanned ; Electronic: until superceded, Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2010-04-02",
       "next_update_due": null,
       "comments": null

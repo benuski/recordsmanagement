@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
-      "trigger_desc": "Paper: Active case files are maintained at Division of EMS closed. Closed cases are retained six (6) years from date closed and ; Electronic: Active case files are maintained at Division of EMS closed. Closed cases are retained six (6) years from date closed and",
+      "trigger_event": "CE",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Active case files are maintained at the Division of EMS until closed. Closed cases are retained for six (6) years from the date closed and then destroyed. Records pertaining to complaints received about medical transportation organizations that are not elevated to a case investigation are retained based on date of receipt in batches by calendar year and destroyed three (3) years following the date of the end of the calendar year. ; Electronic: Active case files are maintained at the Division of EMS until closed. Closed cases are retained for six (6) years from the date closed and then destroyed., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2022-12-28",
       "next_update_due": null,
       "comments": null

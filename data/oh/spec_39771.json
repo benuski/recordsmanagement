@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: as per record specific record series unless it is scanned electronic storage. Once scanned, paper copy can be disposed of",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred",
+      "disposition": "Paper: Retain as per record specific record series unless it is scanned for electronic storage. Once scanned, the paper copy can be disposed of., Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-04-23",
       "next_update_due": null,
       "comments": null

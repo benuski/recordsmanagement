@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: In office rule is rescinded ; Electronic: In office rule is rescinded",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: In office until rule is rescinded, then destroy file. If more than two revisions occur to an active rule, destroy the research files prior to the last 2 revisions. ; Electronic: In office until rule is rescinded, then destroy file. If more than two revisions occur to an active rule, destroy the research files prior to the last 2 revisions., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2009-07-31",
       "next_update_due": null,
       "comments": null

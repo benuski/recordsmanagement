@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Paper: in office untilsuperseded by an updatedpolicy ; Electronic: in office untilsuperseded by an updatedpolicy",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Retain in office untilsuperseded by an updatedpolicy, then destroy. ; Electronic: Retain in office untilsuperseded by an updatedpolicy, then destroy., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2024-11-05",
       "next_update_due": null,
       "comments": null

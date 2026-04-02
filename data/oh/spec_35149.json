@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: scanned electronic medium storage and scan is checked accuracy; ; Electronic: following end of renewal period which waiver request applied",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain until scanned to electronic medium for storage and scan is checked for accuracy; then destroy. If not scanned then retain for 2 years following the end of the renewal period to which the waiver request applied, then destroy ; Electronic: Retain for 2 years following the end of the renewal period to which the waiver request applied., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-12-06",
       "next_update_due": null,
       "comments": null

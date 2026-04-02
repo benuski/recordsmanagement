@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: three (3) years from date of submission of final FFR, or when final action is taken resolve any claim, audit, or investigation involving grant. Or as otherwise specified in grant terms and conditions ; Electronic: three (3) years from date of submission of final FFR, or when final action is taken resolve any claim, audit, or investigation involving grant. Or as otherwise specified in grant terms and conditions",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Delete",
+      "disposition": "Paper: Retain three (3) years from the date of the submission of the final FFR, or when final action is taken to resolve any claim, audit, or investigation involving the grant. Or as otherwise specified in grant terms and conditions, then destroy. ; Electronic: Retain three (3) years from the date of the submission of the final FFR, or when final action is taken to resolve any claim, audit, or investigation involving the grant. Or as otherwise specified in grant terms and conditions, then destroy., Paper: Recycle ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-08-13",
       "next_update_due": null,
       "comments": null

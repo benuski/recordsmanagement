@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: records while approved process is in place and utilized by agency. when process becomes obsolete and no longer of administrative value. ; Electronic: records while approved process is in place and utilized by agency. when process becomes obsolete and no longer of administrative value",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain records while the approved process is in place and utilized by the agency. Destroy when the process becomes obsolete and no longer of administrative value. ; Electronic: Retain records while the approved process is in place and utilized by the agency. Destroy when the process becomes obsolete and no longer of administrative value., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2014-03-06",
       "next_update_due": null,
       "comments": null

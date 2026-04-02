@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: updated or facility is destroyed. If worksheet is updated, in jail file at central office One (1) year update",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred",
+      "disposition": "Paper: Retain until updated or the facility is destroyed. If the worksheet is updated, retain in the jail file at central office for One (1) year after the update., Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2006-05-30",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Electronic: information regarding off site storage electronically records are no longer stored at an off-site location. ; Paper: in records electronically records are no longer stored at an off-site location",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase ; Paper: Recycle",
+      "disposition": "Electronic: Retain information regarding off site storage electronically until records are no longer stored at an off-site location. Then store electronic copy of certification of disposal (see OCC-RR-04). ; Paper: Retain in records electronically until records are no longer stored at an off-site location. Then store electronic copy of certification of disposal (see OCC-RR-04)., Electronic: Erase ; Paper: Recycle",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2009-07-08",
       "next_update_due": null,
       "comments": null

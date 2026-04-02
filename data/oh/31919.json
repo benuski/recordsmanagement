@@ -11,18 +11,17 @@
       "series_id": "IC-IT-04",
       "series_title": "Confidential Personal Information (CPI) Access Log.",
       "series_description": "The Confidential Personal Information (CPI) Access Log keeps track of who has accessed confidential personal information (CPI) pursuant to ORC 1347.15 and includes the provisions set forth in ORC 4123.88 pertaining to false representation and or solicitation of authority. OAC 109-4-05 applies with the rule being promulgated under 119.03 with the statutory authority and amplification residing in ORC 1347.15. May contain confidential information such as Injured Workers’ names and addresses, claim numbers, social security numbers, and any other identifiable information about the Injured Worker.",
-      "legal_citation": null
+      "legal_citation": "ORC 1347.15"
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Electronic: in active production environment",
-      "duration_years": null,
+      "trigger_event": "CR",
+      "duration_years": 5,
       "duration_months": 12,
-      "disposition_method": "Electronic: Delete",
+      "disposition": "Electronic: Retain 12 months in the active production environment then transfer to offline electronic storage. Retain offline for 5 years then delete., Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2023-01-11",
       "next_update_due": null,
       "comments": null

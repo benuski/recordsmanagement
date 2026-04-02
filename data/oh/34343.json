@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Electronic: a minimum of",
       "duration_years": null,
       "duration_months": 6,
-      "disposition_method": "Electronic: Other",
+      "disposition": "Electronic: Retain a minimum of 6 months; then system re-writes., Electronic: Other",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-10-10",
       "next_update_due": null,
       "comments": null

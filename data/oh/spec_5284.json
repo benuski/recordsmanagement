@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Paper: closed",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle",
+      "disposition": "Paper: Retain until closed, then transfer to Client Case Files - Closed (CCF-1). (These records will be destroyed or turned over to the client at any time requested by the client., Paper: Recycle",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "1982-02-24",
       "next_update_due": null,
       "comments": null

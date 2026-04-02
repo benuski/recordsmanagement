@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "Paper: current fiscal year. If scanned, . ; Electronic: current fiscal year",
       "duration_years": 3,
       "duration_months": 6,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: 3 years plus current fiscal year. If scanned, retain for 6 months. ; Electronic: 3 years plus current fiscal year., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2019-01-30",
       "next_update_due": null,
       "comments": null

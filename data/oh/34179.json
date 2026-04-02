@@ -11,18 +11,17 @@
       "series_id": "EDU-P20-01",
       "series_title": "Certification Survey",
       "series_description": "Includes surveys and studies conducted by the P-20 Safety and Security office to statutorily mandate educational facilities to submit an emergency management plan, in order to determine their compliance with ORC 3313.536.",
-      "legal_citation": null
+      "legal_citation": "ORC 3313.536"
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Paper: ; Electronic",
+      "trigger_event": "AC",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain 3 years, then destroy. Keep until IRN (Internal Retrieval Number) is closed for those deemed not required. ; Electronic: Retain 3 years, then destroy. Keep until IRN (Internal Retrieval Number) is closed for those deemed not required., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-03-17",
       "next_update_due": null,
       "comments": null

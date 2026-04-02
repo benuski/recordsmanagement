@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Electronic: Delete identity made, case solved, or print determined not be viable. If match made, print copy and place in case file per BCI-LAB-16, 17 or 18",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete",
+      "disposition": "Electronic: Delete after identity made, case solved, or print determined not to be viable. If match made, print copy and place in case file per BCI-LAB-16, 17 or 18.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2011-01-20",
       "next_update_due": null,
       "comments": null

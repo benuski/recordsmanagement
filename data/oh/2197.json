@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Electronic: digital information on ID cards in system one (1) year separation of employee or vendor employee. digital logs of ID card swipe activity in system one (1) year ; Paper: hard copy of Lausche Lottery visitor log and temporary ID card/parking pass log in Security office six (6) months",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "disposition": "Electronic: Retain digital information on ID cards in the system for one (1) year after the separation of the employee or vendor employee. Retain digital logs of ID card swipe activity in the system for one (1) year, then destroy. ; Paper: Retain hard copy of Lausche Lottery visitor log and temporary ID card/parking pass log in the Security office for six (6) months, then destroy. Retain hard copy ID badge request forms and vendor security access request forms for two (2) years, then destroy, Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-11-05",
       "next_update_due": null,
       "comments": null

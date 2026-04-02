@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Electronic: machine readable versions of Actuarial Rate Reports . ; Paper: Actuarial Rate Reports in Actuarial Unit",
       "duration_years": 25,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Recycle",
+      "disposition": "Electronic: Retain the machine readable versions of the Actuarial Rate Reports for 25 years. Then destroy the machine readable Actuarial Rate Reports. The electronic information is contained in access databases and excel spreadsheets saved on the I drive. The machine readable information of the Actuarial Rate Reports will be reviewed every 3 years to ensure that the files can still be accessed. ; Paper: Retain the Actuarial Rate Reports in the Actuarial Unit for 25 years. Then destroy the Actuarial Rate Reports., Electronic: Delete ; Paper: Recycle",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2014-03-06",
       "next_update_due": null,
       "comments": null

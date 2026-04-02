@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Electronic: Electronic: issued letter , and ; Paper: Paper: Scan paper documents, verify quality assurance, paper documents 30 days, and",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Recycle",
+      "disposition": "Electronic: Electronic: Retain the issued letter for 1 year, and then destroy. ; Paper: Paper: Scan the paper documents, verify for quality assurance, retain the paper documents for 30 days, and then destroy., Electronic: Delete ; Paper: Recycle",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2023-09-08",
       "next_update_due": null,
       "comments": null

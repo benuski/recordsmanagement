@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Electronic: Approved: In office March 1 of following year; ; Paper: Approved: In office March 1 of following year",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase ; Paper: Wastepaper",
+      "disposition": "Electronic: Approved: In office until March 1 of following year; then destroy. Non-Approved: In office until December 31 the following year; then destroy. ; Paper: Approved: In office until March 1 of following year; then destroy. Non-Approved: In office until December 31 the following year; then destroy., Electronic: Erase ; Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2005-04-14",
       "next_update_due": null,
       "comments": null

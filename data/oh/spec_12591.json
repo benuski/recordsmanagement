@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Electronic: Permanent, State Archives ; Paper: Permanent, State Archives",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Electronic: Archives ; Paper: Archives",
+      "disposition": "Electronic: Permanent, transfer to State Archives ; Paper: Permanent, transfer to State Archives, Electronic: Archives ; Paper: Archives",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2000-10-26",
       "next_update_due": null,
       "comments": null

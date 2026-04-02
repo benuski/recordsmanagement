@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Electronic: in office state and federal audits are completed, audit report is released and all discrepancies are resolved. ; Paper: Paper: in office 1 years and 2 years in records center",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase ; Paper: Shred",
+      "disposition": "Electronic: Retain 3 years in office until state and federal audits are completed, audit report is released and all discrepancies are resolved. ; Paper: Paper: Retain in office 1 years and 2 years in records center, then destroy provided state and federal audits are completed, audit report is released and all discrepancies are resolved., Electronic: Erase ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2024-06-20",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Electronic: expiration of partner's certification of course completion ; Paper: expiration of partner's certification or course completion",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "disposition": "Electronic: Retain for 3 years after expiration of partner's certification of course completion, then destroy. ; Paper: Retain for 3 years after expiration of partner's certification or course completion, then destroy. If paper copies are scanned into an electronic format, the paper copy may be destroyed at that time., Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2023-09-18",
       "next_update_due": null,
       "comments": null

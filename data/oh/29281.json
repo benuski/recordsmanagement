@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Electronic: Electronic data will be retained superseded, obsolete, or replaced ; Paper: mailed student or entered in database",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "disposition": "Electronic: Electronic data will be retained until superseded, obsolete, or replaced, then deleted. ; Paper: Retain until mailed to student or entered in database, then shred, Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-01-14",
       "next_update_due": null,
       "comments": null

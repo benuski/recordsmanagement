@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Retain 6 months on-site",
-      "duration_years": null,
+      "trigger_event": "CR",
+      "duration_years": 19,
       "duration_months": 6,
-      "disposition_method": "Transfer To The State Records Center, Library Of Virginia",
+      "disposition": "Retain 6 months on-site, then transfer to the State Records Center, Library of Virginia. Retain in Records Center 19 years, 6 months. Total retention 20 years. Destroy in compliance with No. 8 on cover page.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null

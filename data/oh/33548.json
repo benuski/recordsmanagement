@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: three months from scan date. ; Electronic: records seven years from date of dealer expiration or cancellation, unless record is marked as a board or protest case",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain three months from scan date. ; Electronic: Retain records for seven years from the date of the dealer expiration or cancellation, unless the record is marked as a board or protest case., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2016-07-12",
       "next_update_due": null,
       "comments": null

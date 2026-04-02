@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Paper: All paper documents are placed in a recycle bin 30 days they are scanned. ; Electronic: IT should scan file, if all cases relative order have been closed delete records. All cases generated on/or October 2004 are stored in image, from close date",
       "duration_years": 7,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Delete",
+      "disposition": "Paper: All paper documents are placed in a recycle bin 30 days after they are scanned. ; Electronic: IT should scan file, if all cases relative to order have been closed for 7 years delete records. All cases generated on/or after October 2004 are stored in image, retain for 7 years from close date., Paper: Recycle ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2006-09-27",
       "next_update_due": null,
       "comments": null

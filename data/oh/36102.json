@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Electronic: proof of completion of at least one section of CPA Exam fund recipients ; Paper: proof of completion of at least one section of CPA Exam fund recipients; one year has elapsed since application was approved, but no funds requested. six months applicant is notified of denial of their request",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase ; Paper: Shred",
+      "disposition": "Electronic: Until proof of completion of at least one section of the CPA Exam for fund recipients ; Paper: Until proof of completion of at least one section of the CPA Exam for fund recipients; Until one year has elapsed since the application was approved, but no funds requested. Until six months after the applicant is notified of the denial of their request., Electronic: Erase ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2022-03-30",
       "next_update_due": null,
       "comments": null

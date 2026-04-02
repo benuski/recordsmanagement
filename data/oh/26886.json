@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: in fiscal file area one year from date of repayment",
-      "duration_years": null,
+      "trigger_event": "CR",
+      "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Paper: Shred",
+      "disposition": "Paper: Retain in fiscal file area one year from date of repayment, then destroy. These loans must be repaid within 1 to 3 year period., Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2008-11-19",
       "next_update_due": null,
       "comments": null

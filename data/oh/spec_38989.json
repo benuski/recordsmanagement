@@ -11,18 +11,17 @@
       "series_id": "EDU-FAO-05",
       "series_title": "District Credit Enhancement Program files",
       "series_description": "Request from school districts to participate in the state credit enhancement program pursuant to ORC 3317.18 and OAC 3301-8-01. Files may include the department approval or disapproval letter, Office of Budget Management (OBM) advice & consent, application, supporting documentation, correspondence and if executed, the Bond Registrar Agreement.",
-      "legal_citation": null
+      "legal_citation": "ORC 3317.18"
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Electronic: life of bond registrar agreement, if approved. If unapproved, five (5) years. ; Paper: life of bond registrar agreement, if approved. If unapproved, five (5) years",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "disposition": "Electronic: For the life of the bond registrar agreement, if approved. If unapproved, retain for five (5) years. ; Paper: For the life of the bond registrar agreement, if approved. If unapproved, retain for five (5) years., Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-09-20",
       "next_update_due": null,
       "comments": null

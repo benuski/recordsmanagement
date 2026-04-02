@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: five (5) years. State Archives review records prior disposition ; Electronic: five (5) years. State Archives review records prior disposition",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Trash ; Electronic: Delete",
+      "disposition": "Paper: Retain five (5) years. State Archives to review records prior to disposition, then may destroy. ; Electronic: Retain five (5) years. State Archives to review records prior to disposition, then may destroy., Paper: Trash ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2015-07-30",
       "next_update_due": null,
       "comments": null

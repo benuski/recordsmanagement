@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Paper: one year completion of program ; Electronic: in licensure system when they become a formal registration with board. Delete CE related records seven years from date of last renewal which CE was used meet CE requirements",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Wastepaper ; Electronic: Delete",
+      "disposition": "Paper: Retain for one year after completion of the program then destroy. ; Electronic: Retain in licensure system when they become a formal registration with the board. Delete CE related records seven years from the date of the last renewal for which the CE was used to meet CE requirements., Paper: Wastepaper ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2018-01-17",
       "next_update_due": null,
       "comments": null

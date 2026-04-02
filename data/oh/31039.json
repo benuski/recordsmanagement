@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: in office 2. of inactivity subsequent effective discontinuance date and upon proper disposition of all debits and security instrument, image and certify ; Electronic: in System enterprise which account was established is no longer in operation and its account has not been chargeable a period of 7 years, and there are no outstanding debts",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Retain in office for 2.5 years of inactivity subsequent to the effective discontinuance date and upon the proper disposition of all debits and the security instrument, image and certify, then destroy. ; Electronic: Retain in the System until enterprise for which account was established is no longer in operation and its account has not been chargeable for a period of 7 years, and there are no outstanding debts, then destroy., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2013-02-15",
       "next_update_due": null,
       "comments": null

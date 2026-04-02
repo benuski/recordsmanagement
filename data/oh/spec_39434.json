@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: If an electronic version of record exists, paper copy shall be destroyed. If an electronic version of record does not exist ; Electronic: record shall be destroyed three years course was held",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Erase",
+      "disposition": "Paper: If an electronic version of the record exists, the paper copy shall be destroyed. If an electronic version of the record does not exist, then the paper record shall be destroyed three years after the course was held. ; Electronic: The record shall be destroyed three years after the course was held., Paper: Recycle ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2024-04-30",
       "next_update_due": null,
       "comments": null

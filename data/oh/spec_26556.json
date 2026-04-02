@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Electronic: daily backup 7 days, and",
+      "trigger_event": "US",
       "duration_years": null,
-      "duration_months": null,
-      "disposition_method": "Electronic: Erase",
+      "duration_months": 2,
+      "disposition": "Electronic: Retain daily backup on-site for 7 days, and then destroy. Send a copy backup daily to off-site storage, retain for 14 days, and then destroy. Retain monthly backup on-site until superseded, then transfer to off-site storage for 2 months, and then destroy., Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2008-07-29",
       "next_update_due": null,
       "comments": null

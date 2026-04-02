@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Electronic: no longer of administrative value, and ; Paper: no longer of administrative value, and",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Wastepaper",
+      "disposition": "Electronic: Retain until no longer of administrative value, and then destroy. Similar to General Schedule: GAR-CM-04 ; Paper: Retain until no longer of administrative value, and then destroy. Similar to General Schedule: GAR-CM-04, Electronic: Delete ; Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2022-03-15",
       "next_update_due": null,
       "comments": null

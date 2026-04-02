@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: Paper versions of inspection report will be maintained scanned as part of administrative case file and hold no further administrative value. ; Electronic: Salesforce system data shall be retained five years creation date of inspection record or salesforce system is discontinued and data is converted a searchable archive format. Archive data shall be maintained five years creation date of inspection record. Emailed copies of inspection reports are held replaced by signed paper copy and",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Paper versions of inspection report will be maintained until scanned as part of administrative case file and hold no further administrative value. ; Electronic: Salesforce system data shall be retained for five years after creation date of the inspection record or until the salesforce system is discontinued and data is converted to a searchable archive format. Archive data shall be maintained for five years after the creation date of the inspection record. Emailed copies of inspection reports are held until replaced by signed paper copy and then erased., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-08-02",
       "next_update_due": null,
       "comments": null

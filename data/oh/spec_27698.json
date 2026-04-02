@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: sale of goods, five years ; Electronic: sale of goods, five years",
-      "duration_years": null,
+      "trigger_event": "CR",
+      "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Erase",
+      "disposition": "Paper: For sale of goods, retain five years then destroy. For services, retain 5 years from date services end, then destroy. ; Electronic: For sale of goods, retain five years then destroy. For services, retain 5 years from date services end, then destroy., Paper: Recycle ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2009-07-08",
       "next_update_due": null,
       "comments": null

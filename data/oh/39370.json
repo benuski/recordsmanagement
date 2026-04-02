@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Microform: following expiration of applicable statute of limitations. ; Paper: following expiration of applicable statute of limitations. If paper records are scanned and saved into an electronic format or microfilmed, paper copy may be shredded at that time. ; Electronic: following expiration of applicable statute of limitations. If records are microfilmed, electronic record may be deleted at that time",
       "duration_years": 25,
       "duration_months": null,
-      "disposition_method": "Microform: Shred ; Paper: Shred ; Electronic: Delete",
+      "disposition": "Microform: Retain for 25 years following the expiration of the applicable statute of limitations. ; Paper: Retain for 25 years following the expiration of the applicable statute of limitations. If paper records are scanned and saved into an electronic format or microfilmed, the paper copy may be shredded at that time. ; Electronic: Retain for 25 years following the expiration of the applicable statute of limitations. If records are microfilmed, the electronic record may be deleted at that time., Microform: Shred ; Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2023-09-18",
       "next_update_due": null,
       "comments": null

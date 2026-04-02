@@ -11,18 +11,17 @@
       "series_id": "HW-008",
       "series_title": "Correspondence and administrative documents related to variances and exemptions",
       "series_description": "All documents relating to application and issuance or denial of requests for variances from classification as a waste (OAC 3745-50-23) and exemptions from the hazardous waste laws (ORC 3734.02(G))except the actual authorized variance or 3734.02(G) exemption request itself.",
-      "legal_citation": null
+      "legal_citation": "ORC 3734.02"
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: final action is issued unless an appeal has been filed. In appeal cases, appeal is finally resolved",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": 6,
-      "disposition_method": "Paper: Recycle",
+      "disposition": "Paper: Retain for 6 months after final action is issued unless an appeal has been filed. In appeal cases, retain until 6 months after the appeal is finally resolved, then destroy., Paper: Recycle",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2006-06-07",
       "next_update_due": null,
       "comments": null

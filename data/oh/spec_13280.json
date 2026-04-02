@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "trigger_desc": "Paper: in office 5 calendar years. storage at 5 calendar years. Scan electronic, readable media (CD-ROM) in storage. paper records scanning",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Paper: Shred",
+      "disposition": "Paper: Retain in office for 5 calendar years. Transfer to storage at the State Records Center for 5 calendar years. Scan to electronic, readable media (CD-ROM) after 5 years in storage. Destroy paper records after scanning., Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "1997-08-28",
       "next_update_due": null,
       "comments": null

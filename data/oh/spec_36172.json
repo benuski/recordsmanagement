@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Paper: paper documents relevant design data project has been electronically archived into a document management system ; Electronic: digital files and final deliverables within a document management system",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Permanent",
+      "disposition": "Paper: Retain paper documents until relevant design data for the project has been electronically archived into a document management system, then destroy paper. ; Electronic: Retain digital files and final deliverables within a document management system., Paper: Recycle ; Electronic: Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2019-03-25",
       "next_update_due": null,
       "comments": null

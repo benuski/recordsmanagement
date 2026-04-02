@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: hard copy imaged ; Electronic: hard copy imaged",
-      "duration_years": null,
+      "trigger_event": "AC",
+      "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Retain hard copy until imaged, then destroy hard copy. Initial COA filing: Retain 2 years after inactive, then destroy. Renewal COA filing: Retain 3 years from the end of the applicable renewal year, then destroy. ; Electronic: Retain hard copy until imaged, then destroy hard copy. Initial COA filing: Retain 2 years after inactive, then destroy. Renewal COA filing: Retain 3 years from the end of the applicable renewal year, then destroy., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2009-09-18",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Paper: original financial assurance mechanism in operating area mechanism is replaced or well is closed",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle",
+      "disposition": "Paper: Retain original financial assurance mechanism in operating area 1 year after mechanism is replaced or well is closed., Paper: Recycle",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2008-11-03",
       "next_update_due": null,
       "comments": null

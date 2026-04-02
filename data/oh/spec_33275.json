@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: from date audit is finalized. ; Electronic: from date audit is finalized",
       "duration_years": 6,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Retain 6 years from the date the audit is finalized. ; Electronic: Retain 6 years from the date the audit is finalized., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2016-02-11",
       "next_update_due": null,
       "comments": null

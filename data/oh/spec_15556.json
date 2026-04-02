@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Paper: in operating area ; Microform: diazo copy in operating area permanently. master microfilm in off site storage permanently",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Microform: Shred",
+      "disposition": "Paper: Retain in operating area 2 years, then microfilm. After microfilm has been checked for quality and completeness, then destroy hard copy. ; Microform: Retain diazo copy in operating area permanently. Retain master microfilm in off site storage permanently., Paper: Shred ; Microform: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "1989-07-07",
       "next_update_due": null,
       "comments": null

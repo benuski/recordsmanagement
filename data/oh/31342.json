@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: subpoenas that command appearance fulfilled. all other subpoenas and responsive records 90 days from date of compliance. ; Electronic: subpoenas that command appearance fulfilled. all other subpoenas and responsive records 90 days from date of compliance",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain subpoenas that command appearance until fulfilled. Retain all other subpoenas and responsive records for 90 days from date of compliance. ; Electronic: Retain subpoenas that command appearance until fulfilled. Retain all other subpoenas and responsive records for 90 days from date of compliance., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2013-06-07",
       "next_update_due": null,
       "comments": null

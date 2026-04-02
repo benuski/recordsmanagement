@@ -11,18 +11,17 @@
       "series_id": "ANML-R-12",
       "series_title": "Livestock Indemnity Records",
       "series_description": "Records of indemnity payments to livestock producers pursuant to ORC 941.12 and CFR (Brucellosis, Tuberculosis, PRV)",
-      "legal_citation": null
+      "legal_citation": "ORC 941.12"
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: in office area audited by Auditor of State and audit report is released",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Wastepaper",
+      "disposition": "Paper: Retain in office area until audited by Auditor of State and audit report is released., Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "1995-07-27",
       "next_update_due": null,
       "comments": null

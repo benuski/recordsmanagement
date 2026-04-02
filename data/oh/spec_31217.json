@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Paper: in office , 4 years in records center printed reports no longer of adminstrative value, . ; Electronic: superseded, obsolete or replaced",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Retain in office 1 year, 4 years in records center, then destroy. Retain printed reports until no longer of adminstrative value, then destroy. ; Electronic: Retain until superseded, obsolete or replaced, then destroy., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2013-03-27",
       "next_update_due": null,
       "comments": null

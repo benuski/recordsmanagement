@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Paper: three biennium; current biennium in contract and two prior biennium. ; Electronic: contract relationship terminates and eight years thereafter",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Retain three biennium; current biennium in contract and two prior biennium. ; Electronic: Retain until contract relationship terminates and for eight years thereafter., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-03-19",
       "next_update_due": null,
       "comments": null

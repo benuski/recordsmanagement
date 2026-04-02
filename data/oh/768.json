@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: end of license renewal period",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": 1,
-      "disposition_method": "Paper: Wastepaper",
+      "disposition": "Paper: Retain 1 month after end of license renewal period, then destroy, Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "1986-06-27",
       "next_update_due": null,
       "comments": null

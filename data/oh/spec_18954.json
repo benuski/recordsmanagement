@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Paper: in office area ; Microform: a diazo copy in office area permanently. master microfilm in off-site storage permanently",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Microform: Permanent",
+      "disposition": "Paper: Retain in the office area for 5 years then microfilm. Destroy after the microfilm is checked for quality and completeness. ; Microform: Retain a diazo copy in the office area permanently. Retain the master microfilm in off-site storage permanently., Paper: Recycle ; Microform: Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2003-02-21",
       "next_update_due": null,
       "comments": null

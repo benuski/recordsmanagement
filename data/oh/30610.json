@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Paper: case closed out of internal case management sytem, or saved electronically. ; Electronic: case closed out of internal case management sytem",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: 1 year after case closed out of internal case management sytem, or until saved electronically. ; Electronic: 1 year after case closed out of internal case management sytem, Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2012-10-03",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Paper: Once evidence is destroyed, document will be scanned into database and destroyed. ; Electronic: Once evidence is destroyed, document will be scanned into database and destroyed. electronic record will be kept permanently",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Permanent",
+      "disposition": "Paper: Once evidence is destroyed, the document will be scanned into the database and destroyed. ; Electronic: Once evidence is destroyed, the document will be scanned into the database and destroyed. The electronic record will be kept permanently., Paper: Shred ; Electronic: Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2010-01-11",
       "next_update_due": null,
       "comments": null

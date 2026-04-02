@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "Paper: audit report covering fiscal year of documents has been issued. ; Electronic: audit report covering fiscal year of documents has been issued",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Trash ; Electronic: Erase",
+      "disposition": "Paper: Retain until the audit report covering the fiscal year of the documents has been issued. ; Electronic: Retain until the audit report covering the fiscal year of the documents has been issued., Paper: Trash ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2024-04-29",
       "next_update_due": null,
       "comments": null

@@ -11,18 +11,17 @@
       "series_id": "IC-MP-22",
       "series_title": "Certificate of Compliance and Action Plan",
       "series_description": "To facilitate compliance with ORC 149.333, DAS issued Directive No. GS-D-04 requiring the agency to submit an annual Certificate of Compliance and Remedial action plan to the state records management office. This records series contains the Certificate of Compliance, Remedial action plan, and any supporting documents.",
-      "legal_citation": null
+      "legal_citation": "ORC 149.333"
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: from latest confirmation of receipt date from DAS. ; Electronic: from latest confirmation of receipt date from DAS",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain 5 years from the latest confirmation of receipt date from DAS. ; Electronic: Retain 5 years from the latest confirmation of receipt date from DAS., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2019-12-05",
       "next_update_due": null,
       "comments": null

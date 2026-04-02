@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Paper: Keep obsolete. ; Electronic: Keep obsolete",
+      "trigger_event": "AC",
       "duration_years": 30,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Keep for 30 years after obsolete. ; Electronic: Keep for 30 years after obsolete., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-01-10",
       "next_update_due": null,
       "comments": null

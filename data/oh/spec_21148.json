@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Paper: In office from date of completion; ; Electronic: In office from date of completion",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Paper: Wastepaper ; Electronic: Erase",
+      "disposition": "Paper: In office 2 years from date of completion; then destroy. ; Electronic: In office 2 years from date of completion; then destroy., Paper: Wastepaper ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2004-12-22",
       "next_update_due": null,
       "comments": null

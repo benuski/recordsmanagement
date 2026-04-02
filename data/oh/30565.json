@@ -11,18 +11,17 @@
       "series_id": "W-2 Media",
       "series_title": "Electronic Employer Wage & Withholding Statement",
       "series_description": "CD-ROM, 3490 or 3590 Tape cartridges that contain employee tax filing information.",
-      "legal_citation": null
+      "legal_citation": "ORC 5747.13"
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Electronic: ORC 5747.13 employer media is reatined from due date or date on wich it was received, whichever is later. Data submitted on floppy disks is an invalid media type which is not retained & is destroyed upon request",
       "duration_years": 4,
       "duration_months": null,
-      "disposition_method": "Electronic: Burn",
+      "disposition": "Electronic: ORC 5747.13 employer media is reatined for 4 years from the due date or the date on wich it was received, whichever is later. Data submitted on floppy disks is an invalid media type which is not retained & is destroyed upon request., Electronic: Burn",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2012-08-07",
       "next_update_due": null,
       "comments": null

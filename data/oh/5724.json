@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Electronic: Maintain machine readable records on Ohio Data Network computer system information is superseded by new information or record series is no longer created ; Paper: release of audit report by Auditor of State",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase ; Paper: Shred",
+      "disposition": "Electronic: Maintain machine readable records on the Ohio Data Network computer system until information is superseded by new information or until record series is no longer created, then destroy by erasure ; Paper: Retain 5 years after release of audit report by Auditor of State, then destroy, Electronic: Erase ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "1996-08-29",
       "next_update_due": null,
       "comments": null

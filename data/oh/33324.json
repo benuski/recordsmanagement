@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: Letters of good standing maintained in paper form shall be maintained six months from date letter of good standing is sent by Division. ; Electronic: Any records in machine readable format shall be maintained six months from date letter of good standing is sent by Division. ; Microform: Any records in microform shall be maintained six months from date letter of good standing is sent by Division",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase ; Microform: Shred",
+      "disposition": "Paper: Letters of good standing maintained in paper form shall be maintained on-site six months from the date the letter of good standing is sent by the Division. Then the paper record shall be destroyed. ; Electronic: Any records in machine readable format shall be maintained on-site six months from the date the letter of good standing is sent by the Division. Then the microform is destroyed. ; Microform: Any records in microform shall be maintained on-site six months from the date the letter of good standing is sent by the Division. Then the microform is destroyed., Paper: Shred ; Electronic: Erase ; Microform: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2016-02-25",
       "next_update_due": null,
       "comments": null

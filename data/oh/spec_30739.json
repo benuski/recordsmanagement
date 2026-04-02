@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Electronic: enterprise which account was established is no longer in operation and its account has not been chargeable a period of seven years and there are no outstanding debts ; Microform: enterprise which account was established is no longer in operation and its account has not been chargeable a period of seven years and there are no outstanding debts ; Paper: 60 days hardcopy is prepped, scanned (imaged), and quality control is complete",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase ; Microform: Shred ; Paper: Shred",
+      "disposition": "Electronic: Retain until enterprise for which account was established is no longer in operation and its account has not been chargeable for a period of seven years and there are no outstanding debts, then destroy ; Microform: Retain until enterprise for which account was established is no longer in operation and its account has not been chargeable for a period of seven years and there are no outstanding debts, then destroy ; Paper: Retain 60 days after hardcopy is prepped, scanned (imaged), and quality control is complete then destroyed., Electronic: Erase ; Microform: Shred ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2012-11-13",
       "next_update_due": null,
       "comments": null

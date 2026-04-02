@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Paper: Hard copies are destroyed they are imaged. ; Electronic: Effective December 2001, all ALS suspension cases are stored on Optic Image System at least",
+      "trigger_event": "AC",
       "duration_years": 50,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Hard copies are destroyed after they are imaged. ; Electronic: Effective December 2001, all ALS suspension cases are stored on the Optic Image System for at least 50 years., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2010-01-11",
       "next_update_due": null,
       "comments": null

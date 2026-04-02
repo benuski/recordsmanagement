@@ -11,18 +11,17 @@
       "series_id": "TOB-AGO-02",
       "series_title": "Diligent Enforcement Arbitration Files",
       "series_description": "Files relating to the arbitration proceedings to determine whether the State of Ohio diligently enforced per ORC 1346.01-.03. Records include, but are not limited to, filings, correspondence, copies of litigation files, document production, materials from the AGO manufacturer files, and copies of escrow payments.",
-      "legal_citation": null
+      "legal_citation": "ORC 1346.01"
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Electronic: all payments related arbitration have been received. ; Paper: all payments related arbitration have been received. If scanned and saved electronically, dispose of immediately",
+      "trigger_event": "AC",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "disposition": "Electronic: Retain 2 years after all payments for the related arbitration have been received. ; Paper: Retain 2 years after all payments for the related arbitration have been received. If scanned and saved electronically, dispose of immediately., Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2024-05-09",
       "next_update_due": null,
       "comments": null

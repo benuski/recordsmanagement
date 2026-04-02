@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Electronic: electronically Federal audit review and approval ; Paper: superseded, obsolete, or replaced",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Recycle",
+      "disposition": "Electronic: Retain electronically for 5 years after Federal audit review and approval, then destroy. ; Paper: Retain until superseded, obsolete, or replaced, then destroy., Electronic: Delete ; Paper: Recycle",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-08-25",
       "next_update_due": null,
       "comments": null

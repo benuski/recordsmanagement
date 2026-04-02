@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: final report/ certification which data was submitted is accepted",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": 6,
-      "disposition_method": "Paper: Recycle",
+      "disposition": "Paper: Retain 6 months after final report/ certification for which the data was submitted is accepted, then destroy., Paper: Recycle",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2006-06-07",
       "next_update_due": null,
       "comments": null

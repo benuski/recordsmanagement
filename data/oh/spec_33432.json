@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: current from date of expiration or cancellation Per Revised Code 2305.06 ; Electronic: current from date of expiration or cancellation Per Revised Code 2305.06",
       "duration_years": 8,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain current plus 8 years from the date of expiration or cancellation Per Revised Code 2305.06 ; Electronic: Retain current plus 8 years from the date of expiration or cancellation Per Revised Code 2305.06, Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2016-03-08",
       "next_update_due": null,
       "comments": null

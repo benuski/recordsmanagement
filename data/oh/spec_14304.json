@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Electronic: online divisions documents and correspondence on AS/400 Office system, they are determined be no longer needed online by division. that is determined, every six months those records will be purged from AS/400 system and transferred magnetic tape. on magnetic tape",
+      "trigger_event": "AC",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase",
+      "disposition": "Electronic: Retain online the divisions documents and correspondence on the AS/400 Office system, until they are determined to be no longer needed online by the division. After that is determined, every six months those records will be purged from the AS/400 system and transferred to magnetic tape. Retain on magnetic tape for 2 years then destroy provided that the documents do not include any executive correspondence. If execu tive correspondecne is included, transfer tape to State Archives, Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "1994-03-07",
       "next_update_due": null,
       "comments": null

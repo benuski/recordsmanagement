@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: Keep",
       "duration_years": 8,
       "duration_months": null,
-      "disposition_method": "Paper: Shred",
+      "disposition": "Paper: Keep 8 years., Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2009-01-21",
       "next_update_due": null,
       "comments": null

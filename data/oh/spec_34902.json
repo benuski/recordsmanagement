@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Electronic: as long as license is active, notification of closure, or four (4) years license has been classified by Board as “Inactive” or “Expired.” ; Paper: scanned",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase ; Paper: Shred",
+      "disposition": "Electronic: Retain as long as license is active, until notification of closure, or for four (4) years after the license has been classified by the Board as “Inactive” or “Expired.” ; Paper: Retain until scanned, Electronic: Erase ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-10-08",
       "next_update_due": null,
       "comments": null

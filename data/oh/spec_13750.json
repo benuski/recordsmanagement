@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: five years grant closes, and state audits have been conducted, audit reports released, and audit resolutions issued or resolved ; Electronic: five years grant closes, and state audits have been conducted, audit reports released, and audit resolutions issued or resolved",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Delete",
+      "disposition": "Paper: Retain five years after grant closes, and after state audits have been conducted, audit reports released, and audit resolutions issued or resolved, then destroy ; Electronic: Retain five years after grant closes, and after state audits have been conducted, audit reports released, and audit resolutions issued or resolved, then destroy, Paper: Recycle ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-01-05",
       "next_update_due": null,
       "comments": null

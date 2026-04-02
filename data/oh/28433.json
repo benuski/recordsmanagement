@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: Original scanned in ODT Info Image System ; Electronic: A electronic record is kept via ODT Info Image System",
-      "duration_years": 10,
-      "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "duration_years": 4,
+      "duration_months": 6,
+      "disposition": "Paper: Original scanned in the ODT Info Image System then kept for 6 months unless not scanned do to age of return. It not scanned then original is kept 4 years. ; Electronic: A electronic record is kept for 10 years via the ODT Info Image System., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2010-03-09",
       "next_update_due": null,
       "comments": null

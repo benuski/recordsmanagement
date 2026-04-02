@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Paper: paper copy in operating area imaged and indexed. Upon confirmation that paper copy has been checked quality and completeness ; Electronic: electronic files seven (7) years enforcement or litigation case is closed",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Retain paper copy in operating area until imaged and indexed. Upon confirmation that paper copy has been checked for quality and completeness, then destroy. ; Electronic: Retain electronic files for seven (7) years after the enforcement or litigation case is closed, then destroy., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-09-07",
       "next_update_due": null,
       "comments": null

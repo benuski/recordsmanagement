@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Electronic: Keep case is closed. records need be held all matters in case have been resolved and all appeals have been exhausted. ; Paper: paper file during open, active investigation. Once case becomes dormant or closed, electronic storage",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "disposition": "Electronic: Keep for 5 years after the case is closed. The records need to be held until all matters in the case have been resolved and all appeals have been exhausted. ; Paper: Retain paper file during open, active investigation. Once the case becomes dormant or closed, transfer to electronic storage., Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-12-17",
       "next_update_due": null,
       "comments": null

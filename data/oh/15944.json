@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "trigger_desc": "Paper: In office end of calendar year",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Paper: Wastepaper",
+      "disposition": "Paper: In office retain 3 years after end of calendar year. Then destroy provided State and Federal Audits have been completed and report released., Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "1993-09-08",
       "next_update_due": null,
       "comments": null

@@ -11,18 +11,17 @@
       "series_id": "2805",
       "series_title": "ONIC Non-Intelligence Records",
       "series_description": "This record series contains requests for assistance with investigations, assessments, and event planning that are submitted to the Ohio Narcotics Intelligence Center (ONIC). Records include source and method of receipt of requests; the final work product and/or response, e.g., bulletins, profiles, and case reports; and as applicable, dissemination to appropriate law enforcement and/or public safety agencies. NOTE: If any request is evaluated and found to meet the threshold of reasonable suspicion of crimiinal activity set forth in “Title 28 - Code of Federal Regulations – Part 23” (28 CFR 23), the record will be retained in accordance with ONIC’s retention schedule for “ONIC Criminal Intelligence Records”.",
-      "legal_citation": null
+      "legal_citation": "28 CFR 23"
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: Records are retained ten (10) years. ; Electronic: in ONIC’s record management system ten (10) years",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Records are retained for ten (10) years. ; Electronic: Retain in ONIC’s record management system for ten (10) years, Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2022-09-06",
       "next_update_due": null,
       "comments": null

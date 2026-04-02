@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Electronic: ODA receives total payment contract year. ; Paper: ODA receives total payment contract year OR scanned and verified as readable",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "disposition": "Electronic: Retain until ODA receives the total payment for the contract year. ; Paper: Retain until ODA receives the total payment for the contract year OR retain until scanned and verified as readable., Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2026-03-30",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Paper: in office ; Microform: microfilm superseded by updated microfiche",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Microform: Shred",
+      "disposition": "Paper: Retain in office for 2 years, then microfilm. Destroy paper copy after microfilm checked for quality and completeness. ; Microform: Retain microfilm until superseded by updated microfiche, then destroy superseded microfiche. Retain for 30 years, then destroy., Paper: Shred ; Microform: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2005-07-29",
       "next_update_due": null,
       "comments": null

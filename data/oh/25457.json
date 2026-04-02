@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Electronic: Solicitor Applications are processed ; Paper: Paper files are kept",
       "duration_years": 999,
       "duration_months": 6,
-      "disposition_method": "Electronic: Permanent ; Paper: Recycle",
+      "disposition": "Electronic: Solicitor Applications are processed then scanned into LITS (License Issuance Tracking System) a computereized optical scanning Image System and continually updated. LITS images are stored forever and then saved to a (WORM) drive - write once, read many. These images are never purged. ; Paper: Paper files are kept for 6 months, Electronic: Permanent ; Paper: Recycle",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2010-06-15",
       "next_update_due": null,
       "comments": null

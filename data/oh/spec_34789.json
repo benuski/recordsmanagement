@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: Keep five years unless licensee or permittee is involved in litigation with Division. In which case, keep all records two years aft administrative, civil or criminal action (case) is complete ; Electronic: Keep five years unless licensee or permittee is involved in litigation with Division. In which case, keep all records two years aft administrative, civil or criminal action (case) is complete",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Trash ; Electronic: Delete",
+      "disposition": "Paper: Keep five years unless licensee or permittee is involved in litigation with the Division. In which case, keep all records for two years aft the administrative, civil or criminal action (case) is complete then destroy. IF the case is dismissed without prejudice, retain for one year after statute of limitations expires then destroy ; Electronic: Keep five years unless licensee or permittee is involved in litigation with the Division. In which case, keep all records for two years aft the administrative, civil or criminal action (case) is complete then destroy. IF the case is dismissed without prejudice, retain for one year after statute of limitations expires then destroy, Paper: Trash ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-11-02",
       "next_update_due": null,
       "comments": null

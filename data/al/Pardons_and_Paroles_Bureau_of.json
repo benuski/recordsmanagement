@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Temporary Record. 1 year compliance or financial audit by Examiners of Public Accounts or an equivalent auditing firm or one year end of fiscal year audit covers, whichever is later",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 1 year after compliance or financial audit by the Examiners of Public Accounts or an equivalent auditing firm or one year after the end of the fiscal year the audit covers, whichever is later.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-10-25",
       "next_update_due": null,
       "comments": null
@@ -47,14 +46,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "PERMANENT RECORD",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "PERMANENT RECORD.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-10-25",
       "next_update_due": null,
       "comments": null
@@ -79,14 +77,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "PERMANENT RECORD",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "PERMANENT RECORD.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-10-25",
       "next_update_due": null,
       "comments": null
@@ -111,14 +108,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "PERMANENT RECORD",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "PERMANENT RECORD.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-10-25",
       "next_update_due": null,
       "comments": null
@@ -143,14 +139,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "PERMANENT RECORD",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "PERMANENT RECORD.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-10-25",
       "next_update_due": null,
       "comments": null
@@ -175,14 +170,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "PERMANENT RECORD",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "PERMANENT RECORD.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-10-25",
       "next_update_due": null,
       "comments": null
@@ -207,14 +201,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "PERMANENT RECORD",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "PERMANENT RECORD.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-10-25",
       "next_update_due": null,
       "comments": null
@@ -239,14 +232,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Temporary Record. audit end of fiscal year in which RDA was superseded",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 1 year after audit after the end of the fiscal year in which the RDA was superseded.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-10-25",
       "next_update_due": null,
       "comments": null
@@ -271,14 +263,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Temporary Record. 30 years from case closure due inactive status, excluding closure related death. *Note: Closed files stored at .*",
       "duration_years": 30,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 30 years from case closure due to inactive status, excluding closure related to death. *Note: Closed files stored at the State Records Center.*",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-10-25",
       "next_update_due": null,
       "comments": null
@@ -303,14 +294,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Temporary Record. 2 years from verification of death and case closure due inactive status",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 2 years from verification of death and case closure due to inactive status.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-10-25",
       "next_update_due": null,
       "comments": null
@@ -335,14 +325,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Temporary Record. 30 years from case closure due inactive status, excluding routine information and closure related death. > *Note: Official Field File consists of following documents: One > copy of each Investigation Report (Youthful Offender, Pre-Sentence, > Post-Sentence, or Preliminary, Legal Facts, Personal History), one > copy of subject's Case Plan, one copy of most current Rules Packet > with Signatures, one copy of Order of Parole/Probation, one copy > of police reports each case (if available), one copy of transcript > each case, one copy of District attorney's Legal Facts each > case, one copy of each Delinquency Report, Notice of Violation, > Memorandums or official communications probation judge or > Board, one copy of all Risk Assessments and Reassessments, including > Interview Guide and Scoring Tool, and copy of Pardon and Remission > Certificate, completed Pardon Investigation, and all forms, one copy > of Order of Early Termination, and one copy of Certificate of > Discharge.*",
       "duration_years": 30,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 30 years from case closure due to inactive status, excluding routine information and closure related to death. > *Note: Official Field File consists of the following documents: One > copy of each Investigation Report (Youthful Offender, Pre-Sentence, > Post-Sentence, or Preliminary, Legal Facts, Personal History), one > copy of subject's Case Plan, one copy of the most current Rules Packet > with Signatures, one copy of the Order of Parole/Probation, one copy > of police reports for each case (if available), one copy of transcript > for each case, one copy of District attorney's Legal Facts for each > case, one copy of each Delinquency Report, Notice of Violation, > Memorandums or official communications to the probation judge or the > Board, one copy of all Risk Assessments and Reassessments, including > the Interview Guide and Scoring Tool, and copy of Pardon and Remission > Certificate, completed Pardon Investigation, and all forms, one copy > of Order of Early Termination, and one copy of the Certificate of > Discharge.*",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-10-25",
       "next_update_due": null,
       "comments": null
@@ -367,14 +356,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Temporary Record. closure of case file due inactive status, discharge, or death. > *Note: Includes all documents not specifically listed as part of > Parole and Probation Field Case Files (Official File).*",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain until closure of case file due to inactive status, discharge, or death. > *Note: Includes all documents not specifically listed as part of the > Parole and Probation Field Case Files (Official File).*",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-10-25",
       "next_update_due": null,
       "comments": null
@@ -399,14 +387,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Temporary Record. 2 years from verification of death and case closure due inactive status",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 2 years from verification of death and case closure due to inactive status.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-10-25",
       "next_update_due": null,
       "comments": null
@@ -431,14 +418,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "PERMANENT RECORD. > *Note: Information will be maintained in ICOTS system and will not > be transferred Archives.*",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "PERMANENT RECORD. > *Note: Information will be maintained in the ICOTS system and will not > be transferred to the Archives.*",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-10-25",
       "next_update_due": null,
       "comments": null
@@ -463,14 +449,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Temporary Record. 2 years from verification of death and case closure due inactive status",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 2 years from verification of death and case closure due to inactive status.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-10-25",
       "next_update_due": null,
       "comments": null
@@ -495,14 +480,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Temporary Record. 1 year audit",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 1 year after audit.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-10-25",
       "next_update_due": null,
       "comments": null
@@ -527,14 +511,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Temporary Record. 3 years from date of report",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 3 years from date of report.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-10-25",
       "next_update_due": null,
       "comments": null
@@ -559,14 +542,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Temporary Record. 1 year from date of report",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 1 year from date of report.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-10-25",
       "next_update_due": null,
       "comments": null
@@ -591,14 +573,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Temporary Record. 3 years from date of report",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 3 years from date of report.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-10-25",
       "next_update_due": null,
       "comments": null
@@ -623,14 +604,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Temporary Record. 3 years",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 3 years.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-10-25",
       "next_update_due": null,
       "comments": null
@@ -655,14 +635,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Temporary Record. 10 years",
       "duration_years": 10,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 10 years.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-10-25",
       "next_update_due": null,
       "comments": null
@@ -687,14 +666,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "PERMANENT RECORD. in office (Code of Alabama 1975 \u00a7 41-22-6)",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "PERMANENT RECORD. Retain in office (Code of Alabama 1975 \u00a7 41-22-6).",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-10-25",
       "next_update_due": null,
       "comments": null
@@ -719,14 +697,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Temporary Record. useful life",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain for useful life.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-10-25",
       "next_update_due": null,
       "comments": null
@@ -751,14 +728,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Temporary Record. 3 years",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 3 years.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-10-25",
       "next_update_due": null,
       "comments": null
@@ -783,14 +759,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Temporary Record. useful life",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain for useful life.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-10-25",
       "next_update_due": null,
       "comments": null
@@ -815,14 +790,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Temporary Record. useful life",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain for useful life.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-10-25",
       "next_update_due": null,
       "comments": null
@@ -847,14 +821,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Temporary Record. documentation of former system 1 year audit fiscal year in which former hardware and software no longer exists anywhere in agency and all permanent records have been migrated a new system",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain documentation of former system 1 year after audit for the fiscal year in which the former hardware and software no longer exists anywhere in the agency and all permanent records have been migrated to a new system.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-10-25",
       "next_update_due": null,
       "comments": null
@@ -879,14 +852,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Temporary Record. 5 years final disposition",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 5 years after final disposition.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-10-25",
       "next_update_due": null,
       "comments": null
@@ -911,14 +883,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Temporary Record. 5 years final disposition",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 5 years after final disposition.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-10-25",
       "next_update_due": null,
       "comments": null
@@ -943,14 +914,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "PERMANENT RECORD. *(ADAH staff capture and preserve agency's website and other social media sites via a service offered by Internet Archive \\[Archive It\\]. Any content behind password protected or login would not be captured by ADAH. Check with ADAH website at www.archiveit.org/organizations/62 ensure your agency and social media site(s) are captured and preserved. If your agency's website and social media site(s) are not captured by service, please contact Archives Division at 334-242-4452 get them included.)*",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "PERMANENT RECORD. *(ADAH staff capture and preserve the agency's website and other social media sites via a service offered by the Internet Archive \\[Archive It\\]. Any content behind password protected or login would not be captured by ADAH. Check with the ADAH website at www.archiveit.org/organizations/62 to ensure your agency and social media site(s) are captured and preserved. If your agency's website and social media site(s) are not captured by the service, please contact the Archives Division at 334-242-4452 to get them included.)*",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-10-25",
       "next_update_due": null,
       "comments": null
@@ -975,14 +945,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Temporary Record. 1 year compliance or financial audit by Examiners of Public Accounts or an equivalent auditing firm or one year end of fiscal year audit covers, whichever is later",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 1 year after compliance or financial audit by the Examiners of Public Accounts or an equivalent auditing firm or one year after the end of the fiscal year the audit covers, whichever is later.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-10-25",
       "next_update_due": null,
       "comments": null
@@ -1007,14 +976,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Temporary Record. 6 years expiration of contract. **Records documenting bid process (including requests proposals and unsuccessful responses)**",
       "duration_years": 6,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 6 years after expiration of the contract. **Records documenting the bid process (including requests for proposals and unsuccessful responses)**",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-10-25",
       "next_update_due": null,
       "comments": null
@@ -1039,14 +1007,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Temporary Record. 7 years end of fiscal year in which bids were opened (Code of Alabama 1975 \u00a7 41-16-24)",
       "duration_years": 7,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 7 years after the end of the fiscal year in which the bids were opened (Code of Alabama 1975 \u00a7 41-16-24).",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-10-25",
       "next_update_due": null,
       "comments": null
@@ -1071,14 +1038,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Temporary Record. 10 years award of contract",
       "duration_years": 10,
       "duration_months": null,
-      "disposition_method": "Destroy",
+      "disposition": "Temporary Record. Retain for 10 years after the award of the contract, then destroy.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-10-25",
       "next_update_due": null,
       "comments": null
@@ -1103,14 +1069,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Temporary Record. 1 year",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 1 year.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-10-25",
       "next_update_due": null,
       "comments": null
@@ -1135,14 +1100,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Temporary Record. 4 years reclassification of position",
       "duration_years": 4,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 4 years after reclassification of the position.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-10-25",
       "next_update_due": null,
       "comments": null
@@ -1167,14 +1131,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Temporary Record. 6 years separation of employee from agency",
       "duration_years": 6,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 6 years after separation of the employee from the agency.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-10-25",
       "next_update_due": null,
       "comments": null
@@ -1199,14 +1162,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Temporary Record. 6 years separation of employee from agency",
       "duration_years": 6,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 6 years after separation of the employee from the agency.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-10-25",
       "next_update_due": null,
       "comments": null
@@ -1231,14 +1193,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Temporary Record. 1 year compliance or financial audit by Examiners of Public Accounts or an equivalent auditing firm or one year end of fiscal year audit covers, whichever is later",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 1 year after compliance or financial audit by the Examiners of Public Accounts or an equivalent auditing firm or one year after the end of the fiscal year the audit covers, whichever is later.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-10-25",
       "next_update_due": null,
       "comments": null
@@ -1263,14 +1224,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Temporary Record. record of individual employees' cumulative leave 6 years separation of employee from agency",
       "duration_years": 6,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain record of individual employees' cumulative leave 6 years after separation of employee from the agency.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-10-25",
       "next_update_due": null,
       "comments": null
@@ -1295,14 +1255,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Temporary Record. 1 year compliance or financial audit by Examiners of Public Accounts or an equivalent auditing firm or one year end of fiscal year audit covers, whichever is later (Code of Alabama 1975 \u00a7 36-16-8\\[1\\])",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 1 year after compliance or financial audit by the Examiners of Public Accounts or an equivalent auditing firm or one year after the end of the fiscal year the audit covers, whichever is later (Code of Alabama 1975 \u00a7 36-16-8\\[1\\]).",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-10-25",
       "next_update_due": null,
       "comments": null
@@ -1327,14 +1286,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Temporary Record. 1 year compliance or financial audit by Examiners of Public Accounts or an equivalent auditing firm or one year end of fiscal year audit covers, whichever is later",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 1 year after compliance or financial audit by the Examiners of Public Accounts or an equivalent auditing firm or one year after the end of the fiscal year the audit covers, whichever is later.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-10-25",
       "next_update_due": null,
       "comments": null
@@ -1359,14 +1317,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Temporary Record. 1 year compliance or financial audit by Examiners of Public Accounts or an equivalent auditing firm or one year end of fiscal year audit covers, whichever is later",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 1 year after compliance or financial audit by the Examiners of Public Accounts or an equivalent auditing firm or one year after the end of the fiscal year the audit covers, whichever is later.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-10-25",
       "next_update_due": null,
       "comments": null
@@ -1391,14 +1348,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Temporary Record. 1 year audit year in which equipment is removed from property inventory",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 1 year after audit for the year in which the equipment is removed from the property inventory.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-10-25",
       "next_update_due": null,
       "comments": null
@@ -1423,14 +1379,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Temporary Record. 1 year",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 1 year.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-10-25",
       "next_update_due": null,
       "comments": null
@@ -1455,14 +1410,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Temporary Record. 6 years termination of lease or rental agreement or agency is audited and audit report is released, whichever is longer. ## Requirement and Recommendations Implementing Records Disposition Authority (RDA)",
       "duration_years": 6,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Temporary Record. Retain 6 years after the termination of lease or rental agreement or until agency is audited and audit report is released, whichever is longer. ## Requirement and Recommendations for Implementing the Records Disposition Authority (RDA)",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-10-25",
       "next_update_due": null,
       "comments": null

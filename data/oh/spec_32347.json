@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: converted machine readable, or either three (3) years or one year separation ; Electronic: either three (3) years or one year separation",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Retain until converted to machine readable, or for either three (3) years or for one year after separation, then redact. ; Electronic: Retain for either three (3) years or for one year after separation, then redact., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2014-06-10",
       "next_update_due": null,
       "comments": null

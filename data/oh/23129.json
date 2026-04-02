@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Paper: in operating area while project is under construction. completion of project or expiration of warranty period or unless litigation necessitates a longer period. Document image warranty period or litigation concludes. ; Electronic: Permanent",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Paper: Trash ; Electronic: Permanent",
+      "disposition": "Paper: Retain in operating area while project is under construction. Retain for 4 years after completion of project or until expiration of the warranty period or unless litigation necessitates a longer period. Document image after warranty period or until litigation concludes. ; Electronic: Permanent., Paper: Trash ; Electronic: Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2006-02-22",
       "next_update_due": null,
       "comments": null

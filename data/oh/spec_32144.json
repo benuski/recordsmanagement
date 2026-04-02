@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: in office no longer of administrative value and ; Electronic: in office no longer of administrative value and",
-      "duration_years": null,
+      "trigger_event": "AC",
+      "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Delete",
+      "disposition": "Paper: Retain in office until no longer of administrative value and then transfer to the Ohio Department of Education who serves as the fiscal agent for the Perkins Grant. Copies will be maintained by OBR staff for the duration of the then current Perkins legislation and for a period of 3 years after the end of the legislation. ; Electronic: Retain in office until no longer of administrative value and then transfer to the Ohio Department of Education who serves as the fiscal agent for the Perkins Grant. Copies will be maintained by OBR staff for the duration of the then current Perkins legislation and for a period of 3 years after the end of the legislation., Paper: Recycle ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2014-04-08",
       "next_update_due": null,
       "comments": null

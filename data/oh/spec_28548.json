@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Paper: Paper files are kept ; Electronic: Label/Product Registration files are processed",
       "duration_years": 999,
       "duration_months": 6,
-      "disposition_method": "Paper: Recycle ; Electronic: Permanent",
+      "disposition": "Paper: Paper files are kept for 6 months ; Electronic: Label/Product Registration files are processed then the data is entered into ABCS (Alcohol Beverage Control System). Maintain machine-readable records on the computer database until superseded or until record series is no longer created. After data is entered into ABCS, these documents are scanned into LITS (License Issuance Tracking System) a computerized optical scanning Image System. LITS images are stored forever and then saved to a (WORM) drive - write once, read many. These images are never purged., Paper: Recycle ; Electronic: Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2010-06-15",
       "next_update_due": null,
       "comments": null

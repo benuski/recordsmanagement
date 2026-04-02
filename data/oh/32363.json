@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "Paper: records life of equipment, two (2) state fiscal years. ; Electronic: records life of equipment, two (2) state fiscal years",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Trash ; Electronic: Delete",
+      "disposition": "Paper: Retain records for the life of the equipment, plus two (2) state fiscal years. ; Electronic: Retain records for the life of the equipment, plus two (2) state fiscal years., Paper: Trash ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2014-05-13",
       "next_update_due": null,
       "comments": null

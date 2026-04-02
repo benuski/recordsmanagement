@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Paper: grant has been closed",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Paper: Shred",
+      "disposition": "Paper: 3 years after the grant has been closed, Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2018-09-11",
       "next_update_due": null,
       "comments": null

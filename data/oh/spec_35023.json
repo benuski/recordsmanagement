@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Paper: If confidential, scanned and verified. as Machine Readable media during ownership of vehicle, and ; Electronic: machine readable information Fleet Management will be reviewed every ensure that files can still be accessed. during ownership of vehicle, and",
+      "trigger_event": "AC",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
-      "confidential_flag": false
+      "disposition": "Paper: If confidential, destroy after scanned and verified. Retain as Machine Readable media during ownership of the vehicle, and then destroy. ; Electronic: The machine readable information for Fleet Management will be reviewed every 3 years to ensure that the files can still be accessed. Retain during ownership of the vehicle, and then destroy., Paper: Shred ; Electronic: Delete",
+      "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2018-04-26",
       "next_update_due": null,
       "comments": null

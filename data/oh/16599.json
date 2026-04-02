@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Electronic: Maintain machine readable records on computer database system ; Paper: hard copy records 2 years",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase ; Paper: Wastepaper",
+      "disposition": "Electronic: Maintain machine readable records on the computer database system for 5 years, then transfer to magnetic tape, retain 2 years, then destroy by erasure ; Paper: Retain hard copy records for 2 years, then destroy, Electronic: Erase ; Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "1996-04-30",
       "next_update_due": null,
       "comments": null

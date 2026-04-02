@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Electronic: driver applications . tractor applications 1 year. ; Paper: driver applications scanned electronically tractor applications scanned electronically",
       "duration_years": 4,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "disposition": "Electronic: Retain driver applications for 4 years. Retain tractor applications for 1 year. ; Paper: Retain driver applications until scanned electronically, then dispose. Retain tractor applications until scanned electronically, then dispose., Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-11-27",
       "next_update_due": null,
       "comments": null

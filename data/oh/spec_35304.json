@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "trigger_desc": "Paper: end of calendar year in which application was cancelled ; Electronic: end of calendar year in which application was cancelled",
       "duration_years": 4,
-      "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "duration_months": 6,
+      "disposition": "Paper: Retain 4 years after end of calendar year in which application was cancelled, then destroy. If scanned, retain for 6 months. ; Electronic: Retain 4 years after end of calendar year in which application was cancelled., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2019-08-31",
       "next_update_due": null,
       "comments": null

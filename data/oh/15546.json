@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Microform: microfilm copy in operating area at all times ; Paper: hard copy in operating area one year",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Microform: Permanent ; Paper: Archives",
+      "disposition": "Microform: Retain microfilm copy in the operating area at all times ; Paper: Retain hard copy in operating area for one year, then microfilm. After microfilm has been checked for quality and completeness, then transfer hard copy records to State Archives at the Ohio Historical Society, Microform: Permanent ; Paper: Archives",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "1995-10-17",
       "next_update_due": null,
       "comments": null

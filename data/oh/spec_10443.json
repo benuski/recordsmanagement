@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: Paper: in agency provider is no longer active. ; Electronic: Electronic: on server provider is no longer active",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Paper: Retain in agency until provider is no longer active. ; Electronic: Electronic: Retain on server until provider is no longer active., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2022-12-21",
       "next_update_due": null,
       "comments": null

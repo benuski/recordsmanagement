@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: If OBR perceives that report has lasting significance research/policy making capabilities of OBR, maintain such significance no longer exists ; Electronic: If OBR perceives that report has lasting significance research/policy making capabilities of OBR, maintain such significance no longer exists",
-      "duration_years": null,
+      "trigger_event": "CR",
+      "duration_years": 4,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Delete",
+      "disposition": "Paper: If OBR perceives that the report has lasting significance to the research/policy making capabilities of OBR, maintain until such significance no longer exists, then destroy. Otherwise, retain 4 years, then destroy. ; Electronic: If OBR perceives that the report has lasting significance to the research/policy making capabilities of OBR, maintain until such significance no longer exists, then destroy. Otherwise, retain 4 years, then destroy., Paper: Recycle ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2014-06-26",
       "next_update_due": null,
       "comments": null

@@ -11,18 +11,17 @@
       "series_id": "IC-MP-21",
       "series_title": "Commission Level Time Study Analysis",
       "series_description": "This monthly report details Commission/Deputy Appeal hearing time frames dictated by ORC 4123.511. It provides information to monitor trends of various time frames based on the final published report and is inclusive of all related source documents in paper and electronic forms.",
-      "legal_citation": null
+      "legal_citation": "ORC 4123.511"
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: from publish date of report. ; Electronic: from publish date of report",
       "duration_years": 4,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Delete",
+      "disposition": "Paper: Retain 4 years from publish date of report. ; Electronic: Retain 4 years from publish date of report., Paper: Recycle ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2018-01-18",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Paper: In office terminated; 2 years ; ; Electronic: In office terminated; 2 years",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Permanent",
+      "disposition": "Paper: In office 1 year after terminated; 2 years on-site; then shred. Retain scanned image permanently. ; Electronic: In office 1 year after terminated; 2 years on-site; then shred. Retain scanned image permanently., Paper: Shred ; Electronic: Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2006-08-29",
       "next_update_due": null,
       "comments": null

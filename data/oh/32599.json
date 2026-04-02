@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "Paper: Case files are maintained in an active or closed status. Active case files are retained closure of case. Closed case files are maintained ten (10) federal fiscal years and ; Electronic: Case files are maintained in an active or closed status. Active case files are retained closure of case. Closed case files are maintained ten (10) federal fiscal years and",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Case files are maintained in an active or closed status. Active case files are retained until closure of the case. Closed case files are maintained for ten (10) federal fiscal years and then destroyed. A Certificate of Disposal is required when destroying these records. ; Electronic: Case files are maintained in an active or closed status. Active case files are retained until closure of the case. Closed case files are maintained for ten (10) federal fiscal years and then destroyed. A Certificate of Disposal is required when destroying these records., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2022-10-14",
       "next_update_due": null,
       "comments": null

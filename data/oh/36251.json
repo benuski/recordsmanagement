@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Paper: paper documents scanned ODOT network drive. Documents may be destroyed files have been checked complete . ; Electronic: permanently in electronic database",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Other",
+      "disposition": "Paper: Retain paper documents until scanned to ODOT network drive. Documents may be destroyed after files have been checked for complete transfer. ; Electronic: Retain permanently in electronic database, Paper: Recycle ; Electronic: Other",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2019-04-16",
       "next_update_due": null,
       "comments": null

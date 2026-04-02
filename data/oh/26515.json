@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Electronic: machine readable information will be reviewed every ensure that files can still be accessed. sale of goods, five years",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete",
+      "disposition": "Electronic: The machine readable information will be reviewed every 3 years to ensure that the files can still be accessed. For sale of goods, retain five years then destroy. For services, retain 16 years, and then destroy., Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2008-07-29",
       "next_update_due": null,
       "comments": null

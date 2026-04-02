@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: in operating area",
-      "duration_years": null,
+      "trigger_event": "CR",
+      "duration_years": 20,
       "duration_months": 6,
-      "disposition_method": "Paper: Recycle",
+      "disposition": "Paper: Retain in operating area 6 months, then transfer to off-site storage. Retain off-site for 20 years then destroy., Paper: Recycle",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2007-01-10",
       "next_update_due": null,
       "comments": null

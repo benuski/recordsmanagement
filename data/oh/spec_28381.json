@@ -11,18 +11,17 @@
       "series_id": "OW-AGO-01",
       "series_title": "Public Records Request Files",
       "series_description": "Files documenting public records requests and responses of the Ohio Attorney General's Office (AGO) pursuant to ORC 149.43. Records include, but are not limited to, the original request, correspondence between the AGO and the requester, internal correspondence, and copies of responsive records.",
-      "legal_citation": null
+      "legal_citation": "ORC 149.43"
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Electronic: from request completion. ; Paper: from request completion. If scanned and saved electronically, dispose of paper immediately",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "disposition": "Electronic: Retain 3 years from request completion. ; Paper: Retain 3 years from request completion. If scanned and saved electronically, dispose of paper immediately., Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2024-12-02",
       "next_update_due": null,
       "comments": null

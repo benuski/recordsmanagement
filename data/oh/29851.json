@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: Six (6) years start of grant cycle or three (3) years start of grant cycle if an electronic copy is available. If litigation, claim, or audit, is initiated ; Electronic: Six (6) years start of grant cycle. If litigation, claim, or audit, is initiated",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Delete",
+      "disposition": "Paper: Six (6) years after start of grant cycle or three (3) years after start of grant cycle if an electronic copy is available. If litigation, claim, or audit, is initiated, then upon final resolution. ; Electronic: Six (6) years after start of grant cycle. If litigation, claim, or audit, is initiated, then upon final resolution., Paper: Recycle ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-03-05",
       "next_update_due": null,
       "comments": null

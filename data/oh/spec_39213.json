@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Electronic: Available online . , files are archived offline storage 3 years. Purged 3 years",
+      "trigger_event": "AC",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete",
+      "disposition": "Electronic: Available online for 1 year. After 1 year, files are archived to offline storage for 3 years. Purged after 3 years., Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2022-06-21",
       "next_update_due": null,
       "comments": null

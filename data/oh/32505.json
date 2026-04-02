@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "trigger_desc": "Paper: three (3) calendar years from date grievance is closed. A Certificate of Disposal is required when destroying these records. (Be aware that some collective contracts specify where such documents can be kept.) ; Electronic: three (3) calendar years from date grievance is closed. A Certificate of Disposal is required when destroying these records. (Be aware that some collective contracts specify where such documents can be kept.)",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain three (3) calendar years from the date the grievance is closed. A Certificate of Disposal is required when destroying these records. (Be aware that some collective contracts specify where such documents can be kept.) ; Electronic: Retain three (3) calendar years from the date the grievance is closed. A Certificate of Disposal is required when destroying these records. (Be aware that some collective contracts specify where such documents can be kept.), Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2014-07-15",
       "next_update_due": null,
       "comments": null

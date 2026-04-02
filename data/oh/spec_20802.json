@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Electronic: discontinuance of system or application and system''s or application''s data is destroyed or transferred a new structure or format ; Paper: discontinuance of system or application and system''s or application''s data is destroyed or transferred a new structure or format",
+      "trigger_event": "AC",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase ; Paper: Trash",
+      "disposition": "Electronic: Retain 3 years after discontinuance of system or application and until system''s or application''s data is destroyed or transferred to a new structure or format, then destroy. If all data is not destroyed or transferred, then review by State Archives prior to disposal. ; Paper: Retain 3 years after discontinuance of system or application and until system''s or application''s data is destroyed or transferred to a new structure or format, then destroy. If all data is not destroyed or transferred, then review by State Archives prior to disposal., Electronic: Erase ; Paper: Trash",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2004-09-23",
       "next_update_due": null,
       "comments": null

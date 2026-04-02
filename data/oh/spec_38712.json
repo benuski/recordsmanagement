@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Paper: official audit report has been received from Auditor of State. ; Electronic: official audit report has been received from Auditor of State",
+      "trigger_event": "AC",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Erase",
+      "disposition": "Paper: Retain 1 year after official audit report has been received from Auditor of State. ; Electronic: Retain 1 year after official audit report has been received from Auditor of State., Paper: Recycle ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-02-18",
       "next_update_due": null,
       "comments": null

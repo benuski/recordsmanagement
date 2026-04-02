@@ -11,18 +11,17 @@
       "series_id": "OW-AGO-03",
       "series_title": "Confidential Personal Information (CPI) System Access Logs",
       "series_description": "Manual and electronic logs documenting employee access to confidential personal information (CPI) pursuant to ORC 1347.15 and OAC 109-4-05.",
-      "legal_citation": null
+      "legal_citation": "ORC 1347.15"
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: ; Electronic",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: 2 years ; Electronic: 2 years, Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2010-12-11",
       "next_update_due": null,
       "comments": null

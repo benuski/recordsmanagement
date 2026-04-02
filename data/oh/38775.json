@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: Do not ; Electronic: Do not",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Other ; Electronic: Other",
+      "disposition": "Paper: Do not destroy ; Electronic: Do not destroy, Paper: Other ; Electronic: Other",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-03-05",
       "next_update_due": null,
       "comments": null

@@ -11,18 +11,17 @@
       "series_id": "210-05",
       "series_title": "Medical Liability Closed Claims Annual Report",
       "series_description": "Disclosure of medical liability closed claims data in aggregate as required pursuant to ORC 3929.302. (Electronic)",
-      "legal_citation": null
+      "legal_citation": "ORC 3929.302"
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: most recent 5 reports ; Electronic: most recent 5 reports",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Retain most recent 5 reports, then destroy. ; Electronic: Retain most recent 5 reports, then destroy., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2026-03-12",
       "next_update_due": null,
       "comments": null

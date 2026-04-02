@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Electronic: Maintain copy of DVD containing scanned images permanently in LSC Rules Unit and send duplicate State Archives. ; Paper: If electronically filed, recycle paper copy. If not electronically filed, six months",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Electronic: Archives ; Paper: Recycle",
+      "disposition": "Electronic: Maintain copy of DVD containing scanned images permanently in the LSC Rules Unit and send duplicate to State Archives. ; Paper: If electronically filed, recycle paper copy. If not electronically filed, retain six months, then scan paper copy and save scanned image to DVD. Recycle paper copy after scanned images are checked for quality and completeness., Electronic: Archives ; Paper: Recycle",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2009-10-23",
       "next_update_due": null,
       "comments": null

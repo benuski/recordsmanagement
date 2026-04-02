@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Microform: permanently. ; Electronic: permanently. ; Paper: 1998 hard copies five years",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Microform: Permanent ; Electronic: Permanent ; Paper: Wastepaper",
+      "disposition": "Microform: Retain permanently. ; Electronic: Retain permanently. ; Paper: After 1998 retain hard copies for five years then place in electronic data files., Microform: Permanent ; Electronic: Permanent ; Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2003-06-12",
       "next_update_due": null,
       "comments": null

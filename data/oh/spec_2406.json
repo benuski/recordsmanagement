@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "Electronic: in operating area Two (2) Fiscal Years ; Paper: stored electronically",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Recycle",
+      "disposition": "Electronic: Retain in operating area for Two (2) Fiscal Years, then destroy provided that audit is complete and audit report is released and all State Wide Cost Allocation Plan (SWCAP) obligations have been met. ; Paper: Retain until stored electronically, then destroy., Electronic: Delete ; Paper: Recycle",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-08-22",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: in office all investigatory documents. If a complaint is unfounded",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Paper: Shred",
+      "disposition": "Paper: Retain in office for 5 years all investigatory documents. If a complaint is unfounded, then destroy at the end of 5 years. If disciplinary action occurs, keep 5 years in office from the date of final appellate decision or appeal expiration., Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-08-11",
       "next_update_due": null,
       "comments": null

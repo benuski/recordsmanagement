@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Electronic: Video tape is kept 20 days unless Human Resources has a need it. If not sent HR",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Burn",
+      "disposition": "Electronic: Video tape is kept for 20 days unless Human Resources has a need for it. If not sent to HR then the tapes override and used again., Electronic: Burn",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2018-11-16",
       "next_update_due": null,
       "comments": null

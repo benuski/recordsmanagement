@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: Employer refunds of $25,000 or higher are scanned into Employer Policy file. daily refund documentation which includes all employer refunds are scanned into I drive Accounts Receivable repository. Once paper records have been scanned and image verified, securely shred. ; Electronic: daily refund documentation on I drive Accounts Receivable repository two (2) years, provided audited by Auditor of State and audit report is released and all discrepancies are resolved –",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Employer refunds of $25,000 or higher are scanned into the Employer Policy file. The daily refund documentation which includes all employer refunds are scanned into the I drive Accounts Receivable repository. Once paper records have been scanned and image verified, securely shred. ; Electronic: Retain the daily refund documentation on the I drive Accounts Receivable repository for two (2) years, provided audited by Auditor of State and audit report is released and all discrepancies are resolved – then delete., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2018-09-10",
       "next_update_due": null,
       "comments": null

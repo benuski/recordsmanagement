@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Electronic: Other Electronic [Digital Recordiings and audiotapes]: information transferred LAN",
-      "duration_years": null,
+      "trigger_event": "CR",
+      "duration_years": 75,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase",
+      "disposition": "Electronic: Other Electronic [Digital Recordiings and audiotapes]: Retain until information transferred to LAN; then erase. LAN: Retain for 75 years as part of enforcement file [See INE-0001], Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2022-01-26",
       "next_update_due": null,
       "comments": null

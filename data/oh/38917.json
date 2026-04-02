@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Paper: paper copies of all project deliverables, artifacts, training materials and other non-system records scanned into a machine readable format. Paper copies not scanned shall be kept and ; Electronic: Three historical versions and one current version of machine readable formats of all project deliverables, artifacts, training materials, and other non-system records should be maintained at any point of time, or contract terminates",
+      "trigger_event": "AC",
       "duration_years": 7,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Retain paper copies of all project deliverables, artifacts, training materials and other non-system records until scanned into a machine readable format. Paper copies not scanned shall be kept for 7 years and then destroyed. ; Electronic: Three historical versions and one current version of machine readable formats of all project deliverables, artifacts, training materials, and other non-system records should be maintained at any point of time, or 7 years after the contract terminates., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2023-12-28",
       "next_update_due": null,
       "comments": null

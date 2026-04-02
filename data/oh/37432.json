@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: paper documents scanned or otherwise stored electronically ; Electronic: electronically four(4) years current year",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Delete",
+      "disposition": "Paper: Retain paper documents until scanned or otherwise stored electronically then destroy. ; Electronic: Retain electronically for four(4) years plus current year, then delete; unless, the record series is currently being audited by the Auditor of State, then destroy once the audit report is released., Paper: Recycle ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-10-08",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "Paper: four (4) years close of fiscal year in which created. ; Electronic: four (4) years close of fiscal year in which created",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Retain four (4) years after close of fiscal year in which created. ; Electronic: Retain four (4) years after close of fiscal year in which created., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2014-05-28",
       "next_update_due": null,
       "comments": null

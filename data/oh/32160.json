@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: Paper records may be scanned and destroyed. Paper records that are not scanned should be retained three years following end of grant period.In event of an open audit on these records at end of retention period, audit is complete and discrepancies resolved. ; Electronic: three years following end of grant period.In event of an open audit on these records at end of retention period, audit is complete and discrepancies resolved",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Delete",
+      "disposition": "Paper: Paper records may be scanned and destroyed. Paper records that are not scanned should be retained for three years following the end of the grant period.In the event of an open audit on these records at the end of the retention period, retain until the audit is complete and discrepancies resolved. ; Electronic: Retain for three years following the end of the grant period.In the event of an open audit on these records at the end of the retention period, retain until the audit is complete and discrepancies resolved., Paper: Recycle ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2014-04-01",
       "next_update_due": null,
       "comments": null

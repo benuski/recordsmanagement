@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "US",
-      "trigger_desc": "Electronic: Upon publication, send copy State Lilbrary. in office area it is superseded, obsolete or rescinded ; Paper: Upon publication, send copy State Lilbrary. in office area it is superseded, obsolete or rescinded",
-      "duration_years": 1,
+      "trigger_event": "PM",
+      "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase ; Paper: Shred",
+      "disposition": "Electronic: Upon publication, send copy to the State Lilbrary. Retain in office area for 1 year after it is superseded, obsolete or rescinded, then request review by State Archives for possible permanent retention. ; Paper: Upon publication, send copy to the State Lilbrary. Retain in office area for 1 year after it is superseded, obsolete or rescinded, then request review by State Archives for possible permanent retention., Electronic: Erase ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2011-07-29",
       "next_update_due": null,
       "comments": null

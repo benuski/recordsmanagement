@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: Scan and verify images ; Electronic: electronic files of Public Records Billing Report are maintained on I drive in an Excel spreadsheet Public Records Unit. Public Records Billing Report , and",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Scan and verify images, then destroy. ; Electronic: The electronic files of the Public Records Billing Report are maintained on the I drive in an Excel spreadsheet for the Public Records Unit. Retain the Public Records Billing Report for 2 years, and then destroy., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2018-02-05",
       "next_update_due": null,
       "comments": null

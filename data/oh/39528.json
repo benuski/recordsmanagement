@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: Shred original paper photo, negative or record as they are obsolete or of no evidentiary value. ; Electronic: Delete electronic paper photo, negative or record as they are obsolete or of no evidentiary value. ; Microform: Shred microfilm as records contained therein are obsolete or of no evidentiary value",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete ; Microform: Shred",
+      "disposition": "Paper: Shred original paper photo, negative or record as they are obsolete or of no evidentiary value. ; Electronic: Delete electronic paper photo, negative or record as they are obsolete or of no evidentiary value. ; Microform: Shred microfilm until as records contained therein are obsolete or of no evidentiary value., Paper: Shred ; Electronic: Delete ; Microform: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2024-07-16",
       "next_update_due": null,
       "comments": null

@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Microform: master microfilm in appropriate storage facility ; Paper: files in operating area four years savings bank ceases doing business",
+      "trigger_event": "AC",
       "duration_years": 25,
       "duration_months": null,
-      "disposition_method": "Microform: Shred ; Paper: Shred",
+      "disposition": "Microform: Retain master microfilm in appropriate storage facility for 25 years, then destroy. Retain microfilm copy in operating area for 25 years, then destroy. State Archives to review microfilm before disposition for historical value ; Paper: Retain files in operating area for four years after the savings bank ceases doing business, then microfilm. Destroy hard copy after microfilm has been checked for quality and completeness, Microform: Shred ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "1995-11-14",
       "next_update_due": null,
       "comments": null

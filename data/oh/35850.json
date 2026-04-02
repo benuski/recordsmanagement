@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: one year in office ; Electronic: audio cassettes in office one year",
-      "duration_years": null,
+      "trigger_event": "CR",
+      "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Retain one year in office, then 5 years in Records Center and then destroy when no longer of administrative or legal value. ; Electronic: Retain audio cassettes in office for one year, then 5 years in Records Center and then destroy when no longer of administrative or legal value., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2019-02-15",
       "next_update_due": null,
       "comments": null

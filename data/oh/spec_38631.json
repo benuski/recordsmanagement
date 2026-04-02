@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Electronic: superseded, obsolete or replaced ; Paper: in Medicaid records center, provided audits have been completed and released, and all discrepancies have been resolved",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Permanent",
+      "disposition": "Electronic: Retain until superseded, obsolete or replaced, then print and store in Medicaid record storage area. ; Paper: Retain in Medicaid records center, provided audits have been completed and released, and all discrepancies have been resolved., Electronic: Delete ; Paper: Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2024-01-17",
       "next_update_due": null,
       "comments": null

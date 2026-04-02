@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: two (2) years current, and ; Electronic: two (2) years current, and",
+      "trigger_event": "CE",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Retain for two (2) years plus current, and then destroy. If transferred to electronic copy, it may be destroyed. Upon purchase from customer, the BASS system produces the HP-105, Receipt for Salvage Inspection. Retain for calendar year plus current and then destroy. ; Electronic: Retain for two (2) years plus current, and then destroy., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2019-06-13",
       "next_update_due": null,
       "comments": null

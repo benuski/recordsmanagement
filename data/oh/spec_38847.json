@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Paper: all mining activities have ceased on mine site. If scanned and saved in an electronic format paper copy will be sent State Archivist review. ; Electronic: Electronic records will be maintained permanently",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Paper: Archives ; Electronic: Permanent",
+      "disposition": "Paper: 50 years after all mining activities have ceased on the mine site. If scanned and saved in an electronic format the paper copy will be sent to the State Archivist for review. ; Electronic: Electronic records will be maintained permanently., Paper: Archives ; Electronic: Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2022-11-09",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: Paper: Scan or on site and offsite 3 years. ; Electronic: Electronic: on server 5 years",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Paper: Scan or retain on site for 2 years and offsite for 3 years. ; Electronic: Electronic: retain on server for 5 years, Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-04-08",
       "next_update_due": null,
       "comments": null

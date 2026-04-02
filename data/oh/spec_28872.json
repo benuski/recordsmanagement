@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: paper copy in operating area imaged and indexed. Upon confirmation that paper copy has been checked quality and completeness, State Archives. ; Electronic: electronic files two (2) years from date of meeting",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Archives ; Electronic: Erase",
+      "disposition": "Paper: Retain paper copy in operating area until imaged and indexed. Upon confirmation that paper copy has been checked for quality and completeness, transfer to State Archives. ; Electronic: Retain electronic files for two (2) years from date of meeting, then destroy., Paper: Archives ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2012-08-07",
       "next_update_due": null,
       "comments": null

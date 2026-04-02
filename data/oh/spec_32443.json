@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "Paper: records two (2) federal fiscal years ; Electronic: records two (2) federal fiscal years",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Trash ; Electronic: Delete",
+      "disposition": "Paper: Retain records for two (2) federal fiscal years then destroy. ; Electronic: Retain records for two (2) federal fiscal years then destroy., Paper: Trash ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2014-06-26",
       "next_update_due": null,
       "comments": null

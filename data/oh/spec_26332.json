@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: Attorney General Opinions that relate BWC , and ; Electronic: machine readable Attorney General Opinions will be reviewed every 3 years ensure that files can still be accessed. Attorney General Opinions that relate BWC , and",
       "duration_years": 20,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Delete",
+      "disposition": "Paper: Retain the Attorney General Opinions that relate to BWC for 20 years, and then destroy. Retain the Attorney General Opinions that cover a broad-spectrum and do not relate to BWC until no longer of administrative or legal value to BWC, and then destroy. ; Electronic: The machine readable Attorney General Opinions will be reviewed every 3 years to ensure that the files can still be accessed. Retain the Attorney General Opinions that relate to BWC for 20 years, and then destroy. Retain the Attorney General Opinions that cover a broad-spectrum and do not relate to BWC until no longer of administrative or legal value to BWC, and then destroy., Paper: Recycle ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2008-07-03",
       "next_update_due": null,
       "comments": null

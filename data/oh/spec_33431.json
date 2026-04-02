@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: paper copy all discrepancies are resolved ; Electronic: paper copy all discrepancies are resolved",
-      "duration_years": null,
+      "trigger_event": "CR",
+      "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Paper: Other ; Electronic: Delete",
+      "disposition": "Paper: Retain paper copy until all discrepancies are resolved, then scan and store electronically for 3 years ; Electronic: Retain paper copy until all discrepancies are resolved, then scan and store electronically for 3 years, Paper: Other ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2016-03-08",
       "next_update_due": null,
       "comments": null

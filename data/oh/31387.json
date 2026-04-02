@@ -11,18 +11,17 @@
       "series_id": "NS-NET-05",
       "series_title": "Trouble Ticketing System",
       "series_description": "Series consists of information on network locations, the type of problem they are experiencing with a circuit, and the repairs made to the circuit by Network Operations.",
-      "legal_citation": null
+      "legal_citation": "ORC 1306.23"
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Electronic: in ticketing system superseded",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase",
+      "disposition": "Electronic: Retain in ticketing system until superseded, then erase. (ORC 1306.23 Exemptions to disclosure of records), Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2013-06-07",
       "next_update_due": null,
       "comments": null

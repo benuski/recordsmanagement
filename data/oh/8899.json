@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: reports are \"keyed in\" computer tape",
-      "duration_years": null,
+      "trigger_event": "CR",
+      "duration_years": 15,
       "duration_months": null,
-      "disposition_method": "Paper: Shred",
+      "disposition": "Paper: Retain until reports are \"keyed in\" to computer tape, then destroy. (Shred then pulp all reports). Retain 15 years, then destroy., Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "1987-05-04",
       "next_update_due": null,
       "comments": null

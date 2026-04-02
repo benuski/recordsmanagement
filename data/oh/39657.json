@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Paper: graduation, withdrawal, or ; Electronic: graduation, withdrawal, or",
+      "trigger_event": "AC",
       "duration_years": 6,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: 6 years after graduation, withdrawal, or transfer ; Electronic: 6 years after graduation, withdrawal, or transfer, Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2024-12-23",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: Keep in office during term of contract. If scanned, . ; Electronic: Keep in office during term of contract",
       "duration_years": null,
       "duration_months": 6,
-      "disposition_method": "Paper: Wastepaper ; Electronic: Delete",
+      "disposition": "Paper: Keep in office during the term of the contract. If scanned, retain for 6 months. ; Electronic: Keep in office during the term of the contract., Paper: Wastepaper ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2019-01-30",
       "next_update_due": null,
       "comments": null

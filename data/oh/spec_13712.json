@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Microform: Maintain five years ; Paper: in office five years",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Microform: Wastepaper ; Paper: Wastepaper",
+      "disposition": "Microform: Maintain for five years, then destroy in conjuction with paper records ; Paper: Retain in office for five years, then destroy provided all audits are completed, Microform: Wastepaper ; Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "1992-02-11",
       "next_update_due": null,
       "comments": null

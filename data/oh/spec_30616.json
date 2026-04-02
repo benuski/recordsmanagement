@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Electronic: Record is scanned into Employee and Labor Relations database and retained employee separates from BWC or is no longer of administrative value. ; Paper: in Personnel file according collective bargaining agreement requirements",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "disposition": "Electronic: Record is scanned into Employee and Labor Relations database and retained until employee separates from BWC or is no longer of administrative value. ; Paper: Retain in Personnel file according to collective bargaining agreement requirements, then destroy by shredding., Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2012-10-03",
       "next_update_due": null,
       "comments": null

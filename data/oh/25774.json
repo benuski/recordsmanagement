@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: Scan paper records digital file (e.g., pdf) on Board storage device; paper determination made by staff that digital file is complete. ; Electronic: scanned digital files (e.g., pdf) ten years, when presumed that use will be exhausted",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Scan paper records to digital file (e.g., pdf) on Board storage device; destroy paper after determination made by staff that digital file is complete. ; Electronic: Retain scanned digital files (e.g., pdf) for ten years, when presumed that use will be exhausted., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2008-08-14",
       "next_update_due": null,
       "comments": null

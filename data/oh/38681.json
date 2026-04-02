@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "Paper: electronically imaged. Once image is reviewed verify legibility and completeness shred paper. ; Electronic: three fiscal years from fiscal year in which they are approved",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Retain until electronically imaged. Once image is reviewed to verify legibility and completeness shred paper. ; Electronic: Retain for three fiscal years from the fiscal year in which they are approved., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-02-25",
       "next_update_due": null,
       "comments": null

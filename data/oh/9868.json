@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Electronic: in office superseded by more current enrollee information ; Paper: in office superseded by more current enrollee information",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase ; Paper: Wastepaper",
+      "disposition": "Electronic: Retain in office until superseded by more current enrollee information then destroy ; Paper: Retain in office until superseded by more current enrollee information then destroy, Electronic: Erase ; Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "1991-03-23",
       "next_update_due": null,
       "comments": null

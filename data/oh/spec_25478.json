@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Electronic: Retained on CRS twenty-four (24) months termination date ; Paper: audited by Auditor of State’s Office and audit report released",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Recycle",
+      "disposition": "Electronic: Retained on CRS for twenty-four (24) months after termination date, then deleted. ; Paper: Retain until audited by Auditor of State’s Office and audit report released, then destroy., Electronic: Delete ; Paper: Recycle",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2007-10-30",
       "next_update_due": null,
       "comments": null

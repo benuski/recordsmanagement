@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Electronic: ; Paper: Maintain questionnaire and Hearing Assessment Reporting form information is tabulated/entered",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase ; Paper: Other",
+      "disposition": "Electronic: Retain 2 years, then destroy ; Paper: Maintain questionnaire and Hearing Assessment Reporting form until information is tabulated/entered, then destroy. Maintain the final report for 3 years then destroy if of no historical value to State Archives, Electronic: Erase ; Paper: Other",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "1992-07-27",
       "next_update_due": null,
       "comments": null

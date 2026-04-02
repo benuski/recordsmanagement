@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: a period of three years from date of submission of final expenditure report ; Electronic: a period of three years from date of submission of final expenditure report",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain for a period of three years from the date of submission of the final expenditure report, then destroy. ; Electronic: Retain for a period of three years from the date of submission of the final expenditure report, then delete., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2019-04-23",
       "next_update_due": null,
       "comments": null

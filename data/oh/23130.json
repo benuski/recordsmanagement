@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Paper: Maintain three years date contract expires. ; Electronic: Document image three years following date of contract expiration. from date contract expired",
+      "trigger_event": "AC",
       "duration_years": 15,
       "duration_months": null,
-      "disposition_method": "Paper: Trash ; Electronic: Trash",
+      "disposition": "Paper: Maintain for three years after the date the contract expires. ; Electronic: Document image after three years following the date of the contract expiration. Destroy after 15 years from the date the contract expired., Paper: Trash ; Electronic: Trash",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2006-04-12",
       "next_update_due": null,
       "comments": null

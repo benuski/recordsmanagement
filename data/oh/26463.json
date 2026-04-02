@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Paper: issue is resolved and issue is closed ; Electronic: issue is resolved and issue is closed",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain until the issue is resolved and the issue is closed, then destroy. ; Electronic: Retain until the issue is resolved and the issue is closed, then destroy., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2009-01-21",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Electronic: in office Open centers files: 1. 5documents shall be kept life of licensed program; A. Initial application material; B. Permits; and C. License D .Amendments E. Enforcements documents. 2. other types of documents shall be purged 5years scanned date. Closed center files: from date of center closure. ; Paper: 60 days hardcopy is prepped, scanned (imaged), and quality control is complete",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase ; Paper: Shred",
+      "disposition": "Electronic: Retain in office 2 years after Open centers files: 1. 5documents shall be kept for the life of the licensed program; A. Initial application material; B. Permits; and C. License D .Amendments E. Enforcements documents. 2.The other types of documents shall be purged 5years after the scanned date. Closed center files: Retain for 2 years from date of center closure. ; Paper: Retain 60 days after hardcopy is prepped, scanned (imaged), and quality control is complete then destroyed., Electronic: Erase ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2024-04-29",
       "next_update_due": null,
       "comments": null

@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Paper: 90 days hard copy is imaged and ; Electronic: digital image hard copy is imaged and",
+      "trigger_event": "AC",
       "duration_years": 7,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Retain 90 days after hard copy is imaged and then destroy provided all pending audit findings/lawsuits have been released and resolved. ; Electronic: Retain digital image for 7 years after hard copy is imaged and then destroy provided all pending audit findings/lawsuits have been released and resolved., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2019-05-01",
       "next_update_due": null,
       "comments": null

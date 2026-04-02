@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: in office three (3) years and ; Electronic: in office three (3) years receipt of final payment or any audit Findings or lawsuits have been resolved",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Retain in office three (3) years and then image and destroy. ; Electronic: Retain in office three (3) years until receipt of final payment or until any audit Findings or lawsuits have been resolved., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2024-02-06",
       "next_update_due": null,
       "comments": null

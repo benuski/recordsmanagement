@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: scanned and indexed into intellinetics document imaging system ; Electronic: Discipline reprimands are retained electronically provided there is no intervening discipline during that time. Discipline suspensions are retained electronically 24 months provided there is no intervening discipline during that time",
       "duration_years": null,
       "duration_months": 12,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain until scanned and indexed into intellinetics document imaging system, then destroy. ; Electronic: Discipline reprimands are retained electronically for 12 months provided there is no intervening discipline during that time. Discipline suspensions are retained electronically for 24 months provided there is no intervening discipline during that time., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2008-07-16",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Electronic: one year from exam date ; Paper: one year from exam date",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Recycle",
+      "disposition": "Electronic: Retain for one year from exam date, then destroy. ; Paper: Retain for one year from exam date, then destroy. Name, SS#, exam level, training institution is placed on exam roster. Exam roster retained for one year, then destroyed., Electronic: Delete ; Paper: Recycle",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2004-01-20",
       "next_update_due": null,
       "comments": null

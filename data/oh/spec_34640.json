@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Paper: or audit by Auditor of State and audit report is released, whichever is later ; Electronic: or audit by Auditor of State and audit report is released, whichever is later",
+      "trigger_event": "AC",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain for 2 years or after audit by Auditor of State and after audit report is released, whichever is later, then destroy. ; Electronic: Retain for 2 years or after audit by Auditor of State and after audit report is released, whichever is later, then destroy., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-09-14",
       "next_update_due": null,
       "comments": null

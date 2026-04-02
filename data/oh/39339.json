@@ -11,18 +11,17 @@
       "series_id": "FIN-14",
       "series_title": "IRS 1098-F Reporting",
       "series_description": "Per 26 USC 6050X and 26 CFR 1.6050X-1, the Ohio Attorney General's Office (OAG) will submit to the Internal Revenue Service (IRS) information concerning any suits, orders, or agreements that become binding at or over a threshold amount of $50,000. Information includes, but is not limited to, filer details, payer details, and the specific fines, penalties, and other amounts concerning the settlement or judgment.",
-      "legal_citation": null
+      "legal_citation": "26 USC 6050"
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Electronic: provided available current audit",
       "duration_years": 4,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete",
+      "disposition": "Electronic: Retain 4 years provided available for current audit., Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2023-02-24",
       "next_update_due": null,
       "comments": null

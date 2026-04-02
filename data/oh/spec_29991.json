@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: these records ; Electronic: on BWC server 17 years, and",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain these records for 2 years, then retain in the Records Center for 15 years, and then destroy. ; Electronic: Retain on the BWC server for 17 years, and then destroy. Review the machine readable information every 3 years to ensure that the files can still be accessed., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2012-04-05",
       "next_update_due": null,
       "comments": null

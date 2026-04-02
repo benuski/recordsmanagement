@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Paper: Scan paper documents into electronic when received. paper documents scanned images are checked quality and completeness. ; Microform: microfilm permanently. This will only apply files created prior availability of electronic scanning and uploading. ; Electronic: images of entire file . images that evidence vesting of title a parcel in Department as long as Department owns parcel",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Microform: Permanent ; Electronic: Delete",
+      "disposition": "Paper: Scan paper documents into electronic when received. Destroy paper documents after scanned images are checked for quality and completeness. ; Microform: Retain microfilm permanently. This will only apply to files created prior to the availability of electronic scanning and uploading. ; Electronic: Retain images of entire file for 40 years. Retain images that evidence the vesting of title to a parcel in the Department for as long as the Department owns the parcel., Paper: Shred ; Microform: Permanent ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2022-10-11",
       "next_update_due": null,
       "comments": null

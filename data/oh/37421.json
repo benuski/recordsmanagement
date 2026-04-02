@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Paper: scanned ; Electronic: scanned images year of registration two years. If certified Attorney General, maintain completion by Attorney General",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Delete",
+      "disposition": "Paper: Retain until scanned, then destroy. ; Electronic: Retain scanned images for year of registration plus two years. If certified to the Attorney General, maintain until completion by the Attorney General, then destroy if beyond the year of registration plus two years., Paper: Recycle ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-10-08",
       "next_update_due": null,
       "comments": null

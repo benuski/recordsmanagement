@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Electronic: Written reprimands are retained date of reprimand if there has been no other discipline imposed during past . Fines and suspensions are retained 36 months if there has been no other discipline imposed during past 36 months. ; Paper: hard copy it has been scanned into EIR",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": 24,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "disposition": "Electronic: Written reprimands are retained 24 months after the date of the reprimand if there has been no other discipline imposed during the past 24 months. Fines and suspensions are retained 36 months if there has been no other discipline imposed during the past 36 months. ; Paper: Retain hard copy until it has been scanned into EIR, then destroy, Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2024-10-21",
       "next_update_due": null,
       "comments": null

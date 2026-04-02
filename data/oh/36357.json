@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: Paper records are imaged and indexed a computer. Upon confirmation that paper copy was imaged and indexed properly ; Electronic: Any records imaged and indexed a machine readable format are be retained one year expiration of license and records are be destroyed. ; Microform: Any records on microform are be retained one year expiration of license and",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase ; Microform: Shred",
+      "disposition": "Paper: Paper records are imaged and indexed to a computer. Upon confirmation that the paper copy was imaged and indexed properly, then the paper copy is destroyed. ; Electronic: Any records imaged and indexed to a machine readable format are to be retained one year after the expiration of the license and the records are to be destroyed. ; Microform: Any records on microform are to be retained one year after the expiration of the license and then the microfiche is destroyed., Paper: Shred ; Electronic: Erase ; Microform: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2019-05-21",
       "next_update_due": null,
       "comments": null

@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CE",
-      "trigger_desc": "end of calendar year",
-      "duration_years": 5,
+      "trigger_event": "PM",
+      "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Microfilm Records According To Library Of Virginia'S Standards/Guidelines",
+      "disposition": "Retain 5 years after end of calendar year, then microfilm records according to Library of Virginia's standards/guidelines; retain microfilm permanently in agency. Transfer original camera negative to Imaging Services Branch of the Library of Virginia. Destroy originals after quality control inspection verifies information was successfully transferred to new format. Disposal reporting of paper on Certificate of Records Destruction (RM-3 Form) not required.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -47,14 +46,13 @@
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "trigger_desc": "end of calendar year",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Destroy In Compliance With No",
+      "disposition": "Retain 2 years after end of calendar year then destroy in compliance with No. 8 on schedule cover page.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -79,14 +77,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "permanently in agency",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Retain permanently in agency.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -110,15 +107,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CE",
-      "trigger_desc": "end of calendar year",
-      "duration_years": 3,
+      "trigger_event": "PM",
+      "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Microfilm Records According To Library Of Virginia'S Standards/Guidelines",
+      "disposition": "Retain 3 years after end of calendar year then microfilm records according to Library of Virginia's standards/guidelines. Retain microfilm permanently in agency. Transfer original camera negative to Imaging Services, the Library of Virginia. Destroy originals after quality control inspection verifies information was successfully transferred to new format. Disposal reporting of paper on Certificate of Records Destruction (RM-3 Form) not required.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null

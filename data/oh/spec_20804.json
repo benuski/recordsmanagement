@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Paper: sale of goods, contract expires ; Electronic: sale of goods, contract expires",
+      "trigger_event": "AC",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Paper: Trash ; Electronic: Erase",
+      "disposition": "Paper: For sale of goods, retain 5 years after contract expires, then destroy. For services, retain 16 years, then destroy. (see OCC-C-03) ; Electronic: For sale of goods, retain 5 years after contract expires, then destroy. For services, retain 16 years, then destroy. (see OCC-C-03), Paper: Trash ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2004-07-14",
       "next_update_due": null,
       "comments": null

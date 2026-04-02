@@ -11,18 +11,17 @@
       "series_id": "10000004",
       "series_title": "Ohios Best Rx Cardholder Records",
       "series_description": "Records of Ohios Best Rx prescription drug discount cardholders for cards issued between 1/11/05 and 6/30/09. Contains confidential consumer-specific information as per ORC 173.71 through 173.91.",
-      "legal_citation": null
+      "legal_citation": "ORC 173.71"
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Electronic: Six years from date of final record (06/30/09)",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase",
+      "disposition": "Electronic: Six years from the date of the final record (06/30/09)., Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2009-09-18",
       "next_update_due": null,
       "comments": null

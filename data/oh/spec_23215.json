@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Microform: bridge is retired or no longer of administrative value ; Electronic: bridge is retired or no longer of administrative value",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": 12,
-      "disposition_method": "Microform: Trash ; Electronic: Delete",
+      "disposition": "Microform: Retain 12 months after bridge is retired or until no longer of administrative value, then transfer to Environmental Services or destroy if they don''''''''t want it. Review by State Archavist before disposal. ; Electronic: Retain 12 months after bridge is retired or until no longer of administrative value, then transfer to Environmental Services or destroy if they don''''''''t want it. Review by State Archavist before disposal., Microform: Trash ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2006-06-07",
       "next_update_due": null,
       "comments": null

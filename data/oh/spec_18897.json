@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: in office area",
       "duration_years": null,
       "duration_months": 2,
-      "disposition_method": "Paper: Recycle",
+      "disposition": "Paper: Retain in the office area for 2 months, then destroy., Paper: Recycle",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2003-02-13",
       "next_update_due": null,
       "comments": null

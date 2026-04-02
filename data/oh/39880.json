@@ -11,18 +11,17 @@
       "series_id": "CFI-OAG-01",
       "series_title": "Correctional Facility Inspection Files",
       "series_description": "Per ORC 109.39, the Ohio Attorney General's Office (AGO) will inspect state, local, private, and youth services correctional institutions to evaluate the inmate grievance procedures, compliance reports on meal requirements, rehabilitative or educational programs, and any other compliance area deemed appropriate. Records included, but are not limited to, inspection checklists, supporting documents attained during inspection, facility inspection reports, and correspondence.",
-      "legal_citation": null
+      "legal_citation": "ORC 109.39"
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Paper: inspection reports . Any supporting documentation can be destroyed 1 year. If scanned and saved electronically, dispose of paper immediately. ; Electronic: inspection reports . Any supporting documentation can be destroyed 1 year",
+      "trigger_event": "AC",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain inspection reports for 5 years. Any supporting documentation can be destroyed after 1 year. If scanned and saved electronically, dispose of paper immediately. ; Electronic: Retain inspection reports for 5 years. Any supporting documentation can be destroyed after 1 year., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-11-10",
       "next_update_due": null,
       "comments": null

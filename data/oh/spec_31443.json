@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: in office following grant clossure and 3 years in record center, thendestroy. ; Electronic: in office following grant clossure and 3 years in record center, thendestroy",
       "duration_years": 4,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Retain in office 4 years following grant clossure and 3 years in the record center, thendestroy. ; Electronic: Retain in office 4 years following grant clossure and 3 years in the record center, thendestroy., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2024-01-03",
       "next_update_due": null,
       "comments": null

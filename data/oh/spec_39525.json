@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Electronic: ninety (90) days",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase",
+      "disposition": "Electronic: Retain for ninety (90) days, then provided the record is not the subject of a current or on-going investigation, erase and reuse. If the record is involved in an investigation retain in accordance with AGR retention schedule AGR-0107., Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2024-07-11",
       "next_update_due": null,
       "comments": null

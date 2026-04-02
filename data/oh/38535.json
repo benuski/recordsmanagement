@@ -11,18 +11,17 @@
       "series_id": "066-OAG-66",
       "series_title": "Property Room Evidence",
       "series_description": "Per ORC 2981, evidence collected from local law enforcement, victims, or subpoenaed material to be used in Consumer Protection investigations, some of which may be confidential in nature. Records concerning evidence control forms, chain of custody, and receipts of returned evidence will be retained separately and with the investigative case file.",
-      "legal_citation": null
+      "legal_citation": "ORC 2981.06"
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Electronic: Following expiration of statute of limitations without filing charges or following expiration of time all appeals: (1) return property persons entitled possession per ORC 2981.06(E) or (2) follow disposal property per ORC 2981.12. ; Paper: Following expiration of statute of limitations without filing charges or following expiration of time all appeals: (1) return property persons entitled possession per ORC 2981.06(E) or (2) follow disposal property per ORC 2981.12",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "disposition": "Electronic: Following the expiration of statute of limitations without filing charges or following the expiration of time for all appeals: (1) return property to persons entitled to possession per ORC 2981.06(E) or (2) follow disposal for property per ORC 2981.12. ; Paper: Following the expiration of statute of limitations without filing charges or following the expiration of time for all appeals: (1) return property to persons entitled to possession per ORC 2981.06(E) or (2) follow disposal for property per ORC 2981.12., Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2019-09-03",
       "next_update_due": null,
       "comments": null

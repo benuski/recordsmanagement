@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Microform: Microfilm retained . ; Paper: paper original or microfilm or electronic media verified. ; Electronic: Electronically imaged copy retained",
       "duration_years": 100,
       "duration_months": 3,
-      "disposition_method": "Microform: Shred ; Paper: Shred ; Electronic: Erase",
+      "disposition": "Microform: Microfilm retained 100 years. ; Paper: Retain paper original for 3 months or until transfer to microfilm or electronic media verified. ; Electronic: Electronically imaged copy retained 100 years., Microform: Shred ; Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2010-03-17",
       "next_update_due": null,
       "comments": null

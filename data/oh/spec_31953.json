@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: licensed provider is re-surveyed and final inspection findings report is filed or two years expiration date of license, which ever occurs first",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred",
+      "disposition": "Paper: Retain until licensed provider is re-surveyed and final inspection findings report is filed or until two years after expiration date of license, which ever occurs first., Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2014-01-02",
       "next_update_due": null,
       "comments": null

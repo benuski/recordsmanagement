@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: Entire paper file scanned digital file (such as pdf) on Board storage device and back-up; paper file destroyed Board staff determines integrity of digital file; digital file death of licensee ; Electronic: Digital file images of shredded paper records shall be retained in death of licensee",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Entire paper file scanned to digital file (such as pdf) on Board storage device and back-up; paper file destroyed after Board staff determines integrity of digital file; retain digital file until death of licensee, then destroy. ; Electronic: Digital file images of shredded paper records shall be retained in until death of licensee, then destroy., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2008-03-24",
       "next_update_due": null,
       "comments": null

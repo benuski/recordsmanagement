@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: current year in division office",
-      "duration_years": null,
+      "trigger_event": "CR",
+      "duration_years": 6,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle",
+      "disposition": "Paper: Retain current year in division office then transfer to ODPS Record Center for 6 years, then destroy. Total retention period is 7 years., Paper: Recycle",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2008-11-10",
       "next_update_due": null,
       "comments": null

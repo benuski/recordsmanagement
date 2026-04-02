@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: Scan electronic medium storage, check scan accuracy ; Electronic",
-      "duration_years": 2,
+      "duration_years": 75,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Erase",
+      "disposition": "Paper: Scan to electronic medium for storage, check scan for accuracy, then destroy. Retain existing offsite files for 75 years, unless needed for longer period of time based upon legal or administrative significance or scanned to electronic medium for storage. ; Electronic: Retain 2 years, then destroy, so long as the next audit has been completed, the audit report released, and all discrepancies resolved., Paper: Recycle ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-11-23",
       "next_update_due": null,
       "comments": null

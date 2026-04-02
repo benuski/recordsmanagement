@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Electronic: Permanent",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Electronic: Other",
+      "disposition": "Electronic: Permanent, Electronic: Other",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2012-04-18",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Paper: complete file ; Electronic: digital files permanent in offsite and onsite locations",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Permanent",
+      "disposition": "Paper: Retain complete file for 3 years then convert basioc application and certificate of licensure to digital files then destroy hard copy. ; Electronic: Retain digital files permanent in offsite and onsite locations., Paper: Shred ; Electronic: Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2004-08-30",
       "next_update_due": null,
       "comments": null

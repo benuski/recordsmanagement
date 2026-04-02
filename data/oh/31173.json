@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Microform: original in office permanently or file is converted into a machine readable format ; Electronic: Maintain machine readable records permanently. ; Paper: closure and corrective action files in operating area files are assigned a No Further Action statuts (\"NFA\"). Upon file being assigned a NFA status, file will be converted into a machine readable format. machine readable format has been checked quality and completeness",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Microform: Shred ; Electronic: Permanent ; Paper: Shred",
+      "disposition": "Microform: Retain original in office permanently or until the file is converted into a machine readable format, then destroy. ; Electronic: Maintain machine readable records permanently. ; Paper: Retain closure and corrective action files in the operating area until files are assigned a No Further Action statuts (\"NFA\"). Upon the file being assigned a NFA status, the file will be converted into a machine readable format. After machine readable format has been checked for quality and completeness, then destroy hard copy records., Microform: Shred ; Electronic: Permanent ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2013-03-13",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "trigger_desc": "Paper: end of calendar year forms received during calendar year or such time as diligent enforcement inquiry is resolved a particular year",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Paper: Shred",
+      "disposition": "Paper: Destroy 3 years after the end of the calendar year for forms received during the calendar year or until such time as the diligent enforcement inquiry is resolved for a particular year., Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2013-06-27",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Microform: Permanent ; Paper: solution mining wells are plugged ; Electronic: Permanent",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Microform: Permanent ; Paper: Recycle ; Electronic: Permanent",
+      "disposition": "Microform: Permanent ; Paper: Retain 5 years after solution mining wells are plugged, then scan to electronic format or microfilm and destroy. ; Electronic: Permanent, Microform: Permanent ; Paper: Recycle ; Electronic: Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-01-13",
       "next_update_due": null,
       "comments": null

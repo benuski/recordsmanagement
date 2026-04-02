@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Paper: in appropriate storage area case is closed. case has been closed , or files have been scanned and verified ; Electronic: Maintain securities machine readable records on database information is effectively replaced or retention series is no longer maintained Download from electronic transmissin disk and with paper file in appropriate storage area case is closed. case has been closed , by erasure",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Shred",
+      "disposition": "Paper: Retain in appropriate storage area until case is closed. After case has been closed 5 years, or files have been scanned and verified, then destroy. ; Electronic: Maintain securities machine readable records on database until information is effectively replaced or the retention series is no longer maintained, then destroy by erasure. Download from electronic transmissin to disk and retain with paper file in appropriate storage area until case is closed. After case has been closed 5 years, destroy by erasure., Paper: Shred ; Electronic: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2009-07-16",
       "next_update_due": null,
       "comments": null

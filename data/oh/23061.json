@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Paper: One year from date claim is collected or closed as uncollectible",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Trash",
+      "disposition": "Paper: One year from the date the claim is collected or closed as uncollectible., Paper: Trash",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2006-02-22",
       "next_update_due": null,
       "comments": null

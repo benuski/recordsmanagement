@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Paper: state case has closed and all appeals have exhausted or scanned and saved electronically, whichever occurs earlier. ; Electronic: state case has closed and all appeals have exhausted",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: 5 years after the state case has closed and all appeals have exhausted or until scanned and saved electronically, whichever occurs earlier. ; Electronic: 5 years after the state case has closed and all appeals have exhausted., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2015-10-20",
       "next_update_due": null,
       "comments": null

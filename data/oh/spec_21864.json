@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Electronic: Permanent ; Microform: Permanent ; Paper: enhanced recovery wells are plugged, unless scanned electronic format or microfilm . paper copy is scanned an electronic format or microfilm, it may be destroyed",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Electronic: Permanent ; Microform: Permanent ; Paper: Recycle",
+      "disposition": "Electronic: Permanent ; Microform: Permanent ; Paper: Retain 5 years after enhanced recovery wells are plugged, unless scanned to electronic format or microfilm . After paper copy is scanned to an electronic format or microfilm, it may be destroyed., Electronic: Permanent ; Microform: Permanent ; Paper: Recycle",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-01-13",
       "next_update_due": null,
       "comments": null

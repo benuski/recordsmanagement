@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Electronic: Maintain machine readable records on AS/400 data base permanently ; Microform: diazo copy in operating area . master microfilm in off site storage ; Paper: in operating area 2 years",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Electronic: Permanent ; Microform: Shred ; Paper: Shred",
+      "disposition": "Electronic: Maintain machine readable records on the AS/400 data base permanently ; Microform: Retain diazo copy in operating area for 40 years. Retain master microfilm in off site storage 40 years ; Paper: Retain in operating area 2 years, then microfilm. After microfilm has been checked for quality and completeness, then destroy hard copy, Electronic: Permanent ; Microform: Shred ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "1995-02-08",
       "next_update_due": null,
       "comments": null

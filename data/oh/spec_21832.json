@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Electronic: cancelled by clerk of court ; Paper: Liens prior 1992are retained cancelled by clerk of court",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "disposition": "Electronic: Retain until cancelled by clerk of court, then destroy. ; Paper: Liens prior to 1992are retained until cancelled by the clerk of court, then destroyed. Liens after 1992 are maintained by the County Clerk of Courts through the ATPS run by the Bureau of Motor Vehicles. If paper records are converted and saved in an electronic format, the paper copy may be shredded., Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-01-14",
       "next_update_due": null,
       "comments": null

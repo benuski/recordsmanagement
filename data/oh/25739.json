@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: No longer produced. receipt of approved retention schedule",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Trash",
+      "disposition": "Paper: No longer produced. Retain until receipt of approved retention schedule, then destroy, Paper: Trash",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2008-08-06",
       "next_update_due": null,
       "comments": null

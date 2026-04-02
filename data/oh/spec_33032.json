@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Paper: Applications be scanned ; Electronic: Applications be scanned",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Permanent",
+      "disposition": "Paper: Applications to be scanned, then destroyed. Scanned applications to be retained permanently. Related correspondence, copies and supporting materials will be retained until no longer of administrative value, then may be destroyed. ; Electronic: Applications to be scanned, then destroyed. Scanned applications to be retained permanently. Related correspondence, copies and supporting materials will be retained until no longer of administrative value, then may be destroyed., Paper: Shred ; Electronic: Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2015-07-30",
       "next_update_due": null,
       "comments": null

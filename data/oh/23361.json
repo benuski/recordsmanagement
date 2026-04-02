@@ -11,18 +11,17 @@
       "series_id": "HW-010",
       "series_title": "Hazardous waste exemptions and variances",
       "series_description": "These records include the applications requesting exemptions under ORC 3734.02(G)and hazardous waste variances. They also include the authorizing document usually in the form of director''s final findings and orders.",
-      "legal_citation": null
+      "legal_citation": "ORC 3734.02"
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Paper: request is denied or final variance or exemption has expired, is withdrawn or terminated. expiration, withdrawal or termination",
+      "trigger_event": "AC",
       "duration_years": 20,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle",
+      "disposition": "Paper: Retain until request is denied or until final variance or exemption has expired, is withdrawn or terminated. After expiration, withdrawal or termination retain for 20 years then destroy., Paper: Recycle",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2006-06-07",
       "next_update_due": null,
       "comments": null

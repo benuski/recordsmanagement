@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Paper: paper copy in operating area four calendar years ; Microform: microfilm diazo copy in operating area permanently and master microfilm in off site storage permanently. ; Electronic: machine readable format in operating area permanently. backup copy in off-site storage permanently. LIMS record on LIMS server permanently",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Microform: Permanent ; Electronic: Permanent",
+      "disposition": "Paper: Retain paper copy in operating area for four calendar years, then convert to machine readable format. After machine readable format has been checked for quality and completeness, then destroy paper copy. ; Microform: Retain microfilm diazo copy in operating area permanently and retain master microfilm in off site storage permanently. ; Electronic: Retain machine readable format in operating area permanently. Retain backup copy in off-site storage permanently. Retain the LIMS record on the LIMS server permanently., Paper: Shred ; Microform: Permanent ; Electronic: Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2013-06-25",
       "next_update_due": null,
       "comments": null

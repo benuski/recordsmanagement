@@ -11,18 +11,17 @@
       "series_id": "1298",
       "series_title": "Ohio State Patrol (OSP) Requests for Service",
       "series_description": "This record series contains requests for assistance with investigations, assessments, and event planning that are submitted to the OSP Intelligence Unit. Records include source and method of receipt of requests; the final work product and/or response, e.g., bulletins, profiles, and case reports; and as applicable, dissemination to appropriate law enforcement and/or public safety agencies. Note: If any request is evaluated and found to meet the threshold of reasonable suspicion of criminal activity set forth in 28 CFR 23, the record will be retained in accordance with 760-1559.",
-      "legal_citation": null
+      "legal_citation": "28 CFR 23"
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Electronic: in Intelligence Unit’s data-system ten years and provided that information is no longer relevant as a security threat",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete",
+      "disposition": "Electronic: Retain in Intelligence Unit’s data-system for ten years and destroy provided that the information is no longer relevant as a security threat., Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2024-03-05",
       "next_update_due": null,
       "comments": null

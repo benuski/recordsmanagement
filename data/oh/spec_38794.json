@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Paper: Once image is scanned into UDS and verified ; Electronic: allegation rejected date or case closed date ; Microform: allegation rejected date or case closed date",
       "duration_years": 10,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete ; Microform: Burn",
+      "disposition": "Paper: Once image is scanned into UDS and verified, then destroy. If not scanned into UDS, Retain 10 years after the allegation rejected date or case closed date, then destroy. ; Electronic: Retain 10 years after the allegation rejected date or case closed date, then destroy. ; Microform: Retain 10 years after the allegation rejected date or case closed date, then destroy., Paper: Shred ; Electronic: Delete ; Microform: Burn",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-04-20",
       "next_update_due": null,
       "comments": null

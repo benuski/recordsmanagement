@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Electronic: or Board is notified by firm that it is no longer in business",
       "duration_years": 99,
       "duration_months": null,
-      "disposition_method": "Electronic: Shred",
+      "disposition": "Electronic: 99 years or until the Board is notified by the firm that it is no longer in business, Electronic: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2010-03-17",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "Paper: each monthly/quarterly report final quarterly report that fiscal year is finalized",
-      "duration_years": null,
+      "duration_years": 4,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle",
+      "disposition": "Paper: Retain each monthly/quarterly report until the final quarterly report for that fiscal year is finalized, then destroy the corresponding monthly/quarterly reports. Retain the last quarterly report of the fiscal year for 4 years., Paper: Recycle",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2005-12-21",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: or final disposition of all legal actions and appeals of all cases listed in Docket, whichever occurs last, and",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Paper: Wastepaper",
+      "disposition": "Paper: Retain for 5 years or until final disposition of all legal actions and appeals of all cases listed in the Docket, whichever occurs last, and then destroy, Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "1999-07-28",
       "next_update_due": null,
       "comments": null

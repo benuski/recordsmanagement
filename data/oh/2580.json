@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: deposits, destructs, and returns, five years transaction is completed",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Wastepaper",
+      "disposition": "Paper: For deposits, destructs, and returns, retain five years after transaction is completed, then destroy. For retrievals only, re- tain until the transaction is completted (i.e. file is returned to the State Records Center), then destroy., Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "1993-11-29",
       "next_update_due": null,
       "comments": null

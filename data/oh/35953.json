@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: from receipt ; Electronic: An electronic record is maintained via Ohio Dept Taxations FileNet 10 years",
       "duration_years": 4,
-      "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "duration_months": 6,
+      "disposition": "Paper: Retain 4 years from receipt, then destroy. If scanned and imaged, retain 6 months, then destroy. ; Electronic: An electronic record is maintained via the Ohio Dept Taxations FileNet for 10 years., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2019-02-11",
       "next_update_due": null,
       "comments": null

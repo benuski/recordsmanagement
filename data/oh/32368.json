@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: two years following separation ; Electronic: following employee''s separation",
       "duration_years": 50,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Retain for two years following separation then image to machine readable or retain for 50 years following employee''s separation. ; Electronic: Retain for 50 years following employee''s separation., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2014-06-26",
       "next_update_due": null,
       "comments": null

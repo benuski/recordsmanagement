@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: Digitally image Returned Warrants into UDS and verify scanned images quality assurance. paper documents 30 days, and ; Electronic: provided audited by Auditor of State and audit report is released and all discrepancies are resolved, and",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Digitally image the Returned Warrants into UDS and verify the scanned images for quality assurance. Retain the paper documents for 30 days, and then destroy. ; Electronic: Retain 2 years provided audited by Auditor of State and audit report is released and all discrepancies are resolved, and then destroy., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2018-06-21",
       "next_update_due": null,
       "comments": null

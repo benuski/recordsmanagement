@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: in operating area 5 yrs. in off-site storage at state audit is complete. When audit report is released",
       "duration_years": 10,
       "duration_months": null,
-      "disposition_method": "Paper: Shred",
+      "disposition": "Paper: Retain in operating area for 5 yrs. retain 10 years in off-site storage at the State Records Center until state audit is complete. When audit report is released, then destroy., Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "1991-03-23",
       "next_update_due": null,
       "comments": null

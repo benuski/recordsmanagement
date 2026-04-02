@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Paper: superseded, obsolete or replaced. ; Electronic: superseded, obsolete or replaced",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Trash ; Electronic: Erase",
+      "disposition": "Paper: Retain until superseded, obsolete or replaced. Then review by State Archives prior to disposal. (See OCC-PP-02) ; Electronic: Retain until superseded, obsolete or replaced. Then review by State Archives prior to disposal. (See OCC-PP-02), Paper: Trash ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2004-09-20",
       "next_update_due": null,
       "comments": null

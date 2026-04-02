@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Paper: grant closeout ; Electronic: 30 years grant closeout",
+      "trigger_event": "AC",
       "duration_years": 10,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain for 10 years after grant closeout, then destroy. If paper records are scanned into an electronic format, the paper copy may be destroyed at that time. ; Electronic: Retain for 30 years after grant closeout, then destroy, Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-01-14",
       "next_update_due": null,
       "comments": null

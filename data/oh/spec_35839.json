@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Paper: in office case audits are settled and closed and in records center. ; Electronic: superseded, obsolete or replaced",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Retain in office until case audits are settled and closed and 5 years in the records center. Then destroy provided audits are completed and released and all discrepancies are resolved. ; Electronic: Retain until superseded, obsolete or replaced, then destroy., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2023-05-15",
       "next_update_due": null,
       "comments": null

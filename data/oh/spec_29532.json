@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "Paper: Maintain 2 fiscal years, current fiscal year ; Electronic: Receiving database (MS Access) information is maintained 3 fiscal years and no longer of administrative value",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Delete",
+      "disposition": "Paper: Maintain for 2 fiscal years, plus current fiscal year, then destroy; or destroy upon authorization resulting from the completion of an audit. ; Electronic: Receiving database (MS Access) information is maintained for 3 fiscal years and until no longer of administrative value., Paper: Recycle ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2011-06-20",
       "next_update_due": null,
       "comments": null

@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Electronic: in office . ; Paper: 2 years in office ; Microform: in office 10 years or federal and state audits have been conducted, audit reports released, and audit resolutions issued or resolved. Duplicate set of microfilm be stored at and destroyed as above",
+      "trigger_event": "AC",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase ; Paper: Shred ; Microform: Erase",
+      "disposition": "Electronic: Retain in office 5 years. ; Paper: Retain 2 years in office, then microfilm key material including quarterly summaries and side schedules. Destroy paper after microfilm is verified ; Microform: Retain in office 10 years or until federal and state audits have been conducted, audit reports released, and audit resolutions issued or resolved. Duplicate set of microfilm to be stored at State Records Center and destroyed as above, Electronic: Erase ; Paper: Shred ; Microform: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2024-07-01",
       "next_update_due": null,
       "comments": null

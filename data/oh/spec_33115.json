@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: Copies of digitally deposited checks are retained in fiscal office a period of ensure no return checks",
       "duration_years": null,
       "duration_months": 6,
-      "disposition_method": "Paper: Shred",
+      "disposition": "Paper: Copies of digitally deposited checks are retained in the fiscal office for a period of 6 months to ensure no return checks then shred., Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2015-09-10",
       "next_update_due": null,
       "comments": null

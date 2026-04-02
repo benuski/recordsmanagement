@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "Paper: Maintain from final expenditure report of each approved fiscal year’s grant project, or as required by federal law whichever is longer. ; Electronic: Maintain from final expenditure report of each approved fiscal year’s grant project, or as required by federal law whichever is longer",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Erase",
+      "disposition": "Paper: Maintain 3 years from the final expenditure report of each approved fiscal year’s grant project, or as required by federal law whichever is longer. ; Electronic: Maintain 3 years from the final expenditure report of each approved fiscal year’s grant project, or as required by federal law whichever is longer., Paper: Recycle ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2014-03-06",
       "next_update_due": null,
       "comments": null

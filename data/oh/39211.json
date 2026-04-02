@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Electronic: payment or resolution. Purge 3 years of payment or resolution or when toll(s) transaction is purged, whichever is sooner",
+      "trigger_event": "AC",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete",
+      "disposition": "Electronic: Retain for 1 year after payment or resolution. Purge after 3 years of payment or resolution or when toll(s) transaction is purged, whichever is sooner, Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2022-06-21",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: hard copy of fire department files three (3) years. loan applications fire departments not awarded a loan five (5) years ; Electronic: Computer database information must be retained loan is paid in full",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Erase",
+      "disposition": "Paper: Retain hard copy of fire department files for three (3) years. Retain loan applications for fire departments not awarded a loan for five (5) years, then destroy. ; Electronic: Computer database information must be retained until loan is paid in full., Paper: Recycle ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2003-02-10",
       "next_update_due": null,
       "comments": null

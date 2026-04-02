@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: and/or audited following date of submission of final expenditure report or transferred machine readable format. ; Electronic: and/or audited following date of submission of final expenditure report",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain for 3 years and/or audited following the date of submission of the final expenditure report or until transferred to machine readable format. ; Electronic: Retain for 3 years and/or audited following the date of submission of the final expenditure report., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-05-11",
       "next_update_due": null,
       "comments": null

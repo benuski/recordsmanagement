@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Paper: Scan electronic medium storage, check scan accuracy, review by State Archivist ; Electronic: superseded, obsolete, or replaced",
-      "duration_years": null,
+      "duration_years": 75,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Erase",
+      "disposition": "Paper: Scan to electronic medium for storage, check scan for accuracy, review by State Archivist, then destroy. Retain existing offsite files for 75 years, unless needed for longer period of time based upon legal or administrative significance or scanned to electronic medium for storage. ; Electronic: Retain until superseded, obsolete, or replaced, then reviewed by State Archvist., Paper: Recycle ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-11-23",
       "next_update_due": null,
       "comments": null

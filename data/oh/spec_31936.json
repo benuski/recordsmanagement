@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: daily requisition reports contained in this series will be stored on site (Shipley) from date of issuance. ; Electronic: daily requisition reports and correspondence received and/or distributed, contained in this series, will be stored electronically (via Microsoftt Outlook) from date of issuance",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: The daily requisition reports contained in this series will be stored on site (Shipley) for 1 year from the date of issuance. ; Electronic: The daily requisition reports and correspondence received and/or distributed, contained in this series, will be stored electronically (via Microsoftt Outlook) for 1 year from the date of issuance., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2013-12-31",
       "next_update_due": null,
       "comments": null

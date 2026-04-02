@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Electronic: Shall be retained and purged account is closed. Records shall not be archived. ; Paper: Shall be retained and purged account is closed. Records shall not be archived",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "disposition": "Electronic: Shall be retained for 5 years and purged 5 years after account is closed. Records shall not be archived. ; Paper: Shall be retained for 5 years and purged 5 years after account is closed. Records shall not be archived., Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2022-06-21",
       "next_update_due": null,
       "comments": null

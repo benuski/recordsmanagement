@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: Scan paper copy and securely shred a clear image is saved electronically. ; Electronic: BWC’s retention schedule, audit and related documents that pertain this schedule must be retained one year past termination of contract statute of limitations as set forth above",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Scan paper copy and securely shred after a clear image is saved electronically. ; Electronic: For BWC’s retention schedule, the audit and related documents that pertain to this schedule must be retained for one year past the termination of the contract statute of limitations as set forth above., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2023-09-13",
       "next_update_due": null,
       "comments": null

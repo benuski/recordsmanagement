@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: employees who disability retired prior 1/7/2013, from separation. all other employees, 3 years from separation. ; Electronic: from separation employees who disability retired prior 1/7/2013, unless converted paper. all other employees, 3 years from separation, unless converted paper",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: For employees who disability retired prior to 1/7/2013, 5 years from separation. For all other employees, 3 years from separation. ; Electronic: 5 years from separation for employees who disability retired prior to 1/7/2013, unless converted to paper. For all other employees, 3 years from separation, unless converted to paper., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2016-12-08",
       "next_update_due": null,
       "comments": null

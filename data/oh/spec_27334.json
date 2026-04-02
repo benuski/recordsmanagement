@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Electronic: records contract's expiration, completion, or settlement ; Paper: records contract's expiration, completion, or settlement, whichever is longer",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "disposition": "Electronic: Retain records for 1 year after the contract's expiration, completion, or settlement, then delete. ; Paper: Retain records for 1 year after the contract's expiration, completion, or settlement, whichever is longer, then shred. If paper records are converted to an electronic format, the paper copy may be destroyed., Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-01-14",
       "next_update_due": null,
       "comments": null

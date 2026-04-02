@@ -11,18 +11,17 @@
       "series_id": "066-OAG-68",
       "series_title": "Levying Officer Quarterly Reports",
       "series_description": "Per ORC 2329.312, the Ohio Attorney General's Office shall receive quarterly reports from all levying officers appointed or authorized by a court to conduct the judicial or execution sale of residential properties. Reports include information on the sale conducted by the officer and whether or not the deadlines for those sales were met.",
-      "legal_citation": null
+      "legal_citation": "ORC 2329.312"
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Electronic: and",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete",
+      "disposition": "Electronic: Retain 5 years and then destroy., Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2023-07-31",
       "next_update_due": null,
       "comments": null

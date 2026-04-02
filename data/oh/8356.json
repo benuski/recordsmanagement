@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Microform: master in off-site storage permanently. diazo in operatating area permanently ; Paper: active employees' and commission members records in operating area employee's employment has been terminated or commission or board member term has expired. these inactive records",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Microform: Wastepaper ; Paper: Wastepaper",
+      "disposition": "Microform: Retain master in off-site storage permanently. Retain diazo in operatating area permanently ; Paper: Retain active employees' and commission members records in the operating area until employee's employment has been terminated or until commission or board member term has expired. Retain these inactive records for 5 years, then microfilm. After microfilm has been checked for quality and completeness then destroy hard copy, Microform: Wastepaper ; Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "1993-05-27",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Electronic: in office seven years from date of expiration. ; Paper: in office one year from date of expiration",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "disposition": "Electronic: Retain in office for seven years from date of expiration. ; Paper: Retain in office for one year from date of expiration, then transfer to State Records Center for six years. Originals may be scanned to held in machine-readable format only., Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2016-05-24",
       "next_update_due": null,
       "comments": null

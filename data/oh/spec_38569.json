@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Paper: in office obsolete or superseded, and ; Electronic: in office obsolete or superseded, and",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain in office until obsolete or superseded, and then transfer to agency records center for storage. Provided audited and the audit reports are released records will be reviewed yearly by work area to determine those appropriate for destruction. ; Electronic: Retain in office until obsolete or superseded, and then transfer to agency records center for storage. Provided audited and the audit reports are released records will be reviewed yearly by work area to determine those appropriate for destruction., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2024-12-04",
       "next_update_due": null,
       "comments": null

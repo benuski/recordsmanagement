@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Electronic: from completion of legal mandate. ; Paper: from completion of legal mandate. If scanned and saved electronically, dispose of paper immediately",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "disposition": "Electronic: Retain 1 year from completion of legal mandate. ; Paper: Retain 1 year from completion of legal mandate. If scanned and saved electronically, dispose of paper immediately., Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2026-01-09",
       "next_update_due": null,
       "comments": null

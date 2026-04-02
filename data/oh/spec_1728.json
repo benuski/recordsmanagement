@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: five (5) years from creation or receipt , review by legal department determination if pending cases are involved. If no cases are pending",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Wastepaper",
+      "disposition": "Paper: Retain five (5) years from creation or receipt then, review by legal department for determination if pending cases are involved. If no cases are pending, destroy, Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "1989-03-09",
       "next_update_due": null,
       "comments": null

@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: documents life of levy or its renewal, and ; Electronic: documents life of levy or its renewal, and",
+      "trigger_event": "AC",
       "duration_years": null,
-      "duration_months": null,
-      "disposition_method": "Paper: Wastepaper ; Electronic: Delete",
+      "duration_months": 6,
+      "disposition": "Paper: Retain documents for the life of the levy or its renewal, and then destroy. Retain for 6 months after scanned. ; Electronic: Retain documents for the life of the levy or its renewal, and then delete., Paper: Wastepaper ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2019-01-30",
       "next_update_due": null,
       "comments": null

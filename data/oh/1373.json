@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Paper: a) in office files ; review possible State Archives; those not transferred. b) contracts expiration date of rights; review possible State Archives; those not transferred",
+      "trigger_event": "AC",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Paper: Archives",
+      "disposition": "Paper: a) Retain in office files for 5 years; review for possible transfer to State Archives; destroy those not transferred. b) Retain contracts for 5 years after expiration date of rights; review for possible transfer to State Archives; destroy those not transferred., Paper: Archives",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "1982-02-24",
       "next_update_due": null,
       "comments": null

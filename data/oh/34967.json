@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Paper: Reviewed annually re-approval. superseded ; Electronic: Reviewed annually re-approval. superseded",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Reviewed annually for re-approval. Retain until superseded, then destroy. ; Electronic: Reviewed annually for re-approval. Retain until superseded, then destroy., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2018-03-21",
       "next_update_due": null,
       "comments": null

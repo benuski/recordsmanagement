@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Paper: account id closed by agency and final audit and report released by OBM ; Electronic: account is closed by agency and final audit and report released by OBM",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Retain until account id closed by agency and final audit and report released by OBM, then shred/erase. ; Electronic: Retain until account is closed by agency and final audit and report released by OBM, then shred/erase., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2008-03-04",
       "next_update_due": null,
       "comments": null

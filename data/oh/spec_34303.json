@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: three years. ; Electronic: in agency no longer of administrative value",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Archives ; Electronic: Delete",
+      "disposition": "Paper: Retain three years. Then contact State Archives for review and possible transfer. Dispose if not transferred ; Electronic: Retain in agency until no longer of administrative value, then destroy., Paper: Archives ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-12-19",
       "next_update_due": null,
       "comments": null

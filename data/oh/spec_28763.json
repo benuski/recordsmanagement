@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Paper: records permanently. ; Microform: microfilm in operating area as well as off-site storage facility permanently",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Paper: Permanent ; Microform: Permanent",
+      "disposition": "Paper: Retain records permanently. ; Microform: Retain microfilm in operating area as well as off-site storage facility permanently., Paper: Permanent ; Microform: Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2012-07-12",
       "next_update_due": null,
       "comments": null

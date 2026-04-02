@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Paper: receipt of federal and state audit reports or next audit, whichever is later",
+      "trigger_event": "AC",
       "duration_years": 10,
       "duration_months": null,
-      "disposition_method": "Paper: Wastepaper",
+      "disposition": "Paper: Retain 10 years after receipt of federal and state audit reports or until next audit, whichever is later, then destroy, Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "1982-02-24",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: Paper copy is imaged and indexed on computer. Upon confirmation that paper copy was imaged and indexed on computer ; Microform: Any images on microfiche are be retained from date grant or loan application is received by Division. ; Electronic: Images are be retained from date grant or loan application is received by Division",
       "duration_years": 10,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Microform: Shred ; Electronic: Erase",
+      "disposition": "Paper: Paper copy is imaged and indexed on the computer. Upon confirmation that paper copy was imaged and indexed on the computer, then the paper copy is destroyed. ; Microform: Any images on microfiche are to be retained 10 years from the date the grant or loan application is received by the Division. Then the microform is to be destroyed. ; Electronic: Images are to be retained 10 years from the date the grant or loan application is received by the Division. Then the image is to be destroyed., Paper: Shred ; Microform: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2016-01-28",
       "next_update_due": null,
       "comments": null

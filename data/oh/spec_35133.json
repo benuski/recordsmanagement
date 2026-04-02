@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: scanned electronic medium storage and scan is checked accuracy; ; Electronic: five years date of examination, if not subject litigation; if subject litigation, three years litigation and related appeals have terminated, or five years, whichever is longer",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain until scanned to electronic medium for storage and scan is checked for accuracy; then destroy. If not scanned, retain for five years after date of examination, then destroy if not subject to litigation; if subject to litigation, retain for three years after litigation and related appeals have terminated, or for five years, whichever is longer, then destroy. ; Electronic: Retain for five years after date of examination, if not subject to litigation; if subject to litigation, retain for three years after litigation and related appeals have terminated, or for five years, whichever is longer, Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2022-08-24",
       "next_update_due": null,
       "comments": null

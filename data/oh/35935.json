@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Electronic: Retention period is 100 days at Tax Appeals Division. assessments that remain unpaid, retention paid, assessments that are paid ; Paper: Retention period is 100 days at Tax Appeals Division. assessments that remain unpaid, retention paid, assessments that are paid",
-      "duration_years": null,
-      "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "trigger_event": "CR",
+      "duration_years": 4,
+      "duration_months": 6,
+      "disposition": "Electronic: Retention period is 100 days at Tax Appeals Division. For assessments that remain unpaid, for retention until paid, for assessments that are paid, then 4 years from date of final payment or cancellation. If the mater is appealed, the case file is transferred to Appeals Management Division where it is retained until the appeal is resolved. The file is then retained for 4 years from date of full payment (or canceled assessment) or retained until the assessments that were subject of the appeal have been paid. ; Paper: Retention period is 100 days at Tax Appeals Division. For assessments that remain unpaid, for retention until paid, for assessments that are paid, then 4 years from date of final payment or cancellation. If the matter is appealed, the case file is transferred to Appeals Management Division where it is retained until the appeal is resolved. The file is then retained for 4 years from date of full payment (or canceled assessment) or retained until the assessments that were subject of the appeal have been paid. If scanned, retain for 6 months., Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2019-02-11",
       "next_update_due": null,
       "comments": null

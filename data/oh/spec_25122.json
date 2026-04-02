@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: Original Clemancy request when returned from Governor''''s Office will be forwarded directly Bureau of Records be scanned into OnBase. ; Electronic",
       "duration_years": 75,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Original Clemancy request when returned from the Governor''''s Office will be forwarded directly to the Bureau of Records to be scanned into OnBase. ; Electronic: Retain 75 years., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2007-08-14",
       "next_update_due": null,
       "comments": null

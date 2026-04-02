@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Paper: in office and in records center, or Improvement Plans have been implemented and audit findings considered resolved (by Auditor Of State and Federal agencies), and provided next audit is completed and report is released by AOS. ; Electronic: superseded,obsolete or replaced, thendestroy",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Retain in office for 2 years and 2 years in the records center, or until Improvement Plans have been implemented and audit findings considered resolved (by Auditor Of State and Federal agencies), and provided the next audit is completed and the report is released by AOS. ; Electronic: Retain until superseded,obsolete or replaced, thendestroy., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2024-04-03",
       "next_update_due": null,
       "comments": null

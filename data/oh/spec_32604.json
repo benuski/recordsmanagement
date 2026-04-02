@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Paper: Act is ongoing and records may be updated, superseded or become obsolete. when no longer of administrative value. ; Electronic: Act is ongoing and records may be updated, superseded or become obsolete. when no longer of administrative value",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Trash ; Electronic: Delete",
+      "disposition": "Paper: The Act is ongoing and the records may be updated, superseded or become obsolete. Destroy when no longer of administrative value. ; Electronic: The Act is ongoing and the records may be updated, superseded or become obsolete. Destroy when no longer of administrative value., Paper: Trash ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2014-09-18",
       "next_update_due": null,
       "comments": null

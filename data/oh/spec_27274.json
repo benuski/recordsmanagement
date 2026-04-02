@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Paper: Paper copy be destroyed image is checked quality and completeness. ; Electronic: Maintain as long as registration is active. Once it has expired, keep",
+      "trigger_event": "AC",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Paper: Wastepaper ; Electronic: Delete",
+      "disposition": "Paper: Paper copy to be destroyed after image is checked for quality and completeness. ; Electronic: Maintain as long as registration is active. Once it has expired, keep for 5 years, then destroy., Paper: Wastepaper ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2009-02-23",
       "next_update_due": null,
       "comments": null

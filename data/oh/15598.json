@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: in single volume all cases listed on docket have exhausted all legal actions and appeal, or , whichever is longer, and",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Paper: Wastepaper",
+      "disposition": "Paper: Retain in single volume until all cases listed on docket have exhausted all legal actions and appeal, or for 5 years, whichever is longer, and then destroy, Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "1999-07-28",
       "next_update_due": null,
       "comments": null

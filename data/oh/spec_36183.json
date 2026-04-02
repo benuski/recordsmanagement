@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: a machine readable version has been created and verified accuracy, or audit by Auditor of State audit report is released, ; Electronic: two months death of certificate holder",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": 6,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Until a machine readable version has been created and verified for accuracy, or 6 months after audit by Auditor of State audit report is released, ; Electronic: Until two months after death of certificate holder,, Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2022-01-05",
       "next_update_due": null,
       "comments": null

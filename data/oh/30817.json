@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: six months following final determination of licensed HME facility passing inspection, unless inspections results lead issuance of an Opportunity Hearing under ORC 119. ; Electronic: six months following final determination of licensed HME facility passing inspection, unless inspections results lead issuance of an Opportunity Hearing under ORC 119",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Retain for six months following final determination of licensed HME facility passing the inspection, unless the inspections results lead to the issuance of an Opportunity for Hearing under ORC 119. ; Electronic: Retain for six months following final determination of licensed HME facility passing the inspection, unless the inspections results lead to the issuance of an Opportunity for Hearing under ORC 119., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2012-12-21",
       "next_update_due": null,
       "comments": null

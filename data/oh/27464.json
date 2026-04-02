@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Paper: these records completion of investigation or decision not investigate, and ; Electronic: these records completion of investigation or decision not investigate, and",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain these records for 1 year after the completion of the investigation or decision not to investigate, and then destroy. ; Electronic: Retain these records for 1 year after the completion of the investigation or decision not to investigate, and then destroy., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2009-05-05",
       "next_update_due": null,
       "comments": null

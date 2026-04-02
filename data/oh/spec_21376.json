@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Electronic: in-house . Download CD and store offsite 12 years. Erase original from database",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase",
+      "disposition": "Electronic: Retain in-house for 5 years. Download to CD and store offsite for 12 years. Erase original from database., Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2005-04-12",
       "next_update_due": null,
       "comments": null

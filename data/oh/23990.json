@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Electronic: master list of jurisprudence exam questions or no longer of administrative or reference value",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete",
+      "disposition": "Electronic: Retain master list of jurisprudence exam questions for 2 years or until no longer of administrative or reference value, then destory., Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-07-10",
       "next_update_due": null,
       "comments": null

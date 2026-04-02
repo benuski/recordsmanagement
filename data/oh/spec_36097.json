@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Paper: in office agreement expires and in records center ; Electronic: in office agreement expires and in records center",
+      "trigger_event": "AC",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Retain in office 5 years after agreement expires and 5 years in the records center, then destroy provided audits are complete, reports are released and all discrepancies are resolved. ; Electronic: Retain in office 5 years after agreement expires and 5 years in the records center, then destroy provided audits are complete, reports are released and all discrepancies are resolved., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2019-03-04",
       "next_update_due": null,
       "comments": null

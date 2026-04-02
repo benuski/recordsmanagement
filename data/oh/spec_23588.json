@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: a new union is elected by employees or designated union dues are modified. ; Electronic: a new union is elected by employees or designated union dues are modified",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain until a new union is elected by employees or the designated union dues are modified. ; Electronic: Retain until a new union is elected by employees or the designated union dues are modified., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2022-07-07",
       "next_update_due": null,
       "comments": null

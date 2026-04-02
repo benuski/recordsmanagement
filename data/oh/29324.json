@@ -11,18 +11,17 @@
       "series_id": "MIAD-66",
       "series_title": "Confidential Personal Information (CPI) System Access Logs",
       "series_description": "The Confidential Personal (CPI) System Access Logs keeps track of who has accessed confidential personal information (CPI) pursuant to ORC 1347.15 Access rules for confidential personal information.",
-      "legal_citation": null
+      "legal_citation": "ORC 1347.15"
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Electronic: CPI System Access Logs a rolling () basis. When a record reaches 61st month from time it was entered into log, delete it from log file",
       "duration_years": 5,
       "duration_months": 60,
-      "disposition_method": "Electronic: Delete",
+      "disposition": "Electronic: Retain the CPI System Access Logs for a rolling 60 month (5 years) basis. When a record reaches the 61st month from the time it was entered into the log, delete it from the log file., Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2011-03-10",
       "next_update_due": null,
       "comments": null

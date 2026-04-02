@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Paper: in office case is closed and in records center 3 years ; Electronic: in office 5 years case is closed",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Erase",
+      "disposition": "Paper: Retain in office 2 years after the case is closed and in records center 3 years, then destroy. ; Electronic: Retain in office 5 years after the case is closed, then erase., Paper: Recycle ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2006-01-24",
       "next_update_due": null,
       "comments": null

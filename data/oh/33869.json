@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: imaged and validated in Custom Processing Imaging Client (CPIC) system ; Electronic: in BMV''s Custom Processing Imaging Client (CPIC) system three years following date of cancellation or rejection",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain until imaged and validated in the Custom Processing Imaging Client (CPIC) system, then destroy after thirty (30) days from validation. ; Electronic: Retain in BMV''s Custom Processing Imaging Client (CPIC) system for three years following date of cancellation or rejection., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2016-11-03",
       "next_update_due": null,
       "comments": null

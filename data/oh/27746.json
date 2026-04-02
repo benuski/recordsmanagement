@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Electronic: seven (7) years completed case is closed by Board ; Paper: scanned or saved into Board enforcement database",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "disposition": "Electronic: Retain for seven (7) years after the completed case is closed by the Board, then delete. ; Paper: Retain until scanned or saved into Board enforcement database, then shred physical/paper documentation., Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-09-25",
       "next_update_due": null,
       "comments": null

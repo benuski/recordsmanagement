@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Electronic: Current and preceding retained counties scheduled sexennial re-appraissal or triennial update in current year. counties not scheduled re-approaisal or triennial update in current year, DTE form 100's on file will be those current year and years since last re-appraisal or update, with no forms being maintained longer than three years prior current year. ; Paper: Current and preceding retained counties scheduled sexennial re-appraissal or triennial update in current year. counties not scheduled re-approaisal or triennial update in current year, DTE form 100's on file will be those current year and years since last re-appraisal or update, with no forms being maintained longer than three years prior current year",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Wastepaper",
+      "disposition": "Electronic: Current and preceding 3 years retained for counties scheduled for sexennial re-appraissal or triennial update in the current year. For counties not scheduled for re-approaisal or triennial update in the current year, the DTE form 100's on file will be those for the current year and years since the last re-appraisal or update, with no forms being maintained longer than three years prior to the current year. ; Paper: Current and preceding 3 years retained for counties scheduled for sexennial re-appraissal or triennial update in the current year. For counties not scheduled for re-approaisal or triennial update in the current year, the DTE form 100's on file will be those for the current year and years since the last re-appraisal or update, with no forms being maintained longer than three years prior to the current year., Electronic: Delete ; Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2022-01-26",
       "next_update_due": null,
       "comments": null

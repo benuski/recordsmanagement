@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Microform: Any images in microform are retained date of denial or expiration of applicant''s appeals, whichever is later or from date of withdrawal. Any images in microform are be destroyed by shredding. ; Paper: Paper copy is retained on site through date of denial of application or expiration of applicant''s appeals, whichever is later or through date of withdrawal. ; Electronic: Images retained on computer date of denial or expiration of applicant''s appeals, whichever is later or from date of withdrawal. Images on computer are be destroyed by deleting",
+      "trigger_event": "AC",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Microform: Shred ; Paper: Shred ; Electronic: Delete",
+      "disposition": "Microform: Any images in microform are retained 5 years after the date of denial or expiration of applicant''s appeals, whichever is later or 5 years from date of withdrawal. Any images in microform are to be destroyed by shredding. ; Paper: Paper copy is retained on site through the date of the denial of the application or the expiration of the applicant''s appeals, whichever is later or through the date of withdrawal. Then paper copy is imaged and indexed on the computer. Upon confirmation that paper copy was imaged and indexed on the computer, then the paper copy is destroyed by shredding. ; Electronic: Images retained on the computer 5 years after the date of denial or expiration of applicant''s appeals, whichever is later or 5 years from date of withdrawal. Images on the computer are to be destroyed by deleting., Microform: Shred ; Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2019-05-20",
       "next_update_due": null,
       "comments": null

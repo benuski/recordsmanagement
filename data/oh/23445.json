@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: iniial certification documents facility is no longer certified. original certification Five (5) years decertification unless recertified. all recertification documents two (2) recertification cycles",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred",
+      "disposition": "Paper: Retain iniial certification documents until facility is no longer certified. Destroy original certification Five (5) years after decertification unless recertified. Retain all recertification documents for two (2) recertification cycles., Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2006-05-30",
       "next_update_due": null,
       "comments": null

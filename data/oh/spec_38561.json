@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: paper documents electronically scanned ; Electronic: four (4) years in operating systems (Slingshot, Prisma, DFWorks)",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Erase",
+      "disposition": "Paper: Retain paper documents until electronically scanned, then dispose paper. ; Electronic: Retain for four (4) years in operating systems (Slingshot, Prisma, DFWorks), then erase, provided all Federal and State audits are complete and all audit reports are released., Paper: Recycle ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-06-12",
       "next_update_due": null,
       "comments": null

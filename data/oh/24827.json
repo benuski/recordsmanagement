@@ -11,18 +11,17 @@
       "series_id": "070-TR-04",
       "series_title": "County Auditor Continuing Education Status Report",
       "series_description": "Form(s) submitted by Ohio County Auditors verifying continuing education credits in accordance with ORC 319.04(A).",
-      "legal_citation": null
+      "legal_citation": "ORC 319.04"
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Electronic: audited ; Paper: while needed",
+      "trigger_event": "AC",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "disposition": "Electronic: 2 years after audited ; Paper: Retain while needed then destroy after an electronic version has been created and verified for accuracy, Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2026-01-30",
       "next_update_due": null,
       "comments": null

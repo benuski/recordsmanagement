@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "Electronic: electronic files are uploaded Fleet Sharepoint site and also updated DAS Fleet Ohio system. electronic records one full fiscal year (FY). Once annual DAS Fleet Plan is created and approved prior FY – delete records",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete",
+      "disposition": "Electronic: The electronic files are uploaded to the Fleet Sharepoint site and also updated to the DAS Fleet Ohio system. Retain electronic records for one full fiscal year (FY). Once the annual DAS Fleet Plan is created and approved for the prior FY – delete the records., Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-04-20",
       "next_update_due": null,
       "comments": null

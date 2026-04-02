@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Electronic: eighty-one (81) days an election or a federal election ; Paper: eighty-one (81) days an election or a federal election",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": 22,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "disposition": "Electronic: Retain for eighty-one (81) days after an election or 22 months after a federal election, then destroy provided no pending court action or court order (R.C. 3506.18) ; Paper: Retain for eighty-one (81) days after an election or 22 months after a federal election, then destroy provided no pending court action or court order (R.C. 3506.18), Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2023-11-01",
       "next_update_due": null,
       "comments": null

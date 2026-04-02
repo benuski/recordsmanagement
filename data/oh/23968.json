@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: paper copy in active area one year ; Microform: Microfilm nine years",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Microform: Trash",
+      "disposition": "Paper: Retain paper copy in active area for one year, then Microfilm. Destroy paper copy after Microfilm has been check for quality and completeness. ; Microform: Retain Microfilm for nine years, then destroy., Paper: Recycle ; Microform: Trash",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2006-09-27",
       "next_update_due": null,
       "comments": null

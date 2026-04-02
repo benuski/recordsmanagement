@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: current, following date of lapse, expiration, or termination of license/certification. Records may be transferred DPS Record Center during retention period. Records may be imaged. If imaged, paper may be destroyed when electronic record is validated. ; Electronic: current, following date of lapse, expiration, or termination of license/certification. Records are retained on network drives in Ohio Traffic Safety Office",
       "duration_years": 4,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain current, plus 4 years following date of lapse, expiration, or termination of license/certification. Records may be transferred to DPS Record Center during retention period. Records may be imaged. If imaged, paper may be destroyed when electronic record is validated. ; Electronic: Retain current, plus 4 years following date of lapse, expiration, or termination of license/certification. Records are retained on network drives in the Ohio Traffic Safety Office., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2014-12-11",
       "next_update_due": null,
       "comments": null

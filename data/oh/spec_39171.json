@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Unknown: no longer of administrative value ; Paper: no longer of administrative value ; Electronic: no longer of administrative value",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Unknown: Trash ; Paper: Wastepaper ; Electronic: Delete",
+      "disposition": "Unknown: Retain until no longer of administrative value, then destroy. ; Paper: Retain until no longer of administrative value, then destroy. ; Electronic: Retain until no longer of administrative value, then destroy., Unknown: Trash ; Paper: Wastepaper ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2022-04-04",
       "next_update_due": null,
       "comments": null

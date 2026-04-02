@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: If a claim package has been filed, cost pre-approval is an intergral part of claim and is retained pursuant retention schedule claim records. If eligibilty has been approved but no claim is filed",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Wastepaper",
+      "disposition": "Paper: If a claim package has been filed, the cost pre-approval is an intergral part of the claim and is retained pursuant to the retention schedule for claim records. If eligibilty has been approved but no claim is filed, then the cost pre-approval will be retained pursuant to the approved eligibility retention schedule. If eligibility is denied, the cost pre-approval becomes part of that file and is retained pursuant to the denied eligibility retention schedule. If no eligibity is filed, retain two years from the cost pre-approval's receipt, and then notify the owner that if a response is not received within thirty days the record will be destroyed, Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2000-10-26",
       "next_update_due": null,
       "comments": null

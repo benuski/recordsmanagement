@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Electronic: ; Paper: or converted electronic or microform format",
       "duration_years": 10,
       "duration_months": null,
-      "disposition_method": "Electronic: Archives ; Paper: Archives",
+      "disposition": "Electronic: Retain 10 years, then to State Archives to review for archive or disposal. ; Paper: Retain 10 years or until converted to electronic or microform format, then to State Archives to review for archive or disposal., Electronic: Archives ; Paper: Archives",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-03-05",
       "next_update_due": null,
       "comments": null

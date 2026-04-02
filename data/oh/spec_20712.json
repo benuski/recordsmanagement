@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Paper: Upon publication, fulfill requirements of O.R.C. 149.11. excess paper copies when no longer of administrative value. Scan electroinic form permanent retention ; Electronic: permanently",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Paper: Trash ; Electronic: Permanent",
+      "disposition": "Paper: Upon publication, fulfill the requirements of O.R.C. 149.11. Destroy excess paper copies when no longer of administrative value. Scan to electroinic form for permanent retention ; Electronic: Retain permanently, Paper: Trash ; Electronic: Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2004-08-14",
       "next_update_due": null,
       "comments": null

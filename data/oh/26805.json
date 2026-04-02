@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Electronic: system is determined obsolete ; Microform: permanently. ; Paper: scanned and image is checked quality and completeness",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Electronic: Other ; Microform: Permanent ; Paper: Wastepaper",
+      "disposition": "Electronic: Retain until system is determined obsolete, then transfer to new system. ; Microform: Retain permanently. ; Paper: Retain until scanned and image is checked for quality and completeness, then destroy., Electronic: Other ; Microform: Permanent ; Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2008-10-20",
       "next_update_due": null,
       "comments": null

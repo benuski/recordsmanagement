@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Electronic: Permanent ; Microform: Permenent ; Paper: , unless paper copy is scanned an electronic format or microfilmed. paper copy is scanned an electronic format or microfilmed, it may be destroyed",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Electronic: Permanent ; Microform: Permanent ; Paper: Recycle",
+      "disposition": "Electronic: Permanent ; Microform: Permenent ; Paper: Retain for 5 years, unless paper copy is scanned to an electronic format or microfilmed. After paper copy is scanned to an electronic format or microfilmed, it may be destroyed., Electronic: Permanent ; Microform: Permanent ; Paper: Recycle",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-12-18",
       "next_update_due": null,
       "comments": null

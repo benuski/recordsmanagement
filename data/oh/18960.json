@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Paper: in office area case is closed; microfilm is checked quality and completeness. ; Microform: diazo copy in office area",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Microform: Shred",
+      "disposition": "Paper: Retain in the office area until case is closed; destroy after microfilm is checked for quality and completeness. ; Microform: Retain diazo copy in the office area for 5 years, then destroy. Retain master microfilm in off site storage for 5 years, then destroy., Paper: Recycle ; Microform: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2003-02-21",
       "next_update_due": null,
       "comments": null

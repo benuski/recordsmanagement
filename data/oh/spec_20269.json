@@ -11,18 +11,17 @@
       "series_id": "Z08-07",
       "series_title": "Applications for Firefighter/Fire Safety Inspector",
       "series_description": "In accordance with ORC 4765.55 the Division of Emergency Medical Services (EMS) issues a certificate to applicants who successfully complete an approved course of instruction. The certificate issued is a lifetime certificate and does not expire. The application includes personal information on the applicant, including home address and social security number, the level of training completed, and verification of training from an approved institution. Data collected from the applications is entered into a database and a certificate issued.",
-      "legal_citation": null
+      "legal_citation": "ORC 4765.55"
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "trigger_desc": "Microform: applicant is deceased. ; Electronic: applicant is deceased. ; Paper: hard copy in active file duration of calendar year or converted microfiche (records prior 1999) or imaged (1999 current) document. Hard copy sent storage remainder of period",
       "duration_years": 6,
       "duration_months": null,
-      "disposition_method": "Microform: Shred ; Electronic: Erase ; Paper: Recycle",
+      "disposition": "Microform: Retain until applicant is deceased. ; Electronic: Retain until applicant is deceased. ; Paper: Retain hard copy in active file for duration of calendar year or until converted to microfiche (records prior to 1999) or imaged (1999 to current) document. Hard copy sent to storage for remainder of 6 year period, then destroy. Microfiched or imaged document is maintained until applicant is deceased., Microform: Shred ; Electronic: Erase ; Paper: Recycle",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2004-09-29",
       "next_update_due": null,
       "comments": null

@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Electronic: • Hardcopy/mailed applications/updates – destroyed faxing into enrollment intake box • intake fax box serves as main intake and scanned received images are held in case they need be referenced a period of ; Paper: • Hardcopy (mailed in) applications/updates are destroyed faxed intake enrollment box via confidential trash bin on floor that is shredded. • information in intake enrollment fax box is retained a 6-month period",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": 6,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
-      "confidential_flag": false
+      "disposition": "Electronic: • Hardcopy/mailed applications/updates – destroyed after faxing into the enrollment intake box • The intake fax box serves as the main intake and scanned received images are held in case they need to be referenced for a period of 6 months, then deleted • The UDS provider file is the BWC history of our provider network. The UDS file provides all enrollment and certification history and is linked with the PEACH system record for the provider. It is essential to know a provider history for network eligibility. ; Paper: • Hardcopy (mailed in) applications/updates are destroyed after faxed to the intake enrollment box via the confidential trash bin on the floor that is shredded. • The information in the intake enrollment fax box is retained for a 6-month period, then delete. • Retain the electronic provider files indefinitely in UDS., Electronic: Delete ; Paper: Shred",
+      "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2022-01-10",
       "next_update_due": null,
       "comments": null

@@ -11,18 +11,17 @@
       "series_id": "BCI-INV-26",
       "series_title": "Felony Offense (2901.13(A)(3)) Investigation Files",
       "series_description": "Case files from Bureau of Criminal Investigation (BCI) investigative units pertaining to criminal investigations that result in felony charges to offenses listed in ORC 2901.13(A)(3). Records include, but are not limited to, request for assistance, reports, evidence submission sheets, custody records, recordings, subpoenas, laboratory notes, and photos.",
-      "legal_citation": null
+      "legal_citation": "ORC 2901.13"
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Electronic: from case closing. ; Paper: from case closing, unless scanned and saved electronically",
       "duration_years": 25,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "disposition": "Electronic: Retain 25 years from case closing. ; Paper: Retain 25 years from case closing, unless scanned and saved electronically., Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-06-24",
       "next_update_due": null,
       "comments": null

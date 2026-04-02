@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Paper: Reports are be retained on paper medium ; Microform: 1994 and prior this information is maintained on microfilm and is kept permanently ; Electronic: 1995 these reports have been imaged and archived in computer system",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Microform: Permanent ; Electronic: Permanent",
+      "disposition": "Paper: Reports are to be retained for 10 years on paper medium then destroyed. ; Microform: 1994 and prior this information is maintained on microfilm and is kept permanently ; Electronic: After 1995 these reports have been imaged and archived in the computer system., Paper: Shred ; Microform: Permanent ; Electronic: Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2011-02-23",
       "next_update_due": null,
       "comments": null

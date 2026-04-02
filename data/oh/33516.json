@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Electronic: electronic records on I: drive in a Financial Reporting folder ; Paper: 2 years in Financial Reporting unit, send offsite storage 3 years –",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "disposition": "Electronic: Retain the electronic records on the I: drive in a Financial Reporting folder for 5 years then destroy. ; Paper: Retain for 2 years in Financial Reporting unit, send to offsite storage for 3 years – then destroy., Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2016-05-18",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: one year or all enforcement issues are resolved , whichever is longer ; Electronic: one year or all enforcement issues are resolved , whichever is longer",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Wastepaper ; Electronic: Erase",
+      "disposition": "Paper: Retain one year or until all enforcement issues are resolved , whichever is longer, then destroy. ; Electronic: Retain one year or until all enforcement issues are resolved , whichever is longer, then destroy., Paper: Wastepaper ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-02-13",
       "next_update_due": null,
       "comments": null

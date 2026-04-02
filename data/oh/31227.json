@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Paper: reports printed from system superseded, obsolete or replaced ; Electronic: SETS data in system",
       "duration_years": 7,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Retain reports printed from system until superseded, obsolete or replaced, then destroy. ; Electronic: Retain SETS data in system for 7 years, then download to reel tapeunder MIS’ maintenance schedule.Destroy provided state and federalaudits are complete anddiscrepancies resolved. Also, retain reports generated from system for 3 years, then destroy., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2024-06-14",
       "next_update_due": null,
       "comments": null

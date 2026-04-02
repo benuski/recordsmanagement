@@ -11,18 +11,17 @@
       "series_id": "51-05",
       "series_title": "OHIO BURN INJURY REPORT – COM 5146",
       "series_description": "ORC 2921.22 - Requires hospital personnel to complete this report and send to the Division of State Fire Marshal within three working days after treating a victim of a suspicious burn.",
-      "legal_citation": null
+      "legal_citation": "ORC 2921.22"
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Electronic: If report is affiliated with an open investigation, incorporate electronic copy with case file and apply appropriate schedule thereafter. all other electronic records indefinitely. ; Paper: Enter data in computer system, scan original document into machine readable format. Upon confirmation scanned copy has been checked quality and completeness, paper copy",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "disposition": "Electronic: If report is affiliated with an open investigation, incorporate electronic copy with case file and apply appropriate schedule thereafter. Retain all other electronic records indefinitely. ; Paper: Enter data in computer system, scan original document into machine readable format. Upon confirmation scanned copy has been checked for quality and completeness, destroy paper copy, Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2024-07-16",
       "next_update_due": null,
       "comments": null

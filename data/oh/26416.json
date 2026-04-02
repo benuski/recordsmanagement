@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Paper: policy is superseded, obsolete, or replaced. State Archives should review records before they are disposed",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Paper: Shred",
+      "disposition": "Paper: 5 years after policy is superseded, obsolete, or replaced. The State Archives should review the records before they are disposed., Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2009-07-16",
       "next_update_due": null,
       "comments": null

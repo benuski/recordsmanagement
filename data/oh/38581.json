@@ -11,18 +11,17 @@
       "series_id": "Z08-14",
       "series_title": "Trauma Registry",
       "series_description": "Pursuant to ORC 4765.06 health care facilities and county coroners are required to submit information regarding the delivery of emergency medical services to adult and pediatric trauma patients. Data and information submitted provide information regarding injured patients in the following categories: trauma patients who meet minimum requirements for inclusion in data base; type of trauma injury; severity of injury; patient outcomes; type of prehospital emergency care received; financial data pertinent to trauma care; remunerations received for treatment; all trauma related deaths. Data is submitted electronically and maintained electronically. Reports are generated from aggregate data.",
-      "legal_citation": null
+      "legal_citation": "ORC 4765.06"
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Electronic: Records retained indefinitely or superseded, obsolete, replaced and no longer of any administrative value agency",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete",
+      "disposition": "Electronic: Records retained indefinitely or until superseded, obsolete, replaced and no longer of any administrative value to the agency., Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2019-10-22",
       "next_update_due": null,
       "comments": null

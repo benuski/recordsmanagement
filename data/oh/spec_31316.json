@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "Paper: applications later of (a) conclusion of fiscal year in which application was submitted, an additional 3 fiscal years, or (b) conclusion of fiscal year in which corresponding loan an approved application was scheduled final payment 1 additional fiscal year. ; Electronic: applications later of (a) conclusion of fiscal year in which application was submitted, an additional 3 fiscal years, or (b) conclusion of fiscal year in which corresponding loan an approved application was scheduled final payment 1 additional fiscal year",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain applications until the later of (a) conclusion of fiscal year in which application was submitted, plus an additional 3 fiscal years, or (b) conclusion of fiscal year in which corresponding loan for an approved application was scheduled for final payment plus 1 additional fiscal year. ; Electronic: Retain applications until the later of (a) conclusion of fiscal year in which application was submitted, plus an additional 3 fiscal years, or (b) conclusion of fiscal year in which corresponding loan for an approved application was scheduled for final payment plus 1 additional fiscal year., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2022-10-26",
       "next_update_due": null,
       "comments": null

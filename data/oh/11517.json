@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "Paper: in office area 1 fiscal year all proposals have been received",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Wastepaper",
+      "disposition": "Paper: Retain in office area for 1 fiscal year after all proposals have been received, then transfer to storage for 4 fiscal years, then destroy (provided all project issues have been resolved)., Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "1995-02-08",
       "next_update_due": null,
       "comments": null

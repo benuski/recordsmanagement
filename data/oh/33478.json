@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Electronic: six (6) months and Similar General Schedule: GAR-CM-02. ; Paper: six (6) months and Similar General Schedule: GAR-CM-02",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Wastepaper",
+      "disposition": "Electronic: Retain six (6) months and then destroy. Similar to General Schedule: GAR-CM-02. ; Paper: Retain six (6) months and then destroy. Similar to General Schedule: GAR-CM-02., Electronic: Delete ; Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2016-04-15",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Paper: initial OHLEG search conducted, 30 days ; Electronic: , a case is considered closed, or appeal period has expired, whichever is longer",
       "duration_years": 8,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: After initial OHLEG search conducted, retain for 30 days, then convert to machine-readable format. Once machine-readable version is verified as an accurate copy, shred paper copies. ; Electronic: Retain for 8 years, after a case is considered closed, or the appeal period has expired, whichever is longer, then destroy., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2019-03-21",
       "next_update_due": null,
       "comments": null

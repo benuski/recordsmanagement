@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Electronic: electronic copies from date trip ticket travel occurred",
       "duration_years": null,
       "duration_months": 18,
-      "disposition_method": "Electronic: Delete",
+      "disposition": "Electronic: Retain electronic copies for 18 months from the date the trip ticket travel occurred, then delete., Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-12-20",
       "next_update_due": null,
       "comments": null

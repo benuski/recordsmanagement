@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Paper: paper copy converted electronic format. Once machine-readable version is verified as an accurate copy, shred paper copies. ; Electronic: Withdrawn/Closed Applications, one year a withdrawal is granted or an application is considered closed Granted Applications, three years expiration of credential Denials/Revocations, three years following date of denial of application or revocation of license, or expiration of applicant''s or licensee''s appeals, whichever is later",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain paper copy until converted to electronic format. Once machine-readable version is verified as an accurate copy, shred paper copies. ; Electronic: For Withdrawn/Closed Applications, retain for one year after a withdrawal is granted or an application is considered closed, then destroy. For Granted Applications, retain for three years after the expiration of the credential, then destroy. For Denials/Revocations, retain for three years following the date of the denial of the application or revocation of the license, or the expiration of the applicant''s or licensee''s appeals, whichever is later, then destroy., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2019-03-21",
       "next_update_due": null,
       "comments": null

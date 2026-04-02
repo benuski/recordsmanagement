@@ -11,18 +11,17 @@
       "series_id": "3001",
       "series_title": "Submitted EMS Agency Stroke Protocols",
       "series_description": "Stroke protocols submitted annually to the Division of Emergency Medical Services by local agencies pursuant to ORC 4765.401.",
-      "legal_citation": null
+      "legal_citation": "ORC 4765.401"
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "trigger_desc": "Paper: If received in paper format, item will be scanned and converted machine readable medium and paper destroyed immediately. ; Electronic: Each version will be maintained no longer than two (2) years from end of calendar year following date of submission Division",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Delete",
+      "disposition": "Paper: If received in paper format, the item will be scanned and converted to machine readable medium and the paper destroyed immediately. ; Electronic: Each version will be maintained no longer than two (2) years from the end of the calendar year following the date of submission to the Division., Paper: Recycle ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2022-01-14",
       "next_update_due": null,
       "comments": null

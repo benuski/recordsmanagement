@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: When Bid is cancelled; 90 days, and ; Electronic: on Procurement I;/drive when bid is cancelled; 90 days, and",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: When the Bid is cancelled; retain for 90 days, and then destroy. ; Electronic: Retain on the Procurement I;/drive when bid is cancelled; retain for 90 days, and then destroy, Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2018-09-10",
       "next_update_due": null,
       "comments": null

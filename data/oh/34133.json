@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Electronic: on-line content information is obsolete, replaced, or superseded. content information is obsolete, replaced, and/or superseded; a document control log is maintained capture what information was made available public, when it was presented on-line and when it was removed",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete",
+      "disposition": "Electronic: Retain on-line until content information is obsolete, replaced, or superseded. After the content information is obsolete, replaced, and/or superseded; a document control log is maintained to capture what information was made available to the public, when it was presented on-line and when it was removed., Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-12-19",
       "next_update_due": null,
       "comments": null

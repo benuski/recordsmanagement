@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Electronic: Maintain machine readable records on computer data base system, information is superseded by new information or record series is no longer created ; Paper: hard copy records in operating area",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase ; Paper: Wastepaper",
+      "disposition": "Electronic: Maintain machine readable records on the computer data base system, until information is superseded by new information or until record series is no longer created, then destroy. ; Paper: Retain hard copy records in operating area for 2 years, then destroy records, Electronic: Erase ; Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2001-08-14",
       "next_update_due": null,
       "comments": null

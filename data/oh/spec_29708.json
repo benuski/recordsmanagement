@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: provided audited by Auditor of State, audit report is released, all discrepancies are resolved, and ; Electronic: in Operations I: Drive folder, provided audited by Auditor of State, audit report is released, all discrepancies are resolved, and",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain for 2 years provided until audited by Auditor of State, audit report is released, all discrepancies are resolved, and then destroy. ; Electronic: Retain for 2 years in the Operations I: Drive folder, provided until audited by Auditor of State, audit report is released, all discrepancies are resolved, and then destroy., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2011-08-18",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: , unless correspondence has administrative, legal, historical value, or is defined as Executive Correspondence that deals with significant aspects of administration of agency (i.e. seeks establish board policy or procedure, programs, fiscal, or personnel matters). ; Electronic: , unless correspondence has administrative, legal, historical value, or is defined as Executive Correspondence that deals with significant aspects of administration of agency (i.e. seeks establish board policy or procedure, programs, fiscal, or personnel matters)",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Retain for 1 year, unless correspondence has administrative, legal, historical value, or is defined as Executive Correspondence that deals with significant aspects of the administration of the agency (i.e. seeks to establish board policy or procedure, programs, fiscal, or personnel matters). ; Electronic: Retain for 1 year, unless correspondence has administrative, legal, historical value, or is defined as Executive Correspondence that deals with significant aspects of the administration of the agency (i.e. seeks to establish board policy or procedure, programs, fiscal, or personnel matters)., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2014-01-02",
       "next_update_due": null,
       "comments": null

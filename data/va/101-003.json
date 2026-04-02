@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "report of incident",
+      "trigger_event": "AC",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Destroy In Compliance With No",
+      "disposition": "Retain for 5 years after report of the incident, then destroy in compliance with No. 8 on schedule cover sheet.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -46,15 +45,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "close of year which report relates",
+      "trigger_event": "AC",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "Destroy",
+      "disposition": "Retain for 1 year after the close of the year to which the report relates, then destroy.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -79,14 +77,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "enrolled bill jackets in Office of Clerk 2 full session years",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Transfer To Archives, Library Of Virginia For Permanent Retention",
+      "disposition": "Retain enrolled bill jackets in the Office of the Clerk for 2 full session years, then transfer to Archives, Library of Virginia for permanent retention.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -111,14 +108,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "signed chapters in Office of Clerk 10 full session years",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Transfer To Archives, Library Of Virginia For Permanent Retention",
+      "disposition": "Retain signed chapters in the Office of the Clerk for 10 full session years, then transfer to Archives, Library of Virginia for permanent retention.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -142,15 +138,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "close of year which report relates",
+      "trigger_event": "AC",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Destroy",
+      "disposition": "Retain for 5 years after the close of the year to which the report relates, then destroy.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -175,14 +170,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "in Office of Clerk 5 full session years",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Transfer To Archives, Library Of Virginia For Permanent Retention",
+      "disposition": "Retain in the Office of the Clerk for 5 full session years, then transfer to Archives, Library of Virginia for permanent retention.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -207,14 +201,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Contractor will end of session",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Transfer To Archives, Library Of Virginia For Permanent Retention",
+      "disposition": "Contractor will retain until the end of the session, then transfer to Archives, Library of Virginia for permanent retention.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -239,14 +232,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "in Office of Clerk 2 full session years",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Transfer To Archives, Library Of Virginia For Permanent Retention",
+      "disposition": "Retain in the Office of the Clerk for 2 full session years, then transfer to Archives, Library of Virginia for permanent retention.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -270,15 +262,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Delegate leaves office",
+      "trigger_event": "AC",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Destroy In Compliance With No",
+      "disposition": "Retain for 3 years after the Delegate leaves office, then destroy in compliance with No. 8 on schedule cover sheet.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null

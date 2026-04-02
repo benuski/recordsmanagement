@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: four years",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Wastepaper",
-      "confidential_flag": false
+      "disposition": "Paper: Retain four years, then dispose, provided audited by Auditor of State and audit report released. N.B. Some invoices (e.g. lab tests) may contain confidential information and need to be shredded, Paper: Wastepaper",
+      "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "1996-08-27",
       "next_update_due": null,
       "comments": null

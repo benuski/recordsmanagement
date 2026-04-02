@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: longer of these periods; from date of receipt or 45 days from date of election which absentee ballot was issued",
       "duration_years": null,
       "duration_months": 6,
-      "disposition_method": "Paper: Recycle",
+      "disposition": "Paper: Retain for the longer of these periods; 6 months from the date of receipt or 45 days from the date of the election for which the absentee ballot was issued, then destroy, Paper: Recycle",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2010-01-19",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "trigger_desc": "Electronic: Delete he end of calendar year or such time as diligent enforcement inquiry is resolved a particular year. ; Paper: he end of calendar year or such time as diligent enforcement inquiry is resolved a particular year. If scanned",
       "duration_years": 3,
       "duration_months": 6,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "disposition": "Electronic: Delete 3 years after he end of the calendar year or until such time as the diligent enforcement inquiry is resolved for a particular year. ; Paper: Destroy 3 years after he end of the calendar year or until such time as the diligent enforcement inquiry is resolved for a particular year. If scanned, retain for 6 months., Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2019-02-20",
       "next_update_due": null,
       "comments": null

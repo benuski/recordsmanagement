@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Paper: termination of supervision ; Electronic: forms scanned PDF, following termination of supervision and",
+      "trigger_event": "AC",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Erase",
+      "disposition": "Paper: 5 years after termination of supervision, then destroy. For papers scanned to PDF, destroy immediately upon confirmation that the electronic file image is legible. ; Electronic: For forms scanned to PDF, retain for 5 years following termination of supervision and then destroy., Paper: Recycle ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2012-06-01",
       "next_update_due": null,
       "comments": null

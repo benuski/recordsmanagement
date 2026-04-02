@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Paper: Effective January 1, 2004, all applications generated this date are be retained 2 and 1/ from date of issue ; Electronic: Vehicle Registration Database System (LEADS) - an individual renews his/her vehicle registration. current information will overlay existing record. Transaction Database System - Effective November 1996, all information from vehicle registrations issued by Deputy Registrars will be stored in this system 3 years from date of generation Print On Demand Electronic Files - Effective January 1, 2004, all electronic registration files generated this date are be retained 2 and 1/ from date of issue, archived. ; Microform: microfilm is duplicated, and original film is stored in unit. duplicate microfilm is kept in off-site storage located at Shipley Bldg. Registration applications issued prior implementation of Print On Demand (POD) shall be retained seven years from date of issue",
+      "trigger_event": "AC",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Delete ; Microform: Shred",
+      "disposition": "Paper: Effective January 1, 2004, all applications generated after this date are to be retained for 2 and 1/2 years from the date of issue, then destroyed. The boxed hard copy applications will be transferred to the ODPS Record Center for storage. ; Electronic: Vehicle Registration Database System (LEADS) - Retain until an individual renews his/her vehicle registration. The current information will overlay the existing record. Transaction Database System - Effective November 1996, all information from vehicle registrations issued by Deputy Registrars will be stored in this system for 3 years from the date of generation, then purged and archived off-site for future use. Print On Demand Electronic Files - Effective January 1, 2004, all electronic registration files generated after this date are to be retained for 2 and 1/2 years from the date of issue, then archived. ; Microform: The microfilm is duplicated, and the original film is stored in the unit. The duplicate microfilm is kept in off-site storage located at the Shipley Bldg. Registration applications issued prior to implementation of Print On Demand (POD) shall be retained for seven years from date of issue, then destroyed. As POD process progresses all microfilm will eventually be destroyed., Paper: Recycle ; Electronic: Delete ; Microform: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2006-03-07",
       "next_update_due": null,
       "comments": null

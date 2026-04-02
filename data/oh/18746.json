@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: hard copy of fire department files three (3) years. grant applications fire departments not awarded a grant two (2) years. ; Electronic: Computer database must be retained three years",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Erase",
+      "disposition": "Paper: Retain hard copy of fire department files for three (3) years. Retain grant applications for fire departments not awarded a grant for two (2) years. ; Electronic: Computer database must be retained for three years then saved to disk until record series is no longer created then destroy by erasure., Paper: Recycle ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2003-04-17",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "Paper: seven (7) state fiscal years and ; Electronic: seven (7) state fiscal years and",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Trash ; Electronic: Delete",
+      "disposition": "Paper: Retain for seven (7) state fiscal years and then destroy. A Certificate of Disposal is required when destroying these records. ; Electronic: Retain for seven (7) state fiscal years and then destroy. A Certificate of Disposal is required when destroying these records., Paper: Trash ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2014-05-28",
       "next_update_due": null,
       "comments": null

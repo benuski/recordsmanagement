@@ -11,18 +11,17 @@
       "series_id": "066-OAG-64",
       "series_title": "CSPA-Related Documents Filed in Court",
       "series_description": "File used to monitor violations of the Ohio Consumer Sales Practices Act (CSPA). Records include, but are not limited to, notice from county clerks of court, per ORC 1345.09(E), notifying the office of consumer-related individual or class action cases which have been commenced in their court, a copy or summary of the complaint, and the case name and number. Might also contain notices of dismissal, completion, or other action.",
-      "legal_citation": null
+      "legal_citation": "ORC 1345.09"
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: from date of receipt by AGO, unless scanned and saved electronically. ; Electronic: from date of receipt by AGO",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: 5 years from date of receipt by AGO, unless scanned and saved electronically. ; Electronic: 5 years from date of receipt by AGO., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-01-05",
       "next_update_due": null,
       "comments": null

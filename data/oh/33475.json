@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Paper: Retained by Board Office superseded, obsolete, or replaced ; Electronic: Retained by Board Office superseded, obsolete, or replaced",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Wastepaper ; Electronic: Delete",
+      "disposition": "Paper: Retained by Board Office until superseded, obsolete, or replaced then destroy. ; Electronic: Retained by Board Office until superseded, obsolete, or replaced then destroy., Paper: Wastepaper ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2016-04-15",
       "next_update_due": null,
       "comments": null

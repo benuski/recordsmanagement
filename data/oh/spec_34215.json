@@ -11,18 +11,17 @@
       "series_id": "EDU-DEPT02",
       "series_title": "Public Records Request and Response Files",
       "series_description": "Requests from the public for Ohio Department of Education records and the corresponding responses. Documents may include, but not limited to the original request, correspondence between staff and the requestor or other staff; redacted and unredacted responsive records. Maintained to document compliance with public records law obligations (ORC 149.43)",
-      "legal_citation": null
+      "legal_citation": "ORC 149.43"
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: one year ; Electronic: one year",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain one year , then destroy. ; Electronic: Retain one year , then destroy., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-04-08",
       "next_update_due": null,
       "comments": null

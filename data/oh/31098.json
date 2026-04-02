@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Electronic: ; Paper: in office 90 days prepped, imaged, indexed, and quality control of has been completed",
+      "trigger_event": "AC",
       "duration_years": 4,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase ; Paper: Shred",
+      "disposition": "Electronic: Retain for 4 years, then erase. ; Paper: Retain in office 90 days after prepped, imaged, indexed, and quality control of has been completed, then destroy., Electronic: Erase ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2024-02-09",
       "next_update_due": null,
       "comments": null

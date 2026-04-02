@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: three years, grant closure. provided audit has been conducted by Auditor of State, audit report is released, and all discrepancies are resolved. ; Electronic: three years, grant closure. provided audit has been conducted by Auditor of State, audit report is released, and all discrepancies are resolved",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Retain three years, after grant closure. provided audit has been conducted by Auditor of State, the audit report is released, and all discrepancies are resolved. ; Electronic: Retain three years, after grant closure. provided audit has been conducted by Auditor of State, the audit report is released, and all discrepancies are resolved., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-05-27",
       "next_update_due": null,
       "comments": null

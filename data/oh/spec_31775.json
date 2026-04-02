@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: Paper journals prior or June 30, 2010: no longer of administrative value, provided audited by Auditor of State and audit report issued. ; Electronic: Electronic or Machine Readable Journals before or July 1, 2010: no longer of administrative value, provided audited by Auditor of State and audit report issued",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Wastepaper ; Electronic: Erase",
+      "disposition": "Paper: Paper journals prior to or after June 30, 2010: Retain until no longer of administrative value, provided audited by Auditor of State and audit report issued. ; Electronic: Electronic or Machine Readable Journals before or after July 1, 2010: Retain until no longer of administrative value, provided audited by Auditor of State and audit report issued., Paper: Wastepaper ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2013-09-07",
       "next_update_due": null,
       "comments": null

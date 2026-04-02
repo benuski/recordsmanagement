@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Electronic: during policy development or revision; when policy is decided and approved by Director. ; Paper: during policy development or revision; when policy is decided and approved by Director",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Recycle",
+      "disposition": "Electronic: Retain during policy development or revision; destroy when the policy is decided and approved by Director. ; Paper: Retain during policy development or revision; destroy when the policy is decided and approved by Director., Electronic: Delete ; Paper: Recycle",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2011-03-10",
       "next_update_due": null,
       "comments": null

@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Microform: master and duplicate film ; Paper: 60 days hard copy is prepped, scanned and indexed (imaged) and quality control iscompleted, and ; Electronic: in MIS on optical disk",
+      "trigger_event": "AC",
       "duration_years": 7,
       "duration_months": null,
-      "disposition_method": "Microform: Shred ; Paper: Shred ; Electronic: Erase",
+      "disposition": "Microform: Retain master and duplicate film 7 years, then destroy. Microfilming was discontinued in 2006. ; Paper: Retain 60 days after hard copy is prepped, scanned and indexed (imaged) and quality control iscompleted, and then destroy. ; Electronic: Retain in MIS on optical disk for 7 years, then erase., Microform: Shred ; Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2024-12-04",
       "next_update_due": null,
       "comments": null

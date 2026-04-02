@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Electronic: five (5) years expiration date or termination of contract, or unsuccessful proposals/bids two (2) years contract award date ; Paper: period specified electronic format",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase ; Paper: Shred",
+      "disposition": "Electronic: Retain five (5) years after expiration date or termination of contract, or for unsuccessful proposals/bids retain two (2) years after contract award date, then destroy. Statutory or regulatory provisions applicable to certain programs may affect retention of related records. In such cases, the statutory or regulatory provisions shall take precedence over the retention language set forth in this schedule. Records subject to audit shall be further retained until audit report is released and discrepancies addressed.LITIGATION HOLD: Any records subject to a litigation hold must be retained until the hold is lifted by the Legal Office, regardless of whether the specified retention period has elapsed. ; Paper: Retain for period specified for electronic format, then destroy. If converted to electronic/digital format, paper records may be destroyed after verification of successful conversion., Electronic: Erase ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2023-06-20",
       "next_update_due": null,
       "comments": null

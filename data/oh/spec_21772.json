@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Electronic: a minimum of 12 monthly backup cycles and",
       "duration_years": null,
       "duration_months": 12,
-      "disposition_method": "Electronic: Delete",
+      "disposition": "Electronic: Retain for a minimum of 12 monthly backup cycles and then destroy, Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2005-06-02",
       "next_update_due": null,
       "comments": null

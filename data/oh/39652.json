@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Paper: school year in which records were created. In event of accident or injury, minor reaches age 21 ; Electronic: school year in which records were created. In event of accident or injury, minor reaches age 21",
+      "trigger_event": "AC",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: 3 years after school year in which records were created. In the event of accident or injury, retain until minor reaches the age 21 ; Electronic: 3 years after school year in which records were created. In the event of accident or injury, retain until minor reaches the age 21, Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2024-12-18",
       "next_update_due": null,
       "comments": null

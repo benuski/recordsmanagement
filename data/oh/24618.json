@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: application and copies of certificates in Bureau of Alcohol and Drug Testing two years",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred",
+      "disposition": "Paper: Retain the application and copies of certificates in Bureau of Alcohol and Drug Testing for two years, then transfer to Record Retention for one year., Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2007-03-05",
       "next_update_due": null,
       "comments": null

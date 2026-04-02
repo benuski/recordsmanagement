@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "trigger_desc": "Paper: Ten calendar years close of tax year which applicable ; Electronic: ten calendar years close of tax year which applicable",
       "duration_years": null,
-      "duration_months": null,
-      "disposition_method": "Paper: Wastepaper ; Electronic: Delete",
+      "duration_months": 6,
+      "disposition": "Paper: Ten calendar years after close of the tax year to which applicable then destroy. If scanned, retain for 6 months. ; Electronic: Retain ten calendar years after close of the tax year to which applicable then destroy., Paper: Wastepaper ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2019-02-11",
       "next_update_due": null,
       "comments": null

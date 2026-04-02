@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: Scanned - ; Electronic: End of year following year in which it expires - Example - TBOR expires March 31, 2005, destruction would occur December 31, 2006",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": 1,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: After Scanned - 1 month ; Electronic: End of the year following the year in which it expires - Example - TBOR expires March 31, 2005, destruction would occur December 31, 2006., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2019-02-12",
       "next_update_due": null,
       "comments": null

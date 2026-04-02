@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Paper: transferred microfilm and microfilm has been checked quality and completeness ; Electronic: system is determined obsolete ; Microform: permanently. Copy sent State Archives",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Paper: Wastepaper ; Electronic: Other ; Microform: Permanent",
+      "disposition": "Paper: Retain until transferred to microfilm and microfilm has been checked for quality and completeness, then destroy. ; Electronic: Retain until system is determined obsolete, then transfer to new system. ; Microform: Retain permanently. Copy sent to State Archives., Paper: Wastepaper ; Electronic: Other ; Microform: Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2008-10-29",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "Electronic: Maintain while system is in use three (3) state fiscal years year system goes out of service. A Certificate of Disposal is required when destroying these records",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete",
+      "disposition": "Electronic: Maintain while system is in use plus three (3) state fiscal years after the year the system goes out of service. A Certificate of Disposal is required when destroying these records., Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2014-09-18",
       "next_update_due": null,
       "comments": null

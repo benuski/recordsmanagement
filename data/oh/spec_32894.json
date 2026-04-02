@@ -11,18 +11,17 @@
       "series_id": "EDU-FAO-04",
       "series_title": "District Net Indebtedness Consents, Notifications and Approvals of ORC 133.06",
       "series_description": "Requests from school districts for consent to issue net indebtedness in accordance with RC 133.06 including: ballot consent to exceed the 4% limitation of its tax valuation, but not more than 12% (special needs); 133.06(H) bonds; and district notifications regarding indebtedness to participate in OFCC projects as required in 133.06(I). Files may include approval or disapproval documentation, applications requesting consent, request letters or email correspondence, resolution of necessity, resolution to proceed, net indebtedness statement (DTE form 131), statement of facts, Co. Auditors mileage certificate (DTE form 130), and the certification of school board members. Special needs designation includes special needs resolution, tax valuation (history and projection of growth), the projected needs and the estimated cost of permanent improvements.",
-      "legal_citation": null
+      "legal_citation": "ORC 133.06"
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Electronic: Where consent and notifications relate an election date, five (5) years from date of election ; Paper: Where consent and notifications relate an election date, five (5) years from date of election",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "disposition": "Electronic: Where consent and notifications relate to an election date, retain five (5) years from date of the election, then destroy. For ORC 133.06(H) issuances, if approved retain for the life of the bond. If unapproved, retain for five (5) years ; Paper: Where consent and notifications relate to an election date, retain five (5) years from date of the election, then destroy. For ORC 133.06(H) issuances, if approved retain for the life of the bond. If unapproved, retain for five (5) years, Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2021-09-20",
       "next_update_due": null,
       "comments": null

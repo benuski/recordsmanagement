@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Paper: correspondence from students, parents and institutions and checks received from institutions in office . audit by Auditor of State is completed and released, . ; Electronic: data entry of student names, Social Securtity Numbers, award amounts and number of terms of eligibility remaining . audit by Auditor of State is completed and released",
+      "trigger_event": "AC",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Retain correspondence from students, parents and institutions and checks received from institutions in office for 5 years. After audit by Auditor of State is completed and released, destroy. ; Electronic: Retain data entry of student names, Social Securtity Numbers, award amounts and number of terms of eligibility remaining 5 years. After audit by Auditor of State is completed and released, destroy., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2010-03-09",
       "next_update_due": null,
       "comments": null

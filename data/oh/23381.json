@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Paper: in active files from date of layoff. Document image . ; Electronic: Maintain document image 10 years",
+      "trigger_event": "AC",
       "duration_years": 6,
       "duration_months": null,
-      "disposition_method": "Paper: Trash ; Electronic: Trash",
+      "disposition": "Paper: Retain in active files for 6 years from date of layoff. Document image after 6 years. ; Electronic: Maintain document image for 10 years., Paper: Trash ; Electronic: Trash",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2006-04-12",
       "next_update_due": null,
       "comments": null

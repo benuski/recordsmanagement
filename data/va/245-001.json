@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "date of initial filing",
+      "trigger_event": "AC",
       "duration_years": 10,
       "duration_months": null,
-      "disposition_method": "Destroy In Compliance With No",
+      "disposition": "Retain for 10 years after date of initial filing then destroy in compliance with No. 8 on the schedule cover page. Once the letter of exemption is issued, transfer the final year's (10thyear) filing to the letter of exemption file (series 007108).",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -46,15 +45,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "date of filing",
+      "trigger_event": "AC",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Destroy In Compliance With No",
+      "disposition": "Retain for 5 years after date of filing, then destroy in compliance with No. 8 on the schedule cover page.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -79,14 +77,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "institution no longer meets exemption criteria and all issues are resolved",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Destroy",
+      "disposition": "Retain until institution no longer meets the exemption criteria and all issues are resolved, then destroy.",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null

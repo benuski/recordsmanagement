@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: one year or sooner if no further use reports, they shall be destroyed by securely shredded means. ; Electronic: one year or sooner if no further use reports, they shall be deleted from Board''s electronic files",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: After one year or sooner if no further use for the reports, they shall be destroyed by securely shredded means. ; Electronic: After one year or sooner if no further use for the reports, they shall be deleted from the Board''s electronic files., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2014-04-18",
       "next_update_due": null,
       "comments": null

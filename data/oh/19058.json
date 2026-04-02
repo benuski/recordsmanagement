@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "trigger_desc": "Paper: In office imaged; ; Electronic: In office imaged",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Paper: Permanent ; Electronic: Permanent",
+      "disposition": "Paper: In office until imaged; then destroy hard copy and retain image permanently ; Electronic: In office until imaged; then destroy hard copy and reatin image, Paper: Permanent ; Electronic: Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2003-04-28",
       "next_update_due": null,
       "comments": null

@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: paper files 30 days scanning ; Electronic: five (5) years in Legal UDS and SIRP SharePoint",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain paper files 30 days after scanning, then destroy. ; Electronic: Retain for five (5) years in Legal UDS and SIRP SharePoint., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2018-04-26",
       "next_update_due": null,
       "comments": null

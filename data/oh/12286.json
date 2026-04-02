@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: Review every disposal of obsolete correspondence. Total retention not exceed 12 years",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Paper: Wastepaper",
+      "disposition": "Paper: Review every 3 years for disposal of obsolete correspondence. Total retention not to exceed 12 years, Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "1977-12-14",
       "next_update_due": null,
       "comments": null

@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Paper: Keep unless a licensee or permittee is involved in litigation with Division, in which case records will be kept two years all administrative, civil or criminal action is complete. ; Electronic: Keep unless a licensee or permittee is involved in litigation with Division, in which case records will be kept two years all administrative, civil or criminal action is complete",
+      "trigger_event": "AC",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Paper: Trash ; Electronic: Delete",
+      "disposition": "Paper: Keep for 5 years unless a licensee or permittee is involved in litigation with the Division, in which case records will be kept for two years after all administrative, civil or criminal action is complete. Then destroy., Ohio Civil Rule of Procedure 41(A) ; Electronic: Keep for 5 years unless a licensee or permittee is involved in litigation with the Division, in which case records will be kept for two years after all administrative, civil or criminal action is complete. Then destroy., Ohio Civil Rule of Procedure 41(A), Paper: Trash ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2017-12-20",
       "next_update_due": null,
       "comments": null

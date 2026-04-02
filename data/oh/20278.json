@@ -11,18 +11,17 @@
       "series_id": "Z08-06",
       "series_title": "Applications for 1st Responder & EMT Certification",
       "series_description": "In accordance with ORC 4765.11 the State Board of Emergency Medical Services (via Division of EMS) issues a certificate to practice to applicants who successfully complete an approved course of instruction. The certifcate to practice allows the certificate holder to practice as a First Respondor, EMT-Basic, EMT-Intermediate, or EMT-Paramedic for a period of three years. The application includes personal information on the applicant, including home address and social security number, the level of training completed, proof of passing a state examination and verification of training from an accredited institution. Every three years the certificate holder must apply to renew for an additional three years, demonstrating compliance with renewal requirements established by the state board of EMS. Data collected from the applications is entered into a database and a certificate issued.",
-      "legal_citation": null
+      "legal_citation": "ORC 4765.11"
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: hard copy ; Microform: Retained applicant is deceased. ; Electronic: Retained applicant is deceased",
       "duration_years": 6,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Microform: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain hard copy for 6 years, then destroy by shredding. Original is converted to microfiche (documents received up to 1999) or imaged (documents from 1999 to current) document which is maintained until applicant is deceased. ; Microform: Retained until applicant is deceased. ; Electronic: Retained until applicant is deceased., Paper: Shred ; Microform: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2004-10-18",
       "next_update_due": null,
       "comments": null

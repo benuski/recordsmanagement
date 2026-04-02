@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Paper: lost and unclaimed property a minimum of 30 days. 30 days minimum, unclaimed personal property of more than de minimis value or having intrinsic value is donated a designated charity. Any unclaimed cash is sent CFO/Comptroller''s office",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Trash",
+      "disposition": "Paper: Retain lost and unclaimed property a minimum of 30 days. After 30 days minimum, unclaimed personal property of more than de minimis value or having intrinsic value is donated to a designated charity. Any unclaimed cash is sent to the CFO/Comptroller''s office., Paper: Trash",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2018-09-24",
       "next_update_due": null,
       "comments": null

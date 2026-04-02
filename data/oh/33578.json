@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Paper: period specified electronic format ; Electronic: six (6) months or superseded or obsolete LITIGATION HOLD: Any records subject a litigation hold must be retained hold is lifted by Legal Office, regardless of whether specified retention period has elapsed",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Retain for period specified for electronic format, then destroy. If converted to electronic/digital format, paper records may be destroyed after verification of successful conversion. ; Electronic: Retain six (6) months or until superseded or obsolete, then destroy. Records subject to audit shall be further retained until audit report is released and discrepancies addressed. LITIGATION HOLD: Any records subject to a litigation hold must be retained until the hold is lifted by the Legal Office, regardless of whether the specified retention period has elapsed., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2016-06-23",
       "next_update_due": null,
       "comments": null

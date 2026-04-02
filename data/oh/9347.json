@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "Paper: Daily and weekly reports retained 2 fiscal years audit is complete and audit report is released",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Wastepaper",
+      "disposition": "Paper: Daily and weekly reports retained for 2 fiscal years until after audit is complete and after audit report is released then destroy. Monthly reports place in binds, retained for future budgets to determine prior year trends., Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "1986-07-07",
       "next_update_due": null,
       "comments": null

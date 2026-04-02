@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: Background check results are noted as having been received/reviewed via a checkmark in application file. FBI & BCI results from receipt ; Electronic: Background check results are noted as having been received/reviewed via a checkmark in application file. FBI & BCI results from receipt",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Background check results are noted as having been received/reviewed via a checkmark in the application file. Retain FBI & BCI results for 1 year from receipt, then destroy, unless the results require referral to enforcement in which case, the results are retained according to enforcement file retention schedules. ; Electronic: Background check results are noted as having been received/reviewed via a checkmark in the application file. Retain FBI & BCI results for 1 year from receipt, then destroy, unless the results require referral to enforcement in which case, the results are retained according to enforcement file retention schedules., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-07-10",
       "next_update_due": null,
       "comments": null

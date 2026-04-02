@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Electronic: Three (3) years completion of project, or following completion of audit and resolution of an audit discrepancy. ; Paper: Three (3) years completion of project, or following completion of audit and resolution of an audit discrepancy. a. If scanned and saved in an electronic format, paper copy may be destroyed at that time",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "disposition": "Electronic: Three (3) years after completion of the project, or following completion of audit and resolution of an audit discrepancy. ; Paper: Three (3) years after completion of the project, or following completion of audit and resolution of an audit discrepancy. a. If scanned and saved in an electronic format, the paper copy may be destroyed at that time., Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-12-18",
       "next_update_due": null,
       "comments": null

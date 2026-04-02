@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Electronic: end of biennium (June 30) occurring no sooner than two years last day of appointment term. ; Paper: end of biennium (June 30) occurring no sooner than two years last day of appointment term",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "disposition": "Electronic: Retain until the end of the biennium (June 30) occurring no sooner than two years after the last day of the appointment term. ; Paper: Retain until the end of the biennium (June 30) occurring no sooner than two years after the last day of the appointment term., Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-12-01",
       "next_update_due": null,
       "comments": null

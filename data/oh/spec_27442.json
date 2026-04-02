@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Paper: Upon reciept, Ohio Utility Annual Reports are retained ; Electronic: Information from reports are added an online spreadsheet OCC''s yearly calculation of Utility Assessments and retained in OCC electronic system 10 years",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Erase",
+      "disposition": "Paper: Upon reciept, Ohio Utility Annual Reports are retained for 2 years then destroyed. ; Electronic: Information from the reports are added to an online spreadsheet for OCC''s yearly calculation of Utility Assessments and retained in the OCC electronic system for 10 years., Paper: Recycle ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2009-05-22",
       "next_update_due": null,
       "comments": null

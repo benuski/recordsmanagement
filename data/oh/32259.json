@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Electronic: Remain on file application has been fulfilled and any extensions have been exhausted. administrator may renew an order issued up two times provided that requirements of approved variance application are met and public employer files an application renewal with administrator at least ninety days prior expiration date of order",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete",
+      "disposition": "Electronic: Remain on file until application has been fulfilled and any extensions have been exhausted. The administrator may renew an order issued up to two times provided that the requirements of the approved variance application are met and the public employer files an application for renewal with the administrator at least ninety days prior to the expiration date of the order, then destroy., Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2020-09-09",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "trigger_desc": "Paper: Current and three proceeding years of original retained in office file and ; Electronic: Current and three preceding years of original retained in office file and",
       "duration_years": null,
-      "duration_months": null,
-      "disposition_method": "Paper: Wastepaper ; Electronic: Delete",
+      "duration_months": 6,
+      "disposition": "Paper: Current and three proceeding years of original retained in office file and then destroyed. Copy held for one year for use by county auditors etc. and then destroyed. If scanned, retain for 6 months. ; Electronic: Current and three preceding years of original retained in office file and then delete. Copy held for one year for use by county auditors etc. and then delete., Paper: Wastepaper ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2019-02-11",
       "next_update_due": null,
       "comments": null

@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "trigger_desc": "Electronic: per contract, maintain records in I: Drive. ; Paper: If record is paper (hard copy)",
       "duration_years": 15,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "disposition": "Electronic: 15 years per contract, maintain records in the I: Drive. ; Paper: If the record is paper (hard copy), then scan and once image has been verified, shred securely., Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2018-09-10",
       "next_update_due": null,
       "comments": null

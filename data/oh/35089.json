@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
-      "trigger_desc": "Electronic: Licensed Nursing Home Administrator online & paper renewals audit documents will be kept a period of two years. Licensed Nursing Home Administrator online & paper renewals audit documents will be shredded two-year period has expired",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Shred",
+      "disposition": "Electronic: Licensed Nursing Home Administrator online & paper renewals audit documents will be kept for a period of two years. Licensed Nursing Home Administrator online & paper renewals audit documents will be shredded after the two-year period has expired., Electronic: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2018-09-10",
       "next_update_due": null,
       "comments": null

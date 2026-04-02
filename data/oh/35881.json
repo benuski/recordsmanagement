@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Paper: in office 60 days record is closed and ; Electronic: Electronic data base: in electronic format final payment has been made or any audit findings or lawsuits have been resolved",
       "duration_years": 4,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Erase",
+      "disposition": "Paper: Retain in office 60 days after record is closed and then destroy. ; Electronic: Electronic data base: Retain in electronic format for 4 years until final payment has been made or until any audit findings or lawsuits have been resolved., Paper: Recycle ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2024-12-04",
       "next_update_due": null,
       "comments": null

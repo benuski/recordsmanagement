@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Electronic: Commissioner/Officer resignation, termination, death, or, commissioners only, failing reappointment ; Paper: Commissioner/Officer resignation, termination, death, or, commissioners only, failing reappointment",
+      "trigger_event": "AC",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "disposition": "Electronic: 5 years after Commissioner/Officer resignation, termination, death, or, for commissioners only, failing reappointment ; Paper: 5 years after Commissioner/Officer resignation, termination, death, or, for commissioners only, failing reappointment, Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2024-10-23",
       "next_update_due": null,
       "comments": null

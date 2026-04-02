@@ -14,15 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "trigger_desc": "Microform: original microfilm an offsite records facility. original microfilm . Copies of microfilm are be retained in office . ; Paper: in office 3 years treatment is complete",
+      "trigger_event": "AC",
       "duration_years": 10,
       "duration_months": null,
-      "disposition_method": "Microform: Burn ; Paper: Shred",
+      "disposition": "Microform: Transfer the original microfilm to an offsite records facility. Retain the original microfilm for 10 years. Copies of the microfilm are to be retained in office for 10 years. ; Paper: Retain in office 3 years after treatment is complete, then microfilm. Destroy hardcopy after microfilm checked for quality assurance., Microform: Burn ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2010-07-28",
       "next_update_due": null,
       "comments": null

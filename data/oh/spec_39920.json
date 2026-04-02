@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "trigger_desc": "Electronic: account is canceled or closed ; Paper: account is canceled or closed",
       "duration_years": 4,
-      "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "duration_months": 6,
+      "disposition": "Electronic: Retain 4 years after the account is canceled or closed, then delete. ; Paper: Retain 4 years after the account is canceled or closed, then shred. If scanned, retain for 6 months, after scanned and imaged, then shred., Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2025-12-10",
       "next_update_due": null,
       "comments": null

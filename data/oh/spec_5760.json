@@ -11,18 +11,17 @@
       "series_id": "310-01",
       "series_title": "Prompt Pay Complaint Files",
       "series_description": "This file contains Provider complaints against Third Party Payers (Ins. Companies) allegedly in violation of ORC 3901.38.",
-      "legal_citation": null
+      "legal_citation": "ORC 3901.38"
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "trigger_desc": "Electronic: current calendar year in office area and preceding year in file storage room ; Paper: current calendar year in office area and preceding year in file storage room",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase ; Paper: Wastepaper",
+      "disposition": "Electronic: Retain current calendar year in office area and preceding year in file storage room then destroy after one year. (i.e., 1994 files are current and will be available in office area. 1993 files will be stored. In 1995, 1993 files will be destroyed and 1994 files will be sent to storage in on-site area. 1995 files will then be current and kept in office area. ; Paper: Retain current calendar year in office area and preceding year in file storage room then destroy after one year. (i.e., 1994 files are current and will be available in office area. 1993 files will be stored. In 1995, 1993 files will be destroyed and 1994 files will be sent to storage in on-site area. 1995 files will then be current and kept in office area., Electronic: Erase ; Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "1995-02-09",
       "next_update_due": null,
       "comments": null

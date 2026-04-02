@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "trigger_desc": "Electronic: evidence of title onsite duration which fund owns asset; upon disposition of asset, copy of evidence of title onsite remainder of current fiscal year and 2 additional fiscal years",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete",
+      "disposition": "Electronic: Retain evidence of title onsite for duration for which fund owns the asset; upon disposition of asset, retain copy of evidence of title onsite for remainder of current fiscal year and for 2 additional fiscal years., Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "2022-10-28",
       "next_update_due": null,
       "comments": null

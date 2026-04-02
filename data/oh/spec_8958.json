@@ -15,14 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "trigger_desc": "Paper: Maintain in office superseded by a new application or applicant's business enterprise has been closed",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Paper: Shred",
+      "disposition": "Paper: Maintain in office until superseded by a new application or the applicant's business enterprise has been closed for 2 years. Then store for 2 additional years in office, then destroy., Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-01",
+      "last_checked": "2026-04-02",
       "last_updated_by_state": "1992-07-27",
       "next_update_due": null,
       "comments": null
