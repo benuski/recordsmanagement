@@ -11,23 +11,23 @@
       "series_id": "1a",
       "series_title": "Bond Transcripts",
       "series_description": "",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
       "comments": "Copy to Archives"
     },
     "state_specific_attributes": {
-      "rsin": ""
+      "rsin": null
     }
   },
   {
@@ -42,23 +42,23 @@
       "series_id": "2a",
       "series_title": "Bond Pricing Books",
       "series_description": "",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "5",
-      "duration_months": "",
+      "duration_years": 5,
+      "duration_months": null,
       "disposition": "After Closed plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
-      "rsin": ""
+      "rsin": null
     }
   },
   {
@@ -73,17 +73,17 @@
       "series_id": "4a",
       "series_title": "Legislative Approptiations Requests",
       "series_description": "Including any supporting documentation created and/or used to justify and support legislative appropriations requests by an agency.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "6",
-      "duration_months": "",
+      "duration_years": 6,
+      "duration_months": null,
       "disposition": "After Closed plus 6 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
       "comments": "ARCHIVES NOTE: The final version\nof Legislative Appropriation\nRequests must be submitted to the\nTexas State Publications Depository\nProgram per 13 TAC 3.3(a)(3)(A).\nWorking files and related\ndocumentation used in creating the\nfinal plan are not subject to archival\nreview and may be disposed of at\nthe expiration of the retention\nperiod."
@@ -104,20 +104,20 @@
       "series_id": "8a",
       "series_title": "Directives",
       "series_description": "Any document that officially initiates, rescinds, or amends general office procedures.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "US",
-      "duration_years": "1",
-      "duration_months": "",
-      "disposition": "Until Superseded plus 1 year",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition": "Until Superseded plus 1 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "1.1.010"
@@ -135,20 +135,20 @@
       "series_id": "9a",
       "series_title": "Executive Orders",
       "series_description": "Any document that initiates, rescinds, or amends a regulation, policy, or procedure that governs the programs, services, or projects of an agency.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "US",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "Until Superseded plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "1.1.011"
@@ -166,17 +166,17 @@
       "series_id": "10a",
       "series_title": "Calendars, Appointment and Itinerary Records",
       "series_description": "Calendars, appointment books or programs and scheduling, or itinerary records maintained by staff during business hours that document appointments, itineraries, and other activities of agency officials or employees.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "duration_years": "1",
-      "duration_months": "",
-      "disposition": "Calendar Year End plus 1 year",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition": "Calendar Year End plus 1 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
       "comments": "ARCHIVES NOTE: Only the\ncalendars, appointment, and\nitinerary records of elected\nofficials, executive staff, board or\ncommission members, division\ndirectors, and program heads\nrequire archival review. Contact the\nState Archives when these records\nhave met their retention periods.\nCAUTION: A record of this type\npurchased with personal funds, but\nused by a state official or employee\nto document his or her work\nactivities may be a state record and\nsubject to this retention period. See\nOpen Records Decision 635 issued\nin December 1995 by the Attorney\nGeneral."
@@ -197,20 +197,20 @@
       "series_id": "12a",
       "series_title": "Public Relations Records",
       "series_description": "News, press releases, marketing files and collateral, or any public relations files maintained or issued by an agency. Includes print, electronic, audio, and audiovisual records.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "duration_years": "2",
-      "duration_months": "",
+      "duration_years": 2,
+      "duration_months": null,
       "disposition": "2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "1.1.019"
@@ -232,16 +232,16 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "1",
-      "duration_months": "",
-      "disposition": "After Closed plus 1 year",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition": "After Closed plus 1 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "1.1.020"
@@ -263,16 +263,16 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "2",
-      "duration_months": "",
+      "duration_years": 2,
+      "duration_months": null,
       "disposition": "After Closed plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "1.1.021"
@@ -290,17 +290,17 @@
       "series_id": "15a",
       "series_title": "Organization Charts",
       "series_description": "Charts or diagrams that show the structure of an agency and the relationships and relative ranks of its departments and job positions.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "US",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "Until Superseded",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
       "comments": "ARCHIVES NOTE: Only charts\nshowing the overall arrangement\nand administrative structure of the\nstate agency need to be transferred\nto the Archives and Information\nServices Division, Texas State\nLibrary and Archives Commission.\nOrganizational charts showing\ndivision/department level detail are\nnot considered archival."
@@ -321,17 +321,17 @@
       "series_id": "16a",
       "series_title": "Plans and Planning Records",
       "series_description": "Plans and records relating to the process of planning new or redefined programs, services, or projects of an agency that are neither included in nor directly related to other records series in this schedule.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "After Closed plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
       "comments": "ARCHIVES NOTE: Data processing\nplanning records are not archival."
@@ -352,20 +352,20 @@
       "series_id": "17a",
       "series_title": "Texas Register Submissions",
       "series_description": "Copies of all proposed, withdrawn, emergency, and adopted rules; open meetings notices; or any other documents required by law to be submitted to the Texas Register.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "1",
-      "duration_months": "",
-      "disposition": "After Closed plus 1 year",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition": "After Closed plus 1 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "1.1.026"
@@ -383,20 +383,20 @@
       "series_id": "18a",
       "series_title": "Proposed Legislation",
       "series_description": "Drafts of proposed legislation and related correspondence.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "As Long as Administratively Valuable",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "1.1.027"
@@ -414,17 +414,17 @@
       "series_id": "20a",
       "series_title": "Speeches, Papers and Presentations",
       "series_description": "Notes or text of speeches, papers, presentations, or reports delivered in conjunction with agency work.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "2",
-      "duration_months": "",
+      "duration_years": 2,
+      "duration_months": null,
       "disposition": "After Closed plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
       "comments": "ARCHIVES NOTE: Only speeches,\npapers, and presentations given by\nor on behalf of executive staff,\nboard or commission members,\ndivision directors and program\nheads require archival review."
@@ -445,17 +445,17 @@
       "series_id": "22a",
       "series_title": "Litigation Files",
       "series_description": "Records created by or on behalf of an agency in anticipation of or in the adjudication of a lawsuit.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "1",
-      "duration_months": "",
-      "disposition": "After Closed plus 1 year",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition": "After Closed plus 1 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
       "comments": "ARCHIVES NOTE: Cases that set\nlegal precedent or exhibit historical\nvalue will be evaluated by the\nArchives and Information Services\nDivision of the Texas State Library\nand Archives Commission for\narchival preservation. See page ix\non the state RRS for additional\nguidelines."
@@ -480,16 +480,16 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "After Closed",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "1.1.053"
@@ -511,13 +511,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "6",
-      "duration_months": "",
+      "duration_years": 6,
+      "duration_months": null,
       "disposition": "After Closed plus 6 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
       "comments": "ARCHIVES NOTE: The final version\nof Strategic Plans must be\nsubmitted to the Texas State\nPublications Depository Program\nper 13 TAC 3.3(a)(2)(C). Working\nfiles and related documentation\nused in creating the final plan are\nnot subject to archival review and\nmay be disposed of at the\nexpiration of the retention period."
@@ -542,16 +542,16 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "1.1.056"
@@ -569,20 +569,20 @@
       "series_id": "32a",
       "series_title": "Staff Meeting Minutes and Notes",
       "series_description": "Minutes or notes, and supporting documentation, taken at internal agency staff meetings.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "duration_years": "1",
-      "duration_months": "",
-      "disposition": "1 year",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition": "1 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "1.1.063"
@@ -600,17 +600,17 @@
       "series_id": "38a",
       "series_title": "Agency Rules, Policies, and Procedures",
       "series_description": "Manuals, guidelines, administrative rules, or similar records distributed internally for the use of employees or externally to the public or those individuals or entities regulated by an agency that sets out the rules, policies, and procedures that govern an agency's programs, services, or projects. Includes working files and related documentation used in creating rules, policies, and procedures.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "After Closed plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
       "comments": "ARCHIVES NOTE: Working files and\nrelated documentation used in\ncreating the final rules, policies, and\nprocedures, are not subject to\narchival requirement and may be\ndisposed of at the expiration of the\nretention period."
@@ -631,20 +631,20 @@
       "series_id": "39a",
       "series_title": "Sunset Review Report and Related Documentation",
       "series_description": "Sunset Review Report, agency selfstudy, and other correspondence and supporting documentation related to the Sunset review process for state agencies.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "After Closed plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "1.1.074"
@@ -666,16 +666,16 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "4",
-      "duration_months": "",
+      "duration_years": 4,
+      "duration_months": null,
       "disposition": "After Closed plus 4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "1.1.075"
@@ -693,20 +693,20 @@
       "series_id": "44a",
       "series_title": "Forms History and Maintenance",
       "series_description": "Master versions of all forms used internally and externally by the agency, including subsequent revisions to an agency form or any associated design or design modification requests.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "2",
-      "duration_months": "",
+      "duration_years": 2,
+      "duration_months": null,
       "disposition": "After Closed plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "1.2.003"
@@ -724,17 +724,17 @@
       "series_id": "45a",
       "series_title": "Records Retention Schedule",
       "series_description": "A records retention schedule (i.e. form SLR 105) that identifies the records that are created and maintained by an agency, provides the minimum timeframes the records must be retained, and includes instructions for their disposition. This series may include working files and documentation of certification and approval by the Texas State Library and Archives Commission.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "US",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "Until Superseded",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
       "comments": "Original is retained for 50 years by\nthe State and Local Records\nManagement Division, Texas State\nLibrary and Archives Commission."
@@ -755,20 +755,20 @@
       "series_id": "46a",
       "series_title": "Records Transmittal Forms",
       "series_description": "Forms used to track the transmittal of records to/from onsite and offsite storage areas or a transfer of physical custody.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "After Closed",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "1.2.006"
@@ -786,20 +786,20 @@
       "series_id": "47a",
       "series_title": "Records Disposition Logs",
       "series_description": "Logs or similar records listing records disposed of by an agency, which might include records series title, dates of records, and date of disposition.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "duration_years": "10",
-      "duration_months": "",
+      "duration_years": 10,
+      "duration_months": null,
       "disposition": "10 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "1.2.010"
@@ -817,17 +817,17 @@
       "series_id": "48a",
       "series_title": "Record Center Storage Approval Forms (RMD 106)",
       "series_description": "Agency copy of form RMD 106 granting a state agency the authorization to store records at the State Records Center.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "As Long as Administratively Valuable",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
       "comments": "Obsolete record."
@@ -848,20 +848,20 @@
       "series_id": "49a",
       "series_title": "Records Inventories",
       "series_description": "Worksheets or working papers used to capture records inventory information, including location tracking and to document existence and requirements of a records series.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "US",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "Until Superseded",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "1.2.012"
@@ -879,17 +879,17 @@
       "series_id": "50a",
       "series_title": "Records Access and Locator Aids",
       "series_description": "Documentation used to provide and improve access to records. Includes indexes, card files, shelf lists, registers, guides, and other finding aids.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "After Closed",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
       "comments": "CAUTION: These records must carry\nthe same retention period and\narchival code of the records they\nsupport."
@@ -910,20 +910,20 @@
       "series_id": "51a",
       "series_title": "Records Management Policies and Procedures",
       "series_description": "Records management plans and similar records that establish the policies and procedures under which records and information are managed in an agency.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "US",
-      "duration_years": "1",
-      "duration_months": "",
-      "disposition": "Until Superseded plus 1 year",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition": "Until Superseded plus 1 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "1.2.014"
@@ -941,20 +941,20 @@
       "series_id": "52a",
       "series_title": "Disaster Recovery Service Transmittals",
       "series_description": "Transmittals and related service documentation (e.g. form RMD 109) for disaster recovery services provided by TSLAC or other entities.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "As Long as Administratively Valuable",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "1.2.015"
@@ -972,20 +972,20 @@
       "series_id": "53a",
       "series_title": "Disaster Recovery Service Approval Forms",
       "series_description": "Forms used by TSLAC (e.g. form RMD 113) or other entities to establish disaster recovery services, authorize agency staff to access the media, etc.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "After Closed",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "1.2.016"
@@ -1003,17 +1003,17 @@
       "series_id": "55a",
       "series_title": "Master Files and Application Data",
       "series_description": "Relatively long-lived computer files containing organized and consistent sets of complete and accurate electronic records and associated processing files. Examples include, but are not limited to, data tables of relational databases used by applications or computer programs.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "After Closed",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
       "comments": "CAUTION: Records management\nofficers must be certain before\nassigning the retention period of AC\nto agency master files and\napplication data that the files do\nnot fall under records series listed\nelsewhere."
@@ -1038,13 +1038,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "After Closed",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
       "comments": "CAUTION: Software needed for\naccess to electronic records must\nbe retained for the period of time\nrequired to access the records."
@@ -1069,13 +1069,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "After Closed",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
       "comments": "CAUTION: Software needed for\naccess to electronic records must\nbe retained for the period of time\nrequired to access the records."
@@ -1100,13 +1100,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "After Closed",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
       "comments": "CAUTION: Software needed for\naccess to electronic records must\nbe retained for the period of time\nrequired to access the records."
@@ -1127,20 +1127,20 @@
       "series_id": "59a",
       "series_title": "Audit Trail Records",
       "series_description": "Files needed for electronic data audits. Records include but are not limited to: reports showing transactions accepted, rejected, suspended, and/or processed; history files or tapes; records of updates to application files; and security logs.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "After Closed",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "2.1.010"
@@ -1158,20 +1158,20 @@
       "series_id": "62a",
       "series_title": "Data Input Documents",
       "series_description": "Forms and logs used to enter and reconcile data sets submitted for processing.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "After Closed",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "2.2.011"
@@ -1189,17 +1189,17 @@
       "series_id": "63a",
       "series_title": "Quality Assurance Records",
       "series_description": "Information verifying the quality of system, hardware, or software operations. Records include but are not limited to: records of errors or failures and the loss of data resulting from such failures; documentation of abnormal termination and of error-free processing; checks of changes put into production; transaction histories; and other records needed as an audit trail to evaluate data accuracy.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "After Closed",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
       "comments": "For quality control records related\nto non-IT procedures."
@@ -1220,20 +1220,20 @@
       "series_id": "64a",
       "series_title": "Software Registrations, Warranties, and License Agreements",
       "series_description": "Records documenting the registration and licensing of a software application to activate the software for legal use by the end users of a state agency, along with warranties providing that the software will perform in accordance with functional specifications.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "LA",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "Life of Asset plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "2.2.016"
@@ -1255,16 +1255,16 @@
     },
     "retention_rules": {
       "trigger_event": "US",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "Until Superseded",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "2.2.018"
@@ -1282,20 +1282,20 @@
       "series_id": "67a",
       "series_title": "Applications for Employment - Hired",
       "series_description": "Applications, resumes, transcripts, letters of reference, and similar documents whose submission by candidates for vacant positions is required on the application form, by application procedures, or in the employment advertisement.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "5",
-      "duration_months": "",
+      "duration_years": 5,
+      "duration_months": null,
       "disposition": "After Closed plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.1.002"
@@ -1313,20 +1313,20 @@
       "series_id": "68a",
       "series_title": "Employee Counseling Records",
       "series_description": "Notes, memoranda, or reports relating to the counseling of an employee for work- related, personal, or substance abuse problems. Usually maintained at the supervisorial level except in those agencies with counseling staff.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "After Closed plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.1.006"
@@ -1348,16 +1348,16 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "duration_years": "2",
-      "duration_months": "",
+      "duration_years": 2,
+      "duration_months": null,
       "disposition": "2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.1.012"
@@ -1379,16 +1379,16 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "7",
-      "duration_months": "",
+      "duration_years": 7,
+      "duration_months": null,
       "disposition": "After Closed plus 7 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.1.013a"
@@ -1410,16 +1410,16 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "4",
-      "duration_months": "",
+      "duration_years": 4,
+      "duration_months": null,
       "disposition": "After Closed plus 4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.1.013b"
@@ -1441,16 +1441,16 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "duration_years": "2",
-      "duration_months": "",
+      "duration_years": 2,
+      "duration_months": null,
       "disposition": "2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.1.019"
@@ -1468,20 +1468,20 @@
       "series_id": "77a",
       "series_title": "Personnel Disciplinary Action Documentation",
       "series_description": "Disciplinary actions are those actions which may affect pay, status, or tenure. They are imposed to discipline an employee whose conduct is harmful to the best interests of the state, the agency, or the employee work force; and for failure to improve performance or conduct following imposition of corrective action. May include cause for demotion, suspension, or dismissal, and the reasons for failure to give written notice of resignation. May also be used to document evidence of employee self- improvement efforts, as well as favorable and unfavorable communication.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "5",
-      "duration_months": "",
+      "duration_years": 5,
+      "duration_months": null,
       "disposition": "After Closed plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.1.021"
@@ -1503,16 +1503,16 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "duration_years": "2",
-      "duration_months": "",
+      "duration_years": 2,
+      "duration_months": null,
       "disposition": "2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.1.022"
@@ -1534,16 +1534,16 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "4",
-      "duration_months": "",
+      "duration_years": 4,
+      "duration_months": null,
       "disposition": "After Closed plus 4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.1.023"
@@ -1561,17 +1561,17 @@
       "series_id": "80a",
       "series_title": "Criminal History Checks",
       "series_description": "Criminal history record information on job applicants or agency employees obtained from the Department of Public Safety (DPS).",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "After Closed",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
       "comments": "CAUTION: An agency that is\nauthorized to obtain a criminal\nhistory record information from\nDPS must refer to its agency's\nlegislation or see Subchapter F,\nChapter 411, Government Code for\nappropriate retention and use of\nthis information."
@@ -1592,20 +1592,20 @@
       "series_id": "81a",
       "series_title": "Training and Educational Achievement Records (Individual)",
       "series_description": "Certificates of completion, certifications, licenses, transcripts, test scores, or similar records documenting the training, testing, certification, licensing, or continuing education achievements of an employee.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "5",
-      "duration_months": "",
+      "duration_years": 5,
+      "duration_months": null,
       "disposition": "After Closed plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.1.027"
@@ -1627,16 +1627,16 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "After Closed",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.1.029"
@@ -1654,20 +1654,20 @@
       "series_id": "83a",
       "series_title": "Employee Recognition Records",
       "series_description": "A wards, incentives, tenure, etc",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "5",
-      "duration_months": "",
+      "duration_years": 5,
+      "duration_months": null,
       "disposition": "After Closed plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.1.037"
@@ -1685,20 +1685,20 @@
       "series_id": "85a",
       "series_title": "Employee Acknowledgement and Agreement Forms",
       "series_description": "Agreements between employee and agency authorizing certain actions, including acknowledgement forms, telecommuting agreements, outside/secondary employment authorizations, or other documentation that show proof of receipt and awareness of and adherence to agency policies and procedures.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "2",
-      "duration_months": "",
+      "duration_years": 2,
+      "duration_months": null,
       "disposition": "After Closed plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.1.041"
@@ -1720,16 +1720,16 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "2",
-      "duration_months": "",
+      "duration_years": 2,
+      "duration_months": null,
       "disposition": "After Closed plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.1.042"
@@ -1747,20 +1747,20 @@
       "series_id": "87a",
       "series_title": "Employee Deduction Authorizations",
       "series_description": "Documentation used to start, modify, or stop all voluntary or required deductions from payroll, including garnishment or other court-ordered attachments.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "4",
-      "duration_months": "",
+      "duration_years": 4,
+      "duration_months": null,
       "disposition": "After Closed plus 4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.2.001"
@@ -1782,16 +1782,16 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "duration_years": "4",
-      "duration_months": "",
+      "duration_years": 4,
+      "duration_months": null,
       "disposition": "4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.2.002"
@@ -1813,16 +1813,16 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "4",
-      "duration_months": "",
+      "duration_years": 4,
+      "duration_months": null,
       "disposition": "After Closed plus 4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.2.003"
@@ -1844,16 +1844,16 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "duration_years": "2",
-      "duration_months": "",
+      "duration_years": 2,
+      "duration_months": null,
       "disposition": "2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.2.004"
@@ -1875,16 +1875,16 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "4",
-      "duration_months": "",
+      "duration_years": 4,
+      "duration_months": null,
       "disposition": "After Closed plus 4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.2.005"
@@ -1906,16 +1906,16 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "duration_years": "2",
-      "duration_months": "",
+      "duration_years": 2,
+      "duration_months": null,
       "disposition": "2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.2.006"
@@ -1933,20 +1933,20 @@
       "series_id": "93a",
       "series_title": "Unemployment Compensation Records",
       "series_description": "Records and documentation relating to unemployment compensation claims, including reimbursement of funds disbursed by Texas Workforce Commission (TWC).",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "5",
-      "duration_months": "",
+      "duration_years": 5,
+      "duration_months": null,
       "disposition": "After Closed plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.2.007"
@@ -1964,20 +1964,20 @@
       "series_id": "94a",
       "series_title": "Direct Deposit Application/Authorizations",
       "series_description": "Forms used to deposit employee’s earnings into a specified personal account.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "After Closed",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.2.008"
@@ -1995,20 +1995,20 @@
       "series_id": "95a",
       "series_title": "State Deferred Compensation Records",
       "series_description": "Records documenting the amount of pension or deferred compensation earned by individual employees.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "duration_years": "4",
-      "duration_months": "",
+      "duration_years": 4,
+      "duration_months": null,
       "disposition": "4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.2.009"
@@ -2030,16 +2030,16 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "duration_years": "5",
-      "duration_months": "",
+      "duration_years": 5,
+      "duration_months": null,
       "disposition": "5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.3.001"
@@ -2057,20 +2057,20 @@
       "series_id": "97a",
       "series_title": "Labor Statistics Reports",
       "series_description": "Reports providing statistical information on labor force.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.3.010"
@@ -2088,20 +2088,20 @@
       "series_id": "99a",
       "series_title": "Positions/Job Classification Review File",
       "series_description": "Records relating to review and monitoring of job classifications within an agency.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "US",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "Until Superseded plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.3.015"
@@ -2119,20 +2119,20 @@
       "series_id": "100a",
       "series_title": "Work Schedules/ Assignments",
       "series_description": "Work, duty, shift, crew, or case schedules, rosters, or assignments.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "As Long as Administratively Valuable",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.3.020"
@@ -2150,20 +2150,20 @@
       "series_id": "101a",
       "series_title": "Texas Workforce Commission (TWC) Reports",
       "series_description": "Reports to the agency from TWC or its predecessor pertaining to employees.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.3.022"
@@ -2181,20 +2181,20 @@
       "series_id": "102a",
       "series_title": "Reimbursable Activity Records",
       "series_description": "Requests and authorizations for travel; participation in educational programs, workshops, or college classes; or for other work-related activities for which the expenses of the employee are defrayed or reimbursed.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "Fiscal Year End plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.3.023"
@@ -2212,20 +2212,20 @@
       "series_id": "103a",
       "series_title": "Personnel Policies and Procedures",
       "series_description": "Any internally distributed manuals, guidelines, or similar records that define agency wide policies and procedures concerning the personnel of an agency.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "US",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "Until Superseded plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.3.024"
@@ -2243,20 +2243,20 @@
       "series_id": "104a",
       "series_title": "Job Procedure Records",
       "series_description": "Any documents detailing the procedural duties and responsibilities of agency positions on a position-by-position basis.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "US",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "Until Superseded plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.3.025"
@@ -2274,20 +2274,20 @@
       "series_id": "105a",
       "series_title": "Agency Staffing Reports",
       "series_description": "Any reports compiled by an agency on aspects of personnel staffing, including listings of all staff by program or name, staff hired during a month, detailed listings of employees within its organizational structure, position vacancies, analyses of turnover rates and seasonality of employment, etc.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "US",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "Until Superseded plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.3.026"
@@ -2309,16 +2309,16 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.3.031"
@@ -2340,16 +2340,16 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.3.033"
@@ -2367,20 +2367,20 @@
       "series_id": "109a",
       "series_title": "Accumulated Leave Adjustment Requests",
       "series_description": "Used to create employee leave balances, to transfer leave balances when an employee transfers positions, to adjust carry-over balances at end of fiscal year, to correct errors on leave accumulation, and to close out leave accounts on separated employees.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "Fiscal Year End plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.4.001"
@@ -2398,20 +2398,20 @@
       "series_id": "110a",
       "series_title": "Leave Status Reports",
       "series_description": "Cumulative report is issued each pay cycle and provides employee leave status information for each position.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "Fiscal Year End plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.4.002"
@@ -2433,16 +2433,16 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "duration_years": "4",
-      "duration_months": "",
+      "duration_years": 4,
+      "duration_months": null,
       "disposition": "4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.4.006"
@@ -2464,16 +2464,16 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "Fiscal Year End plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.4.007"
@@ -2491,20 +2491,20 @@
       "series_id": "114a",
       "series_title": "Sick Leave Pool Documentation",
       "series_description": "Requests submitted, approvals, number of hours transferred in and out, etc.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "Fiscal Year End plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.4.008"
@@ -2522,17 +2522,17 @@
       "series_id": "119a",
       "series_title": "Annual Financial Reports",
       "series_description": "Annual Financial Reports (AFR) required by the General Appropriations Act (100 Day Report).",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "6",
-      "duration_months": "",
+      "duration_years": 6,
+      "duration_months": null,
       "disposition": "After Closed plus 6 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
       "comments": "ARCHIVES NOTE: The final version\nof Annual Financial Reports must\nbe submitted to the Texas State\nPublications Depository Program\nper 13 TAC 3.3(a)(2)(a). Working\nfiles and related documentation\nused in creating the final plan are\nnot subject to archival review and\nmay be disposed of at the\nexpiration of the retention period.\nCAUTION: If an agency does not\nproduce a biennial or annual\nnarrative report, then these annual\nfinancial reports must be marked\nwith Archival Code A. The archival\nrequirement, when a biennial or\nannual narrative report is not\nproduced, is met by sending the\nrequired copies of the reports to\nthe Texas State Publications\nDepository Program, Texas State\nLibrary and Archives Commission."
@@ -2553,20 +2553,20 @@
       "series_id": "120a",
       "series_title": "USAS Reports – Daily/Monthly",
       "series_description": "Periodic reports compiled from information entered into the Uniform Statewide Accounting System (USAS).",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "After Closed",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "4.5.007"
@@ -2584,20 +2584,20 @@
       "series_id": "121a",
       "series_title": "USAS Reports - Annual",
       "series_description": "Yearly report compiled from information entered into the Uniform Statewide Accounting System (USAS).",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "Fiscal Year End plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "4.5.009"
@@ -2615,20 +2615,20 @@
       "series_id": "122a",
       "series_title": "Accounting Policies and Procedures Manual",
       "series_description": "Records documenting the internal and external procedural requirements with respect to the accounting department of a state agency.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "US",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "Until Superseded plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "4.7.001"
@@ -2646,20 +2646,20 @@
       "series_id": "123a",
       "series_title": "Capital Asset Records",
       "series_description": "Documentation relating to the capital and fixed assets of a state agency, including equipment or property history cards containing data on initial cost, depreciation schedules or summaries used for capital outlay budgeting, and property sale, auction, or disposal records of agency owned equipment and property.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "LA",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "Life of Asset plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "4.7.004"
@@ -2677,20 +2677,20 @@
       "series_id": "124a",
       "series_title": "Claim Files",
       "series_description": "Records documenting requests for payment of a sum of money according to the terms of a policy or contract.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "After Closed plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "4.7.005"
@@ -2708,17 +2708,17 @@
       "series_id": "125a",
       "series_title": "Grant Records",
       "series_description": "This series documents state, federal, and other sponsored grant projects participated in or administered by state agencies. It includes grant authorization records, which provide evidence of the award of grants to or by agencies; grant/project financial or performance reports, which are periodic reports of financial activity and/or program performance related to grants received or made by agencies.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "After Closed plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
       "comments": "CAUTION: Retention requirements\nmay vary depending on the specific\nfunding agency. Records in this\nseries may be subject to\nGovernment Code 441.1855.\nAgencies must ensure that records\nare retained for the appropriate\nretention period."
@@ -2739,20 +2739,20 @@
       "series_id": "126a",
       "series_title": "Long-Term Liability Records",
       "series_description": "Records documenting financial obligations of a state agency that are not payable within one year of the date of the balance sheet, including debentures, loans, deferred tax liabilities, bonds, and pension obligations.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "After Closed plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "4.7.010"
@@ -2770,20 +2770,20 @@
       "series_id": "127a",
       "series_title": "Signature Authorizations",
       "series_description": "Signature cards or similar records establishing authority of an agency employee to initiate or authorize financial transactions on behalf of an agency.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "4",
-      "duration_months": "",
+      "duration_years": 4,
+      "duration_months": null,
       "disposition": "After Closed plus 4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "4.7.012"
@@ -2805,16 +2805,16 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "duration_years": "5",
-      "duration_months": "",
+      "duration_years": 5,
+      "duration_months": null,
       "disposition": "5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "4.7.013"
@@ -2832,20 +2832,20 @@
       "series_id": "129a",
       "series_title": "Banking Records",
       "series_description": "Bank statements, credit card statements, cancelled checks, check registers, deposit slips, debit and credit notices, reconciliations, and other banking related records.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "Fiscal Year End plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "4.8.001"
@@ -2863,20 +2863,20 @@
       "series_id": "130a",
       "series_title": "Annual Operating Budgets",
       "series_description": "Required by the General Appropriations Act. Includes encumbrances and documentation about budget transfers and revisions, as well as detail charts of accounts.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "Fiscal Year End plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "4.9.001"
@@ -2894,20 +2894,20 @@
       "series_id": "133a",
       "series_title": "Delivery Reports",
       "series_description": "Records documenting incoming or outgoing deliveries, including through private courier services.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "duration_years": "2",
-      "duration_months": "",
+      "duration_years": 2,
+      "duration_months": null,
       "disposition": "2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "5.1.003"
@@ -2925,20 +2925,20 @@
       "series_id": "134a",
       "series_title": "Mail and Telecommunications Listings",
       "series_description": "Any mailing address, telephone or fax number, or email address records maintained by an agency on its employees or on entities or persons it serves.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "US",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "Until Superseded",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "5.1.004"
@@ -2956,20 +2956,20 @@
       "series_id": "135a",
       "series_title": "Postage Records",
       "series_description": "Records and reports of postage expenses, including postal meter usage.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "Fiscal Year End plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "5.1.005"
@@ -2987,20 +2987,20 @@
       "series_id": "136a",
       "series_title": "Photocopier and Telefax Usage Logs and Reports",
       "series_description": "Registers or logs of print copies and fax transmissions made by user or in total.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "As Long as Administratively Valuable",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "5.1.011"
@@ -3022,16 +3022,16 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "7",
-      "duration_months": "",
+      "duration_years": 7,
+      "duration_months": null,
       "disposition": "After Closed plus 7 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "5.1.013a"
@@ -3053,16 +3053,16 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "4",
-      "duration_months": "",
+      "duration_years": 4,
+      "duration_months": null,
       "disposition": "After Closed plus 4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "5.1.013b"
@@ -3080,20 +3080,20 @@
       "series_id": "139a",
       "series_title": "Office Procedures",
       "series_description": "Any internally distributed manual, guidelines, or similar records that establish standard office procedures for an agency, e.g. agency style manuals, telephone protocols, mail room procedures, print shop and photocopy ordering instructions.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "US",
-      "duration_years": "1",
-      "duration_months": "",
-      "disposition": "Until Superseded plus 1 year",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition": "Until Superseded plus 1 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "5.1.014"
@@ -3111,20 +3111,20 @@
       "series_id": "140a",
       "series_title": "Correspondence Tracking Records",
       "series_description": "Any record created by an agency to track any type of incoming and outgoing correspondence or packages by the U.S. Postal Service (USPS) or by private couriers.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "duration_years": "1",
-      "duration_months": "",
-      "disposition": "1 year",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition": "1 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "5.1.015"
@@ -3142,20 +3142,20 @@
       "series_id": "141a",
       "series_title": "Contract Log",
       "series_description": "List of agency contracts, leases, and agreements, including general obligation, land lease, utilities, and construction contracts.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "Fiscal Year End plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "5.1.017"
@@ -3173,20 +3173,20 @@
       "series_id": "144a",
       "series_title": "Equipment Manuals",
       "series_description": "",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "LA",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "Life of Asset",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "5.2.010"
@@ -3204,20 +3204,20 @@
       "series_id": "145a",
       "series_title": "Equipment Warranties",
       "series_description": "",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "1",
-      "duration_months": "",
-      "disposition": "After Closed plus 1 year",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition": "After Closed plus 1 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "5.2.011"
@@ -3235,20 +3235,20 @@
       "series_id": "147a",
       "series_title": "Space Utilization Reports",
       "series_description": "Reports summarizing efficiency of facility space utilization, which may include data on room usage, demand, allocation, and capacity.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "As Long as Administratively Valuable",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "5.2.027"
@@ -3266,17 +3266,17 @@
       "series_id": "148a",
       "series_title": "Returned Mail",
       "series_description": "Documentation of mail returned by the postal or other mail delivery services as undeliverable.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "1",
-      "duration_months": "",
-      "disposition": "After Closed plus 1 year",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition": "After Closed plus 1 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
       "comments": "CAUTION: If corrected address\nprovided and mail rerouted,\nmaintain address update\ndocumentation for prescribed\nretention period."
@@ -3297,17 +3297,17 @@
       "series_id": "149a",
       "series_title": "Shipping Information",
       "series_description": "Shipping information, including order acknowledgements, packing slips, and related documentation.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "As Long as Administratively Valuable",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
       "comments": "CAUTION: Some shipping\ninformation may require longer\nretention period. State agencies\nmust determine if longer retention\nperiod is required based on the\ntype of materials shipped to or\nfrom their agency."
@@ -3332,16 +3332,16 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "7",
-      "duration_months": "",
+      "duration_years": 7,
+      "duration_months": null,
       "disposition": "After Closed plus 7 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "5.3.007a"
@@ -3363,16 +3363,16 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "Fiscal Year End plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "5.3.007b"
@@ -3390,20 +3390,20 @@
       "series_id": "152a",
       "series_title": "Bid Documentation – Invalid Bids",
       "series_description": "Invalid bids that do not meet agency submission requirements and are not included in bid evaluation process (e.g. withdrawn, missed submission deadline, incomplete submission, etc.)",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "2",
-      "duration_months": "",
+      "duration_years": 2,
+      "duration_months": null,
       "disposition": "After Closed plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "5.3.007c"
@@ -3421,20 +3421,20 @@
       "series_id": "153a",
       "series_title": "Purchasing Logs",
       "series_description": "Log, register, etc., providing a record of purchase orders issued, orders received, and similar data on procurement status.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "Fiscal Year End plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "5.3.008"
@@ -3452,20 +3452,20 @@
       "series_id": "156a",
       "series_title": "Evacuation Plans",
       "series_description": "Plans for evacuation of agency facilities in cases of emergency",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "US",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "Until Superseded",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "5.4.002"
@@ -3483,17 +3483,17 @@
       "series_id": "157a",
       "series_title": "Inspection Records",
       "series_description": "Fire, safety, and other inspection records of agency facilities and equipment, including orders issued by inspectors to correct deficiencies in compliance with any code or regulations.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "After Closed plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
       "comments": "CAUTION: Does not include\ninspection reports of building\nconstruction."
@@ -3514,20 +3514,20 @@
       "series_id": "158a",
       "series_title": "Visitor Control Registers",
       "series_description": "Logs, registers, or similar records documenting visitors to limited access or restricted areas of agency facilities.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "5.4.011"
@@ -3545,20 +3545,20 @@
       "series_id": "159a",
       "series_title": "Security Access Records",
       "series_description": "Records relating to the issuance of keys, identification cards, building passes, passwords, signed statements or similar instruments of access to agency or state facilities, equipment or automated systems.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "2",
-      "duration_months": "",
+      "duration_years": 2,
+      "duration_months": null,
       "disposition": "After Closed plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "5.4.012"
@@ -3576,20 +3576,20 @@
       "series_id": "161a",
       "series_title": "Accident Reports – Adults",
       "series_description": "Reports of accidents to adults on state property or in any other situation in which the state agency could be a party to a lawsuit.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "After Closed plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "5.4.014a"
@@ -3607,20 +3607,20 @@
       "series_id": "165a",
       "series_title": "Vehicle Titles and Registrations",
       "series_description": "Vehicle titles, registration information, and owner manuals for state vehicles.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "LA",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "Life of Asset",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "5.6.007"
@@ -3638,20 +3638,20 @@
       "series_id": "166a",
       "series_title": "Parking Permits or Assignments",
       "series_description": "Records documenting issuance of parking permits and assignments.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "US",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "Until Superseded",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "5.6.009"
@@ -3673,19 +3673,19 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "After Closed plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
-      "rsin": ""
+      "rsin": null
     }
   },
   {
@@ -3704,19 +3704,19 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "After Closed plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-01-20",
       "next_update_due": "2027-01",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
-      "rsin": ""
+      "rsin": null
     }
   }
 ]

@@ -155,16 +155,24 @@ def clean_record_fields(record: dict, config: StateScheduleConfig) -> dict:
         if cit_match:
             legal_citation = cit_match.group(0).strip()
 
+    # Normalize empty strings to None for nullable fields
+    def _null_if_empty(v):
+        return None if (v == '' or v is None) else v
+
     # Update nested structure
     set_nested_val(record, 'series_title', title)
     set_nested_val(record, 'series_description', desc)
-    set_nested_val(record, 'legal_citation', legal_citation)
+    set_nested_val(record, 'legal_citation', _null_if_empty(legal_citation))
     set_nested_val(record, 'trigger_event', trigger_code)
-    set_nested_val(record, 'retention_years', retention_years)
-    set_nested_val(record, 'retention_months', retention_months)
+    set_nested_val(record, 'retention_years', retention_years if retention_years != '' else None)
+    set_nested_val(record, 'retention_months', retention_months if retention_months != '' else None)
     set_nested_val(record, 'disposition', full_disposition)
     set_nested_val(record, 'confidential', is_confidential)
     set_nested_val(record, 'last_checked', str(date.today()))
+
+    # Normalize other nullable fields
+    for flat_key in ('url', 'agency_name', 'series_id', 'last_updated', 'next_update', 'comments', 'rsin'):
+        set_nested_val(record, flat_key, _null_if_empty(get_nested_val(record, flat_key)))
 
     return record
 

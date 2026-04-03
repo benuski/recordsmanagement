@@ -11,17 +11,17 @@
       "series_id": "TEMP002",
       "series_title": "Complaint Records",
       "series_description": "Complaints received by an agency from the public concerning the agency and records pertaining to the resolution of the complaint.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "2",
-      "duration_months": "",
+      "duration_years": 2,
+      "duration_months": null,
       "disposition": "After Closed plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2020-05-05",
       "next_update_due": "2025-05",
       "comments": "CAUTION: If a complaint becomes\nthe subject of litigation, it must be\nincluded in and is subject to the\nminimum retention period of item\nnumber 1.1.048."
@@ -46,16 +46,16 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "After Closed plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2020-05-05",
       "next_update_due": "2025-05",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "1.1"
@@ -73,17 +73,17 @@
       "series_id": "27",
       "series_title": "Opinions",
       "series_description": "",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2020-05-05",
       "next_update_due": "2025-05",
       "comments": "CAUTION: Does not include legal\nopinions or advice rendered on a\ncase in litigation or with regard to\npending litigation."
@@ -104,17 +104,17 @@
       "series_id": "TEMP001",
       "series_title": "Building Plans and Specifications - Leased",
       "series_description": "Includes architectural and engineering drawings, profiles, and blueprints. State owned:",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "2",
-      "duration_months": "",
+      "duration_years": 2,
+      "duration_months": null,
       "disposition": "After Closed plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2020-05-05",
       "next_update_due": "2025-05",
       "comments": "SEE ALSO item numbers 5.2.002\nand 5.2.028. ARCHIVES NOTE:\nArchival Review designation is for\nstate-owned building only."

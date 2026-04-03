@@ -152,11 +152,11 @@ def parse_retention_field(retention_text: str, retention_codes: dict) -> dict:
         
     for unit in ['year', 'month']:
         m = re.search(fr'(\d+(?:\.\d+)?)\s*(?:{unit})', retention_text, re.IGNORECASE)
-        if m: result[f'retention_{unit}s'] = m.group(1)
-    
+        if m: result[f'retention_{unit}s'] = int(float(m.group(1)))
+
     if not any([result['retention_years'], result['retention_months']]):
         num_match = re.search(r'\+\s*(\d+(?:\.\d+)?)', retention_text)
-        if num_match: result['retention_years'] = num_match.group(1)
+        if num_match: result['retention_years'] = int(float(num_match.group(1)))
 
     parts = []
     for unit in ['year', 'month']:

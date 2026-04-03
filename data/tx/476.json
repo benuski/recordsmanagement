@@ -15,13 +15,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "duration_years": "5",
-      "duration_months": "",
+      "duration_years": 5,
+      "duration_months": null,
       "disposition": "As Long as Administratively Valuable plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition:\nRecycle"
@@ -46,13 +46,13 @@
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "duration_years": "5",
-      "duration_months": "",
+      "duration_years": 5,
+      "duration_months": null,
       "disposition": "As Long as Administratively Valuable plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition:\nRecycle"
@@ -77,13 +77,13 @@
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "duration_years": "5",
-      "duration_months": "",
+      "duration_years": 5,
+      "duration_months": null,
       "disposition": "Calendar Year End plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition:\nRecycle; CAUTION: Does not include\ninformation that is directly related\nto another records series on the\nagency's approved schedule."
@@ -104,20 +104,20 @@
       "series_id": "1-6",
       "series_title": "Executive Orders",
       "series_description": "Any document that initiates, rescinds or amends a regulation, policy or procedure that governs the programs, services or projects of an agency.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "US",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "Until Superseded plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "1.1.011"
@@ -139,13 +139,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "5",
-      "duration_months": "",
+      "duration_years": 5,
+      "duration_months": null,
       "disposition": "After Closed plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred\nAlso see Database Series.\nCAUTION: If a complaint becomes\nthe subject of litigation, it must be\nincluded in and is subject to the\nminimum retention period of AIN 1-\n19."
@@ -166,17 +166,17 @@
       "series_id": "1-8",
       "series_title": "Correspondence - Administrative",
       "series_description": "Incoming/outgoing and internal correspondence pertaining to the formulation, planning, implementation, interpretation, modification, or redefinition of the programs, services, or projects of an agency and the administrative regulations, policies, and procedures that govern them.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "duration_years": "4",
-      "duration_months": "",
+      "duration_years": 4,
+      "duration_months": null,
       "disposition": "4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition:\nArchives; ARCHIVES NOTE: Only the\nadministrative correspondence of\nexecutive staff, board or\ncommission members, division\ndirectors and program heads\nrequire archival review. Contact the\nState Archives when these records\nhave met their retention periods.\nCAUTION: This records series\nshould be used only for\ncorrespondence that is not included\nin or directly related to another\nrecords series on the agency's\napproved schedule."
@@ -197,17 +197,17 @@
       "series_id": "1-9",
       "series_title": "Correspondence-General",
       "series_description": "Non-administrative incoming/outgoing and internal correspondence, in any media, pertaining to or arising from the routine operations of the policies, programs, or projects of an agency.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred\nCAUTION: This records series\nshould be used only for\ncorrespondence that is not included\nin or directly related to another\nrecords series on the agency's\napproved schedule."
@@ -228,17 +228,17 @@
       "series_id": "1-10",
       "series_title": "Speeches, Papers, and Presentations",
       "series_description": "Notes or text of speeches, papers, presentations, or reports delivered in conjunction with agency work.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "2",
-      "duration_months": "",
+      "duration_years": 2,
+      "duration_months": null,
       "disposition": "After Closed plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "ARCHIVES NOTE: Only speeches,\npapers, and presentations given by\nor on behalf of executive staff,\nboard or commission members,\ndivision directors and program\nheads require archival review."
@@ -259,17 +259,17 @@
       "series_id": "1-11",
       "series_title": "Public Relations Records",
       "series_description": "News, press releases, or any public relation files maintained or issued by an agency. Includes print, electronic, audio, and audiovisual records.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "duration_years": "5",
-      "duration_months": "",
+      "duration_years": 5,
+      "duration_months": null,
       "disposition": "5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition:\nRecycle ARCHIVES NOTE: Contact\nthe State Archives when these\nrecords have met their retention\nperiod."
@@ -294,13 +294,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "2",
-      "duration_months": "",
+      "duration_years": 2,
+      "duration_months": null,
       "disposition": "After Closed plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Record copy: General Counsel"
@@ -321,17 +321,17 @@
       "series_id": "1-14",
       "series_title": "Texas Register Submissions",
       "series_description": "Copies of all proposed, withdrawn, emergency, and adopted rules; open meeting notices; or any other documents required by law to be submitted to the Texas Register.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "1",
-      "duration_months": "",
-      "disposition": "After Closed plus 1 year",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition": "After Closed plus 1 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Electronic; Disposition:\nDelete"
@@ -352,17 +352,17 @@
       "series_id": "1-15",
       "series_title": "Proposed Legislation",
       "series_description": "Drafts of proposed legislation and related correspondence",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "As Long as Administratively Valuable",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition:\nRecycle; Medium: Electronic;\nDisposition: Delete"
@@ -383,17 +383,17 @@
       "series_id": "1-17",
       "series_title": "Plans and Planning Records",
       "series_description": "Plans and records relating to the process of planning new or redefined programs, services or projects of an agency that are not included in or directly related to other records series in this schedule.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "After Closed plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "ARCHIVE NOTE: Data processing\nplanning records are not archival."
@@ -414,17 +414,17 @@
       "series_id": "1-19",
       "series_title": "Litigation Files",
       "series_description": "Records created by or on behalf of an agency in anticipation of or in the adjudication of a lawsuit.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "6",
-      "duration_months": "",
+      "duration_years": 6,
+      "duration_months": null,
       "disposition": "After Closed plus 6 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition:\nArchives ARCHIVES NOTE: Cases\nthat set legal precedent or exhibit\nhistorical value will be evaluated by\nthe Archives and Information\nServices Division of the Texas State\nLibrary and Archives Commission\nfor archival preservation."
@@ -449,13 +449,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "After Closed",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred"
@@ -480,13 +480,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "6",
-      "duration_months": "",
+      "duration_years": 6,
+      "duration_months": null,
       "disposition": "After Closed plus 6 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition:\nPermanent ARCHIVES NOTE: The\nfinal version of Strategic Plans must\nbe submitted to the Texas State\nPublications Depository Program\nper 13 TAC 3.3(a)(2)(C). Working\nfiles and related documentation\nused in creating the final plan are\nnot subject to archival review and\nmay be disposed of at the\nexpiration of the retention period."
@@ -511,13 +511,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred"
@@ -538,17 +538,17 @@
       "series_id": "1-23",
       "series_title": "Transitory Information",
       "series_description": "Records of temporary usefulness that are not an integral part of a records series of an agency, that are not regularly filed within an agency’s recordkeeping system, and that are required only for a limited period of time for the completion of an action by an official or employee of the agency or in the preparation of an ongoing records series. Transitory records are not essential to the fulfillment of statutory obligations or to the documentation of agency functions. Some examples, which can be in any medium (voice mail, fax, email, hard copy, etc.) are routine messages; telephone message notifications; internal meeting notices; routing slips; transmittal correspondence that add nothing of substance to enclosures; and similar routine information used for communication, but not for the documentation, of a specific agency transaction.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "After Closed",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "CAUTION: Records Management\nOfficers should use caution in\nassigning this records series item\nnumber to records of an agency to\nmake certain they are not part of\nanother records series listed in this\nschedule or, for records series\nunique to an agency, are not part of\na records series that documents the\nfulfillment of the statutory\nobligations of the agency or the\ndocumentation of its functions. The\ndisposal of transitory information\nneed not be documented through\ndestruction signoffs (1.2.001) or in\nrecords disposition logs (1.2.010),\nbut agencies should establish\nprocedures governing disposal of\nthese records as part of its records\nmanagement plan (1.2.014)."
@@ -573,13 +573,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition:\nPermanent Medium: Electronic;\nDisposition: Permanent Record\nCopy: Executive Office. ARCHIVES\nNOTE: Agency retains permanent\nrecord copy. The archival\nrequirement will be met by sending\na copy to the Archives and\nInformation Services Division, Texas\nState Library and Archives\nCommission. CAUTION: This records\nseries and item numbers 1.1.059,\n1.1.060, 1.1.061, and 1.1.062 must\nbe used for those state boards,\ncommittees, commissions, and\ncouncils, which by law or the\nbiennial Appropriations Act, are\nadministered by another state\nagency. These records and all\nothers related to the functions of\nany of these dependent entities\nmust be included in the records\nretention schedule of the\nadministering agency."
@@ -604,13 +604,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "2",
-      "duration_months": "",
+      "duration_years": 2,
+      "duration_months": null,
       "disposition": "After Closed plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred\nSEE Caution comment at item\nnumber 1.1.058."
@@ -631,17 +631,17 @@
       "series_id": "1-26",
       "series_title": "Meetings -Supporting Documentation",
       "series_description": "Documents submitted at meetings of commissions, committees and councils including exhibits items, documentation for agenda items,etc. Includes documents sent in advance of meetings for briefing purposes, some of which may not be submitted at an actual meeting.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "duration_years": "2",
-      "duration_months": "",
+      "duration_years": 2,
+      "duration_months": null,
       "disposition": "Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Record Copy: Executive\nOffice/Office of Public\nCommunication. See caution\ncomment at item number 1.1.058"
@@ -662,17 +662,17 @@
       "series_id": "1-27",
       "series_title": "Staff Meeting Minutes and Notes",
       "series_description": "Minutes or notes, and supporting documentation taken at internal agency staff meetings.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred"
@@ -697,13 +697,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition:\nPermanent ARCHIVES NOTE: Agency\nretains permanent record copy. The\narchival requirement is met by\nsending the required copies of the\nplans to the Texas State\nPublications Depository Program,\nTexas State Library and Archives\nCommission. Working files and\nrelated documentation used in\ncreating final report may be\ndisposed of at the expiration of the\nretention period."
@@ -724,17 +724,17 @@
       "series_id": "1-30",
       "series_title": "Reports and Studies (Non- Fiscal)",
       "series_description": "Annual, sub-annual, or special reports or studies on non-fiscal aspects of an agency's programs, services, or projects complied by agency personnel, by advisory committees, or by consultants under contract with an agency that are ot noted elsewhere in this schedule. Includes reports distributed either internally or to other entities.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "Fiscal Year End plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition:\nArchives Medium: Electronic;\nDisposition: Delete. ARCHIVES\nNOTE: Reports are archival when\nthey deal with significant aspects of\nthe agency’s programs. For\nagencies that have had an archival\nappraisal, separate this records\nseries by each type of archival\ncoding, A,R, or E."
@@ -755,17 +755,17 @@
       "series_id": "1-33",
       "series_title": "Public Information Reports",
       "series_description": "Reports made to the Office of Attorney General on agency’s Public Information Act activities.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "duration_years": "2",
-      "duration_months": "",
+      "duration_years": 2,
+      "duration_months": null,
       "disposition": "2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred"
@@ -786,17 +786,17 @@
       "series_id": "1-34",
       "series_title": "Administrative Hearings",
       "series_description": "Transcripts, audio tapes and final decisions of hearings conducted as part of the regulatory process, and hearings on proposed rules and changes. The records may be maintained with related information including meeting notices, proofs of publication and meeting minutes.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "After Closed plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition:\nArchives ARCHIVES NOTE: Only\nrecords that lead to substantial or\nstatutory changes to the operations\nof the agency and its policies and\nprocedures should be retained for\narchival review. Contact the State\nArchives when these records have\nmet their retention periods.\nCAUTION: These records may be\nmaintained with related\ninformation, including meeting\nnotices, proofs of publication, and\nmeeting minutes, and require a\nlonger retention period."
@@ -817,17 +817,17 @@
       "series_id": "1-35",
       "series_title": "Sunset Review Report and Documentation",
       "series_description": "Sunset Review Report, agency self-study, and other correspondence and supporting documentation related to the Sunset review process for state agencies.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "After Closed plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper;\nDisposition:Archives ARCHIVES\nNOTE: Related documentation\nincludes the agency self-evaluation\nreport, agency response to the\ncommission's draft report, and\ndocumentation of the agency's\nimplementation of the\ncommission's final\nrecommendations."
@@ -852,13 +852,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "4",
-      "duration_months": "",
+      "duration_years": 4,
+      "duration_months": null,
       "disposition": "After Closed plus 4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred"
@@ -879,17 +879,17 @@
       "series_id": "1-37",
       "series_title": "Forms History and Maintenance",
       "series_description": "Master versions of all forms used internally and externally by the agency, including subsequent revisions to an agency form or any associated design or design modification requests.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "2",
-      "duration_months": "",
+      "duration_years": 2,
+      "duration_months": null,
       "disposition": "After Closed plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition:\nRecycle"
@@ -910,17 +910,17 @@
       "series_id": "1-39",
       "series_title": "Records Retention Schedule (SLR 105)",
       "series_description": "Agency copy. Includes documentation of certification and approval (SLR 105C) and/or other forms designated by the State Records Administrator.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "US",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "Until Superseded",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition:\nRecycle NOTE: Original is retained\nby the State and Local Records\nManagement Division, Texas State\nLibrary and Archives Commission."
@@ -941,17 +941,17 @@
       "series_id": "1-40",
       "series_title": "Records Transmittal Forms",
       "series_description": "Agency copy. Forms indicate records transferred to storage.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "2",
-      "duration_months": "",
+      "duration_years": 2,
+      "duration_months": null,
       "disposition": "After Closed plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition:\nRecycle"
@@ -972,17 +972,17 @@
       "series_id": "1-41",
       "series_title": "Records Disposition Logs",
       "series_description": "Logs or similar records listing destroyed or transferred to the Archives and Information Services Division, Texas State Library and Archives Commission, showing records series title, dates of records, and date destroyed or transferred.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "duration_years": "10",
-      "duration_months": "",
+      "duration_years": 10,
+      "duration_months": null,
       "disposition": "10 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition:\nRecycle CAUTION: Disposition can\nmean destroyed or transferred."
@@ -1003,17 +1003,17 @@
       "series_id": "1-43",
       "series_title": "Records Inventories",
       "series_description": "Worksheets or working papers used to capt",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "US",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "Until Superseded",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition:\nRec ycle"
@@ -1034,17 +1034,17 @@
       "series_id": "1-44",
       "series_title": "Records Access and Locator Aids",
       "series_description": "Documentation used to provide and improve access to records. Includes indexes, card files, shelf lists, registers, guides, and other finding aids.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "After Closed",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition:\nRecycle CAUTION: These records\nmust carry the same retention\nperiod and archival code of the\nrecords they support."
@@ -1065,17 +1065,17 @@
       "series_id": "1-45",
       "series_title": "Records Management Plans",
       "series_description": "Records management plans and similar records that establish the policies and procedures under which records and information are managed in an agency.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "US",
-      "duration_years": "1",
-      "duration_months": "",
-      "disposition": "Until Superseded plus 1 year",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition": "Until Superseded plus 1 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition:\nRecycle"
@@ -1096,17 +1096,17 @@
       "series_id": "1-46",
       "series_title": "Disaster Preparedness and Recovery Plan/Evacuation Plan",
       "series_description": "Plans for evacuation of agency facilities in cases of emergency.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "US",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "Until Superseded",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition:\nRecycle"
@@ -1127,17 +1127,17 @@
       "series_id": "1-47",
       "series_title": "Mail and Telecommunications Listings",
       "series_description": "Any mailing address, telephone or fax number, or email address records maintained by an agency on its employees or on entities or persons it serves.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "US",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "Until Superseded",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred"
@@ -1158,17 +1158,17 @@
       "series_id": "1-48",
       "series_title": "Office Procedures",
       "series_description": "Any internally distributed manual, guidelines, or similar records that establish standard office procedures for an agency; for example, agency style manuals, telephone protocols, mail room procedures, print shop and photocopy ordering instructions.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "US",
-      "duration_years": "1",
-      "duration_months": "",
-      "disposition": "Until Superseded plus 1 year",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition": "Until Superseded plus 1 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred\nMedium: Electronic;Disposition:\nDelete"
@@ -1189,17 +1189,17 @@
       "series_id": "1-49",
       "series_title": "Correspondence Tracking Records",
       "series_description": "Any record created by an agency to track any type of incoming and outgoing correspondence or packages by the US Postal Service or by private couriers.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "duration_years": "1",
-      "duration_months": "",
-      "disposition": "1 year",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition": "1 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred\nAlso see Database Series."
@@ -1220,17 +1220,17 @@
       "series_id": "1-50",
       "series_title": "Visitor Control Records",
       "series_description": "Logs, registers, or similar records documenting visitors to limited access or restricted areas of agency facilities.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "Fiscal Year End plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Record Copy: Customer Service or\nRacetrack Field Office."
@@ -1251,17 +1251,17 @@
       "series_id": "1-51",
       "series_title": "Organization Charts",
       "series_description": "Charts or diagrams that show the structure of an agency and the relationships and relative ranks of its departments and job positions.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "US",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "Until Superseded",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition:\nArchives. ARCHIVES NOTE: Only\ncharts showing the overall\narrangement and administrative\nstructure of the state agency need\nto be transferred to the Archives\nand Information Services Division,\nTexas State Library and Archives\nCommission. Organizational charts\nshowing division/department level\ndetail are not considered archival."
@@ -1282,17 +1282,17 @@
       "series_id": "1-52",
       "series_title": "Calendars, Appointment and Itinerary Records",
       "series_description": "Maintained by staff during business hours and document appointments, itineraries and other activities of agency officials or employees.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "duration_years": "1",
-      "duration_months": "",
-      "disposition": "Calendar Year End plus 1 year",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition": "Calendar Year End plus 1 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred\nARCHIVES NOTE: Only the\ncalendars, appointment and\nitinerary records of elected officials,\nexecutive staff, board or\ncommission members, division\ndirectors, and program heads\nrequire archival review. Contact the\nState Archives when these records\nhave met their retention periods.\nCAUTION: A record of this type\npurchased with personal funds, but\nused by a state official or employee\nto document his or her work\nactivities may be a state record and\nsubject to this retnetion period. See\nOpen Records Decision 635 issued\nin December 1995 by the Attorney\nGeneral."
@@ -1313,17 +1313,17 @@
       "series_id": "1-53",
       "series_title": "Safety, Drill and Inspection Records",
       "series_description": "Fire, safety, and emergency drill, alarm, and other inspection records of agency facilities and equipment, including orders issued by inspectors to correct deficiencies in compliance with any code or regulations.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "After Closed plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred\nAC = Date of drill, alarm, inspection,\nor date of the correction of\ndeficiency, whichever applicable.\nCAUTION: Does not include\ninspection reports of building\nconstruction."
@@ -1344,17 +1344,17 @@
       "series_id": "1-55",
       "series_title": "Security Access Records",
       "series_description": "Records relating to the issuance of keys, ID cards, building passes, passwords, etc., relating to access to agency facilities, equipment, or automated systems.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "2",
-      "duration_months": "",
+      "duration_years": 2,
+      "duration_months": null,
       "disposition": "After Closed plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Electronic; Disposition:\nDelete"
@@ -1375,17 +1375,17 @@
       "series_id": "1-56",
       "series_title": "Work Schedules/Assignments",
       "series_description": "Work, duty, shift, crew, or case schedules, or assignments.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "US",
-      "duration_years": "1",
-      "duration_months": "",
-      "disposition": "Until Superseded plus 1 year",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition": "Until Superseded plus 1 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition:\nRecycle Medium: Electronic;\nDisposition: Delete"
@@ -1406,17 +1406,17 @@
       "series_id": "1-57",
       "series_title": "Racetrack; Regulatory Files",
       "series_description": "Includes ownership and financial statements.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition:\nPermanent Also see Database\nSeries. May contain some\nconfidential information; legal\nreview before release."
@@ -1441,13 +1441,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "15",
-      "duration_months": "",
+      "duration_years": 15,
+      "duration_months": null,
       "disposition": "After Closed plus 15 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred\nAC + 1, Storage 14 years. RETURN\nTO AGENCY. May contain some\nconfidential information; legal\nreview before release."
@@ -1472,13 +1472,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "15",
-      "duration_months": "",
+      "duration_years": 15,
+      "duration_months": null,
       "disposition": "After Closed plus 15 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred\nAC + 1, Storage 14 years. RETURN\nTO AGENCY. May contain some\nconfidential information; legal\nreview before release."
@@ -1499,17 +1499,17 @@
       "series_id": "1-60",
       "series_title": "Kennel Contracts",
       "series_description": "Contracts between kennel owners and greyhound race tracks that are submitted for review to ensure compliance.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "duration_years": "1",
-      "duration_months": "",
-      "disposition": "Calendar Year End plus 1 year",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition": "Calendar Year End plus 1 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred"
@@ -1530,17 +1530,17 @@
       "series_id": "1-61",
       "series_title": "Training Track License Regulatory Files",
       "series_description": "Includes training facility applications and correspondence.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "US",
-      "duration_years": "2",
-      "duration_months": "",
+      "duration_years": 2,
+      "duration_months": null,
       "disposition": "Until Superseded plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred"
@@ -1565,13 +1565,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "1",
-      "duration_months": "",
-      "disposition": "After Closed plus 1 year",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition": "After Closed plus 1 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred"
@@ -1596,13 +1596,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "Fiscal Year End plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred"
@@ -1627,13 +1627,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "2",
-      "duration_months": "",
+      "duration_years": 2,
+      "duration_months": null,
       "disposition": "After Closed plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Record Copy: Executive Office\nCAUTION: Many state publications\nmust be submitted to the Texas\nState Publications Depository\nProgram, Texas State Library and\nArchives Commission, by law\n(Government Code 441.101-\n441.106). The Texas State Library\nand Archives Commission will retain\na copy of all state publications\nsubmitted to it on a continuing\nbasis, subject to periodic evaluation\nto determine if the publication\nmerits further retention. For\nadditional information and\nrequirements concerning state\npublications made available to the\npublic through the internet, consult\nthe administrative rules of the\nTexas State Publication Depository\nProgram of the Texas State Library\nand Archives Commission."
@@ -1654,17 +1654,17 @@
       "series_id": "2-1",
       "series_title": "Legislative Appropriations Requests",
       "series_description": "Including any supporting documentation created and/or used to justify and support legislative appropriations requests by an agency.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "6",
-      "duration_months": "",
+      "duration_years": 6,
+      "duration_months": null,
       "disposition": "After Closed plus 6 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred\nARCHIVES NOTE: The final version\nof Legislative Appropriation\nRequests must be submitted to the\nTexas State Publications Depository\nProgram per 13 TAC 3.3(a)(3)(A).\nWorking files and related\ndocumentation used in creating the\nfinal plan are not subject to archival\nreview and may be disposed of at\nthe expiration of the retention\nperiod."
@@ -1685,17 +1685,17 @@
       "series_id": "2-5",
       "series_title": "Fiscal Management Reports",
       "series_description": "Internal and external periodic fiscal management reports and associated worksheets, including federal financial reports, salary reports, HUB reports, investment performance reports, etc.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "duration_years": "5",
-      "duration_months": "",
+      "duration_years": 5,
+      "duration_months": null,
       "disposition": "Fiscal Year End plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred\nMedium: Electronic; Disposition:\nDelete CAUTION: This series does\nnot include fiscal reports created to\nfulfill grant requirements."
@@ -1716,17 +1716,17 @@
       "series_id": "2-8",
       "series_title": "Annual Operating Budgets",
       "series_description": "Required by the General Appropriations Act.Includes encumbrances and documentation about budget transfers and revisions, as well as detail charts of accounts.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "Fiscal Year End plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition:\nRecycle Medium: Electronic;\nDisposition: Delete"
@@ -1747,17 +1747,17 @@
       "series_id": "2-12",
       "series_title": "Audits",
       "series_description": "Audits and reviews performed by or on behalf of an agency, including the working papers that support the audit. Also includes audits performed on the agency.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "7",
-      "duration_months": "",
+      "duration_years": 7,
+      "duration_months": null,
       "disposition": "After Closed plus 7 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred\nMedium: Electronic; Disposition:\nDelete The State Auditor's Office\nretains any copies of its audits\nperformed on Texas state agencies."
@@ -1778,17 +1778,17 @@
       "series_id": "2-13",
       "series_title": "Fiscal Notes",
       "series_description": "Reports provided to Legislative Budget Board for legislative bills.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "duration_years": "10",
-      "duration_months": "",
+      "duration_years": 10,
+      "duration_months": null,
       "disposition": "10 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred\nMedium: Electronic; Disposition:\nDelete"
@@ -1809,17 +1809,17 @@
       "series_id": "2-14",
       "series_title": "Accounts Payable Information",
       "series_description": "Claims; invoices, statements; copies of checks and purchase orders; expenditure authorizations; ledgers; encumbrance, purchase, general journal, expenditure, and special vouchers; and similar records that serve to document disbursements, including those documenting claims for and reimbursement to employees for travel and other expenses.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "Fiscal Year End plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred"
@@ -1840,20 +1840,20 @@
       "series_id": "2-15",
       "series_title": "Accounts Receivable Information",
       "series_description": "Bill copies or stubs, statements, billing registers, account cards, deposit warrants, cash receipts, credit card receipts, receipts books, cash transfers, daily cash reports, reconciliations, general journal vouchers, special vouchers, and similar records that serve to document money owed to or received by a state agency and its collection or receipt.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "Fiscal Year End plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "4.1.009"
@@ -1871,17 +1871,17 @@
       "series_id": "2-17",
       "series_title": "Transfers or Budget Revisions",
       "series_description": "Transfers or adjustments to budgets.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "Fiscal Year End plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition:\nRecycle"
@@ -1902,17 +1902,17 @@
       "series_id": "2-20",
       "series_title": "Banking Records",
       "series_description": "Bank statements, credit card statements, cancelled checks, check registers, deposit slips, debit and credit notices, reconciliations, and other banking related records.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "Fiscal Year End plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred"
@@ -1933,17 +1933,17 @@
       "series_id": "2-25",
       "series_title": "Annual Operating Budgets, Encumbrance Vouchers, Budget Transfers/Revisions.",
       "series_description": "Required by the General Appropriations Act. Includes encumbrances and documentation about budget transfers and revisions, as well as detail charts of accounts.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "Fiscal Year End plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition:\nRecycle"
@@ -1964,17 +1964,17 @@
       "series_id": "2-26",
       "series_title": "Expenditures/Purchase Vouchers",
       "series_description": "Claims; invoices; statements; copies of checks and purchase orders; expenditure authorizations; ledgers; encumbrance, purchase, general journal, expenditure, and special vouchers; and similar records that serve to document disbursements, including those documenting claims for and reimbursement to employees for travel and other expenses.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "Fiscal Year End plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred\nMedium: Electronic; Disposition:\nDelete"
@@ -1995,17 +1995,17 @@
       "series_id": "2-30",
       "series_title": "Accounting Policies and Procedures Manual",
       "series_description": "Records documenting the internal and external procedural requirements with respect to the accounting department of a state agency.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "US",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "Until Superseded plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Electronic; Disposition:\nDelete"
@@ -2026,17 +2026,17 @@
       "series_id": "2-31",
       "series_title": "Uncollectible Accounts, Returned Checks/Warrants/Drafts",
       "series_description": "Records of accounts deemed uncollectible, including write-off authorizations and returned checks, warrants, and drafts.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "After Closed plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred"
@@ -2057,17 +2057,17 @@
       "series_id": "2-32",
       "series_title": "Capital Asset Records",
       "series_description": "Documentation relating to the capital and fixed assets of a state agency, including equipment or property history cards containing data on initial cost, depreciation schedules or summaries used for capital outlay budgeting, and property sale, auction, or disposal records of agency owned equipment and property.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "LA",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "Life of Asset plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition:\nRecycle"
@@ -2088,17 +2088,17 @@
       "series_id": "2-34",
       "series_title": "Signature Authorizations",
       "series_description": "Signature cards or similar records establishing authority of an agency employee to initiate or authorize financial transactions on behalf of an agency.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "4",
-      "duration_months": "",
+      "duration_years": 4,
+      "duration_months": null,
       "disposition": "After Closed plus 4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred"
@@ -2119,17 +2119,17 @@
       "series_id": "2-36",
       "series_title": "Postage Records",
       "series_description": "Records and reports of postage expenses, including postal meter usage.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "Fiscal Year End plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Electronic; Disposition:\nDelete"
@@ -2150,17 +2150,17 @@
       "series_id": "2-38",
       "series_title": "Contract Log",
       "series_description": "List of agency contracts, leases, and agreements including general obligation, land lease, utilities, and construction contracts.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "Fiscal Year End plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Electronic; Disposition:\nDelete"
@@ -2181,17 +2181,17 @@
       "series_id": "2-39",
       "series_title": "Property Destruction, Certificates of",
       "series_description": "",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "Fiscal Year End plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition:\nRecycle"
@@ -2212,17 +2212,17 @@
       "series_id": "2-52(a)",
       "series_title": "Bid Documentation – 9/1/2015 and After",
       "series_description": "Associated with a contract executed, renewed or amended on or after Sept 1, 2015. Includes requisition/authorizations, invitations to bid or propose, bid specifications, accepted and rejected bids, and bid tabulation/evaluations.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "7",
-      "duration_months": "",
+      "duration_years": 7,
+      "duration_months": null,
       "disposition": "After Closed plus 7 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred\nCAUTION: If a formal written\ncontract is the result of a successful\nbid or request for proposal, the\nsuccessful bid or request for\nproposal and its supporting\ndocumentation must be retained\nfor the same period as the contract."
@@ -2247,13 +2247,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "4",
-      "duration_months": "",
+      "duration_years": 4,
+      "duration_months": null,
       "disposition": "After Closed plus 4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred\nCAUTION: If a formal written\ncontract is the result of a successful\nbid or request for proposal, the\nsuccessful bid or request for\nproposal and its supporting\ndocumentation must be retained\nfor the same period as the contract."
@@ -2274,17 +2274,17 @@
       "series_id": "2-53",
       "series_title": "Purchasing Logs",
       "series_description": "Log, register, etc., providing a record of purchase orders issued, orders received, and similar data on procurement status.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "Fiscal Year End plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Electronic; Disposition:\nDelete"
@@ -2305,17 +2305,17 @@
       "series_id": "3-2",
       "series_title": "Applications for Employment – Hired",
       "series_description": "Applications, resumes, transcripts, letters of reference, and similar documents whose submission by candidates for vacant positions is required on the application form, by application procedures, or in the employment advertisement.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "5",
-      "duration_months": "",
+      "duration_years": 5,
+      "duration_months": null,
       "disposition": "After Closed plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred"
@@ -2336,17 +2336,17 @@
       "series_id": "3-3",
       "series_title": "Employee Counseling Records",
       "series_description": "Notes, memoranda, or reports relating to the counseling of an employee for workrelated, personal, or substance abuse problems.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "5",
-      "duration_months": "",
+      "duration_years": 5,
+      "duration_months": null,
       "disposition": "After Closed plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred"
@@ -2367,17 +2367,17 @@
       "series_id": "3-4",
       "series_title": "Employee Benefits/Insurance",
       "series_description": "Agency copies of information relating to the selection by employees of life, disability, health, and other types of benefits/insurance offered by the State of Texas to its employees",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "After Closed",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Record Copy: Human Resources.\nCAUTION: Documents that serve as\npayroll deduction authorizations\nmust be maintained for the\nretention period prescribed for\nitem number 3.2.001."
@@ -2402,13 +2402,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "5",
-      "duration_months": "",
+      "duration_years": 5,
+      "duration_months": null,
       "disposition": "After Closed plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred"
@@ -2429,17 +2429,17 @@
       "series_id": "3-9",
       "series_title": "Personnel Disciplinary Action",
       "series_description": "Actions which may affect pay, status, or tenure. May also be used to document evidence of employee self-improvement efforts, as well as favorable and unfavorable communication.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "5",
-      "duration_months": "",
+      "duration_years": 5,
+      "duration_months": null,
       "disposition": "After Closed plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred"
@@ -2464,13 +2464,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "5",
-      "duration_months": "",
+      "duration_years": 5,
+      "duration_months": null,
       "disposition": "After Closed plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred"
@@ -2491,17 +2491,17 @@
       "series_id": "3-11",
       "series_title": "Leave Status Reports",
       "series_description": "Cumulative report is issued each pay cycle and provides employee leave status information for each position.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "Fiscal Year End plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred\nMedium: Electronic; Disposition:\nDelete"
@@ -2526,13 +2526,13 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "duration_years": "4",
-      "duration_months": "",
+      "duration_years": 4,
+      "duration_months": null,
       "disposition": "Fiscal Year End plus 4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred"
@@ -2557,13 +2557,13 @@
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "duration_years": "5",
-      "duration_months": "",
+      "duration_years": 5,
+      "duration_months": null,
       "disposition": "Calendar Year End plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred\nThe Texas Department of Insurance\nretains copies of the reports\nsubmitted to it for 50 years."
@@ -2588,13 +2588,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "4",
-      "duration_months": "",
+      "duration_years": 4,
+      "duration_months": null,
       "disposition": "After Closed plus 4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred"
@@ -2619,13 +2619,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "4",
-      "duration_months": "",
+      "duration_years": 4,
+      "duration_months": null,
       "disposition": "After Closed plus 4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition:\nRecycle Medium: Electronic;\nDisposition: Delete"
@@ -2646,17 +2646,17 @@
       "series_id": "3-19",
       "series_title": "Training and Educational Achievement Records (Individual)",
       "series_description": "Certificates of completion, transcripts, or similar records documenting training, testing, or continuing education achievements of an employee.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "5",
-      "duration_months": "",
+      "duration_years": 5,
+      "duration_months": null,
       "disposition": "After Closed plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred"
@@ -2677,17 +2677,17 @@
       "series_id": "3-20",
       "series_title": "Employment Eligibility, Documentation or Verification",
       "series_description": "Federal reporting form (INS I-9).",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "5",
-      "duration_months": "",
+      "duration_years": 5,
+      "duration_months": null,
       "disposition": "After Closed plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred"
@@ -2712,16 +2712,16 @@
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "Fiscal Year End plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.4.007"
@@ -2739,17 +2739,17 @@
       "series_id": "3-22",
       "series_title": "Employment Recognition Records",
       "series_description": "Awards, incentives, tenure, etc.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "5",
-      "duration_months": "",
+      "duration_years": 5,
+      "duration_months": null,
       "disposition": "After Closed plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred"
@@ -2770,17 +2770,17 @@
       "series_id": "3-24",
       "series_title": "Employee Deduction Authorizations",
       "series_description": "Documents used to start, modify, or stop all voluntary or required deductions from payroll.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "5",
-      "duration_months": "",
+      "duration_years": 5,
+      "duration_months": null,
       "disposition": "After Closed plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred"
@@ -2805,13 +2805,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "5",
-      "duration_months": "",
+      "duration_years": 5,
+      "duration_months": null,
       "disposition": "After Closed plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred"
@@ -2836,13 +2836,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "5",
-      "duration_months": "",
+      "duration_years": 5,
+      "duration_months": null,
       "disposition": "After Closed plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred"
@@ -2863,17 +2863,17 @@
       "series_id": "3-27",
       "series_title": "Unemployment Compensation Records",
       "series_description": "Records and documentation relating to unemployment compensation claims, including reimbursement of funds disbursed by the Texas Workforce Commission (TWC).",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "5",
-      "duration_months": "",
+      "duration_years": 5,
+      "duration_months": null,
       "disposition": "After Closed plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred"
@@ -2894,17 +2894,17 @@
       "series_id": "3-28",
       "series_title": "Direct Deposit Application/Authorizations",
       "series_description": "Forms used to deposit employee's earnings to a specified personal account.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "US",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "Until Superseded",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred"
@@ -2925,17 +2925,17 @@
       "series_id": "3-29",
       "series_title": "State Deferred Compensation Records",
       "series_description": "Records documenting the amount of pension or deferred compensation earned by individual employees.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "5",
-      "duration_months": "",
+      "duration_years": 5,
+      "duration_months": null,
       "disposition": "After Closed plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred"
@@ -2956,17 +2956,17 @@
       "series_id": "3-31",
       "series_title": "Labor Statistics Reports",
       "series_description": "Reports involving statistical information on labor force.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Electronic; Disposition:\nDelete"
@@ -2987,17 +2987,17 @@
       "series_id": "3-35",
       "series_title": "Texas Workforce Commission (TWC) Reports",
       "series_description": "Reports to the agency from TWC or its predecessor pertaining to employees.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred"
@@ -3018,17 +3018,17 @@
       "series_id": "3-37",
       "series_title": "Personnel Policies and Procedures",
       "series_description": "Any internally distributed manuals, guidelines, or similar records that define agency-wide policies and procedures concerning the personnel of an agency.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "US",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "Until Superseded plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition:\nRecycle Medium: Electronic;\nDisposition: Delete"
@@ -3049,17 +3049,17 @@
       "series_id": "3-39",
       "series_title": "Agency Staffing Reports",
       "series_description": "Any reports complied by an agency on aspects of personnel staffing.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "US",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "Until Superseded plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Electronic; Disposition:\nDelete"
@@ -3084,13 +3084,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Electronic; Disposition:\nDelete"
@@ -3115,13 +3115,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Electronic; Disposition:\nDelete"
@@ -3146,13 +3146,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "duration_years": "4",
-      "duration_months": "",
+      "duration_years": 4,
+      "duration_months": null,
       "disposition": "4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred"
@@ -3177,13 +3177,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "After Closed",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Electronic; Disposition:\nDelete CAUTION: Software needed\nfor access to electronic records\nmust be retained for the period of\ntime required to access the records."
@@ -3208,13 +3208,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "After Closed",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "CAUTION: Hardware needed for\naccess to electronic records must\nbe retained for the period of time\nrequired to access the records."
@@ -3235,17 +3235,17 @@
       "series_id": "4-5",
       "series_title": "Computer Warranties/License Agreements",
       "series_description": "Agreements or contracts between the agency and equipment software vendor to provide maintenance service for equipment and right-to-use agreements.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "7",
-      "duration_months": "",
+      "duration_years": 7,
+      "duration_months": null,
       "disposition": "After Closed plus 7 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition:\nRecycle For service agreements or\ncontracts related to equipment\nrepairs and service, retain in\naccordance with ITIN 5.1.001 (TRC\nRRS AIN 2-35; Contracts AC + 7)"
@@ -3266,17 +3266,17 @@
       "series_id": "4-13",
       "series_title": "Portal Balancing Records",
       "series_description": "Records of revenue reconcilations and balances from the Texas.gov portal licensing.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "Fiscal Year End plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred"
@@ -3297,17 +3297,17 @@
       "series_id": "4-14",
       "series_title": "Capital Asset Records, Budget Plans, Purchases, and Maintenance Contract Documents",
       "series_description": "Documentation relating to the capital and fixed assets of a state agency, including equipment or property history cards containing data on initial cost, depreciation schedules or summaries used for capital outlay budgeting, and property sale, auction, or disposal records of agency owned equipment and property.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "LA",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "Life of Asset plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Record Copy: Financial Services.\nMedium: Paper; Disposition:\nRecycle Medium: Electronic;\nDisposition: Delete"
@@ -3328,17 +3328,17 @@
       "series_id": "5-4",
       "series_title": "Disciplinary Files of Licenses",
       "series_description": "Maintained in field offices. Includes documentation for hearings involving licensees that are conducted by stewards and judges including, but not limited to, rulings involving disqualifications, license sanctions and fines.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "2",
-      "duration_months": "",
+      "duration_years": 2,
+      "duration_months": null,
       "disposition": "After Closed plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred\nMay contain some confidential\ninformation; legal review before\nrelease."
@@ -3359,17 +3359,17 @@
       "series_id": "5-5",
       "series_title": "Test Examinations of Stewards and Judges",
       "series_description": "Includes eye exams and written exams to ensure competency of job racing official responsibilities.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "duration_years": "1",
-      "duration_months": "",
-      "disposition": "Calendar Year End plus 1 year",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition": "Calendar Year End plus 1 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred"
@@ -3390,17 +3390,17 @@
       "series_id": "5-8",
       "series_title": "Stewards’/Judges’ Daily Race Reports",
       "series_description": "Includes comments regarding races/performances, end of meet reports, as well as wagering handle, weather and track conditions, etc. Also includes Race Program with Stewards' Order of Finish.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "Calendar Year End plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred\nAlso see Database Series."
@@ -3421,17 +3421,17 @@
       "series_id": "5-11",
       "series_title": "Official Works",
       "series_description": "Documentation of horse performance runs prior to participating in a recognized race.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "duration_years": "1",
-      "duration_months": "",
-      "disposition": "1 year",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition": "1 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition:\nRecycle"
@@ -3452,17 +3452,17 @@
       "series_id": "5-12",
       "series_title": "Condition Books",
       "series_description": "Racetrack association entry requirements for each race day card, including but not limited to, the type of race (for example, whether a stakes, maiden or claiming race), type of racehorse (filly, stallion, gelding) and type of breed (Thoroughbred or Quarter Horse).",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "1",
-      "duration_months": "",
-      "disposition": "After Closed plus 1 year",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition": "After Closed plus 1 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition:\nRecycle"
@@ -3483,17 +3483,17 @@
       "series_id": "5-13",
       "series_title": "Agency Prosecutions and Appeals from Stewards’/Judges’ Rulings",
       "series_description": "Appeals from Stewards hearings, including Steward hearing transcripts or audios and all exhibits entered into the Stewards hearings for review by SOAH on appeal.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "2",
-      "duration_months": "",
+      "duration_years": 2,
+      "duration_months": null,
       "disposition": "After Closed plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred\nMay contain some confidential\ninformation; legal review before\nrelease."
@@ -3514,17 +3514,17 @@
       "series_id": "5-15",
       "series_title": "Trainers’ Responsibility Form",
       "series_description": "Maintained in field offices signed by trainers who designated a representative for witnessing of specimen sample collection.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "After Closed",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred"
@@ -3545,17 +3545,17 @@
       "series_id": "5-18",
       "series_title": "Apprentice Jockey Certificate",
       "series_description": "Health certificates, examinations (starting gate proficiency) and supporting documentation to obtain an apprentice jockey license.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "duration_years": "5",
-      "duration_months": "",
+      "duration_years": 5,
+      "duration_months": null,
       "disposition": "5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred"
@@ -3576,17 +3576,17 @@
       "series_id": "5-20",
       "series_title": "Incident Reports",
       "series_description": "Maintained in field offices. Reports submitted to the stewards’/judges’ office from racetrack security for information purposes only.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "duration_years": "1",
-      "duration_months": "",
-      "disposition": "Calendar Year End plus 1 year",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition": "Calendar Year End plus 1 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred"
@@ -3607,17 +3607,17 @@
       "series_id": "6-2",
       "series_title": "Active Occupational Licensing Files",
       "series_description": "Applications for active licensees and supporting documentation and renewal applications.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "US",
-      "duration_years": "2",
-      "duration_months": "",
+      "duration_years": 2,
+      "duration_months": null,
       "disposition": "Until Superseded plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper: Disposition: Shred\nUS=Until superseded by another\nlicense application. May contain\nsome confidential information;\nlegal review before release."
@@ -3638,17 +3638,17 @@
       "series_id": "6-2(a)",
       "series_title": "Inactive Occupational Licensing Files",
       "series_description": "Applications for inactive licensees and renewal applications",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "2",
-      "duration_months": "",
+      "duration_years": 2,
+      "duration_months": null,
       "disposition": "After Closed plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred"
@@ -3673,13 +3673,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "2",
-      "duration_months": "",
+      "duration_years": 2,
+      "duration_months": null,
       "disposition": "After Closed plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred"
@@ -3704,13 +3704,13 @@
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "duration_years": "1",
-      "duration_months": "",
-      "disposition": "1 year",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition": "1 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred"
@@ -3731,17 +3731,17 @@
       "series_id": "6-4",
       "series_title": "Tests – Failed: Other Licensing Types",
       "series_description": "Includes practical and written tests for jockey, jockey agent, and pony exercise rider.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "duration_years": "1",
-      "duration_months": "",
-      "disposition": "1 year",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition": "1 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred\nAlso see Database Series."
@@ -3762,17 +3762,17 @@
       "series_id": "6-4(a)",
       "series_title": "Tests – Failed: Trainer Type",
       "series_description": "Includes practical and written tests for trainer.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "duration_years": "1",
-      "duration_months": "",
-      "disposition": "1 year",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition": "1 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred"
@@ -3793,17 +3793,17 @@
       "series_id": "6-5",
       "series_title": "Daily Licensing Revenue Reconciliation",
       "series_description": "Licensing revenue reconcilation reports from each field office that reconciles revenue received for license fees for each day.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "Fiscal Year End plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred"
@@ -3824,17 +3824,17 @@
       "series_id": "6-7",
       "series_title": "Daily License Revenue Reports",
       "series_description": "Licensing revenue reports for each field office that reflects the daily revenue received in licensing fees for each field office.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "duration_years": "1",
-      "duration_months": "",
-      "disposition": "1 year",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition": "1 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred"
@@ -3855,17 +3855,17 @@
       "series_id": "7-1",
       "series_title": "Pari-Mutuel Wagering Correspondence and Approvals",
       "series_description": "Correspondence between the agency and racetrack associations for approval or disapproval of import and export simulcast signals requests that are approved or disapproved by the Executive Director and supporting documentation including simulcast contracts, simulcast approvals by horsemen representatives and simulcast request to agency from racetrack associations",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "duration_years": "5",
-      "duration_months": "",
+      "duration_years": 5,
+      "duration_months": null,
       "disposition": "Calendar Year End plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred"
@@ -3886,17 +3886,17 @@
       "series_id": "7-2",
       "series_title": "Auditor Log",
       "series_description": "Logs reflecting totalisator system testing pass/fails, pari-mutuel wagering compliance and integrity audits of totalisator equipment.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "duration_years": "1",
-      "duration_months": "",
-      "disposition": "Calendar Year End plus 1 year",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition": "Calendar Year End plus 1 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition:\nRecycle"
@@ -3921,13 +3921,13 @@
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "duration_years": "1",
-      "duration_months": "",
-      "disposition": "Calendar Year End plus 1 year",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition": "Calendar Year End plus 1 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred"
@@ -3948,17 +3948,17 @@
       "series_id": "7-5",
       "series_title": "Texas Bred Incentive Fund Reports and Escrow Horse Account",
       "series_description": "Includes reports and correspondence.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "duration_years": "7",
-      "duration_months": "",
+      "duration_years": 7,
+      "duration_months": null,
       "disposition": "Calendar Year End plus 7 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred"
@@ -3979,17 +3979,17 @@
       "series_id": "7-6(b)",
       "series_title": "Export Simulcast Contract Form",
       "series_description": "Contracts between race tracks that are submitted for review to ensure compliance.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "duration_years": "2",
-      "duration_months": "",
+      "duration_years": 2,
+      "duration_months": null,
       "disposition": "Calendar Year End plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred"
@@ -4010,17 +4010,17 @@
       "series_id": "7-7",
       "series_title": "Pari-Mutuel Cumulative Liability Reports for Manually Entered Wagering Data",
       "series_description": "Testing and data computation for manual entry of pari-mutuel wagering information manually entered at each racetrack.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "duration_years": "1",
-      "duration_months": "",
-      "disposition": "Calendar Year End plus 1 year",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition": "Calendar Year End plus 1 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition:\nRecycle"
@@ -4041,17 +4041,17 @@
       "series_id": "7-8",
       "series_title": "Order of Finish Reports",
       "series_description": "Stewards final order of finish for each race.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "duration_years": "",
-      "duration_months": "6",
+      "duration_years": null,
+      "duration_months": 6,
       "disposition": "6 months",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition:\nRecycle"
@@ -4072,17 +4072,17 @@
       "series_id": "7-12(a)",
       "series_title": "Pari-Mutuel Wagering Information Reports",
       "series_description": "TXRC Weekly Handle Reports from each racetrack.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "duration_years": "",
-      "duration_months": "6",
+      "duration_years": null,
+      "duration_months": 6,
       "disposition": "6 months",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Electronic; Disposition:\nDelete"
@@ -4103,17 +4103,17 @@
       "series_id": "7-12(c)",
       "series_title": "Pari-Mutuel Wagering Information Reports",
       "series_description": "Racetrack Daily Mutuel Reports",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "duration_years": "1",
-      "duration_months": "",
-      "disposition": "Calendar Year End plus 1 year",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition": "Calendar Year End plus 1 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition:\nRecycle"
@@ -4134,17 +4134,17 @@
       "series_id": "7-12(d)",
       "series_title": "Pari-Mutuel Wagering Information Reports",
       "series_description": "Racetrack Monthly Mutuel Recap Reports",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "duration_years": "2",
-      "duration_months": "",
+      "duration_years": 2,
+      "duration_months": null,
       "disposition": "Calendar Year End plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition:\nRecycle"
@@ -4169,13 +4169,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "7",
-      "duration_months": "",
+      "duration_years": 7,
+      "duration_months": null,
       "disposition": "After Closed plus 7 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred\nMay contain some confidential\ninformation; legal review before\nrelease."
@@ -4196,17 +4196,17 @@
       "series_id": "7-15",
       "series_title": "Wire In Transfer Report",
       "series_description": "Funds reporting from the horsemen's bookkeeper accounts for the claim of a horse in a race and other funds information including trainers' records in the bookkeepers' accounts",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "duration_years": "1",
-      "duration_months": "",
-      "disposition": "Calendar Year End plus 1 year",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition": "Calendar Year End plus 1 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition:\nRecycle"
@@ -4227,17 +4227,17 @@
       "series_id": "7-18",
       "series_title": "Tote Data Load Form",
       "series_description": "File transfer protocol data for wagering information from import and export simulcasts.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "FE",
-      "duration_years": "2",
-      "duration_months": "",
+      "duration_years": 2,
+      "duration_months": null,
       "disposition": "Fiscal Year End plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition:\nRecycle"
@@ -4258,17 +4258,17 @@
       "series_id": "7-20",
       "series_title": "Tote Incident/Failure to Merge Reports",
       "series_description": "File transfer protocol data incidents and failures to merge wagering data from host and receiving simulcast signal sites.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "duration_years": "1",
-      "duration_months": "",
-      "disposition": "Calendar Year End plus 1 year",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition": "Calendar Year End plus 1 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred"
@@ -4289,17 +4289,17 @@
       "series_id": "7-21",
       "series_title": "Claims for Payment",
       "series_description": "Claims received from patrons requesting payment for lost or stolen ticket(s) or voucher(s).",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "duration_years": "1",
-      "duration_months": "",
-      "disposition": "Calendar Year End plus 1 year",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition": "Calendar Year End plus 1 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred"
@@ -4320,17 +4320,17 @@
       "series_id": "8-10",
       "series_title": "Laboratory Bills for Drug Testing and Supplies",
       "series_description": "Includes the Texas A&M Veterinary Medical Diagnostic Laboratory (TVMDL) post race and vet work samples.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "1",
-      "duration_months": "",
-      "disposition": "After Closed plus 1 year",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition": "After Closed plus 1 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Electronic; Disposition:\nDelete"
@@ -4351,17 +4351,17 @@
       "series_id": "8-11",
       "series_title": "Race Animal Injury Analysis Reports",
       "series_description": "Includes analysis of injury data collected from catastrophic injury reports, necropsy reports, and other data.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "As Long as Administratively Valuable",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Electronic; Disposition:\nDelete"
@@ -4382,17 +4382,17 @@
       "series_id": "8-12",
       "series_title": "Certificate of Bleeding Forms (maintained in field offices)",
       "series_description": "Forms completed by the veterinarian or techician collecting blood specimen samples from each race horse.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "duration_years": "1",
-      "duration_months": "",
-      "disposition": "Calendar Year End plus 1 year",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition": "Calendar Year End plus 1 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition:\nRecycle"
@@ -4413,17 +4413,17 @@
       "series_id": "8-13",
       "series_title": "Catastrophic Injury Reports (Originals maintained in field offices)",
       "series_description": "Forms completed by the veterinarian who examines or euthanizes a race animal injured in a race or training exercise on a racetrack.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "duration_years": "10",
-      "duration_months": "",
+      "duration_years": 10,
+      "duration_months": null,
       "disposition": "Calendar Year End plus 10 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition:\nPermanent"
@@ -4444,17 +4444,17 @@
       "series_id": "8-30",
       "series_title": "Texas A&M Veterinary Medical Diagnostic Laboratory (TVMDL) Necropsy Reports",
       "series_description": "Fatality and autopsy reports of equine suffering fatal breakdowns in live racing or training exercises on racetracks.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "duration_years": "10",
-      "duration_months": "",
+      "duration_years": 10,
+      "duration_months": null,
       "disposition": "Calendar Year End plus 10 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Electronic; Disposition:\nDelete"
@@ -4475,17 +4475,17 @@
       "series_id": "8-31",
       "series_title": "Reconciliation Tracking Reports and Billing Logs",
       "series_description": "Includes TVMDL and University of California, Davis (UC Davis) billing records and specimen tracking reports for testing of specimens for prohibited and therapeutic substances.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "As Long as Administratively Valuable",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Electronic; Disposition:\nDelete"
@@ -4506,17 +4506,17 @@
       "series_id": "9-2",
       "series_title": "Intelligence Reports",
       "series_description": "Reports received from 3rd party law enforcement agencies and security details from racetracks outside the state of Texas.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition:\nPermanent Also see Database\nSeries. Criminal histories are\nconfidential."
@@ -4537,17 +4537,17 @@
       "series_id": "9-3",
       "series_title": "Investigatory Files Involving Criminal Histories or Human Drug Testing",
       "series_description": "Per the Investigatory Case Code List, this AIN applies to the following case codes: Criminal Histories: 39, 62, 63, 67, 68 Human Drug Testing: 20-29",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "15",
-      "duration_months": "",
+      "duration_years": 15,
+      "duration_months": null,
       "disposition": "After Closed plus 15 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred\nAlso see Database Series. Criminal\nhistories are confidential."
@@ -4568,17 +4568,17 @@
       "series_id": "9-4",
       "series_title": "Investigatory Files Not Involving Criminal Histories or Human Drug Testing",
       "series_description": "Per the Investigatory Case Code List, this AIN applies to the following case codes: 1,3,9-19,30-38, 40-46, 51,59-60, 64, 77",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "2",
-      "duration_months": "",
+      "duration_years": 2,
+      "duration_months": null,
       "disposition": "After Closed plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred\nAlso see Database Series. Closed\nfiles may contain confidential\ninformation; legal review before\nrelease."
@@ -4599,17 +4599,17 @@
       "series_id": "9-5",
       "series_title": "Intelligence Information",
       "series_description": "License Expired with Serious Criminal History (LX) Pending Criminal Charges (PC) Criminal History (CH)",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "As Long as Administratively Valuable",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred\nAlso see Database Series 10-15(b)\nCriminal histories are confidential."
@@ -4630,17 +4630,17 @@
       "series_id": "9-6",
       "series_title": "Law Enforcement Agency Files",
       "series_description": "Records maintained by 3rd party law enforcement agencies outside the State of Texas including DOJ and FBI confidential investigatory records.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "As Long as Administratively Valuable",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred\nMedium: Electronic; Disposition:\nDelete"
@@ -4661,17 +4661,17 @@
       "series_id": "9-11",
       "series_title": "Peace Officer Accreditation Files",
       "series_description": "Records required to be maintained by Texas Commission of Law Enforcement Officers including weapons proficiency testing, medical and psychological records.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "5",
-      "duration_months": "",
+      "duration_years": 5,
+      "duration_months": null,
       "disposition": "After Closed plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred\nMedium: Electronic; Disposition:\nDelete"
@@ -4692,17 +4692,17 @@
       "series_id": "9-12",
       "series_title": "Enforcement Search Files",
       "series_description": "Inspections to restricted areas, including gate, barn, kennel, jockey quarters, etc.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "duration_years": "2",
-      "duration_months": "",
+      "duration_years": 2,
+      "duration_months": null,
       "disposition": "2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Electronic; Disposition:\nDelete"
@@ -4727,13 +4727,13 @@
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred;\nMedium: Electronic; Disposition:\nDelete Open investigatory files are\nconfidential. Closed files may\ncontain confidential information;\nlegal review before release."
@@ -4754,17 +4754,17 @@
       "series_id": "9-15",
       "series_title": "Criminal History Checks",
       "series_description": "Criminal history record information on job applicants or agency employees obtained from the Department of Public Safety.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "After Closed",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition: Shred\nCAUTION: An agency that is\nauthorized to obtain a criminal\nhistory record information from\nDPS must refer to its agency's\nlegislation or see Subchapter F,\nChapter 411, Government Code for\nappropriate retention and use of\nthis information."
@@ -4785,17 +4785,17 @@
       "series_id": "9-16",
       "series_title": "Positive Test Sample Report",
       "series_description": "Results from lab samples testing positive.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "duration_years": "1",
-      "duration_months": "",
-      "disposition": "Calendar Year End plus 1 year",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition": "Calendar Year End plus 1 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Paper; Disposition:\nRecycle Also see Database Series."
@@ -4816,17 +4816,17 @@
       "series_id": "10-6",
       "series_title": "Handle-Export",
       "series_description": "Handle records for exported races",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "duration_years": "6",
-      "duration_months": "",
+      "duration_years": 6,
+      "duration_months": null,
       "disposition": "Calendar Year End plus 6 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Database; Disposition:\nDelete"
@@ -4847,17 +4847,17 @@
       "series_id": "10-7",
       "series_title": "Wager Details – Live, Simulcast, and Cross Species",
       "series_description": "Detailed wager reports including types of wagers (Trifecta, special), import or export simulcast wagers and cross-species amounts including wager amounts allocated from greyhound to horse and horse to greyhound",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "duration_years": "1",
-      "duration_months": "",
-      "disposition": "Calendar Year End plus 1 year",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition": "Calendar Year End plus 1 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Database; Disposition:\nDelete"
@@ -4878,17 +4878,17 @@
       "series_id": "10-7(a)",
       "series_title": "Handle Distributions",
       "series_description": "Handle Distributions are summed annually.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "duration_years": "6",
-      "duration_months": "",
+      "duration_years": 6,
+      "duration_months": null,
       "disposition": "Calendar Year End plus 6 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Database; Disposition:\nDelete"
@@ -4909,17 +4909,17 @@
       "series_id": "10-7(b)",
       "series_title": "Payouts",
       "series_description": "Payout Distributions on live, simulcast, and export wagers",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "duration_years": "1",
-      "duration_months": "",
-      "disposition": "Calendar Year End plus 1 year",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition": "Calendar Year End plus 1 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Database; Disposition:\nDelete"
@@ -4940,17 +4940,17 @@
       "series_id": "10-9",
       "series_title": "Purses",
       "series_description": "Purses are summed annually.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "duration_years": "6",
-      "duration_months": "",
+      "duration_years": 6,
+      "duration_months": null,
       "disposition": "Calendar Year End plus 6 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Database; Disposition:\nDelete"
@@ -4971,17 +4971,17 @@
       "series_id": "10-10",
       "series_title": "Galley",
       "series_description": "Greyhound race entries.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "duration_years": "5",
-      "duration_months": "",
+      "duration_years": 5,
+      "duration_months": null,
       "disposition": "Calendar Year End plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Database; Disposition:\nDelete"
@@ -5002,17 +5002,17 @@
       "series_id": "10-11",
       "series_title": "Overnight",
       "series_description": "Horse race entries.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "duration_years": "15",
-      "duration_months": "",
+      "duration_years": 15,
+      "duration_months": null,
       "disposition": "Calendar Year End plus 15 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Database; Disposition:\nDelete"
@@ -5033,17 +5033,17 @@
       "series_id": "10-13",
       "series_title": "Simulcast Contracts",
       "series_description": "Contracts between race tracks sending and receiving simulcast signals.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "duration_years": "5",
-      "duration_months": "",
+      "duration_years": 5,
+      "duration_months": null,
       "disposition": "Calendar Year End plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Database; Disposition:\nDelete"
@@ -5064,17 +5064,17 @@
       "series_id": "10-14",
       "series_title": "Cases",
       "series_description": "Refer to agency item 9-3. Per the Investigatory Case Code List, this AIN applies to the following case codes: Criminal Histories: 39, 62, 63, 67, 68 Human Drug Testing: 20-29",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "15",
-      "duration_months": "",
+      "duration_years": 15,
+      "duration_months": null,
       "disposition": "After Closed plus 15 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Database; Disposition:\nDelete"
@@ -5095,17 +5095,17 @@
       "series_id": "10-14(a)",
       "series_title": "Cases",
       "series_description": "Refer to agency item 9-4. Per the Investigatory Case Code List, this AIN applies to the following case codes: 1, 3, 9- 19, 30-38, 40-46, 51, 59-60, 64, 77",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "2",
-      "duration_months": "",
+      "duration_years": 2,
+      "duration_months": null,
       "disposition": "After Closed plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Database; Disposition:\nDelete"
@@ -5126,17 +5126,17 @@
       "series_id": "10-15(a)",
       "series_title": "Intelligence Cases",
       "series_description": "Does not include the following intel cases: License Expired with Serious Criminal History (LX) Pending Criminal Charges (PC) Criminal History (CH) See AIN 10-15(b)",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "duration_years": "15",
-      "duration_months": "",
+      "duration_years": 15,
+      "duration_months": null,
       "disposition": "15 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Database; Disposition:\nDelete"
@@ -5157,17 +5157,17 @@
       "series_id": "10-15(b)",
       "series_title": "Intelligency Cases-LX/PC/CH",
       "series_description": "License Expired with Serious Criminal History (LX) Pending Criminal Charges (PC) Criminal History (CH) Refer to Agency Item 9-5.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "duration_years": "5",
-      "duration_months": "",
+      "duration_years": 5,
+      "duration_months": null,
       "disposition": "5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Database; Disposition:\nDelete"
@@ -5188,17 +5188,17 @@
       "series_id": "10-18",
       "series_title": "Service Requests",
       "series_description": "Inter-agency IT requests from the agency to DIR for service help on phones and computer equipment/software.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "As Long as Administratively Valuable",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Database; Disposition:\nDelete"
@@ -5219,17 +5219,17 @@
       "series_id": "10-19",
       "series_title": "Help Desk Tickets",
       "series_description": "Records documenting the request for and response to help desk tickets received by divisions or units, such as Information Technology.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "As Long as Administratively Valuable",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Database; Disposition:\nDelete"
@@ -5250,17 +5250,17 @@
       "series_id": "10-20",
       "series_title": "Photos",
       "series_description": "Includes photo files used to issue badges.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "US",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "Until Superseded",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Database; Disposition:\nPermanent"
@@ -5281,17 +5281,17 @@
       "series_id": "10-21",
       "series_title": "Businesses",
       "series_description": "Includes occupational licensee information.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Database; Disposition:\nPermanent May contain some\nconfidential information; legal\nreview before release."
@@ -5312,17 +5312,17 @@
       "series_id": "10-22",
       "series_title": "Licenses",
       "series_description": "Includes occupational licensee information.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Database; Disposition:\nPermanent May contain some\nconfidential information; legal\nreview before release."
@@ -5343,17 +5343,17 @@
       "series_id": "10-23",
       "series_title": "Licensees",
       "series_description": "Includes occupational licensee information.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Database; Disposition:\nPermanent May contain some\nconfidential information; legal\nreview before release."
@@ -5374,17 +5374,17 @@
       "series_id": "10-25",
       "series_title": "Spouses",
       "series_description": "Records include non-occupational licensee information on spouses of owner licensees.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Database; Disposition:\nPermanent May contain some\nconfidential information; legal\nreview before release."
@@ -5405,17 +5405,17 @@
       "series_id": "10-26",
       "series_title": "Licensing Tests",
       "series_description": "Trainer licensing written and practical examination records including, but not limited to, the trainer study guide, licensing written examination questions and practical veterinary and steward examination questions for trainers' exams.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "90",
-      "duration_months": "",
+      "duration_years": 90,
+      "duration_months": null,
       "disposition": "After Closed plus 90 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Database; Disposition:\nDelete"
@@ -5436,17 +5436,17 @@
       "series_id": "10-27",
       "series_title": "Portal Applications",
       "series_description": "Online applications submitted by licensees to request or renew license.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "2",
-      "duration_months": "",
+      "duration_years": 2,
+      "duration_months": null,
       "disposition": "After Closed plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Database; Disposition:\nDelete"
@@ -5467,17 +5467,17 @@
       "series_id": "10-28",
       "series_title": "Rulings",
       "series_description": "Judges’/Stewards’ decisions on administrative hearings.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Database; Disposition:\nPermanent"
@@ -5498,17 +5498,17 @@
       "series_id": "10-29(a)",
       "series_title": "Animals-Equine",
       "series_description": "Equine identifying information. Excludes animals with positive sample.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "10",
-      "duration_months": "",
+      "duration_years": 10,
+      "duration_months": null,
       "disposition": "After Closed plus 10 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Database; Disposition:\nDelete"
@@ -5529,17 +5529,17 @@
       "series_id": "10-29(b)",
       "series_title": "Animals-Greyhound",
       "series_description": "Greyhound identifying information. Excludes animals with positive sample.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "5",
-      "duration_months": "",
+      "duration_years": 5,
+      "duration_months": null,
       "disposition": "After Closed plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Database; Disposition:\nDelete"
@@ -5560,17 +5560,17 @@
       "series_id": "10-30(a)",
       "series_title": "Samples-Positive",
       "series_description": "Results from lab samples testing positive.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Database; Disposition:\nPermanent"
@@ -5591,17 +5591,17 @@
       "series_id": "10-30(b)",
       "series_title": "Samples-Negative",
       "series_description": "Results from lab samples testing negative.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "duration_years": "5",
-      "duration_months": "",
+      "duration_years": 5,
+      "duration_months": null,
       "disposition": "Calendar Year End plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Database; Disposition:\nDelete"
@@ -5622,17 +5622,17 @@
       "series_id": "10-31",
       "series_title": "Pre-Race Comments",
       "series_description": "Includes comments of Veterinarians, Test Barn Supervisors.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "duration_years": "10",
-      "duration_months": "",
+      "duration_years": 10,
+      "duration_months": null,
       "disposition": "10 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Database; Disposition:\nDelete"
@@ -5653,17 +5653,17 @@
       "series_id": "10-32(a)",
       "series_title": "Vet Lists-Horse",
       "series_description": "Includes horse bleeder list, furosemide list, injuries and related vet lists.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "duration_years": "10",
-      "duration_months": "",
+      "duration_years": 10,
+      "duration_months": null,
       "disposition": "10 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Database; Disposition:\nDelete"
@@ -5684,17 +5684,17 @@
       "series_id": "10-32(b)",
       "series_title": "Vet Lists-Greyhound",
       "series_description": "Includes greyhound injuries and related vet lists.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CR",
-      "duration_years": "5",
-      "duration_months": "",
+      "duration_years": 5,
+      "duration_months": null,
       "disposition": "5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-05-30",
       "next_update_due": "2028-05",
       "comments": "Medium: Database; Disposition:\nDelete"

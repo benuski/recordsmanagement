@@ -11,20 +11,20 @@
       "series_id": "ACC1000",
       "series_title": "Accounts Payable",
       "series_description": "Records related to payment of financial obligations (including employee reimbursements, TMRS credit cards, and outside vendors). Also includes print-outs of posting journal entry batch to the accounts payable module. Also includes supporting documents needed to verify the accuracy of the invoice and to authorize payment. This includes Vendor W-9's.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "After Closed plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "4.1.001"
@@ -42,20 +42,20 @@
       "series_id": "ACC2020",
       "series_title": "Accounts Receivable",
       "series_description": "Receivables due from employees, vendors, and retirees are managed here. Also includes printouts of posted journal entry batch to the accounts receivable module.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "After Closed plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "4.1.009"
@@ -73,20 +73,20 @@
       "series_id": "ACC3000",
       "series_title": "Banking - Account Reconciliations and Statements",
       "series_description": "Records related to analysis and audit of depository TMRS bank accounts. These records support the monthly account reconciliation process and are used to document reconciliations that developed from that analysis.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "After Closed plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "4.8.001"
@@ -104,20 +104,20 @@
       "series_id": "ACC3100",
       "series_title": "Banking - Account Set-up, Management and Authorized Signatures",
       "series_description": "Records related to the setup and management of the System's bank depository accounts. Includes bank account numbers and set-up documentation. Records of persons authorized to sign on transactions involving TMRS bank accounts.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "4",
-      "duration_months": "",
+      "duration_years": 4,
+      "duration_months": null,
       "disposition": "After Closed plus 4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "4.7.012"
@@ -135,17 +135,17 @@
       "series_id": "ACC3200",
       "series_title": "Banking - Receivables",
       "series_description": "Records related to deposits and wire transfers made to and from depository bank accounts. These records are used to verify the transfer and deposit of funds. Includes deposit slips and wire transfer records.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "After Closed plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
       "comments": "The virtual remittance deposits from\nTMRS to its bank are the official record\nof all deposited checks."
@@ -166,20 +166,20 @@
       "series_id": "ACC4000",
       "series_title": "Capital Assets",
       "series_description": "Financial records documenting the purchase, sale, and improvement of real property and equipment, as well as depreciation, amortization, etc. Includes appropriation for expense and fixed assets and work-in-progress.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "LA",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "Life of Asset plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "4.7.004"
@@ -197,20 +197,20 @@
       "series_id": "ACC5000",
       "series_title": "General Ledger - Journal Entries",
       "series_description": "Records used to transfer charges between accounts and for summarizing account information. Includes entries made to the general ledger to correct coding errors, correct ledger accounts accrued for expenses not yet paid, or other similar activities.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "After Closed plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "4.1.001"
@@ -228,17 +228,17 @@
       "series_id": "ACC5100",
       "series_title": "General Ledger - Year-End Ledgers and Trial Balances",
       "series_description": "Records related to the general ledger. Includes the actual general ledger that summarizes all corporate accounts.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "duration_years": "6",
-      "duration_months": "",
+      "duration_years": 6,
+      "duration_months": null,
       "disposition": "Calendar Year End plus 6 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
       "comments": "Agency Policy to retain longer than\nTSLAC Minimum."
@@ -259,20 +259,20 @@
       "series_id": "ACC5200",
       "series_title": "General Ledger - Account Reconciliation",
       "series_description": "Records related to analysis and audit of accounts related to TMRS Plans. These records support the monthly account reconciliation process and are used to document reconciliations that developed from that analysis.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "After Closed plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "4.1.001"
@@ -290,20 +290,20 @@
       "series_id": "ACC6000",
       "series_title": "Investment Accounting - Cash Management",
       "series_description": "Records related to investment-related cash flows and monthly unallocated cash projections.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "After Closed plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "4.1.009"
@@ -321,20 +321,20 @@
       "series_id": "ACC6100",
       "series_title": "Investment Accounting - Account Reconciliations",
       "series_description": "Reconciliations and records supporting accounting transactions related to TMRS investments.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "After Closed plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "4.1.009"
@@ -352,17 +352,17 @@
       "series_id": "ADM1000",
       "series_title": "Agency Rules, Policies, and Procedures",
       "series_description": "Manuals, guidelines, administrative rules, or similar records distributed internally for the use of employees or externally to the public or those individuals or entities regulated by an agency that set out the rules, policies, and procedures that govern an agency's programs, services, or projects. Includes working files and related documentation used in creating rules, policies, and procedures.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "After Closed plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
       "comments": "ARCHIVES NOTE: Working files and\nrelated documentation used in creating\nthe final rules, policies, and procedures\nare not subject to archival requirement\nand may be disposed of at the\nexpiration of the retention period."
@@ -383,20 +383,20 @@
       "series_id": "ADM2000",
       "series_title": "Information Governance - Records Destruction Certification",
       "series_description": "Documentation supporting the records management program's destruction processing to demonstrate that records were destroyed according to the TMRS retention schedule.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "10",
-      "duration_months": "",
+      "duration_years": 10,
+      "duration_months": null,
       "disposition": "After Closed plus 10 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "1.2.010"
@@ -414,17 +414,17 @@
       "series_id": "ADM2020",
       "series_title": "Information Governance - Records Management Transactions",
       "series_description": "Records that identify transactions to and from off-site storage as well as the indices for records identification and location. Consists of transfer, retrieval, and shipping manifest forms. Excludes destruction authorization forms and reports.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "As Long as Administratively Valuable",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
       "comments": "See ADM2040 for Information\nGovernance - Records Control Locator\nAids. See ADM2000 for Records\nDestruction Certification."
@@ -445,17 +445,17 @@
       "series_id": "ADM2040",
       "series_title": "Information Governance - Records Control Locator Aids",
       "series_description": "Records including indices, card files, shelf list, registers, guides, etc., such as the Lason Access data base used to identify where microfiche containing member, retiree, and city records are located.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "After Closed",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
       "comments": "CAUTION: These records must carry the\nsame retention period and archival\ncode of the records they support."
@@ -476,17 +476,17 @@
       "series_id": "ADM2080",
       "series_title": "Information Governance - Records Retention Schedule (SLR105)",
       "series_description": "A records retention schedule (i.e. form SLR 105) that identifies the records that are created and maintained by an agency provides the minimum timeframes the records must be retained and includes instructions for their disposition. This series may include working files and documentation of certification and approval by the Texas State Library and Archives Commission.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "US",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "Until Superseded",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
       "comments": "Original is retained for 50 years by the\nState and Local Records Management\nDivision, Texas State Library and\nArchives Commission."
@@ -507,17 +507,17 @@
       "series_id": "ADM3000",
       "series_title": "Correspondence - Administrative",
       "series_description": "Administrative correspondence records, both internal and external, related to TMRS policies, programs, directives, and initiatives. Does not include correspondence related to specific System activities, such as Human Resources, Legal, and Member Benefits.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "duration_years": "4",
-      "duration_months": "",
+      "duration_years": 4,
+      "duration_months": null,
       "disposition": "Calendar Year End plus 4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
       "comments": "ARCHIVES NOTE: Only the\nadministrative correspondence of\nexecutive staff, board or commission\nmembers, division directors and\nprogram heads require archival review.\nContact the State Archives when these\nrecords have met their retention\nperiods.\nCAUTION: This records series and item\nnumber 1.1.008 should be used only\nfor correspondence that is not included\nin or directly related to another records\nseries on the agency's approved\nschedule."
@@ -538,17 +538,17 @@
       "series_id": "ADM3020",
       "series_title": "Correspondence - Departmental",
       "series_description": "Records related to primarily internal casual correspondence. This record class is to be used only for correspondence not covered elsewhere. Non-administrative incoming/outgoing and internal correspondence, in any media, pertaining to or arising from the routine operations of the policies, programs, services, or projects of an agency. This includes correspondence with",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "duration_years": "2",
-      "duration_months": "",
+      "duration_years": 2,
+      "duration_months": null,
       "disposition": "Calendar Year End plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
       "comments": "SEE comment to item number 1.1.007."
@@ -569,17 +569,17 @@
       "series_id": "ADM4000",
       "series_title": "Departmental Administration",
       "series_description": "Records documenting business unit administration, planning, and management activities. Includes business unit work assignments, schedules, presentations, calendars, and other miscellaneous administrative records not covered elsewhere.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "duration_years": "1",
-      "duration_months": "",
-      "disposition": "Calendar Year End plus 1 year",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition": "Calendar Year End plus 1 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
       "comments": "ARCHIVES NOTE: Only the calendars,\nappointment, and itinerary records of\nelected officials, agency heads, and\nboard or commission members require\narchival review. Contact the State\nArchives when these records have met\ntheir retention periods.\nCAUTION: A record of this type\npurchased with personal funds, but\nused by state official or employee to\ndocument his or her work activities\nmay be a state record and subject to\nthis retention period. See Open\nRecords Decision 635 issued in\nDecember 1995 by the Texas Attorney\nGeneral."
@@ -600,17 +600,17 @@
       "series_id": "ADM4100",
       "series_title": "Internal Project Management",
       "series_description": "Records related to management of internal projects, special studies, analysis, and other department events not covered elsewhere. Includes ad hoc studies performed at the corporate or workgroup level. Includes notes, presentations, reports, studies, project plans, meeting minutes, status reporting, presentations, etc.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "After Closed plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
       "comments": "ARCHIVES NOTE: Data processing\nplanning records are not archival."
@@ -631,17 +631,17 @@
       "series_id": "ADM5000",
       "series_title": "Speeches, Presentations and Reports",
       "series_description": "Presentations, conference reports, and papers delivered at a conference or meeting in conjunction with TMRS business. May include handouts.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "2",
-      "duration_months": "",
+      "duration_years": 2,
+      "duration_months": null,
       "disposition": "After Closed plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
       "comments": "ARCHIVES NOTE: Only speeches,\npapers, and presentations given by or\non behalf of executive staff, board or\ncommission members, division\ndirectors and program heads require\narchival review."
@@ -662,17 +662,17 @@
       "series_id": "ADM6000",
       "series_title": "Vehicle Records - Ownership and Activity",
       "series_description": "Records documenting TMRS' vehicle ownership and licensing. Records include vehicle titles and registration.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "LA",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "Life of Asset",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
       "comments": "LA = Vehicle is sold or disposed of."
@@ -693,20 +693,20 @@
       "series_id": "AUD1000",
       "series_title": "External Financial Audits - Audit Reports and Work Papers",
       "series_description": "Records related to the external financial audit of TMRS and its business units. Includes final audit report and working papers including preliminary drafts and supporting documentation for external financial audit final reports.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "7",
-      "duration_months": "",
+      "duration_years": 7,
+      "duration_months": null,
       "disposition": "After Closed plus 7 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "1.1.002"
@@ -724,20 +724,20 @@
       "series_id": "AUD1100",
       "series_title": "Internal Audit Committee - Complaints",
       "series_description": "Records related to complaints made to the Board Audit Committee regarding TMRS and/or employees. Includes complaints and Audit Committee responses.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "7",
-      "duration_months": "",
+      "duration_years": 7,
+      "duration_months": null,
       "disposition": "After Closed plus 7 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "1.1.002"
@@ -755,23 +755,23 @@
       "series_id": "CSA1010",
       "series_title": "Cities - General",
       "series_description": "Records related to individual participating cities that indicate current status within the TMRS systems. Does not include ordinances and city retirement plans, contribution rates, and contribution transactions.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "Calendar Year End plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
       "comments": "See CSA1020 for Cities - City\nContributions. See CSA1060 for\nParticipating Cities - Ordinances and\nCity Plans."
     },
     "state_specific_attributes": {
-      "rsin": ""
+      "rsin": null
     }
   },
   {
@@ -786,23 +786,23 @@
       "series_id": "CSA1020",
       "series_title": "Cities - City Contributions",
       "series_description": "City contributions data from participating cities to TMRS. Includes records regarding city payroll information and city contributions deposited into TMRS's bank account. Does not include processing documentation. Excludes checks subject to destruction pursuant to Federal Regulations.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "duration_years": "6",
-      "duration_months": "",
+      "duration_years": 6,
+      "duration_months": null,
       "disposition": "Calendar Year End plus 6 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
       "comments": "Relates to City employees information,\nnot TMRS employees. See Texas\nGovernment Code, §852.110. See\nCSA1030 for Cities - Contributions\nProcessing. The virtual remittance\ndeposits from TMRS to its bank are the\nofficial record of all deposited checks."
     },
     "state_specific_attributes": {
-      "rsin": ""
+      "rsin": null
     }
   },
   {
@@ -817,23 +817,23 @@
       "series_id": "CSA1030",
       "series_title": "Cities - Contributions Processing",
       "series_description": "TMRS records documenting the receipt and processing of city contributions data. Does not include city contributions data transferred to TMRS.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "duration_years": "6",
-      "duration_months": "",
+      "duration_years": 6,
+      "duration_months": null,
       "disposition": "Calendar Year End plus 6 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
       "comments": "See CSA1020 Cities - City Contributions."
     },
     "state_specific_attributes": {
-      "rsin": ""
+      "rsin": null
     }
   },
   {
@@ -848,23 +848,23 @@
       "series_id": "CSA1060",
       "series_title": "Participating Cities - Ordinances and City Plans",
       "series_description": "Records documenting city ordinances regarding employee retirement plans and the plan provisions and changes/potential changes to plans.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "4",
-      "duration_months": "",
+      "duration_years": 4,
+      "duration_months": null,
       "disposition": "After Closed plus 4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
-      "rsin": ""
+      "rsin": null
     }
   },
   {
@@ -879,20 +879,20 @@
       "series_id": "CSA3140",
       "series_title": "Plan Administration - Rates and Calculation Factors",
       "series_description": "Records documenting annuity purchase rate factors.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "After Closed",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "4.5"
@@ -910,17 +910,17 @@
       "series_id": "CSA3150",
       "series_title": "Plan Administration - GASB Compliance",
       "series_description": "Records documenting city rate information and rate changes, including actuarial valuations; and GASB 68 and GASB75 Employer Reporting Packages including GASB 68/75 Census Data.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "duration_years": "10",
-      "duration_months": "",
+      "duration_years": 10,
+      "duration_months": null,
       "disposition": "Calendar Year End plus 10 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
       "comments": "GASB = Governmental Accounting\nStandards Board."
@@ -941,17 +941,17 @@
       "series_id": "CSA3160",
       "series_title": "Plan Administration - Special Actuarial Studies, Funding Policies and Rules",
       "series_description": "Special actuarial studies, including experience studies, as well as rules, policies and methods needed to calculate contribution rates and provisions of TMRS benefit plans.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "As Long as Administratively Valuable",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
       "comments": "AV to be determined by the Director of\nPlan Design and Funding, or other\ndesignee of the Executive Director."
@@ -972,17 +972,17 @@
       "series_id": "CSA3170",
       "series_title": "Plan Administration - New City and Plan Change Studies",
       "series_description": "Actuarial cost studies for new cities and plan change requests.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "As Long as Administratively Valuable",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
       "comments": "AV to be determined by the Director of\nCity Services, or other designee of the\nExecutive Director."
@@ -1003,20 +1003,20 @@
       "series_id": "EXE1000",
       "series_title": "Board Trustees",
       "series_description": "Records related to appointment, training and termination of TMRS Board of Trustees and Committees.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "As Long as Administratively Valuable",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "1.1"
@@ -1038,13 +1038,13 @@
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "duration_years": "5",
-      "duration_months": "",
+      "duration_years": 5,
+      "duration_months": null,
       "disposition": "Calendar Year End plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
       "comments": "PRB= Pension Review Board."
@@ -1065,17 +1065,17 @@
       "series_id": "EXE1020",
       "series_title": "Board of Trustees and Committee Meetings",
       "series_description": "Records documenting proceedings of the TMRS Board of Trustees, committees of the Board and other legally required meetings. Includes meeting minutes, voting records, and supporting documentation; does not include non-legally required meetings.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
       "comments": "ARCHIVES NOTE: Agency retains\npermanent record copy."
@@ -1096,20 +1096,20 @@
       "series_id": "EXE1030",
       "series_title": "Texas Register Submissions",
       "series_description": "Copies of all proposed, withdrawn, emergency, and adopted rules, open meetings notices; or any other documents required by law to be submitted to the Texas Register.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "1",
-      "duration_months": "",
-      "disposition": "After Closed plus 1 year",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition": "After Closed plus 1 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "1.1.026"
@@ -1127,17 +1127,17 @@
       "series_id": "EXE1040",
       "series_title": "Business Organization and Charter",
       "series_description": "Records documenting the creation, structure, and governance of TMRS includes by-laws, organizational charts, and charters.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "US",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "Until Superseded plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
       "comments": "ARCHIVES NOTE: Only charts showing\nthe overall arrangement and\nadministrative structure of the state\nagency need to be transferred to the\nArchives and Information Services\nDivision, Texas State Library and\nArchives Commission. Organizational\ncharts showing division/department\nlevel detail are not considered archival."
@@ -1158,20 +1158,20 @@
       "series_id": "EXE1120",
       "series_title": "Annual Comprehensive Financial Reports (ACFRs)",
       "series_description": "Final Approved ACFRs.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "PM",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "4.1"
@@ -1193,13 +1193,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "7",
-      "duration_months": "",
+      "duration_years": 7,
+      "duration_months": null,
       "disposition": "After Closed plus 7 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
       "comments": "Includes all polices regardless of\nexecuted, renewed or amended date."
@@ -1220,17 +1220,17 @@
       "series_id": "EXE1300",
       "series_title": "Strategic and Business Planning Including Performance Measures Documentation",
       "series_description": "Records that document the strategic and business plans of TMRS and its business units. Includes marketing plans and business plans. Also includes records needed for the documentation of output, outcome, efficiency, and explanatory measures of the strategic plan, and for performance measures used to manage the agency.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "6",
-      "duration_months": "",
+      "duration_years": 6,
+      "duration_months": null,
       "disposition": "After Closed plus 6 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
       "comments": "TMRS does not make any\nappropriations requests.\nARCHIVES NOTE: The final version of\nStrategic Plans must be submitted to\nthe Texas State Publications Depository\nProgram per 13 TAC 3.3(a)(2)(C).\nWorking files and related\ndocumentation used in creating the\nfinal plan are not subject to archival\nreview and may be disposed of at the\nexpiration of the retention period."
@@ -1251,20 +1251,20 @@
       "series_id": "FAC1020",
       "series_title": "Facilities - Maintenance Manual and Technical Reference",
       "series_description": "Reference and technical instruction manuals provided by the manufacturer for products and equipment used by TMRS.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "LA",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "Life of Asset",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "5.2.010"
@@ -1282,20 +1282,20 @@
       "series_id": "FAC2000",
       "series_title": "Security - General",
       "series_description": "Records related to routine security actions taken to protect TMRS employees, equipment, buildings, and information. Includes clearance list and investigations.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "As Long as Administratively Valuable",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "5.4"
@@ -1313,20 +1313,20 @@
       "series_id": "FAC2020",
       "series_title": "Security - Access Records",
       "series_description": "Records relating to the issuance of keys, identification cards, building passes and building access cards, passwords, signed statements or similar instruments of access to agency or state facilities, equipment or automated systems.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "2",
-      "duration_months": "",
+      "duration_years": 2,
+      "duration_months": null,
       "disposition": "After Closed plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "5.4.012"
@@ -1344,20 +1344,20 @@
       "series_id": "FAC2040",
       "series_title": "Security - Visitor Control Registers",
       "series_description": "Logs, registers, or similar records documenting visitors to limited access or restricted areas of agency facilities.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "Calendar Year End plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "5.4.011"
@@ -1375,17 +1375,17 @@
       "series_id": "FIN1000",
       "series_title": "Budget and Financial Forecast",
       "series_description": "Records related to internal planning and financial management. Includes records of the business income, expenses, and cash flow on a monthly, quarterly, and annual basis. Includes fiscal year budgets for business areas and earnings forecast and analysis. Includes monthly, quarterly, and annual reports summarizing financial budgets and goals. Excludes Annual Comprehensive Financial Reports.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "5",
-      "duration_months": "",
+      "duration_years": 5,
+      "duration_months": null,
       "disposition": "After Closed plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
       "comments": "See EXE1120 for Annual\nComprehensive Financial Reports."
@@ -1406,20 +1406,20 @@
       "series_id": "FIN1020",
       "series_title": "Cash Management - Plan Administration",
       "series_description": "Records relating to the analysis, forecasting, and disposition of TMRS' cash balances. Includes records used to determine actual and future cash balances, as well as records related to analysis of TMRS borrowing strategies, investment strategies, and float trends.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "After Closed plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "4.1.009"
@@ -1437,17 +1437,17 @@
       "series_id": "FIN1220",
       "series_title": "Fiscal Management Reporting - General",
       "series_description": "Internal and external periodic fiscal management reports and documents providing useful sales, accounting, financial and other asset information to management. Includes federal financial reports, HUB reports, etc. These records are not part of accounting transaction processing or financial statements functions.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "5",
-      "duration_months": "",
+      "duration_years": 5,
+      "duration_months": null,
       "disposition": "After Closed plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
       "comments": "See INV2000 for investment\nperformance reports. See HRE1000 for\nSalary Reports."
@@ -1468,17 +1468,17 @@
       "series_id": "FIN1280",
       "series_title": "Financial Statements",
       "series_description": "Financial statements and reports submitted to government agencies. Includes financial statements from all business activity.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "After Closed plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
       "comments": "See EXE1120 for Annual ACFRs. TMRS\ndoes not fall under the General\nAppropriations Act (100 Day Report)."
@@ -1499,20 +1499,20 @@
       "series_id": "HRB1000",
       "series_title": "Employee Benefit Administration - General",
       "series_description": "Records relating to the general management and administration of benefit plans for TMRS employees. Includes plan-related and vendor correspondence and general employee communications relative to benefits, such as open enrollment communications and notices from HR to all TMRS employees.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "duration_years": "6",
-      "duration_months": "",
+      "duration_years": 6,
+      "duration_months": null,
       "disposition": "Calendar Year End plus 6 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.1"
@@ -1530,20 +1530,20 @@
       "series_id": "HRB1020",
       "series_title": "Employee Benefit Administration - Benefit Plan Reports",
       "series_description": "Records relating to ERS change reports on general management and administration of employment benefit plans for TMRS employees, including planned and actual deferrals.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "4",
-      "duration_months": "",
+      "duration_years": 4,
+      "duration_months": null,
       "disposition": "After Closed plus 4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.2"
@@ -1565,13 +1565,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "7",
-      "duration_months": "",
+      "duration_years": 7,
+      "duration_months": null,
       "disposition": "After Closed plus 7 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
       "comments": "This does not include ERS plans."
@@ -1596,13 +1596,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "1",
-      "duration_months": "",
-      "disposition": "After Closed plus 1 year",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition": "After Closed plus 1 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
       "comments": "See HRB1040 for TMRS Deferred\nCompensation Plan. See MBA2020 for\nTMRS Pension Plan."
@@ -1627,13 +1627,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "5",
-      "duration_months": "",
+      "duration_years": 5,
+      "duration_months": null,
       "disposition": "After Closed plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
       "comments": "Agency Policy to retain longer than\nTSLAC Minimum."
@@ -1654,20 +1654,20 @@
       "series_id": "HRE1100",
       "series_title": "Employee Recruitment - General",
       "series_description": "Records related to internal or external announcements or advertisements of job openings, promotions, training programs or opportunities for overtime.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "duration_years": "2",
-      "duration_months": "",
+      "duration_years": 2,
+      "duration_months": null,
       "disposition": "Calendar Year End plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.1.012"
@@ -1689,13 +1689,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "2",
-      "duration_months": "",
+      "duration_years": 2,
+      "duration_months": null,
       "disposition": "After Closed plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
       "comments": "CAUTION: Does not include ADA\nAccommodation Request."
@@ -1716,20 +1716,20 @@
       "series_id": "HRE1200",
       "series_title": "Employee Relations - Communications",
       "series_description": "Copies of employee announcements and other informative communications, clarifications and explanations about policies, in-house magazines, special events, civic activities and newsletters.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "Calendar Year End plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.3"
@@ -1747,20 +1747,20 @@
       "series_id": "HRE1220",
       "series_title": "Employee Relations - General",
       "series_description": "Records pertaining to relations between TMRS and its employees not covered in other record classes.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "Calendar Year End plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.1"
@@ -1778,17 +1778,17 @@
       "series_id": "HRE1240",
       "series_title": "Employee Grievance and Corrective Actions",
       "series_description": "Records related to employee's concerns, complaints, and allegations of non-compliance with employer policies (e.g. sexual harassment allegations), general use of employee assistance programs, referrals, and disciplinary records. Includes corrective actions which do not affect pay, status, or tenure and are imposed to correct or improve an employee's job performance.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "5",
-      "duration_months": "",
+      "duration_years": 5,
+      "duration_months": null,
       "disposition": "After Closed plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
       "comments": "If the situation becomes a legal issue, it\nmigrates to AIN LEG2020 Hearings and\nLitigation.\nCAUTION: If, during the retention\nperiod of this records series, any part of\nthis series is used to document and\nsupport personnel disciplinary action\nunder HRE1520, all documentation\nfrom this series used to support\ndisciplinary action must be retained for\nthe minimum retention period\ndescribed by HRE1520."
@@ -1813,13 +1813,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "After Closed",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
       "comments": "CAUTION: Federal regulation requires\nthat INS 1-9 forms be retained for 3\nyears from date of hire or 1 year after\nseparation of the employee, whichever\nis later. Agencies should make certain\nthat the INS I-9 forms for employees\nwho terminate from an agency less\nthan 3 years from date of hire are kept\nfor the 3 year retention period."
@@ -1844,16 +1844,16 @@
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "Calendar Year End plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.3.031"
@@ -1875,16 +1875,16 @@
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "duration_years": "5",
-      "duration_months": "",
+      "duration_years": 5,
+      "duration_months": null,
       "disposition": "Calendar Year End plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "5.4.001"
@@ -1906,16 +1906,16 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "4",
-      "duration_months": "",
+      "duration_years": 4,
+      "duration_months": null,
       "disposition": "After Closed plus 4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.1.023"
@@ -1933,17 +1933,17 @@
       "series_id": "HRE1500",
       "series_title": "Personnel Contact Information",
       "series_description": "Records showing TMRS employee names and contact information. Includes any reports compiled by an agency on aspects of personnel staffing, including listings of all staff by program or name, staff hired during a month, detailed listings of employees within its organizational structure, position vacancies, analyses of turnover rates and seasonality of employment, etc.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "US",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "Until Superseded plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
       "comments": "US = Purpose of the record has been\nfulfilled."
@@ -1964,17 +1964,17 @@
       "series_id": "HRE1520",
       "series_title": "Personnel Files - General",
       "series_description": "Records providing a history of employment from initial hiring, including application, applicant testing, promotion, performance appraisals, transfers, etc.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "5",
-      "duration_months": "",
+      "duration_years": 5,
+      "duration_months": null,
       "disposition": "After Closed plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
       "comments": "All TMRS Employment contracts are\nunder LEG1000."
@@ -1999,13 +1999,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "2",
-      "duration_months": "",
+      "duration_years": 2,
+      "duration_months": null,
       "disposition": "After Closed plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
       "comments": "Agency Policy to retain longer than\nTSLAC Minimum."
@@ -2026,20 +2026,20 @@
       "series_id": "HRE1580",
       "series_title": "Personnel Policies and Procedures",
       "series_description": "Any internally distributed manuals, guidelines, or similar records that define agency wide policies and procedures concerning the personnel of the agency.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "US",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "Until Superseded plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.3.024"
@@ -2057,20 +2057,20 @@
       "series_id": "HRE1600",
       "series_title": "Training and Development Programs - General",
       "series_description": "Records relating to the development and operation of TMRS-sponsored training programs and seminars. Includes seminars, education assistance, management and supervision development, job progression, drug and alcohol awareness.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "2",
-      "duration_months": "",
+      "duration_years": 2,
+      "duration_months": null,
       "disposition": "After Closed plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.3.030"
@@ -2088,17 +2088,17 @@
       "series_id": "HRE1700",
       "series_title": "Verification of TMRS Employment",
       "series_description": "Records that document minimum information needed to verify employment. Includes name, social security number, exact dates of employment, last known address, most recent public access option form, and last title or position held.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "75",
-      "duration_months": "",
+      "duration_years": 75,
+      "duration_months": null,
       "disposition": "After Closed plus 75 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
       "comments": "See HRE1500 for Personnel Contact\nInformation. See MBA2020 for\nVerification information."
@@ -2123,13 +2123,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "After Closed plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
       "comments": "Includes supporting documents for\nFMLA and other types of authorized\nleave."
@@ -2150,17 +2150,17 @@
       "series_id": "INV1020",
       "series_title": "Investment Policies, Procedures and Processes",
       "series_description": "Records related to TMRS' policies, procedures and processes for administering the investment program. Includes the final version of board-approved Investment Policy Statement, Investment Guidelines, Staff Investment Committee Charter.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "After Closed plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
       "comments": "ARCHIVES NOTE: Working files and\nrelated documentation used in creating\nthe final rules, policies, and procedures\nare not subject to archival requirement\nand may be disposed of at the\nexpiration of the retention period."
@@ -2181,17 +2181,17 @@
       "series_id": "INV1040",
       "series_title": "Investment Department - Correspondence",
       "series_description": "Incoming/outgoing correspondence between Investment staff and internal parties, and external managers, consultants and third party providers.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "duration_years": "2",
-      "duration_months": "",
+      "duration_years": 2,
+      "duration_months": null,
       "disposition": "Calendar Year End plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
       "comments": "If correspondence relates to a\ncontractual relationship with TMRS, it\nwill need to be retained in accordance\nwith LEG1000."
@@ -2212,23 +2212,23 @@
       "series_id": "INV1050",
       "series_title": "Investment Compliance Testing and Reporting",
       "series_description": "Records related to Investment compliance and manually-run Investment compliance tests.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "duration_years": "5",
-      "duration_months": "",
+      "duration_years": 5,
+      "duration_months": null,
       "disposition": "Calendar Year End plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
-      "rsin": ""
+      "rsin": null
     }
   },
   {
@@ -2243,17 +2243,17 @@
       "series_id": "INV2000",
       "series_title": "Investment Department - Administration",
       "series_description": "Records created during day-to-day business activities in support of investment operations. Non-contract records related to ongoing manager and consultant relationships. Records related to deliverables as outlined in manager, consultant, custody and third party service provider agreements, and ad hoc requests. Records related to the planning, forecasting, management, analysis and performance of the portfolio. Records relating to Investment Staff's participation on Limited Partner Advisory Committee (LPAC) Advisory Boards.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "5",
-      "duration_months": "",
+      "duration_years": 5,
+      "duration_months": null,
       "disposition": "After Closed plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
       "comments": "See FIN1220 for reports associated\nwith investments. See LEG1000 for\ninvestment-related contract records."
@@ -2274,17 +2274,17 @@
       "series_id": "INV7000",
       "series_title": "Staff Investment Committee",
       "series_description": "Records related to the activities of the Staff Investment Committee (SIC).",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "5",
-      "duration_months": "",
+      "duration_years": 5,
+      "duration_months": null,
       "disposition": "After Closed plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
       "comments": "This committee is an internal\nInvestment Department. Staff\ncommittee and not subject to the Open\nMeeting Act."
@@ -2309,13 +2309,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "After Closed",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
       "comments": "CAUTION: Hardware and software\nneeded for access to electronic records\nmust be retained for the period of time\nrequired to access the records."
@@ -2336,17 +2336,17 @@
       "series_id": "ISY1020",
       "series_title": "Disaster Recovery Plans",
       "series_description": "Documentation of plans which would be implemented in the event of a disaster or information systems failure. Includes contact person, backup sites, and instructions for personnel.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "US",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "Until Superseded",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
       "comments": "US = Plan is superseded or is no longer\nin effect."
@@ -2371,13 +2371,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "After Closed",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
       "comments": "CAUTION: Software needed for access\nto electronic records must be retained\nfor the period of time required to\naccess the records."
@@ -2402,13 +2402,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "After Closed",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
       "comments": "CAUTION: Hardware needed for access\nto electronic records must be retained\nfor the period of time required to\naccess the records."
@@ -2429,20 +2429,20 @@
       "series_id": "ISY1070",
       "series_title": "Help Desk Tickets",
       "series_description": "Records documenting the request for and response to help desk tickets reviewed by divisions or units, such as information technology.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "As Long as Administratively Valuable",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "2.2.017"
@@ -2460,20 +2460,20 @@
       "series_id": "ISY1080",
       "series_title": "IT Equipment Inventory",
       "series_description": "Equipment listing showing what IT equipment is currently assigned to which employee such as I-Pads and cell phones. Also shows all IT Servers.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "US",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "Until Superseded",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "5.2"
@@ -2491,20 +2491,20 @@
       "series_id": "ISY2000",
       "series_title": "Audit Trail Records",
       "series_description": "Files needed for electronic data audits. Records include but are not limited to: activity logs, security logs, application logs, error logs, etc.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "After Closed",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "2.1.010"
@@ -2526,13 +2526,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "7",
-      "duration_months": "",
+      "duration_years": 7,
+      "duration_months": null,
       "disposition": "After Closed plus 7 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
       "comments": "Includes contracts regardless of their\nexecuted, renewed or amended date.\nAlso includes all employment contracts.\nSee LEG1020 for Contracts,\nAgreements and Leases - Real Estate\nConstruction, Improvements, Deeds\nand Easements. See PUR1000 for Bid\nDocumentation."
@@ -2553,17 +2553,17 @@
       "series_id": "LEG1020",
       "series_title": "Contracts, Agreements and Leases - Real Estate Construction, Improvements, Deeds and Easements",
       "series_description": "Records related to contracts and agreements for improvements to TMRS-owned real property, including construction agreements. This also includes records related to real estate ownership or lease - deeds, easements, leases, title insurance, including easements granted to 3rd parties permitting access to TMRS property, as well as easements granted to TMRS by outside parties for accessing their property.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "LA",
-      "duration_years": "10",
-      "duration_months": "",
+      "duration_years": 10,
+      "duration_months": null,
       "disposition": "Life of Asset plus 10 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
       "comments": "LA = Real Estate/Facility is sold or\ndisposed of. Includes contracts\nregardless of their executed, renewed\nor amended date. Does not include\nreal estate investment contracts, which\nare included in LEG1000. TMRS\nbuilding is not a state-owned building\nor property."
@@ -2584,17 +2584,17 @@
       "series_id": "LEG1100",
       "series_title": "Court and Government Orders (Non-Member and Non-Litigation)",
       "series_description": "Records related to court orders or governmental orders other than: orders regarding specific TMRS members or employees; or, orders entered in litigation proceedings involving TMRS.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "1",
-      "duration_months": "",
-      "disposition": "After Closed plus 1 year",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition": "After Closed plus 1 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
       "comments": "See LEG2000 for Administrative\nHearings, LEG2020 for Non-Investment\nLitigation, LEG2040 for Investment\nLitigation or MBA2020 for Member\nEmployees - General, as applicable.\nARCHIVES NOTE: Cases that set legal\nprecedent or exhibit historical value\nwill be evaluated by the Archives and\nInformation Services Division of the\nTexas State Library and Archives\nCommission for archival preservation.\nSee page ix of TSLAC's RRS for more\ninformation."
@@ -2615,17 +2615,17 @@
       "series_id": "LEG2000",
       "series_title": "Hearings and Litigation - Administrative Hearings",
       "series_description": "Records related to disputes considered by the Texas State Office of Administrative Hearings. Includes copies of motions, appeals, administrative decisions, case files received from Administrative Law Judges and arbitrators.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "After Closed plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
       "comments": "Agency Policy to retain longer than\nTSLAC Minimum. ARCHIVES NOTE:\nCases that set legal precedent or\nexhibit historical value will be\nevaluated by the Archives and\nInformation Services Division of the\nTexas State Library and Archives\nCommission for archival preservation.\nSee page ix of TSLAC's RRS for more\ninformation."
@@ -2646,17 +2646,17 @@
       "series_id": "LEG2020",
       "series_title": "Hearings and Litigation - Non- Investment or Non-Member Litigation",
       "series_description": "Records related to threatened or asserted litigation, other than litigation relating to TMRS investments or specific TMRS members. Includes pleadings, discovery, attorney work products, legal opinions, transcripts, exhibits, final judgments, settlements, court orders, and other documents specifying final terms, conditions and decisions related to claims and litigation.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "After Closed plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
       "comments": "See LEG2000 for Administrative\nHearings, LEG2040 for Investment\nLitigation, MBA2020 - Member\nEmployees - General.\nAgency Policy to retain longer than\nTSLAC Minimum.\nARCHIVES NOTE: Cases that set legal\nprecedent or exhibit historical value\nwill be evaluated by the Archives and\nInformation Services Division of the\nTexas State Library and Archives\nCommission for archival preservation."
@@ -2677,17 +2677,17 @@
       "series_id": "LEG2040",
       "series_title": "Hearings and Litigation - Investments",
       "series_description": "Records related to threatened or asserted litigation relating to TMRS investments. Includes pleadings, discovery, attorney work products, legal opinions, transcripts, exhibits, final judgments, settlements, court orders, and other documents specifying final terms, conditions and decisions related to claims and litigation. Includes U.S. securities litigation in which TMRS is a lead plaintiff and non-U.S. securities litigation. Does NOT include records regarding U.S. securities litigation in which TMRS is a class member but not lead plaintiff.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "3",
-      "duration_months": "",
+      "duration_years": 3,
+      "duration_months": null,
       "disposition": "After Closed plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
       "comments": "LEG2000 for Administrative Hearings,\nLEG2020 for Non-Investment or Non-\nMember Litigation, or MBA2020 for\nMember Employees - General, as\napplicable. Agency Policy to retain\nlonger than TSLAC Minimum.\nARCHIVES NOTE: Cases that set legal\nprecedent or exhibit historical value\nwill be evaluated by the Archives and\nInformation Services Division of the\nTexas State Library and Archives\nCommission for archival preservation."
@@ -2708,17 +2708,17 @@
       "series_id": "LEG3000",
       "series_title": "Legal Opinions",
       "series_description": "Records documenting legal opinions generated by TMRS legal counsel, either internal or external, or the Office of Attorney General and relating to TMRS. These opinions involve System members, cities, and open records requests and therefore provide on-going guidance for System operations.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "As Long as Administratively Valuable",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
       "comments": "CAUTION: Does not include legal\nopinions or advice rendered on a\nmatter in litigation or with regard to\npending litigation. SEE LEG2000.\nARCHIVES NOTE: Opinions and advice\nthat set legal precedent or exhibit\nhistorical value will be evaluated by the\nArchives and Information Services\nDivision of the Texas State Library and\nArchives Commission for archival\npreservation. See pages IX of TSLAC's\nRetention Schedule for additional\nguidelines."
@@ -2739,17 +2739,17 @@
       "series_id": "LEG3020",
       "series_title": "Legal Projects and Analysis - General",
       "series_description": "Legal research and related work papers for various subjects and projects, such as employee and member matters, insurance consultation for contracts and agreements, etc. Excludes legal opinions or documents relating to specific litigation or setting legal precedent.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "As Long as Administratively Valuable",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
       "comments": "CAUTION: Does not include legal\nopinions or advice rendered on a\nmatter in litigation or with regard to\npending litigation, or opinions rendered\nfor Public Information Act requests.\nARCHIVES NOTE: Opinions and advice\nthat set legal precedent or exhibit\nhistorical value will be evaluated by the\nArchives and Information Services\nDivision of the TSLAC for Archival\npreservation. See pages IX of TSLAC's\nRetention Schedule for additional\nguidelines."
@@ -2774,13 +2774,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "2",
-      "duration_months": "",
+      "duration_years": 2,
+      "duration_months": null,
       "disposition": "After Closed plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
       "comments": "Agency Policy to retain longer than\nTSLAC Minimum."
@@ -2805,16 +2805,16 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "2",
-      "duration_months": "",
+      "duration_years": 2,
+      "duration_months": null,
       "disposition": "After Closed plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "1.1.021"
@@ -2832,17 +2832,17 @@
       "series_id": "LEG3080",
       "series_title": "Legal Projects and Analysis - Legislation",
       "series_description": "Records involving legal analysis of State legislation pending and enacted and affecting TMRS.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "As Long as Administratively Valuable",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
       "comments": "See PUB2000 for Government Relations\n- General and PUB 2020 - Legislative\nInformation and Reports."
@@ -2863,20 +2863,20 @@
       "series_id": "LEG4000",
       "series_title": "Professional Licenses and Certification",
       "series_description": "Records related to professional licenses and certification obtained from government agencies in order to perform certain tasks: i.e., attorney, CPA, and other professional licenses.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "2",
-      "duration_months": "",
+      "duration_years": 2,
+      "duration_months": null,
       "disposition": "After Closed plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "5.1.010"
@@ -2894,23 +2894,23 @@
       "series_id": "MBA2020",
       "series_title": "Member Employees - General",
       "series_description": "Records related to individual employee Members, Retirees, Beneficiary Payees, and Alternate Payees, including account status, service credits, deposits, deductions, escheated property. Includes active and inactive members. Also includes processing of transactions for these individuals such as refunds, retirements and payment transactions. Excludes estimate records described in MBA2030.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "10",
-      "duration_months": "",
+      "duration_years": 10,
+      "duration_months": null,
       "disposition": "After Closed plus 10 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
-      "rsin": ""
+      "rsin": null
     }
   },
   {
@@ -2925,23 +2925,23 @@
       "series_id": "MBA2030",
       "series_title": "Member Employees - Estimates",
       "series_description": "Estimate records related to individual Members, Retirees, Beneficiary Payees and Alternate Payees, includes active and inactive Members.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "duration_years": "1",
-      "duration_months": "",
-      "disposition": "Calendar Year End plus 1 year",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition": "Calendar Year End plus 1 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
-      "rsin": ""
+      "rsin": null
     }
   },
   {
@@ -2956,17 +2956,17 @@
       "series_id": "MBA3040",
       "series_title": "Plan Administration - Special Reports",
       "series_description": "Records related to the internal review of operations and administration as well as routine and requested reports.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "As Long as Administratively Valuable",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
       "comments": "See EXE1300 for Strategic Business\nPlanning Including Performance\nMeasures Documentation."
@@ -2987,23 +2987,23 @@
       "series_id": "MBA3200",
       "series_title": "Retirement Numbers",
       "series_description": "Records that document the assignment of service, retirement, and/or disability numbers to System members.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "75",
-      "duration_months": "",
+      "duration_years": 75,
+      "duration_months": null,
       "disposition": "After Closed plus 75 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
-      "rsin": ""
+      "rsin": null
     }
   },
   {
@@ -3018,23 +3018,23 @@
       "series_id": "MBA3220",
       "series_title": "Terminated Member Lists",
       "series_description": "Listings and reports on member employees terminated from the System. Does not include terminated member file.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "75",
-      "duration_months": "",
+      "duration_years": 75,
+      "duration_months": null,
       "disposition": "After Closed plus 75 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
       "comments": "See MBA2020 for Member Employees -\nGeneral."
     },
     "state_specific_attributes": {
-      "rsin": ""
+      "rsin": null
     }
   },
   {
@@ -3049,20 +3049,20 @@
       "series_id": "PAY1000",
       "series_title": "Employee Payroll and Direct Deposit Elections",
       "series_description": "Records related to TMRS employees enrolled in direct deposit payroll plan. Includes direct deposit waiver form and pre-note report, as well as authorization for other deductions elected by the employee.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "After Closed",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.2.008"
@@ -3080,17 +3080,17 @@
       "series_id": "PAY1100",
       "series_title": "Employee Time and Attendance Records",
       "series_description": "Records relating to the identification and reporting of hours worked. Including all time cards and timesheets submitted to payroll in order to document hours worked for a particular period.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "duration_years": "4",
-      "duration_months": "",
+      "duration_years": 4,
+      "duration_months": null,
       "disposition": "Calendar Year End plus 4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
       "comments": "These records are the backup\ndocuments to PAY1200 which has a\nretention period of CE+4."
@@ -3111,20 +3111,20 @@
       "series_id": "PAY1200",
       "series_title": "Payroll Accounting - General",
       "series_description": "Records documenting payroll accounting including input records, summary statements and history. Includes registers that provide detail of the payroll process, and employee saving deductions.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "duration_years": "4",
-      "duration_months": "",
+      "duration_years": 4,
+      "duration_months": null,
       "disposition": "Calendar Year End plus 4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.2.002"
@@ -3146,16 +3146,16 @@
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "duration_years": "4",
-      "duration_months": "",
+      "duration_years": 4,
+      "duration_months": null,
       "disposition": "Calendar Year End plus 4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.2.002"
@@ -3173,17 +3173,17 @@
       "series_id": "PUB1000",
       "series_title": "Advertising Artwork",
       "series_description": "Original artwork created by TMRS or external parties in the development of an advertising, marketing, education or public relations campaign. Includes background material, copy (drafts), photographs, photo negatives, prints, flats, layouts, displays, drawings, etc.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "As Long as Administratively Valuable",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
       "comments": "ARCHIVES NOTE: Successive and\nsubstantive drafts of major publications\nmay be archival. Major is defined by\nboth the publication's authorship and\nits impact on Texas and Texans.\nOriginal artwork, including photo prints\nand negatives that have significant\nvalue as evidence of agency programs\nas well as the potential for re-use, may\nbe archival."
@@ -3204,20 +3204,20 @@
       "series_id": "PUB2000",
       "series_title": "Government Relations - General",
       "series_description": "Records pertaining to government relations on local, state, and/or national levels that reflect issues that have an impact on the System.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "As Long as Administratively Valuable",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "1.1"
@@ -3235,17 +3235,17 @@
       "series_id": "PUB2020",
       "series_title": "Government Relations - Legislative Information and Reports",
       "series_description": "Records documenting proposed and adopted legislation affecting TMRS. Includes drafts, analyses, and studies. Does not include legal consultation.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AV",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "As Long as Administratively Valuable",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
       "comments": "See LEG3080 for Legal Projects and\nAnalysis - Legislation."
@@ -3266,20 +3266,20 @@
       "series_id": "PUB3000",
       "series_title": "Public Relations - General",
       "series_description": "News, press releases, marketing files and collateral, or any public relations files maintained or issued by TMRS. Includes print, electronic, audio, and audiovisual records.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "CE",
-      "duration_years": "2",
-      "duration_months": "",
+      "duration_years": 2,
+      "duration_months": null,
       "disposition": "Calendar Year End plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "1.1.019"
@@ -3297,20 +3297,20 @@
       "series_id": "PUB3020",
       "series_title": "Public Relations - Industry Relations",
       "series_description": "Records documenting communication and correspondence with similar organizations and participation in industry and professional organizations and cooperative development of industry-wide standards.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "After Closed",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "1.1"
@@ -3328,17 +3328,17 @@
       "series_id": "PUB3040",
       "series_title": "Publications",
       "series_description": "One copy of each \"State Publication\" as defined on page xi of the State's Records Retention Schedule, except a publication that is subject to a different retention period in this schedule. For example, a Board meeting agenda (see EXE1020) also meets the definition, but it must be retained permanently.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "2",
-      "duration_months": "",
+      "duration_years": 2,
+      "duration_months": null,
       "disposition": "After Closed plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
       "comments": "CAUTION: Many state publications\nmust be submitted to the Texas State\nPublications Depository Program,\nTSLAC by law (Govt Code 441.101-\n441.106). Most of TMRS' publications\nare posted on its website which is part\nof the TSLAC TRAIL program which at\nleast twice a year crawls and captures\nthe TMRS Website. TSLAC will retain a\ncopy of all state publications submitted\nto it on a continuing basis, subject to\nperiodic evaluation to determine if the\npublication merits further retention.\nFor additional info. and requirements\nconcerning state publications made\navailable to the public through the\nInternet, consult the admin. rules of\nthe Texas State Publications Depository\nProgram of the TSLA Comm. (13 TAC\n§§3.1-3.16)."
@@ -3359,20 +3359,20 @@
       "series_id": "PUB4000",
       "series_title": "Training and Development Program - Plan Members",
       "series_description": "Records related to TMRS efforts to provide training to cities and members regarding benefits, contributions, and services. Includes training materials and attendance lists.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "1",
-      "duration_months": "",
-      "disposition": "After Closed plus 1 year",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition": "After Closed plus 1 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "1.1.043"
@@ -3390,17 +3390,17 @@
       "series_id": "PUB4020",
       "series_title": "Training and Development Program - Continuing Professional Education (CPE) Credits for Plan Members",
       "series_description": "Records related to TMRS efforts to provide training to cities and members regarding benefits, contributions, and services which result in awarding CPEs.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "5",
-      "duration_months": "",
+      "duration_years": 5,
+      "duration_months": null,
       "disposition": "After Closed plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
       "comments": "Retention period in compliance with\nTAC Title 22, Section 523.143\n(Sponsor's Record) last amended to be\neffective 3-29-2017."
@@ -3425,13 +3425,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "7",
-      "duration_months": "",
+      "duration_years": 7,
+      "duration_months": null,
       "disposition": "After Closed plus 7 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
       "comments": "Includes all bid documentation\nassociated with contracts regardless of\nexecuted, renewed or amended date of\nsuch contracts. Bid documentation\nregarding Actuarial Audit Services are\nkept for AC+10 since the contract is\nonly for 1 year and these services are\nonly requested every 10 years."
@@ -3452,20 +3452,20 @@
       "series_id": "PUR1000a",
       "series_title": "Purchasing and Requisition - Unsuccessful Bid Documentation",
       "series_description": "Unsuccessful bids that do not meet agency submission requirements and are not included in bid evaluation process (e.g. withdrawn, missed submission deadline, incomplete submission, etc.)",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "7",
-      "duration_months": "",
+      "duration_years": 7,
+      "duration_months": null,
       "disposition": "After Closed plus 7 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "5.3.007c"
@@ -3483,17 +3483,17 @@
       "series_id": "PUR1020",
       "series_title": "Request for Information Regarding Supplier Candidates and Qualifications",
       "series_description": "Records that serve to identify and provide support for the official procurement supplier lists and for official TMRS or state vendor list. Includes records that document supplier/vendor interest and qualifications to provide goods and services.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "After Closed",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
       "comments": "CAUTION: if the request for\ninformation leads to request for\nproposal or bid, the request for\ninformation documentation should be\nretained in accordance with one of the\nPUR1000 codes."
@@ -3518,13 +3518,13 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "4",
-      "duration_months": "",
+      "duration_years": 4,
+      "duration_months": null,
       "disposition": "After Closed plus 4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
       "comments": "See TAX1020 for Federal 1099\nReporting - Plan Administration."
@@ -3545,17 +3545,17 @@
       "series_id": "TAX1020",
       "series_title": "Federal 1099 Reporting - Plan Administration",
       "series_description": "Records related to IRS 1099-R tax reporting for System member refunds and retirements.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "4",
-      "duration_months": "",
+      "duration_years": 4,
+      "duration_months": null,
       "disposition": "After Closed plus 4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
       "comments": "See TAX1000 for Federal 1099\nReporting - General."
@@ -3580,16 +3580,16 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "4",
-      "duration_months": "",
+      "duration_years": 4,
+      "duration_months": null,
       "disposition": "After Closed plus 4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.2.003"
@@ -3611,16 +3611,16 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "4",
-      "duration_months": "",
+      "duration_years": 4,
+      "duration_months": null,
       "disposition": "After Closed plus 4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.2.003"
@@ -3642,16 +3642,16 @@
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "4",
-      "duration_months": "",
+      "duration_years": 4,
+      "duration_months": null,
       "disposition": "After Closed plus 4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.2.005"
@@ -3669,17 +3669,17 @@
       "series_id": "UNR1000",
       "series_title": "Unofficial / Non-Record Information",
       "series_description": "Records of temporary usefulness that are not an integral part of a records series of an agency, that are not regularly filed within an agency’s recordkeeping system, and that are required only for a limited period of time for the completion of an action by an official or employee of the agency or in the preparation of an ongoing records series. Transitory records are not essential to the fulfillment of statutory obligations or to the documentation of agency functions. Some examples of transitory information, which can be in any medium (voice mail, fax, email, hard copy, etc.) are routine messages; telephone message notifications; internal meeting notices; routing slips; incoming letters or memoranda of transmittal that add nothing of substance to enclosures; and similar routine information used for communication, but not for the documentation, of a specific agency transaction.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
       "trigger_event": "AC",
-      "duration_years": "",
-      "duration_months": "",
+      "duration_years": null,
+      "duration_months": null,
       "disposition": "After Closed",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-02",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-08-09",
       "next_update_due": "2030-08",
       "comments": "Dispose of as soon as possible.\nCAUTION: Records management\nofficers should use caution in assigning\nthis records series item number to\nrecords of an agency to make certain\nthey are not part of another records\nseries listed in this schedule or, for\nrecords series unique to an agency, are\nnot part of a records series that\ndocuments the fulfillment of the\nstatutory obligations of the agency or\nthe documentation of its functions.\nThe disposal of transitory information\nneed not be documented through\ndestruction signoffs or in records\ndisposition logs ADM2000, but\nagencies should establish procedures\ngoverning disposal of these records as\npart of its records management plan."
