@@ -3,7 +3,7 @@
 \setvariable{metadata}{id}{$if(id)$$id$$endif$}
 
 $if(tagging)$
-\setupbackend[format=pdf/ua-2]
+\setupbackend[format=pdf/ua-4]
 \enabledirectives[backend.usetags=mkiv]
 \setuptagging[state=start]
 $endif$
@@ -66,30 +66,39 @@ $endif$
 \setupitaliccorrection[global, always]
 
 \setupbodyfontenvironment[default][em=italic] % use italic as em, not slanted
+\setupbodyfont[dejavu,ss]
 
-$-- set up font fallbacks
-$for(mainfontfallback)$
-\definefallbackfamily[mainface][rm][$mainfontfallback/nowrap$][range=0x0000-0xFFFF, check=yes, force=no]
-$endfor$
-$for(sansfontfallback)$
-\definefallbackfamily[mainface][ss][$sansfontfallback/nowrap$][range=0x0000-0xFFFF, check=yes, force=no]
-$endfor$
-$for(monofontfallback)$
-\definefallbackfamily[mainface][tt][$monofontfallback/nowrap$][range=0x0000-0xFFFF, check=yes, force=no]
-$endfor$
-\definefallbackfamily[mainface][rm][CMU Serif][preset=range:greek, force=yes]
-\definefontfamily[mainface][rm][$if(mainfont)$$mainfont/nowrap$$else$Latin Modern Roman$endif$]
-\definefontfamily[mainface][mm][$if(mathfont)$$mathfont/nowrap$$else$Latin Modern Math$endif$]
-\definefontfamily[mainface][ss][$if(sansfont)$$sansfont/nowrap$$else$Latin Modern Sans$endif$]
-\definefontfamily[mainface][tt][$if(monofont)$$monofont/nowrap$$else$Latin Modern Typewriter$endif$][features=none]
-\setupbodyfont[mainface$if(fontsize)$,$fontsize$$endif$]
+% --- Combined custom styling ---
+% 1. Layout and Margins
+\setuplayout
+  [backspace=1.0in,
+   width=6.5in,
+   topspace=0.75in,
+   height=9.5in,
+   header=0.5in,
+   footer=0.5in]
 
-% Include custom style file (moved here to allow overriding defaults)
-$if(style_path)$
-\input "$style_path$"
-$else$
-\input processing/resources/style.tex
-$endif$
+% 2. Header and Footer
+\setupheadertexts[{\getvariable{metadata}{agency}}] [{\getvariable{metadata}{id}}]
+\setupfootertexts[{Retention Schedule}][{Page \userpagenumber\ of \lastpagenumber}]
+
+% 4. Section Styling
+\setuphead[section]   [style=\tfc\bf, color=darkblue, before={\blank[big]}, after={\blank[medium]}]
+\setuphead[subsection][style=\tfb\bf, color=darkblue, before={\blank[medium]}, after={\blank[small]}]
+
+% 5. Whitespace and Indenting
+\setupwhitespace[medium]
+\setupindenting[no]
+
+% 6. Itemize/Lists
+\setupitemize[1][packed][symbol=bullet]
+
+% 7. Table/xtable styling
+\setupxtable[frame=off, split=yes, header=repeat]
+\setupxtable[head][topframe=on, bottomframe=on, foregroundstyle=bold]
+\setupxtable[body][bottomframe=on]
+\setupxtable[lastrow][bottomframe=on]
+% --- End custom styling ---
 
 \setupwhitespace[$if(whitespace)$$whitespace$$else$medium$endif$]
 $if(indenting)$

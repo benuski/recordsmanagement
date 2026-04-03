@@ -95,7 +95,6 @@ def main():
     print(f"Generated temporary markdown at {temp_md_path}")
     
     template_path = Path(__file__).parent.parent / "resources" / "template.tex"
-    style_path = Path(__file__).parent.parent / "resources" / "style.tex"
     
     cmd = [
         "pixi", "run", "pandoc",
@@ -103,10 +102,9 @@ def main():
         "-o",
         str(args.output_pdf),
         "--pdf-engine=context",
-        "-V", "pdfa=1b:2005",
+        "-V", "pdfa=4u",
         "-V", f"agency={agency_name}",
-        "-V", f"id={schedule_id}",
-        "-V", f"style_path={style_path.absolute()}"
+        "-V", f"id={schedule_id}"
     ]
     
     if template_path.exists():

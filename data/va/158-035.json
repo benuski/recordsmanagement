@@ -1,1 +1,746 @@
-[]
+[
+  {
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Virginia Retirement System",
+      "schedule_type": "specific",
+      "schedule_id": "158-035",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/158-035.pdf"
+    },
+    "series_metadata": {
+      "series_id": "015250",
+      "series_title": "Financial Statements-Private Equity",
+      "series_description": "This series consists of the audited annual reports and unaudited quarterly reports provided by the Private Equity General Partners.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "CE",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition": "Retain audited annual reports for 2 years after end of the calendar year or after audit, whichever is longer, then destroy. Retain un-audited quarterly reports for three rolling quarters, and then destroy.",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Virginia Retirement System",
+      "schedule_type": "specific",
+      "schedule_id": "158-035",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/158-035.pdf"
+    },
+    "series_metadata": {
+      "series_id": "015251",
+      "series_title": "Financial Statements-Real Estate",
+      "series_description": "This series consists of historical information on the operation of a fund, company or account. Information provided in the quarterly statement includes: a statement from management, an income statement, balance sheet, cashflow statement, various schedules, and notes to the financial statements.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "AC",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition": "Retain 5 years after receipt, then destroy.",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Virginia Retirement System",
+      "schedule_type": "specific",
+      "schedule_id": "158-035",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/158-035.pdf"
+    },
+    "series_metadata": {
+      "series_id": "015252",
+      "series_title": "Private Equity Partnership Offering Memorandums and Investment Recommendations",
+      "series_description": "This series documents the Private Equity Partnerships including, but not limited to, personnel, strategy, terms, and conditions. Public Equity",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "AC",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition": "Retain 3 years after the life of the partnership, then destroy.",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Virginia Retirement System",
+      "schedule_type": "specific",
+      "schedule_id": "158-035",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/158-035.pdf"
+    },
+    "series_metadata": {
+      "series_id": "015253",
+      "series_title": "ADVs This series is retained to comply with SEC regulations",
+      "series_description": "The Form ADV is the SEC's Uniform Application for Investment Adviser Registration. It contains information about the adviser's business & personnel. It also contains a written disclosure statement that provides information about business practices, fees and conflicts of interest the adviser may have with its clients. Refer to 17CFR§275.203-1.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "CR",
+      "duration_years": 10,
+      "duration_months": null,
+      "disposition": "Retain 10 years, then destroy.",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Virginia Retirement System",
+      "schedule_type": "specific",
+      "schedule_id": "158-035",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/158-035.pdf"
+    },
+    "series_metadata": {
+      "series_id": "015254",
+      "series_title": "Security Trade Signed Order List",
+      "series_description": "This series consists of orders to buy and sell securities for the internally managed portfolios. Refer to 17CFR§275.204-2.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "AC",
+      "duration_years": 10,
+      "duration_months": null,
+      "disposition": "Retain 10 years after date of transaction, then destroy.",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Virginia Retirement System",
+      "schedule_type": "specific",
+      "schedule_id": "158-035",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/158-035.pdf"
+    },
+    "series_metadata": {
+      "series_id": "015255",
+      "series_title": "Performance Reports and Reconciliations",
+      "series_description": "This series consists of reconciliation and performance statements provided monthly by external equity managers and is used to track performance of those managers. Operations",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "AC",
+      "duration_years": 10,
+      "duration_months": null,
+      "disposition": "Retain 10 years after date of report, then destroy.",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Virginia Retirement System",
+      "schedule_type": "specific",
+      "schedule_id": "158-035",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/158-035.pdf"
+    },
+    "series_metadata": {
+      "series_id": "015256",
+      "series_title": "Performance Summary Reports",
+      "series_description": "This series documents a summary of the retirement funds investment performance and is used by staff, the Investments Advisory Committee, and the VRS Board of Trustees to make investment decisions.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "CR",
+      "duration_years": 30,
+      "duration_months": null,
+      "disposition": "Retain 30 years, then destroy",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Virginia Retirement System",
+      "schedule_type": "specific",
+      "schedule_id": "158-035",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/158-035.pdf"
+    },
+    "series_metadata": {
+      "series_id": "015257",
+      "series_title": "Investment Monitor reports",
+      "series_description": "This series documents the activity of internal & external investment managers in order to test for compliance with investment guidelines.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "FE",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition": "Retain 5 years after the end of the fiscal year, then destroy.",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Virginia Retirement System",
+      "schedule_type": "specific",
+      "schedule_id": "158-035",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/158-035.pdf"
+    },
+    "series_metadata": {
+      "series_id": "015258",
+      "series_title": "Agreements-Investment Advisory",
+      "series_description": "This series consists of the legal agreements between VRS and external investment managers. These agreements are in force from year to year until terminated.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "AC",
+      "duration_years": 30,
+      "duration_months": null,
+      "disposition": "Retain 30 years after date of agreement, then destroy.",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Virginia Retirement System",
+      "schedule_type": "specific",
+      "schedule_id": "158-035",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/158-035.pdf"
+    },
+    "series_metadata": {
+      "series_id": "015259",
+      "series_title": "Reconciliations",
+      "series_description": "This series consists of monthly reconciliations between internal records & the master custodian for the internal equity & fixed income accounts.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "FE",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition": "Retain 5 years after the end of the fiscal year, then destroy.",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Virginia Retirement System",
+      "schedule_type": "specific",
+      "schedule_id": "158-035",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/158-035.pdf"
+    },
+    "series_metadata": {
+      "series_id": "015260",
+      "series_title": "Corporate Actions",
+      "series_description": "This series consists of corporate action notices from the custodian for the internal equity accounts.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "AC",
+      "duration_years": 10,
+      "duration_months": null,
+      "disposition": "Retain 10 years after the corporate action, then destroy.",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Virginia Retirement System",
+      "schedule_type": "specific",
+      "schedule_id": "158-035",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/158-035.pdf"
+    },
+    "series_metadata": {
+      "series_id": "015261",
+      "series_title": "Management Fee Reports",
+      "series_description": "This series documents the management and performance fees paid to external investment managers by asset class.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "AC",
+      "duration_years": 20,
+      "duration_months": null,
+      "disposition": "Retain 20 years after receipt, then destroy.",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Virginia Retirement System",
+      "schedule_type": "specific",
+      "schedule_id": "158-035",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/158-035.pdf"
+    },
+    "series_metadata": {
+      "series_id": "015262",
+      "series_title": "Proxy Voting Reports",
+      "series_description": "This series documents how the various managers and the Proxy Voting Service voted on company meeting issues. Refer to 17CFR§206(4)-6.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "FE",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition": "Retain 5 years after end of fiscal year, then destroy.",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Virginia Retirement System",
+      "schedule_type": "specific",
+      "schedule_id": "158-035",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/158-035.pdf"
+    },
+    "series_metadata": {
+      "series_id": "015263",
+      "series_title": "Securities and Exchange Committee Filings",
+      "series_description": "This series consists of 13F and 13G filings to the Securities & Exchange Commission. Refer to 17CFR§240.13f-1. General",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "FE",
+      "duration_years": 20,
+      "duration_months": null,
+      "disposition": "Retain 20 years after the end of the fiscal year, then destro",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Virginia Retirement System",
+      "schedule_type": "specific",
+      "schedule_id": "158-035",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/158-035.pdf"
+    },
+    "series_metadata": {
+      "series_id": "015264",
+      "series_title": "Minutes-IAC and Real Estate Committee",
+      "series_description": "This series documents proceedings of the Investment Advisory and Real Estate Committees. These committees provide guidance to the VRS Board of Trustees on investment management decisions. Refer to Code of Virginia § 51.1- Defined Contribution Plans",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "PM",
+      "duration_years": 999,
+      "duration_months": null,
+      "disposition": "Retain 20 years in agency, then transfer to the Archives, Library of Virginia for permanent retention.",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Virginia Retirement System",
+      "schedule_type": "specific",
+      "schedule_id": "158-035",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/158-035.pdf"
+    },
+    "series_metadata": {
+      "series_id": "015265",
+      "series_title": "Contracts",
+      "series_description": "",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "AC",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition": "Retain in accordance with terms of contract or 3 years after",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Virginia Retirement System",
+      "schedule_type": "specific",
+      "schedule_id": "158-035",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/158-035.pdf"
+    },
+    "series_metadata": {
+      "series_id": "015266",
+      "series_title": "Correspondence –Legal",
+      "series_description": "This series consists of legal advice from outside VRS counsel and the Office of Attorney General on VRS decisions.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "CR",
+      "duration_years": 40,
+      "duration_months": null,
+      "disposition": "Retain 40 years in agency, then destroy.",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Virginia Retirement System",
+      "schedule_type": "specific",
+      "schedule_id": "158-035",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/158-035.pdf"
+    },
+    "series_metadata": {
+      "series_id": "015267",
+      "series_title": "Correspondence-Routine",
+      "series_description": "This series consists of general correspondence from investment managers, consultants, custodians and investment service providers.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "AV",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition": "Retain as long as administratively necessary, then destroy.",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Virginia Retirement System",
+      "schedule_type": "specific",
+      "schedule_id": "158-035",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/158-035.pdf"
+    },
+    "series_metadata": {
+      "series_id": "015268",
+      "series_title": "Performance Reports",
+      "series_description": "",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "AC",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition": "Retain 5 years after termination of contract with investment",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Virginia Retirement System",
+      "schedule_type": "specific",
+      "schedule_id": "158-035",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/158-035.pdf"
+    },
+    "series_metadata": {
+      "series_id": "015269",
+      "series_title": "Investment Manager Reports",
+      "series_description": "This series documents investment manager account balances and is used to compare to the Third Party Administrator's reporting.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "AC",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition": "Retain 5 years after receipt, then destroy.",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Virginia Retirement System",
+      "schedule_type": "specific",
+      "schedule_id": "158-035",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/158-035.pdf"
+    },
+    "series_metadata": {
+      "series_id": "015270",
+      "series_title": "Investment Manager Review Files",
+      "series_description": "This series documents annual reviews. This series includes prospectuses (if applicable), annual reports, manager questionnaire, and meeting notes.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "AC",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition": "Retain 5 years after review, then destroy.",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Virginia Retirement System",
+      "schedule_type": "specific",
+      "schedule_id": "158-035",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/158-035.pdf"
+    },
+    "series_metadata": {
+      "series_id": "015271",
+      "series_title": "Search Questionnaires",
+      "series_description": "This series documents the responses of potential investment managers, consultants, and other vendors to VRS's searches. FIXED INCOME",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "CR",
+      "duration_years": 5,
+      "duration_months": null,
+      "disposition": "Retain 5 years, then destroy in compliance with No. 8 on schedule cover page.",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Virginia Retirement System",
+      "schedule_type": "specific",
+      "schedule_id": "158-035",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/158-035.pdf"
+    },
+    "series_metadata": {
+      "series_id": "009102",
+      "series_title": "Monthly Fixed Income Rebalancing Files",
+      "series_description": "",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "AV",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition": "Cut-off files at end of FY.",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  },
+  {
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": "Virginia Retirement System",
+      "schedule_type": "specific",
+      "schedule_id": "158-035",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/158-035.pdf"
+    },
+    "series_metadata": {
+      "series_id": "009103",
+      "series_title": "Outside Manager Reporting",
+      "series_description": "",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "AV",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition": "Cut-off files at end of FY.",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
+  }
+]
