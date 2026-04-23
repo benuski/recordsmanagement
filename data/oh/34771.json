@@ -14,18 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Electronic: Data is entered into department computer system, and ; Paper: five years",
+      "trigger_event": "CR",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "disposition": "Electronic: Data is entered into the department computer system, retain for 5 years and then delete. ; Paper: Retain five years, then destroy., Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-<<<<<<< HEAD
-      "last_checked": "2026-03-30",
-=======
-      "last_checked": "2026-03-31",
->>>>>>> dev
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2021-09-01",
       "next_update_due": null,
       "comments": null

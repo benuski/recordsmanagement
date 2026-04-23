@@ -14,18 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Paper: two years revised, superseded, or obsolete ; Electronic: two years revised, superseded, or obsolete",
+      "trigger_event": "US",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Wastepaper ; Electronic: Delete",
+      "disposition": "Paper: Retain two years after revised, superseded, or obsolete, then contact State Archives for review and possible transfer. If not transferred, destroy. ; Electronic: Retain two years after revised, superseded, or obsolete, then contact State Archives for review and possible transfer. If not transferred, destroy., Paper: Wastepaper ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-<<<<<<< HEAD
-      "last_checked": "2026-03-30",
-=======
-      "last_checked": "2026-03-31",
->>>>>>> dev
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-03-01",
       "next_update_due": null,
       "comments": null

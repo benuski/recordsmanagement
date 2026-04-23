@@ -14,18 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Paper: Four (4) years afdter close of fiscal year in which created ; Electronic: Four (4) years afdter close of fiscal year in which created",
+      "trigger_event": "FE",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Erase",
+      "disposition": "Paper: Four (4) years afdter close of fiscal year in which created then destroy, provided all audits have been completed and all discrepancies corrected. ; Electronic: Four (4) years afdter close of fiscal year in which created then destroy, provided all audits have been completed and all discrepancies corrected., Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-<<<<<<< HEAD
-      "last_checked": "2026-03-30",
-=======
-      "last_checked": "2026-03-31",
->>>>>>> dev
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2014-05-28",
       "next_update_due": null,
       "comments": null

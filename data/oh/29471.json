@@ -14,18 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Electronic: revised, superseded, or obsolete",
+      "trigger_event": "US",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete",
+      "disposition": "Electronic: Retain 2 years after revised, superseded, or obsolete, then contact State Archives for review and possible transfer. Dispose of if not transferred., Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-<<<<<<< HEAD
-      "last_checked": "2026-03-30",
-=======
-      "last_checked": "2026-03-31",
->>>>>>> dev
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-11-10",
       "next_update_due": null,
       "comments": null

@@ -14,14 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Paper: Keep from initial date of creation ; Electronic: Keep from initial date of creation",
+      "trigger_event": "CR",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Paper: Wastepaper ; Electronic: Wastepaper",
+      "disposition": "Paper: Keep for 3 years from initial date of creation ; Electronic: Keep for 3 years from initial date of creation, Paper: Wastepaper ; Electronic: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-31",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2016-07-12",
       "next_update_due": null,
       "comments": null

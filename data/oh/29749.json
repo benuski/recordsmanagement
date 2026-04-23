@@ -14,18 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Paper: licenses become obsolete, software is no longer used, replaced with updated or new licenses, and",
+      "trigger_event": "AV",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred",
+      "disposition": "Paper: Retain until licenses become obsolete, software is no longer used, replaced with updated or new licenses, and then destroy., Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-<<<<<<< HEAD
-      "last_checked": "2026-03-30",
-=======
-      "last_checked": "2026-03-31",
->>>>>>> dev
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2011-09-30",
       "next_update_due": null,
       "comments": null

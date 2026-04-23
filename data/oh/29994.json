@@ -14,18 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Paper: two years expiration of contract or closing of transaction which response RFP / RFI / RFQ was submitted. RFQ / RFI responses that do not not pertain a fixed term contract, two years new RFQ / RFI same or similar services is published. If no subsequent RFQ / RFI is published same or similar services",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred",
+      "disposition": "Paper: Retain two years after the expiration of the contract or closing of transaction for which the response to the RFP / RFI / RFQ was submitted. For RFQ / RFI responses that do not not pertain to a fixed term contract, retain for two years after new RFQ / RFI for same or similar services is published. If no subsequent RFQ / RFI is published for same or similar services, then retain responses for four years from publication of RFQ / RFI., Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-<<<<<<< HEAD
-      "last_checked": "2026-03-30",
-=======
-      "last_checked": "2026-03-31",
->>>>>>> dev
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2012-01-04",
       "next_update_due": null,
       "comments": null

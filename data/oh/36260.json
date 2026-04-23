@@ -14,18 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Electronic: from date of report/statement. ; Paper: 1 year from date of report/statement",
+      "trigger_event": "CR",
       "duration_years": 40,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "disposition": "Electronic: Retain 40 years from date of report/statement. ; Paper: Retain 1 year from the date of report/statement., Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-<<<<<<< HEAD
-      "last_checked": "2026-03-30",
-=======
-      "last_checked": "2026-03-31",
->>>>>>> dev
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2019-04-16",
       "next_update_due": null,
       "comments": null

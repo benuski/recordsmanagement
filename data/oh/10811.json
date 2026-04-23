@@ -14,18 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Electronic: Records be sent AG records center as per AG data center requirements. Review administrative, fiscal, legal and historical value from date generated",
+      "trigger_event": "CR",
       "duration_years": 10,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase",
+      "disposition": "Electronic: Records to be sent to AG records center as per AG data center requirements. Review for administrative, fiscal, legal and historical value 10 years from date generated, Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-<<<<<<< HEAD
-      "last_checked": "2026-03-30",
-=======
-      "last_checked": "2026-03-31",
->>>>>>> dev
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "1990-06-21",
       "next_update_due": null,
       "comments": null

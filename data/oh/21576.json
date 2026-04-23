@@ -14,18 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Electronic: audited, report released'' ; Paper: audited, report released''",
+      "trigger_event": "PM",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Electronic: Permanent ; Paper: Permanent",
+      "disposition": "Electronic: Retain until audited, report released'' then destroy. ; Paper: Retain until audited, report released'' then destroy., Electronic: Permanent ; Paper: Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-<<<<<<< HEAD
-      "last_checked": "2026-03-30",
-=======
-      "last_checked": "2026-03-31",
->>>>>>> dev
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2005-07-14",
       "next_update_due": null,
       "comments": null

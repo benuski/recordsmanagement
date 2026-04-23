@@ -14,14 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Paper: Four years expiration of calendar year in which account is cancelled. ; Electronic: Four years expiration of calendar year in which account is cancelled",
+      "trigger_event": "CE",
       "duration_years": null,
-      "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "duration_months": 6,
+      "disposition": "Paper: Four years after the expiration of the calendar year in which account is cancelled. Then destroy. If scanned, retain for 6 months. ; Electronic: Four years after the expiration of the calendar year in which account is cancelled, then delete., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-31",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2019-02-20",
       "next_update_due": null,
       "comments": null

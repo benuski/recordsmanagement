@@ -14,18 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Paper: . If records are scanned into an electronic format, paper copy may be recycled at that time. ; Electronic",
+      "trigger_event": "CR",
       "duration_years": 20,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Shred",
+      "disposition": "Paper: 20 years. If records are scanned into an electronic format, the paper copy may be recycled at that time. ; Electronic: 20 years., Paper: Recycle ; Electronic: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-<<<<<<< HEAD
-      "last_checked": "2026-03-30",
-=======
-      "last_checked": "2026-03-31",
->>>>>>> dev
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-12-12",
       "next_update_due": null,
       "comments": null

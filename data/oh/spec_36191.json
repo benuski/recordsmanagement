@@ -14,14 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Electronic: in shared electronic database from completion of TPR or any required follow ups",
+      "trigger_event": "AC",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete",
+      "disposition": "Electronic: Retain in shared electronic database for 2 years from completion of the TPR or any required follow ups., Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-31",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2019-04-01",
       "next_update_due": null,
       "comments": null

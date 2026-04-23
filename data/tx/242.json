@@ -2,7 +2,7 @@
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -14,29 +14,26 @@
       "legal_citation": "Confidential under\nArt. 5, Sec. 1- a(10) of\nthe TX Const. and CH\n33 of the TX Govt.\nCode."
     },
     "retention_rules": {
-      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
+      "trigger_event": "AC",
       "duration_years": 20,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "After Closed plus 20 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
-      "comments": ""
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "1.1"
-    },
-    "retention_code": "AC",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -45,32 +42,29 @@
       "series_id": "2",
       "series_title": "Case File Reports",
       "series_description": "Includes Judge's History in Electronic form which is retained during the life of the judge.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Superseded",
+      "trigger_event": "US",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Until Superseded",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
-      "comments": ""
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "1.1"
-    },
-    "retention_code": "US",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -79,32 +73,29 @@
       "series_id": "3",
       "series_title": "Case File Data Verification Forms",
       "series_description": "Documents used to verify accuracy of agency performance measures.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Fiscal Year End",
+      "trigger_event": "FE",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Fiscal Year End plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
-      "comments": ""
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "1.1"
-    },
-    "retention_code": "FE",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -116,29 +107,26 @@
       "legal_citation": "Confidential under\nArt. 5, Sec. 1- a(10) of\nthe TX Const. and CH\n33 of the TX Govt.\nCode."
     },
     "retention_rules": {
-      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
+      "trigger_event": "AC",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "After Closed plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
-      "comments": ""
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "1.1.059"
-    },
-    "retention_code": "AC",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -150,29 +138,26 @@
       "legal_citation": "Confidential under\nArt. 5, Sec. 1- a(10) of\nthe TX Const. and CH\n33 of the TX Govt.\nCode.\nGovernment Code,\n551.104(a)."
     },
     "retention_rules": {
-      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
+      "trigger_event": "AC",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "After Closed plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
-      "comments": ""
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "1.1"
-    },
-    "retention_code": "AC",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -181,32 +166,29 @@
       "series_id": "7",
       "series_title": "Recordings of Personal Appearances",
       "series_description": "Hearing recordings including sworn testimony of judge appearances",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
+      "trigger_event": "AC",
       "duration_years": 20,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "After Closed plus 20 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
       "comments": "Cassette Tapes and Digital Recordings"
     },
     "state_specific_attributes": {
       "rsin": "1.1"
-    },
-    "retention_code": "AC",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -215,32 +197,29 @@
       "series_id": "8",
       "series_title": "Public Records, Sanctions, and Proceedings 1987 to Present",
       "series_description": "The agency's public disciplinary actions, including sanctions, suspensions, special court of review opinions, and opinions borne out of litigation involving the agency.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
+      "trigger_event": "AC",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "After Closed plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
       "comments": "Open records as defined in Ch. 33,\nSec. 33.032 of the TX Govt. Code. Files\ntransferred to State Archives at end of\nretention period on an annual basis.\nIncludes paper, audio cassettes, and\nelectronic files."
     },
     "state_specific_attributes": {
       "rsin": "1.1"
-    },
-    "retention_code": "AC",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -249,32 +228,29 @@
       "series_id": "9",
       "series_title": "Audits",
       "series_description": "Audits and reviews performed by or on behalf of an agency, including the working papers that support the audit. Also includes audits performed on the agency.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
+      "trigger_event": "AC",
       "duration_years": 7,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "After Closed plus 7 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
       "comments": "State Auditor's Office retains the\npermanent record copy."
     },
     "state_specific_attributes": {
       "rsin": "1.1.002"
-    },
-    "retention_code": "AC",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -283,32 +259,29 @@
       "series_id": "10",
       "series_title": "Legislative Appropriation Requests (LAR)",
       "series_description": "Including any supporting documentation created and/or used to justify and support legislative appropriations requests by an agency.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
+      "trigger_event": "AC",
       "duration_years": 6,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "After Closed plus 6 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
       "comments": "ARCHIVES NOTE: The final version of\nLegislative Appropriation Requests\nmust be submitted to the Texas State\nPublications Depository Program per\n13 TAC 3.3(a)(3)(A). Working files and\nrelated documentation used in\ncreating the final plan are not subject\nto archival review and may be\ndisposed of at the expiration of the\nretention period."
     },
     "state_specific_attributes": {
       "rsin": "1.1.004"
-    },
-    "retention_code": "AC",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -317,32 +290,29 @@
       "series_id": "13",
       "series_title": "Directives",
       "series_description": "Any document that officially initiates, rescinds, or amends general office procedures.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Superseded",
+      "trigger_event": "US",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Until Superseded plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
-      "comments": ""
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "1.1.010"
-    },
-    "retention_code": "US",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -351,32 +321,29 @@
       "series_id": "14",
       "series_title": "Desk Calendars/Appointment Books",
       "series_description": "Calendars, appointment books or programs and scheduling, or itinerary records maintained by staff during business hours that document appointments, itineraries, and other activities of agency officials or employees.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Calendar Year End",
+      "trigger_event": "CE",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Calendar Year End plus 1 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
       "comments": "ARCHIVES NOTE: Only the calendars,\nappointment, and itinerary records of\nelected officials, agency heads, and\nboard or commission members\nrequire archival review. Contact the\nState Archives when these records\nhave met their retention periods.\nCAUTION: A record of this type\npurchased with personal funds but\nused by a state official or employee to\ndocument his or her work activities\nmay be a state record and subject to\nthis retention period. See Open\nRecords Decision 635 issued in\nDecember 1995 by the Attorney\nGeneral."
     },
     "state_specific_attributes": {
       "rsin": "1.1.013"
-    },
-    "retention_code": "CE",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -385,32 +352,29 @@
       "series_id": "16",
       "series_title": "Pub. Information Requests – Not Exempted",
       "series_description": "Includes all correspondence and documentation relating to requests for records that are furnished to the public under the Public Information Act (Chapter 552, Government Code). Also includes withdrawn requests.",
-      "legal_citation": ""
+      "legal_citation": "Government Code). Also includes withdrawn requests."
     },
     "retention_rules": {
-      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
+      "trigger_event": "AC",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "After Closed plus 1 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
-      "comments": ""
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "1.1.020"
-    },
-    "retention_code": "AC",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -419,32 +383,29 @@
       "series_id": "17",
       "series_title": "Pub. Information Requests – Exempted",
       "series_description": "Includes all correspondence and documentation relating to requests for records that are excepted under the Public Information Act (Chapter 552, Government Code), including records provided to the legislature under section 552.008.",
-      "legal_citation": ""
+      "legal_citation": "Government Code), including records provided to the legislature under section 552.008."
     },
     "retention_rules": {
-      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
+      "trigger_event": "AC",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "After Closed plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
-      "comments": ""
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "1.1.021"
-    },
-    "retention_code": "AC",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -453,32 +414,29 @@
       "series_id": "18",
       "series_title": "Organization Charts",
       "series_description": "Charts or diagrams that show the structure of an agency and the relationships and relative ranks of its departments and job positions.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Superseded",
+      "trigger_event": "US",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Until Superseded",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
       "comments": "ARCHIVES NOTE: Only charts showing\nthe overall arrangement and\nadministrative structure of the state\nagency need to be transferred to the\nArchives and Information Services\nDivision, Texas State Library and\nArchives Commission. Organizational\ncharts showing division/department\nlevel detail are not considered\narchival."
     },
     "state_specific_attributes": {
       "rsin": "1.1.023"
-    },
-    "retention_code": "US",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -487,32 +445,29 @@
       "series_id": "19",
       "series_title": "Agency Rules, Policies and Procedures- Final",
       "series_description": "Manuals, guidelines, administrative rules, or similar records distributed internally for the use of employees or externally to the public or those individuals or entities regulated by an agency that sets out the rules, policies, and procedures that govern an agency's programs, services, or projects. Includes working files and related documentation used in creating rules, policies, and procedures.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
+      "trigger_event": "AC",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "After Closed plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
       "comments": "ARCHIVES NOTE: Working files and\nrelated documentation used in\ncreating the final rules, policies, and\np r o c e dures, are not subject to\narchival requirement and may be\ndisposed of at the expiration of the\nretention period."
     },
     "state_specific_attributes": {
       "rsin": "1.1.070"
-    },
-    "retention_code": "AC",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -521,32 +476,29 @@
       "series_id": "21",
       "series_title": "Speeches/Papers",
       "series_description": "Notes or text of speeches, papers, presentations, or reports delivered in conjunction with agency work.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
+      "trigger_event": "AC",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "After Closed plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
       "comments": "ARCHIVES NOTE: Only speeches,\npapers, and presentations given by or\non behalf of executive staff, board or\ncommission members, division\ndirectors and program heads require\narchival review."
     },
     "state_specific_attributes": {
       "rsin": "1.1.040"
-    },
-    "retention_code": "AC",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -555,32 +507,29 @@
       "series_id": "23",
       "series_title": "Litigation Files",
       "series_description": "Records created by or on behalf of an agency in anticipation of or in the adjudication of a lawsuit.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
+      "trigger_event": "AC",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "After Closed plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
       "comments": "ARCHIVES NOTE: Cases that set legal\nprecedent or exhibit historical value\nwill be evaluated by the Archives and\nInformation Services Division of the\nTexas State Library and Archives\nCommission for archival preservation.\nSee page ix for more information."
     },
     "state_specific_attributes": {
       "rsin": "1.1.048"
-    },
-    "retention_code": "AC",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -589,32 +538,29 @@
       "series_id": "24",
       "series_title": "Strategic Plans",
       "series_description": "Operational strategic plans, which include descriptions of information resources programs, prepared in accordance with Government Code, 2054.095 and 2056.002. Includes working files and related documentation used in creating the final plan.",
-      "legal_citation": ""
+      "legal_citation": "Government Code, 2054.095 and 2056.002. Includes working files and related documentation used in creating the final plan."
     },
     "retention_rules": {
-      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
+      "trigger_event": "AC",
       "duration_years": 6,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "After Closed plus 6 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
       "comments": "ARCHIVES NOTE: The final version of\nStrategic Plans must be submitted to\nthe Texas State Publications\nDepository Program per 13 TAC\n3.3(a)(2)(C). Working files and related\ndocumentation used in creating the\nfinal plan are not subject to archival\nreview and may be disposed of at the\nexpiration of the retention period."
     },
     "state_specific_attributes": {
       "rsin": "1.1.055"
-    },
-    "retention_code": "AC",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -623,32 +569,29 @@
       "series_id": "25",
       "series_title": "Transitory Information",
       "series_description": "Records of temporary usefulness that are not an integral part of a records series such as routine messages (either message slips or e-mail or voice mail), internal meeting notices and routine information used for communication, but not for documentation, of a specific agency transaction.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "After Closed",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
       "comments": "Medium = Paper and electronic\nformat. CAUTION: Records are not a\npart of another records series listed in\nthis schedule and are not a part of a\nrecords series that documents the\nfulfillment of agency statutory\nobligations or documentation of\nagency functions. Disposal does not\nneed to be documented through\ndestruction sign-offs or in records\ndisposition logs."
     },
     "state_specific_attributes": {
       "rsin": "1.1.057"
-    },
-    "retention_code": "AC",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -657,32 +600,29 @@
       "series_id": "27",
       "series_title": "Annual Report, Non-Fiscal Record Copy",
       "series_description": "Biennial narrative reports to the governor and legislature as required by an agency's enabling statutes, including annual narrative reports if they are required by statute. Includes working files and related documentation used in creating final report.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
+      "trigger_event": "AC",
       "duration_years": 6,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "After Closed plus 6 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
       "comments": "ARCHIVES NOTE: The final version of\nthese agency reports must be\nsubmitted to the Texas State\nPublications Depository Program per\n13 TAC 3.3. The requirement is met\nby sending the required copies of the\nreports to the Texas State\nPublications Depository Program,\nTexas State Library and Archives\nCommission. Working files and\nrelated documentation used in\ncreating the final report may be\ndisposed of at the expiration of the\nretention period."
     },
     "state_specific_attributes": {
       "rsin": "1.1.066"
-    },
-    "retention_code": "AC",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -691,32 +631,29 @@
       "series_id": "115",
       "series_title": "Sunset Review Report and Related Documentation",
       "series_description": "Sunset Review Report, agency self-study, and other correspondence and supporting documentation related to the Sunset review process for state agencies.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
+      "trigger_event": "AC",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "After Closed plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
       "comments": "ARCHIVES NOTE: Related\ndocumentation includes the agency\nself-evaluation report, agency\nresponse to the commission's draft\nreport, and documentation of the\nagency's implementation of the\ncommission's final recommendations.\nThe final version of the agency self-\nevaluation report must be submitted\nto the Texas State Publications\nDepository Program per 13 TAC\n3.3(a)(1)."
     },
     "state_specific_attributes": {
       "rsin": "1.1.074"
-    },
-    "retention_code": "AC",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -725,32 +662,29 @@
       "series_id": "30",
       "series_title": "Data Sheet Forms History",
       "series_description": "Master versions of all forms used internally and externally by the agency, including subsequent revisions to an agency form or any associated design or design modification requests.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
+      "trigger_event": "AC",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "After Closed plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
-      "comments": ""
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "1.2.003"
-    },
-    "retention_code": "AC",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -759,32 +693,29 @@
       "series_id": "31",
       "series_title": "Records Retention Schedule - Agency Copy",
       "series_description": "A records retention schedule (i.e. form SLR 105) that identifies the records that are created and maintained by an agency, provides the minimum timeframes the records must be retained, and includes instructions for their disposition. This series may include working files and documentation of certification and approval by the Texas State Library and Archives Commission.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Superseded",
+      "trigger_event": "US",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Until Superseded",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
       "comments": "Original is retained for 50 years by the\nState and Local Records Management\nDivision, Texas State Library and\nArchives Commission."
     },
     "state_specific_attributes": {
       "rsin": "1.2.005"
-    },
-    "retention_code": "US",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -793,32 +724,29 @@
       "series_id": "32",
       "series_title": "Records Transmittal Forms (Agency Storage Copy)",
       "series_description": "Forms used to track the transmittal of records to/from onsite and offsite storage areas or a transfer of physical custody.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
+      "trigger_event": "AC",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "After Closed plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
-      "comments": ""
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "1.2.006"
-    },
-    "retention_code": "AC",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -827,32 +755,29 @@
       "series_id": "33",
       "series_title": "Records Disposition Log",
       "series_description": "Logs or similar records listing records disposed of by an agency, which might include records series title, dates of records, and date of disposition.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "10 years",
+      "trigger_event": "CR",
       "duration_years": 10,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "10 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
       "comments": "CAUTION: Disposition can mean\ndestroyed or transferred."
     },
     "state_specific_attributes": {
       "rsin": "1.2.010"
-    },
-    "retention_code": "",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -861,32 +786,29 @@
       "series_id": "35",
       "series_title": "Records Inventory Worksheets",
       "series_description": "Worksheets or working papers used to capture records inventory information, including location tracking and to document existence and requirements of a records series.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Superseded",
+      "trigger_event": "US",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Until Superseded",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
-      "comments": ""
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "1.2.012"
-    },
-    "retention_code": "US",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -895,32 +817,29 @@
       "series_id": "36",
       "series_title": "Records Delivery Receipts",
       "series_description": "",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
+      "trigger_event": "AC",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "After Closed plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
-      "comments": ""
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "1.2"
-    },
-    "retention_code": "AC",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -929,32 +848,29 @@
       "series_id": "37",
       "series_title": "Publication Development Files",
       "series_description": "Physical and digital development and design files used to create State Publications, including but not limited to background material, copy (drafts), original artwork, photo negatives, prints, flats, etc. This includes all work performed both inside and outside the agency.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "As Long as Administratively Valuable",
+      "trigger_event": "AV",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "As Long as Administratively Valuable",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
       "comments": "ARCHIVES NOTE: Successive and\nsubstantive drafts of major\npublications may be archival. Major is\ndefined by both the publication's\nauthorship and its impact on Texas\nand Texans. Original artwork,\nincluding photo prints and negatives\nthat have significant value as\nevidence of agency programs as well\nas the potential for re-use, may be\narchival."
     },
     "state_specific_attributes": {
       "rsin": "1.3.002"
-    },
-    "retention_code": "AV",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -963,32 +879,29 @@
       "series_id": "38",
       "series_title": "Master Files - Case Files",
       "series_description": "Relatively long-lived computer files containing organized and consistent sets of complete and accurate electronic records and associated processing files. Examples include, but are not limited to, data tables of relational databases used by applications or computer programs.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "After Closed",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
       "comments": "Paper source documents (Item #1.1 -\nCase files) are maintained for a total\nretention period of AC+20."
     },
     "state_specific_attributes": {
       "rsin": "2.1.002"
-    },
-    "retention_code": "AC",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -1000,29 +913,26 @@
       "legal_citation": "13 TAC 6.94."
     },
     "retention_rules": {
-      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "After Closed",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
       "comments": "CAUTION: If an electronic record is\nscheduled for permanent retention,\nsoftware needed for access to the\nrecord must also be retained\npermanently."
     },
     "state_specific_attributes": {
       "rsin": "2.1.007"
-    },
-    "retention_code": "AC",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -1031,32 +941,29 @@
       "series_id": "40",
       "series_title": "Data Processing Policies and Procedures -- System Back Up Policies, Procedures and Log",
       "series_description": "Files needed for electronic data audits. Records include but are not limited to: reports showing transactions accepted, rejected, suspended, and/or processed; history files or tapes; records of updates to application files; and security logs.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "After Closed",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
       "comments": "Medium = Paper and Electronic."
     },
     "state_specific_attributes": {
       "rsin": "2.1.010"
-    },
-    "retention_code": "AC",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -1068,29 +975,26 @@
       "legal_citation": "13 TAC 6.94."
     },
     "retention_rules": {
-      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "After Closed",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
       "comments": "CAUTION: If an electronic record is\nscheduled for permanent retention,\nhardware documentation needed for\naccess to the record must also be\nretained permanently."
     },
     "state_specific_attributes": {
       "rsin": "2.1.008"
-    },
-    "retention_code": "AC",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -1102,29 +1006,26 @@
       "legal_citation": "29 CFR 1602.31"
     },
     "retention_rules": {
-      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
+      "trigger_event": "AC",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "After Closed plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
-      "comments": ""
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.1.001"
-    },
-    "retention_code": "AC",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -1133,32 +1034,29 @@
       "series_id": "43",
       "series_title": "Applications for Employment - Hired",
       "series_description": "Applications, resumes, transcripts, letters of reference, and similar documents whose submission by candidates for vacant positions is required on the application form, by application procedures, or in the employment advertisement.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "5 years",
+      "trigger_event": "CR",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
-      "comments": ""
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.1.002"
-    },
-    "retention_code": "",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -1167,32 +1065,29 @@
       "series_id": "44",
       "series_title": "Employee Insurance Records",
       "series_description": "Agency copies of information relating to the selection by employees of life, health, vision, dental, disability, and other types of insurance or benefits offered by the State of Texas to its employees.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Superseded",
+      "trigger_event": "US",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Until Superseded",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
       "comments": "CAUTION: Documents that serve as\npayroll deduction authorizations must\nbe maintained for the retention\nperiod prescribed for item number\n3.2.001."
     },
     "state_specific_attributes": {
       "rsin": "3.1.011"
-    },
-    "retention_code": "US",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -1204,29 +1099,26 @@
       "legal_citation": "Government Code\n441.1855"
     },
     "retention_rules": {
-      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
+      "trigger_event": "AC",
       "duration_years": 7,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "After Closed plus 7 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
-      "comments": ""
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.1.013a"
-    },
-    "retention_code": "AC",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -1238,29 +1130,26 @@
       "legal_citation": "Government Code\n441.1855"
     },
     "retention_rules": {
-      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
+      "trigger_event": "AC",
       "duration_years": 7,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "After Closed plus 7 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
-      "comments": ""
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.1.013b"
-    },
-    "retention_code": "AC",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -1272,29 +1161,26 @@
       "legal_citation": "29 CFR 1602.31"
     },
     "retention_rules": {
-      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
+      "trigger_event": "AC",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "After Closed plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
-      "comments": ""
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.1.014"
-    },
-    "retention_code": "AC",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -1306,29 +1192,26 @@
       "legal_citation": "29 CFR 1620.32(c)"
     },
     "retention_rules": {
-      "trigger_event": "3 years",
+      "trigger_event": "CR",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
-      "comments": ""
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.1.019"
-    },
-    "retention_code": "",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -1340,29 +1223,26 @@
       "legal_citation": "40 TAC 815.106(i)"
     },
     "retention_rules": {
-      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
+      "trigger_event": "AC",
       "duration_years": 4,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "After Closed plus 4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
-      "comments": ""
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.1.023"
-    },
-    "retention_code": "AC",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -1371,32 +1251,29 @@
       "series_id": "116",
       "series_title": "Training and Educational Achievement Records (Individual)",
       "series_description": "Certificates of completion, certifications, licenses, transcripts, test scores, or similar records documenting the training, testing, certification, licensing, or continuing education achievements of an employee.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
+      "trigger_event": "AC",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "After Closed plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
-      "comments": ""
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.1.027"
-    },
-    "retention_code": "AC",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -1408,29 +1285,26 @@
       "legal_citation": "8 CFR\n274a.2(b)(2)(i)(A)\nand (c)(2)."
     },
     "retention_rules": {
-      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "After Closed",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
-      "comments": ""
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.1.029"
-    },
-    "retention_code": "AC",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -1439,32 +1313,29 @@
       "series_id": "53",
       "series_title": "Employee Deduction Authorization",
       "series_description": "Documentation used to start, modify, or stop all voluntary or required deductions from payroll, including garnishment or other court-ordered attachments.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
+      "trigger_event": "AC",
       "duration_years": 4,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "After Closed plus 4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
-      "comments": ""
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.2.001"
-    },
-    "retention_code": "AC",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -1476,29 +1347,26 @@
       "legal_citation": "40 TAC 815.106(i)"
     },
     "retention_rules": {
-      "trigger_event": "4 years",
+      "trigger_event": "CR",
       "duration_years": 4,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
-      "comments": ""
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.2.002"
-    },
-    "retention_code": "",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -1510,29 +1378,26 @@
       "legal_citation": "26 CFR 31.6001-\n1(e)(2)"
     },
     "retention_rules": {
-      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
+      "trigger_event": "AC",
       "duration_years": 4,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "After Closed plus 4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
-      "comments": ""
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.2.003"
-    },
-    "retention_code": "AC",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -1544,29 +1409,26 @@
       "legal_citation": "29 CFR 516.6(c)"
     },
     "retention_rules": {
-      "trigger_event": "2 years",
+      "trigger_event": "CR",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
-      "comments": ""
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.2.004"
-    },
-    "retention_code": "",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -1578,29 +1440,26 @@
       "legal_citation": "26 CFR 31.6001-1\n(e)(2)."
     },
     "retention_rules": {
-      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
+      "trigger_event": "AC",
       "duration_years": 4,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "After Closed plus 4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
-      "comments": ""
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.2.005"
-    },
-    "retention_code": "AC",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -1609,32 +1468,29 @@
       "series_id": "58",
       "series_title": "Direct Deposit Application/Authorization",
       "series_description": "Forms used to deposit employee’s earnings into a specified personal account.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "After Closed",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
-      "comments": ""
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.2.008"
-    },
-    "retention_code": "AC",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -1643,32 +1499,29 @@
       "series_id": "59",
       "series_title": "State Deferred Compensation",
       "series_description": "Records documenting the amount of pension or deferred compensation earned by individual employees.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
+      "trigger_event": "AC",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "After Closed plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
       "comments": "See current edition of the Agency\nCoordinator Procedures Manual\nissued by the Employment\nRetirement System of Texas (ERS)."
     },
     "state_specific_attributes": {
       "rsin": "3.2.009"
-    },
-    "retention_code": "AC",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -1677,32 +1530,29 @@
       "series_id": "61",
       "series_title": "Personnel Files",
       "series_description": "Records documenting past and current employee's job history, personal and emergency contact information, job- related documents such as performance reviews, disciplinary action, salary adjustments, merit raises and bonus information, awards and recognitions.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
+      "trigger_event": "AC",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "After Closed plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
-      "comments": ""
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.3"
-    },
-    "retention_code": "AC",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -1714,29 +1564,26 @@
       "legal_citation": "29 CFR 30.12(d)."
     },
     "retention_rules": {
-      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
+      "trigger_event": "AC",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "After Closed plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
-      "comments": ""
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.3.001a"
-    },
-    "retention_code": "AC",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -1748,29 +1595,26 @@
       "legal_citation": "41 CFR 60-1.12(a)."
     },
     "retention_rules": {
-      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
+      "trigger_event": "AC",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "After Closed plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
-      "comments": ""
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.3.001b"
-    },
-    "retention_code": "AC",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -1782,29 +1626,26 @@
       "legal_citation": "29 CFR 1627.3(b)(2)"
     },
     "retention_rules": {
-      "trigger_event": "Superseded",
+      "trigger_event": "US",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Until Superseded plus 1 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
-      "comments": ""
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.3.004"
-    },
-    "retention_code": "US",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -1813,32 +1654,29 @@
       "series_id": "64",
       "series_title": "Former Employee Verification Records",
       "series_description": "Minimum information to verify employment, includes name, social security number, exact dates of employment, and last known address.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
+      "trigger_event": "AC",
       "duration_years": 75,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "After Closed plus 75 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
-      "comments": ""
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.3.011"
-    },
-    "retention_code": "AC",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -1847,32 +1685,29 @@
       "series_id": "65",
       "series_title": "Texas Workforce Commission (TWC) Reports",
       "series_description": "Reports to the agency from TWC or its predecessor pertaining to employees.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "3 years",
+      "trigger_event": "CR",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
-      "comments": ""
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.3.022"
-    },
-    "retention_code": "",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -1881,32 +1716,29 @@
       "series_id": "66",
       "series_title": "Reimbursable Activities, Requests and Authorizations to Engage in Travel.",
       "series_description": "Educational Programs; Workshops; or Other Work-Related Activities for which the Expenses of the Employee are Defrayed or Reimbursed.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Fiscal Year End",
+      "trigger_event": "FE",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Fiscal Year End plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
-      "comments": ""
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.3.023"
-    },
-    "retention_code": "FE",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -1915,32 +1747,29 @@
       "series_id": "67",
       "series_title": "Personnel Policies and Procedures",
       "series_description": "Any internally distributed manuals, guidelines, or similar records that define agency wide policies and procedures concerning the personnel of an agency.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Superseded",
+      "trigger_event": "US",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Until Superseded plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
-      "comments": ""
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.3.024"
-    },
-    "retention_code": "US",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -1949,32 +1778,29 @@
       "series_id": "68",
       "series_title": "Job Procedures Records",
       "series_description": "Any documents detailing the procedural duties and responsibilities of agency positions on a position-by-position basis.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Superseded",
+      "trigger_event": "US",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Until Superseded plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
-      "comments": ""
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.3.025"
-    },
-    "retention_code": "US",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -1983,32 +1809,29 @@
       "series_id": "70",
       "series_title": "Agency Staffing Reports",
       "series_description": "Quarterly FTE Reports to State Auditor",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Superseded",
+      "trigger_event": "US",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Until Superseded plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
-      "comments": ""
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.3.026"
-    },
-    "retention_code": "US",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -2020,29 +1843,26 @@
       "legal_citation": "29 CFR 1602.32,\n1602.48, and\n1602.50."
     },
     "retention_rules": {
-      "trigger_event": "Superseded",
+      "trigger_event": "US",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Until Superseded plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
-      "comments": ""
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.3.031"
-    },
-    "retention_code": "US",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -2051,32 +1871,29 @@
       "series_id": "72",
       "series_title": "Leave Status Reports",
       "series_description": "Cumulative report is issued each pay cycle and provides employee leave status information for each position.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Fiscal Year End",
+      "trigger_event": "FE",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Fiscal Year End plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
-      "comments": ""
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.4.002"
-    },
-    "retention_code": "FE",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -2088,29 +1905,26 @@
       "legal_citation": "40 TAC 815.106(i)"
     },
     "retention_rules": {
-      "trigger_event": "4 years",
+      "trigger_event": "CR",
       "duration_years": 4,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
-      "comments": ""
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.4.006"
-    },
-    "retention_code": "",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -2122,29 +1936,26 @@
       "legal_citation": "Government Code,\nSection 661.152(d);\n29 CFR 825.500(b"
     },
     "retention_rules": {
-      "trigger_event": "Fiscal Year End",
+      "trigger_event": "FE",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Fiscal Year End plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
-      "comments": ""
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "3.4.007"
-    },
-    "retention_code": "FE",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -2153,32 +1964,29 @@
       "series_id": "76",
       "series_title": "Accounts Payable Information",
       "series_description": "Claims; invoices; statements; copies of checks and purchase orders; expenditure authorizations; ledgers; encumbrance, purchase, general journal, expenditure, and special vouchers; and similar records that serve to document disbursements, including those documenting claims for and reimbursement to employees for travel and other expenses.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Fiscal Year End",
+      "trigger_event": "FE",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Fiscal Year End plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
-      "comments": ""
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "4.1.001"
-    },
-    "retention_code": "FE",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -2190,29 +1998,26 @@
       "legal_citation": "13 TAC 3.3(a)(2)(a)"
     },
     "retention_rules": {
-      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
+      "trigger_event": "AC",
       "duration_years": 6,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "After Closed plus 6 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
       "comments": "ARCHIVES NOTE: The final version of\nAnnual Financial Reports must be\nsubmitted to the Texas State\nPublications Depository Program per\n13 TAC 3.3(a)(2)(a). Working files and\nrelated documentation used in\ncreating the final plan are not subject\nto archival review and may be\ndisposed of at the expiration of the\nretention period.CAUTION: If an\nagency does not produce a biennial or\nannual narrative report as described\nin item number 1.1066, the archival\nrequirement, is met by sending the\nrequired copies of the reports to the\nTexas State Publications Depository\nProgram, Texas State Library and\nArchives Commission."
     },
     "state_specific_attributes": {
       "rsin": "4.5.003"
-    },
-    "retention_code": "AC",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -2221,32 +2026,29 @@
       "series_id": "90",
       "series_title": "State Grant Information - Awarded",
       "series_description": "This series documents state, federal, and other sponsored grant projects participated in or administered by state agencies. It includes grant authorization records, which provide evidence of the award of grants to or by agencies; grant/project financial or performance reports, which are periodic reports of financial activity and/or program performance related to grants received or made by agencies.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
+      "trigger_event": "AC",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "After Closed plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
       "comments": "CAUTION: Retention requirements\nmay vary depending on the specific\nfunding agency. Records in this series\nmay be subject to Government Code\n441.1855. Agencies must ensure that\nrecords are retained for the\nappropriate retention period."
     },
     "state_specific_attributes": {
       "rsin": "4.7.008a"
-    },
-    "retention_code": "AC",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -2255,32 +2057,29 @@
       "series_id": "90b",
       "series_title": "Grant Records – Non- Awarded",
       "series_description": "Non-awarded, denied, or unfunded grant applications and proposals.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
+      "trigger_event": "AC",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "After Closed plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
-      "comments": ""
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "4.7.008b"
-    },
-    "retention_code": "AC",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -2289,32 +2088,29 @@
       "series_id": "91",
       "series_title": "Capital Asset Records",
       "series_description": "Documentation relating to the capital and fixed assets of a state agency, including equipment or property history cards containing data on initial cost, depreciation schedules or summaries used for capital outlay budgeting, and property sale, auction, or disposal records of agency owned equipment and property.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Life of Asset",
+      "trigger_event": "LA",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Life of Asset plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
-      "comments": ""
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "4.7.004"
-    },
-    "retention_code": "LA",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -2323,32 +2119,29 @@
       "series_id": "93",
       "series_title": "Signature Authorizations",
       "series_description": "Signature cards or similar records establishing authority of an agency employee to initiate or authorize financial transactions on behalf of an agency.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
+      "trigger_event": "AC",
       "duration_years": 4,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "After Closed plus 4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
-      "comments": ""
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "4.7.012"
-    },
-    "retention_code": "AC",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -2357,32 +2150,29 @@
       "series_id": "117",
       "series_title": "Annual Operating Budget",
       "series_description": "Required by the General Appropriations Act. Includes encumbrances and documentation about budget transfers and revisions, as well as detail charts of accounts.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Fiscal Year End",
+      "trigger_event": "FE",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Fiscal Year End plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
-      "comments": ""
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "4.9.001"
-    },
-    "retention_code": "FE",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -2394,29 +2184,26 @@
       "legal_citation": "Government Code,\n441.1855."
     },
     "retention_rules": {
-      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
+      "trigger_event": "AC",
       "duration_years": 7,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "After Closed plus 7 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
-      "comments": ""
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "5.1.001a"
-    },
-    "retention_code": "AC",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -2428,29 +2215,26 @@
       "legal_citation": "Government Code,\n441.1855."
     },
     "retention_rules": {
-      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
+      "trigger_event": "AC",
       "duration_years": 4,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "After Closed plus 4 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
-      "comments": ""
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "5.1.001b"
-    },
-    "retention_code": "AC",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -2459,32 +2243,29 @@
       "series_id": "95",
       "series_title": "Mail and Telecommunication Listings",
       "series_description": "Any mailing address, telephone or fax number, or email address records maintained by an agency on its employees or on entities or persons it serves.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Superseded",
+      "trigger_event": "US",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Until Superseded",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
       "comments": "Medium = Electronic and paper."
     },
     "state_specific_attributes": {
       "rsin": "5.1.004"
-    },
-    "retention_code": "US",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -2493,32 +2274,29 @@
       "series_id": "96",
       "series_title": "Postage Meter Records",
       "series_description": "Records and reports of postage expenses, including postal meter usage.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Fiscal Year End",
+      "trigger_event": "FE",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Fiscal Year End plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
-      "comments": ""
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "5.1.005"
-    },
-    "retention_code": "FE",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -2527,32 +2305,29 @@
       "series_id": "97",
       "series_title": "Office Procedures",
       "series_description": "Any internally distributed manual, guidelines, or similar records that establish standard office procedures for an agency, e.g. agency style manuals, telephone protocols, mail room procedures, print shop and photocopy ordering instructions.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Superseded",
+      "trigger_event": "US",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Until Superseded plus 1 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
-      "comments": ""
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "5.1.014"
-    },
-    "retention_code": "US",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -2561,32 +2336,29 @@
       "series_id": "98",
       "series_title": "Correspondence Tracking Records",
       "series_description": "Any record created by an agency to track any type of incoming and outgoing correspondence or packages by the U.S. Postal Service (USPS) or by private couriers.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "1 year",
+      "trigger_event": "CR",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "1 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
-      "comments": ""
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "5.1.015"
-    },
-    "retention_code": "",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -2595,32 +2367,29 @@
       "series_id": "100",
       "series_title": "Equipment Manuals",
       "series_description": "",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Life of Asset",
+      "trigger_event": "LA",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Life of Asset",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
-      "comments": ""
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "5.2.010"
-    },
-    "retention_code": "LA",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -2629,32 +2398,29 @@
       "series_id": "103",
       "series_title": "Service Order",
       "series_description": "Requests or work orders for repairs or maintenance to facilities, vehicles, or equipment completed by internal agency personnel or external service providers.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "1 year",
+      "trigger_event": "CR",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "1 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
-      "comments": ""
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "5.2.019"
-    },
-    "retention_code": "",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -2666,29 +2432,26 @@
       "legal_citation": "Government Code,\n441.1855."
     },
     "retention_rules": {
-      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
+      "trigger_event": "AC",
       "duration_years": 7,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "After Closed plus 7 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
-      "comments": ""
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "5.3.007a"
-    },
-    "retention_code": "AC",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -2700,29 +2463,26 @@
       "legal_citation": "Government Code,\n441.1855."
     },
     "retention_rules": {
-      "trigger_event": "Fiscal Year End",
+      "trigger_event": "FE",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Fiscal Year End plus 3 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
       "comments": "NOTE: Refer to SB20 (84th Leg.) for\nretention period context."
     },
     "state_specific_attributes": {
       "rsin": "5.3.007b"
-    },
-    "retention_code": "FE",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -2731,32 +2491,29 @@
       "series_id": "106c",
       "series_title": "Bid Documentation – Invalid Bids",
       "series_description": "Invalid bids that do not meet agency submission requirements and are not included in bid evaluation process (e.g. withdrawn, missed submission deadline, incomplete submission, etc.)",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
+      "trigger_event": "AC",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "After Closed plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
-      "comments": ""
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "5.3.007c"
-    },
-    "retention_code": "AC",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -2768,29 +2525,26 @@
       "legal_citation": "29 CFR 1904.33; 28\nTAC 120.1(c)."
     },
     "retention_rules": {
-      "trigger_event": "Calendar Year End",
+      "trigger_event": "CE",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "Calendar Year End plus 5 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
-      "comments": ""
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "5.4.001"
-    },
-    "retention_code": "CE",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -2799,32 +2553,29 @@
       "series_id": "109",
       "series_title": "Security Access Records",
       "series_description": "Records relating to the issuance of keys, identification cards, building passes, passwords, signed statements or similar instruments of access to agency or state facilities, equipment or automated systems.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
+      "trigger_event": "AC",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "After Closed plus 2 years",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
-      "comments": ""
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "5.4.012"
-    },
-    "retention_code": "AC",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -2833,32 +2584,29 @@
       "series_id": "113",
       "series_title": "License and Driving Record Checks",
       "series_description": "",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
+      "trigger_event": "AC",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "After Closed",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
-      "comments": ""
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": "5.6.004"
-    },
-    "retention_code": "AC",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "",
+      "agency_name": "Judicial Conduct",
       "schedule_type": "specific",
       "schedule_id": "242",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/242.pdf"
@@ -2867,26 +2615,23 @@
       "series_id": "114",
       "series_title": "Legislative Concerns",
       "series_description": "Drafts of proposed legislation and related correspondence.",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "As Long as Administratively Valuable",
+      "trigger_event": "AV",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "As Long as Administratively Valuable",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
-      "last_updated_by_state": "",
-      "next_update_due": "",
+      "last_checked": "2026-04-03",
+      "last_updated_by_state": "2024-06-25",
+      "next_update_due": "2029-06",
       "comments": "Set forth in the Agency's LARs and\nAnnual Report."
     },
     "state_specific_attributes": {
       "rsin": "1.1.027"
-    },
-    "retention_code": "AV",
-    "retention_weeks": "",
-    "retention_days": ""
+    }
   }
 ]

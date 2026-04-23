@@ -14,18 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Paper: hard copy in office area ; Microform: microfilm in office area Pemanently. Duplicate copy kept off-site",
+      "trigger_event": "PM",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Microform: Permanent",
+      "disposition": "Paper: Retain hard copy in the office area for 5 years then microfilm. Destroy after the film is checked for quality and completeness ; Microform: Retain microfilm in the office area Pemanently. Duplicate copy kept off-site, Paper: Recycle ; Microform: Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-<<<<<<< HEAD
-      "last_checked": "2026-03-30",
-=======
-      "last_checked": "2026-03-31",
->>>>>>> dev
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "1999-03-18",
       "next_update_due": null,
       "comments": null

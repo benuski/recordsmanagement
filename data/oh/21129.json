@@ -14,18 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Paper: 3 PRIOR FISCALYEARS CURRENT AND UPON RELEASE OF AUDIT REPORT BY STATE AUDITOR. ; Electronic: 3 PRIOR FISCALYEARS CURRENT AND UPON RELEASE OF AUDIT REPORT BY STATE AUDITOR",
+      "trigger_event": "AV",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Delete",
+      "disposition": "Paper: RETAIN FOR 3 PRIOR FISCALYEARS PLUS CURRENT AND UPON RELEASE OF AUDIT REPORT BY STATE AUDITOR. ; Electronic: RETAIN FOR 3 PRIOR FISCALYEARS PLUS CURRENT AND UPON RELEASE OF AUDIT REPORT BY STATE AUDITOR., Paper: Recycle ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-<<<<<<< HEAD
-      "last_checked": "2026-03-30",
-=======
-      "last_checked": "2026-03-31",
->>>>>>> dev
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2004-11-29",
       "next_update_due": null,
       "comments": null

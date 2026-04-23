@@ -14,18 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Paper: Maintain documents election results are declared and new or re-elected member(s) have accepted position(s). when no longer of administrative value. A Certificate of Disposal is required when destroying these records. ; Electronic: Maintain documents election results are declared and new or re-elected member(s) have accepted position(s). when no longer of administrative value. A Certificate of Disposal is required when destroying these records",
+      "trigger_event": "AV",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Maintain documents until election results are declared and the new or re-elected member(s) have accepted the position(s). Destroy when no longer of administrative value. A Certificate of Disposal is required when destroying these records. ; Electronic: Maintain documents until election results are declared and the new or re-elected member(s) have accepted the position(s). Destroy when no longer of administrative value. A Certificate of Disposal is required when destroying these records., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-<<<<<<< HEAD
-      "last_checked": "2026-03-30",
-=======
-      "last_checked": "2026-03-31",
->>>>>>> dev
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2014-09-04",
       "next_update_due": null,
       "comments": null

@@ -14,18 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Microform: in operating area ; Paper: Retained in operating area microfilmed. Once microfilm is checked completeness and accuracy",
+      "trigger_event": "CR",
       "duration_years": 50,
       "duration_months": null,
-      "disposition_method": "Microform: Wastepaper ; Paper: Wastepaper",
+      "disposition": "Microform: Retain in operating area for 50 years ; Paper: Retained in operating area until microfilmed. Once microfilm is checked for completeness and accuracy, then destroy, Microform: Wastepaper ; Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-<<<<<<< HEAD
-      "last_checked": "2026-03-30",
-=======
-      "last_checked": "2026-03-31",
->>>>>>> dev
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "1991-08-30",
       "next_update_due": null,
       "comments": null

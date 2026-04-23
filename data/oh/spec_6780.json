@@ -14,14 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Electronic: If issued, maturity and ; Paper: If issued, maturity and",
+      "trigger_event": "AV",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Archives",
+      "disposition": "Electronic: If issued, retain until maturity and then transfer to State Archives. If of no historical value to State Archives, destroy. If not issued, retain for two complete years, then destroy. ; Paper: If issued, retain until maturity and then transfer to State Archives. If of no historical value to State Archives, destroy. If not issued, retain for two complete years, then destroy., Electronic: Delete ; Paper: Archives",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-31",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2022-04-04",
       "next_update_due": null,
       "comments": null

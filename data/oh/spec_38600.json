@@ -14,14 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Microform: If microfilmed, permanently. ; Paper: If in paper, permanently, unless microfilmed. ; Electronic: permanently, unless printed or microfilmed",
+      "trigger_event": "PM",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Microform: Permanent ; Paper: Shred ; Electronic: Delete",
+      "disposition": "Microform: If microfilmed, retain permanently. ; Paper: If in paper, retain permanently, unless microfilmed. ; Electronic: Retain permanently, unless printed or microfilmed., Microform: Permanent ; Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-31",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2019-12-09",
       "next_update_due": null,
       "comments": null

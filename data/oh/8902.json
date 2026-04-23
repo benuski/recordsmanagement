@@ -14,18 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Electronic: ; Paper: 5 years, review by state archives historical value; if none, dispose",
+      "trigger_event": "CR",
       "duration_years": 15,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase ; Paper: Wastepaper",
+      "disposition": "Electronic: Retain 15 years, then dispose ; Paper: Retain 5 years, review by state archives for historical value; if none, dispose, Electronic: Erase ; Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-<<<<<<< HEAD
-      "last_checked": "2026-03-30",
-=======
-      "last_checked": "2026-03-31",
->>>>>>> dev
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "1994-06-29",
       "next_update_due": null,
       "comments": null

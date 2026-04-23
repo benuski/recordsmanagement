@@ -16,10 +16,10 @@ virginia_config = StateScheduleConfig(
         re.IGNORECASE
     ),
     header_keywords={
-        'desc': ["DESCRIPTION", "SERIES AND DESCRIPTION"],
-        'id': ["NUMBER", "SERIES NUMBER"],
-        'ret': ["RETENTION", "SCHEDULED RETENTION PERIOD"],
-        'disp': ["DISPOSITION", "DISPOSITION METHOD"]
+        'desc': ["DESCRIPTION", "SERIES AND DESCRIPTION", "RECORDSSERIESANDDESCRIPTION"],
+        'id': ["NUMBER", "SERIES NUMBER", "SERIESNUMBER"],
+        'ret': ["RETENTION", "SCHEDULED RETENTION PERIOD", "SCHEDULEDRETENTIONANDDISPOSITION"],
+        'disp': ["DISPOSITION", "DISPOSITION METHOD", "SCHEDULEDRETENTIONANDDISPOSITION"]
     },
     citation_penalty_strings=["COV", "CFR", "VAC"],
     base_url="https://old.lva.virginia.gov/agencies/records/sched_specific/"

@@ -14,18 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Electronic: - conditional dismissals, electronic medium a period of from date of dismissal; , delete electronic medium. (This does not apply a conditional dismissal that is reopened.) ; Paper: - conditional dismissals, physical file, if it was not scanned, a period of from date of dismissal; , shred physical file. (This does not apply a conditional dismissal that is reopened.)",
+      "trigger_event": "CR",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "disposition": "Electronic: 5 years - For conditional dismissals, retain electronic medium for a period of 5 years from the date of dismissal; then, delete electronic medium. (This does not apply to a conditional dismissal that is reopened.) ; Paper: 5 years - For conditional dismissals, retain physical file, if it was not scanned, for a period of 5 years from the date of dismissal; then, shred physical file. (This does not apply to a conditional dismissal that is reopened.), Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-<<<<<<< HEAD
-      "last_checked": "2026-03-30",
-=======
-      "last_checked": "2026-03-31",
->>>>>>> dev
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-02-26",
       "next_update_due": null,
       "comments": null

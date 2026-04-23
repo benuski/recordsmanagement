@@ -14,18 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Paper: paper copy of verification letters ; Electronic: Totals information is retained in reports on OCC computer system, retained 7 years",
+      "trigger_event": "CR",
       "duration_years": 4,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Erase",
+      "disposition": "Paper: Retain paper copy of verification letters for 4 years then destroy. ; Electronic: Totals information is retained in reports on OCC computer system, retained for 7 years then destroyed., Paper: Recycle ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-<<<<<<< HEAD
-      "last_checked": "2026-03-30",
-=======
-      "last_checked": "2026-03-31",
->>>>>>> dev
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2009-05-15",
       "next_update_due": null,
       "comments": null

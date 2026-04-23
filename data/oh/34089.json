@@ -14,18 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Paper: firm submits a new statement of interest, but not longer than",
+      "trigger_event": "CR",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Paper: Wastepaper",
+      "disposition": "Paper: Until firm submits a new statement of interest, but not longer than 3 years, then destroy., Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-<<<<<<< HEAD
-      "last_checked": "2026-03-30",
-=======
-      "last_checked": "2026-03-31",
->>>>>>> dev
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2020-11-25",
       "next_update_due": null,
       "comments": null

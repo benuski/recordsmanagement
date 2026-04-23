@@ -14,18 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Unknown: one year close of fiscal year",
+      "trigger_event": "FE",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Unknown: Recycle",
+      "disposition": "Unknown: Retain for one year after close of fiscal year., Unknown: Recycle",
       "confidential_flag": false
     },
     "tracking_data": {
-<<<<<<< HEAD
-      "last_checked": "2026-03-30",
-=======
-      "last_checked": "2026-03-31",
->>>>>>> dev
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2021-04-30",
       "next_update_due": null,
       "comments": null

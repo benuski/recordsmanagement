@@ -14,18 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Paper: Four years expiration of calendar year in which permit was cancelled. ; Electronic: four years expiration of calendar year in which permit was cancelled",
+      "trigger_event": "CE",
       "duration_years": null,
-      "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "duration_months": 6,
+      "disposition": "Paper: Four years after the expiration of the calendar year in which the permit was cancelled. Then destroy. If scanned, retain for 6 months. ; Electronic: Retain four years after the expiration of the calendar year in which the permit was cancelled., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-<<<<<<< HEAD
-      "last_checked": "2026-03-30",
-=======
-      "last_checked": "2026-03-31",
->>>>>>> dev
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2019-08-31",
       "next_update_due": null,
       "comments": null

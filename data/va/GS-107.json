@@ -1,482 +1,622 @@
 [
   {
-    "agency_name": null,
-    "state": "va",
-    "schedule_type": "general",
-    "schedule_id": "GS-107",
-    "series_id": "012254",
-    "series_title": "Cook and Meal Evaluations",
-    "series_description": "This series documents any records created to evaluate or inspect cooks, food preparation, food quality or food service.",
-    "retention_statement": "Retain 1 year after evaluation, then destroy.",
-    "retention_years": 1,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/GS-107.PDF",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": null,
+      "schedule_type": "general",
+      "schedule_id": "GS-107",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/GS-107.PDF"
+    },
+    "series_metadata": {
+      "series_id": "012254",
+      "series_title": "Cook and Meal Evaluations",
+      "series_description": "This series documents any records created to evaluate or inspect cooks, food preparation, food quality or food service.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "AC",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition": "Retain 1 year after evaluation, then destroy.",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-02",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": null,
-    "state": "va",
-    "schedule_type": "general",
-    "schedule_id": "GS-107",
-    "series_id": "012255",
-    "series_title": "Cook’s Worksheets",
-    "series_description": "This series documents any records created to control the meal preparation process, including, but not limited to assignments, recipes to be used, start times, cooking times, and supplies or foodstuffs to be used.",
-    "retention_statement": "Retain 1 month after meal date, then destroy.",
-    "retention_years": null,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/GS-107.PDF",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": null,
+      "schedule_type": "general",
+      "schedule_id": "GS-107",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/GS-107.PDF"
+    },
+    "series_metadata": {
+      "series_id": "012255",
+      "series_title": "Cook’s Worksheets",
+      "series_description": "This series documents any records created to control the meal preparation process, including, but not limited to assignments, recipes to be used, start times, cooking times, and supplies or foodstuffs to be used.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "AC",
+      "duration_years": null,
+      "duration_months": 1,
+      "disposition": "Retain 1 month after meal date, then destroy.",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-02",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": null,
-    "state": "va",
-    "schedule_type": "general",
-    "schedule_id": "GS-107",
-    "series_id": "012256",
-    "series_title": "Diet Records",
-    "series_description": "This series documents the receipt of and compliance with special diet requirements for selected individuals, generally based on special medical or religious needs.",
-    "retention_statement": "Retain 1 year or until completion of any required certification audit, whichever is greater; then destroy in compliance with No. 8 on schedule cover page.",
-    "retention_years": 1,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/GS-107.PDF",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": null,
+      "schedule_type": "general",
+      "schedule_id": "GS-107",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/GS-107.PDF"
+    },
+    "series_metadata": {
+      "series_id": "012256",
+      "series_title": "Diet Records",
+      "series_description": "This series documents the receipt of and compliance with special diet requirements for selected individuals, generally based on special medical or religious needs.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "AC",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition": "Retain 1 year or until completion of any required certification audit, whichever is greater; then destroy in compliance with No. 8 on schedule cover page.",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-02",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": null,
-    "state": "va",
-    "schedule_type": "general",
-    "schedule_id": "GS-107",
-    "series_id": "012258",
-    "series_title": "Food Allotment Records",
-    "series_description": "This series documents the request, issue and control of bulk foods received by the facility from any source, including USDA, vendors and agency warehouses.",
-    "retention_statement": "Retain 2 years or until completion of any required certification audit, whichever is greater; then destroy.",
-    "retention_years": 2,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/GS-107.PDF",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": null,
+      "schedule_type": "general",
+      "schedule_id": "GS-107",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/GS-107.PDF"
+    },
+    "series_metadata": {
+      "series_id": "012258",
+      "series_title": "Food Allotment Records",
+      "series_description": "This series documents the request, issue and control of bulk foods received by the facility from any source, including USDA, vendors and agency warehouses.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "AC",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition": "Retain 2 years or until completion of any required certification audit, whichever is greater; then destroy.",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-02",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": null,
-    "state": "va",
-    "schedule_type": "general",
-    "schedule_id": "GS-107",
-    "series_id": "012259",
-    "series_title": "Food Cost Records",
-    "series_description": "This series documents the control of food costs, including but not limited to: average meal costs, recipe costs and special dietary costs.",
-    "retention_statement": "Retain 3 years or until completion of any required certification audit, whichever is greater; then destroy.",
-    "retention_years": 3,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/GS-107.PDF",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": null,
+      "schedule_type": "general",
+      "schedule_id": "GS-107",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/GS-107.PDF"
+    },
+    "series_metadata": {
+      "series_id": "012259",
+      "series_title": "Food Cost Records",
+      "series_description": "This series documents the control of food costs, including but not limited to: average meal costs, recipe costs and special dietary costs.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "AC",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition": "Retain 3 years or until completion of any required certification audit, whichever is greater; then destroy.",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-02",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": null,
-    "state": "va",
-    "schedule_type": "general",
-    "schedule_id": "GS-107",
-    "series_id": "012260",
-    "series_title": "Food Issue Records",
-    "series_description": "This series documents the internal control of foodstuffs and condiments, includes issues to cooks and other kitchen workers, and disposal of spoiled items.",
-    "retention_statement": "Retain 2 years or until completion of any required certification audit, whichever is greater; then destroy.",
-    "retention_years": 2,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/GS-107.PDF",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": null,
+      "schedule_type": "general",
+      "schedule_id": "GS-107",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/GS-107.PDF"
+    },
+    "series_metadata": {
+      "series_id": "012260",
+      "series_title": "Food Issue Records",
+      "series_description": "This series documents the internal control of foodstuffs and condiments, includes issues to cooks and other kitchen workers, and disposal of spoiled items.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "AC",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition": "Retain 2 years or until completion of any required certification audit, whichever is greater; then destroy.",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-02",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": null,
-    "state": "va",
-    "schedule_type": "general",
-    "schedule_id": "GS-107",
-    "series_id": "012261",
-    "series_title": "Health Certificates",
-    "series_description": "This series documents the receipt of medical clearance for employees, volunteers, students, patients or inmates to work in food service operations.",
-    "retention_statement": "Retain 2 years after departure/reassignment of individual or completion of any required certification audit, whichever is greater; then destroy in compliance with No. 8 on schedule cover page.",
-    "retention_years": 2,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/GS-107.PDF",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": null,
+      "schedule_type": "general",
+      "schedule_id": "GS-107",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/GS-107.PDF"
+    },
+    "series_metadata": {
+      "series_id": "012261",
+      "series_title": "Health Certificates",
+      "series_description": "This series documents the receipt of medical clearance for employees, volunteers, students, patients or inmates to work in food service operations.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "AC",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition": "Retain 2 years after departure/reassignment of individual or completion of any required certification audit, whichever is greater; then destroy in compliance with No. 8 on schedule cover page.",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-02",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": null,
-    "state": "va",
-    "schedule_type": "general",
-    "schedule_id": "GS-107",
-    "series_id": "012262",
-    "series_title": "Hi/Low Sheets",
-    "series_description": "This series includes records of meals prepared versus meals actually served and any other record kept to assist in predicting future number of meals to be served.",
-    "retention_statement": "Retain 1 year or until completion of any required certification audit, whichever is greater; then destroy.",
-    "retention_years": 1,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/GS-107.PDF",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": null,
+      "schedule_type": "general",
+      "schedule_id": "GS-107",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/GS-107.PDF"
+    },
+    "series_metadata": {
+      "series_id": "012262",
+      "series_title": "Hi/Low Sheets",
+      "series_description": "This series includes records of meals prepared versus meals actually served and any other record kept to assist in predicting future number of meals to be served.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "AC",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition": "Retain 1 year or until completion of any required certification audit, whichever is greater; then destroy.",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-02",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": null,
-    "state": "va",
-    "schedule_type": "general",
-    "schedule_id": "GS-107",
-    "series_id": "012263",
-    "series_title": "Housekeeping/Cleanup Records",
-    "series_description": "This series includes any record used to assign housekeeping or cleanup responsibilities, document completion of assignments or evaluate performance of assignments.",
-    "retention_statement": "Retain 1 month, then destroy.",
-    "retention_years": null,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/GS-107.PDF",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": null,
+      "schedule_type": "general",
+      "schedule_id": "GS-107",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/GS-107.PDF"
+    },
+    "series_metadata": {
+      "series_id": "012263",
+      "series_title": "Housekeeping/Cleanup Records",
+      "series_description": "This series includes any record used to assign housekeeping or cleanup responsibilities, document completion of assignments or evaluate performance of assignments.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "AV",
+      "duration_years": null,
+      "duration_months": 1,
+      "disposition": "Retain 1 month, then destroy.",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-02",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": null,
-    "state": "va",
-    "schedule_type": "general",
-    "schedule_id": "GS-107",
-    "series_id": "012264",
-    "series_title": "Inventory Records - Knives and Tools",
-    "series_description": "This series documents any required daily control or inventory of knives and other utensils or equipment for security purposes.",
-    "retention_statement": "Retain 1 year or until completion of any required certification audit, whichever is greater; then destroy.",
-    "retention_years": 1,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/GS-107.PDF",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": null,
+      "schedule_type": "general",
+      "schedule_id": "GS-107",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/GS-107.PDF"
+    },
+    "series_metadata": {
+      "series_id": "012264",
+      "series_title": "Inventory Records - Knives and Tools",
+      "series_description": "This series documents any required daily control or inventory of knives and other utensils or equipment for security purposes.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "AC",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition": "Retain 1 year or until completion of any required certification audit, whichever is greater; then destroy.",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-02",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": null,
-    "state": "va",
-    "schedule_type": "general",
-    "schedule_id": "GS-107",
-    "series_id": "012265",
-    "series_title": "Inventory Records - Other Inventories",
-    "series_description": "This series documents other inventories not listed on this schedule or other schedules.",
-    "retention_statement": "Retain as long as administratively necessary, then destroy.",
-    "retention_years": null,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/GS-107.PDF",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": null,
+      "schedule_type": "general",
+      "schedule_id": "GS-107",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/GS-107.PDF"
+    },
+    "series_metadata": {
+      "series_id": "012265",
+      "series_title": "Inventory Records - Other Inventories",
+      "series_description": "This series documents other inventories not listed on this schedule or other schedules.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "AV",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition": "Retain as long as administratively necessary, then destroy.",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-02",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": null,
-    "state": "va",
-    "schedule_type": "general",
-    "schedule_id": "GS-107",
-    "series_id": "012257",
-    "series_title": "Inventory Records - Perpetual Inventories of Stocks",
-    "series_description": "This series documents the routine control of foodstuffs, condiments and other consumable supplies.",
-    "retention_statement": "Retain 6 months after stocks reduced to zero balance, inventory transferred to a new record or in accordance with agency policy, whichever is greater; then destroy.",
-    "retention_years": null,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/GS-107.PDF",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": null,
+      "schedule_type": "general",
+      "schedule_id": "GS-107",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/GS-107.PDF"
+    },
+    "series_metadata": {
+      "series_id": "012257",
+      "series_title": "Inventory Records - Perpetual Inventories of Stocks",
+      "series_description": "This series documents the routine control of foodstuffs, condiments and other consumable supplies.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "AC",
+      "duration_years": null,
+      "duration_months": 6,
+      "disposition": "Retain 6 months after stocks reduced to zero balance, inventory transferred to a new record or in accordance with agency policy, whichever is greater; then destroy.",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-02",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": null,
-    "state": "va",
-    "schedule_type": "general",
-    "schedule_id": "GS-107",
-    "series_id": "012266",
-    "series_title": "Logs, Checklists or Control Records",
-    "series_description": "This series includes any food service log, checklist or control record not otherwise listed on this schedule.",
-    "retention_statement": "Retain 1 year, then destroy.",
-    "retention_years": 1,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/GS-107.PDF",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": null,
+      "schedule_type": "general",
+      "schedule_id": "GS-107",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/GS-107.PDF"
+    },
+    "series_metadata": {
+      "series_id": "012266",
+      "series_title": "Logs, Checklists or Control Records",
+      "series_description": "This series includes any food service log, checklist or control record not otherwise listed on this schedule.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "CR",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition": "Retain 1 year, then destroy.",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-02",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": null,
-    "state": "va",
-    "schedule_type": "general",
-    "schedule_id": "GS-107",
-    "series_id": "012267",
-    "series_title": "Meal Count Sheets",
-    "series_description": "This series documents the completion of daily counts, registers or sign-in sheets the track the number or names of diners at each meal.",
-    "retention_statement": "Retain 1 month, then destroy.",
-    "retention_years": null,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/GS-107.PDF",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": null,
+      "schedule_type": "general",
+      "schedule_id": "GS-107",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/GS-107.PDF"
+    },
+    "series_metadata": {
+      "series_id": "012267",
+      "series_title": "Meal Count Sheets",
+      "series_description": "This series documents the completion of daily counts, registers or sign-in sheets the track the number or names of diners at each meal.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "AV",
+      "duration_years": null,
+      "duration_months": 1,
+      "disposition": "Retain 1 month, then destroy.",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-02",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": null,
-    "state": "va",
-    "schedule_type": "general",
-    "schedule_id": "GS-107",
-    "series_id": "012268",
-    "series_title": "Menus and Standardized Recipes",
-    "series_description": "This series includes all required or standardized menus that are used by kitchen personnel.",
-    "retention_statement": "Retain until superseded, obsolete or rescinded, then destroy.",
-    "retention_years": null,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/GS-107.PDF",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": null,
+      "schedule_type": "general",
+      "schedule_id": "GS-107",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/GS-107.PDF"
+    },
+    "series_metadata": {
+      "series_id": "012268",
+      "series_title": "Menus and Standardized Recipes",
+      "series_description": "This series includes all required or standardized menus that are used by kitchen personnel.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "US",
+      "duration_years": null,
+      "duration_months": null,
+      "disposition": "Retain until superseded, obsolete or rescinded, then destroy.",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-02",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": null,
-    "state": "va",
-    "schedule_type": "general",
-    "schedule_id": "GS-107",
-    "series_id": "012269",
-    "series_title": "Modified Diet Census",
-    "series_description": "This series includes any records used to collectively plan the preparation of special diet requirements over time, including menu planning and special orders.",
-    "retention_statement": "Retain 6 months, then destroy in compliance with No. 8 on schedule cover page.",
-    "retention_years": null,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/GS-107.PDF",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": null,
+      "schedule_type": "general",
+      "schedule_id": "GS-107",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/GS-107.PDF"
+    },
+    "series_metadata": {
+      "series_id": "012269",
+      "series_title": "Modified Diet Census",
+      "series_description": "This series includes any records used to collectively plan the preparation of special diet requirements over time, including menu planning and special orders.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "AV",
+      "duration_years": null,
+      "duration_months": 6,
+      "disposition": "Retain 6 months, then destroy in compliance with No. 8 on schedule cover page.",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-02",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": null,
-    "state": "va",
-    "schedule_type": "general",
-    "schedule_id": "GS-107",
-    "series_id": "012270",
-    "series_title": "Sanitation Inspections",
-    "series_description": "This series documents the routine inspection of sanitary conditions in food preparation, storage or serving areas.",
-    "retention_statement": "Retain 2 years after inspection or until completion of any required certification audit, whichever is greater; then destroy.",
-    "retention_years": 2,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/GS-107.PDF",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": null,
+      "schedule_type": "general",
+      "schedule_id": "GS-107",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/GS-107.PDF"
+    },
+    "series_metadata": {
+      "series_id": "012270",
+      "series_title": "Sanitation Inspections",
+      "series_description": "This series documents the routine inspection of sanitary conditions in food preparation, storage or serving areas.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "AC",
+      "duration_years": 2,
+      "duration_months": null,
+      "disposition": "Retain 2 years after inspection or until completion of any required certification audit, whichever is greater; then destroy.",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-02",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": null,
-    "state": "va",
-    "schedule_type": "general",
-    "schedule_id": "GS-107",
-    "series_id": "012702",
-    "series_title": "Sanitation/Safe-Serv Certifications",
-    "series_description": "This series documents certification that an individual has passed a course on sanitary/safe handling of food, utensils, cooking equipment and serving lines.",
-    "retention_statement": "Retain 1 year after end of food service duty/employment or until next certification, then destroy.",
-    "retention_years": 1,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/GS-107.PDF",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": null,
+      "schedule_type": "general",
+      "schedule_id": "GS-107",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/GS-107.PDF"
+    },
+    "series_metadata": {
+      "series_id": "012702",
+      "series_title": "Sanitation/Safe-Serv Certifications",
+      "series_description": "This series documents certification that an individual has passed a course on sanitary/safe handling of food, utensils, cooking equipment and serving lines.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "AC",
+      "duration_years": 1,
+      "duration_months": null,
+      "disposition": "Retain 1 year after end of food service duty/employment or until next certification, then destroy.",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-02",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": null,
-    "state": "va",
-    "schedule_type": "general",
-    "schedule_id": "GS-107",
-    "series_id": "012271",
-    "series_title": "USDA Refund Requests",
-    "series_description": "This series documents requests to the US Department of Agriculture (USDA) for refund of expenditures in support of USDA sponsored programs.",
-    "retention_statement": "Retain 3 years after request or until audited, whichever is greater; then destroy (7CFR250.16).",
-    "retention_years": 3,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/GS-107.PDF",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": null,
+      "schedule_type": "general",
+      "schedule_id": "GS-107",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/GS-107.PDF"
+    },
+    "series_metadata": {
+      "series_id": "012271",
+      "series_title": "USDA Refund Requests",
+      "series_description": "This series documents requests to the US Department of Agriculture (USDA) for refund of expenditures in support of USDA sponsored programs.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "AC",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition": "Retain 3 years after request or until audited, whichever is greater; then destroy (7CFR250.16).",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-02",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   },
   {
-    "agency_name": null,
-    "state": "va",
-    "schedule_type": "general",
-    "schedule_id": "GS-107",
-    "series_id": "012272",
-    "series_title": "USDA Reports",
-    "series_description": "This series documents the preparation and submission of reports required by the US Department of Agriculture (USDA) to control USDA provided foodstuffs, condiments or funds.",
-    "retention_statement": "Retain 3 years after report submission or until audited, whichever is greater; then destroy (7CFR250.16).",
-    "retention_years": 3,
-    "retention_months": "",
-    "retention_weeks": "",
-    "retention_days": "",
-    "retention_code": "",
-    "comments": "",
-    "disposition": "",
-    "confidential": false,
-    "legal_citation": "",
-    "last_checked": "2026-03-09",
-    "last_updated": null,
-    "next_update": "",
-    "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/GS-107.PDF",
-    "rsin": ""
+    "schedule_metadata": {
+      "state": "va",
+      "agency_name": null,
+      "schedule_type": "general",
+      "schedule_id": "GS-107",
+      "url": "https://old.lva.virginia.gov/agencies/records/sched_specific/GS-107.PDF"
+    },
+    "series_metadata": {
+      "series_id": "012272",
+      "series_title": "USDA Reports",
+      "series_description": "This series documents the preparation and submission of reports required by the US Department of Agriculture (USDA) to control USDA provided foodstuffs, condiments or funds.",
+      "legal_citation": null
+    },
+    "retention_rules": {
+      "trigger_event": "AC",
+      "duration_years": 3,
+      "duration_months": null,
+      "disposition": "Retain 3 years after report submission or until audited, whichever is greater; then destroy (7CFR250.16).",
+      "confidential_flag": false
+    },
+    "tracking_data": {
+      "last_checked": "2026-04-02",
+      "last_updated_by_state": null,
+      "next_update_due": null,
+      "comments": null
+    },
+    "state_specific_attributes": {
+      "rsin": null
+    }
   }
 ]

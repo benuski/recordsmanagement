@@ -14,18 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Electronic: employee is no longer employed. Physical badges that are no longer utilized shall be returned responsible ODOT section and stored securely in a locked cabinet and destroyed by shredding (or other approved/secured means). A certificate of destruction should remain on file confirm destruction",
+      "trigger_event": "AV",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Shred",
+      "disposition": "Electronic: Retain until employee is no longer employed. Physical badges that are no longer utilized shall be returned to the responsible ODOT section and stored securely in a locked cabinet and destroyed by shredding (or other approved/secured means). A certificate of destruction should remain on file to confirm the destruction., Electronic: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-<<<<<<< HEAD
-      "last_checked": "2026-03-30",
-=======
-      "last_checked": "2026-03-31",
->>>>>>> dev
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2018-12-14",
       "next_update_due": null,
       "comments": null

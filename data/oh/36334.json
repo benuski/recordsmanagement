@@ -14,18 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Electronic: Server data (GPS information, hydraulic information, etc.) will be saved 5 fiscal years (fiscal year runs from July 1-July 30th)",
+      "trigger_event": "FE",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase",
+      "disposition": "Electronic: Server data (GPS information, hydraulic information, etc.) will be saved for 5 fiscal years (fiscal year runs from July 1-July 30th)., Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-<<<<<<< HEAD
-      "last_checked": "2026-03-30",
-=======
-      "last_checked": "2026-03-31",
->>>>>>> dev
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2019-05-21",
       "next_update_due": null,
       "comments": null

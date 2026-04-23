@@ -14,18 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Electronic: in office or all audit findings are considered resolved (by Auditor of State and Federal agencies), and provided next audit is completed and report is released by Auditor of state",
+      "trigger_event": "CR",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase",
+      "disposition": "Electronic: Retain in office for 5 years or until all audit findings are considered resolved (by Auditor of State and Federal agencies), and provided the next audit is completed and the report is released by Auditor of state., Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-<<<<<<< HEAD
-      "last_checked": "2026-03-30",
-=======
-      "last_checked": "2026-03-31",
->>>>>>> dev
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-09-10",
       "next_update_due": null,
       "comments": null

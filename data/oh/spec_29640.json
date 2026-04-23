@@ -14,14 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Paper: from date records are received in storage ; Microform: from date records are received in storage ; Electronic: from date records are received in storage",
+      "trigger_event": "CR",
       "duration_years": 10,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Microform: Shred ; Electronic: Delete",
+      "disposition": "Paper: Retain for 10 years from the date the records are received in storage, then destroy. ; Microform: Retain for 10 years from the date the records are received in storage, then destroy. Effective July 2006, these records are no longer being microfilmed. Eventually all microfilmed records will be destroyed. ; Electronic: Retain for 10 years from the date the records are received in storage, then destroy., Paper: Shred ; Microform: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-31",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2011-07-29",
       "next_update_due": null,
       "comments": null

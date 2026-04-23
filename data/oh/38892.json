@@ -14,18 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Electronic: up . ; Microform: up",
+      "trigger_event": "AV",
       "duration_years": null,
       "duration_months": 6,
-      "disposition_method": "Electronic: Delete ; Microform: Shred",
+      "disposition": "Electronic: Retain for up to 6 months. ; Microform: Retain for up to 6 months., Electronic: Delete ; Microform: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-<<<<<<< HEAD
-      "last_checked": "2026-03-30",
-=======
-      "last_checked": "2026-03-31",
->>>>>>> dev
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2020-09-09",
       "next_update_due": null,
       "comments": null

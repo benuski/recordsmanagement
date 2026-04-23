@@ -14,18 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Microform: following close of investigation. ; Paper: following close of investigation. If records are microfilmed or scanned into an electronic format, paper copy may be shredded at that time. ; Electronic: following close of investigation. If records are microfilmed, electronic copy may be deleted",
+      "trigger_event": "CR",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Microform: Shred ; Paper: Shred ; Electronic: Delete",
+      "disposition": "Microform: Retain for 5 years following the close of the investigation. ; Paper: Retain for 5 years following the close of the investigation. If records are microfilmed or scanned into an electronic format, the paper copy may be shredded at that time. ; Electronic: Retain for 5 years following the close of the investigation. If records are microfilmed, the electronic copy may be deleted., Microform: Shred ; Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-<<<<<<< HEAD
-      "last_checked": "2026-03-30",
-=======
-      "last_checked": "2026-03-31",
->>>>>>> dev
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2023-09-18",
       "next_update_due": null,
       "comments": null

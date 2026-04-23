@@ -14,18 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Paper: onsite current fiscal year, 3 previous years, oldest year offsite storage, offsite, provided audited by Auditor of State, audit report is released, all discrepancies are resolved, and ; Electronic: 6 years, provided audited by Auditor of State, audit report is released, all discrepancies are resolved, and",
+      "trigger_event": "FE",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Delete",
+      "disposition": "Paper: Retain onsite current fiscal year, plus 3 previous years, transfer oldest year to offsite storage, retain 2 years offsite, provided audited by Auditor of State, audit report is released, all discrepancies are resolved, and then destroy. ; Electronic: Retain 6 years, provided audited by Auditor of State, audit report is released, all discrepancies are resolved, and then destroy., Paper: Recycle ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-<<<<<<< HEAD
-      "last_checked": "2026-03-30",
-=======
-      "last_checked": "2026-03-31",
->>>>>>> dev
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2009-01-21",
       "next_update_due": null,
       "comments": null

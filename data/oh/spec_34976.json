@@ -14,14 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Paper: Reviewed annually. when new approval is issued. ; Electronic: Reviewed annually. when new approval is issued",
+      "trigger_event": "AV",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Reviewed annually. Destroy when new approval is issued. ; Electronic: Reviewed annually. Destroy when new approval is issued., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-31",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2018-03-21",
       "next_update_due": null,
       "comments": null

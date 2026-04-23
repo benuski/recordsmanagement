@@ -14,18 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Electronic: in office seven ; Microform: in office 5 years following quarter microfilmed. Send microfilm Records Center an additional 2 years ; Paper: in office and microfilmed",
+      "trigger_event": "CR",
       "duration_years": 7,
       "duration_months": 3,
-      "disposition_method": "Electronic: Erase ; Microform: Shred ; Paper: Shred",
+      "disposition": "Electronic: Retain in office seven 7 years, then erase ; Microform: Retain in office 5 years following the quarter microfilmed. Send the microfilm to the Records Center for an additional 2 years, then destroy. ; Paper: Retain in office 3 months and until microfilmed, then destroy, Electronic: Erase ; Microform: Shred ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-<<<<<<< HEAD
-      "last_checked": "2026-03-30",
-=======
-      "last_checked": "2026-03-31",
->>>>>>> dev
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2013-03-13",
       "next_update_due": null,
       "comments": null

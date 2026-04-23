@@ -14,18 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Paper: unless Federal or State guidelines dictate otherwise except in case of information concerning contracts and grants which retention period is following final activity (closeout) as required by law",
+      "trigger_event": "CR",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Paper: Wastepaper",
+      "disposition": "Paper: 3 years unless Federal or State guidelines dictate otherwise except in case of information concerning contracts and grants for which retention period is 3 years following final activity (closeout) as required by law. Then destroy., Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-<<<<<<< HEAD
-      "last_checked": "2026-03-30",
-=======
-      "last_checked": "2026-03-31",
->>>>>>> dev
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "1995-12-01",
       "next_update_due": null,
       "comments": null

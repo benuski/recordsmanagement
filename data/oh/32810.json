@@ -14,18 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Electronic: At end of each deployment, Skywatch Tower video captures will be immediately deleted from Skywatch Tower video equipment hard-drives, and hard-drives will be reformatted next deployment",
+      "trigger_event": "AV",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase",
+      "disposition": "Electronic: At the end of each deployment, Skywatch Tower video captures will be immediately deleted from Skywatch Tower video equipment hard-drives, and the hard-drives will be reformatted for the next deployment., Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-<<<<<<< HEAD
-      "last_checked": "2026-03-30",
-=======
-      "last_checked": "2026-03-31",
->>>>>>> dev
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2015-02-19",
       "next_update_due": null,
       "comments": null

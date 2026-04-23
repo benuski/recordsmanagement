@@ -2,7 +2,7 @@
   {
     "schedule_metadata": {
       "state": "nc",
-      "agency_name": "",
+      "agency_name": null,
       "schedule_type": "general",
       "schedule_id": "04",
       "url": "https://archives.ncdcr.gov/functional-schedule"
@@ -11,20 +11,20 @@
       "series_id": "411.3",
       "series_title": "Attendance Lists",
       "series_description": "school-wide headcount reports",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Complete",
+      "trigger_event": "CR",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "RETAIN UNTIL: Complete PLUS: 3 years THEN: Destroy",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": null
@@ -33,7 +33,7 @@
   {
     "schedule_metadata": {
       "state": "nc",
-      "agency_name": "",
+      "agency_name": null,
       "schedule_type": "general",
       "schedule_id": "04",
       "url": "https://archives.ncdcr.gov/functional-schedule"
@@ -45,17 +45,17 @@
       "legal_citation": "Confidentiality 20 USC 1232g"
     },
     "retention_rules": {
-      "trigger_event": "when issued Cumulative Record",
+      "trigger_event": "AV",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "TRANSFER to when issued Cumulative Record",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": null
@@ -64,7 +64,7 @@
   {
     "schedule_metadata": {
       "state": "nc",
-      "agency_name": "",
+      "agency_name": null,
       "schedule_type": "general",
       "schedule_id": "04",
       "url": "https://archives.ncdcr.gov/functional-schedule"
@@ -73,20 +73,20 @@
       "series_id": "414.5",
       "series_title": "Enrollments and Withdrawals",
       "series_description": "attendance records of enrollments and withdrawals from the program, including transfers and dropouts; includes attendance verifications",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "End of academic year",
+      "trigger_event": "CR",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "RETAIN UNTIL: End of academic year PLUS: 5 years THEN: Destroy",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": null
@@ -95,7 +95,7 @@
   {
     "schedule_metadata": {
       "state": "nc",
-      "agency_name": "",
+      "agency_name": null,
       "schedule_type": "general",
       "schedule_id": "04",
       "url": "https://archives.ncdcr.gov/functional-schedule"
@@ -104,20 +104,20 @@
       "series_id": "417.1",
       "series_title": "Institutional Correspondence",
       "series_description": "records concerning requests for documentation from other LEAs or educational institutions; also includes responses SEE ALSO: Correspondence (AGENCY MANAGEMENT)",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Complete",
+      "trigger_event": "CR",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "RETAIN UNTIL: Complete PLUS: 1 year THEN: Destroy",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": null
@@ -126,7 +126,7 @@
   {
     "schedule_metadata": {
       "state": "nc",
-      "agency_name": "",
+      "agency_name": null,
       "schedule_type": "general",
       "schedule_id": "04",
       "url": "https://archives.ncdcr.gov/functional-schedule"
@@ -135,20 +135,20 @@
       "series_id": "418.R",
       "series_title": "Student Associations and Organizations",
       "series_description": "includes constitutions, by-laws, newsletters, minutes, brochures, announcements, photographs, reports, scrapbooks, and other related records",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Reference value ends ± : Agency Policy: _______________",
+      "trigger_event": "AV",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "RETAIN UNTIL: Reference value ends ± THEN: Destroy Agency Policy: _______________",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": null
@@ -157,7 +157,7 @@
   {
     "schedule_metadata": {
       "state": "nc",
-      "agency_name": "",
+      "agency_name": null,
       "schedule_type": "general",
       "schedule_id": "04",
       "url": "https://archives.ncdcr.gov/functional-schedule"
@@ -166,20 +166,20 @@
       "series_id": "419.5",
       "series_title": "Student Awards and Honors",
       "series_description": "includes recommendations, approvals, references, and other related records",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Complete",
+      "trigger_event": "CR",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "RETAIN UNTIL: Complete PLUS: 5 years THEN: Destroy",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": null
@@ -188,7 +188,7 @@
   {
     "schedule_metadata": {
       "state": "nc",
-      "agency_name": "",
+      "agency_name": null,
       "schedule_type": "general",
       "schedule_id": "04",
       "url": "https://archives.ncdcr.gov/functional-schedule"
@@ -200,17 +200,17 @@
       "legal_citation": "Confidentiality 20 USC 1232g"
     },
     "retention_rules": {
-      "trigger_event": "Student graduates or separates from program",
+      "trigger_event": "CR",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "RETAIN UNTIL: Student graduates or separates from program PLUS: 2 years THEN: Destroy",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": null
@@ -219,7 +219,7 @@
   {
     "schedule_metadata": {
       "state": "nc",
-      "agency_name": "",
+      "agency_name": null,
       "schedule_type": "general",
       "schedule_id": "04",
       "url": "https://archives.ncdcr.gov/functional-schedule"
@@ -231,14 +231,14 @@
       "legal_citation": "NOTE: Abide by any confidentiality restrictions relevant to the agency"
     },
     "retention_rules": {
-      "trigger_event": "PERMANENT (archival) ∞",
+      "trigger_event": "PM",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "PERMANENT (archival) ∞",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": "Transfer to the State Records Center when reference value ends for immediate transfer to the custody of the Archives."
@@ -250,7 +250,7 @@
   {
     "schedule_metadata": {
       "state": "nc",
-      "agency_name": "",
+      "agency_name": null,
       "schedule_type": "general",
       "schedule_id": "04",
       "url": "https://archives.ncdcr.gov/functional-schedule"
@@ -259,20 +259,20 @@
       "series_id": "421.P",
       "series_title": "Coursework",
       "series_description": "materials produced for the training of law enforcement officers SEE ALSO: Training Certifications (MONITORING AND COMPLIANCE)",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Permanent",
+      "trigger_event": "PM",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "PERMANENT",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": null
@@ -281,7 +281,7 @@
   {
     "schedule_metadata": {
       "state": "nc",
-      "agency_name": "",
+      "agency_name": null,
       "schedule_type": "general",
       "schedule_id": "04",
       "url": "https://archives.ncdcr.gov/functional-schedule"
@@ -290,20 +290,20 @@
       "series_id": "421.S",
       "series_title": "Coursework",
       "series_description": "records concerning courses offered to non-agency personnel that are necessary for professional or recreational credentialing and re-certification; includes instructional materials, assessments, and other related records SEE ALSO: Training Certifications (MONITORING AND COMPLIANCE)",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Superseded/Obsolete",
+      "trigger_event": "US",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "RETAIN UNTIL: Superseded/Obsolete THEN: Destroy",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": null
@@ -312,7 +312,7 @@
   {
     "schedule_metadata": {
       "state": "nc",
-      "agency_name": "",
+      "agency_name": null,
       "schedule_type": "general",
       "schedule_id": "04",
       "url": "https://archives.ncdcr.gov/functional-schedule"
@@ -324,14 +324,14 @@
       "legal_citation": "Confidentiality G.S. § 132-1.10 NOTE: Abide by any additional confidentiality restrictions relevant to the agency"
     },
     "retention_rules": {
-      "trigger_event": "Complete : ΩTHEN",
+      "trigger_event": "CR",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "RETAIN UNTIL: Complete PLUS: 5 years ΩTHEN: Destroy",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": "Transfer to the State Records Center after examination results are completed. Records will be held for agency 5 additional years and then destroyed."
@@ -343,7 +343,7 @@
   {
     "schedule_metadata": {
       "state": "nc",
-      "agency_name": "",
+      "agency_name": null,
       "schedule_type": "general",
       "schedule_id": "04",
       "url": "https://archives.ncdcr.gov/functional-schedule"
@@ -352,20 +352,20 @@
       "series_id": "431.S",
       "series_title": "Assessments",
       "series_description": "assessments developed and administered by classroom teachers",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Superseded/Obsolete",
+      "trigger_event": "US",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "RETAIN UNTIL: Superseded/Obsolete THEN: Destroy",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": null
@@ -374,7 +374,7 @@
   {
     "schedule_metadata": {
       "state": "nc",
-      "agency_name": "",
+      "agency_name": null,
       "schedule_type": "general",
       "schedule_id": "04",
       "url": "https://archives.ncdcr.gov/functional-schedule"
@@ -386,17 +386,17 @@
       "legal_citation": "Confidentiality G.S. § 115C-174.13(a)"
     },
     "retention_rules": {
-      "trigger_event": "Permanent",
+      "trigger_event": "PM",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "PERMANENT",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": null
@@ -405,7 +405,7 @@
   {
     "schedule_metadata": {
       "state": "nc",
-      "agency_name": "",
+      "agency_name": null,
       "schedule_type": "general",
       "schedule_id": "04",
       "url": "https://archives.ncdcr.gov/functional-schedule"
@@ -414,20 +414,20 @@
       "series_id": "432.S",
       "series_title": "Course Development",
       "series_description": "includes proposals, outlines, syllabi, and pacing guides",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Superseded/Obsolete",
+      "trigger_event": "US",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "RETAIN UNTIL: Superseded/Obsolete THEN: Destroy",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": null
@@ -436,7 +436,7 @@
   {
     "schedule_metadata": {
       "state": "nc",
-      "agency_name": "",
+      "agency_name": null,
       "schedule_type": "general",
       "schedule_id": "04",
       "url": "https://archives.ncdcr.gov/functional-schedule"
@@ -445,20 +445,20 @@
       "series_id": "433.P",
       "series_title": "Curriculum Development",
       "series_description": "Standard Courses of Study developed by the Department of Public Instruction to define the scope and sequence of courses",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Permanent",
+      "trigger_event": "PM",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "PERMANENT",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": null
@@ -467,7 +467,7 @@
   {
     "schedule_metadata": {
       "state": "nc",
-      "agency_name": "",
+      "agency_name": null,
       "schedule_type": "general",
       "schedule_id": "04",
       "url": "https://archives.ncdcr.gov/functional-schedule"
@@ -476,20 +476,20 @@
       "series_id": "434.S",
       "series_title": "Lesson Plans",
       "series_description": "lesson plans developed by individual teachers or teams",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Superseded/Obsolete",
+      "trigger_event": "US",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "RETAIN UNTIL: Superseded/Obsolete THEN: Destroy",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": null
@@ -498,7 +498,7 @@
   {
     "schedule_metadata": {
       "state": "nc",
-      "agency_name": "",
+      "agency_name": null,
       "schedule_type": "general",
       "schedule_id": "04",
       "url": "https://archives.ncdcr.gov/functional-schedule"
@@ -507,20 +507,20 @@
       "series_id": "441.P",
       "series_title": "Attendance Lists",
       "series_description": "lists of students attending each session",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Permanent",
+      "trigger_event": "PM",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "PERMANENT",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": null
@@ -529,7 +529,7 @@
   {
     "schedule_metadata": {
       "state": "nc",
-      "agency_name": "",
+      "agency_name": null,
       "schedule_type": "general",
       "schedule_id": "04",
       "url": "https://archives.ncdcr.gov/functional-schedule"
@@ -538,20 +538,20 @@
       "series_id": "442.S",
       "series_title": "Classroom Administrative Records",
       "series_description": "includes proposals, outlines, syllabi, pacing guides, lesson plans, activities, and student work",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Superseded/Obsolete",
+      "trigger_event": "US",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "RETAIN UNTIL: Superseded/Obsolete THEN: Destroy",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": null
@@ -560,7 +560,7 @@
   {
     "schedule_metadata": {
       "state": "nc",
-      "agency_name": "",
+      "agency_name": null,
       "schedule_type": "general",
       "schedule_id": "04",
       "url": "https://archives.ncdcr.gov/functional-schedule"
@@ -569,20 +569,20 @@
       "series_id": "443.2",
       "series_title": "Nominations",
       "series_description": "includes basic student information form and essays, personal readiness form, recommendation form, student eligibility form, and nomination form",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Complete",
+      "trigger_event": "CR",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "RETAIN UNTIL: Complete PLUS: 2 years THEN: Destroy",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": null
@@ -591,7 +591,7 @@
   {
     "schedule_metadata": {
       "state": "nc",
-      "agency_name": "",
+      "agency_name": null,
       "schedule_type": "general",
       "schedule_id": "04",
       "url": "https://archives.ncdcr.gov/functional-schedule"
@@ -600,20 +600,20 @@
       "series_id": "444.3",
       "series_title": "On-Site Administrative Records",
       "series_description": "records concerning the day-to-day administration of each campus; includes student activity and recreation records, correspondence, and other related records",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Complete",
+      "trigger_event": "CR",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "RETAIN UNTIL: Complete PLUS: 3 years THEN: Destroy",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": null
@@ -622,7 +622,7 @@
   {
     "schedule_metadata": {
       "state": "nc",
-      "agency_name": "",
+      "agency_name": null,
       "schedule_type": "general",
       "schedule_id": "04",
       "url": "https://archives.ncdcr.gov/functional-schedule"
@@ -631,20 +631,20 @@
       "series_id": "445.5",
       "series_title": "Student Records",
       "series_description": "includes special needs forms, publicity releases, permission forms, personal information, health forms, disciplinary records, and other related records",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Complete",
+      "trigger_event": "CR",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "RETAIN UNTIL: Complete PLUS: 5 years THEN: Destroy",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": null
@@ -653,7 +653,7 @@
   {
     "schedule_metadata": {
       "state": "nc",
-      "agency_name": "",
+      "agency_name": null,
       "schedule_type": "general",
       "schedule_id": "04",
       "url": "https://archives.ncdcr.gov/functional-schedule"
@@ -665,17 +665,17 @@
       "legal_citation": "Confidentiality 20 USC 1232g"
     },
     "retention_rules": {
-      "trigger_event": "Student graduates or withdraws",
+      "trigger_event": "CR",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "RETAIN UNTIL: Student graduates or withdraws PLUS: 2 years THEN: Destroy",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": null
@@ -684,7 +684,7 @@
   {
     "schedule_metadata": {
       "state": "nc",
-      "agency_name": "",
+      "agency_name": null,
       "schedule_type": "general",
       "schedule_id": "04",
       "url": "https://archives.ncdcr.gov/functional-schedule"
@@ -696,17 +696,17 @@
       "legal_citation": "Confidentiality 20 USC 1232g"
     },
     "retention_rules": {
-      "trigger_event": "End of academic year",
+      "trigger_event": "CR",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "RETAIN UNTIL: End of academic year PLUS: 1 year THEN: Destroy",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": null
@@ -715,7 +715,7 @@
   {
     "schedule_metadata": {
       "state": "nc",
-      "agency_name": "",
+      "agency_name": null,
       "schedule_type": "general",
       "schedule_id": "04",
       "url": "https://archives.ncdcr.gov/functional-schedule"
@@ -727,14 +727,14 @@
       "legal_citation": "Confidentiality/ Retention G.S. § 115C-402 Goble v. Bounds (13 N.C. App. 579)"
     },
     "retention_rules": {
-      "trigger_event": "PERMANENT ©",
+      "trigger_event": "PM",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "PERMANENT ©",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": "Transfer records to the State Records Center when juvenile turns 18 years old, except for violent offenders whose commitments have been extended to 19 or 21 years old, to be microfilmed for permanent security storage."
@@ -746,7 +746,7 @@
   {
     "schedule_metadata": {
       "state": "nc",
-      "agency_name": "",
+      "agency_name": null,
       "schedule_type": "general",
       "schedule_id": "04",
       "url": "https://archives.ncdcr.gov/functional-schedule"
@@ -755,20 +755,20 @@
       "series_id": "453.2",
       "series_title": "Cumulative Record",
       "series_description": "family information, health and immunization records, accountability worksheets, standardized test dates and results, grade sheets, and other related records",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Student graduates or withdraws",
+      "trigger_event": "CR",
       "duration_years": 2,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "RETAIN UNTIL: Student graduates or withdraws PLUS: 2 years THEN: Destroy",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": null
@@ -777,7 +777,7 @@
   {
     "schedule_metadata": {
       "state": "nc",
-      "agency_name": "",
+      "agency_name": null,
       "schedule_type": "general",
       "schedule_id": "04",
       "url": "https://archives.ncdcr.gov/functional-schedule"
@@ -786,20 +786,20 @@
       "series_id": "454.T",
       "series_title": "Driver Education Program",
       "series_description": "driver education completion certificate",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "when issued Cumulative Record",
+      "trigger_event": "AV",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "TRANSFER to when issued Cumulative Record",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": null
@@ -808,7 +808,7 @@
   {
     "schedule_metadata": {
       "state": "nc",
-      "agency_name": "",
+      "agency_name": null,
       "schedule_type": "general",
       "schedule_id": "04",
       "url": "https://archives.ncdcr.gov/functional-schedule"
@@ -820,17 +820,17 @@
       "legal_citation": "Confidentiality G.S. § 115C-174.13(b)"
     },
     "retention_rules": {
-      "trigger_event": "End of academic year",
+      "trigger_event": "CR",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "RETAIN UNTIL: End of academic year PLUS: 1 year THEN: Destroy",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": null
@@ -839,7 +839,7 @@
   {
     "schedule_metadata": {
       "state": "nc",
-      "agency_name": "",
+      "agency_name": null,
       "schedule_type": "general",
       "schedule_id": "04",
       "url": "https://archives.ncdcr.gov/functional-schedule"
@@ -848,17 +848,17 @@
       "series_id": "456.A",
       "series_title": "Graduation Lists",
       "series_description": "annual list of high school graduates compiled by the Department of Public Instruction",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "PERMANENT (archival) ∞",
+      "trigger_event": "PM",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "PERMANENT (archival) ∞",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": "Transfer records annually to the State Records Center upon certification by the State Board of Education for immediate transfer to the custody of the Archives."
@@ -870,7 +870,7 @@
   {
     "schedule_metadata": {
       "state": "nc",
-      "agency_name": "",
+      "agency_name": null,
       "schedule_type": "general",
       "schedule_id": "04",
       "url": "https://archives.ncdcr.gov/functional-schedule"
@@ -882,17 +882,17 @@
       "legal_citation": "Confidentiality 20 USC 1232g"
     },
     "retention_rules": {
-      "trigger_event": "End of academic year",
+      "trigger_event": "CR",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "RETAIN UNTIL: End of academic year PLUS: 1 year THEN: Destroy",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": null
@@ -901,7 +901,7 @@
   {
     "schedule_metadata": {
       "state": "nc",
-      "agency_name": "",
+      "agency_name": null,
       "schedule_type": "general",
       "schedule_id": "04",
       "url": "https://archives.ncdcr.gov/functional-schedule"
@@ -913,17 +913,17 @@
       "legal_citation": "Confidentiality G.S. § 115C-402 Goble v. Bounds (13 N.C. App 579)"
     },
     "retention_rules": {
-      "trigger_event": "Student separates from program : : * NOTE: parent, guardian, surrogate parent, or eligible student must be notified prior destruction of personally identifiable information so copies of records can be provided if desired. Information must be destroyed at request of parents if no longer needed provide educational services child (34 CFR 300.573)",
+      "trigger_event": "CR",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "RETAIN UNTIL: Student separates from program PLUS: 5 years THEN: Destroy* NOTE: The parent, guardian, surrogate parent, or eligible student must be notified prior to destruction of personally identifiable information so copies of records can be provided if desired. Information must be destroyed at the request of parents if no longer needed to provide educational services to the child (34 CFR 300.573)",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": null
@@ -932,7 +932,7 @@
   {
     "schedule_metadata": {
       "state": "nc",
-      "agency_name": "",
+      "agency_name": null,
       "schedule_type": "general",
       "schedule_id": "04",
       "url": "https://archives.ncdcr.gov/functional-schedule"
@@ -941,20 +941,20 @@
       "series_id": "4510.1",
       "series_title": "Transcript Requests",
       "series_description": "requests by students for transcripts",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Complete",
+      "trigger_event": "CR",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "RETAIN UNTIL: Complete PLUS: 1 year THEN: Destroy",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": null
@@ -963,7 +963,7 @@
   {
     "schedule_metadata": {
       "state": "nc",
-      "agency_name": "",
+      "agency_name": null,
       "schedule_type": "general",
       "schedule_id": "04",
       "url": "https://archives.ncdcr.gov/functional-schedule"
@@ -975,17 +975,17 @@
       "legal_citation": "Confidentiality Goble v. Bounds (13 N.C. App 579)"
     },
     "retention_rules": {
-      "trigger_event": "Release : individual",
+      "trigger_event": "AV",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "RETAIN UNTIL: Release THEN: Transfer to individual",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
-      "comments": ""
+      "comments": null
     },
     "state_specific_attributes": {
       "rsin": null
@@ -1003,17 +1003,17 @@
       "series_id": "48729",
       "series_title": "Comprehensive Examination File",
       "series_description": "",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "SEE FUNCTIONAL SCHEDULE",
+      "trigger_event": "AV",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "SEE FUNCTIONAL SCHEDULE",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": "Legacy Item Number mapped to Functional Schedule chapter 04."
@@ -1034,17 +1034,17 @@
       "series_id": "48731",
       "series_title": "Comprehensive Examination File",
       "series_description": "",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "SEE FUNCTIONAL SCHEDULE",
+      "trigger_event": "AV",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "SEE FUNCTIONAL SCHEDULE",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": "Legacy Item Number mapped to Functional Schedule chapter 04."
@@ -1065,17 +1065,17 @@
       "series_id": "48737",
       "series_title": "Comprehensive Examination File",
       "series_description": "",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "SEE FUNCTIONAL SCHEDULE",
+      "trigger_event": "AV",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "SEE FUNCTIONAL SCHEDULE",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": "Legacy Item Number mapped to Functional Schedule chapter 04."
@@ -1096,17 +1096,17 @@
       "series_id": "50806",
       "series_title": "Comprehensive Examination File",
       "series_description": "",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "SEE FUNCTIONAL SCHEDULE",
+      "trigger_event": "AV",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "SEE FUNCTIONAL SCHEDULE",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": "Legacy Item Number mapped to Functional Schedule chapter 04."
@@ -1127,17 +1127,17 @@
       "series_id": "48733",
       "series_title": "Comprehensive Examination File",
       "series_description": "",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "SEE FUNCTIONAL SCHEDULE",
+      "trigger_event": "AV",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "SEE FUNCTIONAL SCHEDULE",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": "Legacy Item Number mapped to Functional Schedule chapter 04."
@@ -1158,17 +1158,17 @@
       "series_id": "48735",
       "series_title": "Comprehensive Examination File",
       "series_description": "",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "SEE FUNCTIONAL SCHEDULE",
+      "trigger_event": "AV",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "SEE FUNCTIONAL SCHEDULE",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": "Legacy Item Number mapped to Functional Schedule chapter 04."
@@ -1189,17 +1189,17 @@
       "series_id": "48639",
       "series_title": "Comprehensive Examination File",
       "series_description": "",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "SEE FUNCTIONAL SCHEDULE",
+      "trigger_event": "AV",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "SEE FUNCTIONAL SCHEDULE",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": "Legacy Item Number mapped to Functional Schedule chapter 04."
@@ -1220,17 +1220,17 @@
       "series_id": "3341",
       "series_title": "Practical Examinations File",
       "series_description": "",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "SEE FUNCTIONAL SCHEDULE",
+      "trigger_event": "AV",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "SEE FUNCTIONAL SCHEDULE",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": "Legacy Item Number mapped to Functional Schedule chapter 04."
@@ -1251,17 +1251,17 @@
       "series_id": "48815",
       "series_title": "Comprehensive Examination File",
       "series_description": "",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "SEE FUNCTIONAL SCHEDULE",
+      "trigger_event": "AV",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "SEE FUNCTIONAL SCHEDULE",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": "Legacy Item Number mapped to Functional Schedule chapter 04."
@@ -1282,17 +1282,17 @@
       "series_id": "17032",
       "series_title": "Examinations Security File",
       "series_description": "",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "SEE FUNCTIONAL SCHEDULE",
+      "trigger_event": "AV",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "SEE FUNCTIONAL SCHEDULE",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": "Legacy Item Number mapped to Functional Schedule chapter 04."
@@ -1313,17 +1313,17 @@
       "series_id": "20151",
       "series_title": "Examinations File",
       "series_description": "",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "SEE FUNCTIONAL SCHEDULE",
+      "trigger_event": "AV",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "SEE FUNCTIONAL SCHEDULE",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": "Legacy Item Number mapped to Functional Schedule chapter 04."
@@ -1344,17 +1344,17 @@
       "series_id": "48105",
       "series_title": "Examination Questions File",
       "series_description": "",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "SEE FUNCTIONAL SCHEDULE",
+      "trigger_event": "AV",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "SEE FUNCTIONAL SCHEDULE",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": "Legacy Item Number mapped to Functional Schedule chapter 04."
@@ -1375,17 +1375,17 @@
       "series_id": "47996",
       "series_title": "Paralegal Certification Examinations File",
       "series_description": "",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "SEE FUNCTIONAL SCHEDULE",
+      "trigger_event": "AV",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "SEE FUNCTIONAL SCHEDULE",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": "Legacy Item Number mapped to Functional Schedule chapter 04."
@@ -1406,17 +1406,17 @@
       "series_id": "48003",
       "series_title": "Specialization Certification Examinations File",
       "series_description": "",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "SEE FUNCTIONAL SCHEDULE",
+      "trigger_event": "AV",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "SEE FUNCTIONAL SCHEDULE",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": "Legacy Item Number mapped to Functional Schedule chapter 04."
@@ -1437,17 +1437,17 @@
       "series_id": "19730",
       "series_title": "Examination File",
       "series_description": "",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "SEE FUNCTIONAL SCHEDULE",
+      "trigger_event": "AV",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "SEE FUNCTIONAL SCHEDULE",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": "Legacy Item Number mapped to Functional Schedule chapter 04."
@@ -1468,17 +1468,17 @@
       "series_id": "3322",
       "series_title": "Failed Applications File",
       "series_description": "",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "SEE FUNCTIONAL SCHEDULE",
+      "trigger_event": "AV",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "SEE FUNCTIONAL SCHEDULE",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": "Legacy Item Number mapped to Functional Schedule chapter 04."
@@ -1499,17 +1499,17 @@
       "series_id": "3326",
       "series_title": "Failed Examinations File",
       "series_description": "",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "SEE FUNCTIONAL SCHEDULE",
+      "trigger_event": "AV",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "SEE FUNCTIONAL SCHEDULE",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": "Legacy Item Number mapped to Functional Schedule chapter 04."
@@ -1530,17 +1530,17 @@
       "series_id": "3325",
       "series_title": "Passed Examination File",
       "series_description": "",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "SEE FUNCTIONAL SCHEDULE",
+      "trigger_event": "AV",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "SEE FUNCTIONAL SCHEDULE",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": "Legacy Item Number mapped to Functional Schedule chapter 04."
@@ -1561,17 +1561,17 @@
       "series_id": "3323",
       "series_title": "Withdrawn Applications File",
       "series_description": "",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "SEE FUNCTIONAL SCHEDULE",
+      "trigger_event": "AV",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "SEE FUNCTIONAL SCHEDULE",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": "Legacy Item Number mapped to Functional Schedule chapter 04."
@@ -1592,17 +1592,17 @@
       "series_id": "2247",
       "series_title": "Division of Youth Development Student Education File",
       "series_description": "",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "SEE FUNCTIONAL SCHEDULE",
+      "trigger_event": "AV",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "SEE FUNCTIONAL SCHEDULE",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": "Legacy Item Number mapped to Functional Schedule chapter 04."
@@ -1623,17 +1623,17 @@
       "series_id": "980",
       "series_title": "N.C. High School Graduate Reports File",
       "series_description": "",
-      "legal_citation": ""
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "SEE FUNCTIONAL SCHEDULE",
+      "trigger_event": "AV",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "",
+      "disposition": "SEE FUNCTIONAL SCHEDULE",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-30",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-02-24",
       "next_update_due": null,
       "comments": "Legacy Item Number mapped to Functional Schedule chapter 04."

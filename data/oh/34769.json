@@ -14,18 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Electronic: Data is entered into Department computer, retained , and ; Paper: Paper maintained in Pupil Transportation section files 2 years",
+      "trigger_event": "CR",
       "duration_years": 10,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "disposition": "Electronic: Data is entered into the Department computer, retained for 10 years, and then erased ; Paper: Paper maintained in Pupil Transportation section files for 2 years., then sent to storage for 8 years., then destroyed, Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-<<<<<<< HEAD
-      "last_checked": "2026-03-30",
-=======
-      "last_checked": "2026-03-31",
->>>>>>> dev
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2021-09-03",
       "next_update_due": null,
       "comments": null

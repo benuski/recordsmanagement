@@ -14,18 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Paper: Hard copy be retained in Ombuds office, and ; Electronic: Electronic records are be retained in Ombuds email repository, and",
+      "trigger_event": "CR",
       "duration_years": 4,
       "duration_months": null,
-      "disposition_method": "Paper: Shred ; Electronic: Delete",
+      "disposition": "Paper: Hard copy to be retained 4 years in the Ombuds office, and then destroy. ; Electronic: Electronic records are to be retained 4 years in the Ombuds email repository, and then destroy., Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-<<<<<<< HEAD
-      "last_checked": "2026-03-30",
-=======
-      "last_checked": "2026-03-31",
->>>>>>> dev
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2011-10-31",
       "next_update_due": null,
       "comments": null

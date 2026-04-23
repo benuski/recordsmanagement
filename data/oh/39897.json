@@ -14,18 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Electronic: If these are only records showing pharmacist responsible dispensing drug, maintain in a readily retrievable manner ; Paper: If these are only records showing pharmacist responsible dispensing drug, maintain in a readily retrievable manner",
+      "trigger_event": "CR",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "disposition": "Electronic: If these are the only records showing the pharmacist responsible for dispensing the drug, maintain for 3 years in a readily retrievable manner, then destroy. NOTE: By law, the facsimile shall be maintained for 3 years in a readily retrievable manner, showing positive identification of the person authorized to transmit the order and the origin of the order as part of the drug order record ; Paper: If these are the only records showing the pharmacist responsible for dispensing the drug, maintain for 3 years in a readily retrievable manner, then destroy. NOTE: By law, the facsimile shall be maintained for 3 years in a readily retrievable manner, showing positive identification of the person authorized to transmit the order and the origin of the order as part of the drug order record, Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-<<<<<<< HEAD
-      "last_checked": "2026-03-30",
-=======
-      "last_checked": "2026-03-31",
->>>>>>> dev
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-11-28",
       "next_update_due": null,
       "comments": null

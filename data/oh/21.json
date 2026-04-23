@@ -14,18 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Paper: 1 renewal period ; Microform: microfilm permanently, original in offsite storage and copy in office",
+      "trigger_event": "PM",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Paper: Wastepaper ; Microform: Permanent",
+      "disposition": "Paper: Retain for 1 renewal period then microfilm. Destroy hard copy after microfilm has been checked for quality and completeness ; Microform: Retain microfilm permanently, original in offsite storage and copy in office, Paper: Wastepaper ; Microform: Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-<<<<<<< HEAD
-      "last_checked": "2026-03-30",
-=======
-      "last_checked": "2026-03-31",
->>>>>>> dev
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "1999-07-15",
       "next_update_due": null,
       "comments": null

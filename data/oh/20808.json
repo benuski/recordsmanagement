@@ -14,18 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Paper: paper superseded by revised plan ; Electronic: permanently",
+      "trigger_event": "PM",
       "duration_years": 999,
       "duration_months": null,
-      "disposition_method": "Paper: Trash ; Electronic: Permanent",
+      "disposition": "Paper: Retain paper until superseded by revised plan, then scan to electronic form for permanent retention. Then review by State Archives prior to disposal. ; Electronic: Retain permanently, Paper: Trash ; Electronic: Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-<<<<<<< HEAD
-      "last_checked": "2026-03-30",
-=======
-      "last_checked": "2026-03-31",
->>>>>>> dev
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2004-09-20",
       "next_update_due": null,
       "comments": null

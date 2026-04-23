@@ -14,18 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Electronic: Maintain file two years, file in conjuction with destruction of paper files ; Paper: Maintain in office one year",
+      "trigger_event": "AV",
       "duration_years": null,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase ; Paper: Shred",
+      "disposition": "Electronic: Maintain file for two years, destroy file in conjuction with destruction of paper files ; Paper: Maintain in office for one year, then transfer to the State Records Center for storage. Store in the State Records Center for one year, then destroy, Electronic: Erase ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-<<<<<<< HEAD
-      "last_checked": "2026-03-30",
-=======
-      "last_checked": "2026-03-31",
->>>>>>> dev
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "1992-02-11",
       "next_update_due": null,
       "comments": null

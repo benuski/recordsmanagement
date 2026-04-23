@@ -14,14 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Paper: Case file is maintained case has been closed. Case files are destroyed required time has lapsed. ; Electronic: Case file is maintained case has been closed. Case files are destroyed required time has lapsed",
+      "trigger_event": "AC",
       "duration_years": 5,
       "duration_months": null,
-      "disposition_method": "Paper: Recycle ; Electronic: Erase",
+      "disposition": "Paper: Case file is maintained for 5 years after the case has been closed. Case files are destroyed after required time has lapsed. ; Electronic: Case file is maintained for 5 years after the case has been closed. Case files are destroyed after required time has lapsed., Paper: Recycle ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-03-31",
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2018-02-08",
       "next_update_due": null,
       "comments": null

@@ -14,18 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Electronic: superseded, obsolete or replaced ; Paper: in office",
+      "trigger_event": "US",
       "duration_years": 3,
       "duration_months": null,
-      "disposition_method": "Electronic: Erase ; Paper: Shred",
+      "disposition": "Electronic: Retain until superseded, obsolete or replaced, then destroy. Review by State Archives prior to disposition. ; Paper: Retain in office 3 years, then destroy. Review by State Archives prior to disposition., Electronic: Erase ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-<<<<<<< HEAD
-      "last_checked": "2026-03-30",
-=======
-      "last_checked": "2026-03-31",
->>>>>>> dev
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2025-06-02",
       "next_update_due": null,
       "comments": null

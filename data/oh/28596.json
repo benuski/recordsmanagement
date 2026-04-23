@@ -14,18 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "Electronic: . External electronic medium, such as CDs, received by AGO can be disposed once records are saved electronically AGO network. ; Paper: , unless scanned and saved electronically",
+      "trigger_event": "CR",
       "duration_years": 1,
       "duration_months": null,
-      "disposition_method": "Electronic: Delete ; Paper: Shred",
+      "disposition": "Electronic: Retain 1 year. External electronic medium, such as CDs, received by AGO can be disposed once records are saved electronically to AGO network. ; Paper: Retain 1 year, unless scanned and saved electronically., Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-<<<<<<< HEAD
-      "last_checked": "2026-03-30",
-=======
-      "last_checked": "2026-03-31",
->>>>>>> dev
+      "last_checked": "2026-04-03",
       "last_updated_by_state": "2021-01-05",
       "next_update_due": null,
       "comments": null
