@@ -11,26 +11,26 @@ from datetime import datetime
 def setup_logging(state_code: str):
     log_dir = Path("logs")
     log_dir.mkdir(exist_ok=True)
-    
+
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     log_file = log_dir / f"{state_code}_{timestamp}.log"
-    
+
     # Configure root logger to capture all module logs
     root_logger = logging.getLogger()
     root_logger.setLevel(logging.INFO)
-    
+
     formatter = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
-    
+
     # Terminal Handler
     console_handler = logging.StreamHandler(sys.stdout)
     console_handler.setFormatter(formatter)
     root_logger.addHandler(console_handler)
-    
+
     # File Handler
     file_handler = logging.FileHandler(log_file, encoding='utf-8')
     file_handler.setFormatter(formatter)
     root_logger.addHandler(file_handler)
-    
+
     return log_file
 
 logger = logging.getLogger(__name__)
@@ -75,8 +75,8 @@ if __name__ == "__main__":
         args.output_directory = Path("data") / args.state_code
 
     args.output_directory.mkdir(parents=True, exist_ok=True)
-    args.input_directory.mkdir(parents=True, exist_ok=True) 
-    
+    args.input_directory.mkdir(parents=True, exist_ok=True)
+
     output_schema = load_output_schema(args.schema_path)
 
     from processing.registry import STATE_REGISTRY
@@ -87,7 +87,7 @@ if __name__ == "__main__":
         sys.exit(1)
 
     state_entry = STATE_REGISTRY[args.state_code]
-    
+
     if state_entry['runner']:
         # State has a custom runner (e.g., OH, TX, NC)
         state_entry['runner'](args, output_schema)
