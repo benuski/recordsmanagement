@@ -14,14 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
+      "trigger_event": "Electronic: . ; Paper: . If scanned and saved electronically, dispose of paper immediately",
       "duration_years": 4,
       "duration_months": null,
-      "disposition": "Electronic: Retain 4 years. ; Paper: Retain 4 years. If scanned and saved electronically, dispose of paper immediately., Electronic: Delete ; Paper: Shred",
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-31",
       "last_updated_by_state": "2025-04-23",
       "next_update_due": null,
       "comments": null

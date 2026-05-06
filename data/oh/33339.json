@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
+      "trigger_event": "Paper: or scanned. ; Electronic",
       "duration_years": 5,
       "duration_months": null,
-      "disposition": "Paper: 5 years or until scanned. ; Electronic: 5 years., Paper: Recycle ; Electronic: Delete",
+      "disposition_method": "Paper: Recycle ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2016-01-13",
       "next_update_due": null,
       "comments": null

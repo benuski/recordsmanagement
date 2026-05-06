@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "FE",
+      "trigger_event": "Electronic: complete report in digital format whichever of following periods is longer: (a) one calendar year; or (b) annual fiscal year audit of Treasurer is performed by Auditor of State, and corresponding audit report is published",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Electronic: Retain complete report in digital format for whichever of the following periods is longer: (a) one calendar year; or (b) until annual fiscal year audit of Treasurer is performed by Auditor of State, and corresponding audit report is published., Electronic: Delete",
+      "disposition_method": "Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2012-10-31",
       "next_update_due": null,
       "comments": null

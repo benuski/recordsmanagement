@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Paper: Surveys from 2008 and prior be held in office; 15 years at Records Center. Surveys from 2009 and later be held 30 days uploading UDS and image is confirmed ; Electronic: Surveys from 2009 and later be held 9 years",
       "duration_years": 2,
       "duration_months": null,
-      "disposition": "Paper: Surveys from 2008 and prior to be held for 2 years in office; 15 years at Records Center. Surveys from 2009 and later to be held for 30 days after uploading to UDS and image is confirmed, then shredded ; Electronic: Surveys from 2009 and later to be held for 9 years., Paper: Shred ; Electronic: Delete",
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2017-04-27",
       "next_update_due": null,
       "comments": null

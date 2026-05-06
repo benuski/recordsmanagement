@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Paper: case is closed ; Electronic: case is closed",
       "duration_years": 4,
       "duration_months": null,
-      "disposition": "Paper: Retain 4 years after case is closed then review by State Archives for possible retention or destruction. ; Electronic: Retain 4 years after case is closed then review by State Archives for possible retention or destruction., Paper: Shred ; Electronic: Erase",
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2013-06-13",
       "next_update_due": null,
       "comments": null

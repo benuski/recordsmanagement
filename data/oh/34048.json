@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Paper: all information federal audit or project is closed, whichever comes first. ; Microform: Microfiche is retained program expires in 1990 or site inspection requirements expire, whichever is later",
       "duration_years": 3,
       "duration_months": null,
-      "disposition": "Paper: Retain all information until federal audit or 3 years after project is closed, whichever comes first. Then microfilm contracts and correspondence and destroy balance. ; Microform: Microfiche is retained until program expires in 1990 or until site inspection requirements expire, whichever is later. Then transfer to State Archives, Paper: Wastepaper ; Microform: Archives",
+      "disposition_method": "Paper: Wastepaper ; Microform: Archives",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2017-03-24",
       "next_update_due": null,
       "comments": null

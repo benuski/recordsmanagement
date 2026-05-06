@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Paper: date of separation/denial of hire",
       "duration_years": 6,
       "duration_months": null,
-      "disposition": "Paper: 6 years after date of separation/denial of hire, Paper: Shred",
+      "disposition_method": "Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2018-06-25",
       "next_update_due": null,
       "comments": null

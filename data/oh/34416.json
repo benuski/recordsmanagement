@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
+      "trigger_event": "Electronic: in Universal Document System . ; Paper: Scan and verify images",
       "duration_years": 5,
       "duration_months": null,
-      "disposition": "Electronic: Retain in the Universal Document System for 5 years. ; Paper: Scan and verify images, then destroy, Electronic: Delete ; Paper: Shred",
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2017-06-22",
       "next_update_due": null,
       "comments": null

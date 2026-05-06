@@ -137,10 +137,9 @@ def process_and_evaluate(pdf_path: Path, output_dir: Path, agency_mapping: dict,
     except Exception as e:
         logger.error(f"Failed to process {pdf_path.name}: {e}", exc_info=True)
 
-def run_state_pipeline(args, state_config: StateScheduleConfig, output_schema: dict, glob_pattern: str = "*.pdf", worker_func=None, agency_mapping=None):
+def run_state_pipeline(args, state_config: StateScheduleConfig, output_schema: dict, glob_pattern: str = "*.pdf", worker_func=None):
     """Standardized entry point for state processing."""
-    if agency_mapping is None:
-        agency_mapping = load_agency_mapping(args.state_code)
+    agency_mapping = load_agency_mapping(args.state_code)
     
     files = list(args.input_directory.glob(glob_pattern))
     if not files:

@@ -14,14 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
+      "trigger_event": "Electronic: one year",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Electronic: Retain for one year, then will automatically purge from the on-line HP-7B application system., Electronic: Delete",
+      "disposition_method": "Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-31",
       "last_updated_by_state": "2009-02-23",
       "next_update_due": null,
       "comments": null

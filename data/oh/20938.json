@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
-      "duration_years": 16,
+      "trigger_event": "Paper: sale of goods, five years contract expires, or warranties expire, whichever is longer",
+      "duration_years": null,
       "duration_months": null,
-      "disposition": "Paper: For sale of goods, retain five years after contract expires, or until the warranties expire, whichever is longer, then destroy. For services, retain 16 years, then destroy, Paper: Other",
+      "disposition_method": "Paper: Other",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2004-08-07",
       "next_update_due": null,
       "comments": null

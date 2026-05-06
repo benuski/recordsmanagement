@@ -14,14 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Paper: settled claim file settlement date of claim, and ; Microform: settled claim file settlement date of claim, and ; Electronic: settled claim file settlement date of claim, and",
       "duration_years": 6,
       "duration_months": null,
-      "disposition": "Paper: Retain the settled claim file for 6 years after the settlement date of the claim, and then destroy as confidential. Paper copies of the digitally imaged records should be retained for 30 days for quality control, and then disposed of as confidential. ; Microform: Retain the settled claim file for 6 years after the settlement date of the claim, and then destroy as confidential. ; Electronic: Retain the settled claim file for 6 years after the settlement date of the claim, and then destroy as confidential., Paper: Shred ; Microform: Burn ; Electronic: Delete",
-      "confidential_flag": true
+      "disposition_method": "Paper: Shred ; Microform: Burn ; Electronic: Delete",
+      "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-31",
       "last_updated_by_state": "2024-01-30",
       "next_update_due": null,
       "comments": null

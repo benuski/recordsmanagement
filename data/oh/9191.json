@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
+      "trigger_event": "Paper: copy in office files two years from December 31 of year received and",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Paper: Retain copy in office files for two years from December 31 of year received and then destroy, Paper: Wastepaper",
+      "disposition_method": "Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "1977-07-27",
       "next_update_due": null,
       "comments": null

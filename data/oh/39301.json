@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
+      "trigger_event": "Electronic: Maintain either paper or scan from presentation date ; Paper: Maintain either paper or scan from presentation date",
       "duration_years": 3,
       "duration_months": null,
-      "disposition": "Electronic: Maintain either paper or scan for 3 years from presentation date then shred/delete ; Paper: Maintain either paper or scan for 3 years from presentation date then shred/delete, Electronic: Delete ; Paper: Shred",
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2023-01-06",
       "next_update_due": null,
       "comments": null

@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "PM",
+      "trigger_event": "Paper: State Archives their retention, destruction or permanent storage",
       "duration_years": 999,
       "duration_months": null,
-      "disposition": "Paper: Transfer to State Archives for their retention, destruction or permanent storage., Paper: Archives",
+      "disposition_method": "Paper: Archives",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2005-01-05",
       "next_update_due": null,
       "comments": null

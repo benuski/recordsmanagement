@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Paper: Maintain scanned and saved electronically ; Electronic: Maintain receivership closed",
       "duration_years": 20,
       "duration_months": null,
-      "disposition": "Paper: Maintain until scanned and saved electronically, then destroy. ; Electronic: Maintain for 20 years after receivership closed., Paper: Shred ; Electronic: Delete",
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2022-08-17",
       "next_update_due": null,
       "comments": null

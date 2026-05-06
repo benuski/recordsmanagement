@@ -14,14 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
-      "duration_years": 2,
+      "trigger_event": "Paper: imaged ; Electronic: imaged",
+      "duration_years": null,
       "duration_months": null,
-      "disposition": "Paper: Retain until imaged, then shred hard copy. Retain image 2 years from closed case date, then erase. ; Electronic: Retain until imaged, then shred hard copy. Retain image 2 years from closed case date, then erase., Paper: Shred ; Electronic: Erase",
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-31",
       "last_updated_by_state": "2007-09-18",
       "next_update_due": null,
       "comments": null

@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Paper: State-wide financial statement audit and Agency/Departmental-wide audit are conducted by State Auditor, unless they are scanned and saved in electronic format. these documents are scanned and saved in an electronic format, paper copy may be destroyed. ; Electronic: State-wide financial statement audit and Agency/Departmental-wide audit are conducted by State Auditor",
       "duration_years": 2,
       "duration_months": null,
-      "disposition": "Paper: Retain 2 years after the State-wide financial statement audit and Agency/Departmental-wide audit are conducted by the State Auditor, unless they are scanned and saved in electronic format. After these documents are scanned and saved in an electronic format, the paper copy may be destroyed. ; Electronic: Retain 2 years after the State-wide financial statement audit and Agency/Departmental-wide audit are conducted by the State Auditor, then destroy., Paper: Shred ; Electronic: Delete",
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2021-01-11",
       "next_update_due": null,
       "comments": null

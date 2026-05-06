@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "FE",
+      "trigger_event": "Electronic: Current fiscal year two fiscal years",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Electronic: Current fiscal year plus two fiscal years, Electronic: Erase",
+      "disposition_method": "Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2022-06-02",
       "next_update_due": null,
       "comments": null

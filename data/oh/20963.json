@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
+      "trigger_event": "Paper: upon approval of this schedule",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Paper: Destroy upon approval of this schedule, Paper: Shred",
+      "disposition_method": "Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2004-09-20",
       "next_update_due": null,
       "comments": null

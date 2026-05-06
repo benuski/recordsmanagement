@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Paper: in office two (2) years applicant has been notified of non-funding",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Paper: Retain in office two (2) years after applicant has been notified of non-funding., Paper: Recycle",
+      "disposition_method": "Paper: Recycle",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2011-04-22",
       "next_update_due": null,
       "comments": null

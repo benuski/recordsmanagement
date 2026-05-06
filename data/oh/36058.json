@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "duration_years": 4,
+      "trigger_event": "Paper: In office area: ; Electronic: In office area",
+      "duration_years": null,
       "duration_months": 6,
-      "disposition": "Paper: In office area: 6 months then transfer to Taxation Records Center. Record Center retains record for 4 years then destroys. If scanned, retain for 6 months. ; Electronic: In office area: 6 months then transfer to Taxation Records Center. Record Center retains record for 4 years then deletes., Paper: Shred ; Electronic: Delete",
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2019-02-20",
       "next_update_due": null,
       "comments": null

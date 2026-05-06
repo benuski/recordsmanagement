@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CE",
+      "trigger_event": "Paper: in operating area while project is under construction, or current calendar year, 1 additional year while in operatin. in storage determined of no value",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Paper: Retain in operating area while project is under construction, or current calendar year, plus 1 additional year while in operatin. Retain in storage until determined of no value, then destroy., Paper: Wastepaper",
+      "disposition_method": "Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "1986-06-26",
       "next_update_due": null,
       "comments": null

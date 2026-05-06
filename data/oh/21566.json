@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "US",
+      "trigger_event": "Paper: recinded or superseded by amendment",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Paper: Retain until recinded or superseded by amendment, then follow LSC RC 2., Paper: Other",
+      "disposition_method": "Paper: Other",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2005-05-23",
       "next_update_due": null,
       "comments": null

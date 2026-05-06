@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Electronic: data relevant investment holding six years final sale, maturity, or disposition of that investment holding",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Electronic: Retain data for relevant investment holding for six years after final sale, maturity, or disposition of that investment holding., Electronic: Delete",
+      "disposition_method": "Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2022-10-26",
       "next_update_due": null,
       "comments": null

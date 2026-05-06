@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "US",
+      "trigger_event": "Paper: superseded or Commissioner leaves office",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Paper: Retain until superseded or Commissioner leaves office, then review by State Archives for possible transfer. Destroy if no historical interest to State Archives., Paper: Wastepaper",
+      "disposition_method": "Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2009-02-23",
       "next_update_due": null,
       "comments": null

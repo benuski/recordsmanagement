@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Paper: from date of receipt in case needed litigation. If no activity",
       "duration_years": 10,
       "duration_months": null,
-      "disposition": "Paper: Retain for 10 years from date of receipt in case needed for litigation. If no activity, then destroy as confidential. If activity within five years, then hold until subrogation file has closed.., Paper: Shred",
-      "confidential_flag": true
+      "disposition_method": "Paper: Shred",
+      "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2023-11-17",
       "next_update_due": null,
       "comments": null

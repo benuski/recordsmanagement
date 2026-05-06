@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "PM",
+      "trigger_event": "Electronic: microfilm or CD inoffice permanently. ; Paper: 60 days afterhardcopy is prepped,scanned, indexed (imaged)and quality control iscomplete",
       "duration_years": 999,
       "duration_months": null,
-      "disposition": "Electronic: Retain microfilm or CD inoffice permanently. ; Paper: Retain 60 days afterhardcopy is prepped,scanned, indexed (imaged)and quality control iscomplete then destroyed., Electronic: Permanent ; Paper: Shred",
+      "disposition_method": "Electronic: Permanent ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2024-01-03",
       "next_update_due": null,
       "comments": null

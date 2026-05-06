@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Paper: Maintain scanning ; Electronic: An electronic record is available via ODT Info Image System",
       "duration_years": 10,
       "duration_months": 6,
-      "disposition": "Paper: Maintain for 6 months after scanning then destroy. ; Electronic: An electronic record is available via the ODT Info Image System for 10 years., Paper: Shred ; Electronic: Erase",
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2010-03-09",
       "next_update_due": null,
       "comments": null

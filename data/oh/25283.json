@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "duration_years": 10,
+      "trigger_event": "Paper: in operating area specified monitoring is no longer required or a revised plan is approved",
+      "duration_years": null,
       "duration_months": null,
-      "disposition": "Paper: Retain in operating area until specified monitoring is no longer required or a revised plan is approved, then send to offsite storage for 10 years, then destroy., Paper: Recycle",
+      "disposition_method": "Paper: Recycle",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2007-09-04",
       "next_update_due": null,
       "comments": null

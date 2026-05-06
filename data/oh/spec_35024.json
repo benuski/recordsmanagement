@@ -14,14 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Paper: from date case was closed. Evidence may be retained longer comply with any court orders. ; Electronic: from date case was closed. Evidence may be retained longer comply with any court orders",
       "duration_years": 2,
       "duration_months": null,
-      "disposition": "Paper: 2 years from the date the case was closed. Evidence may be retained longer to comply with any court orders. ; Electronic: 2 years from the date the case was closed. Evidence may be retained longer to comply with any court orders., Paper: Shred ; Electronic: Delete",
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-31",
       "last_updated_by_state": "2025-02-05",
       "next_update_due": null,
       "comments": null

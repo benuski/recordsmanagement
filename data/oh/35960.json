@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "PM",
+      "trigger_event": "Paper: ; Microform: microfilm permanently",
       "duration_years": 999,
       "duration_months": null,
-      "disposition": "Paper: 1 year, then forms are microfilmed. Destroy paper after microfilm has been checked for quality and completeness. ; Microform: Retain microfilm permanently., Paper: Shred ; Microform: Permanent",
+      "disposition_method": "Paper: Shred ; Microform: Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2019-02-12",
       "next_update_due": null,
       "comments": null

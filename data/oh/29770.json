@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Electronic: two years completion of Public Records request ; Paper: two years completion of Public Records request",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Electronic: Retain for two years after the completion of the Public Records request ; Paper: Retain for two years after the completion of the Public Records request, Electronic: Delete ; Paper: Shred",
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2022-10-27",
       "next_update_due": null,
       "comments": null

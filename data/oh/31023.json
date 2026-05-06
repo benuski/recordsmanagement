@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Electronic: electronic documents ; Paper: 30 days hardcopy is prepped, scanned (imaged), and quality control is complete",
       "duration_years": 4,
       "duration_months": null,
-      "disposition": "Electronic: Retain electronic documents for 4 years, then destroy provided federal audit complete, the report is released, all discrepancies have been resolved and all training related costs have been paid. ; Paper: Retain 30 days after hardcopy is prepped, scanned (imaged), and quality control is complete then destroyed. shred, Electronic: Erase ; Paper: Shred",
+      "disposition_method": "Electronic: Erase ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2023-11-20",
       "next_update_due": null,
       "comments": null

@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
+      "trigger_event": "Electronic: ; Paper",
       "duration_years": 5,
       "duration_months": null,
-      "disposition": "Electronic: Retain 5 years then destroy. ; Paper: Retain 5 years then destroy., Electronic: Delete ; Paper: Wastepaper",
+      "disposition_method": "Electronic: Delete ; Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2008-08-25",
       "next_update_due": null,
       "comments": null

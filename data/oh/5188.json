@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "FE",
+      "trigger_event": "Paper: records in operating area through current fiscal year one fiscal year",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Paper: Retain records in operating area through the current fiscal year plus one fiscal year, then retire to agency record storage area until one year after the release of the State Auditor's audit report, then destroy., Paper: Shred",
+      "disposition_method": "Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "1997-11-19",
       "next_update_due": null,
       "comments": null

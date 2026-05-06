@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Paper: records at ODH Warehouse verify receipt verification, ; records audited and/or three years six months, whichever is longer",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Paper: Retain records at ODH Warehouse to verify receipt after verification, transfer to State Records Center; retain records until audited and/or three years six months, whichever is longer, then destroy by shredding, then burn/pulp., Paper: Shred",
+      "disposition_method": "Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "1989-10-20",
       "next_update_due": null,
       "comments": null

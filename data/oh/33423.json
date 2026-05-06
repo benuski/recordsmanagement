@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Paper: ninety (90) days an election",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Paper: Retain ninety (90) days after an election, then may destroy provided no pending court action or court order., Paper: Wastepaper",
+      "disposition_method": "Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2016-03-15",
       "next_update_due": null,
       "comments": null

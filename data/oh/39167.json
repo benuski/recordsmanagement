@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Paper: four years expiration or revocation. ; Electronic: four years expiration or revocation",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Paper: Retain for four years after expiration or revocation. ; Electronic: Retain for four years after expiration or revocation., Paper: Wastepaper ; Electronic: Delete",
+      "disposition_method": "Paper: Wastepaper ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2022-04-06",
       "next_update_due": null,
       "comments": null

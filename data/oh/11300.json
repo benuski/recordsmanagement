@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Paper: disposition of asset provided audited by Auditor of State, receipt of report, and reviewed by State Archives",
       "duration_years": 3,
       "duration_months": null,
-      "disposition": "Paper: Retain 3 years after disposition of asset provided audited by Auditor of State, receipt of report, and reviewed by State Archives, then destroy if no historical value., Paper: Archives",
+      "disposition_method": "Paper: Archives",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "1989-03-09",
       "next_update_due": null,
       "comments": null

@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Paper: 48 hours receiving completed application if no records identified. positive criminal records, keep only appropriate court and legal documents are obtained",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Paper: Destroy 48 hours after receiving completed application if no records identified. For positive criminal records, keep only until appropriate court and legal documents are obtained, then immediately dispose of the BCII results., Paper: Shred",
+      "disposition_method": "Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2008-05-01",
       "next_update_due": null,
       "comments": null

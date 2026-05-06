@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Paper: inactive/lapsed and",
       "duration_years": 20,
       "duration_months": null,
-      "disposition": "Paper: Retain for 20 years after inactive/lapsed and destroy, Paper: Shred",
+      "disposition_method": "Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2018-01-18",
       "next_update_due": null,
       "comments": null

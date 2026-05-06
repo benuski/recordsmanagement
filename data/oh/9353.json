@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CE",
+      "trigger_event": "Paper: in office area close of calendar year (or when new certificates are sent company)",
       "duration_years": null,
       "duration_months": 6,
-      "disposition": "Paper: Retain in office area 6 months after close of calendar year (or when new certificates are sent to company); then destroy., Paper: Wastepaper",
+      "disposition_method": "Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "1989-03-09",
       "next_update_due": null,
       "comments": null

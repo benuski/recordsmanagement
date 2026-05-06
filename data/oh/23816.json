@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Electronic: digital copy three (3) years game close date in system",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Electronic: Retain digital copy for three (3) years after game close date in the system; then retain in cold storage for four (4) years; then destroy., Electronic: Delete",
+      "disposition_method": "Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2024-10-03",
       "next_update_due": null,
       "comments": null

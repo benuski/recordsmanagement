@@ -14,14 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "expiration or completion of agreement or contract",
       "duration_years": 5,
       "duration_months": null,
-      "disposition": "Retain 5 years after expiration or completion of agreement or contract, then destroy.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-30",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -45,14 +45,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "PM",
+      "trigger_event": "When items permanently removed from Branch control, delete database entries. Disposal reporting onCertificate of Records Disposal(RM-3 form) not required",
       "duration_years": 999,
       "duration_months": null,
-      "disposition": "When items permanently removed from Branch control, delete database entries. Disposal reporting onCertificate of Records Disposal(RM-3 form) not required.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-30",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -76,14 +76,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CE",
+      "trigger_event": "end of calendar year",
       "duration_years": 3,
       "duration_months": null,
-      "disposition": "Retain 3 years after end of the calendar year, then destroy.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-30",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -107,14 +107,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
+      "trigger_event": "entire series . in Records Center",
       "duration_years": 20,
       "duration_months": null,
-      "disposition": "Transfer entire series to State Records Center. Retain in Records Center 20 years, then destroy.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-30",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -138,14 +138,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "PM",
+      "trigger_event": "permanently in agency",
       "duration_years": 999,
       "duration_months": null,
-      "disposition": "Retain permanently in agency.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-30",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -169,14 +169,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "PM",
+      "trigger_event": "records Archives, Library of Virginia permanent retention",
       "duration_years": 999,
       "duration_months": null,
-      "disposition": "Retain 20 years, then transfer records to the Archives, Library of Virginia for permanent retention.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-30",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -200,14 +200,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "last action",
       "duration_years": 3,
       "duration_months": null,
-      "disposition": "Retain 3 years after last action, then destroy.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-30",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -231,14 +231,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "return of all related film",
       "duration_years": 3,
       "duration_months": null,
-      "disposition": "Retain 3 years after return of all related film, then destroy.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-30",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -262,14 +262,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
+      "trigger_event": "Retain 6 months, then destroy.",
       "duration_years": null,
       "duration_months": 6,
-      "disposition": "Retain 6 months, then destroy.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-30",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -293,14 +293,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "job completion",
       "duration_years": 10,
       "duration_months": null,
-      "disposition": "Retain 10 years after job completion, then destroy.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-30",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -324,14 +324,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "PM",
+      "trigger_event": "permanently in agency",
       "duration_years": 999,
       "duration_months": null,
-      "disposition": "Retain permanently in agency.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-30",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -355,14 +355,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "receipt",
       "duration_years": 3,
       "duration_months": null,
-      "disposition": "Retain 3 years after receipt, then destroy.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-30",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -386,14 +386,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
+      "trigger_event": "entire series . in Records Center",
       "duration_years": 20,
       "duration_months": null,
-      "disposition": "Transfer entire series to State Records Center. Retain in Records Center 20 years, then destroy.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-30",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -417,14 +417,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "PM",
+      "trigger_event": "permanently in agency",
       "duration_years": 999,
       "duration_months": null,
-      "disposition": "Retain permanently in agency.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-30",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -448,14 +448,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "PM",
+      "trigger_event": "scan records according Library of Virginia's standards/guidelines; records in new format permanently. originals quality control inspection verifies information was successfully transferred new format. Document destruction of original records reformatting onCertificate of Records Disposal(RM-3 form)",
       "duration_years": 999,
       "duration_months": null,
-      "disposition": "After 3 years, scan records according to Library of Virginia's standards/guidelines; retain records in new format permanently. Destroy originals after quality control inspection verifies information was successfully transferred to new format. Document destruction of original records after reformatting onCertificate of Records Disposal(RM-3 form).",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-30",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -479,14 +479,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CE",
+      "trigger_event": "end of calendar year",
       "duration_years": 1,
       "duration_months": null,
-      "disposition": "Retain 1 year after the end of the calendar year, then destroy.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-30",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null

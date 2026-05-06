@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
+      "trigger_event": "Paper: eight (8) years. State Archives review records prior dispostion",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Paper: Retain for eight (8) years. State Archives to review records prior to dispostion, then may destroy., Paper: Shred",
+      "disposition_method": "Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2016-06-23",
       "next_update_due": null,
       "comments": null

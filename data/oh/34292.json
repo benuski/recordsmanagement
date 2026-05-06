@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Electronic: final disposition ; Paper: final disposition",
       "duration_years": 2,
       "duration_months": null,
-      "disposition": "Electronic: 2 Years after final disposition then review by State Archives prior to disposal. ; Paper: 2 Years after final disposition then review by State Archives prior to disposal., Electronic: Shred ; Paper: Shred",
+      "disposition_method": "Electronic: Shred ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2017-08-11",
       "next_update_due": null,
       "comments": null

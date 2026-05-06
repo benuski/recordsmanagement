@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Paper: paper copies of approved applications in operating area converted machine readable format. Upon confirmation that machine readable format has been checked quality and completeness, paper copy of approved applications. invalidated permits, denied and abandoned application paper copies one year denial, invalidation, or abandonment ; Microform: microfilm four years created ; Electronic: Maintain machine readable format four years converted machine readable format",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Paper: Retain paper copies of approved applications in operating area until converted to machine readable format. Upon confirmation that machine readable format has been checked for quality and completeness, destroy paper copy of the approved applications. Retain invalidated permits, denied and abandoned application paper copies for one year after denial, invalidation, or abandonment, then destroy paper copies. ; Microform: Retain microfilm for four years after created, then destroy. ; Electronic: Maintain machine readable format for four years after converted to machine readable format, then delete., Paper: Shred ; Microform: Shred ; Electronic: Delete",
+      "disposition_method": "Paper: Shred ; Microform: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2013-06-25",
       "next_update_due": null,
       "comments": null

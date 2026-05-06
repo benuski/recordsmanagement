@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Paper: records have been audited and report has been released",
       "duration_years": 5,
       "duration_months": null,
-      "disposition": "Paper: Retain for 5 years after the records have been audited and report has been released, then destroy records., Paper: Shred",
+      "disposition_method": "Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "1996-08-29",
       "next_update_due": null,
       "comments": null

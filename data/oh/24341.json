@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
+      "trigger_event": "Electronic: If electronically maintained, original files may be destroyed immediately upon placement onto a server or other mechanism computerized access. Maintain five years ; Paper: Maintain five years",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Electronic: If electronically maintained, original files may be destroyed immediately upon placement onto a server or other mechanism for computerized access. Maintain five years, then delete. ; Paper: Maintain five years, then destroy., Electronic: Delete ; Paper: Shred",
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2006-10-25",
       "next_update_due": null,
       "comments": null

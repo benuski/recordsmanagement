@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
+      "trigger_event": "Electronic: one year. ; Paper: one year. paper in operating area imaged and indexed. Once confirmed paper copy has been checked accuracy, quality and completeness",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Electronic: Retain one year. ; Paper: Retain one year. Retain paper in operating area until imaged and indexed. Once confirmed the paper copy has been checked for accuracy, quality and completeness, then destroy., Electronic: Delete ; Paper: Shred",
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2021-01-20",
       "next_update_due": null,
       "comments": null

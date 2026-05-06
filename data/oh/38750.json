@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "US",
+      "trigger_event": "Paper: copies when obsolete, replaced or superseded. ; Electronic: copies when obsolete, replaced or superseded",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Paper: Destroy copies when obsolete, replaced or superseded. ; Electronic: Destroy copies when obsolete, replaced or superseded., Paper: Wastepaper ; Electronic: Delete",
+      "disposition_method": "Paper: Wastepaper ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2020-03-05",
       "next_update_due": null,
       "comments": null

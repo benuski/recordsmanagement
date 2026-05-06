@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Electronic: scanned material in UDS (or any database that replaces it) employee’s date of separation from BWC, and",
       "duration_years": 7,
       "duration_months": null,
-      "disposition": "Electronic: Retain scanned material in UDS (or any database that replaces it) for 7 years after the employee’s date of separation from BWC, and then destroy., Electronic: Delete",
+      "disposition_method": "Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2023-07-20",
       "next_update_due": null,
       "comments": null

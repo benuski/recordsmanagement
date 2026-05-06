@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "FE",
+      "trigger_event": "Electronic: in office 1 fiscal year ; Paper: in office 1 fiscal year",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Electronic: Retain in office for 1 fiscal year, then destroy provided audited by Auditor of State, audit report is released and all discrepancies are resolved. ; Paper: Retain in office for 1 fiscal year, then destroy provided audited by Auditor of State, audit report is released and all discrepancies are resolved., Electronic: Erase ; Paper: Shred",
+      "disposition_method": "Electronic: Erase ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2013-02-13",
       "next_update_due": null,
       "comments": null

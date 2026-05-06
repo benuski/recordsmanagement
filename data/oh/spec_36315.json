@@ -14,14 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Electronic: applicable transition. ; Paper: applicable transition, unless scanned and saved electronically",
       "duration_years": 9,
       "duration_months": null,
-      "disposition": "Electronic: Retain 9 years after applicable transition. ; Paper: Retain 9 years after applicable transition, unless scanned and saved electronically., Electronic: Delete ; Paper: Shred",
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-31",
       "last_updated_by_state": "2019-05-03",
       "next_update_due": null,
       "comments": null

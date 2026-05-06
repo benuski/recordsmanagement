@@ -14,14 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
+      "trigger_event": "Electronic: Keep ; Paper: Keep 5 years",
       "duration_years": 2,
       "duration_months": null,
-      "disposition": "Electronic: Keep 2 years then transfer to the National Council on Weights and Measures (NCWM). ; Paper: Keep 5 years, Electronic: Erase ; Paper: Shred",
+      "disposition_method": "Electronic: Erase ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-31",
       "last_updated_by_state": "2025-06-09",
       "next_update_due": null,
       "comments": null

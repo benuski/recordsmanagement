@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "US",
+      "trigger_event": "Electronic: in operating system superseded",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Electronic: Retain in operating system until superseded, then erase., Electronic: Erase",
+      "disposition_method": "Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2003-01-16",
       "next_update_due": null,
       "comments": null

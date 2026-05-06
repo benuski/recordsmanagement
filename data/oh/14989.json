@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
+      "trigger_event": "Paper: in agency no longer of administrative value",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Paper: Retain in agency until no longer of administrative value, then transfer to State Archives., Paper: Archives",
+      "disposition_method": "Paper: Archives",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "1994-05-03",
       "next_update_due": null,
       "comments": null

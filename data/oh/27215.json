@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CE",
+      "trigger_event": "Electronic: in office 1 calendar year",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Electronic: Retain in office 1 calendar year, then destroy., Electronic: Delete",
+      "disposition_method": "Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2009-01-22",
       "next_update_due": null,
       "comments": null

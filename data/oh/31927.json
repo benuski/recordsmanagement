@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
+      "trigger_event": "Paper: current year three years from date of training. If training is related grant funding, date of federal \"Final Financial Report\" applicable grant. ; Electronic: current year three years from date of training. If training is related grant funding, date of federal \"Final Financial Report\" applicable grant",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Paper: Retain current year plus three years from the date of training. If training is related to grant funding, the date of the federal \"Final Financial Report\" for the applicable grant. ; Electronic: Retain current year plus three years from the date of training. If training is related to grant funding, the date of the federal \"Final Financial Report\" for the applicable grant., Paper: Recycle ; Electronic: Delete",
+      "disposition_method": "Paper: Recycle ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2013-12-19",
       "next_update_due": null,
       "comments": null

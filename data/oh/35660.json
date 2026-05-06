@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Paper: Continuaously maintained and updated in Agency File. five years a paper copy is transferred state archives ; Electronic: Continuously maintained and updated in Agency File. five years a copy is transferred state archives",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Paper: Continuaously maintained and updated in Agency File. After five years a paper copy is transferred to state archives ; Electronic: Continuously maintained and updated in Agency File. After five years a copy is transferred to state archives, Paper: Archives ; Electronic: Delete",
+      "disposition_method": "Paper: Archives ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2019-01-07",
       "next_update_due": null,
       "comments": null

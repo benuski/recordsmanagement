@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
+      "trigger_event": "Electronic: current year four (4) years from date of incident",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Electronic: Retain current year plus four (4) years from date of incident., Electronic: Delete",
+      "disposition_method": "Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2019-04-09",
       "next_update_due": null,
       "comments": null

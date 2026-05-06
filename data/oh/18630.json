@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Paper: date request additional information document and complete application has been requested",
       "duration_years": 5,
       "duration_months": null,
-      "disposition": "Paper: 5 years after the date the request for additional information to document and complete the application has been requested., Paper: Wastepaper",
+      "disposition_method": "Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2003-01-13",
       "next_update_due": null,
       "comments": null

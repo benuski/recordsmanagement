@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
+      "trigger_event": "Electronic: This is a one-time disposal of obsolete records. records will be disposed of upon approval of this retention schedule",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Electronic: This is a one-time disposal of obsolete records. The records will be disposed of upon approval of this retention schedule., Electronic: Delete",
+      "disposition_method": "Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2014-12-05",
       "next_update_due": null,
       "comments": null

@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
+      "trigger_event": "Electronic: , unless maintained in paper or microfilm. ; Paper: . ; Microform",
       "duration_years": 50,
       "duration_months": null,
-      "disposition": "Electronic: Retain 50 years, unless maintained in paper or microfilm. ; Paper: Retain 50 years. ; Microform: Retain 50 years., Electronic: Delete ; Paper: Shred ; Microform: Shred",
+      "disposition_method": "Electronic: Delete ; Paper: Shred ; Microform: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2016-10-07",
       "next_update_due": null,
       "comments": null

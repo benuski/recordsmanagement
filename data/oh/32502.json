@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "US",
+      "trigger_event": "Paper: three (3) years superseded, deleted, or updated by new report. outdated report. ; Electronic: three (3) years superseded, deleted, or updated by new report. outdated report",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Paper: Retain for three (3) years until superseded, deleted, or updated by new report. Destroy outdated report. ; Electronic: Retain for three (3) years until superseded, deleted, or updated by new report. Destroy outdated report., Paper: Trash ; Electronic: Delete",
+      "disposition_method": "Paper: Trash ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2014-07-15",
       "next_update_due": null,
       "comments": null

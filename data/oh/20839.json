@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "PM",
+      "trigger_event": "Paper: Permanent",
       "duration_years": 999,
       "duration_months": null,
-      "disposition": "Paper: Permanent",
+      "disposition_method": "Paper: Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2004-06-24",
       "next_update_due": null,
       "comments": null

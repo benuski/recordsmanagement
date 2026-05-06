@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "US",
+      "trigger_event": "Electronic: Maintain records on computer database superseded by new information or record series in no longer exists ; Paper: in operating area three (3) months",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Electronic: Maintain records on the computer database until superseded by new information or until record series in no longer exists, then destroy by erasure. ; Paper: Retain in operating area three (3) months, then destroy, Electronic: Erase ; Paper: Shred",
+      "disposition_method": "Electronic: Erase ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2006-01-19",
       "next_update_due": null,
       "comments": null

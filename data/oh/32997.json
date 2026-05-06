@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CE",
+      "trigger_event": "Electronic: from end of calendar year",
       "duration_years": 3,
       "duration_months": null,
-      "disposition": "Electronic: Retain 3 years from end of calendar year., Electronic: Delete",
+      "disposition_method": "Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2023-12-01",
       "next_update_due": null,
       "comments": null

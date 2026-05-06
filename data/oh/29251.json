@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
-      "duration_years": 2,
+      "trigger_event": "Paper: record duration of employee''s employment",
+      "duration_years": null,
       "duration_months": null,
-      "disposition": "Paper: Retain record for the duration of employee''s employment then retain for 2 years after active service, then destroy, Paper: Shred",
+      "disposition_method": "Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2011-02-16",
       "next_update_due": null,
       "comments": null

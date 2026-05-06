@@ -14,14 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
-      "duration_years": 2,
+      "trigger_event": "Paper: in office closed by attorney; ; Electronic: in office closed by attorney",
+      "duration_years": null,
       "duration_months": null,
-      "disposition": "Paper: Retain in office until closed by attorney; then on-site for 2 years; then destroy. ; Electronic: Retain in office until closed by attorney; then on-site for 2 years; then destroy., Paper: Wastepaper ; Electronic: Erase",
+      "disposition_method": "Paper: Wastepaper ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-31",
       "last_updated_by_state": "2004-11-03",
       "next_update_due": null,
       "comments": null

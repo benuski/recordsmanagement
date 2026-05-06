@@ -14,14 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
+      "trigger_event": "Paper: AND audited. ; Electronic: AND audited",
       "duration_years": 6,
       "duration_months": null,
-      "disposition": "Paper: 6 years AND until audited. ; Electronic: 6 years AND until audited., Paper: Shred ; Electronic: Erase",
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-31",
       "last_updated_by_state": "2025-11-19",
       "next_update_due": null,
       "comments": null

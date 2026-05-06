@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Paper: of inactivity ; Electronic: of inactivity",
       "duration_years": 50,
       "duration_months": null,
-      "disposition": "Paper: After 50 years of inactivity, then transfer to Archives, unless scanned to an electronic format. After paper copies are scanned to an electronic format, they may be transferred to Archives.. ; Electronic: After 50 years of inactivity, then transfer to Archives, Paper: Archives ; Electronic: Archives",
+      "disposition_method": "Paper: Archives ; Electronic: Archives",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2021-02-10",
       "next_update_due": null,
       "comments": null

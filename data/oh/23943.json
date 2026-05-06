@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Paper: CD image and reviewed accuracy ; Electronic: State Archives no longer needed in office",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Paper: transfer to CD image and destroy after reviewed for accuracy ; Electronic: Transfer to State Archives after no longer needed in office., Paper: Shred ; Electronic: Archives",
+      "disposition_method": "Paper: Shred ; Electronic: Archives",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2006-08-23",
       "next_update_due": null,
       "comments": null

@@ -14,14 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
+      "trigger_event": "Electronic: three (3) years from date of closure or final audit is complete (whichever is later) ; Paper: three (3) years from date of closure or final audit is complete (whichever is later)",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Electronic: Retain for three (3) years from the date of closure or until final audit is complete (whichever is later) then destroy. ; Paper: Retain for three (3) years from the date of closure or until final audit is complete (whichever is later) then destroy., Electronic: Delete ; Paper: Shred",
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-31",
       "last_updated_by_state": "2021-01-07",
       "next_update_due": null,
       "comments": null

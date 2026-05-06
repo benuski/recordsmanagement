@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Paper: sixty (60) days an election or twenty-two (22) months a federal election",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Paper: Retain sixty (60) days after an election or twenty-two (22) months after a federal election, then may destroy provided no pending court action or order., Paper: Recycle",
+      "disposition_method": "Paper: Recycle",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2013-08-23",
       "next_update_due": null,
       "comments": null

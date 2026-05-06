@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "PM",
+      "trigger_event": "Paper: Immediately convert paper document electronic image, verify image is complete and legible ; Electronic: electronic image permanently",
       "duration_years": 999,
       "duration_months": null,
-      "disposition": "Paper: Immediately convert paper document to electronic image, verify the image is complete and legible, then destroy. ; Electronic: Retain electronic image permanently., Paper: Shred ; Electronic: Permanent",
+      "disposition_method": "Paper: Shred ; Electronic: Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2019-03-07",
       "next_update_due": null,
       "comments": null

@@ -14,14 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Paper: license expires or 1 year death ; Microform: license applications scanned micofilm cards (license #1--#4450), license expires or 1 year death",
       "duration_years": 5,
       "duration_months": null,
-      "disposition": "Paper: Retain for 5 years after license expires or 1 year after death, then destroy. ; Microform: For license applications scanned to micofilm cards (license #1--#4450), retain for 5 years after license expires or 1 year after death, then destroy., Paper: Shred ; Microform: Shred",
+      "disposition_method": "Paper: Shred ; Microform: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-31",
       "last_updated_by_state": "2007-06-12",
       "next_update_due": null,
       "comments": null

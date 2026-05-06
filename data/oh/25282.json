@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "PM",
-      "duration_years": 999,
+      "trigger_event": "Paper: in operating area",
+      "duration_years": 1,
       "duration_months": null,
-      "disposition": "Paper: Retain in operating area 1 year, then offsite storage until 15 years after facility wells are permanently closed., Paper: Recycle",
+      "disposition_method": "Paper: Recycle",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2007-09-04",
       "next_update_due": null,
       "comments": null

@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
+      "trigger_event": "Paper: determined obsolete",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Paper: Retain until determined obsolete, then destroy. This material is for distribution upon request; Copies sent to Archives as each itme updated., Paper: Archives",
+      "disposition_method": "Paper: Archives",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "1978-03-15",
       "next_update_due": null,
       "comments": null

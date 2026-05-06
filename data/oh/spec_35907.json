@@ -14,14 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
+      "trigger_event": "Electronic: in office five (5) years ; Paper: in office two (2) years",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Electronic: Retain in office for five (5) years then destroy. ; Paper: Retain in office for two (2) years then destroy., Electronic: Erase ; Paper: Shred",
+      "disposition_method": "Electronic: Erase ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-31",
       "last_updated_by_state": "2023-05-15",
       "next_update_due": null,
       "comments": null

@@ -14,14 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
+      "trigger_event": "Electronic: Keep information past end of subscriber agreement ; Paper: stored electronically",
       "duration_years": 5,
       "duration_months": null,
-      "disposition": "Electronic: Keep information 5 years past the end of the subscriber agreement, then destroy. ; Paper: Retain until stored electronically, then destroy., Electronic: Delete ; Paper: Shred",
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-31",
       "last_updated_by_state": "2025-08-25",
       "next_update_due": null,
       "comments": null

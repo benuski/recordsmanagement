@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
+      "trigger_event": "Electronic: totals are verified against Institutional Inventory Dollar values Detail Report ; Paper: totals are verified against Institutional Inventory Dollar values Detail Report",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Electronic: Retain until totals are verified against the Institutional Inventory Dollar values Detail Report, then destroy. ; Paper: Retain until totals are verified against the Institutional Inventory Dollar values Detail Report, then destroy., Electronic: Delete ; Paper: Shred",
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2025-11-28",
       "next_update_due": null,
       "comments": null

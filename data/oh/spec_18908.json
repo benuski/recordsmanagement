@@ -14,14 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "PM",
+      "trigger_event": "Paper: paper is retained ; Electronic: LCC order is electronically scanned Division''s LITS system and permanently retained",
       "duration_years": 999,
       "duration_months": null,
-      "disposition": "Paper: The paper is retained 1 year, then destroyed. ; Electronic: The LCC order is electronically scanned to the Division''s LITS system and permanently retained, Paper: Recycle ; Electronic: Permanent",
+      "disposition_method": "Paper: Recycle ; Electronic: Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-31",
       "last_updated_by_state": "2003-02-13",
       "next_update_due": null,
       "comments": null

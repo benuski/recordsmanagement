@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "PM",
-      "duration_years": 999,
+      "trigger_event": "Paper: in office end of calendar year",
+      "duration_years": null,
       "duration_months": null,
-      "disposition": "Paper: Retain in office until end of calendar year then duplicate records. Original is stored in office permanently and backup copy is transferred to the State Archives with certificates of the same time period., Paper: Archives",
+      "disposition_method": "Paper: Archives",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "1994-06-29",
       "next_update_due": null,
       "comments": null

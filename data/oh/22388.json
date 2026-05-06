@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "US",
+      "trigger_event": "Paper: drafts superseded by final document. final documents 3 bienniums",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Paper: Retain drafts until superseded by final document. Retain final documents for 3 bienniums, then review by State Archives prior to disposal., Paper: Recycle",
+      "disposition_method": "Paper: Recycle",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2007-01-08",
       "next_update_due": null,
       "comments": null

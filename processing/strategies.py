@@ -309,26 +309,20 @@ def parse_using_marker_html_optimized(
     if html_path.exists() and html_path.stat().st_mtime > pdf_path.stat().st_mtime:
         logger.info(f"[{schedule_id}] Using existing, up-to-date HTML file")
 
-    else:
+    elif is_image:
         # Use the semaphore to ensure only one worker uses the GPU at a time
         semaphore_context = gpu_semaphore if gpu_semaphore else contextlib.nullcontext()
         
         with semaphore_context:
             logger.info(f"[{schedule_id}] GPU Key Acquired. Running marker_single...")
             try:
-                cmd = [
-                    "marker_single",
-                    str(pdf_path),
-                    "--output_dir", str(pdf_path.parent),
-                    "--output_format", "html"
-                ]
-                if is_image:
-                    # Optional: Add force_ocr if it's definitely an image, 
-                    # though marker usually detects this.
-                    cmd.append("--force_ocr")
-
                 subprocess.run(
-                    cmd,
+                    [
+                        "marker_single",
+                        str(pdf_path),
+                        "--output_dir", str(pdf_path.parent),
+                        "--output_format", "html"
+                    ],
                     check=True,
                     capture_output=True,
                     text=True,
@@ -360,5 +354,4 @@ def select_optimal_strategy_memory_aware(pdf_path: Path, is_image: bool) -> list
         logger.warning(f"[{pdf_path.stem}] Large file detected ({file_size_mb:.1f}MB). Routing to Silo exclusively.")
         return ['silo']
 
-    # Default to table, then silo, then HTML as final fallback for poorly formatted PDFs
-    return ['table', 'silo', 'html']
+    return ['table', 'silo']

@@ -14,14 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Electronic: application is received. ; Paper: application is received",
       "duration_years": 5,
       "duration_months": null,
-      "disposition": "Electronic: 5 years after application is received. ; Paper: 5 years after application is received., Electronic: Delete ; Paper: Shred",
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-31",
       "last_updated_by_state": "2016-08-10",
       "next_update_due": null,
       "comments": null

@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Paper: audited by Auditor of State and audit report is released",
       "duration_years": 1,
       "duration_months": null,
-      "disposition": "Paper: Retain 1 year after audited by Auditor of State and audit report is released, then destroy, Paper: Wastepaper",
+      "disposition_method": "Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2000-09-01",
       "next_update_due": null,
       "comments": null

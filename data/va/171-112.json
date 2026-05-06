@@ -14,14 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "US",
+      "trigger_event": "\". in agency superseded record series XXXXXX,\" Materials from Insurance Companies\" or XXXXXX, Materials from Rate service Organizations and Residual Markets",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "\". Retain in agency until superseded then transfer to record series XXXXXX,\" Materials from Insurance Companies\" or XXXXXX, Materials from Rate service Organizations and Residual Markets",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-30",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -45,14 +45,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "rate approved",
       "duration_years": 3,
       "duration_months": null,
-      "disposition": "Retain 3 years after rate approved then destroy.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-30",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -76,14 +76,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "disapproval",
       "duration_years": 2,
       "duration_months": null,
-      "disposition": "Retain 2 years after disapproval then destroy.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-30",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -107,14 +107,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CE",
+      "trigger_event": "from end of calendar year becoming inactive",
       "duration_years": 5,
       "duration_months": null,
-      "disposition": "Retain 5 years from the end of the calendar year after becoming inactive then destroy.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-30",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -138,14 +138,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CE",
+      "trigger_event": "from end of calendar year becoming inactive",
       "duration_years": 2,
       "duration_months": null,
-      "disposition": "Retain 2 years from the end of the calendar year after becoming inactive then destroy.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-30",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -169,14 +169,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CE",
+      "trigger_event": "from end of calendar year becoming obsolete",
       "duration_years": 1,
       "duration_months": null,
-      "disposition": "Retain 1 year from the end of the calendar year after becoming obsolete then destroy.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-30",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -200,14 +200,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "US",
+      "trigger_event": "superseded",
       "duration_years": 3,
       "duration_months": null,
-      "disposition": "Retain 3 years after superseded then destroy.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-30",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -231,14 +231,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "US",
+      "trigger_event": "superseded or disapproved",
       "duration_years": 11,
       "duration_months": null,
-      "disposition": "Retain 11 years after superseded or disapproved then destroy.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-30",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -262,14 +262,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "final acceptance or refusal",
       "duration_years": 5,
       "duration_months": null,
-      "disposition": "Retain 5 years after final acceptance or refusal, then destroy.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-30",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -293,14 +293,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "US",
+      "trigger_event": "superseded",
       "duration_years": 3,
       "duration_months": null,
-      "disposition": "Retain 3 years after superseded then destroy.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-30",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -324,14 +324,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "distribution or completion of audit, whichever is greater",
       "duration_years": 5,
       "duration_months": null,
-      "disposition": "Retain 5 years after distribution or completion of audit, whichever is greater, then destroy.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-30",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -355,14 +355,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CE",
+      "trigger_event": "from of calendar year becoming obsolete in compliance with No. 8 on schedule cover page",
       "duration_years": 1,
       "duration_months": null,
-      "disposition": "Retain 1 year from the of the calendar year after becoming obsolete then destroy in compliance with No. 8 on schedule cover page",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-30",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null

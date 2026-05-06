@@ -14,14 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "expiration",
       "duration_years": 5,
       "duration_months": null,
-      "disposition": "5 Years after expiration, Confidential Destruction",
+      "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-30",
       "last_updated_by_state": "2015-01-21",
       "next_update_due": null,
       "comments": null
@@ -45,14 +45,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "closed",
       "duration_years": 3,
       "duration_months": null,
-      "disposition": "3 Years after closed, Confidential Destruction",
+      "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-30",
       "last_updated_by_state": "2015-01-21",
       "next_update_due": null,
       "comments": null
@@ -73,17 +73,17 @@
       "series_id": "100145",
       "series_title": "Charitable Solicitation Files",
       "series_description": "This series documents the obligations and activities of charitable and civic organizations, the Professional Fund-raising Counsel, and professional solicitors under the Virginia Solicitation of Contributions Law. This series may include, but is not limited to: registration statements, finance reports, professional solicitor campaign materials, registration fee receipts, fund raising contracts, investigations, and correspondence. COV 57-53, 61; COV 57-53",
-      "legal_citation": "COV 57-53"
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "FE",
+      "trigger_event": "end of state fiscal year",
       "duration_years": 3,
       "duration_months": null,
-      "disposition": "3 Years after end of state fiscal year, Confidential Destruction",
+      "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-30",
       "last_updated_by_state": "2015-01-21",
       "next_update_due": null,
       "comments": null
@@ -107,14 +107,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "FE",
+      "trigger_event": "end of state fiscal year",
       "duration_years": 3,
       "duration_months": null,
-      "disposition": "3 Years after end of state fiscal year, Confidential Destruction",
+      "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-30",
       "last_updated_by_state": "2015-01-21",
       "next_update_due": null,
       "comments": null
@@ -138,14 +138,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "FE",
+      "trigger_event": "end of state fiscal year",
       "duration_years": 3,
       "duration_months": null,
-      "disposition": "3 Years after end of state fiscal year, Confidential Destruction",
+      "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-30",
       "last_updated_by_state": "2015-01-21",
       "next_update_due": null,
       "comments": null
@@ -169,14 +169,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "FE",
+      "trigger_event": "end of state fiscal year",
       "duration_years": 3,
       "duration_months": null,
-      "disposition": "3 Years after end of state fiscal year, Confidential Destruction",
+      "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-30",
       "last_updated_by_state": "2015-01-21",
       "next_update_due": null,
       "comments": null
@@ -200,14 +200,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "last action",
       "duration_years": 3,
       "duration_months": null,
-      "disposition": "3 Years after last action, Confidential Destruction",
+      "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-30",
       "last_updated_by_state": "2015-01-21",
       "next_update_due": null,
       "comments": null
@@ -231,14 +231,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "FE",
+      "trigger_event": "end of state fiscal year",
       "duration_years": 3,
       "duration_months": null,
-      "disposition": "3 Years after end of state fiscal year, Confidential Destruction",
+      "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-30",
       "last_updated_by_state": "2015-01-21",
       "next_update_due": null,
       "comments": null
@@ -262,14 +262,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "last action",
       "duration_years": 3,
       "duration_months": null,
-      "disposition": "3 Years after last action, Confidential Destruction",
+      "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-30",
       "last_updated_by_state": "2015-01-21",
       "next_update_due": null,
       "comments": null
@@ -293,14 +293,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "FE",
+      "trigger_event": "end of state fiscal year",
       "duration_years": 3,
       "duration_months": null,
-      "disposition": "3 Years after end of state fiscal year, Confidential Destruction",
+      "disposition_method": "Confidential Destruction",
       "confidential_flag": true
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-30",
       "last_updated_by_state": "2015-01-21",
       "next_update_due": null,
       "comments": null

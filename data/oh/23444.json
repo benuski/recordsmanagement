@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Paper: individual registration forms immediately following training. registration summary Five (5) years training. one copy of other documents no longer of administrtive value",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Paper: Destroy individual registration forms immediately following the training. Retain registration summary for Five (5) years after the training. Retain one copy of other documents until no longer of administrtive value, then destroy., Paper: Shred",
+      "disposition_method": "Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2006-05-30",
       "next_update_due": null,
       "comments": null

@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Paper: Scan into UDS – personnel files under payroll forms – verify scanned image is readable, and ; Electronic: in UDS – personnel files under payroll forms employee’s date of separation from BWC, and",
       "duration_years": 7,
       "duration_months": null,
-      "disposition": "Paper: Scan into UDS – personnel files under payroll forms – verify the scanned image is readable, and then destroy. ; Electronic: Retain in UDS – personnel files under payroll forms for 7 years after employee’s date of separation from BWC, and then destroy., Paper: Shred ; Electronic: Delete",
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2018-11-19",
       "next_update_due": null,
       "comments": null

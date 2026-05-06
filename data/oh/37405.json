@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Paper: paper scanned ; Electronic: current policy electronically two years new policy is bid on and received by Office of Aviations from DAS",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Paper: Retain paper until scanned, then destroy paper. ; Electronic: Retain current policy electronically for two years after the new policy is bid on and received by the Office of Aviations from DAS., Paper: Recycle ; Electronic: Delete",
+      "disposition_method": "Paper: Recycle ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2019-06-13",
       "next_update_due": null,
       "comments": null

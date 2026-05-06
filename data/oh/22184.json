@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "duration_years": 20,
+      "trigger_event": "Paper: Non-journalized pages of hazardous waste permits are retained life of permit",
+      "duration_years": null,
       "duration_months": null,
-      "disposition": "Paper: Non-journalized pages of hazardous waste permits are retained for the life of the permit. Then retain for 20 years from permit withdrawal or renewal then destroy., Paper: Recycle",
+      "disposition_method": "Paper: Recycle",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2006-04-26",
       "next_update_due": null,
       "comments": null

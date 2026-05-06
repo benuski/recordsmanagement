@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Electronic: digitally three (3) years scratch game is removed from sale and/or two (2) years vend tape has been executed, or whichever is longer",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Electronic: Retain digitally for three (3) years after scratch game is removed from sale and/or two (2) years after vend tape has been executed, or whichever is longer., Electronic: Delete",
+      "disposition_method": "Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2024-10-01",
       "next_update_due": null,
       "comments": null

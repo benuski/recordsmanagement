@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Paper: in office end of investigation and closing of matter ; Electronic: in office end of investigation and closing of matter",
       "duration_years": 5,
       "duration_months": null,
-      "disposition": "Paper: Retain in office 5 years after end of investigation and closing of matter, then destroy ; Electronic: Retain in office 5 years after end of investigation and closing of matter, then destroy., Paper: Shred ; Electronic: Erase",
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2025-08-27",
       "next_update_due": null,
       "comments": null

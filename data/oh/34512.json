@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Electronic: Delete e-mail no longer of value or when probationer completes probation",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Electronic: Delete e-mail after no longer of value or when probationer completes probation.",
+      "disposition_method": "Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2021-04-14",
       "next_update_due": null,
       "comments": null

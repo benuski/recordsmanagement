@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Paper: duration of member’s term",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Paper: Retain for duration of member’s term; then send original to the member upon completion of term., Paper: Other",
+      "disposition_method": "Paper: Other",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2017-03-17",
       "next_update_due": null,
       "comments": null

@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Paper: Added employee personnel file posted. ; Electronic: Added employee personnel file posted",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Paper: Added to employee personnel file after posted. ; Electronic: Added to employee personnel file after posted., Paper: Other ; Electronic: Other",
+      "disposition_method": "Paper: Other ; Electronic: Other",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2005-06-29",
       "next_update_due": null,
       "comments": null

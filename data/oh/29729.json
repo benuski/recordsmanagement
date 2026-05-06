@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Paper: one complete set sale of property. Drafts and updates can be disposed of when superceded. ; Electronic: one complete set sale of property. Drafts and updates can be disposed of when superceded",
       "duration_years": 2,
       "duration_months": null,
-      "disposition": "Paper: Retain one complete set 2 years after sale of property. Drafts and updates can be disposed of when superceded. ; Electronic: Retain one complete set 2 years after sale of property. Drafts and updates can be disposed of when superceded., Paper: Delete ; Electronic: Delete",
+      "disposition_method": "Paper: Delete ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2011-09-03",
       "next_update_due": null,
       "comments": null

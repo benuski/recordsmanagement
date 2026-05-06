@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
+      "trigger_event": "Electronic: Data converted elicense database in 2004. effective date of retention schedule",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Electronic: Data converted to elicense database in 2004. Retain until effective date of retention schedule., Electronic: Erase",
+      "disposition_method": "Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2009-06-02",
       "next_update_due": null,
       "comments": null

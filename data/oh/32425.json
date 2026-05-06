@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "US",
+      "trigger_event": "Paper: State Archives review prior destruction. superseded, obsolete, or replaced., or converted electronic format. ; Electronic: State Archives review prior destruction. superseded, obsolete, or replaced., or converted electronic format",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Paper: Transfer to State Archives for review prior to destruction. Retain until superseded, obsolete, or replaced., or converted to electronic format. ; Electronic: Transfer to State Archives for review prior to destruction. Retain until superseded, obsolete, or replaced., or converted to electronic format., Paper: Shred ; Electronic: Erase",
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2014-12-11",
       "next_update_due": null,
       "comments": null

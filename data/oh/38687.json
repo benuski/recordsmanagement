@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
+      "trigger_event": "Paper: Board Meeting Minutes will be kept in paper form a period of . Once 20-year period is reached, meeting minutes will be scanned and transferred State Archives. ; Electronic: Board Meeting Minutes will be kept in electronic form a period of . Once 20-year period is reached, meeting minutes will be deleted",
       "duration_years": 20,
       "duration_months": null,
-      "disposition": "Paper: Board Meeting Minutes will be kept in paper form for a period of 20 years. Once the 20-year period is reached, the meeting minutes will be scanned and transferred to the State Archives. ; Electronic: Board Meeting Minutes will be kept in electronic form for a period of 20 years. Once the 20-year period is reached, the meeting minutes will be deleted., Paper: Archives ; Electronic: Delete",
+      "disposition_method": "Paper: Archives ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2020-02-06",
       "next_update_due": null,
       "comments": null

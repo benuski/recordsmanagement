@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Paper: converted electronic format, or three years project financial close. Review by State Archives prior disposal. ; Electronic: three years project financial close. Review by State Archives prior disposal",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Paper: Until converted to electronic format, or for three years after project financial close. Review by State Archives prior to disposal. ; Electronic: Until three years after project financial close. Review by State Archives prior to disposal., Paper: Shred ; Electronic: Erase",
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2014-12-11",
       "next_update_due": null,
       "comments": null

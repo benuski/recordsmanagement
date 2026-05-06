@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "US",
+      "trigger_event": "Electronic: Upon publication, send copy State Library. in office area it is superseded or rescinded ; Paper: Upon publication, send copy State Library. in office area it is superseded or rescinded",
       "duration_years": 5,
       "duration_months": null,
-      "disposition": "Electronic: Upon publication, send copy to the State Library. Retain in office area for 5 years after it is superseded or rescinded, then have reviewed by State Archives. ; Paper: Upon publication, send copy to the State Library. Retain in office area for 5 years after it is superseded or rescinded, then have reviewed by State Archives., Electronic: Erase ; Paper: Shred",
+      "disposition_method": "Electronic: Erase ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2009-05-22",
       "next_update_due": null,
       "comments": null

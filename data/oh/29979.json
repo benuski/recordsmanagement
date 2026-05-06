@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Electronic: scanned images two years seperation. ; Paper: in active area employee seperates from ODOT",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Electronic: Retain scanned images for two years after seperation. ; Paper: Retain in active area until employee seperates from ODOT, then scan. Destroy paper docuemtns after scanned images have been checked for accuracy and completeness., Electronic: Delete ; Paper: Shred",
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2012-01-27",
       "next_update_due": null,
       "comments": null

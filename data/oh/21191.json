@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
+      "trigger_event": "Electronic: Keep on server 90 days",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Electronic: Keep on server for 90 days, then erase., Electronic: Erase",
+      "disposition_method": "Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2005-03-17",
       "next_update_due": null,
       "comments": null

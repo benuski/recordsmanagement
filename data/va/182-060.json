@@ -14,14 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "creation",
       "duration_years": 6,
       "duration_months": null,
-      "disposition": "6 Years after creation, Non-confidential Destruction",
+      "disposition_method": "Non-confidential Destruction",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-30",
       "last_updated_by_state": "2016-07-12",
       "next_update_due": null,
       "comments": null

@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CE",
+      "trigger_event": "Electronic: on computer 3 full calendar years current year, annually provided audited",
       "duration_years": 3,
       "duration_months": null,
-      "disposition": "Electronic: Retain on computer 3 full calendar years plus current year, destroy annually after 3 years provided audited., Electronic: Delete",
+      "disposition_method": "Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2008-02-27",
       "next_update_due": null,
       "comments": null

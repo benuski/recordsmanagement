@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Electronic: rule is published",
       "duration_years": 1,
       "duration_months": null,
-      "disposition": "Electronic: 1 year after rule is published, Electronic: Erase",
+      "disposition_method": "Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2017-11-02",
       "next_update_due": null,
       "comments": null

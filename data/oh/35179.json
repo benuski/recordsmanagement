@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Electronic: Resolved cases – three (3) years in Employer Compliance SharePoint Tracker. Referred cases – if referred Special Investigations – five (5) years case is resolved in Employer Compliance SharePoint Tracker",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Electronic: Resolved cases – retain for three (3) years in the Employer Compliance SharePoint Tracker. Referred cases – if referred to Special Investigations – retain for five (5) years after case is resolved in the Employer Compliance SharePoint Tracker., Electronic: Delete",
+      "disposition_method": "Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2018-08-13",
       "next_update_due": null,
       "comments": null

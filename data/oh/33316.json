@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
+      "trigger_event": "Paper: applicants who are hired, during probationary period or one year, whichever is longer. applicants not hired, one year",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Paper: For applicants who are hired, retain during probationary period or for one year, whichever is longer. For applicants not hired, retain for one year., Paper: Shred",
+      "disposition_method": "Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2024-02-01",
       "next_update_due": null,
       "comments": null

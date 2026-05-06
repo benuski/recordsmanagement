@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Paper: Retaion case is closed",
       "duration_years": 7,
       "duration_months": null,
-      "disposition": "Paper: Retaion 7 years after case is closed, then destroy. (Be aware that some collective contracts specify where such documents can be kept., Paper: Wastepaper",
+      "disposition_method": "Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2000-08-12",
       "next_update_due": null,
       "comments": null

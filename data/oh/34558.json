@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "US",
+      "trigger_event": "Electronic: five (5) years school closes or school designation has been revoked, provided records have been audited by Auditor of State and audit report is released and all discrepancies are resolved.Duplicates: obsolete, superseded or administrative value is lost",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Electronic: Retain five (5) years after school closes or after the school designation has been revoked, provided the records have been audited by the Auditor of State and the audit report is released and all discrepancies are resolved.Duplicates: Retain until obsolete, superseded or administrative value is lost., Electronic: Delete",
+      "disposition_method": "Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2021-10-08",
       "next_update_due": null,
       "comments": null

@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Paper: one year statute of limitations runs ; Electronic: one year statute of limitations runs",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Paper: Retain for one year after statute of limitations runs, then destroy ; Electronic: Retain for one year after statute of limitations runs, then destroy, Paper: Shred ; Electronic: Erase",
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2024-07-05",
       "next_update_due": null,
       "comments": null

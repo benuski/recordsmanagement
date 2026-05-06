@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "FE",
+      "trigger_event": "Paper: in operating area during current fiscal year, 1 additional fiscal year or while under construction. in storage 2 additional fiscal years",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Paper: Retain in operating area during current fiscal year, plus 1 additional fiscal year or while under construction. Retain in storage for 2 additional fiscal years then destroy, provided record has been audited and audit report has been released., Paper: Wastepaper",
+      "disposition_method": "Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "1986-06-26",
       "next_update_due": null,
       "comments": null

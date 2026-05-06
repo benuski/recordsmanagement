@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "FE",
+      "trigger_event": "Electronic: current fiscal year 2 additional Fiscal years providing audit by Auditor of State is completed and audit report is released with all discrepancies are resolved ; Paper: current fiscal year 2 additional Fiscal years providing audit by Auditor of State is completed and audit report is released with all discrepancies are resolved",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Electronic: current fiscal year plus 2 additional Fiscal years providing audit by the Auditor of State is completed and audit report is released with all discrepancies are resolved Then destroy. ; Paper: current fiscal year plus 2 additional Fiscal years providing audit by the Auditor of State is completed and audit report is released with all discrepancies are resolved Then destroy., Electronic: Delete ; Paper: Shred",
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2019-01-07",
       "next_update_due": null,
       "comments": null

@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
-      "duration_years": 4,
+      "trigger_event": "Paper: in office area one year",
+      "duration_years": null,
       "duration_months": null,
-      "disposition": "Paper: Retain in the office area one year, then transfer to an appropriate storage facility for 4 years, then destroy., Paper: Wastepaper",
+      "disposition_method": "Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2003-10-09",
       "next_update_due": null,
       "comments": null

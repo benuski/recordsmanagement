@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
+      "trigger_event": "Paper: two (2) years ; Electronic: two (2) years",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Paper: Retain for two (2) years, then may destroy. ; Electronic: Retain for two (2) years, then may destroy., Paper: Wastepaper ; Electronic: Delete",
+      "disposition_method": "Paper: Wastepaper ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2015-07-02",
       "next_update_due": null,
       "comments": null

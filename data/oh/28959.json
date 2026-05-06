@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Paper: paper copy in operating area imaged and indexed. Upon confirmation that paper copy has been checked quality and completeness, . ; Electronic: electronic files five (5) years date of examination",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Paper: Retain paper copy in operating area until imaged and indexed. Upon confirmation that paper copy has been checked for quality and completeness, destroy. ; Electronic: Retain electronic files for five (5) years after date of examination, then destroy., Paper: Shred ; Electronic: Erase",
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2012-08-03",
       "next_update_due": null,
       "comments": null

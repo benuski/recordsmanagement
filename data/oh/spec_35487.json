@@ -14,14 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Paper: scanning ; Electronic: An electronic record (scanned or data file format) will be retained",
       "duration_years": 4,
       "duration_months": 6,
-      "disposition": "Paper: Retain 6 months after scanning then destroy. If unscanned, 4 years from date of receipt. ; Electronic: An electronic record (scanned or data file format) will be retained for 4 years., Paper: Shred ; Electronic: Erase",
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-31",
       "last_updated_by_state": "2018-11-13",
       "next_update_due": null,
       "comments": null

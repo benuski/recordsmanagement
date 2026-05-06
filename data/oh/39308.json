@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
+      "trigger_event": "Electronic: in agency five years",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Electronic: Retain in agency for five years, then contact State Archives for review and possible transfer. Dispose of if not transferred., Electronic: Delete",
+      "disposition_method": "Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2023-01-11",
       "next_update_due": null,
       "comments": null

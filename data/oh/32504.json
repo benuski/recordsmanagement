@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CE",
+      "trigger_event": "Paper: Records are maintained three (3) calendar years from date matter is resolved. A Certificate of Disposal is required when destroying these records. ; Electronic: Records are maintained three (3) calendar years from date matter is resolved. A Certificate of Disposal is required when destroying these records",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Paper: Records are maintained three (3) calendar years from the date the matter is resolved. A Certificate of Disposal is required when destroying these records. ; Electronic: Records are maintained three (3) calendar years from the date the matter is resolved. A Certificate of Disposal is required when destroying these records., Paper: Shred ; Electronic: Delete",
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2014-07-15",
       "next_update_due": null,
       "comments": null

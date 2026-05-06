@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
+      "trigger_event": "Electronic: or Board is notified by firm that it is no longer in business",
       "duration_years": 99,
       "duration_months": null,
-      "disposition": "Electronic: 99 years or until the Board is notified by the firm that it is no longer in business, Electronic: Shred",
+      "disposition_method": "Electronic: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2010-03-17",
       "next_update_due": null,
       "comments": null

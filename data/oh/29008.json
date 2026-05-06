@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
+      "trigger_event": "Electronic: electronic records in Legal Division’s I drive , and ; Paper: Scan paper documents, verify quality assurance, and",
       "duration_years": 4,
       "duration_months": null,
-      "disposition": "Electronic: Retain the electronic records in the Legal Division’s I drive for 4 years, and then destroy. ; Paper: Scan the paper documents, verify for quality assurance, and then destroy. Retain the electronic records in the Legal Division’s I drive for 4 years, and then destroy., Electronic: Delete ; Paper: Shred",
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2023-09-08",
       "next_update_due": null,
       "comments": null

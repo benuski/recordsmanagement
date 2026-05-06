@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Electronic: date EFT and EBT Authorization Forms has been scanned ; Paper: 30 days being scanned quality assurance",
       "duration_years": 5,
       "duration_months": null,
-      "disposition": "Electronic: Retain for 5 years after the date the EFT and EBT Authorization Forms has been scanned then destroy. ; Paper: Retain for 30 days after being scanned for quality assurance then destroy., Electronic: Delete ; Paper: Recycle",
+      "disposition_method": "Electronic: Delete ; Paper: Recycle",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2018-06-21",
       "next_update_due": null,
       "comments": null

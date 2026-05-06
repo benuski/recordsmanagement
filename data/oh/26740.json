@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "FE",
+      "trigger_event": "Paper: 4 fiscal years and current year or audited, whichever is later ; Electronic: 4 fiscal years and current year or audited, whichever is later",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Paper: Retain 4 fiscal years and current year or until audited, whichever is later, then destroy. ; Electronic: Retain 4 fiscal years and current year or until audited, whichever is later, then destroy., Paper: Wastepaper ; Electronic: Delete",
+      "disposition_method": "Paper: Wastepaper ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2008-09-10",
       "next_update_due": null,
       "comments": null

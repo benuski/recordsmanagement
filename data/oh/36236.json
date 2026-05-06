@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
+      "trigger_event": "Paper: paper scanned ; Electronic: on electronic database three years from date of request being fulfilled",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Paper: Retain paper until scanned, then destroy paper ; Electronic: Retain on electronic database for three years from date of request being fulfilled., Paper: Recycle ; Electronic: Delete",
+      "disposition_method": "Paper: Recycle ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2019-04-09",
       "next_update_due": null,
       "comments": null

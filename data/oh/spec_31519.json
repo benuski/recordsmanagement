@@ -14,14 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Electronic: ; Paper: 60 days hardcopy is prepped, scanned (imaged), indexed and quality control is complete",
       "duration_years": 10,
       "duration_months": null,
-      "disposition": "Electronic: Retain 10 years then destroy when no longer of administrative or legal value to the department. ; Paper: Retain 60 days after hardcopy is prepped, scanned (imaged), indexed and quality control is complete then destroyed., Electronic: Erase ; Paper: Shred",
+      "disposition_method": "Electronic: Erase ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-31",
       "last_updated_by_state": "2024-02-02",
       "next_update_due": null,
       "comments": null

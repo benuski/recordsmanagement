@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
+      "trigger_event": "Electronic: current, following date of removal. Records are retained on network drives in Ohio Traffic Safety Office",
       "duration_years": null,
       "duration_months": 6,
-      "disposition": "Electronic: Retain current, plus 6 months following date of removal. Records are retained on network drives in the Ohio Traffic Safety Office., Electronic: Delete",
+      "disposition_method": "Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2014-12-11",
       "next_update_due": null,
       "comments": null

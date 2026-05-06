@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Paper: in Records Center ; Electronic: in Records Center",
       "duration_years": 5,
       "duration_months": null,
-      "disposition": "Paper: Retain in Records Center for 5 years then destroy provided no case has been filed. If a case is filed, then retain the records in the Records Center 5 years after the case is closed and then destroy. ; Electronic: Retain in Records Center for 5 years then destroy provided no case has been filed. If a case is filed, then retain the records in the Records Center 5 years after the case is closed and then destroy., Paper: Shred ; Electronic: Erase",
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2019-02-08",
       "next_update_due": null,
       "comments": null

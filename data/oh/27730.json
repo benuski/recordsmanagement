@@ -11,17 +11,21 @@
       "series_id": "RSAS-005",
       "series_title": "Accounts Receivable",
       "series_description": "Billings, supporting documents and related correspondence. Purpose: to provide evidence of materials supplied and services performed.",
-      "legal_citation": "34CFR 76"
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Paper: five years in accordance with 34CFR 76.734. State and Federal audit that period has been completed, released and cleared. Outstanding A/R are kept regardless of audit period",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Paper: Retain for five years in accordance with 34CFR 76.734. Destroy after State and Federal audit for that period has been completed, released and cleared. Outstanding A/R are kept regardless of audit period, Paper: Wastepaper",
+      "disposition_method": "Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2009-07-17",
       "next_update_due": null,
       "comments": null

@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Electronic: nine years termination of contract ; Paper: nine years termination of contract",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Electronic: Retain nine years after termination of the contract, then destroy. ; Paper: Retain nine years after termination of the contract, then destroy., Electronic: Erase ; Paper: Shred",
+      "disposition_method": "Electronic: Erase ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2015-06-22",
       "next_update_due": null,
       "comments": null

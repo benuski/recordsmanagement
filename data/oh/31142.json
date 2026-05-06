@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Paper: paper documents 60 days afterprepped, imaged, indexed , and qualitycontrol performed and completed, thendestroy. ; Electronic: in office 1 benefit year,records center",
       "duration_years": 4,
       "duration_months": null,
-      "disposition": "Paper: Retain paper documents 60 days afterprepped, imaged, indexed , and qualitycontrol performed and completed, thendestroy. ; Electronic: Retain in office 1 benefit year,records center 4 years, then destroyprovided no administrative or legal action ispending., Paper: Shred ; Electronic: Erase",
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2024-02-01",
       "next_update_due": null,
       "comments": null

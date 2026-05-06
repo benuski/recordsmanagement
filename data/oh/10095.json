@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
+      "trigger_event": "Paper: Maintain in office one year",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Paper: Maintain in office for one year, then transfer to the State Records Centr. Maintain for one year at the State Records Center, then destroy provided laboratory results are not required for litigation purposes., Paper: Shred",
+      "disposition_method": "Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "1992-02-11",
       "next_update_due": null,
       "comments": null

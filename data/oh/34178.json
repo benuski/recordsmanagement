@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
+      "trigger_event": "Electronic: from end of contract or account, whichever is later. ; Paper: , or converted electronic format, whichever comes first",
       "duration_years": 7,
       "duration_months": null,
-      "disposition": "Electronic: 7 years from the end of contract or account, whichever is later. ; Paper: 7 years, or until converted to electronic format, whichever comes first., Electronic: Delete ; Paper: Shred",
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2017-02-21",
       "next_update_due": null,
       "comments": null

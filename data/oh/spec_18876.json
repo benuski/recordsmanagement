@@ -14,14 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
+      "trigger_event": "Electronic: Keep . ; Paper: Keep",
       "duration_years": 5,
       "duration_months": null,
-      "disposition": "Electronic: Keep 5 years. ; Paper: Keep 5 years., Electronic: Erase ; Paper: Shred",
+      "disposition_method": "Electronic: Erase ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-31",
       "last_updated_by_state": "2021-03-19",
       "next_update_due": null,
       "comments": null

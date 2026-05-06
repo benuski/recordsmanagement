@@ -14,14 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Electronic: ; Paper: while needed",
       "duration_years": null,
       "duration_months": 18,
-      "disposition": "Electronic: 18 months ; Paper: Retain while needed then destroy after an electronic version has been created and verified for accuracy, Electronic: Delete ; Paper: Shred",
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-31",
       "last_updated_by_state": "2021-10-19",
       "next_update_due": null,
       "comments": null

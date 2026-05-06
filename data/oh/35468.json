@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Paper: five years date report is sent county. If scanned, . ; Electronic: five years date report is sent county",
       "duration_years": null,
       "duration_months": 6,
-      "disposition": "Paper: Retain five years after the date the report is sent to the county. If scanned, retain for 6 months. ; Electronic: Retain five years after the date the report is sent to the county., Paper: Wastepaper ; Electronic: Delete",
+      "disposition_method": "Paper: Wastepaper ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2018-10-15",
       "next_update_due": null,
       "comments": null

@@ -2,7 +2,7 @@
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -11,29 +11,32 @@
       "series_id": "ACC1220",
       "series_title": "Other Fiscal Banking - Collateral Agreement",
       "series_description": "Records related to the collateral provided by banks to secure TCDRS cash balances. Includes collateral agreements and monthly collateral reports.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
       "duration_years": 4,
       "duration_months": null,
-      "disposition": "After Closed plus 4 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
-      "comments": null
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
+      "comments": ""
     },
     "state_specific_attributes": {
       "rsin": "4.7.000"
-    }
+    },
+    "retention_code": "AC",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -42,29 +45,32 @@
       "series_id": "ACC1280",
       "series_title": "Capital Asset Records",
       "series_description": "Records documenting the purchase, sale, and improvement of real property and equipment, as well as depreciation, amortization, etc. Includes appropriation for expense and fixed assets.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "LA",
+      "trigger_event": "Life of Asset",
       "duration_years": 4,
       "duration_months": null,
-      "disposition": "Life of Asset plus 4 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
       "comments": "TCDRS LA + 4 retention period\nexceeds TSL LA + 3 for internal\nbusiness practices."
     },
     "state_specific_attributes": {
       "rsin": "4.7.004"
-    }
+    },
+    "retention_code": "LA",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -73,29 +79,32 @@
       "series_id": "ACC1340",
       "series_title": "Other Fiscal General Accounting",
       "series_description": "Records related to general accounting functions not covered elsewhere. These may include records related to miscellaneous accounting services provided to other departments, trouble- shooting, and special accounting projects.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "FE",
+      "trigger_event": "Fiscal Year End",
       "duration_years": 4,
       "duration_months": null,
-      "disposition": "Fiscal Year End plus 4 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
-      "comments": null
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
+      "comments": ""
     },
     "state_specific_attributes": {
       "rsin": "4.7.000"
-    }
+    },
+    "retention_code": "FE",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -104,29 +113,32 @@
       "series_id": "ACC1420",
       "series_title": "Other Fiscal Interfund Accounting",
       "series_description": "Records related to the review and management of the TCDRS interfund accounting process used to transfer monies between the trust fund and the expense fund.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "FE",
+      "trigger_event": "Fiscal Year End",
       "duration_years": 4,
       "duration_months": null,
-      "disposition": "Fiscal Year End plus 4 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
-      "comments": null
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
+      "comments": ""
     },
     "state_specific_attributes": {
       "rsin": "4.7.000"
-    }
+    },
+    "retention_code": "FE",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -135,29 +147,32 @@
       "series_id": "ACC2020",
       "series_title": "Other Fiscal Escheatment",
       "series_description": "Records that document unclaimed balances related to inactive member accounts.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "FE",
+      "trigger_event": "Fiscal Year End",
       "duration_years": 4,
       "duration_months": null,
-      "disposition": "Fiscal Year End plus 4 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
       "comments": "Property Code 74.103 does not\napply to TCDRS."
     },
     "state_specific_attributes": {
       "rsin": "4.7.000"
-    }
+    },
+    "retention_code": "FE",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -166,29 +181,32 @@
       "series_id": "ACC2100",
       "series_title": "Accounts Payable Information Payments to Members - Plan Administration",
       "series_description": "Records related to payments to members of Plan-related financial obligations.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "FE",
+      "trigger_event": "Fiscal Year End",
       "duration_years": 4,
       "duration_months": null,
-      "disposition": "Fiscal Year End plus 4 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
       "comments": "TCDRS FE + 4 retention period\nexceeds TSL FE + 3 for internal\nbusiness practices."
     },
     "state_specific_attributes": {
       "rsin": "4.1.001"
-    }
+    },
+    "retention_code": "FE",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -197,29 +215,32 @@
       "series_id": "ADM1040",
       "series_title": "Office Procedures Department - Organization and Tracking",
       "series_description": "These records are organizational in nature and are used to document and track department functions, workflow, etc. Does not include documents subject to a different retention code. Example: agency rules, policies, and procedure (1.1.070, AUD1060A).",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "US",
+      "trigger_event": "Superseded",
       "duration_years": 1,
       "duration_months": null,
-      "disposition": "Until Superseded plus 1 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
-      "comments": null
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
+      "comments": ""
     },
     "state_specific_attributes": {
       "rsin": "5.1.014"
-    }
+    },
+    "retention_code": "US",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -228,29 +249,32 @@
       "series_id": "ADM1080",
       "series_title": "Plans and Planning Records Internal Project Management",
       "series_description": "Records related to the management of internal projects, special studies, analyses, and other department events not covered elsewhere. Includes adhoc studies performed at the organization or work group level. Includes notes, presentations, reports, studies, project plans, meeting minutes, status reporting, etc. Excludes pending legislation projects.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
       "duration_years": 3,
       "duration_months": null,
-      "disposition": "After Closed plus 3 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
       "comments": "ARCHIVES NOTE: Data processing\nplanning records are not archival.\nSee 1.1.027 for Proposed\nLegislation."
     },
     "state_specific_attributes": {
       "rsin": "1.1.024"
-    }
+    },
+    "retention_code": "AC",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -259,29 +283,32 @@
       "series_id": "ADM1180",
       "series_title": "Postage Records Internal Services",
       "series_description": "Records related to internal postal operations. Includes the postal logs.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "FE",
+      "trigger_event": "Fiscal Year End",
       "duration_years": 3,
       "duration_months": null,
-      "disposition": "Fiscal Year End plus 3 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
-      "comments": null
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
+      "comments": ""
     },
     "state_specific_attributes": {
       "rsin": "5.1.005"
-    }
+    },
+    "retention_code": "FE",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -290,29 +317,32 @@
       "series_id": "ADM1280",
       "series_title": "Security Access Records Physical Access Records",
       "series_description": "Records relating to the request and the issuance of physical access to the TCDRS building and grounds. Includes signed statements or similar instruments requesting access and documents granting access of keys, building fobs, parking passes, etc.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
       "duration_years": 2,
       "duration_months": null,
-      "disposition": "After Closed plus 2 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
       "comments": "Vital Record"
     },
     "state_specific_attributes": {
       "rsin": "5.4.012"
-    }
+    },
+    "retention_code": "AC",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -321,29 +351,32 @@
       "series_id": "ADM1380",
       "series_title": "Vehicle Title & Registrations Ownership",
       "series_description": "Records documenting vehicle ownership, and licensing. Records include vehicle titles and registration.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
       "duration_years": 3,
       "duration_months": null,
-      "disposition": "After Closed plus 3 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
       "comments": "Note: These records are necessary\nonly in regards to an accident."
     },
     "state_specific_attributes": {
       "rsin": "5.6.007"
-    }
+    },
+    "retention_code": "AC",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -355,26 +388,29 @@
       "legal_citation": "Gov't Code, 552.116"
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
       "duration_years": 7,
       "duration_months": null,
-      "disposition": "After Closed plus 7 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
       "comments": "Note: The State Auditor's Office\nretains any copies of its audits\nperformed on Texas state agencies."
     },
     "state_specific_attributes": {
       "rsin": "1.1.002"
-    }
+    },
+    "retention_code": "AC",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -383,29 +419,32 @@
       "series_id": "AUD1040",
       "series_title": "Audits Internal Operational Audits",
       "series_description": "Records related to internal operational audits and data reviews including quality assurance audits and other internal non- financial operational audits.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
       "duration_years": 7,
       "duration_months": null,
-      "disposition": "After Closed plus 7 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
-      "comments": null
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
+      "comments": ""
     },
     "state_specific_attributes": {
       "rsin": "1.1.002"
-    }
+    },
+    "retention_code": "AC",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -414,29 +453,32 @@
       "series_id": "BEN1000",
       "series_title": "Actuarial Reports",
       "series_description": "Reports projecting life expectancy, future benefits, and other information needed to calculate contributions and provisions of TCDRS pension programs.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
       "duration_years": 4,
       "duration_months": null,
-      "disposition": "After Closed plus 4 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
-      "comments": null
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
+      "comments": ""
     },
     "state_specific_attributes": {
       "rsin": "6.0.000"
-    }
+    },
+    "retention_code": "AC",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -445,29 +487,32 @@
       "series_id": "BEN1020",
       "series_title": "Actuarial Rules",
       "series_description": "Records related to the rules used to complete actuarial evaluations. Includes the actuarial cost methods.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
       "duration_years": 4,
       "duration_months": null,
-      "disposition": "After Closed plus 4 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
-      "comments": null
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
+      "comments": ""
     },
     "state_specific_attributes": {
       "rsin": "6.0.000"
-    }
+    },
+    "retention_code": "AC",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -476,29 +521,32 @@
       "series_id": "BEN1040",
       "series_title": "Annuitant File",
       "series_description": "Records related to individual member and beneficiary annuitants. Includes active and inactive members records transferred to the annuitant file as well as other retirement documentation. Does not include processing of member transactions or disability medical records.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
       "duration_years": 75,
       "duration_months": null,
-      "disposition": "After Closed plus 75 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
       "comments": "See BEN1140 for Member File -\nActive/Inactive. See BEN1160 for\nMember File - Disability Retirement\nMedical Records. See BEN1200 for\nMembers - Retirement Processing.\nSee BEN1220 for Members -\nTransaction Processing. See\nBEN1240 for Members -\nWithdrawal Processing."
     },
     "state_specific_attributes": {
       "rsin": "6.0.000"
-    }
+    },
+    "retention_code": "AC",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -507,29 +555,32 @@
       "series_id": "BEN1060",
       "series_title": "Employers - Employer Payroll",
       "series_description": "Payroll data and related records transferred from employers to TCDRS. Does not include processing documentation.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "FE",
+      "trigger_event": "Fiscal Year End",
       "duration_years": 75,
       "duration_months": null,
-      "disposition": "Fiscal Year End plus 75 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
       "comments": "See BEN1120 for Employers -\nPayroll Processing."
     },
     "state_specific_attributes": {
       "rsin": "6.0.000"
-    }
+    },
+    "retention_code": "FE",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -538,29 +589,32 @@
       "series_id": "BEN1100",
       "series_title": "Employers - Employer File",
       "series_description": "Records documenting an employer's narrative, including creations documents, census data, prior services, orders and resolutions regarding retirement plans, plan provisions, changes or potential changes to plans, annual plan documents, and general correspondence, etc. Any record related to the employer's status within TCDRS. Does not include contribution rates calculations, employer payroll reports and processing, or documents considered part of the official member, annuitant record.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
       "duration_years": 4,
       "duration_months": null,
-      "disposition": "After Closed plus 4 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
       "comments": "See BEN1300 for Rates and\nCalculation factors; BEN1060 and\nBEN1120 for employer payroll;\nBEN1040 and BEN1140 for\nMember and Annuitant records."
     },
     "state_specific_attributes": {
       "rsin": "6.0.000"
-    }
+    },
+    "retention_code": "AC",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -569,29 +623,32 @@
       "series_id": "BEN1120",
       "series_title": "Employers - Payroll Processing",
       "series_description": "Records documenting the receipt and processing of employer payroll information. Does not include payroll data.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "FE",
+      "trigger_event": "Fiscal Year End",
       "duration_years": 4,
       "duration_months": null,
-      "disposition": "Fiscal Year End plus 4 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
       "comments": "See BEN1060 for Employers -\nEmployer Payroll."
     },
     "state_specific_attributes": {
       "rsin": "6.0.000"
-    }
+    },
+    "retention_code": "FE",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -600,29 +657,32 @@
       "series_id": "BEN1140",
       "series_title": "Member File - Active and Inactive",
       "series_description": "Records related to individual employee members, including account status, service credit, deposits and deductions, and estimates of retirement benefits. Includes active and inactive members. Does not include processing of member transactions, annuitant files, and disability medical records.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
       "duration_years": 75,
       "duration_months": null,
-      "disposition": "After Closed plus 75 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
       "comments": "See BEN1040 for Annuitant File.\nSee BEN1160 for Member File -\nDisability Retirement Medical\nRecords. See BEN1200 for\nMembers - Retirement Processing.\nSee BEN1220 for Members -\nTransaction Processing. See\nBEN1240 for Members -\nWithdrawal Processing."
     },
     "state_specific_attributes": {
       "rsin": "6.0.000"
-    }
+    },
+    "retention_code": "AC",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -631,29 +691,32 @@
       "series_id": "BEN1160",
       "series_title": "Member File - Disability Retirement Medical Records",
       "series_description": "Medical records submitted to support the decision making process of a members disability retirement. Includes the medical board decision and supporting medical records.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
       "duration_years": 4,
       "duration_months": null,
-      "disposition": "After Closed plus 4 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
-      "comments": null
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
+      "comments": ""
     },
     "state_specific_attributes": {
       "rsin": "6.0.000"
-    }
+    },
+    "retention_code": "AC",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -662,29 +725,32 @@
       "series_id": "BEN1180",
       "series_title": "Members - Month-End Balancing",
       "series_description": "Records related to the month-end balancing of withdrawal and annuity payments made on employee accounts. Includes withdrawal transfer reports, annuity change reports, and the hold report.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "CR",
+      "trigger_event": "4 years",
       "duration_years": 4,
       "duration_months": null,
-      "disposition": "4 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
-      "comments": null
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
+      "comments": ""
     },
     "state_specific_attributes": {
       "rsin": "6.0.000"
-    }
+    },
+    "retention_code": "",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -693,29 +759,32 @@
       "series_id": "BEN1200",
       "series_title": "Members - Retirement Processing",
       "series_description": "Records related to processing benefits for System members who are deceased or have retired and are receiving benefits. Does not include Retirement Number logs or the annuitants file.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
       "duration_years": 4,
       "duration_months": null,
-      "disposition": "After Closed plus 4 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
       "comments": "See BEN1040 for Annuitant File."
     },
     "state_specific_attributes": {
       "rsin": "6.0.000"
-    }
+    },
+    "retention_code": "AC",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -724,29 +793,32 @@
       "series_id": "BEN1220",
       "series_title": "Members - Transaction Processing",
       "series_description": "Records used to balance member employee accounts or to update service credit prior to distribution to individual member files.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "CR",
+      "trigger_event": "4 years",
       "duration_years": 4,
       "duration_months": null,
-      "disposition": "4 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
-      "comments": null
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
+      "comments": ""
     },
     "state_specific_attributes": {
       "rsin": "6.0.000"
-    }
+    },
+    "retention_code": "",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -755,29 +827,32 @@
       "series_id": "BEN1240",
       "series_title": "Members - Withdrawal Processing",
       "series_description": "Records related to processing applications for withdrawals to individual accounts of members who are no longer participants in TCDRS.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
       "duration_years": 75,
       "duration_months": null,
-      "disposition": "After Closed plus 75 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
-      "comments": null
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
+      "comments": ""
     },
     "state_specific_attributes": {
       "rsin": "6.0.000"
-    }
+    },
+    "retention_code": "AC",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -786,29 +861,32 @@
       "series_id": "BEN1260",
       "series_title": "Plan Administration - Administrative Reports",
       "series_description": "Reports and related records used to provide information on the management of member benefits.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "AV",
+      "trigger_event": "As Long as Administratively Valuable",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "As Long as Administratively Valuable",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
       "comments": "AV to be determined by Director of\nMember Services"
     },
     "state_specific_attributes": {
       "rsin": "6.0.000"
-    }
+    },
+    "retention_code": "AV",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -817,29 +895,32 @@
       "series_id": "BEN1280",
       "series_title": "Plan Administration - Prospective Employers - Non Participating",
       "series_description": "Records related to prospective employers communications and documents used in the determination of benefit eligibility. Includes all employers that did not become a participating employer. Excludes any employer who is a current member or joined TCDRS.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "CR",
+      "trigger_event": "6 years",
       "duration_years": 6,
       "duration_months": null,
-      "disposition": "6 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
       "comments": "See BEN1100 for Employers -\nOriginal Orders and Resolutions."
     },
     "state_specific_attributes": {
       "rsin": "6.0.000"
-    }
+    },
+    "retention_code": "",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -848,29 +929,32 @@
       "series_id": "BEN1300",
       "series_title": "Plan Administration - Rates and Calculation Factors",
       "series_description": "Records documenting rates and calculations related to plan administration.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
       "duration_years": 4,
       "duration_months": null,
-      "disposition": "After Closed plus 4 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
-      "comments": null
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
+      "comments": ""
     },
     "state_specific_attributes": {
       "rsin": "6.0.000"
-    }
+    },
+    "retention_code": "AC",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -879,29 +963,32 @@
       "series_id": "BEN1320",
       "series_title": "Plan Administration - Special Reports - External",
       "series_description": "Records related to the production of routine and special reports requested by employers.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "CR",
+      "trigger_event": "4 years",
       "duration_years": 4,
       "duration_months": null,
-      "disposition": "4 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
-      "comments": null
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
+      "comments": ""
     },
     "state_specific_attributes": {
       "rsin": "6.0.000"
-    }
+    },
+    "retention_code": "",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -910,29 +997,32 @@
       "series_id": "BEN1340",
       "series_title": "Plan Administration - Special Reports - Internal",
       "series_description": "Records related to the production of internal routine reports requested by TCDRS staff. Includes benefit plan actuarial reports use for benefit plan development.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "AV",
+      "trigger_event": "As Long as Administratively Valuable",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "As Long as Administratively Valuable",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
       "comments": "AV to be determined by Director of\nActuarial Services"
     },
     "state_specific_attributes": {
       "rsin": "6.0.000"
-    }
+    },
+    "retention_code": "AV",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -941,29 +1031,32 @@
       "series_id": "BEN1360",
       "series_title": "Terminated Members Lists",
       "series_description": "Listings and reports on member employees terminated from the System. Does not include terminated member file.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "CR",
+      "trigger_event": "8 years",
       "duration_years": 8,
       "duration_months": null,
-      "disposition": "8 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
       "comments": "See BEN1140 for Member File -\nActive and Inactive."
     },
     "state_specific_attributes": {
       "rsin": "6.0.000"
-    }
+    },
+    "retention_code": "",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -972,29 +1065,32 @@
       "series_id": "BEN1380",
       "series_title": "Year End Processing",
       "series_description": "Records related to year end processing and schedules. Includes production of estimates of retirement benefits for participating members' annual statement. Does not include individual member statements, which are in the member file. Includes annual statement testing plan, meeting notes, and processing schedules.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "CR",
+      "trigger_event": "4 years",
       "duration_years": 4,
       "duration_months": null,
-      "disposition": "4 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
       "comments": "See BEN1140 for Member File -\nActive and Inactive."
     },
     "state_specific_attributes": {
       "rsin": "6.0.000"
-    }
+    },
+    "retention_code": "",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -1006,26 +1102,29 @@
       "legal_citation": "Tex Gov't Code\n441.101 - 441.106;\nRequirement for\nInternet publication\nsee 13TAC§§3.1 -\n3.16"
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
       "duration_years": 2,
       "duration_months": null,
-      "disposition": "After Closed plus 2 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
       "comments": "CAUTION: Many state publications\nmust be submitted to the Texas\nState Publications Depository\nProgram, Texas State Library and\nArchives Commission. The Texas\nState Library and Archives\nCommission will retain a copy of all\nstate publications submitted to it\non a continuing basis, subject to\nperiodic evaluation to determine if\nthe publication merits further\nretention. Also see EXE1080 for\nComprehensive Annual Financial\nStatements and ADM1320 for\nStrategic Plans. See 2.1.007 for\ninteractive functions of website\nsuch as Benefits Calculator."
     },
     "state_specific_attributes": {
       "rsin": "1.3.001"
-    }
+    },
+    "retention_code": "AC",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -1034,29 +1133,32 @@
       "series_id": "COM1080",
       "series_title": "Training Materials Training and Development Programs - Employers and Members",
       "series_description": "Records related to TCDRS efforts to provide awareness, education, and training to employers and members regarding plan features such as employer contributions rates and member benefits, and other TCDRS services. Includes attendance lists, communications, presentations delivered through annual conference, employer visits, and member visits, webinars, and other educational methods. Does not include documents considered part of the official member, annuitant or employer record.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
       "duration_years": 3,
       "duration_months": null,
-      "disposition": "After Closed plus 3 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
       "comments": "TCDRS AC + 3 retention period\nexceeds TSL US + 1 for internal\nbusiness practices."
     },
     "state_specific_attributes": {
       "rsin": "1.1.043"
-    }
+    },
+    "retention_code": "AC",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -1065,29 +1167,32 @@
       "series_id": "COM2000",
       "series_title": "Mail and Telecommunication Listings General Mailings",
       "series_description": "Records related to TCDRS mailings. Any general mass mailing and individual customized mailing created as an activity, event, campaign from marketing software or third party printer to members, annuitants, employers, etc. Documents include copy of the publication, list of recipients, and point of delivery. Does not include mailings considered part of the official member, annuitant or employer record.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "US",
+      "trigger_event": "Superseded",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Until Superseded",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
-      "comments": null
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
+      "comments": ""
     },
     "state_specific_attributes": {
       "rsin": "5.1.004"
-    }
+    },
+    "retention_code": "US",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -1096,29 +1201,32 @@
       "series_id": "EXE1000",
       "series_title": "General Board of Trustees",
       "series_description": "Records related to appointments and termination of TCDRS Board of Trustees and Committees. These records also include the Board Governance and other Board policies documents.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "PM",
-      "duration_years": null,
+      "trigger_event": "Permanent",
+      "duration_years": 999,
       "duration_months": null,
-      "disposition": "Permanent",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
-      "comments": null
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
+      "comments": ""
     },
     "state_specific_attributes": {
       "rsin": "1.1.000"
-    }
+    },
+    "retention_code": "PM",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -1127,29 +1235,32 @@
       "series_id": "EXE1010",
       "series_title": "Executive Orders",
       "series_description": "Any document that initiates, rescinds, or amends a regulation, policy, or procedure that governs the programs, services, or projects of TCDRS.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "US",
+      "trigger_event": "Superseded",
       "duration_years": 3,
       "duration_months": null,
-      "disposition": "Until Superseded plus 3 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
       "comments": "Vital Record"
     },
     "state_specific_attributes": {
       "rsin": "1.1.011"
-    }
+    },
+    "retention_code": "US",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -1158,29 +1269,32 @@
       "series_id": "EXE1080",
       "series_title": "General TCDRS System Archives",
       "series_description": "Records documenting TCDRS' creation, structure, governance, development, significant events, plan documents, and key staff. Includes the Comprehensive Annual Financial Report (CAFR), enabling statutes and rules, IRS Determination Letters, etc.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "PM",
-      "duration_years": null,
+      "trigger_event": "Permanent",
+      "duration_years": 999,
       "duration_months": null,
-      "disposition": "Permanent",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
       "comments": "ARCHIVES NOTE: In the event that\nthe agency will no longer retain the\nrecords of this series permanently,\nafter retention is met those records\nwill be transferred to the Archives\nand Information Services Division,\nTexas State Library and Archives\nCommission."
     },
     "state_specific_attributes": {
       "rsin": "1.1.000"
-    }
+    },
+    "retention_code": "PM",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -1189,29 +1303,32 @@
       "series_id": "EXE1100",
       "series_title": "General Trustee Education",
       "series_description": "Records related to new trustee orientation, Pension Review Board (PRB) education requirements, and trustee fiduciary responsibilities.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
       "duration_years": 5,
       "duration_months": null,
-      "disposition": "After Closed plus 5 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
-      "comments": null
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
+      "comments": ""
     },
     "state_specific_attributes": {
       "rsin": "1.1.000"
-    }
+    },
+    "retention_code": "AC",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -1220,29 +1337,32 @@
       "series_id": "FAC1000",
       "series_title": "Inspection Records Air Quality Testing and Monitoring",
       "series_description": "Records related to monitoring, testing, and assessment of the air in the TCDRS building for the presence of contaminants or pollutants.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
       "duration_years": 3,
       "duration_months": null,
-      "disposition": "After Closed plus 3 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
       "comments": "CAUTION: Does not include\ninspection reports of building\nconstruction. See item number\n5.2.028."
     },
     "state_specific_attributes": {
       "rsin": "5.4.003"
-    }
+    },
+    "retention_code": "AC",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -1251,29 +1371,32 @@
       "series_id": "FAC1020B",
       "series_title": "Building Plans and Specifications",
       "series_description": "Records related to the design and construction of TCDRS building. Includes design documents such as drawings, blueprints, construction reports, and construction testing records.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "LA",
+      "trigger_event": "Life of Asset",
       "duration_years": 10,
       "duration_months": null,
-      "disposition": "Life of Asset plus 10 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
       "comments": "See also item number 5.1.001,\nFAC1100A for Contracts and Leases\n- Tenant Leasing Proposals and\n5.1.001, LEG1060B for Contracts\nand Leases - Real Estate Leases and\n5.2.028 for Building Construction\nContracts and Inspections Records\nVital Record"
     },
     "state_specific_attributes": {
       "rsin": "5.2.003"
-    }
+    },
+    "retention_code": "LA",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -1282,29 +1405,32 @@
       "series_id": "FAC1040",
       "series_title": "Equipment Manuals Maintenance Manuals and Technical Reference",
       "series_description": "Reference and technical instruction manuals provided by the manufacturer for products and building equipment used by TCDRS. Includes manuals and technical references for copiers, fax machines, postage meter, department equipment.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "LA",
+      "trigger_event": "Life of Asset",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Life of Asset",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
-      "comments": null
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
+      "comments": ""
     },
     "state_specific_attributes": {
       "rsin": "5.2.010"
-    }
+    },
+    "retention_code": "LA",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -1313,29 +1439,32 @@
       "series_id": "FAC1060A",
       "series_title": "Equipment History File Equipment Maintenance and Repair",
       "series_description": "Records related to routine and/or general maintenance and repair of building equipment. Records include equipment histories and work orders.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "LA",
+      "trigger_event": "Life of Asset",
       "duration_years": 3,
       "duration_months": null,
-      "disposition": "Life of Asset plus 3 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
       "comments": "For service agreements or\ncontracts related to equipment\nmaintenance, repairs and service,\nretain in accordance with item\nnumber 5.1.001."
     },
     "state_specific_attributes": {
       "rsin": "5.2.008"
-    }
+    },
+    "retention_code": "LA",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -1344,29 +1473,32 @@
       "series_id": "FAC1060C",
       "series_title": "Building Construction Contract and Inspection Records",
       "series_description": "Records related to construction and improvement contracts and agreements for improvement to real property. Includes all construction and property improvements bid documentation. Includes construction inspection documents. Also includes disputes that do not progress to litigation and claims.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "LA",
+      "trigger_event": "Life of Asset",
       "duration_years": 10,
       "duration_months": null,
-      "disposition": "Life of Asset plus 10 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
       "comments": "See also item number 5.1.001,\nFAC1100A for Contracts and Leases\n- Tenant Leasing Proposals and\n5.1.001, LEG1060B for Contracts\nand Leases - Real Estate Leases and\n5.2.002 for Building Construction\nProject Files Vital Record"
     },
     "state_specific_attributes": {
       "rsin": "5.2.028"
-    }
+    },
+    "retention_code": "LA",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -1375,29 +1507,32 @@
       "series_id": "FAC1080",
       "series_title": "Appraisals - Building or Property",
       "series_description": "Records related to the valuation of real property. These records may be used to evaluate real estate acquisitions. Includes land and building appraisals. Does not include contracts and agreements.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
       "duration_years": 4,
       "duration_months": null,
-      "disposition": "After Closed plus 4 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
       "comments": "TCDRS AC + 4 retention period\nexceeds TSL AV for internal\nbusiness practices. See 4.7.004 for\nContracts and Agreements - Real\nEstate Purchase and Sale. Vital\nRecord"
     },
     "state_specific_attributes": {
       "rsin": "5.2.001"
-    }
+    },
+    "retention_code": "AC",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -1406,29 +1541,32 @@
       "series_id": "FAC1120",
       "series_title": "Building Management Building Operations Report",
       "series_description": "Records documenting the monthly building operations. Report by the TCDRS management agency. The report generally includes the receipt of security deposits from tenants, tenant rent roll, general management and maintenance expenses.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
       "duration_years": 4,
       "duration_months": null,
-      "disposition": "After Closed plus 4 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
-      "comments": null
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
+      "comments": ""
     },
     "state_specific_attributes": {
       "rsin": "5.2.000"
-    }
+    },
+    "retention_code": "AC",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -1437,29 +1575,32 @@
       "series_id": "FAC1140",
       "series_title": "Evacuation Plans",
       "series_description": "Records related to the evacuation of the TCDRS building in cases of emergency. Includes any information of emergency preparedness.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "US",
+      "trigger_event": "Superseded",
       "duration_years": 1,
       "duration_months": null,
-      "disposition": "Until Superseded plus 1 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
       "comments": "TCDRS US + 1 retention period\nexceeds TSL US for internal\nbusiness practices."
     },
     "state_specific_attributes": {
       "rsin": "5.4.002"
-    }
+    },
+    "retention_code": "US",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -1468,29 +1609,32 @@
       "series_id": "HRB1020",
       "series_title": "Employee Insurance Records Benefit Enrollment and Participation - Disability Benefits",
       "series_description": "Records related to the application of continuing benefits distributed under ERS long term or short term disability benefit plans or the TCDRS short term disability benefit. Includes disability benefits review information, long-term benefit calculations, and appeals. Does not include disability retirement benefits granted by the TCDRS pension plan or medical records supporting a disability insurance claim.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
       "duration_years": 4,
       "duration_months": null,
-      "disposition": "After Closed plus 4 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
       "comments": "CAUTION: Documents that serve as\npayroll deduction authorizations\nmust maintained for the retention\nperiod prescribed for item number\n3.2.001. TCDRS AC + 4 retention\nperiod exceeds TSL AC for internal\nbusiness practices. See HRB1160\nfor Employee Disability Insurance\nBenefits - Medical Records,\nBEN1160 for Member File -\nDisability Retirement Medical\nRecords."
     },
     "state_specific_attributes": {
       "rsin": "3.1.011"
-    }
+    },
+    "retention_code": "AC",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -1499,29 +1643,32 @@
       "series_id": "HRB1040",
       "series_title": "Employee Insurance Records Benefit Enrollment and Participation - General",
       "series_description": "Records related to the enrollment and participation of employees in TCDRS benefits programs.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
       "duration_years": 4,
       "duration_months": null,
-      "disposition": "After Closed plus 4 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
       "comments": "CAUTION: Documents that serve as\npayroll deduction authorizations\nmust maintained for the retention\nperiod prescribed for item number\n3.2.001. TCDRS AC + 4 retention\nperiod exceeds TSL AC for internal\nbusiness practices. See HRB1060\nfor Benefit Enrollment and\nParticipation - Loan Applications,\nHRB1080 for Benefit Enrollment\nand Participation - Pension\nSummary Records."
     },
     "state_specific_attributes": {
       "rsin": "3.1.011"
-    }
+    },
+    "retention_code": "AC",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -1530,29 +1677,32 @@
       "series_id": "HRB1060",
       "series_title": "Employee Benefits - Other than Insurance Benefit Enrollment and Participation - Loan Applications",
       "series_description": "Records related to money borrowed by an employee against their 457 deferred compensation plan. Includes employee loan applications and related correspondence.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
       "duration_years": 4,
       "duration_months": null,
-      "disposition": "After Closed plus 4 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
       "comments": "CAUTION: Documents that serve as\npayroll deduction authorizations\nmust be maintained for the\nretention period prescribed for\nitem number 3.2.001 TCDRS AC + 4\nretention period exceeds TSL AC\nfor internal business practices. Vital\nRecord"
     },
     "state_specific_attributes": {
       "rsin": "3.1.031"
-    }
+    },
+    "retention_code": "AC",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -1561,29 +1711,32 @@
       "series_id": "HRB1080",
       "series_title": "Employee Benefits - Other than Insurance Benefit Enrollment and Participation - Pension Summary Records",
       "series_description": "Records summarizing employee enrollment and participation in TCDRS- sponsored pension program.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
       "duration_years": 75,
       "duration_months": null,
-      "disposition": "After Closed plus 75 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
       "comments": "CAUTION: Documents that serve as\npayroll deduction authorizations\nmust be maintained for the\nretention period prescribed for\nitem number 3.2.001.TCDRS AC +\n75 retention period exceeds TSL AC\n+ 2 for internal business practices.\nVital Record"
     },
     "state_specific_attributes": {
       "rsin": "3.1.031"
-    }
+    },
+    "retention_code": "AC",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -1592,29 +1745,32 @@
       "series_id": "HRB1160",
       "series_title": "Employee Insurance Employee Disability Insurance Benefits - Medical Records",
       "series_description": "Medical records submitted to support the application and decision making process of a TCDRS employee's short term or long term disability insurance claim. Includes doctor statement and all supporting medical records. Excludes records related to disability retirement.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
       "duration_years": 5,
       "duration_months": null,
-      "disposition": "After Closed plus 5 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
       "comments": "CAUTION: Documents that serve as\npayroll deduction authorizations\nmust be maintained for the\nretention period prescribed for\nitem number 3.2.001 TCDRS AC + 5\nretention period exceeds TSL AC\nfor internal business practices. See\nBEN1160 for Member File -\nDisability Retirement Medical\nRecords."
     },
     "state_specific_attributes": {
       "rsin": "3.1.011"
-    }
+    },
+    "retention_code": "AC",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -1623,29 +1779,32 @@
       "series_id": "HRB1180",
       "series_title": "Employee Benefits - Other than Insurance Health Reimbursement Account (HRA) Claims",
       "series_description": "Records related to claims filed by employees for payment from the TCDRS funded and administered Health Reimbursement Account (HRA). Includes fund accumulation and payment reports, claims forms, and supporting documentation.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
       "duration_years": 5,
       "duration_months": null,
-      "disposition": "After Closed plus 5 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
       "comments": "CAUTION: Documents that serve as\npayroll deduction authorization\nmust be maintained for the\nretention period prescribed for\nitem number 3.2.001. TCDRS AC + 5\nretention period exceeds TSL AC +\n2 for internal business practices.\nThis is not insurance. Vital Record"
     },
     "state_specific_attributes": {
       "rsin": "3.1.031"
-    }
+    },
+    "retention_code": "AC",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -1654,29 +1813,32 @@
       "series_id": "HRE1000",
       "series_title": "Personnel Administration Compensation Planning",
       "series_description": "Records related to the determination and monitoring of salary structures, incentive programs, and job classifications and placement. Includes incentive pay programs documentation and wage and benefit surveys.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
       "duration_years": 5,
       "duration_months": null,
-      "disposition": "After Closed plus 5 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
-      "comments": null
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
+      "comments": ""
     },
     "state_specific_attributes": {
       "rsin": "3.3.000"
-    }
+    },
+    "retention_code": "AC",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -1685,29 +1847,32 @@
       "series_id": "HRE1020",
       "series_title": "General Employee Communications",
       "series_description": "Records related to employee announcements and other informative communications.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "CR",
+      "trigger_event": "3 years",
       "duration_years": 3,
       "duration_months": null,
-      "disposition": "3 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
-      "comments": null
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
+      "comments": ""
     },
     "state_specific_attributes": {
       "rsin": "1.1.000"
-    }
+    },
+    "retention_code": "",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -1719,26 +1884,29 @@
       "legal_citation": "26 CFR 1602.31\n[State Agencies]"
     },
     "retention_rules": {
-      "trigger_event": "CR",
+      "trigger_event": "3 years",
       "duration_years": 3,
       "duration_months": null,
-      "disposition": "3 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
       "comments": "TCDRS 3 yr retention period\nexceeds TSL 2 yr for internal\nbusiness practices."
     },
     "state_specific_attributes": {
       "rsin": "3.1.001"
-    }
+    },
+    "retention_code": "",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -1750,26 +1918,29 @@
       "legal_citation": "29 CFR 1602.31\n[State Agencies]"
     },
     "retention_rules": {
-      "trigger_event": "CR",
+      "trigger_event": "3 years",
       "duration_years": 3,
       "duration_months": null,
-      "disposition": "3 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
       "comments": "TCDRS 3 yr retention period\nexceeds TSL 2 for internal business\npractices. See 3.1.014 HRE1060B"
     },
     "state_specific_attributes": {
       "rsin": "3.1.012"
-    }
+    },
+    "retention_code": "",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -1781,26 +1952,29 @@
       "legal_citation": "29 CFR 1602.31\n[State Agencies]"
     },
     "retention_rules": {
-      "trigger_event": "CR",
+      "trigger_event": "3 years",
       "duration_years": 3,
       "duration_months": null,
-      "disposition": "3 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
       "comments": "TCDRS 3 yr retention period\nexceeds TSL 2 for internal business\npractices. See 3.1.012 HRE1060A\nContains records found within\nrecords series 3.1.026 Criminal\nHistory Checks Vital Record"
     },
     "state_specific_attributes": {
       "rsin": "3.1.014"
-    }
+    },
+    "retention_code": "",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -1809,29 +1983,32 @@
       "series_id": "HRE1080B",
       "series_title": "Personnel Corrective Action Documentation Employee Situations",
       "series_description": "Corrective actions are those actions which do not affect pay, status, or tenure and are imposed to correct or improve an employee's job performance.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
       "duration_years": 5,
       "duration_months": null,
-      "disposition": "After Closed plus 5 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
       "comments": "CAUTION: If during the retention\nperiod of this records series, any\npart of this series issued to\ndocument and support personnel\ndisciplinary action under item\nnumber 3.1.021, all documentation\nfrom this series used to support\ndisciplinary action must be retained\nfor the minimum retention period\ndescribed by item number 3.1.021.\nSee 3.1.018 HRE1080A, 3.1.021\nHRE1080C"
     },
     "state_specific_attributes": {
       "rsin": "3.1.020"
-    }
+    },
+    "retention_code": "AC",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -1840,29 +2017,32 @@
       "series_id": "HRE1080C",
       "series_title": "Personnel Disciplinary Action Documentation Employee Situations",
       "series_description": "Disciplinary actions are those actions which may affect pay, status, or tenure. They are imposed to discipline an employee whose conduct is harmful to the best interests of the state, the agency, or the employee work force, and for failure to improve performance or conduct following imposition of corrective action. May include cause for demotion, suspension, or dismissal, and the reasons for failure to give written notice of resignation. May also be used to document evidence of employee self- improvement efforts, as well as favorable and unfavorable communication.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
       "duration_years": 5,
       "duration_months": null,
-      "disposition": "After Closed plus 5 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
       "comments": "See 3.1.08 HRE1080A, 3.1.020\nHRE1080B Vital Record"
     },
     "state_specific_attributes": {
       "rsin": "3.1.021"
-    }
+    },
+    "retention_code": "AC",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -1874,26 +2054,29 @@
       "legal_citation": "29 CFR 1602.32,\n1605.39, 1602.41,\n1602.48, and\n1605.50"
     },
     "retention_rules": {
-      "trigger_event": "CR",
+      "trigger_event": "6 years",
       "duration_years": 6,
       "duration_months": null,
-      "disposition": "6 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
       "comments": "See 1.1.070, 1.2.005, 3.3.024,\n4.7.001 for Policies, Programs, and\nProcedures. TCDRS 6 yr retention\nperiod exceeds TSL 3 for internal\nbusiness practices."
     },
     "state_specific_attributes": {
       "rsin": "3.3.031"
-    }
+    },
+    "retention_code": "",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -1905,26 +2088,29 @@
       "legal_citation": "40 TAC 815.106(i)"
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
       "duration_years": 6,
       "duration_months": null,
-      "disposition": "After Closed plus 6 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
       "comments": "TCDRS AC + 6 retention period\nexceeds TSL AC + 4 for internal\nbusiness practices. Vital Record"
     },
     "state_specific_attributes": {
       "rsin": "3.1.023"
-    }
+    },
+    "retention_code": "AC",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -1936,26 +2122,29 @@
       "legal_citation": "29 CFR 1602.31\n[State Agencies]"
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
       "duration_years": 5,
       "duration_months": null,
-      "disposition": "After Closed plus 5 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
       "comments": "CAUTION: Does not include\ncriminal history checks. TCDRS AC +\n5 retention period exceeds TSL 2 yr\nfor internal business practices. See\n3.1.019 for Performance\nEvaluation, 3.1.024 for Medical\nReports, 3.4.007 for Medical\nLeaves of Absence, 3.4.007 for Non-\nMedical Leaves of Absence. See\n3.1.013 HRE1220B, 3.1.038\nHRE1220D, 3.3.011 HRE1220E Vital\nRecord"
     },
     "state_specific_attributes": {
       "rsin": "3.1.014"
-    }
+    },
+    "retention_code": "AC",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -1964,29 +2153,32 @@
       "series_id": "HRE1240",
       "series_title": "Time Off and/or Sick Leave Request Personnel Files - Medical Leaves of Absence",
       "series_description": "Records related to time taken off by an employee for medical reasons. Includes doctor's authorizations for time off and work directives, and FMLA requests.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
       "duration_years": 5,
       "duration_months": null,
-      "disposition": "After Closed plus 5 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
       "comments": "TCDRS AC + 5 retention period\nexceeds TSL FE + 3 for internal\nbusiness practices. Contains\nrecords found within records series\n3.4.002 Leave Status Reports"
     },
     "state_specific_attributes": {
       "rsin": "3.4.007"
-    }
+    },
+    "retention_code": "AC",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -1995,29 +2187,32 @@
       "series_id": "HRE1260",
       "series_title": "Physical Examinations/Medical Reports",
       "series_description": "Records documenting individual employee and contractor medical history.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
       "duration_years": 5,
       "duration_months": null,
-      "disposition": "After Closed plus 5 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
       "comments": "CAUTION: Does not include pre-\nemployment physical\nexaminations. See item number\n3.1.014 See BEN1160 for Member\nFile - Disability Retirement Medical\nRecords. See HRB1160 for\nEmployee Disability Insurance\nBenefits - Medical Records. See\n5.4.001 for Injuries and Accidents\nTCDRS AC + 5 retention period\nexceeds TSL AC + 2 for internal\nbusiness practices."
     },
     "state_specific_attributes": {
       "rsin": "3.1.024"
-    }
+    },
+    "retention_code": "AC",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -2026,29 +2221,32 @@
       "series_id": "HRE1280",
       "series_title": "Time Off and/or Sick Leave Request Personnel Files - Non-Medical Leaves of Absence",
       "series_description": "Records related to time taken off by an employee for reasons other than medical. Includes employee leave of absence requests and approvals.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
       "duration_years": 5,
       "duration_months": null,
-      "disposition": "After Closed plus 5 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
       "comments": "TCDRS AC + 5 retention period\nexceeds TSL FE + 3 for internal\nbusiness practices. Contains\nrecords found within records series\n3.4.002 Leave Status Reports"
     },
     "state_specific_attributes": {
       "rsin": "3.4.007"
-    }
+    },
+    "retention_code": "AC",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -2060,26 +2258,29 @@
       "legal_citation": "29 CFR 1620.32 (c)"
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
       "duration_years": 5,
       "duration_months": null,
-      "disposition": "After Closed plus 5 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
       "comments": "TCDRS AC + 5 retention period\nexceeds TSL 2 for internal business\npractices."
     },
     "state_specific_attributes": {
       "rsin": "3.1.019"
-    }
+    },
+    "retention_code": "AC",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -2088,29 +2289,32 @@
       "series_id": "HRE1380",
       "series_title": "Employee Deduction Authorizations Court and Governmental Orders",
       "series_description": "Records related to divorce, POAs, garnishment orders, and other levies received from the court regarding specific TCDRS employees. Includes the court order and related correspondence. Does not include court and government orders received regarding TCDRS members.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
       "duration_years": 4,
       "duration_months": null,
-      "disposition": "After Closed plus 4 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
       "comments": "Vital Record"
     },
     "state_specific_attributes": {
       "rsin": "3.2.001"
-    }
+    },
+    "retention_code": "AC",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -2119,29 +2323,32 @@
       "series_id": "HRE1400",
       "series_title": "Unemployment Compensation Records",
       "series_description": "Records submitted to state unemployment divisions containing employment and wage information for terminated employees who are requesting unemployment insurance work papers.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "FE",
+      "trigger_event": "Fiscal Year End",
       "duration_years": 5,
       "duration_months": null,
-      "disposition": "Fiscal Year End plus 5 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
       "comments": "TCDRS FE + 5 retention period\nexceeds TSL AC + 5 for internal\nbusiness practices."
     },
     "state_specific_attributes": {
       "rsin": "3.2.007"
-    }
+    },
+    "retention_code": "FE",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -2150,29 +2357,32 @@
       "series_id": "INT1140",
       "series_title": "Investment Trustee Education",
       "series_description": "Records related to trustee fiduciary responsibilities and due diligence reviews. Includes trip files and investment manager visits.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
       "duration_years": 5,
       "duration_months": null,
-      "disposition": "After Closed plus 5 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
-      "comments": null
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
+      "comments": ""
     },
     "state_specific_attributes": {
       "rsin": "1.1.000"
-    }
+    },
+    "retention_code": "AC",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -2181,29 +2391,32 @@
       "series_id": "INT1160",
       "series_title": "Legal Projects and Analysis - Investments",
       "series_description": "Legal research and related workpapers for various investment subjects and projects. Excludes legal opinions documenting specific litigation.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "PM",
-      "duration_years": null,
+      "trigger_event": "Permanent",
+      "duration_years": 999,
       "duration_months": null,
-      "disposition": "Permanent",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
       "comments": "See 1.1.048 for Hearings and\nLitigation - Litigation"
     },
     "state_specific_attributes": {
       "rsin": "1.1.000"
-    }
+    },
+    "retention_code": "PM",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -2212,29 +2425,32 @@
       "series_id": "INT3300",
       "series_title": "Personnel Administration Investments Compensation Planning",
       "series_description": "Records related to the determination and monitoring of salary structures, incentive programs, and job classifications and placement. Includes incentive pay programs documentation and wage and benefit surveys.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
       "duration_years": 5,
       "duration_months": null,
-      "disposition": "After Closed plus 5 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
-      "comments": null
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
+      "comments": ""
     },
     "state_specific_attributes": {
       "rsin": "3.3.000"
-    }
+    },
+    "retention_code": "AC",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -2243,29 +2459,32 @@
       "series_id": "INT4720",
       "series_title": "Other Fiscal Investments Banking - Custodian Operations",
       "series_description": "Records related to the custodian including changes in management, legal filings for tax reclaim, procedures, collateral information, STIF holdings updates, STIF Investment Guidelines, etc.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
       "duration_years": 4,
       "duration_months": null,
-      "disposition": "After Closed plus 4 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
-      "comments": null
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
+      "comments": ""
     },
     "state_specific_attributes": {
       "rsin": "4.7.000"
-    }
+    },
+    "retention_code": "AC",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -2274,29 +2493,32 @@
       "series_id": "INT5120",
       "series_title": "Office Procedures Investment Accounting Policies and Procedures Manual",
       "series_description": "Any internally distributed manual, guidelines, or similar records that establish standard office procedures for TCDRS. For example: Investments Department Policies and Procedures Manual.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "US",
+      "trigger_event": "Superseded",
       "duration_years": 1,
       "duration_months": null,
-      "disposition": "Until Superseded plus 1 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
-      "comments": null
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
+      "comments": ""
     },
     "state_specific_attributes": {
       "rsin": "5.1.014"
-    }
+    },
+    "retention_code": "US",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -2305,29 +2527,32 @@
       "series_id": "INT6000",
       "series_title": "Investment Management Reporting",
       "series_description": "Reports and documents providing useful accounting and financial information to management. These records are not part of accounting transaction processing or financial statement functions.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "AV",
+      "trigger_event": "As Long as Administratively Valuable",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "As Long as Administratively Valuable",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
-      "comments": null
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
+      "comments": ""
     },
     "state_specific_attributes": {
       "rsin": "6.0.000"
-    }
+    },
+    "retention_code": "AV",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -2336,29 +2561,32 @@
       "series_id": "ISY1100",
       "series_title": "System Monitoring Records Technical Support Request",
       "series_description": "Records related to external customer and internal employee requests for technical support. These records identify the requestor's concern or request for support and identify TCDRS response and resolution. Includes help desk records, problem tacking documentation, telecommunications service requests.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "CR",
+      "trigger_event": "3 years",
       "duration_years": 3,
       "duration_months": null,
-      "disposition": "3 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
       "comments": "TCDRS 3 yr retention period\nexceeds TSL AV for internal\nbusiness practices."
     },
     "state_specific_attributes": {
       "rsin": "2.2.001"
-    }
+    },
+    "retention_code": "",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -2367,29 +2595,32 @@
       "series_id": "LEG1100",
       "series_title": "General Copyrights and Trademarks",
       "series_description": "Records related to the registration and maintenance of TCDRS copyrights and trademarks. Includes copyright registrations and copyright permissions letters.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
       "duration_years": 6,
       "duration_months": null,
-      "disposition": "After Closed plus 6 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
-      "comments": null
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
+      "comments": ""
     },
     "state_specific_attributes": {
       "rsin": "1.1.000"
-    }
+    },
+    "retention_code": "AC",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -2398,29 +2629,32 @@
       "series_id": "LEG1160A",
       "series_title": "Litigation Files Hearings and Litigation - Litigation",
       "series_description": "Records related to threatened or asserted litigation regarding non-investment and investment matters. Includes pleadings, discovery, attorney work products, legal opinions, transcripts, exhibits, final judgments, settlements, court orders, and other documents specifying final terms, conditions, and decisions related to claims and litigation.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
       "duration_years": 6,
       "duration_months": null,
-      "disposition": "After Closed plus 6 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
       "comments": "ARCHIVES NOTE Cases that set\nlegal precedent or exhibit historical\nvalue will be evaluated by the\nArchives and Information Services\nDivision of the Texas State Library\nand Archives Commission for\narchival preservation. TCDRS AC + 6\nretention period exceeds TSL AC+ 1\nfor internal business practices."
     },
     "state_specific_attributes": {
       "rsin": "1.1.048"
-    }
+    },
+    "retention_code": "AC",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -2429,29 +2663,32 @@
       "series_id": "LEG1200",
       "series_title": "Legal Projects and Analysis - General",
       "series_description": "Legal research and related workpapers for various subjects and projects related to TCDRS business. Excludes legal opinions documenting specific litigation.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
       "duration_years": 10,
       "duration_months": null,
-      "disposition": "After Closed plus 10 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
       "comments": "See 1.1.048 for Hearings and\nLitigation - Litigation See 1.1.027\nfor Proposed Legislation - Legal\nProjects and Analysis - Proposed\nLegislation and 1.1.014 for Legal\nProjects and Analysis - Legal\nOpinions."
     },
     "state_specific_attributes": {
       "rsin": "1.1.000"
-    }
+    },
+    "retention_code": "AC",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -2460,29 +2697,32 @@
       "series_id": "LEG1280",
       "series_title": "Texas Register Submissions",
       "series_description": "Records related to proposed, withdrawn, emergency, and adopted rules; open meeting notices; or any other documents required by law to be submitted to the Texas Register.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
       "duration_years": 1,
       "duration_months": null,
-      "disposition": "After Closed plus 1 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
-      "comments": null
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
+      "comments": ""
     },
     "state_specific_attributes": {
       "rsin": "1.1.026"
-    }
+    },
+    "retention_code": "AC",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -2491,29 +2731,32 @@
       "series_id": "LEG1300",
       "series_title": "Proposed Legislation Legal Projects and Analysis - Proposed Legislation",
       "series_description": "Records documenting proposed legislation affecting TCDRS. Includes drafts analyses, workpapers, studies, fiscal notes, economic studies, bill analyses, etc.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "CR",
+      "trigger_event": "5 years",
       "duration_years": 5,
       "duration_months": null,
-      "disposition": "5 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
       "comments": "See 1.1.000 for Legal Projects and\nAnalysis - General and 1.1.014 for\nLegal Projects and Analysis - Legal\nOpinions. TCDRS 5 yr. retention\nperiod exceeds TSL AV for internal\nbusiness practices."
     },
     "state_specific_attributes": {
       "rsin": "1.1.027"
-    }
+    },
+    "retention_code": "",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -2525,26 +2768,29 @@
       "legal_citation": "40 TAC 815.106(i)"
     },
     "retention_rules": {
-      "trigger_event": "FE",
+      "trigger_event": "Fiscal Year End",
       "duration_years": 4,
       "duration_months": null,
-      "disposition": "Fiscal Year End plus 4 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
       "comments": "Contains records found within\nrecords series 3.2.004 Income\nadjustment Authorizations and\n3.2.005 W-4 Forms and 3.2.008\nDirect Deposit Authorizations and\nTCDRS FE + 4 retention period\nexceeds TSL AC + 4 for internal\nbusiness practices. Vital Record"
     },
     "state_specific_attributes": {
       "rsin": "3.2.002"
-    }
+    },
+    "retention_code": "FE",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -2553,29 +2799,32 @@
       "series_id": "PUB1000",
       "series_title": "Industry Relations",
       "series_description": "Records related to TCDRS relations and interactions with other pension funds or industry and professional organizations, speaking engagements (legislative testimony), etc. Includes correspondence, presentations, papers, speeches created specifically with or for other pension funds, industry and professional associations, and speaking engagements.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "AV",
+      "trigger_event": "As Long as Administratively Valuable",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "As Long as Administratively Valuable",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
       "comments": "AV to be determined by the\nDirector of Communications or the\nowner of the Copy of Record See\nPUB1040 for Public Relations,\nCOM1060 for State Publications"
     },
     "state_specific_attributes": {
       "rsin": "6.0.000"
-    }
+    },
+    "retention_code": "AV",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -2584,29 +2833,32 @@
       "series_id": "RSK1000",
       "series_title": "Insurance Analysis and Reporting",
       "series_description": "Records related to the analysis and summary of TCDRS insurance programs. Includes insurance policies coverage reports and insurance risk analysis.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "AV",
+      "trigger_event": "As Long as Administratively Valuable",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "As Long as Administratively Valuable",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
       "comments": "AV to be determined by Director of\nAdministrative Services"
     },
     "state_specific_attributes": {
       "rsin": "5.4.000"
-    }
+    },
+    "retention_code": "AV",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -2615,29 +2867,32 @@
       "series_id": "RSK1020",
       "series_title": "Insurance Certificates",
       "series_description": "Records related to legal proof of insurance coverage. Includes certificates of insurance provided to TCDRS by vendors, tenants and TCDRS issued insurance certificates.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
       "duration_years": 15,
       "duration_months": null,
-      "disposition": "After Closed plus 15 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
-      "comments": null
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
+      "comments": ""
     },
     "state_specific_attributes": {
       "rsin": "5.4.000"
-    }
+    },
+    "retention_code": "AC",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -2646,29 +2901,32 @@
       "series_id": "RSK1040",
       "series_title": "Insurance Claims",
       "series_description": "Records related to claims filed against TCDRS for a wide variety of liability exposure, includes general claims and claims specific to physical damage or loss of property or the loss of the property's income-producing abilities. Also includes liability claim notifications and settlement documents.",
-      "legal_citation": null
+      "legal_citation": ""
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
       "duration_years": 15,
       "duration_months": null,
-      "disposition": "After Closed plus 15 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
       "comments": "See 5.4.001 for Insurance Claims -\nWorkers' Compensation Claims."
     },
     "state_specific_attributes": {
       "rsin": "5.4.000"
-    }
+    },
+    "retention_code": "AC",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -2680,26 +2938,29 @@
       "legal_citation": "26 CFR 31.6001 -\n1(e)(2)"
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
       "duration_years": 6,
       "duration_months": null,
-      "disposition": "After Closed plus 6 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
       "comments": "TCDRS AC + 6 retention period\nexceeds TSL AC + 4 for internal\nbusiness practices. Vital Record"
     },
     "state_specific_attributes": {
       "rsin": "3.2.003"
-    }
+    },
+    "retention_code": "AC",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -2711,26 +2972,29 @@
       "legal_citation": "26 CFR 31.6001 -\n1(e)(2)"
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
       "duration_years": 6,
       "duration_months": null,
-      "disposition": "After Closed plus 6 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
       "comments": "TCDRS AC + 6 retention period\nexceeds TSL AC + 4 for internal\nbusiness practices. Vital Record"
     },
     "state_specific_attributes": {
       "rsin": "3.2.003"
-    }
+    },
+    "retention_code": "AC",
+    "retention_weeks": "",
+    "retention_days": ""
   },
   {
     "schedule_metadata": {
       "state": "tx",
-      "agency_name": "County and District Retirement System",
+      "agency_name": "",
       "schedule_type": "specific",
       "schedule_id": "046",
       "url": "https://www.tsl.texas.gov/sites/default/files/public/tslac/slrm/state/schedules/046.pdf"
@@ -2742,20 +3006,23 @@
       "legal_citation": "26 CFR 31.6001 -\n1(e)(2)"
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Closed (or terminated, completed, expired, or settled)",
       "duration_years": 6,
       "duration_months": null,
-      "disposition": "After Closed plus 6 years",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
-      "last_updated_by_state": "2020-06-03",
-      "next_update_due": "2025-06",
+      "last_checked": "2026-03-30",
+      "last_updated_by_state": "",
+      "next_update_due": "",
       "comments": "TCDRS AC + 6 retention period\nexceeds TSL AC + 4 for internal\nbusiness practices. Vital Record"
     },
     "state_specific_attributes": {
       "rsin": "3.2.003"
-    }
+    },
+    "retention_code": "AC",
+    "retention_weeks": "",
+    "retention_days": ""
   }
 ]

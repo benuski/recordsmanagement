@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Electronic: Update and maintain these records on AS/400 computer database system ; Microform: updated master in appropriate storage facility . updated master diazo in operating area ; Paper: hard copy in operating area records become inactive",
       "duration_years": 50,
       "duration_months": null,
-      "disposition": "Electronic: Update and maintain these records on the AS/400 computer database system for 50 years ; Microform: Retain updated master in appropriate storage facility for 50 years. Retain updated master diazo in operating area for 50 years ; Paper: Retain hard copy in operating area until records become inactive, then microfilm. After microfilm has been checked for quality and completeness, then destroy hard copy records, Electronic: Erase ; Microform: Wastepaper ; Paper: Wastepaper",
+      "disposition_method": "Electronic: Erase ; Microform: Wastepaper ; Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2008-11-07",
       "next_update_due": null,
       "comments": null

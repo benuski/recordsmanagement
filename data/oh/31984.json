@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Paper: scanned and/or data entered ; Electronic: debt satisfied. If debt not satisfied, debt written off",
       "duration_years": 5,
       "duration_months": null,
-      "disposition": "Paper: Until scanned and/or data entered ; Electronic: 5 years after debt satisfied. If debt not satisfied, 5 years after debt written off, Paper: Shred ; Electronic: Delete",
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2013-12-30",
       "next_update_due": null,
       "comments": null

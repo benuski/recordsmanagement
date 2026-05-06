@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "PM",
+      "trigger_event": "Electronic: permanently ; Paper: paper case is closed and no further appeals can be filed. If case is dismissed without prejudice, 1 year statute of limitations runs. Scan electronic form permanent retention",
       "duration_years": 999,
       "duration_months": null,
-      "disposition": "Electronic: Retain permanently ; Paper: Retain paper 2 years after case is closed and no further appeals can be filed. If case is dismissed without prejudice, retain 1 year after statute of limitations runs. Scan to electronic form for permanent retention. Then review by State Archives prior to disposal., Electronic: Permanent ; Paper: Trash",
+      "disposition_method": "Electronic: Permanent ; Paper: Trash",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2004-09-20",
       "next_update_due": null,
       "comments": null

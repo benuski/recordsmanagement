@@ -14,14 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Electronic: audit is complete and all issues resolved. ; Paper: audit is complete and all issues resolved",
       "duration_years": 1,
       "duration_months": null,
-      "disposition": "Electronic: Retain for 1 year after audit is complete and all issues resolved. ; Paper: Retain for 1 year after audit is complete and all issues resolved., Electronic: Delete ; Paper: Trash",
+      "disposition_method": "Electronic: Delete ; Paper: Trash",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-31",
       "last_updated_by_state": "2018-03-12",
       "next_update_due": null,
       "comments": null

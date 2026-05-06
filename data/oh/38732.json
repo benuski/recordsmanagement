@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CE",
+      "trigger_event": "Paper: two years end of calendar year in which Commissioner resigns or term expires. ; Electronic: two years end of calendar year in which Commissioner resigns or term expires",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Paper: Retain two years after the end of the calendar year in which Commissioner resigns or term expires. ; Electronic: Retain two years after the end of the calendar year in which Commissioner resigns or term expires., Paper: Wastepaper ; Electronic: Delete",
+      "disposition_method": "Paper: Wastepaper ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2020-03-05",
       "next_update_due": null,
       "comments": null

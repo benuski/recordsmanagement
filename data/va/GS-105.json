@@ -14,14 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "sale or",
       "duration_years": 3,
       "duration_months": null,
-      "disposition": "Retain 3 years after sale or transfer, then destroy.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-30",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -45,14 +45,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "last entry",
       "duration_years": 3,
       "duration_months": null,
-      "disposition": "Retain 3 years after last entry, then destroy.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-30",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -76,14 +76,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "receipt date",
       "duration_years": 3,
       "duration_months": null,
-      "disposition": "Retain 3 years after receipt date, then destroy.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-30",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -107,14 +107,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "receipt date",
       "duration_years": 3,
       "duration_months": null,
-      "disposition": "Retain 3 years after receipt date, then destroy.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-30",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -138,14 +138,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "report submission",
       "duration_years": 1,
       "duration_months": null,
-      "disposition": "Retain 1 year after report submission, then destroy.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-30",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -169,14 +169,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "case closure or last action, whichever is greater",
       "duration_years": 5,
       "duration_months": null,
-      "disposition": "Retain 5 years after case closure or last action, whichever is greater; then destroy.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-30",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -200,14 +200,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
+      "trigger_event": "as long as administratively necessary",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Retain as long as administratively necessary, then destroy.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-30",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -231,14 +231,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
+      "trigger_event": "Retain 3 years, then destroy.",
       "duration_years": 3,
       "duration_months": null,
-      "disposition": "Retain 3 years, then destroy.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-30",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -262,14 +262,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "last entry or action",
       "duration_years": 3,
       "duration_months": null,
-      "disposition": "Retain 3 years after last entry or action, then destroy.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-30",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -293,14 +293,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
+      "trigger_event": "disposal of vehicle",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Retain until disposal of vehicle, then destroy.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-30",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -324,14 +324,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "disposal of vehicle",
       "duration_years": 3,
       "duration_months": null,
-      "disposition": "Retain 3 years after disposal of vehicle, then destroy.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-30",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -355,14 +355,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "report date",
       "duration_years": 3,
       "duration_months": null,
-      "disposition": "Retain 3 years after report date, then destroy.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-30",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -386,14 +386,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "last entry",
       "duration_years": 2,
       "duration_months": null,
-      "disposition": "Retain 2 years after last entry, then destroy.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-30",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -417,14 +417,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "last entry",
       "duration_years": 2,
       "duration_months": null,
-      "disposition": "Retain 2 years after last entry, then destroy.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-30",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -448,14 +448,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "last action",
       "duration_years": null,
       "duration_months": 3,
-      "disposition": "Retain 3 months after last action, then destroy.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-30",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -479,14 +479,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "reassignment or return",
       "duration_years": 2,
       "duration_months": null,
-      "disposition": "Retain 2 years after reassignment or return, then destroy.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-30",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -510,14 +510,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
+      "trigger_event": "registration renewed or disposal of vehicle",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Retain until registration renewed or disposal of vehicle, then destroy.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-30",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -541,14 +541,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "inspection",
       "duration_years": 2,
       "duration_months": null,
-      "disposition": "Retain 2 years after inspection, then destroy.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-30",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -572,14 +572,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
+      "trigger_event": "next reinspection completed, or with vehicle",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Retain until next reinspection completed, then destroy or transfer with vehicle.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-30",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -603,14 +603,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "submission",
       "duration_years": 3,
       "duration_months": null,
-      "disposition": "Retain 3 years after submission, then destroy.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-30",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -634,14 +634,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "last action or vehicle disposed of, whichever is greater",
       "duration_years": 3,
       "duration_months": null,
-      "disposition": "Retain 3 years after last action or until vehicle disposed of, whichever is greater; then destroy.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-30",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null
@@ -665,14 +665,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
+      "trigger_event": "with vehicle upon disposal of vehicle",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Transfer with vehicle upon disposal of vehicle.",
+      "disposition_method": "",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-30",
       "last_updated_by_state": null,
       "next_update_due": null,
       "comments": null

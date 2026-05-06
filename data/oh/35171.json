@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Paper: paper files date of birth child residing at home. Some files were digitized; yet originals are still in paper format. electronic format, date of birth child residing at home. ; Electronic: paper files date of birth child residing at home. Some files were digitized; yet originals are still in paper format. electronic format, date of birth child residing at home",
       "duration_years": 50,
       "duration_months": null,
-      "disposition": "Paper: Retain paper files for 50 years after the date of birth for the child residing at the home. Some files were digitized; yet the originals are still in paper format. For the electronic format, retain for 50 years after the date of birth for the child residing at the home. ; Electronic: Retain paper files for 50 years after the date of birth for the child residing at the home. Some files were digitized; yet the originals are still in paper format.For the electronic format, retain for 50 years after the date of birth for the child residing at the home., Paper: Recycle ; Electronic: Delete",
+      "disposition_method": "Paper: Recycle ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2021-01-19",
       "next_update_due": null,
       "comments": null

@@ -8,7 +8,7 @@ logger = logging.getLogger(__name__)
 
 def tx_worker(pdf_path: Path, output_dir: Path, agency_mapping: dict, schema: dict, config, skip_ocr: bool):
     """Worker wrapper for Texas retention schedules."""
-    retention_codes_path = Path("processing/resources/retention_codes.csv")
+    retention_codes_path = Path("processing/tx/resources/retentioncodes.csv")
     try:
         records = process_texas_pdf(pdf_path, schema, retention_codes_path, agency_mapping)
         if records:
@@ -34,6 +34,5 @@ def run(args, output_schema: dict):
         args, 
         texas_config, 
         output_schema, 
-        worker_func=tx_worker,
-        agency_mapping=agency_mapping
+        worker_func=tx_worker
     )

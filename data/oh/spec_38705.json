@@ -14,14 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
+      "trigger_event": "Electronic: transactional data from all modules, and any other system records, EDW. system logs in SI from date information was logged",
       "duration_years": null,
       "duration_months": 13,
-      "disposition": "Electronic: Transfer transactional data from all modules, and any other system records, to EDW. Retain system logs in SI for 13 months from the date the information was logged, then destroy., Electronic: Erase",
+      "disposition_method": "Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-31",
       "last_updated_by_state": "2024-12-04",
       "next_update_due": null,
       "comments": null

@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Electronic: SOP has been archived. ; Paper: SOP has been archived",
       "duration_years": 7,
       "duration_months": null,
-      "disposition": "Electronic: Destroy 7 years after the SOP has been archived. ; Paper: Destroy 7 years after the SOP has been archived., Electronic: Delete ; Paper: Shred",
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2017-04-08",
       "next_update_due": null,
       "comments": null

@@ -14,14 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
+      "trigger_event": "Electronic: from date of issuance",
       "duration_years": 5,
       "duration_months": null,
-      "disposition": "Electronic: Retain 5 years from date of issuance, then delete., Electronic: Delete",
+      "disposition_method": "Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-31",
       "last_updated_by_state": "2011-11-18",
       "next_update_due": null,
       "comments": null

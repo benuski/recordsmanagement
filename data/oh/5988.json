@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
+      "trigger_event": "Paper: AS/400 system documentation and training manuals in computer room determined be no longer of administrative value",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Paper: Retain the AS/400 system documentation and training manuals in the computer room until determined to be no longer of administrative value, then transfer to archives, Paper: Archives",
+      "disposition_method": "Paper: Archives",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2000-10-25",
       "next_update_due": null,
       "comments": null

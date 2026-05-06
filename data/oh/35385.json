@@ -11,17 +11,21 @@
       "series_id": "RCDS-3",
       "series_title": "Certificate of Compliance for BWC’s Records Retention Schedules",
       "series_description": "ORC 149.33 requires the BWC to annually file the Certificate of Compliance with DAS State Records Administrator. This certificate identifies the status of the BWC’s records program. Reference General DAS schedule GAR-RR-05.",
-      "legal_citation": "ORC 149.33"
+      "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CR",
+      "trigger_event": "Electronic: . ; Paper: or scanned",
       "duration_years": 5,
       "duration_months": null,
-      "disposition": "Electronic: Retain 5 years. ; Paper: Retain 5 years or until scanned, then destroy., Electronic: Delete ; Paper: Shred",
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2023-08-30",
       "next_update_due": null,
       "comments": null

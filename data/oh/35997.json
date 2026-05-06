@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Paper: Keep scanned on ODT Info Image Systemt. ; Electronic: Maintained via ODT Info Image System",
       "duration_years": 10,
       "duration_months": 6,
-      "disposition": "Paper: Keep for 6 months after scanned on ODT Info Image Systemt. ; Electronic: Maintained for 10 years via the ODT Info Image System, then erased., Paper: Shred ; Electronic: Erase",
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2019-02-14",
       "next_update_due": null,
       "comments": null

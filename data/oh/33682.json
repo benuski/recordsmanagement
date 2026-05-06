@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Electronic: One (1) year new backup is made",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Electronic: One (1) year after new backup is made., Electronic: Shred",
+      "disposition_method": "Electronic: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2016-08-10",
       "next_update_due": null,
       "comments": null

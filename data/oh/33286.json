@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Electronic: . ; Paper: scanned electronic database and checked accuracy within 90 days",
       "duration_years": 75,
       "duration_months": null,
-      "disposition": "Electronic: Retain for 75 years. ; Paper: Retain until scanned to electronic database and checked for accuracy within 90 days, then destroy. If the file is not scanned to electronic database, retain for 75 years or until two years after the death of the licensee, whichever is earlier., Electronic: Delete ; Paper: Shred",
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2021-12-06",
       "next_update_due": null,
       "comments": null

@@ -14,14 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Paper: scanned and verified as readable. ; Electronic: test date",
       "duration_years": 2,
       "duration_months": null,
-      "disposition": "Paper: Retain until scanned and verified as readable. ; Electronic: Retain for 2 years after the test date., Paper: Shred ; Electronic: Delete",
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-31",
       "last_updated_by_state": "2023-01-23",
       "next_update_due": null,
       "comments": null

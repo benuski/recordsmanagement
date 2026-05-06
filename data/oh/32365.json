@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Paper: converted machine-readable or one (1) year separation ; Electronic: one (1) year separation",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Paper: Retain until converted to machine-readable or for one (1) year after separation ; Electronic: Retain for one (1) year after separation., Paper: Shred ; Electronic: Erase",
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2014-05-28",
       "next_update_due": null,
       "comments": null

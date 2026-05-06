@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "FE",
+      "trigger_event": "Paper: current fiscal year ; Electronic: current fiscal year",
       "duration_years": 3,
-      "duration_months": 6,
-      "disposition": "Paper: 3 years plus current fiscal year, then destroy. If scanned, retain for 6 months. ; Electronic: 3 years plus current fiscal year, then delete., Paper: Shred ; Electronic: Delete",
+      "duration_months": null,
+      "disposition_method": "Paper: Shred ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2019-01-30",
       "next_update_due": null,
       "comments": null

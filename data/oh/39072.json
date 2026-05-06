@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Paper: Keep a minimum of unless in litigation with division. In this case, keep two years any administrative, civil, or criminal action is complete ; Electronic: Keep a minimum of unless in litigation with division. In this case, keep two years any administrative, civil, or criminal action is complete",
       "duration_years": 5,
       "duration_months": null,
-      "disposition": "Paper: Keep a minimum of 5 years unless in litigation with the division. In this case, keep for two years after any administrative, civil, or criminal action is complete then destroy. ; Electronic: Keep a minimum of 5 years unless in litigation with the division. In this case, keep for two years after any administrative, civil, or criminal action is complete then destroy., Paper: Wastepaper ; Electronic: Delete",
+      "disposition_method": "Paper: Wastepaper ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2021-09-20",
       "next_update_due": null,
       "comments": null

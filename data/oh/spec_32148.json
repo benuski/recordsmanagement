@@ -14,14 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Paper: creation or receipt ; Electronic: creation or receipt",
       "duration_years": 5,
       "duration_months": null,
-      "disposition": "Paper: 5 years after creation or receipt then reviewed by state archives for historical value. May be scanned upon receipt and kept as a machine readable copy. ; Electronic: 5 years after creation or receipt then reviewed by state archives for historical value., Paper: Recycle ; Electronic: Delete",
+      "disposition_method": "Paper: Recycle ; Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-31",
       "last_updated_by_state": "2014-05-28",
       "next_update_due": null,
       "comments": null

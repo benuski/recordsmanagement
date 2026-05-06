@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "PM",
+      "trigger_event": "Paper: copies reference in office five years from date conducted",
       "duration_years": 999,
       "duration_months": null,
-      "disposition": "Paper: Retain copies for reference in office for five years from date conducted, then destroy, retaining a single copy for permanent retention and transferring a single copy to Archives, Paper: Permanent",
+      "disposition_method": "Paper: Permanent",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "1977-11-04",
       "next_update_due": null,
       "comments": null

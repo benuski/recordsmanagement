@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
+      "trigger_event": "Electronic: life of private dock ; Paper: life of private dock",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Electronic: Retain for life of private dock, then destroy. ; Paper: Retain for life of private dock, then destroy. If paper records are scanned and stored in an electronic format, the paper copy may be destroyed at that time., Electronic: Delete ; Paper: Shred",
+      "disposition_method": "Electronic: Delete ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2023-09-18",
       "next_update_due": null,
       "comments": null

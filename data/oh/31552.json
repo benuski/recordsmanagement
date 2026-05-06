@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Paper: in office 3-6 monthsafter decision is made fill ornot fill a position, torecords center , thendestroy provided there is nolegal action pending. ; Electronic: in office no longerof administrative value, thendestroy",
       "duration_years": 7,
       "duration_months": 6,
-      "disposition": "Paper: Retain in office 3-6 monthsafter decision is made to fill ornot to fill a position, transfer torecords center for 7 years, thendestroy provided there is nolegal action pending. ; Electronic: Retain in office until no longerof administrative value, thendestroy., Paper: Shred ; Electronic: Erase",
+      "disposition_method": "Paper: Shred ; Electronic: Erase",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2024-01-24",
       "next_update_due": null,
       "comments": null

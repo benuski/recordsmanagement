@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "CE",
+      "trigger_event": "Electronic: remainder of calendar year in which form was submitted, three additional years",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Electronic: Retain for remainder of calendar year in which the form was submitted, plus three additional years., Electronic: Delete",
+      "disposition_method": "Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2022-10-27",
       "next_update_due": null,
       "comments": null

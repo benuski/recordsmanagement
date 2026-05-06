@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
+      "trigger_event": "Electronic: Records are be retained seven (7) years from date of entry and",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Electronic: Records are to be retained seven (7) years from the date of entry and then deleted., Electronic: Delete",
+      "disposition_method": "Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2018-06-21",
       "next_update_due": null,
       "comments": null

@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
+      "trigger_event": "Paper: Indefinitely reviewed by State Archives. If State Archives accepts, State Archives. ; Paper: If State Archives has reviewed and declined take possession, documents may be diposed of",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Paper: Indefinitely until reviewed by the State Archives. If the State Archives accepts, transfer to State Archives. ; Paper: If State Archives has reviewed and declined to take possession, the documents may be diposed of., Paper: Archives ; Paper: Shred",
+      "disposition_method": "Paper: Archives ; Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "2025-04-11",
       "next_update_due": null,
       "comments": null

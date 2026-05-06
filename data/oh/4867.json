@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
+      "trigger_event": "Paper: in active file length of employment of individual employee. Screen annually and when card date indicates employee has reached 71st birthday",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Paper: Retain in active file for length of employment of individual employee. Screen annually and destroy when card date indicates employee has reached 71st birthday., Paper: Wastepaper",
+      "disposition_method": "Paper: Wastepaper",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "1978-05-17",
       "next_update_due": null,
       "comments": null

@@ -14,14 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AV",
+      "trigger_event": "Electronic: one year from date of denial",
       "duration_years": null,
       "duration_months": null,
-      "disposition": "Electronic: Retain one year from the date of the denial, then delete., Electronic: Delete",
+      "disposition_method": "Electronic: Delete",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-31",
       "last_updated_by_state": "2019-12-19",
       "next_update_due": null,
       "comments": null

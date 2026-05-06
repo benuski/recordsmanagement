@@ -14,14 +14,18 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Paper: Maintain in office close of family medical record",
       "duration_years": 3,
       "duration_months": null,
-      "disposition": "Paper: Maintain in office 3 years after the close of the family medical record, then file both copies in patient records within the family chart., Paper: Burn",
+      "disposition_method": "Paper: Burn",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+<<<<<<< HEAD
+      "last_checked": "2026-03-30",
+=======
+      "last_checked": "2026-03-31",
+>>>>>>> dev
       "last_updated_by_state": "1992-06-23",
       "next_update_due": null,
       "comments": null

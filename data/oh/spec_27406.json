@@ -14,14 +14,14 @@
       "legal_citation": null
     },
     "retention_rules": {
-      "trigger_event": "AC",
+      "trigger_event": "Paper: asset is sold or sent State Salvage",
       "duration_years": 2,
       "duration_months": null,
-      "disposition": "Paper: Retain 2 years after asset is sold or sent to State Salvage, then destroy., Paper: Shred",
+      "disposition_method": "Paper: Shred",
       "confidential_flag": false
     },
     "tracking_data": {
-      "last_checked": "2026-04-03",
+      "last_checked": "2026-03-31",
       "last_updated_by_state": "2009-04-07",
       "next_update_due": null,
       "comments": null
